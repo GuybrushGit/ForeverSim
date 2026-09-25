@@ -1,0 +1,77 @@
+.sim-spreadsheet-header {
+	width: 100%;
+	position: relative;
+	background: $background-blue2;
+	border-bottom: 1px solid $border-color;
+	.sim-icon {
+		cursor: pointer;
+	}
+	.title {
+		text-transform: capitalize;
+		position: absolute;
+		bottom: 16px;
+		left: 20px;
+		font-weight: bold;
+		font-family: $title-font;
+		font-size: 19px;
+		font-weight: 600;
+		letter-spacing: 0.02em;
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+	}
+	.sim-icon.child {
+		margin: 3px;
+		right: 0;
+		bottom: 0;
+		transition: none;
+		& + .sim-icon.child {
+			display: none;
+			&:before {
+				bottom: -56px;
+			}
+		}
+	}
+	.sim-icon.selected {
+		&:before {
+			content: '';
+			display: block;
+			width: 0px;
+			height: 0px;
+			position: absolute;
+			left: calc(50% - 9px);
+			bottom: -30px;
+			border-left: 9px solid transparent;
+			border-right: 9px solid transparent;
+			border-bottom: 9px solid #7c8e9b;
+		}
+	}
+	.icon-container {
+		position: relative;
+		display: flex;
+		align-items: flex-end;
+		&:nth-child(4),
+		&:nth-child(14) {
+			margin-right: 16px;
+		}
+		&.selected {
+			.sim-icon.child {
+				position: relative;
+				bottom: auto;
+				right: auto;
+				margin: 3px;
+				margin-right: 8px;
+				& + .sim-icon.child {
+					display: block;
+					position: absolute;
+					top: -6px;
+					right: 0;
+					margin-right: 8px;
+				}
+			}
+		}
+	}
+}

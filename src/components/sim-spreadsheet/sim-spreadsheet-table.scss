@@ -1,0 +1,166 @@
+.sim-spreadsheet-table {
+	width: 100%;
+	position: relative;
+	.container {
+		width: 100%;
+		height: calc(100vh - 182px);
+		&.dashboard {
+			height: calc(100vh - 160px);
+		}
+	}
+	.ag-column-first {
+		overflow: visible;
+		padding-left: 16px;
+	}
+	.ag-floating-top {
+		border-bottom: 2px solid $border-color-light;
+	}
+	.ag-row-pinned.ag-row-selected:before {
+		display: none;
+	}
+	.ag-has-top-pinned-rows .ag-grid-pinned-top-rows {
+		border-bottom: 1px solid;
+	}
+	.wh-tooltip {
+		width: calc(100vw - 300px);
+		height: calc(100% + 4px);
+		display: block;
+		position: absolute;
+		left: 60px;
+		top: -2px;
+		z-index: 1;
+	}
+	.buttons {
+		width: 100%;
+		padding: 8px;
+		display: flex;
+		gap: 8px;
+		input {
+			width: 100%;
+			height: 30px;
+			border: 1px solid $border-color;
+			background: $background-dark;
+			border-radius: $border-radius;
+			padding: 0 8px;
+		}
+		button {
+			font-size: 12px;
+			text-align: center;
+			border: 1px solid $border-color;
+			white-space: nowrap;
+			padding: 4px 12px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 6px;
+		}
+	}
+	.filters-bar {
+		width: 100%;
+		min-height: 32px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		padding: 0 8px 6px;
+		.empty {
+			font-size: 12px;
+			color: $light-grey;
+			padding: 4px 0;
+		}
+		.filter {
+			font-size: 12px;
+			font-weight: 500;
+			border: 1px solid $border-color;
+			border-radius: 30px;
+			height: 24px;
+			padding: 0 10px;
+			display: flex;
+			justify-content: center;
+			gap: 8px;
+			align-items: center;
+			background: $background-card2;
+			button {
+				border: 0;
+				padding: 0;
+				color: inherit;
+				background: transparent;
+				cursor: pointer;
+			}
+		}
+	}
+	.filter-modal {
+		width: min(360px, 75vw);
+		display: grid;
+		gap: 12px;
+		h3 {
+			margin: 0 24px 4px 0;
+		}
+		label {
+			display: grid;
+			gap: 5px;
+			font-size: 12px;
+			color: $light-grey;
+		}
+		select,
+		input {
+			width: 100%;
+			height: 30px;
+			border: 1px solid $border-color;
+			border-radius: $border-radius;
+			padding: 0 8px;
+			background: $background-dark;
+			color: $white-copy;
+		}
+		.filter-modal-actions {
+			display: flex;
+			justify-content: flex-end;
+			gap: 8px;
+			margin-top: 4px;
+			button {
+				border: 1px solid $border-color;
+				padding: 5px 12px;
+				&.primary {
+					background: $dark-blue;
+				}
+				&:disabled {
+					cursor: not-allowed;
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+	.progress-bar {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 0;
+		border-bottom: 1px solid $border-color;
+		border-right: 1px solid $border-color;
+		width: 100%;
+		height: 40px;
+		background: $background-dark;
+		& > div {
+			width: 0;
+			height: 40px;
+			background: $dark-blue;
+			background: linear-gradient(90deg, rgba(193, 108, 64, 1), rgba(214, 162, 96, 1));
+		}
+	}
+	.cell-dps {
+		&.up {
+			color: #43c343;
+		}
+		&.down {
+			color: #cd6262;
+		}
+	}
+	.loader-container {
+		position: absolute;
+		z-index: 9999;
+		pointer-events: none;
+		display: none;
+	}
+	&.loading .loader-container {
+		display: flex;
+	}
+}

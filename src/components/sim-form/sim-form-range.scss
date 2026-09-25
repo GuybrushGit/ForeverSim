@@ -1,0 +1,40 @@
+.sim-form-range {
+	width: 100%;
+	border-bottom: 1px dotted $border-color;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: $input-padding;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+	p {
+		font-size: 12px;
+		padding-left: 10px;
+		margin: 0;
+		margin-right: auto;
+	}
+	input[type='range'] {
+		width: 140px;
+		accent-color: $light-blue;
+		height: 3px;
+
+		&::-webkit-slider-thumb {
+			border: 0;
+		}
+	}
+	input[type='number'] {
+		width: 40px;
+		font-size: 12px;
+		padding: 0 8px;
+		background: transparent;
+		color: $light-blue;
+		border-radius: 0;
+		border: 0;
+		text-align: right;
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+		}
+	}
+}

@@ -1,0 +1,121 @@
+.sim-dashboard-profiles {
+	width: 100%;
+	max-width: 390px;
+	margin: 24px auto;
+	.container {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		margin-bottom: 8px;
+		height: calc(100vh - 660px);
+		width: 410px;
+	}
+}
+
+.sim-dashboard-profiles-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 8px;
+	margin-bottom: 8px;
+
+	.section-title {
+		font-size: 11px;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: #d4b06a;
+	}
+}
+
+.sim-dashboard-profile {
+	width: 390px;
+	padding: 14px;
+	background: $background-card;
+	border-radius: 0;
+	border: 1px solid $border-color;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	&:hover {
+		border-color: $icon-border;
+		background: $background-card2;
+	}
+	&.selected {
+		border-color: $icon-border;
+	}
+	.buttons {
+		display: flex;
+		align-self: flex-end;
+		gap: 4px;
+		margin-top: -8px;
+		button p {
+			font-size: 12px;
+			font-weight: 500;
+		}
+	}
+	.name {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.level {
+		margin-top: 4px;
+		font-size: 12px;
+		color: $light-grey;
+	}
+	.talents {
+		margin-top: 4px;
+		font-size: 12px;
+		color: $light-grey;
+	}
+}
+
+.sim-share-modal {
+	display: flex;
+	gap: 12px;
+	min-width: min(420px, 70vw);
+	padding-top: 32px;
+
+	p {
+		margin: 0;
+	}
+
+	.sim-form-text {
+		padding: 0;
+		border: 0;
+	}
+
+	input {
+		width: 100%;
+		text-align: center;
+		padding: 8px;
+		background-color: $background-card2;
+	}
+
+	button {
+		align-self: center;
+		width: 120px;
+		justify-content: center;
+		padding-top: 2px;
+	}
+}
+
+.sim-share-loading {
+	align-items: center;
+	justify-content: center;
+	min-height: 72px;
+}
+
+.sim-share-spinner {
+	animation: sim-share-spin 0.8s linear infinite;
+}
+
+@keyframes sim-share-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}

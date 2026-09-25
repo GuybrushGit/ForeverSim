@@ -1,0 +1,19 @@
+.sim-dashboard-stats {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	letter-spacing: 0.2ch;
+	font-size: 12px;
+	div {
+		display: flex;
+		justify-content: space-between;
+		border-top: 1px solid $border-color;
+		padding: 5px 0;
+		&:first-child {
+			border-top: 0;
+		}
+	}
+	br + div {
+		border-top: 0;
+	}
+}

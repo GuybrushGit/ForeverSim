@@ -1,0 +1,39 @@
+.sim-rotation-condition {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	&:last-child {
+		.union {
+			display: none;
+		}
+	}
+	.union {
+		flex: 1 1 100%;
+		margin-left: 60px;
+		margin-top: 6px;
+		font-size: 9px;
+		cursor: pointer;
+		:not(.active) {
+			opacity: 0.5;
+		}
+	}
+	select,
+	input {
+		height: 22px;
+		font-size: 11px;
+		padding: 3px;
+		color: $light-grey;
+		border: 1px solid $border-color;
+		outline: none;
+		box-shadow: none;
+		background: $background-blue;
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+		}
+	}
+	input {
+		width: 40px;
+	}
+}

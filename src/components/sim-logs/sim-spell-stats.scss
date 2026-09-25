@@ -1,0 +1,238 @@
+.sim-spell-stats {
+	width: 50%;
+	height: 100%;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+	background: $background-card;
+	border-right: 1px solid $border-color;
+
+	.sim-spell-stats-wrapper {
+		flex: 1;
+		min-height: 0;
+		overflow: auto;
+	}
+
+	.section-title {
+		font-size: 11px;
+		line-height: 1.4;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: $light-grey;
+		margin-bottom: 10px;
+		color: #d4b06a;
+	}
+
+	.sim-overview-grid {
+		padding: 16px;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 12px;
+	}
+
+	.sim-spell-section {
+		padding: 16px;
+		border-top: 1px solid rgba(255, 255, 255, 0.08);
+	}
+
+	.stat-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 4px;
+		height: 74px;
+		padding: 16px 12px 12px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.06);
+		border-radius: $border-radius;
+		color: rgba(255, 255, 255, 0.88);
+	}
+
+	.stat-value {
+		font-size: 20px;
+		line-height: 1;
+		font-weight: 700;
+		font-family: $title-font;
+		color: $yellow-copy;
+	}
+
+	.stat-label {
+		font-size: 12px;
+		line-height: 1.3;
+		color: $light-grey;
+	}
+
+	.spell-row {
+		margin-bottom: 12px;
+	}
+
+	.spell-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		margin-bottom: 6px;
+		gap: 12px;
+	}
+
+	.spell-name {
+		font-size: 15px;
+		line-height: 1.2;
+		font-weight: 700;
+		color: $white-copy;
+	}
+
+	.spell-dps {
+		font-size: 12px;
+		line-height: 1.2;
+		font-weight: 600;
+		color: $yellow-copy;
+		margin-left: auto;
+		span {
+			font-size: 10px;
+		}
+	}
+
+	.spell-casts {
+		font-size: 12px;
+		line-height: 1.2;
+		font-weight: 500;
+		color: $white-copy;
+		margin-left: 0;
+		span {
+			font-size: 10px;
+		}
+	}
+
+	.spell-bar-wrap {
+		display: flex;
+		height: 10px;
+		width: 100%;
+		border-radius: 2px;
+		overflow: hidden;
+		background: rgba(255, 255, 255, 0.06);
+		border: 1px solid rgba(255, 255, 255, 0.06);
+	}
+
+	.hit-bar,
+	.crit-bar,
+	.miss-bar,
+	.block-bar,
+	.dodge-bar,
+	.parry-bar {
+		display: block;
+		height: 100%;
+	}
+
+	.normal-bar {
+		background: rgba(196, 156, 83, 0.95);
+	}
+
+	.crit-bar {
+		background: rgba(180, 40, 40, 0.8);
+	}
+
+	.miss-bar {
+		background: rgba(193, 193, 193, 0.8);
+	}
+
+	.block-bar {
+		background: rgba(39, 41, 143, 0.85);
+	}
+
+	.dodge-bar {
+		background: rgba(28, 212, 126, 0.8);
+	}
+
+	.parry-bar {
+		background: rgba(133, 41, 199, 0.8);
+	}
+
+	.glance-bar {
+		background: rgba(30, 36, 15, 0.8);
+	}
+
+	.crushing-bar {
+		background: rgba(238, 107, 102, 0.8);
+	}
+
+	.blockcrit-bar {
+		background: rgba(17, 0, 255, 0.8);
+	}
+
+	.blockcrit-bar {
+		background: rgba(17, 0, 255, 0.8);
+	}
+
+	.resist-bar {
+		background: rgba(177, 25, 177, 0.8);
+	}
+
+	.resistcrit-bar {
+		background: rgba(116, 95, 116, 0.8);
+	}
+
+	.legend {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px 12px;
+		margin-top: 8px;
+		font-size: 11px;
+		line-height: 10px;
+		color: $white-copy;
+	}
+
+	.legend-item {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		white-space: nowrap;
+
+		i {
+			display: inline-block;
+			width: 11px;
+			height: 11px;
+			background: rgba(255, 255, 255, 0.7);
+			border-radius: 2px;
+			position: relative;
+			top: 0;
+		}
+
+		&.normal i {
+			background: rgba(196, 156, 83, 0.95);
+		}
+		&.crit i {
+			background: rgba(180, 40, 40, 0.8);
+		}
+		&.miss i {
+			background: rgba(193, 193, 193, 0.8);
+		}
+		&.block i {
+			background: rgba(39, 41, 143, 0.85);
+		}
+		&.dodge i {
+			background: rgba(28, 212, 126, 0.8);
+		}
+		&.parry i {
+			background: rgba(133, 41, 199, 0.8);
+		}
+		&.glance i {
+			background: rgba(30, 36, 15, 0.8);
+		}
+		&.crushing i {
+			background: rgba(238, 107, 102, 0.8);
+		}
+		&.blockcrit i {
+			background: rgba(17, 0, 255, 0.8);
+		}
+		&.blockcrit i {
+			background: rgba(17, 0, 255, 0.8);
+		}
+		&.resist i {
+			background: rgba(177, 25, 177, 0.8);
+		}
+		&.resistcrit i {
+			background: rgba(116, 95, 116, 0.8);
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.sim-form-radio {
+	width: 100%;
+	border-bottom: 1px dotted $border-color;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	padding: $input-padding;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+	p {
+		font-size: 12px;
+		padding-left: 10px;
+		margin: 0;
+		margin-right: auto;
+	}
+}
+
+.sim-form-radio-field {
+	label {
+		padding: 6px 10px 4px;
+		display: block;
+		font-size: 11px;
+		background: #171717;
+		color: #fff;
+		border-radius: $border-radius;
+		border: 1px solid $border-color;
+		cursor: pointer;
+		&:hover {
+			border-color: $light-blue;
+			background: $dark-blue;
+		}
+	}
+	input {
+		display: none;
+	}
+	input:checked + label {
+		border-color: $light-blue;
+		background: $dark-blue;
+	}
+	input:checked + paper-button {
+		border-color: $light-blue;
+		background: $dark-blue;
+	}
+}

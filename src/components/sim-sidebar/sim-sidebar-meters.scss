@@ -1,0 +1,85 @@
+.sim-sidebar-meters {
+	margin-top: auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	font-weight: bold;
+	& > div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		&:has(p:empty) {
+			display: none;
+		}
+	}
+	p {
+		margin: 0;
+		&:empty {
+			display: none;
+			& + p {
+				display: none;
+			}
+		}
+	}
+	.label {
+		font-size: 13px;
+		color: #dfe7ee;
+		position: relative;
+		top: -2px;
+	}
+	.value {
+		font-size: 40px;
+		color: transparent;
+	}
+	.dps .value {
+		-webkit-text-stroke: 1px $light-blue;
+		text-shadow: 0 0 10px rgba(80, 165, 255, 0.25);
+	}
+	.dps .label {
+		color: rgba(102, 160, 221, 0.8);
+	}
+	.tps .value {
+		font-size: 30px;
+		-webkit-text-stroke: 1px rgba(202, 56, 37);
+		text-shadow: 0 0 10px rgba(202, 56, 37, 0.25);
+	}
+	.tps .label {
+		color: rgba(202, 56, 37, 0.8);
+	}
+	.dtps .value {
+		font-size: 30px;
+		-webkit-text-stroke: 1px rgb(159, 135, 189);
+		text-shadow: 0 0 10px rgba(159, 135, 189, 0.25);
+	}
+	.dtps .label {
+		color: rgba(159, 135, 189, 0.8);
+	}
+	.tmi .value {
+		font-size: 30px;
+		-webkit-text-stroke: 1px rgb(153, 180, 33);
+		text-shadow: 0 0 10px rgba(153, 180, 33, 0.25);
+	}
+	.tmi .label {
+		color: rgba(153, 180, 33, 0.8);
+	}
+	.time p {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	button {
+		margin: 0 auto;
+		width: 140px;
+		justify-content: center;
+		position: relative;
+		.progress {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			background: $light-blue;
+			opacity: 0.2;
+		}
+	}
+}

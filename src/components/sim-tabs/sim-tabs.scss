@@ -1,0 +1,19 @@
+.sim-tabs {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	border-bottom: 1px solid $border-color;
+}
+.sim-tabs-item {
+	button {
+		font-size: 12px;
+		padding: 0 12px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-bottom: 0;
+		font-family: $copy-font;
+		font-weight: 600;
+		font-size: 13.5px;
+		letter-spacing: 0.02em;
+	}
+}

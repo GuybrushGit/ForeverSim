@@ -1,0 +1,28 @@
+.sim-modal-backdrop {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 50;
+}
+
+.sim-modal {
+	position: relative;
+	background: $background-card;
+	box-shadow: 0 0 10px rgb(60 79 99);
+	border-radius: $border-radius;
+	padding: 16px;
+	max-width: min(90vw, 900px);
+	max-height: 90vh;
+	overflow: auto;
+}
+
+.sim-modal-close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	z-index: 1;
+	cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.sim-aura-uptime {
+	width: 300px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: $background-card;
+	border-right: 1px solid $border-color;
+
+	.sim-aura-uptime-section {
+		padding: 16px;
+	}
+
+	.section-title {
+		font-size: 11px;
+		line-height: 1.4;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		color: #d4b06a;
+	}
+
+	.sim-aura-uptime-wrapper {
+		height: calc(100vh - 49px);
+		overflow: auto;
+	}
+
+	.uptime-row {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+		margin-bottom: 12px;
+	}
+
+	.uptime-label-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 12px;
+		font-size: 13px;
+		color: $white-copy;
+	}
+
+	.uptime-value {
+		font-size: 11px;
+		color: $white-copy;
+		letter-spacing: 0.03em;
+	}
+
+	.uptime-bar-wrap {
+		height: 8px;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.06);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		border-radius: 2px;
+		overflow: hidden;
+	}
+
+	.uptime-bar {
+		display: block;
+		height: 100%;
+		border-radius: 1px;
+		background: linear-gradient(90deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.09));
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+
+		&.buff {
+			background: linear-gradient(90deg, rgba(94, 165, 94, 0.9), rgba(130, 198, 117, 0.7));
+		}
+
+		&.debuff {
+			background: linear-gradient(90deg, rgba(193, 108, 64, 0.9), rgba(214, 162, 96, 0.72));
+		}
+	}
+}

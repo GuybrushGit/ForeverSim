@@ -1,0 +1,33 @@
+.sim-form-dropdown {
+	width: 100%;
+	border-bottom: 1px dotted $border-color;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	padding: $input-padding;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+	p {
+		font-size: 12px;
+		padding-left: 10px;
+		margin: 0;
+		margin-right: auto;
+	}
+	select {
+		background: none;
+		border: 0;
+		color: $light-blue;
+		outline: none;
+		position: relative;
+		right: -6px;
+		min-width: 50px;
+		padding-right: 4px;
+		cursor: pointer;
+	}
+	option {
+		background: $background-dark;
+	}
+}
