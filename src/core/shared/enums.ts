@@ -463,6 +463,7 @@ export type SpellAttributesEx2 = (typeof SpellAttributesEx2)[keyof typeof SpellA
 
 export const SpellAttributesEx3 = Object.freeze({
 	SPELL_ATTR_EX3_BLOCKABLE_SPELL: 0x00000008,
+	SPELL_ATTR_EX3_REQUIRES_MAIN_HAND_WEAPON: 0x00000400,
 } as const);
 export type SpellAttributesEx3 = (typeof SpellAttributesEx3)[keyof typeof SpellAttributesEx3];
 

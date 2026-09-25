@@ -16,7 +16,7 @@ const router = createBrowserRouter(
 		<Route>
 			<Route path="/" element={<ClassicWarrior />} />
 			<Route path="/warrior" element={<ClassicWarrior />} />
-			<Route path="/warrior/share/:shareId" element={<ClassicWarrior />} />
+			<Route path="/share/:shareId" element={<ClassicWarrior />} />
 			{/* <Route path="/hunter" element={<ClassicHunter />} /> */}
 			<Route path="/items" element={<ItemGenerator />} />
 			<Route path="/spells" element={<SpellGenerator />} />

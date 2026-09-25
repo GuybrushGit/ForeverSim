@@ -14,6 +14,7 @@ import {
 	Targets,
 	WeaponType,
 	CombatResult,
+	SpellAttributesEx3,
 } from '@core/shared/enums';
 import type { Player, PlayerStats } from './player';
 import type { Simulation } from '@core/simulation';
@@ -489,15 +490,27 @@ export class Effect {
 						);
 						if (!spell.procMask) console.log('found no mask on ' + spell);
 					} else {
-						player.procs.push(
-							new ProcSpell(
-								procTriggerSpell,
-								spell.procMask || 0,
-								(spell.procChance || 0) * (player.traits[spell.id] || 1),
-								spell.procCooldown || 0,
-								spell.procExtra || 0,
-							),
-						);
+						if (player.mainhand && spell.attributesEx3 & SpellAttributesEx3.SPELL_ATTR_EX3_REQUIRES_MAIN_HAND_WEAPON) {
+							player.mainhand.procs.push(
+								new ProcSpell(
+									procTriggerSpell,
+									spell.procMask || 0,
+									(spell.procChance || 0) * (player.traits[spell.id] || 1),
+									spell.procCooldown || 0,
+									spell.procExtra || 0,
+								),
+							);
+						} else {
+							player.procs.push(
+								new ProcSpell(
+									procTriggerSpell,
+									spell.procMask || 0,
+									(spell.procChance || 0) * (player.traits[spell.id] || 1),
+									spell.procCooldown || 0,
+									spell.procExtra || 0,
+								),
+							);
+						}
 						if (!spell.procMask) console.log('found no mask on ' + spell);
 					}
 				}

@@ -110,7 +110,7 @@ export class ProcSpell {
 			return;
 		}
 
-		this.spell.cast(sim, undefined, target);
+		this.spell.cast(sim, undefined, target, weapon);
 		if (this.cooldown) sim.actionTimers.set(this.spell.id, sim.step);
 	}
 }

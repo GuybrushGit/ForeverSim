@@ -118,7 +118,7 @@ function SimDashboardProfiles() {
 		setShareError(false);
 		try {
 			const shareId = await createSharedProfile(profileList[profileId]);
-			const shareUrl = new URL(`/warrior/share/${shareId}`, window.location.origin);
+			const shareUrl = new URL(`/ForeverSim/share/${shareId}`, window.location.origin);
 			await navigator.clipboard.writeText(shareUrl.toString());
 			setShareLink(shareUrl.toString());
 		} catch (error) {

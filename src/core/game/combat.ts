@@ -322,7 +322,7 @@ export const Combat = {
 		sim.auras.forEach(aura => aura.triggerProc(sim, flag, result, dmg));
 
 		// talent procs
-		sim.player.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon));
+		sim.player.procs.forEach(proc => proc.trigger(sim, flag, result, target));
 
 		// temporary procs
 		sim.player_procs.forEach(proc => proc.trigger(sim, flag, result, target));
