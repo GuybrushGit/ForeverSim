@@ -20,7 +20,7 @@ export class SimulationWorkers {
 	constructor() {
 		this.maxWorkers = Math.min(MAX_WORKERS, navigator.hardwareConcurrency || MAX_WORKERS);
 		for (let i = 0; i < this.maxWorkers; i++) {
-			let worker = new Worker('/src/core/worker.ts', { type: 'module' });
+			let worker = new Worker(new URL('./worker.ts', import.meta.url), { type: 'module' });
 			worker.onerror = err => {
 				console.log(err);
 				worker.terminate();
