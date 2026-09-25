@@ -445,6 +445,7 @@ export type SpellFamily = (typeof SpellFamily)[keyof typeof SpellFamily];
 
 export const SpellAttributes = Object.freeze({
 	SPELL_ATTR_ON_NEXT_SWING: 0x00000004,
+	SPELL_ATTR_PASSIVE: 0x00000040,
 	SPELL_ATTR_IMPOSSIBLE_DODGE_PARRY_BLOCK: 0x00200000,
 } as const);
 export type SpellAttributes = (typeof SpellAttributes)[keyof typeof SpellAttributes];

@@ -188,7 +188,7 @@ export class Effect {
 				if (spell.id == 23894) return;
 				if (spell.id == 1310222) return;
 
-				console.log('dummy spell not implemented ', spell);
+				//console.log('dummy spell not implemented ', spell);
 				break;
 			}
 			case EffectType.ScriptEffect: {
@@ -196,7 +196,7 @@ export class Effect {
 				if (spell.id == 17512) return;
 				if (spell.id == 707) return;
 
-				console.log('script effect not implemented ', spell);
+				//console.log('script effect not implemented ', spell);
 				break;
 			}
 			case EffectType.Threat: {
@@ -745,7 +745,7 @@ export class Effect {
 				if (spell.id == 24658) return;
 				if (spell.id == 1259813) return;
 
-				console.log('dummy aura not implemented', this, spell);
+				//console.log('dummy aura not implemented', this, spell);
 				break;
 			case AuraType.AddFlatModifier:
 			case AuraType.AddPctModifier:
@@ -822,7 +822,7 @@ export class Effect {
 					let dmg = sim.aux[spell.id];
 					sim.addEvent(EventType.AuraTick, dmg, dmg * sim.final_stats.threat_mod, undefined, spell);
 				} else {
-					console.log('dummy aura not implemented', this);
+					//console.log('dummy aura not implemented', this);
 				}
 				break;
 			case AuraType.ObsModHealth:

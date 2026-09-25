@@ -110,7 +110,7 @@ export default function SimRotation() {
 								{actions.map((action: any, index: number) => {
 									if (action.phase !== undefined && phase != action.phase) return;
 									return (
-										<Draggable key={action.id} draggableId={'id' + action.id.toString()} index={index}>
+										<Draggable key={action.id + '_' + index} draggableId={'id' + action.id.toString()} index={index}>
 											{provided => (
 												<li ref={provided.innerRef} {...provided.dragHandleProps} {...provided.draggableProps}>
 													<SimRotationAction action={action} updateActions={updateActions} removeAction={removeAction}></SimRotationAction>

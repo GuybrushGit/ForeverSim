@@ -58,7 +58,7 @@ export const Combat = {
 				? Combat.rollMeleeSpellBack(sim, spell, wep, target.index, action)
 				: Combat.rollMeleeSpellFront(sim, spell, wep, target.index, action);
 		let procFlag = ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SPELL_HIT as ProcFlags;
-		if (action instanceof NextSwingAction) procFlag |= ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SWING_HIT;
+		if (spell.attributes & SpellAttributes.SPELL_ATTR_ON_NEXT_SWING) procFlag |= ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SWING_HIT;
 
 		let dmg = 0;
 		let fullyBlocked = spell.attributesEx3 & SpellAttributesEx3.SPELL_ATTR_EX3_BLOCKABLE_SPELL;
@@ -325,7 +325,7 @@ export const Combat = {
 		sim.player.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon));
 
 		// temporary procs
-		sim.player_procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon));
+		sim.player_procs.forEach(proc => proc.trigger(sim, flag, result, target));
 	},
 
 	parryHaste(sim: Simulation, flag: number, target: Target) {

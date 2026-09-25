@@ -138,8 +138,6 @@ export class Spell {
 
 /********************************  TODO LIST  *************************
  *
-  double flurry
- * 
  * 
 	item sets
 	crit caps
@@ -147,8 +145,7 @@ export class Spell {
  * low prio stuff
  * target creature types (troll racial too)
  * add spelldmg to items
- * def stance devastate bonus
- * presets
+ * more presets
  * model
  * logo
  * life giving gem
