@@ -9,7 +9,6 @@ const ItemGenerator = React.lazy(() => import('./generators/ItemGenerator.tsx'))
 const EnchantGenerator = React.lazy(() => import('./generators/EnchantGenerator.tsx'));
 const ItemSetGenerator = React.lazy(() => import('./generators/ItemSetGenerator.tsx'));
 const ClassicWarrior = React.lazy(() => import('./modules/warrior/App.tsx'));
-// const ClassicHunter = React.lazy(() => import('./modules/hunter/App.tsx'));
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -17,7 +16,6 @@ const router = createBrowserRouter(
 			<Route path="/" element={<ClassicWarrior />} />
 			<Route path="/warrior" element={<ClassicWarrior />} />
 			<Route path="/share/:shareId" element={<ClassicWarrior />} />
-			{/* <Route path="/hunter" element={<ClassicHunter />} /> */}
 			<Route path="/items" element={<ItemGenerator />} />
 			<Route path="/spells" element={<SpellGenerator />} />
 			<Route path="/enchants" element={<EnchantGenerator />} />

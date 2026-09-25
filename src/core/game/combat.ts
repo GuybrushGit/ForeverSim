@@ -14,7 +14,7 @@ import {
 	SpellSchool,
 } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
-import { ExecuteAction, NextSwingAction, type Action } from '@core/game/action';
+import { ExecuteAction, type Action } from '@core/game/action';
 import type { Spell } from './spell';
 import type { Target } from './target';
 
