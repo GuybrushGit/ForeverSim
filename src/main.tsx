@@ -24,6 +24,7 @@ const router = createBrowserRouter(
 			<Route path="/sets" element={<ItemSetGenerator />} />
 		</Route>,
 	),
+	{ basename: import.meta.env.BASE_URL },
 );
 
 function Loading() {
