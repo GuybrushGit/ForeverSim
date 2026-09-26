@@ -4263,7 +4263,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "schoolMask": 1,
     "attributes": 262336,
     "procChance": 100,
-    "procMask": 87380,
+    "procMask": 20,
     "path": "ability_ghoulfrenzy",
     "baseLevel": 1,
     "effects": [
@@ -5518,6 +5518,35 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 40,
         "amplitude": 1,
         "target": 21
+      })
+    ]
+  }),
+  "16353": new Spell({
+    "id": 16353,
+    "name": "Frostbrand Attack",
+    "schoolMask": 16,
+    "attributesEx": 136,
+    "attributesEx2": 16777216,
+    "classMask": 16777216,
+    "classSet": 11,
+    "duration": 8000,
+    "path": "spell_frost_frostbrand",
+    "baseLevel": 58,
+    "maxLevel": 66,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": -25,
+        "amplitude": 1,
+        "target": 6
+      }),
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 158,
+        "pointsPerLevel": 5.6,
+        "amplitude": 1,
+        "target": 6
       })
     ]
   }),
@@ -11671,6 +11700,52 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 6
+      })
+    ]
+  }),
+  "1231124": new Spell({
+    "id": 1231124,
+    "name": "Righteous Strength",
+    "schoolMask": 2,
+    "duration": 20000,
+    "path": "spell_holy_weaponmastery",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 120,
+        "amplitude": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 400,
+        "variance": 0.25,
+        "amplitude": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "1232169": new Spell({
+    "id": 1232169,
+    "name": "Righteous Inquisition",
+    "schoolMask": 2,
+    "duration": 20000,
+    "path": "ability_paladin_artofwar",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 200,
+        "amplitude": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 400,
+        "variance": 0.25,
+        "amplitude": 1,
+        "target": 1
       })
     ]
   }),

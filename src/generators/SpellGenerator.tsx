@@ -8,7 +8,7 @@ import templateTalents from '@modules/warrior/talents';
 import templateBuffs from '@modules/warrior/buffs';
 import templateAbilities from '@modules/warrior/abilities';
 
-import { AuraType, ClassFlag, CombatResult, EffectType, GetAuraType, GetEffectType, SpellAttributes } from '@core/shared/enums';
+import { AuraType, ClassFlag, CombatResult, EffectType, GetAuraType, GetEffectType, ProcFlags, SpellAttributes } from '@core/shared/enums';
 
 function Loading() {
 	return (
@@ -275,6 +275,7 @@ export default function SpellGenerator() {
 		// }
 		// Flurry
 		if (spell.name == 'Flurry' && spell.attributes == 262336) {
+			spell.procMask = ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_HIT | ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SPELL_HIT;
 			spell.procExtra = (1 << CombatResult.Crit) | (1 << CombatResult.BlockCrit);
 		}
 

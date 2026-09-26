@@ -128,13 +128,13 @@ export class Spell {
 		if (this.selfTarget) this.applyEffects(sim, undefined, action, weapon);
 		else if (this.schoolMask & SchoolMask.Physical) {
 			// Melee spells
-			if (target) return Combat.meleeSpellOutgoing(sim, this, sim.targets[target.index], action);
+			//if (target) return Combat.meleeSpellOutgoing(sim, this, sim.targets[target.index], action);
 			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) {
 				Combat.meleeSpellOutgoing(sim, this, sim.targets[i], action);
 			}
 		} else {
 			// Magic spells
-			if (target) return Combat.magicSpellOutgoing(sim, this, sim.targets[target.index]);
+			//if (target) return Combat.magicSpellOutgoing(sim, this, sim.targets[target.index]);
 			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) Combat.magicSpellOutgoing(sim, this, sim.targets[i]);
 		}
 	}
@@ -142,15 +142,13 @@ export class Spell {
 
 /********************************  TODO LIST  *************************
  *
- * go over flurry logs
- * new enchants https://github.com/tzcnt/WarriorSim/commit/4e6552d4082a3f52e034dcc200521ef918c8e09c
- * check all items and trinkets
  * 
- * procs on multi target attacks
- * https://cdn.discordapp.com/attachments/1550581747274747935/1553405229960134696/image.png?ex=6ab920db&is=6ab7cf5b&hm=8f0c8ffe6a8b3e215374e3302cfe7e58b780d05484181689fcf97e5262c1820f
  * 
+ * procs on multi target attacks / windfury
+ *  
 	item sets
 	crit caps
+	check all items and trinkets and enchats
  *
  * low prio stuff
  * target creature types (troll racial too)

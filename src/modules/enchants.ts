@@ -1,4 +1,1396 @@
 const templateEnchants = {
+  "chest_enchant": [
+    {
+      "id": 2832,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 2833,
+      "name": "Heavy Armor Kit",
+      "enchant": 8484
+    },
+    {
+      "id": 2831,
+      "name": "\"Armor +8 Stamina +1\"",
+      "enchant": 15
+    },
+    {
+      "id": 7451,
+      "name": "Imbue Chest - Minor Spirit",
+      "enchant": 64,
+      "stats": {
+        "spi": 3
+      }
+    },
+    {
+      "id": 7776,
+      "name": "Enchant Chest - Lesser Intellect",
+      "enchant": 246,
+      "stats": {
+        "int": 3
+      }
+    },
+    {
+      "id": 7748,
+      "name": "Enchant Chest - Lesser Stamina",
+      "enchant": 242,
+      "stats": {
+        "sta": 3
+      }
+    },
+    {
+      "id": 7420,
+      "name": "Enchant Chest - Inferior Stamina",
+      "enchant": 41,
+      "stats": {
+        "sta": 2
+      }
+    },
+    {
+      "id": 7857,
+      "name": "Enchant Chest - Stamina",
+      "enchant": 254,
+      "stats": {
+        "sta": 4
+      }
+    },
+    {
+      "id": 7853,
+      "name": "Imbue Chest - Lesser Spirit",
+      "enchant": 252,
+      "stats": {
+        "spi": 6
+      }
+    },
+    {
+      "id": 7443,
+      "name": "Enchant Chest - Minor Intellect",
+      "enchant": 24,
+      "stats": {
+        "int": 2
+      }
+    },
+    {
+      "id": 10344,
+      "name": "Thick Armor Kit",
+      "enchant": 8487
+    },
+    {
+      "id": 13607,
+      "name": "Enchant Chest - Intellect",
+      "enchant": 843,
+      "stats": {
+        "int": 4
+      }
+    },
+    {
+      "id": 13941,
+      "name": "Enchant Chest - Stats",
+      "enchant": 928,
+      "stats": {
+        "str": 3,
+        "agi": 3,
+        "sta": 3,
+        "int": 3,
+        "spi": 3
+      }
+    },
+    {
+      "id": 13626,
+      "name": "Enchant Chest - Minor Stats",
+      "enchant": 847,
+      "stats": {
+        "str": 2,
+        "agi": 2,
+        "sta": 2,
+        "int": 2,
+        "spi": 2
+      }
+    },
+    {
+      "id": 13663,
+      "name": "Enchant Chest - Greater Intellect",
+      "enchant": 857,
+      "stats": {
+        "int": 6
+      }
+    },
+    {
+      "id": 13700,
+      "name": "Enchant Chest - Lesser Stats",
+      "enchant": 866,
+      "stats": {
+        "str": 2,
+        "agi": 2,
+        "sta": 2,
+        "int": 2,
+        "spi": 2
+      }
+    },
+    {
+      "id": 13917,
+      "name": "Enchant Chest - Superior Intellect",
+      "enchant": 913,
+      "stats": {
+        "int": 8
+      }
+    },
+    {
+      "id": 13640,
+      "name": "Enchant Chest - Greater Stamina",
+      "enchant": 850,
+      "stats": {
+        "sta": 6
+      }
+    },
+    {
+      "id": 13858,
+      "name": "Enchant Chest - Superior Stamina",
+      "enchant": 908,
+      "stats": {
+        "sta": 8
+      }
+    },
+    {
+      "id": 20026,
+      "name": "Enchant Chest - Major Stamina",
+      "enchant": 1892,
+      "stats": {}
+    },
+    {
+      "id": 20028,
+      "name": "Enchant Chest - Major Intellect",
+      "enchant": 1893,
+      "stats": {
+        "int": 10
+      }
+    },
+    {
+      "id": 20025,
+      "name": "Enchant Chest - Greater Stats",
+      "enchant": 1891,
+      "stats": {
+        "str": 4,
+        "agi": 4,
+        "sta": 4,
+        "int": 4,
+        "spi": 4
+      }
+    },
+    {
+      "id": 19057,
+      "name": "Rugged Armor Kit",
+      "enchant": 8490
+    },
+    {
+      "id": 22725,
+      "name": "Core Armor Kit",
+      "enchant": 2503,
+      "stats": {}
+    },
+    {
+      "id": 1213616,
+      "name": "Enchant Chest - Living Stats",
+      "enchant": 7645,
+      "stats": {
+        "str": 4,
+        "agi": 4,
+        "sta": 4,
+        "int": 4,
+        "spi": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1254738,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 1254740,
+      "name": "\"Armor +16 Attack Power +4\"",
+      "enchant": 8483
+    },
+    {
+      "id": 1254742,
+      "name": "\"Armor +16 Spell Power +2\"",
+      "enchant": 8482
+    },
+    {
+      "id": 1254747,
+      "name": "\"Armor +24 Stamina +3\"",
+      "enchant": 8484
+    },
+    {
+      "id": 1254748,
+      "name": "Forceful Heavy Armor Kit",
+      "enchant": 8486
+    },
+    {
+      "id": 1254750,
+      "name": "Mystic Heavy Armor Kit",
+      "enchant": 8485
+    },
+    {
+      "id": 1254766,
+      "name": "\"Armor +32 Stamina +4\"",
+      "enchant": 8487
+    },
+    {
+      "id": 1254767,
+      "name": "Mystic Thick Armor Kit",
+      "enchant": 8489
+    },
+    {
+      "id": 1254768,
+      "name": "Forceful Thick Armor Kit",
+      "enchant": 8488
+    },
+    {
+      "id": 1254770,
+      "name": "Mystic Rugged Armor Kit",
+      "enchant": 8492
+    },
+    {
+      "id": 1254771,
+      "name": "\"Armor +40 Stamina +5\"",
+      "enchant": 8490
+    },
+    {
+      "id": 1254772,
+      "name": "Forceful Rugged Armor Kit",
+      "enchant": 8491
+    },
+    {
+      "id": 1306907,
+      "name": "Wild Leather Armor Kit",
+      "enchant": 8719,
+      "stats": {}
+    }
+  ],
+  "legs_enchant": [
+    {
+      "id": 2832,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 2833,
+      "name": "Heavy Armor Kit",
+      "enchant": 8484
+    },
+    {
+      "id": 2831,
+      "name": "\"Armor +8 Stamina +1\"",
+      "enchant": 15
+    },
+    {
+      "id": 10344,
+      "name": "Thick Armor Kit",
+      "enchant": 8487
+    },
+    {
+      "id": 15402,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1508,
+      "stats": {
+        "agi": 8
+      }
+    },
+    {
+      "id": 15397,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1506,
+      "stats": {
+        "str": 8
+      }
+    },
+    {
+      "id": 15400,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1507,
+      "stats": {
+        "sta": 8
+      }
+    },
+    {
+      "id": 15394,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1505,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15463,
+      "name": "Legendary Arcane Amalgamation",
+      "enchant": 1532,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15439,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1525,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15391,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1504,
+      "stats": {
+        "resistance": [
+          0,
+          125,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15444,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1527,
+      "stats": {
+        "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15427,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1523,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15458,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1530,
+      "stats": {
+        "spi": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15404,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1509,
+      "stats": {
+        "int": 8
+      }
+    },
+    {
+      "id": 15406,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1510,
+      "stats": {
+        "spi": 8
+      }
+    },
+    {
+      "id": 15441,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1526,
+      "stats": {
+        "str": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15389,
+      "name": "Lesser Arcane Amalgamation",
+      "enchant": 1503,
+      "stats": {
+        "health": 100
+      }
+    },
+    {
+      "id": 15446,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1528,
+      "stats": {
+        "agi": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15449,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1529,
+      "stats": {
+        "int": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 15490,
+      "name": "Legendary Arcane Amalgamation",
+      "enchant": 1543,
+      "stats": {
+        "int": 10,
+        "spi": 10
+      }
+    },
+    {
+      "id": 15429,
+      "name": "Greater Arcane Amalgamation",
+      "enchant": 1524,
+      "stats": {
+        "health": 75,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 19057,
+      "name": "Rugged Armor Kit",
+      "enchant": 8490
+    },
+    {
+      "id": 22846,
+      "name": "Arcanum of Protection",
+      "enchant": 2545,
+      "stats": {
+        "dodge": 1
+      }
+    },
+    {
+      "id": 24165,
+      "name": "Hoodoo Hex",
+      "enchant": 2589,
+      "stats": {
+        "sta": 10
+      }
+    },
+    {
+      "id": 22725,
+      "name": "Core Armor Kit",
+      "enchant": 2503,
+      "stats": {}
+    },
+    {
+      "id": 24161,
+      "name": "Death's Embrace",
+      "enchant": 2585,
+      "stats": {
+        "melee_ap": 28,
+        "ranged_ap": 28,
+        "dodge": 1
+      }
+    },
+    {
+      "id": 24162,
+      "name": "Falcon's Call",
+      "enchant": 2586,
+      "stats": {
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sta": 10
+      }
+    },
+    {
+      "id": 24163,
+      "name": "Vodouisant's Vigilant Embrace",
+      "enchant": 2587,
+      "stats": {
+        "int": 15
+      }
+    },
+    {
+      "id": 24160,
+      "name": "Syncretist's Sigil",
+      "enchant": 2584,
+      "stats": {
+        "sta": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 24167,
+      "name": "Prophetic Aura",
+      "enchant": 2590,
+      "stats": {
+        "sta": 10
+      }
+    },
+    {
+      "id": 24168,
+      "name": "Animist's Caress",
+      "enchant": 2591,
+      "stats": {
+        "sta": 10,
+        "int": 10
+      }
+    },
+    {
+      "id": 24149,
+      "name": "Presence of Might",
+      "enchant": 2583,
+      "stats": {
+        "sta": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 28163,
+      "name": "Ice Guard",
+      "enchant": 2682,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 28161,
+      "name": "Savage Guard",
+      "enchant": 2681,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 28165,
+      "name": "Shadow Guard",
+      "enchant": 2683,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468314,
+      "name": "Animist's Caress",
+      "enchant": 7613,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468318,
+      "name": "Animist's Balance",
+      "enchant": 7614,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468321,
+      "name": "Animist's Fury",
+      "enchant": 7615,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "agi": 10
+      }
+    },
+    {
+      "id": 468323,
+      "name": "Animist's Roar",
+      "enchant": 7616,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468325,
+      "name": "Falcon's Call",
+      "enchant": 7617,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468328,
+      "name": "Syncretist's Seal",
+      "enchant": 7618,
+      "stats": {
+        "sta": 20,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468330,
+      "name": "Syncretist's Sigil",
+      "enchant": 7619,
+      "stats": {
+        "sta": 20,
+        "str": 10
+      }
+    },
+    {
+      "id": 468332,
+      "name": "Syncretist's Crest",
+      "enchant": 7620,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468339,
+      "name": "Syncretist's Emblem",
+      "enchant": 7621,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468342,
+      "name": "Prophetic Aura",
+      "enchant": 7622,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468344,
+      "name": "Prophetic Curse",
+      "enchant": 7623,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468347,
+      "name": "Death's Embrace",
+      "enchant": 7624,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468349,
+      "name": "Death's Advance",
+      "enchant": 7625,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468351,
+      "name": "Vodouisant's Embrace",
+      "enchant": 7626,
+      "stats": {
+        "sta": 20,
+        "str": 10
+      }
+    },
+    {
+      "id": 468354,
+      "name": "Vodouisant's Shroud",
+      "enchant": 7627,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468359,
+      "name": "Vodouisant's Charm",
+      "enchant": 7628,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468362,
+      "name": "Vodouisant's Vigilance",
+      "enchant": 7629,
+      "stats": {
+        "sta": 20,
+        "defense": 7,
+        "block_chance": 2
+      }
+    },
+    {
+      "id": 468365,
+      "name": "Hoodoo Hex",
+      "enchant": 7630,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468368,
+      "name": "Hoodoo Curse",
+      "enchant": 7631,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "defense": 7
+      }
+    },
+    {
+      "id": 468373,
+      "name": "Presence of Might",
+      "enchant": 7632,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "agi": 10
+      }
+    },
+    {
+      "id": 468376,
+      "name": "Presence of Valor",
+      "enchant": 7633,
+      "stats": {
+        "sta": 20,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468380,
+      "name": "Presence of Sight",
+      "enchant": 7634,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468383,
+      "name": "Falcon's Fury",
+      "enchant": 7635,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "str": 10
+      }
+    },
+    {
+      "id": 1254738,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 1254740,
+      "name": "\"Armor +16 Attack Power +4\"",
+      "enchant": 8483
+    },
+    {
+      "id": 1254742,
+      "name": "\"Armor +16 Spell Power +2\"",
+      "enchant": 8482
+    },
+    {
+      "id": 1254747,
+      "name": "\"Armor +24 Stamina +3\"",
+      "enchant": 8484
+    },
+    {
+      "id": 1254748,
+      "name": "Forceful Heavy Armor Kit",
+      "enchant": 8486
+    },
+    {
+      "id": 1254750,
+      "name": "Mystic Heavy Armor Kit",
+      "enchant": 8485
+    },
+    {
+      "id": 1254766,
+      "name": "\"Armor +32 Stamina +4\"",
+      "enchant": 8487
+    },
+    {
+      "id": 1254767,
+      "name": "Mystic Thick Armor Kit",
+      "enchant": 8489
+    },
+    {
+      "id": 1254768,
+      "name": "Forceful Thick Armor Kit",
+      "enchant": 8488
+    },
+    {
+      "id": 1254770,
+      "name": "Mystic Rugged Armor Kit",
+      "enchant": 8492
+    },
+    {
+      "id": 1254771,
+      "name": "\"Armor +40 Stamina +5\"",
+      "enchant": 8490
+    },
+    {
+      "id": 1254772,
+      "name": "Forceful Rugged Armor Kit",
+      "enchant": 8491
+    },
+    {
+      "id": 1306907,
+      "name": "Wild Leather Armor Kit",
+      "enchant": 8719,
+      "stats": {}
+    }
+  ],
+  "feet_enchant": [
+    {
+      "id": 2832,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 2833,
+      "name": "Heavy Armor Kit",
+      "enchant": 8484
+    },
+    {
+      "id": 2831,
+      "name": "\"Armor +8 Stamina +1\"",
+      "enchant": 15
+    },
+    {
+      "id": 7863,
+      "name": "Enchant Boots - Minor Stamina",
+      "enchant": 66,
+      "stats": {
+        "sta": 3
+      }
+    },
+    {
+      "id": 7867,
+      "name": "Enchant Boots - Minor Agility",
+      "enchant": 247,
+      "stats": {
+        "agi": 3
+      }
+    },
+    {
+      "id": 10344,
+      "name": "Thick Armor Kit",
+      "enchant": 8487
+    },
+    {
+      "id": 13935,
+      "name": "Enchant Boots - Agility",
+      "enchant": 904,
+      "stats": {
+        "agi": 5
+      }
+    },
+    {
+      "id": 13836,
+      "name": "Enchant Boots - Stamina",
+      "enchant": 852,
+      "stats": {
+        "sta": 5
+      }
+    },
+    {
+      "id": 13687,
+      "name": "Enchant Boots - Lesser Spirit",
+      "enchant": 8203,
+      "stats": {}
+    },
+    {
+      "id": 13637,
+      "name": "Enchant Boots - Lesser Agility",
+      "enchant": 8204,
+      "stats": {
+        "int": 4
+      }
+    },
+    {
+      "id": 13644,
+      "name": "Enchant Boots - Lesser Stamina",
+      "enchant": 254,
+      "stats": {
+        "sta": 4
+      }
+    },
+    {
+      "id": 20023,
+      "name": "Enchant Boots - Greater Agility",
+      "enchant": 1887,
+      "stats": {
+        "agi": 7
+      }
+    },
+    {
+      "id": 20024,
+      "name": "Enchant Boots - Spirit",
+      "enchant": 851,
+      "stats": {
+        "spi": 5
+      }
+    },
+    {
+      "id": 19057,
+      "name": "Rugged Armor Kit",
+      "enchant": 8490
+    },
+    {
+      "id": 20020,
+      "name": "Enchant Boots - Greater Stamina",
+      "enchant": 929,
+      "stats": {
+        "sta": 7
+      }
+    },
+    {
+      "id": 22725,
+      "name": "Core Armor Kit",
+      "enchant": 2503,
+      "stats": {}
+    },
+    {
+      "id": 1254738,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 1254740,
+      "name": "\"Armor +16 Attack Power +4\"",
+      "enchant": 8483
+    },
+    {
+      "id": 1254742,
+      "name": "\"Armor +16 Spell Power +2\"",
+      "enchant": 8482
+    },
+    {
+      "id": 1254747,
+      "name": "\"Armor +24 Stamina +3\"",
+      "enchant": 8484
+    },
+    {
+      "id": 1254748,
+      "name": "Forceful Heavy Armor Kit",
+      "enchant": 8486
+    },
+    {
+      "id": 1254750,
+      "name": "Mystic Heavy Armor Kit",
+      "enchant": 8485
+    },
+    {
+      "id": 1254766,
+      "name": "\"Armor +32 Stamina +4\"",
+      "enchant": 8487
+    },
+    {
+      "id": 1254767,
+      "name": "Mystic Thick Armor Kit",
+      "enchant": 8489
+    },
+    {
+      "id": 1254768,
+      "name": "Forceful Thick Armor Kit",
+      "enchant": 8488
+    },
+    {
+      "id": 1254770,
+      "name": "Mystic Rugged Armor Kit",
+      "enchant": 8492
+    },
+    {
+      "id": 1254771,
+      "name": "\"Armor +40 Stamina +5\"",
+      "enchant": 8490
+    },
+    {
+      "id": 1254772,
+      "name": "Forceful Rugged Armor Kit",
+      "enchant": 8491
+    },
+    {
+      "id": 1306907,
+      "name": "Wild Leather Armor Kit",
+      "enchant": 8719,
+      "stats": {}
+    }
+  ],
+  "hands_enchant": [
+    {
+      "id": 2832,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 2833,
+      "name": "Heavy Armor Kit",
+      "enchant": 8484
+    },
+    {
+      "id": 2831,
+      "name": "\"Armor +8 Stamina +1\"",
+      "enchant": 15
+    },
+    {
+      "id": 10344,
+      "name": "Thick Armor Kit",
+      "enchant": 8487
+    },
+    {
+      "id": 13887,
+      "name": "Enchant Gloves - Strength",
+      "enchant": 927,
+      "stats": {
+        "str": 7
+      }
+    },
+    {
+      "id": 13815,
+      "name": "Enchant Gloves - Agility",
+      "enchant": 1887,
+      "stats": {
+        "agi": 7
+      }
+    },
+    {
+      "id": 20013,
+      "name": "Enchant Gloves - Greater Strength",
+      "enchant": 8207,
+      "stats": {
+        "spi": 10
+      }
+    },
+    {
+      "id": 20012,
+      "name": "Enchant Gloves - Greater Agility",
+      "enchant": 8206,
+      "stats": {
+        "int": 10
+      }
+    },
+    {
+      "id": 19057,
+      "name": "Rugged Armor Kit",
+      "enchant": 8490
+    },
+    {
+      "id": 22725,
+      "name": "Core Armor Kit",
+      "enchant": 2503,
+      "stats": {}
+    },
+    {
+      "id": 25080,
+      "name": "Enchant Gloves - Superior Agility",
+      "enchant": 2564,
+      "stats": {
+        "agi": 15
+      }
+    },
+    {
+      "id": 25072,
+      "name": "Enchant Gloves - Threat",
+      "enchant": 2613,
+      "stats": {
+        "threat_mod": 2
+      }
+    },
+    {
+      "id": 1213622,
+      "name": "Enchant Gloves - Holy Power",
+      "enchant": 7646,
+      "stats": {}
+    },
+    {
+      "id": 1213626,
+      "name": "Enchant Gloves - Arcane Power",
+      "enchant": 7647,
+      "stats": {}
+    },
+    {
+      "id": 1248528,
+      "name": "Enchant Gloves - Advanced Skinning",
+      "enchant": 8210,
+      "stats": {}
+    },
+    {
+      "id": 1248640,
+      "name": "Enchant Gloves - Superior Strength",
+      "enchant": 2563,
+      "stats": {
+        "str": 15
+      }
+    },
+    {
+      "id": 1248645,
+      "name": "Enchant Gloves - Natural Power",
+      "enchant": 8213,
+      "stats": {}
+    },
+    {
+      "id": 1254738,
+      "name": "\"Armor +16 Stamina +2\"",
+      "enchant": 8481
+    },
+    {
+      "id": 1254740,
+      "name": "\"Armor +16 Attack Power +4\"",
+      "enchant": 8483
+    },
+    {
+      "id": 1254742,
+      "name": "\"Armor +16 Spell Power +2\"",
+      "enchant": 8482
+    },
+    {
+      "id": 1254747,
+      "name": "\"Armor +24 Stamina +3\"",
+      "enchant": 8484
+    },
+    {
+      "id": 1254748,
+      "name": "Forceful Heavy Armor Kit",
+      "enchant": 8486
+    },
+    {
+      "id": 1254750,
+      "name": "Mystic Heavy Armor Kit",
+      "enchant": 8485
+    },
+    {
+      "id": 1254766,
+      "name": "\"Armor +32 Stamina +4\"",
+      "enchant": 8487
+    },
+    {
+      "id": 1254767,
+      "name": "Mystic Thick Armor Kit",
+      "enchant": 8489
+    },
+    {
+      "id": 1254768,
+      "name": "Forceful Thick Armor Kit",
+      "enchant": 8488
+    },
+    {
+      "id": 1254770,
+      "name": "Mystic Rugged Armor Kit",
+      "enchant": 8492
+    },
+    {
+      "id": 1254771,
+      "name": "\"Armor +40 Stamina +5\"",
+      "enchant": 8490
+    },
+    {
+      "id": 1254772,
+      "name": "Forceful Rugged Armor Kit",
+      "enchant": 8491
+    },
+    {
+      "id": 1306907,
+      "name": "Wild Leather Armor Kit",
+      "enchant": 8719,
+      "stats": {}
+    }
+  ],
   "mainhand_tempenchant": [
     {
       "id": 3594,
@@ -794,6 +2186,12 @@ const templateEnchants = {
       "procChance": 15
     },
     {
+      "id": 7793,
+      "name": "Enchant 2H Weapon - Lesser Intellect",
+      "enchant": 723,
+      "stats": {}
+    },
+    {
       "id": 7745,
       "name": "Enchant 2H Weapon - Minor Impact",
       "enchant": 805,
@@ -960,6 +2358,12 @@ const templateEnchants = {
       }
     },
     {
+      "id": 1219580,
+      "name": "Enchant 2H Weapon - Spellblasting",
+      "enchant": 7662,
+      "stats": {}
+    },
+    {
       "id": 1231128,
       "name": "Enchant Weapon - Grand Crusader",
       "enchant": 7940,
@@ -988,251 +2392,35 @@ const templateEnchants = {
       "stats": {
         "str": 15
       }
-    }
-  ],
-  "chest_enchant": [
-    {
-      "id": 7451,
-      "name": "Imbue Chest - Minor Spirit",
-      "enchant": 64,
-      "stats": {
-        "spi": 3
-      }
     },
     {
-      "id": 7776,
-      "name": "Enchant Chest - Lesser Intellect",
-      "enchant": 246,
-      "stats": {
-        "int": 3
-      }
+      "id": 1248607,
+      "name": "Enchant 2H Weapon - Mighty Spell Power",
+      "enchant": 8211,
+      "stats": {}
     },
     {
-      "id": 7748,
-      "name": "Enchant Chest - Lesser Stamina",
-      "enchant": 242,
-      "stats": {
-        "sta": 3
-      }
+      "id": 1248636,
+      "name": "Enchant 2H Weapon - Mighty Healing Power",
+      "enchant": 8212,
+      "stats": {}
     },
     {
-      "id": 7420,
-      "name": "Enchant Chest - Inferior Stamina",
-      "enchant": 41,
+      "id": 1248668,
+      "name": "Enchant 2H Weapon - Strength",
+      "enchant": 8215,
       "stats": {
-        "sta": 2
-      }
-    },
-    {
-      "id": 7857,
-      "name": "Enchant Chest - Stamina",
-      "enchant": 254,
-      "stats": {
-        "sta": 4
-      }
-    },
-    {
-      "id": 7853,
-      "name": "Imbue Chest - Lesser Spirit",
-      "enchant": 252,
-      "stats": {
-        "spi": 6
-      }
-    },
-    {
-      "id": 7443,
-      "name": "Enchant Chest - Minor Intellect",
-      "enchant": 24,
-      "stats": {
-        "int": 2
-      }
-    },
-    {
-      "id": 13607,
-      "name": "Enchant Chest - Intellect",
-      "enchant": 843,
-      "stats": {
-        "int": 4
-      }
-    },
-    {
-      "id": 13941,
-      "name": "Enchant Chest - Stats",
-      "enchant": 928,
-      "stats": {
-        "str": 3,
-        "agi": 3,
-        "sta": 3,
-        "int": 3,
-        "spi": 3
-      }
-    },
-    {
-      "id": 13626,
-      "name": "Enchant Chest - Minor Stats",
-      "enchant": 847,
-      "stats": {
-        "str": 2,
-        "agi": 2,
-        "sta": 2,
-        "int": 2,
-        "spi": 2
-      }
-    },
-    {
-      "id": 13663,
-      "name": "Enchant Chest - Greater Intellect",
-      "enchant": 857,
-      "stats": {
-        "int": 6
-      }
-    },
-    {
-      "id": 13700,
-      "name": "Enchant Chest - Lesser Stats",
-      "enchant": 866,
-      "stats": {
-        "str": 2,
-        "agi": 2,
-        "sta": 2,
-        "int": 2,
-        "spi": 2
-      }
-    },
-    {
-      "id": 13917,
-      "name": "Enchant Chest - Superior Intellect",
-      "enchant": 913,
-      "stats": {
-        "int": 8
-      }
-    },
-    {
-      "id": 13640,
-      "name": "Enchant Chest - Greater Stamina",
-      "enchant": 850,
-      "stats": {
-        "sta": 6
-      }
-    },
-    {
-      "id": 13858,
-      "name": "Enchant Chest - Superior Stamina",
-      "enchant": 908,
-      "stats": {
-        "sta": 8
-      }
-    },
-    {
-      "id": 20028,
-      "name": "Enchant Chest - Major Intellect",
-      "enchant": 1893,
-      "stats": {
-        "int": 10
-      }
-    },
-    {
-      "id": 20025,
-      "name": "Enchant Chest - Greater Stats",
-      "enchant": 1891,
-      "stats": {
-        "str": 4,
-        "agi": 4,
-        "sta": 4,
-        "int": 4,
-        "spi": 4
-      }
-    },
-    {
-      "id": 1213616,
-      "name": "Enchant Chest - Living Stats",
-      "enchant": 7645,
-      "stats": {
-        "str": 4,
-        "agi": 4,
-        "sta": 4,
-        "int": 4,
-        "spi": 4,
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          15,
-          0,
-          0,
-          0
-        ]
-      }
-    }
-  ],
-  "feet_enchant": [
-    {
-      "id": 7863,
-      "name": "Enchant Boots - Minor Stamina",
-      "enchant": 66,
-      "stats": {
-        "sta": 3
-      }
-    },
-    {
-      "id": 7867,
-      "name": "Enchant Boots - Minor Agility",
-      "enchant": 247,
-      "stats": {
-        "agi": 3
-      }
-    },
-    {
-      "id": 13935,
-      "name": "Enchant Boots - Agility",
-      "enchant": 904,
-      "stats": {
-        "agi": 5
-      }
-    },
-    {
-      "id": 13836,
-      "name": "Enchant Boots - Stamina",
-      "enchant": 852,
-      "stats": {
-        "sta": 5
-      }
-    },
-    {
-      "id": 13644,
-      "name": "Enchant Boots - Lesser Stamina",
-      "enchant": 254,
-      "stats": {
-        "sta": 4
-      }
-    },
-    {
-      "id": 20023,
-      "name": "Enchant Boots - Greater Agility",
-      "enchant": 1887,
-      "stats": {
-        "agi": 7
-      }
-    },
-    {
-      "id": 20024,
-      "name": "Enchant Boots - Spirit",
-      "enchant": 851,
-      "stats": {
-        "spi": 5
-      }
-    },
-    {
-      "id": 20020,
-      "name": "Enchant Boots - Greater Stamina",
-      "enchant": 929,
-      "stats": {
-        "sta": 7
+        "spi": 25
       }
     }
   ],
   "wrists_enchant": [
+    {
+      "id": 7859,
+      "name": "Enchant Bracer - Lesser Spirit",
+      "enchant": 8203,
+      "stats": {}
+    },
     {
       "id": 7428,
       "name": "Enchant Bracer - Minor Deflect",
@@ -1298,6 +2486,12 @@ const templateEnchants = {
       }
     },
     {
+      "id": 13622,
+      "name": "Enchant Bracer - Lesser Intellect",
+      "enchant": 723,
+      "stats": {}
+    },
+    {
       "id": 13648,
       "name": "Enchant Bracer - Stamina",
       "enchant": 852,
@@ -1335,6 +2529,14 @@ const templateEnchants = {
       "enchant": 905,
       "stats": {
         "int": 5
+      }
+    },
+    {
+      "id": 13536,
+      "name": "Enchant Bracer - Lesser Strength",
+      "enchant": 823,
+      "stats": {
+        "spi": 4
       }
     },
     {
@@ -1410,11 +2612,45 @@ const templateEnchants = {
       }
     },
     {
+      "id": 1217189,
+      "name": "Enchant Bracer - Spell Power",
+      "enchant": 7655,
+      "stats": {}
+    },
+    {
+      "id": 1217203,
+      "name": "Enchant Bracer - Agility",
+      "enchant": 7656,
+      "stats": {
+        "int": 9
+      }
+    },
+    {
+      "id": 1220624,
+      "name": "Enchant Bracer - Greater Spellpower",
+      "enchant": 7665,
+      "stats": {}
+    },
+    {
       "id": 1248458,
       "name": "Enchant Bracer - Minor Intellect",
       "enchant": 246,
       "stats": {
         "int": 3
+      }
+    },
+    {
+      "id": 1248459,
+      "name": "Enchant Bracer - Minor Healing Power",
+      "enchant": 8208,
+      "stats": {}
+    },
+    {
+      "id": 1248460,
+      "name": "Enchant Bracer - Lesser Agility",
+      "enchant": 8204,
+      "stats": {
+        "int": 4
       }
     },
     {
@@ -1426,11 +2662,25 @@ const templateEnchants = {
       }
     },
     {
+      "id": 1248498,
+      "name": "Enchant Bracer - Lesser Healing Power",
+      "enchant": 8209,
+      "stats": {}
+    },
+    {
       "id": 1248500,
       "name": "Enchant Bracer - Greater Agility",
       "enchant": 1887,
       "stats": {
         "agi": 7
+      }
+    },
+    {
+      "id": 1248599,
+      "name": "Enchant Bracer - Superior Agility",
+      "enchant": 7656,
+      "stats": {
+        "int": 9
       }
     },
     {
@@ -1440,9 +2690,25 @@ const templateEnchants = {
       "stats": {
         "int": 9
       }
+    },
+    {
+      "id": 1248665,
+      "name": "Enchant Bracer - Superior Deflection",
+      "enchant": 8214,
+      "stats": {}
     }
   ],
   "back_enchant": [
+    {
+      "id": 7865,
+      "name": "Imbue Cloak - Lesser Protection",
+      "enchant": 257
+    },
+    {
+      "id": 7771,
+      "name": "Enchant Cloak - Minor Protection",
+      "enchant": 783
+    },
     {
       "id": 7861,
       "name": "Enchant Cloak - Lesser Fire Resistance",
@@ -1512,6 +2778,16 @@ const templateEnchants = {
       }
     },
     {
+      "id": 13635,
+      "name": "Enchant Cloak - Defense",
+      "enchant": 848
+    },
+    {
+      "id": 13421,
+      "name": "Enchant Cloak - Lesser Protection",
+      "enchant": 744
+    },
+    {
       "id": 13794,
       "name": "Enchant Cloak - Resistance",
       "enchant": 903,
@@ -1535,6 +2811,22 @@ const templateEnchants = {
       "stats": {
         "agi": 3
       }
+    },
+    {
+      "id": 13746,
+      "name": "Enchant Cloak - Greater Defense",
+      "enchant": 884
+    },
+    {
+      "id": 13657,
+      "name": "Enchant Cloak - Fire Resistance",
+      "enchant": 2463,
+      "stats": {}
+    },
+    {
+      "id": 20015,
+      "name": "Enchant Cloak - Superior Defense",
+      "enchant": 1889
     },
     {
       "id": 20014,
@@ -1619,47 +2911,13 @@ const templateEnchants = {
           0
         ]
       }
-    }
-  ],
-  "hands_enchant": [
-    {
-      "id": 13887,
-      "name": "Enchant Gloves - Strength",
-      "enchant": 927,
-      "stats": {
-        "str": 7
-      }
     },
     {
-      "id": 13815,
-      "name": "Enchant Gloves - Agility",
-      "enchant": 1887,
+      "id": 1219587,
+      "name": "Enchant Cloak - Agility",
+      "enchant": 7667,
       "stats": {
-        "agi": 7
-      }
-    },
-    {
-      "id": 25080,
-      "name": "Enchant Gloves - Superior Agility",
-      "enchant": 2564,
-      "stats": {
-        "agi": 15
-      }
-    },
-    {
-      "id": 25072,
-      "name": "Enchant Gloves - Threat",
-      "enchant": 2613,
-      "stats": {
-        "threat_mod": 2
-      }
-    },
-    {
-      "id": 1248640,
-      "name": "Enchant Gloves - Superior Strength",
-      "enchant": 2563,
-      "stats": {
-        "str": 15
+        "int": 5
       }
     }
   ],
@@ -1671,6 +2929,17 @@ const templateEnchants = {
       "stats": {
         "spi": 3
       }
+    },
+    {
+      "id": 13464,
+      "name": "Enchant Shield - Lesser Protection",
+      "enchant": 848
+    },
+    {
+      "id": 1219581,
+      "name": "Enchant Shield - Excellent Stamina",
+      "enchant": 7663,
+      "stats": {}
     },
     {
       "id": 1220623,
@@ -2197,666 +3466,30 @@ const templateEnchants = {
         "agi": 10,
         "str": 10
       }
-    }
-  ],
-  "legs_enchant": [
-    {
-      "id": 15402,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1508,
-      "stats": {
-        "agi": 8
-      }
     },
     {
-      "id": 15397,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1506,
-      "stats": {
-        "str": 8
-      }
+      "id": 1293806,
+      "name": "Warden's Signet of Ferocity",
+      "enchant": 8691,
+      "stats": {}
     },
     {
-      "id": 15400,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1507,
-      "stats": {
-        "sta": 8
-      }
+      "id": 1293807,
+      "name": "Warden's Signet of Brilliance",
+      "enchant": 8692,
+      "stats": {}
     },
     {
-      "id": 15394,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1505,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          20,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "id": 1293808,
+      "name": "Warden's Signet of Caution",
+      "enchant": 8693,
+      "stats": {}
     },
     {
-      "id": 15463,
-      "name": "Legendary Arcane Amalgamation",
-      "enchant": 1532,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          15,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15439,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1525,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15391,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1504,
-      "stats": {
-        "resistance": [
-          0,
-          125,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15444,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1527,
-      "stats": {
-        "sta": 10,
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15427,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1523,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15458,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1530,
-      "stats": {
-        "spi": 10,
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15404,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1509,
-      "stats": {
-        "int": 8
-      }
-    },
-    {
-      "id": 15406,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1510,
-      "stats": {
-        "spi": 8
-      }
-    },
-    {
-      "id": 15441,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1526,
-      "stats": {
-        "str": 10,
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15389,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1503,
-      "stats": {
-        "health": 100
-      }
-    },
-    {
-      "id": 15446,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1528,
-      "stats": {
-        "agi": 10,
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15449,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1529,
-      "stats": {
-        "int": 10,
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15490,
-      "name": "Legendary Arcane Amalgamation",
-      "enchant": 1543,
-      "stats": {
-        "int": 10,
-        "spi": 10
-      }
-    },
-    {
-      "id": 15429,
-      "name": "Greater Arcane Amalgamation",
-      "enchant": 1524,
-      "stats": {
-        "health": 75,
-        "resistance": [
-          0,
-          0,
-          0,
-          14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 22846,
-      "name": "Arcanum of Protection",
-      "enchant": 2545,
-      "stats": {
-        "dodge": 1
-      }
-    },
-    {
-      "id": 24165,
-      "name": "Hoodoo Hex",
-      "enchant": 2589,
-      "stats": {
-        "sta": 10
-      }
-    },
-    {
-      "id": 24161,
-      "name": "Death's Embrace",
-      "enchant": 2585,
-      "stats": {
-        "melee_ap": 28,
-        "ranged_ap": 28,
-        "dodge": 1
-      }
-    },
-    {
-      "id": 24162,
-      "name": "Falcon's Call",
-      "enchant": 2586,
-      "stats": {
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "sta": 10
-      }
-    },
-    {
-      "id": 24163,
-      "name": "Vodouisant's Vigilant Embrace",
-      "enchant": 2587,
-      "stats": {
-        "int": 15
-      }
-    },
-    {
-      "id": 24160,
-      "name": "Syncretist's Sigil",
-      "enchant": 2584,
-      "stats": {
-        "sta": 10,
-        "defense": 7
-      }
-    },
-    {
-      "id": 24167,
-      "name": "Prophetic Aura",
-      "enchant": 2590,
-      "stats": {
-        "sta": 10
-      }
-    },
-    {
-      "id": 24168,
-      "name": "Animist's Caress",
-      "enchant": 2591,
-      "stats": {
-        "sta": 10,
-        "int": 10
-      }
-    },
-    {
-      "id": 24149,
-      "name": "Presence of Might",
-      "enchant": 2583,
-      "stats": {
-        "sta": 10,
-        "defense": 7
-      }
-    },
-    {
-      "id": 28163,
-      "name": "Ice Guard",
-      "enchant": 2682,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          10,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 28161,
-      "name": "Savage Guard",
-      "enchant": 2681,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          10,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 28165,
-      "name": "Shadow Guard",
-      "enchant": 2683,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          10,
-          0
-        ]
-      }
-    },
-    {
-      "id": 468314,
-      "name": "Animist's Caress",
-      "enchant": 7613,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468318,
-      "name": "Animist's Balance",
-      "enchant": 7614,
-      "stats": {
-        "sta": 20,
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 468321,
-      "name": "Animist's Fury",
-      "enchant": 7615,
-      "stats": {
-        "sta": 20,
-        "str": 10,
-        "agi": 10
-      }
-    },
-    {
-      "id": 468323,
-      "name": "Animist's Roar",
-      "enchant": 7616,
-      "stats": {
-        "sta": 20,
-        "str": 10,
-        "defense": 7
-      }
-    },
-    {
-      "id": 468325,
-      "name": "Falcon's Call",
-      "enchant": 7617,
-      "stats": {
-        "sta": 20,
-        "agi": 10,
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 468328,
-      "name": "Syncretist's Seal",
-      "enchant": 7618,
-      "stats": {
-        "sta": 20,
-        "defense": 7
-      }
-    },
-    {
-      "id": 468330,
-      "name": "Syncretist's Sigil",
-      "enchant": 7619,
-      "stats": {
-        "sta": 20,
-        "str": 10
-      }
-    },
-    {
-      "id": 468332,
-      "name": "Syncretist's Crest",
-      "enchant": 7620,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468339,
-      "name": "Syncretist's Emblem",
-      "enchant": 7621,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468342,
-      "name": "Prophetic Aura",
-      "enchant": 7622,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468344,
-      "name": "Prophetic Curse",
-      "enchant": 7623,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468347,
-      "name": "Death's Embrace",
-      "enchant": 7624,
-      "stats": {
-        "sta": 20,
-        "agi": 10,
-        "defense": 7
-      }
-    },
-    {
-      "id": 468349,
-      "name": "Death's Advance",
-      "enchant": 7625,
-      "stats": {
-        "sta": 20,
-        "agi": 10,
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 468351,
-      "name": "Vodouisant's Embrace",
-      "enchant": 7626,
-      "stats": {
-        "sta": 20,
-        "str": 10
-      }
-    },
-    {
-      "id": 468354,
-      "name": "Vodouisant's Shroud",
-      "enchant": 7627,
-      "stats": {
-        "sta": 20,
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 468359,
-      "name": "Vodouisant's Charm",
-      "enchant": 7628,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468362,
-      "name": "Vodouisant's Vigilance",
-      "enchant": 7629,
-      "stats": {
-        "sta": 20,
-        "defense": 7,
-        "block_chance": 2
-      }
-    },
-    {
-      "id": 468365,
-      "name": "Hoodoo Hex",
-      "enchant": 7630,
-      "stats": {
-        "sta": 20,
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 468368,
-      "name": "Hoodoo Curse",
-      "enchant": 7631,
-      "stats": {
-        "sta": 20,
-        "hit": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "defense": 7
-      }
-    },
-    {
-      "id": 468373,
-      "name": "Presence of Might",
-      "enchant": 7632,
-      "stats": {
-        "sta": 20,
-        "str": 10,
-        "agi": 10
-      }
-    },
-    {
-      "id": 468376,
-      "name": "Presence of Valor",
-      "enchant": 7633,
-      "stats": {
-        "sta": 20,
-        "defense": 7
-      }
-    },
-    {
-      "id": 468380,
-      "name": "Presence of Sight",
-      "enchant": 7634,
-      "stats": {
-        "sta": 20,
-        "int": 10
-      }
-    },
-    {
-      "id": 468383,
-      "name": "Falcon's Fury",
-      "enchant": 7635,
-      "stats": {
-        "sta": 20,
-        "agi": 10,
-        "str": 10
-      }
+      "id": 1293809,
+      "name": "Warden's Signet of Recovery",
+      "enchant": 8694,
+      "stats": {}
     }
   ],
   "shoulder_enchant": [
@@ -3035,6 +3668,12 @@ const templateEnchants = {
       }
     },
     {
+      "id": 1219507,
+      "name": "Resilience of the Scourge",
+      "enchant": 7882,
+      "stats": {}
+    },
+    {
       "id": 1219510,
       "name": "Power of the Scourge",
       "enchant": 7883,
@@ -3198,6 +3837,43 @@ const templateEnchants = {
       }
     }
   ],
+  "held_enchant": [
+    {
+      "id": 1219577,
+      "name": "Enchant Off-Hand - Superior Intellect",
+      "enchant": 7659,
+      "stats": {}
+    },
+    {
+      "id": 1219578,
+      "name": "Enchant Off-Hand - Excellent Spirit",
+      "enchant": 7660,
+      "stats": {}
+    },
+    {
+      "id": 1219579,
+      "name": "Enchant Off-Hand - Wisdom",
+      "enchant": 7661,
+      "stats": {}
+    }
+  ],
+  "waist_enchant": [
+    {
+      "id": 1226210,
+      "name": "Tinker: Teleport",
+      "enchant": 7919
+    },
+    {
+      "id": 1226211,
+      "name": "Tinker: Nitro Boosts",
+      "enchant": 7920
+    },
+    {
+      "id": 1226212,
+      "name": "Tinker: Magnetic Displacement",
+      "enchant": 7921
+    }
+  ],
   "neck_enchant": [
     {
       "id": 1249019,
@@ -3206,6 +3882,18 @@ const templateEnchants = {
       "stats": {
         "str": 5
       }
+    },
+    {
+      "id": 1249057,
+      "name": "Enchant Necklace - Spell Power",
+      "enchant": 8218,
+      "stats": {}
+    },
+    {
+      "id": 1249058,
+      "name": "Enchant Necklace - Healing Power",
+      "enchant": 8219,
+      "stats": {}
     },
     {
       "id": 1249059,
