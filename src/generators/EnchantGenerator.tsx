@@ -370,28 +370,28 @@ export default function SpellGenerator() {
 		}
 
 		let wf1 = {
-			id: 8512,
+			id: 8515,
 			name: 'Windfury Weapon',
 			enchant: 1669,
 			procSpell: 8516,
 			procChance: 20,
-			procCooldown: 200,
+			procCooldown: 100,
 		};
 		let wf2 = {
-			id: 10613,
+			id: 10609,
 			name: 'Windfury Weapon',
 			enchant: 1669,
 			procSpell: 10608,
 			procChance: 20,
-			procCooldown: 200,
+			procCooldown: 100,
 		};
 		let wf3 = {
-			id: 10614,
+			id: 10612,
 			name: 'Windfury Weapon',
 			enchant: 1669,
 			procSpell: 10610,
 			procChance: 20,
-			procCooldown: 200,
+			procCooldown: 100,
 		};
 
 		addEnchant(wf1, 'mainhand_temp');

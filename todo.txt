@@ -1,0 +1,23 @@
+/********************************  TODO LIST  *************************
+ *
+ * 
+ * windfury:
+
+Sweeping Strikes - Can't proc it
+
+ *  
+	item sets
+	crit caps
+	check all items and trinkets and enchats
+ *
+ * low prio stuff
+ * target creature types (troll racial too)
+ * add spelldmg to items
+ * more presets
+ * model
+ * logo
+ * life giving gem
+ * 
+ * 
+ *
+ */

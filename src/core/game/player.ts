@@ -341,17 +341,17 @@ export class Player {
 					if (slot.indexOf('offhand') > -1 && this.offhand) {
 						let chance = enchant.procChance;
 						if (!chance) chance = ~~((this.offhand.speed * (enchant.procPPM || 1)) / 0.6);
-						this.offhand.procs.push(new ProcSpell(spell, 20, chance, cooldown, 0));
+						this.offhand.procs.push(new ProcSpell(spell, 20, chance, cooldown, 0, true));
 					}
 					if (slot.indexOf('twohand') > -1 && this.mainhand && this.mainhand.twohand) {
 						let chance = enchant.procChance;
 						if (!chance) chance = ~~((this.mainhand.speed * (enchant.procPPM || 1)) / 0.6);
-						this.mainhand.procs.push(new ProcSpell(spell, 20, chance, cooldown, 0));
+						this.mainhand.procs.push(new ProcSpell(spell, 20, chance, cooldown, 0, true));
 					}
 					if (slot.indexOf('mainhand') > -1 && this.mainhand && !this.mainhand.twohand) {
 						let chance = enchant.procChance;
 						if (!chance) chance = ~~((this.mainhand.speed * (enchant.procPPM || 1)) / 0.6);
-						this.mainhand.procs.push(new ProcSpell(spell, 20, chance, cooldown, 0));
+						this.mainhand.procs.push(new ProcSpell(spell, 20, chance, cooldown, 0, true));
 					}
 				}
 				if (enchant.procBlock) {

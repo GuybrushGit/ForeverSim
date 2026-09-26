@@ -128,36 +128,14 @@ export class Spell {
 		if (this.selfTarget) this.applyEffects(sim, undefined, action, weapon);
 		else if (this.schoolMask & SchoolMask.Physical) {
 			// Melee spells
-			//if (target) return Combat.meleeSpellOutgoing(sim, this, sim.targets[target.index], action);
+			if (this.targetCount > 1) sim.aux[this.id] = 1;
 			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) {
 				Combat.meleeSpellOutgoing(sim, this, sim.targets[i], action);
 			}
 		} else {
 			// Magic spells
-			//if (target) return Combat.magicSpellOutgoing(sim, this, sim.targets[target.index]);
+			if (this.targetCount > 1) sim.aux[this.id] = 1;
 			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) Combat.magicSpellOutgoing(sim, this, sim.targets[i]);
 		}
 	}
 }
-
-/********************************  TODO LIST  *************************
- *
- * 
- * 
- * procs on multi target attacks / windfury
- *  
-	item sets
-	crit caps
-	check all items and trinkets and enchats
- *
- * low prio stuff
- * target creature types (troll racial too)
- * add spelldmg to items
- * more presets
- * model
- * logo
- * life giving gem
- * 
- * 
- *
- */

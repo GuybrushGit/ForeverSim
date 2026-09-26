@@ -83,16 +83,18 @@ export class ProcSpell {
 	chance: number;
 	cooldown: number;
 	extra: number;
+	procOnceOnAoe: boolean = false;
 
-	constructor(spell: Spell, mask: number, chance: number, cooldown: number, extra: number) {
+	constructor(spell: Spell, mask: number, chance: number, cooldown: number, extra: number, procOnceOnAoe?: boolean) {
 		this.spell = spell;
 		this.mask = mask;
 		this.chance = chance;
 		this.cooldown = cooldown;
 		this.extra = extra;
+		if (procOnceOnAoe) this.procOnceOnAoe = true;
 	}
 
-	trigger(sim: Simulation, flag: number, result: CombatResult, target?: Target, weapon?: Weapon) {
+	trigger(sim: Simulation, flag: number, result: CombatResult, target?: Target, weapon?: Weapon, isSecondHit?: boolean) {
 		if (!(this.mask & flag)) return;
 		if (this.extra && !(this.extra & (1 << result))) return;
 		if (!this.extra && 22 & (1 << result)) return; // dont proc anything if attack missed / dodged, unsure if this is right
@@ -100,6 +102,7 @@ export class ProcSpell {
 		if (this.cooldown && timer && sim.step - timer < this.cooldown) return false;
 		if (this.chance < 100 && rng10k() >= this.chance * 100) return;
 		if (this.chance == 0) console.log('0 chance proc found ', this);
+		if (this.procOnceOnAoe && isSecondHit) return;
 
 		// Bloodthrill only when rend exists
 		if (this.spell.id == SpellIds.ID_WARRIOR_BLOODTHRILLPROC && !Dummy.CanProcBloodthrill(sim, weapon, target)) return;

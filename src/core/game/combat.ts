@@ -102,7 +102,11 @@ export const Combat = {
 
 		sim.addEvent(EventType.SpellDone, dmg, round(threat), result, spell, wep);
 
-		Combat.procEvent(sim, procFlag, result, target, wep, dmg);
+		Combat.procEvent(sim, procFlag, result, target, wep, dmg, spell.targetCount > 1 && !sim.aux[spell.id]);
+
+		// to prevent aoes from proccing multiple times
+		if (spell.targetCount > 1 && (result == CombatResult.Normal || result == CombatResult.Crit || result == CombatResult.Block))
+			sim.aux[spell.id] = 0;
 
 		if (action) Combat.gainRage(sim, wep, result, dmg, action);
 	},
@@ -297,7 +301,7 @@ export const Combat = {
 		return CombatResult.Normal;
 	},
 
-	procEvent(sim: Simulation, flag: number, result: CombatResult, target: Target, weapon?: Weapon, dmg?: number) {
+	procEvent(sim: Simulation, flag: number, result: CombatResult, target: Target, weapon?: Weapon, dmg?: number, isSecondHit?: boolean) {
 		// dodge timer for overpower
 		if (result == CombatResult.Dodge && flag & (ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_HIT | ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SPELL_HIT))
 			sim.timers.dodge = sim.step;
@@ -316,15 +320,15 @@ export const Combat = {
 
 		// weapon procs
 		// weapons proc before auras so attack that procs windfury can remove the first charge
-		if (weapon) weapon.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon));
+		if (weapon) weapon.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon, isSecondHit));
 
 		// shield spikes
 		if (sim.player.shield && (result == CombatResult.Block || result == CombatResult.BlockCrit) && flag & ProcFlags.PROC_FLAG_TAKEN_MELEE_HIT) {
-			sim.player.shield.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon));
+			sim.player.shield.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon, isSecondHit));
 		}
 
 		// talent procs
-		sim.player.procs.forEach(proc => proc.trigger(sim, flag, result, target));
+		sim.player.procs.forEach(proc => proc.trigger(sim, flag, result, target, undefined, isSecondHit));
 
 		// reset weapon swing here so it benefits from flurry before it goes out
 		if (weapon && flag & (ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_HIT | ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SWING_HIT)) {
@@ -336,7 +340,7 @@ export const Combat = {
 		sim.auras.forEach(aura => aura.triggerProc(sim, flag, result, dmg));
 
 		// temporary procs
-		sim.player_procs.forEach(proc => proc.trigger(sim, flag, result, target));
+		sim.player_procs.forEach(proc => proc.trigger(sim, flag, result, target, undefined, isSecondHit));
 	},
 
 	parryHaste(sim: Simulation, flag: number, target: Target) {
@@ -388,7 +392,18 @@ export const Combat = {
 			dmg = dmg * sim.target_stats[target.index].dmg_taken_mod[spell.spellSchool];
 		}
 
-		Combat.procEvent(sim, ProcFlags.PROC_FLAG_SUCCESSFUL_NEGATIVE_SPELL_HIT, result.type, target, undefined, dmg);
+		Combat.procEvent(
+			sim,
+			ProcFlags.PROC_FLAG_SUCCESSFUL_NEGATIVE_SPELL_HIT,
+			result.type,
+			target,
+			undefined,
+			dmg,
+			spell.targetCount > 1 && !sim.aux[spell.id],
+		);
+
+		// to prevent aoes from proccing multiple times
+		if (spell.targetCount > 1 && result.mod) sim.aux[spell.id] = 0;
 
 		dmg = round(dmg);
 
