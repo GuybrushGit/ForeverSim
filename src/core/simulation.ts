@@ -186,11 +186,9 @@ export class Simulation {
 			// Melee Attacks
 			if (player.mainhand && timers.mainhand <= 0) {
 				if (!this.queue || !this.queue.triggerQueue(this)) Combat.meleeAttackOutgoing(this, player.mainhand, this.targets[0]);
-				timers.mainhand = player.mainhand.use(this.final_stats.haste[SpellType.Melee]);
 			}
 			if (player.offhand && timers.offhand <= 0) {
 				Combat.meleeAttackOutgoing(this, player.offhand, this.targets[0]);
-				timers.offhand = player.offhand.use(this.final_stats.haste[SpellType.Melee]);
 			}
 
 			// Enemy Attacks

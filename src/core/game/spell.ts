@@ -147,6 +147,7 @@ export class Spell {
  * check all items and trinkets
  * 
  * procs on multi target attacks
+ * https://cdn.discordapp.com/attachments/1550581747274747935/1553405229960134696/image.png?ex=6ab920db&is=6ab7cf5b&hm=8f0c8ffe6a8b3e215374e3302cfe7e58b780d05484181689fcf97e5262c1820f
  * 
 	item sets
 	crit caps

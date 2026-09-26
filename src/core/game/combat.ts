@@ -12,6 +12,7 @@ import {
 	SpellAttributesEx,
 	SpellAttributesEx3,
 	SpellSchool,
+	SpellType,
 } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import { ExecuteAction, type Action } from '@core/game/action';
@@ -322,11 +323,17 @@ export const Combat = {
 			sim.player.shield.procs.forEach(proc => proc.trigger(sim, flag, result, target, weapon));
 		}
 
-		// temporary aura procs
-		sim.auras.forEach(aura => aura.triggerProc(sim, flag, result, dmg));
-
 		// talent procs
 		sim.player.procs.forEach(proc => proc.trigger(sim, flag, result, target));
+
+		// reset weapon swing here so it benefits from flurry before it goes out
+		if (weapon && flag & (ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_HIT | ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SWING_HIT)) {
+			if (weapon.offhand && sim.player.offhand) sim.timers.offhand = sim.player.offhand.use(sim.final_stats.haste[SpellType.Melee]);
+			if (!weapon.offhand && sim.player.mainhand) sim.timers.mainhand = sim.player.mainhand.use(sim.final_stats.haste[SpellType.Melee]);
+		}
+
+		// temporary aura procs
+		sim.auras.forEach(aura => aura.triggerProc(sim, flag, result, dmg));
 
 		// temporary procs
 		sim.player_procs.forEach(proc => proc.trigger(sim, flag, result, target));

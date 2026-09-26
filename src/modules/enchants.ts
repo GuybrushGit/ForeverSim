@@ -79,7 +79,7 @@ const templateEnchants = {
       "stats": {
         "crit": [
           0,
-          null,
+          2,
           0,
           0,
           0,
@@ -94,8 +94,42 @@ const templateEnchants = {
       "name": "Consecrated Weapon",
       "enchant": 2684,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null
+        "melee_ap": 99,
+        "ranged_ap": 99
+      }
+    },
+    {
+      "id": 430392,
+      "name": "Sharpen Weapon - Hit",
+      "enchant": 7098,
+      "stats": {
+        "hit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 461633,
+      "name": "Frostbrand Weapon",
+      "enchant": 7566,
+      "procSpell": 16353,
+      "procPPM": 1
+    },
+    {
+      "id": 461635,
+      "name": "Rockbiter Weapon",
+      "enchant": 7568,
+      "stats": {
+        "melee_ap": 554,
+        "ranged_ap": 554,
+        "threat_mod": 0
       }
     }
   ],
@@ -165,7 +199,7 @@ const templateEnchants = {
       "stats": {
         "crit": [
           0,
-          null,
+          2,
           0,
           0,
           0,
@@ -180,8 +214,42 @@ const templateEnchants = {
       "name": "Consecrated Weapon",
       "enchant": 2684,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null
+        "melee_ap": 99,
+        "ranged_ap": 99
+      }
+    },
+    {
+      "id": 430392,
+      "name": "Sharpen Weapon - Hit",
+      "enchant": 7098,
+      "stats": {
+        "hit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 461633,
+      "name": "Frostbrand Weapon",
+      "enchant": 7566,
+      "procSpell": 16353,
+      "procPPM": 1
+    },
+    {
+      "id": 461635,
+      "name": "Rockbiter Weapon",
+      "enchant": 7568,
+      "stats": {
+        "melee_ap": 554,
+        "ranged_ap": 554,
+        "threat_mod": 0
       }
     }
   ],
@@ -265,7 +333,7 @@ const templateEnchants = {
       "stats": {
         "crit": [
           0,
-          null,
+          2,
           0,
           0,
           0,
@@ -280,8 +348,51 @@ const templateEnchants = {
       "name": "Consecrated Weapon",
       "enchant": 2684,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null
+        "melee_ap": 99,
+        "ranged_ap": 99
+      }
+    },
+    {
+      "id": 430392,
+      "name": "Sharpen Weapon - Hit",
+      "enchant": 7098,
+      "stats": {
+        "hit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 461633,
+      "name": "Frostbrand Weapon",
+      "enchant": 7566,
+      "procSpell": 16353,
+      "procPPM": 1
+    },
+    {
+      "id": 461635,
+      "name": "Rockbiter Weapon",
+      "enchant": 7568,
+      "stats": {
+        "melee_ap": 554,
+        "ranged_ap": 554,
+        "threat_mod": 0
+      }
+    },
+    {
+      "id": 1223689,
+      "name": "Consecrated Two-Handed Weapon",
+      "enchant": 7896,
+      "stats": {
+        "melee_ap": 198,
+        "ranged_ap": 198
       }
     }
   ],
@@ -291,9 +402,9 @@ const templateEnchants = {
       "name": "Sharpen Blade",
       "enchant": 1,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null,
-        "threat_mod": null
+        "melee_ap": 88,
+        "ranged_ap": 88,
+        "threat_mod": 0
       }
     },
     {
@@ -380,7 +491,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Strength",
       "enchant": 2563,
       "stats": {
-        "str": null
+        "str": 15
       }
     },
     {
@@ -388,7 +499,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Agility",
       "enchant": 2564,
       "stats": {
-        "agi": null
+        "agi": 15
       }
     },
     {
@@ -396,7 +507,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Mighty Intellect",
       "enchant": 2568,
       "stats": {
-        "int": null
+        "int": 22
       }
     },
     {
@@ -404,8 +515,22 @@ const templateEnchants = {
       "name": "Enchant Weapon - Mighty Spirit",
       "enchant": 2567,
       "stats": {
-        "spi": null
+        "spi": 22
       }
+    },
+    {
+      "id": 1231128,
+      "name": "Enchant Weapon - Grand Crusader",
+      "enchant": 7940,
+      "procSpell": 1231124,
+      "procPPM": 1
+    },
+    {
+      "id": 1232172,
+      "name": "Enchant 2H Weapon - Grand Inquisitor",
+      "enchant": 7943,
+      "procSpell": 1232169,
+      "procPPM": 1
     }
   ],
   "offhand_enchant": [
@@ -414,9 +539,9 @@ const templateEnchants = {
       "name": "Sharpen Blade",
       "enchant": 1,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null,
-        "threat_mod": null
+        "melee_ap": 88,
+        "ranged_ap": 88,
+        "threat_mod": 0
       }
     },
     {
@@ -453,7 +578,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Lesser Stamina",
       "enchant": 852,
       "stats": {
-        "sta": null
+        "sta": 5
       }
     },
     {
@@ -461,7 +586,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Greater Spirit",
       "enchant": 907,
       "stats": {
-        "spi": null
+        "spi": 7
       }
     },
     {
@@ -475,7 +600,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Minor Stamina",
       "enchant": 66,
       "stats": {
-        "sta": null
+        "sta": 3
       }
     },
     {
@@ -483,7 +608,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Stamina",
       "enchant": 929,
       "stats": {
-        "sta": null
+        "sta": 7
       }
     },
     {
@@ -504,7 +629,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          8,
           0,
           0
         ]
@@ -527,7 +652,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Lesser Block",
       "enchant": 863,
       "stats": {
-        "block_chance": null
+        "block_chance": 2
       }
     },
     {
@@ -542,7 +667,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Spirit",
       "enchant": 851,
       "stats": {
-        "spi": null
+        "spi": 5
       }
     },
     {
@@ -558,7 +683,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Superior Spirit",
       "enchant": 1890,
       "stats": {
-        "spi": null
+        "spi": 9
       }
     },
     {
@@ -566,7 +691,7 @@ const templateEnchants = {
       "name": "Enchant Shield - Greater Stamina",
       "enchant": 1886,
       "stats": {
-        "sta": null
+        "sta": 9
       }
     },
     {
@@ -608,7 +733,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Strength",
       "enchant": 2563,
       "stats": {
-        "str": null
+        "str": 15
       }
     },
     {
@@ -616,7 +741,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Agility",
       "enchant": 2564,
       "stats": {
-        "agi": null
+        "agi": 15
       }
     },
     {
@@ -624,7 +749,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Mighty Intellect",
       "enchant": 2568,
       "stats": {
-        "int": null
+        "int": 22
       }
     },
     {
@@ -632,8 +757,22 @@ const templateEnchants = {
       "name": "Enchant Weapon - Mighty Spirit",
       "enchant": 2567,
       "stats": {
-        "spi": null
+        "spi": 22
       }
+    },
+    {
+      "id": 1231128,
+      "name": "Enchant Weapon - Grand Crusader",
+      "enchant": 7940,
+      "procSpell": 1231124,
+      "procPPM": 1
+    },
+    {
+      "id": 1232172,
+      "name": "Enchant 2H Weapon - Grand Inquisitor",
+      "enchant": 7943,
+      "procSpell": 1232169,
+      "procPPM": 1
     }
   ],
   "twohand_enchant": [
@@ -642,9 +781,9 @@ const templateEnchants = {
       "name": "Sharpen Blade",
       "enchant": 1,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null,
-        "threat_mod": null
+        "melee_ap": 88,
+        "ranged_ap": 88,
+        "threat_mod": 0
       }
     },
     {
@@ -683,7 +822,7 @@ const templateEnchants = {
       "name": "Enchant 2H Weapon - Lesser Spirit",
       "enchant": 851,
       "stats": {
-        "spi": null
+        "spi": 5
       }
     },
     {
@@ -729,7 +868,7 @@ const templateEnchants = {
       "name": "Enchant 2H Weapon - Major Spirit",
       "enchant": 1903,
       "stats": {
-        "spi": null
+        "spi": 9
       }
     },
     {
@@ -737,7 +876,7 @@ const templateEnchants = {
       "name": "Enchant 2H Weapon - Major Intellect",
       "enchant": 1904,
       "stats": {
-        "int": null
+        "int": 9
       }
     },
     {
@@ -785,7 +924,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Strength",
       "enchant": 2563,
       "stats": {
-        "str": null
+        "str": 15
       }
     },
     {
@@ -793,7 +932,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Agility",
       "enchant": 2564,
       "stats": {
-        "agi": null
+        "agi": 15
       }
     },
     {
@@ -801,7 +940,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Mighty Intellect",
       "enchant": 2568,
       "stats": {
-        "int": null
+        "int": 22
       }
     },
     {
@@ -809,7 +948,7 @@ const templateEnchants = {
       "name": "Enchant Weapon - Mighty Spirit",
       "enchant": 2567,
       "stats": {
-        "spi": null
+        "spi": 22
       }
     },
     {
@@ -817,7 +956,37 @@ const templateEnchants = {
       "name": "Enchant 2H Weapon - Agility",
       "enchant": 2646,
       "stats": {
-        "agi": null
+        "agi": 25
+      }
+    },
+    {
+      "id": 1231128,
+      "name": "Enchant Weapon - Grand Crusader",
+      "enchant": 7940,
+      "procSpell": 1231124,
+      "procPPM": 1
+    },
+    {
+      "id": 1232172,
+      "name": "Enchant 2H Weapon - Grand Inquisitor",
+      "enchant": 7943,
+      "procSpell": 1232169,
+      "procPPM": 1
+    },
+    {
+      "id": 1248510,
+      "name": "Enchant 2H Weapon - Lesser Agility",
+      "enchant": 2618,
+      "stats": {
+        "agi": 9
+      }
+    },
+    {
+      "id": 1248511,
+      "name": "Enchant 2H Weapon - Lesser Strength",
+      "enchant": 2563,
+      "stats": {
+        "str": 15
       }
     }
   ],
@@ -827,7 +996,7 @@ const templateEnchants = {
       "name": "Imbue Chest - Minor Spirit",
       "enchant": 64,
       "stats": {
-        "spi": null
+        "spi": 3
       }
     },
     {
@@ -835,7 +1004,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Lesser Intellect",
       "enchant": 246,
       "stats": {
-        "int": null
+        "int": 3
       }
     },
     {
@@ -843,7 +1012,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Lesser Stamina",
       "enchant": 242,
       "stats": {
-        "sta": null
+        "sta": 3
       }
     },
     {
@@ -851,7 +1020,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Inferior Stamina",
       "enchant": 41,
       "stats": {
-        "sta": null
+        "sta": 2
       }
     },
     {
@@ -859,7 +1028,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Stamina",
       "enchant": 254,
       "stats": {
-        "sta": null
+        "sta": 4
       }
     },
     {
@@ -867,7 +1036,7 @@ const templateEnchants = {
       "name": "Imbue Chest - Lesser Spirit",
       "enchant": 252,
       "stats": {
-        "spi": null
+        "spi": 6
       }
     },
     {
@@ -875,7 +1044,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Minor Intellect",
       "enchant": 24,
       "stats": {
-        "int": null
+        "int": 2
       }
     },
     {
@@ -883,7 +1052,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Intellect",
       "enchant": 843,
       "stats": {
-        "int": null
+        "int": 4
       }
     },
     {
@@ -891,11 +1060,11 @@ const templateEnchants = {
       "name": "Enchant Chest - Stats",
       "enchant": 928,
       "stats": {
-        "str": null,
-        "agi": null,
-        "sta": null,
-        "int": null,
-        "spi": null
+        "str": 3,
+        "agi": 3,
+        "sta": 3,
+        "int": 3,
+        "spi": 3
       }
     },
     {
@@ -903,11 +1072,11 @@ const templateEnchants = {
       "name": "Enchant Chest - Minor Stats",
       "enchant": 847,
       "stats": {
-        "str": null,
-        "agi": null,
-        "sta": null,
-        "int": null,
-        "spi": null
+        "str": 2,
+        "agi": 2,
+        "sta": 2,
+        "int": 2,
+        "spi": 2
       }
     },
     {
@@ -915,7 +1084,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Greater Intellect",
       "enchant": 857,
       "stats": {
-        "int": null
+        "int": 6
       }
     },
     {
@@ -923,11 +1092,11 @@ const templateEnchants = {
       "name": "Enchant Chest - Lesser Stats",
       "enchant": 866,
       "stats": {
-        "str": null,
-        "agi": null,
-        "sta": null,
-        "int": null,
-        "spi": null
+        "str": 2,
+        "agi": 2,
+        "sta": 2,
+        "int": 2,
+        "spi": 2
       }
     },
     {
@@ -935,7 +1104,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Superior Intellect",
       "enchant": 913,
       "stats": {
-        "int": null
+        "int": 8
       }
     },
     {
@@ -943,7 +1112,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Greater Stamina",
       "enchant": 850,
       "stats": {
-        "sta": null
+        "sta": 6
       }
     },
     {
@@ -951,7 +1120,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Superior Stamina",
       "enchant": 908,
       "stats": {
-        "sta": null
+        "sta": 8
       }
     },
     {
@@ -959,7 +1128,7 @@ const templateEnchants = {
       "name": "Enchant Chest - Major Intellect",
       "enchant": 1893,
       "stats": {
-        "int": null
+        "int": 10
       }
     },
     {
@@ -967,19 +1136,33 @@ const templateEnchants = {
       "name": "Enchant Chest - Greater Stats",
       "enchant": 1891,
       "stats": {
-        "str": null,
-        "agi": null,
-        "sta": null,
-        "int": null,
-        "spi": null
+        "str": 4,
+        "agi": 4,
+        "sta": 4,
+        "int": 4,
+        "spi": 4
       }
     },
     {
-      "id": 22725,
-      "name": "Core Armor Kit",
-      "enchant": 2503,
+      "id": 1213616,
+      "name": "Enchant Chest - Living Stats",
+      "enchant": 7645,
       "stats": {
-        "defense": null
+        "str": 4,
+        "agi": 4,
+        "sta": 4,
+        "int": 4,
+        "spi": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0
+        ]
       }
     }
   ],
@@ -989,7 +1172,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Minor Stamina",
       "enchant": 66,
       "stats": {
-        "sta": null
+        "sta": 3
       }
     },
     {
@@ -997,7 +1180,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Minor Agility",
       "enchant": 247,
       "stats": {
-        "agi": null
+        "agi": 3
       }
     },
     {
@@ -1005,7 +1188,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Agility",
       "enchant": 904,
       "stats": {
-        "agi": null
+        "agi": 5
       }
     },
     {
@@ -1013,7 +1196,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Stamina",
       "enchant": 852,
       "stats": {
-        "sta": null
+        "sta": 5
       }
     },
     {
@@ -1021,7 +1204,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Lesser Stamina",
       "enchant": 254,
       "stats": {
-        "sta": null
+        "sta": 4
       }
     },
     {
@@ -1029,7 +1212,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Greater Agility",
       "enchant": 1887,
       "stats": {
-        "agi": null
+        "agi": 7
       }
     },
     {
@@ -1037,7 +1220,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Spirit",
       "enchant": 851,
       "stats": {
-        "spi": null
+        "spi": 5
       }
     },
     {
@@ -1045,15 +1228,7 @@ const templateEnchants = {
       "name": "Enchant Boots - Greater Stamina",
       "enchant": 929,
       "stats": {
-        "sta": null
-      }
-    },
-    {
-      "id": 22725,
-      "name": "Core Armor Kit",
-      "enchant": 2503,
-      "stats": {
-        "defense": null
+        "sta": 7
       }
     }
   ],
@@ -1063,7 +1238,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Minor Deflect",
       "enchant": 924,
       "stats": {
-        "defense": null
+        "defense": 3
       }
     },
     {
@@ -1071,7 +1246,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Minor Stamina",
       "enchant": 66,
       "stats": {
-        "sta": null
+        "sta": 3
       }
     },
     {
@@ -1079,7 +1254,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Minor Agility",
       "enchant": 247,
       "stats": {
-        "agi": null
+        "agi": 3
       }
     },
     {
@@ -1087,7 +1262,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Minor Spirit",
       "enchant": 243,
       "stats": {
-        "spi": null
+        "spi": 3
       }
     },
     {
@@ -1095,7 +1270,7 @@ const templateEnchants = {
       "name": "Imbue Bracers - Minor Wisdom OLD",
       "enchant": 244,
       "stats": {
-        "int": null
+        "int": 4
       }
     },
     {
@@ -1103,7 +1278,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Inferior Stamina",
       "enchant": 41,
       "stats": {
-        "sta": null
+        "sta": 2
       }
     },
     {
@@ -1111,7 +1286,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Minor Strength",
       "enchant": 248,
       "stats": {
-        "str": null
+        "str": 3
       }
     },
     {
@@ -1119,7 +1294,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Lesser Deflection",
       "enchant": 925,
       "stats": {
-        "defense": null
+        "defense": 2
       }
     },
     {
@@ -1127,7 +1302,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Stamina",
       "enchant": 852,
       "stats": {
-        "sta": null
+        "sta": 5
       }
     },
     {
@@ -1135,7 +1310,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Lesser Stamina",
       "enchant": 254,
       "stats": {
-        "sta": null
+        "sta": 4
       }
     },
     {
@@ -1143,7 +1318,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Greater Strength",
       "enchant": 927,
       "stats": {
-        "str": null
+        "str": 7
       }
     },
     {
@@ -1151,7 +1326,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Strength",
       "enchant": 856,
       "stats": {
-        "str": null
+        "str": 5
       }
     },
     {
@@ -1159,7 +1334,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Intellect",
       "enchant": 905,
       "stats": {
-        "int": null
+        "int": 5
       }
     },
     {
@@ -1167,7 +1342,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Deflection",
       "enchant": 923,
       "stats": {
-        "defense": null
+        "defense": 7
       }
     },
     {
@@ -1175,7 +1350,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Greater Stamina",
       "enchant": 929,
       "stats": {
-        "sta": null
+        "sta": 7
       }
     },
     {
@@ -1183,7 +1358,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Spirit",
       "enchant": 851,
       "stats": {
-        "spi": null
+        "spi": 5
       }
     },
     {
@@ -1191,7 +1366,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Greater Spirit",
       "enchant": 907,
       "stats": {
-        "spi": null
+        "spi": 7
       }
     },
     {
@@ -1199,7 +1374,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Superior Strength",
       "enchant": 1885,
       "stats": {
-        "str": null
+        "str": 9
       }
     },
     {
@@ -1207,7 +1382,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Greater Intellect",
       "enchant": 1883,
       "stats": {
-        "int": null
+        "int": 7
       }
     },
     {
@@ -1215,7 +1390,7 @@ const templateEnchants = {
       "name": "Enchant Bracer - Superior Spirit",
       "enchant": 1884,
       "stats": {
-        "spi": null
+        "spi": 9
       }
     },
     {
@@ -1223,7 +1398,47 @@ const templateEnchants = {
       "name": "Enchant Bracer - Superior Stamina",
       "enchant": 1886,
       "stats": {
-        "sta": null
+        "sta": 9
+      }
+    },
+    {
+      "id": 398538,
+      "name": "Runecarve Bracer - Minor Deflect",
+      "enchant": 924,
+      "stats": {
+        "defense": 3
+      }
+    },
+    {
+      "id": 1248458,
+      "name": "Enchant Bracer - Minor Intellect",
+      "enchant": 246,
+      "stats": {
+        "int": 3
+      }
+    },
+    {
+      "id": 1248497,
+      "name": "Enchant Bracer - Agility",
+      "enchant": 904,
+      "stats": {
+        "agi": 5
+      }
+    },
+    {
+      "id": 1248500,
+      "name": "Enchant Bracer - Greater Agility",
+      "enchant": 1887,
+      "stats": {
+        "agi": 7
+      }
+    },
+    {
+      "id": 1248661,
+      "name": "Enchant Bracer - Superior Intellect",
+      "enchant": 1901,
+      "stats": {
+        "int": 9
       }
     }
   ],
@@ -1237,7 +1452,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0,
           0,
           0,
@@ -1253,12 +1468,12 @@ const templateEnchants = {
         "resistance": [
           0,
           0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
         ]
       }
     },
@@ -1270,12 +1485,12 @@ const templateEnchants = {
         "resistance": [
           0,
           0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
         ]
       }
     },
@@ -1291,7 +1506,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0
         ]
       }
@@ -1304,12 +1519,12 @@ const templateEnchants = {
         "resistance": [
           0,
           0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
         ]
       }
     },
@@ -1318,7 +1533,7 @@ const templateEnchants = {
       "name": "Enchant Cloak - Lesser Agility",
       "enchant": 849,
       "stats": {
-        "agi": null
+        "agi": 3
       }
     },
     {
@@ -1329,12 +1544,12 @@ const templateEnchants = {
         "resistance": [
           0,
           0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
         ]
       }
     },
@@ -1343,7 +1558,7 @@ const templateEnchants = {
       "name": "Enchant Cloak - Dodge",
       "enchant": 2622,
       "stats": {
-        "dodge": null
+        "dodge": 1
       }
     },
     {
@@ -1355,7 +1570,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          15,
           0,
           0,
           0,
@@ -1368,7 +1583,7 @@ const templateEnchants = {
       "name": "Enchant Cloak - Subtlety",
       "enchant": 2621,
       "stats": {
-        "threat_mod": null
+        "threat_mod": -2
       }
     },
     {
@@ -1381,7 +1596,24 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          15,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 461129,
+      "name": "Hydraxian Coronation",
+      "enchant": 7564,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          30,
+          0,
           0,
           0,
           0
@@ -1395,7 +1627,7 @@ const templateEnchants = {
       "name": "Enchant Gloves - Strength",
       "enchant": 927,
       "stats": {
-        "str": null
+        "str": 7
       }
     },
     {
@@ -1403,15 +1635,7 @@ const templateEnchants = {
       "name": "Enchant Gloves - Agility",
       "enchant": 1887,
       "stats": {
-        "agi": null
-      }
-    },
-    {
-      "id": 22725,
-      "name": "Core Armor Kit",
-      "enchant": 2503,
-      "stats": {
-        "defense": null
+        "agi": 7
       }
     },
     {
@@ -1419,7 +1643,7 @@ const templateEnchants = {
       "name": "Enchant Gloves - Superior Agility",
       "enchant": 2564,
       "stats": {
-        "agi": null
+        "agi": 15
       }
     },
     {
@@ -1427,7 +1651,15 @@ const templateEnchants = {
       "name": "Enchant Gloves - Threat",
       "enchant": 2613,
       "stats": {
-        "threat_mod": null
+        "threat_mod": 2
+      }
+    },
+    {
+      "id": 1248640,
+      "name": "Enchant Gloves - Superior Strength",
+      "enchant": 2563,
+      "stats": {
+        "str": 15
       }
     }
   ],
@@ -1437,7 +1669,24 @@ const templateEnchants = {
       "name": "Enchant Shield - Lesser Spirit",
       "enchant": 255,
       "stats": {
-        "spi": null
+        "spi": 3
+      }
+    },
+    {
+      "id": 1220623,
+      "name": "Enchant Shield - Critical Strike",
+      "enchant": 7664,
+      "stats": {
+        "crit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     }
   ],
@@ -1447,7 +1696,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1508,
       "stats": {
-        "agi": null
+        "agi": 8
       }
     },
     {
@@ -1455,7 +1704,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1506,
       "stats": {
-        "str": null
+        "str": 8
       }
     },
     {
@@ -1463,7 +1712,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1507,
       "stats": {
-        "sta": null
+        "sta": 8
       }
     },
     {
@@ -1475,7 +1724,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          20,
           0,
           0,
           0,
@@ -1490,7 +1739,7 @@ const templateEnchants = {
       "stats": {
         "resistance": [
           0,
-          null,
+          125,
           0,
           0,
           0,
@@ -1505,7 +1754,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1509,
       "stats": {
-        "int": null
+        "int": 8
       }
     },
     {
@@ -1513,7 +1762,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1510,
       "stats": {
-        "spi": null
+        "spi": 8
       }
     },
     {
@@ -1521,7 +1770,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1503,
       "stats": {
-        "health": null
+        "health": 100
       }
     },
     {
@@ -1529,7 +1778,7 @@ const templateEnchants = {
       "name": "Arcanum of Protection",
       "enchant": 2545,
       "stats": {
-        "dodge": null
+        "dodge": 1
       }
     },
     {
@@ -1537,7 +1786,7 @@ const templateEnchants = {
       "name": "Hoodoo Hex",
       "enchant": 2589,
       "stats": {
-        "sta": null
+        "sta": 10
       }
     },
     {
@@ -1545,9 +1794,9 @@ const templateEnchants = {
       "name": "Death's Embrace",
       "enchant": 2585,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null,
-        "dodge": null
+        "melee_ap": 28,
+        "ranged_ap": 28,
+        "dodge": 1
       }
     },
     {
@@ -1557,7 +1806,7 @@ const templateEnchants = {
       "stats": {
         "hit": [
           0,
-          null,
+          1,
           0,
           0,
           0,
@@ -1565,7 +1814,7 @@ const templateEnchants = {
           0,
           0
         ],
-        "sta": null
+        "sta": 10
       }
     },
     {
@@ -1573,7 +1822,7 @@ const templateEnchants = {
       "name": "Vodouisant's Vigilant Embrace",
       "enchant": 2587,
       "stats": {
-        "int": null
+        "int": 15
       }
     },
     {
@@ -1581,8 +1830,8 @@ const templateEnchants = {
       "name": "Syncretist's Sigil",
       "enchant": 2584,
       "stats": {
-        "sta": null,
-        "defense": null
+        "sta": 10,
+        "defense": 7
       }
     },
     {
@@ -1590,7 +1839,7 @@ const templateEnchants = {
       "name": "Prophetic Aura",
       "enchant": 2590,
       "stats": {
-        "sta": null
+        "sta": 10
       }
     },
     {
@@ -1598,8 +1847,8 @@ const templateEnchants = {
       "name": "Animist's Caress",
       "enchant": 2591,
       "stats": {
-        "sta": null,
-        "int": null
+        "sta": 10,
+        "int": 10
       }
     },
     {
@@ -1607,8 +1856,8 @@ const templateEnchants = {
       "name": "Presence of Might",
       "enchant": 2583,
       "stats": {
-        "sta": null,
-        "defense": null
+        "sta": 10,
+        "defense": 7
       }
     },
     {
@@ -1622,7 +1871,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0,
           0
         ]
@@ -1638,7 +1887,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0,
           0,
           0
@@ -1657,9 +1906,296 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0
         ]
+      }
+    },
+    {
+      "id": 399699,
+      "name": "S03 - Runecarving Test - Sharpen Helm - Critical",
+      "enchant": 2506,
+      "stats": {
+        "crit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468314,
+      "name": "Animist's Caress",
+      "enchant": 7613,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468318,
+      "name": "Animist's Balance",
+      "enchant": 7614,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468321,
+      "name": "Animist's Fury",
+      "enchant": 7615,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "agi": 10
+      }
+    },
+    {
+      "id": 468323,
+      "name": "Animist's Roar",
+      "enchant": 7616,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468325,
+      "name": "Falcon's Call",
+      "enchant": 7617,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468328,
+      "name": "Syncretist's Seal",
+      "enchant": 7618,
+      "stats": {
+        "sta": 20,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468330,
+      "name": "Syncretist's Sigil",
+      "enchant": 7619,
+      "stats": {
+        "sta": 20,
+        "str": 10
+      }
+    },
+    {
+      "id": 468332,
+      "name": "Syncretist's Crest",
+      "enchant": 7620,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468339,
+      "name": "Syncretist's Emblem",
+      "enchant": 7621,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468342,
+      "name": "Prophetic Aura",
+      "enchant": 7622,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468344,
+      "name": "Prophetic Curse",
+      "enchant": 7623,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468347,
+      "name": "Death's Embrace",
+      "enchant": 7624,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468349,
+      "name": "Death's Advance",
+      "enchant": 7625,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468351,
+      "name": "Vodouisant's Embrace",
+      "enchant": 7626,
+      "stats": {
+        "sta": 20,
+        "str": 10
+      }
+    },
+    {
+      "id": 468354,
+      "name": "Vodouisant's Shroud",
+      "enchant": 7627,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468359,
+      "name": "Vodouisant's Charm",
+      "enchant": 7628,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468362,
+      "name": "Vodouisant's Vigilance",
+      "enchant": 7629,
+      "stats": {
+        "sta": 20,
+        "defense": 7,
+        "block_chance": 2
+      }
+    },
+    {
+      "id": 468365,
+      "name": "Hoodoo Hex",
+      "enchant": 7630,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468368,
+      "name": "Hoodoo Curse",
+      "enchant": 7631,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "defense": 7
+      }
+    },
+    {
+      "id": 468373,
+      "name": "Presence of Might",
+      "enchant": 7632,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "agi": 10
+      }
+    },
+    {
+      "id": 468376,
+      "name": "Presence of Valor",
+      "enchant": 7633,
+      "stats": {
+        "sta": 20,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468380,
+      "name": "Presence of Sight",
+      "enchant": 7634,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468383,
+      "name": "Falcon's Fury",
+      "enchant": 7635,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "str": 10
       }
     }
   ],
@@ -1669,7 +2205,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1508,
       "stats": {
-        "agi": null
+        "agi": 8
       }
     },
     {
@@ -1677,7 +2213,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1506,
       "stats": {
-        "str": null
+        "str": 8
       }
     },
     {
@@ -1685,7 +2221,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1507,
       "stats": {
-        "sta": null
+        "sta": 8
       }
     },
     {
@@ -1697,7 +2233,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          20,
           0,
           0,
           0,
@@ -1714,7 +2250,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          15,
           0,
           0,
           0,
@@ -1731,7 +2267,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1746,7 +2282,7 @@ const templateEnchants = {
       "stats": {
         "resistance": [
           0,
-          null,
+          125,
           0,
           0,
           0,
@@ -1761,12 +2297,12 @@ const templateEnchants = {
       "name": "Greater Arcane Amalgamation",
       "enchant": 1527,
       "stats": {
-        "sta": null,
+        "sta": 10,
         "resistance": [
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1783,7 +2319,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1796,12 +2332,12 @@ const templateEnchants = {
       "name": "Greater Arcane Amalgamation",
       "enchant": 1530,
       "stats": {
-        "spi": null,
+        "spi": 10,
         "resistance": [
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1814,7 +2350,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1509,
       "stats": {
-        "int": null
+        "int": 8
       }
     },
     {
@@ -1822,7 +2358,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1510,
       "stats": {
-        "spi": null
+        "spi": 8
       }
     },
     {
@@ -1830,12 +2366,12 @@ const templateEnchants = {
       "name": "Greater Arcane Amalgamation",
       "enchant": 1526,
       "stats": {
-        "str": null,
+        "str": 10,
         "resistance": [
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1848,7 +2384,7 @@ const templateEnchants = {
       "name": "Lesser Arcane Amalgamation",
       "enchant": 1503,
       "stats": {
-        "health": null
+        "health": 100
       }
     },
     {
@@ -1856,12 +2392,12 @@ const templateEnchants = {
       "name": "Greater Arcane Amalgamation",
       "enchant": 1528,
       "stats": {
-        "agi": null,
+        "agi": 10,
         "resistance": [
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1874,12 +2410,12 @@ const templateEnchants = {
       "name": "Greater Arcane Amalgamation",
       "enchant": 1529,
       "stats": {
-        "int": null,
+        "int": 10,
         "resistance": [
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1892,8 +2428,8 @@ const templateEnchants = {
       "name": "Legendary Arcane Amalgamation",
       "enchant": 1543,
       "stats": {
-        "int": null,
-        "spi": null
+        "int": 10,
+        "spi": 10
       }
     },
     {
@@ -1901,12 +2437,12 @@ const templateEnchants = {
       "name": "Greater Arcane Amalgamation",
       "enchant": 1524,
       "stats": {
-        "health": null,
+        "health": 75,
         "resistance": [
           0,
           0,
           0,
-          null,
+          14,
           0,
           0,
           0,
@@ -1919,7 +2455,7 @@ const templateEnchants = {
       "name": "Arcanum of Protection",
       "enchant": 2545,
       "stats": {
-        "dodge": null
+        "dodge": 1
       }
     },
     {
@@ -1927,15 +2463,7 @@ const templateEnchants = {
       "name": "Hoodoo Hex",
       "enchant": 2589,
       "stats": {
-        "sta": null
-      }
-    },
-    {
-      "id": 22725,
-      "name": "Core Armor Kit",
-      "enchant": 2503,
-      "stats": {
-        "defense": null
+        "sta": 10
       }
     },
     {
@@ -1943,9 +2471,9 @@ const templateEnchants = {
       "name": "Death's Embrace",
       "enchant": 2585,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null,
-        "dodge": null
+        "melee_ap": 28,
+        "ranged_ap": 28,
+        "dodge": 1
       }
     },
     {
@@ -1955,7 +2483,7 @@ const templateEnchants = {
       "stats": {
         "hit": [
           0,
-          null,
+          1,
           0,
           0,
           0,
@@ -1963,7 +2491,7 @@ const templateEnchants = {
           0,
           0
         ],
-        "sta": null
+        "sta": 10
       }
     },
     {
@@ -1971,7 +2499,7 @@ const templateEnchants = {
       "name": "Vodouisant's Vigilant Embrace",
       "enchant": 2587,
       "stats": {
-        "int": null
+        "int": 15
       }
     },
     {
@@ -1979,8 +2507,8 @@ const templateEnchants = {
       "name": "Syncretist's Sigil",
       "enchant": 2584,
       "stats": {
-        "sta": null,
-        "defense": null
+        "sta": 10,
+        "defense": 7
       }
     },
     {
@@ -1988,7 +2516,7 @@ const templateEnchants = {
       "name": "Prophetic Aura",
       "enchant": 2590,
       "stats": {
-        "sta": null
+        "sta": 10
       }
     },
     {
@@ -1996,8 +2524,8 @@ const templateEnchants = {
       "name": "Animist's Caress",
       "enchant": 2591,
       "stats": {
-        "sta": null,
-        "int": null
+        "sta": 10,
+        "int": 10
       }
     },
     {
@@ -2005,8 +2533,8 @@ const templateEnchants = {
       "name": "Presence of Might",
       "enchant": 2583,
       "stats": {
-        "sta": null,
-        "defense": null
+        "sta": 10,
+        "defense": 7
       }
     },
     {
@@ -2020,7 +2548,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0,
           0
         ]
@@ -2036,7 +2564,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0,
           0,
           0
@@ -2055,9 +2583,279 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          10,
           0
         ]
+      }
+    },
+    {
+      "id": 468314,
+      "name": "Animist's Caress",
+      "enchant": 7613,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468318,
+      "name": "Animist's Balance",
+      "enchant": 7614,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468321,
+      "name": "Animist's Fury",
+      "enchant": 7615,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "agi": 10
+      }
+    },
+    {
+      "id": 468323,
+      "name": "Animist's Roar",
+      "enchant": 7616,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468325,
+      "name": "Falcon's Call",
+      "enchant": 7617,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468328,
+      "name": "Syncretist's Seal",
+      "enchant": 7618,
+      "stats": {
+        "sta": 20,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468330,
+      "name": "Syncretist's Sigil",
+      "enchant": 7619,
+      "stats": {
+        "sta": 20,
+        "str": 10
+      }
+    },
+    {
+      "id": 468332,
+      "name": "Syncretist's Crest",
+      "enchant": 7620,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468339,
+      "name": "Syncretist's Emblem",
+      "enchant": 7621,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468342,
+      "name": "Prophetic Aura",
+      "enchant": 7622,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468344,
+      "name": "Prophetic Curse",
+      "enchant": 7623,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468347,
+      "name": "Death's Embrace",
+      "enchant": 7624,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468349,
+      "name": "Death's Advance",
+      "enchant": 7625,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468351,
+      "name": "Vodouisant's Embrace",
+      "enchant": 7626,
+      "stats": {
+        "sta": 20,
+        "str": 10
+      }
+    },
+    {
+      "id": 468354,
+      "name": "Vodouisant's Shroud",
+      "enchant": 7627,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468359,
+      "name": "Vodouisant's Charm",
+      "enchant": 7628,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468362,
+      "name": "Vodouisant's Vigilance",
+      "enchant": 7629,
+      "stats": {
+        "sta": 20,
+        "defense": 7,
+        "block_chance": 2
+      }
+    },
+    {
+      "id": 468365,
+      "name": "Hoodoo Hex",
+      "enchant": 7630,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 468368,
+      "name": "Hoodoo Curse",
+      "enchant": 7631,
+      "stats": {
+        "sta": 20,
+        "hit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "defense": 7
+      }
+    },
+    {
+      "id": 468373,
+      "name": "Presence of Might",
+      "enchant": 7632,
+      "stats": {
+        "sta": 20,
+        "str": 10,
+        "agi": 10
+      }
+    },
+    {
+      "id": 468376,
+      "name": "Presence of Valor",
+      "enchant": 7633,
+      "stats": {
+        "sta": 20,
+        "defense": 7
+      }
+    },
+    {
+      "id": 468380,
+      "name": "Presence of Sight",
+      "enchant": 7634,
+      "stats": {
+        "sta": 20,
+        "int": 10
+      }
+    },
+    {
+      "id": 468383,
+      "name": "Falcon's Fury",
+      "enchant": 7635,
+      "stats": {
+        "sta": 20,
+        "agi": 10,
+        "str": 10
       }
     }
   ],
@@ -2072,7 +2870,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          5,
           0,
           0,
           0
@@ -2092,7 +2890,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null
+          5
         ]
       }
     },
@@ -2104,12 +2902,12 @@ const templateEnchants = {
         "resistance": [
           0,
           0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
         ]
       }
     },
@@ -2122,7 +2920,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          5,
           0,
           0,
           0,
@@ -2142,7 +2940,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          5,
           0
         ]
       }
@@ -2158,7 +2956,7 @@ const templateEnchants = {
           0,
           0,
           0,
-          null,
+          5,
           0,
           0
         ]
@@ -2169,8 +2967,8 @@ const templateEnchants = {
       "name": "Zandalar Signet of Might",
       "enchant": 2606,
       "stats": {
-        "melee_ap": null,
-        "ranged_ap": null
+        "melee_ap": 30,
+        "ranged_ap": 30
       }
     },
     {
@@ -2178,10 +2976,10 @@ const templateEnchants = {
       "name": "Fortitude of the Scourge",
       "enchant": 2716,
       "stats": {
-        "sta": null,
+        "sta": 16,
         "resistance": [
           0,
-          null,
+          100,
           0,
           0,
           0,
@@ -2198,7 +2996,7 @@ const templateEnchants = {
       "stats": {
         "crit": [
           0,
-          null,
+          1,
           0,
           0,
           0,
@@ -2206,8 +3004,223 @@ const templateEnchants = {
           0,
           0
         ],
-        "melee_ap": null,
-        "ranged_ap": null
+        "melee_ap": 26,
+        "ranged_ap": 26
+      }
+    },
+    {
+      "id": 446451,
+      "name": "Atal'ai Signet of Might",
+      "enchant": 7328,
+      "stats": {
+        "melee_ap": 15,
+        "ranged_ap": 15
+      }
+    },
+    {
+      "id": 460963,
+      "name": "Blessed Flame Mantle of the Dawn",
+      "enchant": 7563,
+      "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219510,
+      "name": "Power of the Scourge",
+      "enchant": 7883,
+      "stats": {
+        "crit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219511,
+      "name": "Fortitude of the Scourge",
+      "enchant": 7885,
+      "stats": {
+        "sta": 16,
+        "defense": 7
+      }
+    },
+    {
+      "id": 1219512,
+      "name": "Might of the Scourge",
+      "enchant": 7884,
+      "stats": {
+        "crit": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "melee_ap": 26,
+        "ranged_ap": 26
+      }
+    },
+    {
+      "id": 1219774,
+      "name": "Soul of the Shiv Savant",
+      "enchant": 7696,
+      "stats": {
+        "crit": [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219786,
+      "name": "Soul of the Refined",
+      "enchant": 7708,
+      "stats": {
+        "crit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219825,
+      "name": "Soul of the Refined",
+      "enchant": 7746,
+      "stats": {
+        "crit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219855,
+      "name": "Soul of the Kindler",
+      "enchant": 7776,
+      "stats": {
+        "threat_mod": -20
+      }
+    },
+    {
+      "id": 1219870,
+      "name": "Soul of the Refined",
+      "enchant": 7791,
+      "stats": {
+        "crit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219903,
+      "name": "Soul of the Refined",
+      "enchant": 7824,
+      "stats": {
+        "crit": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 1219918,
+      "name": "Soul of the Ancestral Warden",
+      "enchant": 7839,
+      "stats": {
+        "block_chance": 10
+      }
+    },
+    {
+      "id": 1219945,
+      "name": "Soul of the Lunatic",
+      "enchant": 7866,
+      "stats": {
+        "hit": [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "neck_enchant": [
+    {
+      "id": 1249019,
+      "name": "Enchant Necklace - Strength",
+      "enchant": 856,
+      "stats": {
+        "str": 5
+      }
+    },
+    {
+      "id": 1249059,
+      "name": "Enchant Necklace - Agility",
+      "enchant": 904,
+      "stats": {
+        "agi": 5
+      }
+    },
+    {
+      "id": 1249060,
+      "name": "Enchant Necklace - Deflection",
+      "enchant": 925,
+      "stats": {
+        "defense": 2
       }
     }
   ]

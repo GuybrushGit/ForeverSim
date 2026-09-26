@@ -144,7 +144,6 @@ export default function SpellGenerator() {
 
 	function generateData() {
 		for (let effect of spellEffect) {
-			if (Number(effect.SpellID) > 100000) continue;
 			if (Number(effect.Effect) == 53 || Number(effect.Effect) == 54 || Number(effect.Effect) == 92) {
 				let enchant = getRow(spellItemEnchantment, effect['EffectMiscValue[0]']);
 				let effectType = Number(enchant['Effect[0]']);
@@ -199,81 +198,70 @@ export default function SpellGenerator() {
 						for (let stEff of statEffects) {
 							switch (Number(stEff.EffectAura)) {
 								case AuraType.ModStat:
-									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_STRENGTH)
-										obj.stats.str = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_AGILITY)
-										obj.stats.agi = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_STAMINA)
-										obj.stats.sta = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_INTELLECT)
-										obj.stats.int = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_SPIRIT)
-										obj.stats.spi = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_STRENGTH) obj.stats.str = Number(stEff.EffectBasePointsF);
+									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_AGILITY) obj.stats.agi = Number(stEff.EffectBasePointsF);
+									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_STAMINA) obj.stats.sta = Number(stEff.EffectBasePointsF);
+									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_INTELLECT) obj.stats.int = Number(stEff.EffectBasePointsF);
+									if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_SPIRIT) obj.stats.spi = Number(stEff.EffectBasePointsF);
 									if (Number(stEff['EffectMiscValue[0]']) == -1) {
-										obj.stats.str = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-										obj.stats.agi = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-										obj.stats.sta = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-										obj.stats.int = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-										obj.stats.spi = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+										obj.stats.str = Number(stEff.EffectBasePointsF);
+										obj.stats.agi = Number(stEff.EffectBasePointsF);
+										obj.stats.sta = Number(stEff.EffectBasePointsF);
+										obj.stats.int = Number(stEff.EffectBasePointsF);
+										obj.stats.spi = Number(stEff.EffectBasePointsF);
 									}
 									break;
 								case AuraType.ModResistance:
 									let misc = Number(stEff['EffectMiscValue[0]']);
 									if (misc > 0) obj.stats.resistance = Array(8).fill(0);
-									if (misc & SchoolMask.Physical)
-										obj.stats.resistance[SpellSchool.Physical] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (misc & SchoolMask.Holy) obj.stats.resistance[SpellSchool.Holy] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (misc & SchoolMask.Fire) obj.stats.resistance[SpellSchool.Fire] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (misc & SchoolMask.Nature)
-										obj.stats.resistance[SpellSchool.Nature] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (misc & SchoolMask.Frost)
-										obj.stats.resistance[SpellSchool.Frost] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (misc & SchoolMask.Shadow)
-										obj.stats.resistance[SpellSchool.Shadow] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									if (misc & SchoolMask.Arcane)
-										obj.stats.resistance[SpellSchool.Arcane] = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									if (misc & SchoolMask.Physical) obj.stats.resistance[SpellSchool.Physical] = Number(stEff.EffectBasePointsF);
+									if (misc & SchoolMask.Holy) obj.stats.resistance[SpellSchool.Holy] = Number(stEff.EffectBasePointsF);
+									if (misc & SchoolMask.Fire) obj.stats.resistance[SpellSchool.Fire] = Number(stEff.EffectBasePointsF);
+									if (misc & SchoolMask.Nature) obj.stats.resistance[SpellSchool.Nature] = Number(stEff.EffectBasePointsF);
+									if (misc & SchoolMask.Frost) obj.stats.resistance[SpellSchool.Frost] = Number(stEff.EffectBasePointsF);
+									if (misc & SchoolMask.Shadow) obj.stats.resistance[SpellSchool.Shadow] = Number(stEff.EffectBasePointsF);
+									if (misc & SchoolMask.Arcane) obj.stats.resistance[SpellSchool.Arcane] = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModAttackPower:
-									obj.stats.melee_ap = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									obj.stats.ranged_ap = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.melee_ap = Number(stEff.EffectBasePointsF);
+									obj.stats.ranged_ap = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModMeleeHaste:
 									obj.stats.haste = Array(4).fill(1);
-									obj.stats.haste[SpellSchool.Physical] += Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.haste[SpellSchool.Physical] += Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModWeaponCritPercent:
 									if (!obj.stats.crit) obj.stats.crit = Array(8).fill(0);
-									obj.stats.crit[SpellSchool.Physical] += Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.crit[SpellSchool.Physical] += Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModHitChance:
 									if (!obj.stats.hit) obj.stats.hit = Array(8).fill(0);
-									obj.stats.hit[SpellSchool.Physical] += Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.hit[SpellSchool.Physical] += Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModThreat:
-									obj.stats.threat_mod = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.threat_mod = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.Block:
-									obj.stats.block_amount = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.block_amount = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModSkill:
-									if (Number(stEff['EffectMiscValue[0]']) == SkillType.SKILL_DEFENSE)
-										obj.stats.defense = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									if (Number(stEff['EffectMiscValue[0]']) == SkillType.SKILL_DEFENSE) obj.stats.defense = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModIncreaseHealth:
-									obj.stats.health = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.health = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModBlockPercent:
-									obj.stats.block_chance = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.block_chance = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModDodgePercent:
-									obj.stats.dodge = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.dodge = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModDamageDoneCreature:
-									obj.weapondmg = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.weapondmg = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ModMeleeAttackPowerVersus:
-									obj.stats.melee_ap = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
-									obj.stats.ranged_ap = Number(stEff.EffectBasePoints) + Number(stEff.EffectDieSides);
+									obj.stats.melee_ap = Number(stEff.EffectBasePointsF);
+									obj.stats.ranged_ap = Number(stEff.EffectBasePointsF);
 									break;
 								case AuraType.ProcTriggerDamage:
 									// only shield spikes?

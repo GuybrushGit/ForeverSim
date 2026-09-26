@@ -146,7 +146,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		{ field: 'stats.str', headerName: 'Str' },
 		{ field: 'stats.agi', headerName: 'Agi' },
 		{ field: 'stats.sta', headerName: 'Sta' },
-		{ field: 'stats.ap', headerName: 'AP' },
+		{ field: 'stats.melee_ap', headerName: 'AP' },
 		{
 			field: 'stats.hit_rate',
 			headerName: 'Hit',
