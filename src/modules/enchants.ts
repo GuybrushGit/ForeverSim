@@ -1411,14 +1411,6 @@ const templateEnchants = {
       "enchant": 8491
     },
     {
-      "id": 1294054,
-      "name": "Enchant Gloves - Lotus Claw",
-      "enchant": 8695,
-      "stats": {},
-      "procSpell": 1294053,
-      "procChance": 12
-    },
-    {
       "id": 1306907,
       "name": "Wild Leather Armor Kit",
       "enchant": 8719,
@@ -1500,35 +1492,11 @@ const templateEnchants = {
       }
     },
     {
-      "id": 8027,
-      "name": "Flametongue Weapon",
-      "enchant": 4,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 8038,
       "name": "Frostbrand Weapon",
       "enchant": 12,
       "procSpell": 8037,
       "procPPM": 1
-    },
-    {
-      "id": 8024,
-      "name": "Flametongue Weapon",
-      "enchant": 5,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
-      "id": 8030,
-      "name": "Flametongue Weapon",
-      "enchant": 3,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
     },
     {
       "id": 8033,
@@ -1608,14 +1576,6 @@ const templateEnchants = {
       }
     },
     {
-      "id": 16341,
-      "name": "Flametongue Weapon",
-      "enchant": 1665,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 16356,
       "name": "Frostbrand Weapon",
       "enchant": 1668,
@@ -1627,31 +1587,6 @@ const templateEnchants = {
       "name": "Sharpen Blade V",
       "enchant": 1643,
       "weapondmg": 8
-    },
-    {
-      "id": 16362,
-      "name": "Windfury Weapon",
-      "enchant": 1669,
-      "stats": {},
-      "procSpell": 439431,
-      "procChance": 20,
-      "procCooldown": 200
-    },
-    {
-      "id": 16342,
-      "name": "Flametongue Weapon",
-      "enchant": 1666,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
-      "id": 16339,
-      "name": "Flametongue Weapon",
-      "enchant": 523,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
     },
     {
       "id": 16355,
@@ -1718,14 +1653,6 @@ const templateEnchants = {
       "procPPM": 1
     },
     {
-      "id": 461634,
-      "name": "Flametongue Weapon",
-      "enchant": 7567,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 461635,
       "name": "Rockbiter Weapon",
       "enchant": 7568,
@@ -1780,6 +1707,30 @@ const templateEnchants = {
       "enchant": 8698,
       "procSpell": 1296223,
       "procPPM": 1
+    },
+    {
+      "id": 8512,
+      "name": "Windfury Weapon",
+      "enchant": 1669,
+      "procSpell": 8516,
+      "procChance": 20,
+      "procCooldown": 200
+    },
+    {
+      "id": 10613,
+      "name": "Windfury Weapon",
+      "enchant": 1669,
+      "procSpell": 10608,
+      "procChance": 20,
+      "procCooldown": 200
+    },
+    {
+      "id": 10614,
+      "name": "Windfury Weapon",
+      "enchant": 1669,
+      "procSpell": 10610,
+      "procChance": 20,
+      "procCooldown": 200
     }
   ],
   "offhand_tempenchant": [
@@ -1892,14 +1843,6 @@ const templateEnchants = {
       "procPPM": 1
     },
     {
-      "id": 461634,
-      "name": "Flametongue Weapon",
-      "enchant": 7567,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 461635,
       "name": "Rockbiter Weapon",
       "enchant": 7568,
@@ -1985,35 +1928,11 @@ const templateEnchants = {
       }
     },
     {
-      "id": 8027,
-      "name": "Flametongue Weapon",
-      "enchant": 4,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 8038,
       "name": "Frostbrand Weapon",
       "enchant": 12,
       "procSpell": 8037,
       "procPPM": 1
-    },
-    {
-      "id": 8024,
-      "name": "Flametongue Weapon",
-      "enchant": 5,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
-      "id": 8030,
-      "name": "Flametongue Weapon",
-      "enchant": 3,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
     },
     {
       "id": 8033,
@@ -2093,14 +2012,6 @@ const templateEnchants = {
       }
     },
     {
-      "id": 16341,
-      "name": "Flametongue Weapon",
-      "enchant": 1665,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 16356,
       "name": "Frostbrand Weapon",
       "enchant": 1668,
@@ -2112,31 +2023,6 @@ const templateEnchants = {
       "name": "Sharpen Blade V",
       "enchant": 1643,
       "weapondmg": 8
-    },
-    {
-      "id": 16362,
-      "name": "Windfury Weapon",
-      "enchant": 1669,
-      "stats": {},
-      "procSpell": 439431,
-      "procChance": 20,
-      "procCooldown": 200
-    },
-    {
-      "id": 16342,
-      "name": "Flametongue Weapon",
-      "enchant": 1666,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
-      "id": 16339,
-      "name": "Flametongue Weapon",
-      "enchant": 523,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
     },
     {
       "id": 16355,
@@ -2203,14 +2089,6 @@ const templateEnchants = {
       "procPPM": 1
     },
     {
-      "id": 461634,
-      "name": "Flametongue Weapon",
-      "enchant": 7567,
-      "stats": {},
-      "procSpell": 436519,
-      "procChance": 100
-    },
-    {
       "id": 461635,
       "name": "Rockbiter Weapon",
       "enchant": 7568,
@@ -2274,6 +2152,30 @@ const templateEnchants = {
       "enchant": 8698,
       "procSpell": 1296223,
       "procPPM": 1
+    },
+    {
+      "id": 8512,
+      "name": "Windfury Weapon",
+      "enchant": 1669,
+      "procSpell": 8516,
+      "procChance": 20,
+      "procCooldown": 200
+    },
+    {
+      "id": 10613,
+      "name": "Windfury Weapon",
+      "enchant": 1669,
+      "procSpell": 10608,
+      "procChance": 20,
+      "procCooldown": 200
+    },
+    {
+      "id": 10614,
+      "name": "Windfury Weapon",
+      "enchant": 1669,
+      "procSpell": 10610,
+      "procChance": 20,
+      "procCooldown": 200
     }
   ],
   "mainhand_enchant": [
@@ -3712,14 +3614,6 @@ const templateEnchants = {
       }
     },
     {
-      "id": 432190,
-      "name": "Wolfshead Trophy",
-      "enchant": 7124,
-      "stats": {},
-      "procSpell": 17768,
-      "procPPM": 1
-    },
-    {
       "id": 468314,
       "name": "Animist's Caress",
       "enchant": 7613,
@@ -4254,86 +4148,6 @@ const templateEnchants = {
       }
     },
     {
-      "id": 1219740,
-      "name": "Soul of the Tactician",
-      "enchant": 7668,
-      "stats": {},
-      "procSpell": 457652,
-      "procPPM": 1
-    },
-    {
-      "id": 1219742,
-      "name": "Soul of the War Veteran",
-      "enchant": 7669,
-      "stats": {},
-      "procSpell": 457697,
-      "procPPM": 1
-    },
-    {
-      "id": 1219743,
-      "name": "Soul of the Battle Forecaster",
-      "enchant": 7670,
-      "stats": {},
-      "procSpell": 457820,
-      "procPPM": 1
-    },
-    {
-      "id": 1219745,
-      "name": "Soul of the Bloodseeker",
-      "enchant": 7671,
-      "stats": {},
-      "procSpell": 468072,
-      "procPPM": 1
-    },
-    {
-      "id": 1219748,
-      "name": "Soul of the Destroyer",
-      "enchant": 7673,
-      "stats": {},
-      "procSpell": 468236,
-      "procPPM": 1
-    },
-    {
-      "id": 1219751,
-      "name": "Soul of the Sanguinist",
-      "enchant": 7675,
-      "stats": {},
-      "procSpell": 1214163,
-      "procPPM": 1
-    },
-    {
-      "id": 1219757,
-      "name": "Soul of the Incessant",
-      "enchant": 7681,
-      "stats": {},
-      "procSpell": 468069,
-      "procPPM": 1
-    },
-    {
-      "id": 1219763,
-      "name": "Soul of the Gladiator",
-      "enchant": 7686,
-      "stats": {},
-      "procSpell": 468453,
-      "procPPM": 1
-    },
-    {
-      "id": 1219770,
-      "name": "Soul of the Butcher",
-      "enchant": 7692,
-      "stats": {},
-      "procSpell": 467737,
-      "procPPM": 1
-    },
-    {
-      "id": 1219771,
-      "name": "Soul of the Phantom",
-      "enchant": 7693,
-      "stats": {},
-      "procSpell": 467739,
-      "procPPM": 1
-    },
-    {
       "id": 1219774,
       "name": "Soul of the Shiv Savant",
       "enchant": 7696,
@@ -4349,54 +4163,6 @@ const templateEnchants = {
           0
         ]
       }
-    },
-    {
-      "id": 1219777,
-      "name": "Soul of the Knife Juggler",
-      "enchant": 7699,
-      "stats": {},
-      "procSpell": 457349,
-      "procPPM": 1
-    },
-    {
-      "id": 1219780,
-      "name": "Soul of the Poised Brawler",
-      "enchant": 7702,
-      "stats": {},
-      "procSpell": 467746,
-      "procPPM": 1
-    },
-    {
-      "id": 1219782,
-      "name": "Soul of the Fencer",
-      "enchant": 7704,
-      "stats": {},
-      "procSpell": 467803,
-      "procPPM": 1
-    },
-    {
-      "id": 1219783,
-      "name": "Soul of the Swashbuckler",
-      "enchant": 7705,
-      "stats": {},
-      "procSpell": 1213754,
-      "procPPM": 1
-    },
-    {
-      "id": 1219784,
-      "name": "Soul of the Bloodthirsty",
-      "enchant": 7706,
-      "stats": {},
-      "procSpell": 1213759,
-      "procPPM": 1
-    },
-    {
-      "id": 1219785,
-      "name": "Soul of the Transfusionist",
-      "enchant": 7707,
-      "stats": {},
-      "procSpell": 457548,
-      "procPPM": 1
     },
     {
       "id": 1219786,
@@ -4416,150 +4182,6 @@ const templateEnchants = {
       }
     },
     {
-      "id": 1219790,
-      "name": "Soul of the Shadowmancer",
-      "enchant": 7712,
-      "stats": {},
-      "procSpell": 467988,
-      "procPPM": 1
-    },
-    {
-      "id": 1219793,
-      "name": "Soul of the Infernal Shepherd",
-      "enchant": 7715,
-      "stats": {},
-      "procSpell": 468446,
-      "procPPM": 1
-    },
-    {
-      "id": 1219794,
-      "name": "Soul of the Demonlord",
-      "enchant": 7716,
-      "stats": {},
-      "procSpell": 468447,
-      "procPPM": 1
-    },
-    {
-      "id": 1219796,
-      "name": "Soul of the Pained",
-      "enchant": 7718,
-      "stats": {},
-      "procSpell": 457572,
-      "procPPM": 1
-    },
-    {
-      "id": 1219798,
-      "name": "Soul of the Fleshfeaster",
-      "enchant": 7720,
-      "stats": {},
-      "procSpell": 468028,
-      "procPPM": 1
-    },
-    {
-      "id": 1219799,
-      "name": "Soul of the Abyssal",
-      "enchant": 7721,
-      "stats": {},
-      "procSpell": 468046,
-      "procPPM": 1
-    },
-    {
-      "id": 1219800,
-      "name": "Soul of the Voidborne",
-      "enchant": 7722,
-      "stats": {},
-      "procSpell": 468061,
-      "procPPM": 1
-    },
-    {
-      "id": 1219802,
-      "name": "Soul of the Ritualist",
-      "enchant": 7724,
-      "stats": {},
-      "procSpell": 1214095,
-      "procPPM": 1
-    },
-    {
-      "id": 1219805,
-      "name": "Soul of the Preyseeker",
-      "enchant": 7727,
-      "stats": {},
-      "procSpell": 457324,
-      "procPPM": 1
-    },
-    {
-      "id": 1219807,
-      "name": "Soul of the Hazard Harrier",
-      "enchant": 7729,
-      "stats": {},
-      "procSpell": 467235,
-      "procPPM": 1
-    },
-    {
-      "id": 1219808,
-      "name": "Soul of the Alternator",
-      "enchant": 7730,
-      "stats": {},
-      "procSpell": 467312,
-      "procPPM": 1
-    },
-    {
-      "id": 1219809,
-      "name": "Soul of the Toxinologist",
-      "enchant": 7731,
-      "stats": {},
-      "procSpell": 467326,
-      "procPPM": 1
-    },
-    {
-      "id": 1219810,
-      "name": "Soul of the Bounty Hunter",
-      "enchant": 7732,
-      "stats": {},
-      "procSpell": 1213306,
-      "procPPM": 1
-    },
-    {
-      "id": 1219811,
-      "name": "Soul of the Trick Shooter",
-      "enchant": 7733,
-      "stats": {},
-      "procSpell": 1213246,
-      "procPPM": 1
-    },
-    {
-      "id": 1219812,
-      "name": "Soul of the Beast Tender",
-      "enchant": 7734,
-      "stats": {},
-      "procSpell": 468417,
-      "procPPM": 1
-    },
-    {
-      "id": 1219820,
-      "name": "Soul of the Lethal Lasher",
-      "enchant": 7741,
-      "stats": {},
-      "procSpell": 467333,
-      "procPPM": 1
-    },
-    {
-      "id": 1219821,
-      "name": "Soul of the Kineticist",
-      "enchant": 7742,
-      "stats": {},
-      "procSpell": 467334,
-      "procPPM": 1
-    },
-    {
-      "id": 1219822,
-      "name": "Soul of the Strategist",
-      "enchant": 7743,
-      "stats": {},
-      "procSpell": 1213307,
-      "procPPM": 1
-    },
-    {
       "id": 1219825,
       "name": "Soul of the Refined",
       "enchant": 7746,
@@ -4577,212 +4199,12 @@ const templateEnchants = {
       }
     },
     {
-      "id": 1219829,
-      "name": "Soul of the Resonant",
-      "enchant": 7750,
-      "stats": {},
-      "procSpell": 467586,
-      "procPPM": 1
-    },
-    {
-      "id": 1219831,
-      "name": "Soul of the Archbishop",
-      "enchant": 7752,
-      "stats": {},
-      "procSpell": 1213631,
-      "procPPM": 1
-    },
-    {
-      "id": 1219833,
-      "name": "Soul of the Soul Warder",
-      "enchant": 7754,
-      "stats": {},
-      "procSpell": 468434,
-      "procPPM": 1
-    },
-    {
-      "id": 1219837,
-      "name": "Soul of the Spirit Font",
-      "enchant": 7758,
-      "stats": {},
-      "procSpell": 467608,
-      "procPPM": 1
-    },
-    {
-      "id": 1219838,
-      "name": "Soul of the Zealot",
-      "enchant": 7759,
-      "stats": {},
-      "procSpell": 467624,
-      "procPPM": 1
-    },
-    {
-      "id": 1219841,
-      "name": "Soul of the Plaguebringer",
-      "enchant": 7762,
-      "stats": {},
-      "procSpell": 1213708,
-      "procPPM": 1
-    },
-    {
-      "id": 1219844,
-      "name": "Soul of Temporal Longing",
-      "enchant": 7765,
-      "stats": {},
-      "procSpell": 456481,
-      "procPPM": 1
-    },
-    {
-      "id": 1219845,
-      "name": "Soul of the Precognitive",
-      "enchant": 7766,
-      "stats": {},
-      "procSpell": 467401,
-      "procPPM": 1
-    },
-    {
-      "id": 1219846,
-      "name": "Soul of the Arcanist",
-      "enchant": 7767,
-      "stats": {},
-      "procSpell": 467405,
-      "procPPM": 1
-    },
-    {
-      "id": 1219847,
-      "name": "Soul of the Eternal Caretaker",
-      "enchant": 7768,
-      "stats": {},
-      "procSpell": 467494,
-      "procPPM": 1
-    },
-    {
-      "id": 1219850,
-      "name": "Soul of Winter's Grasp",
-      "enchant": 7771,
-      "stats": {},
-      "procSpell": 468425,
-      "procPPM": 1
-    },
-    {
-      "id": 1219852,
-      "name": "Soul of the Evoker",
-      "enchant": 7773,
-      "stats": {},
-      "procSpell": 456396,
-      "procPPM": 1
-    },
-    {
-      "id": 1219853,
-      "name": "Soul of the Elementalist",
-      "enchant": 7774,
-      "stats": {},
-      "procSpell": 456398,
-      "procPPM": 1
-    },
-    {
-      "id": 1219854,
-      "name": "Soul of the Magical Armorer",
-      "enchant": 7775,
-      "stats": {},
-      "procSpell": 456402,
-      "procPPM": 1
-    },
-    {
       "id": 1219855,
       "name": "Soul of the Kindler",
       "enchant": 7776,
       "stats": {
         "threat_mod": -20
       }
-    },
-    {
-      "id": 1219856,
-      "name": "Soul of Fiery Convergence",
-      "enchant": 7777,
-      "stats": {},
-      "procSpell": 467388,
-      "procPPM": 1
-    },
-    {
-      "id": 1219857,
-      "name": "Soul of the Perpetual Blaze",
-      "enchant": 7778,
-      "stats": {},
-      "procSpell": 467399,
-      "procPPM": 1
-    },
-    {
-      "id": 1219858,
-      "name": "Soul of the Pyromaniac",
-      "enchant": 7779,
-      "stats": {},
-      "procSpell": 1213318,
-      "procPPM": 1
-    },
-    {
-      "id": 1219859,
-      "name": "Soul of the Igniter",
-      "enchant": 7780,
-      "stats": {},
-      "procSpell": 1213319,
-      "procPPM": 1
-    },
-    {
-      "id": 1219860,
-      "name": "Soul of the Torcher",
-      "enchant": 7781,
-      "stats": {},
-      "procSpell": 1213321,
-      "procPPM": 1
-    },
-    {
-      "id": 1219863,
-      "name": "Soul of the Radiant Defender",
-      "enchant": 7784,
-      "stats": {},
-      "procSpell": 456541,
-      "procPPM": 1
-    },
-    {
-      "id": 1219865,
-      "name": "Soul of the Bastion",
-      "enchant": 7786,
-      "stats": {},
-      "procSpell": 467532,
-      "procPPM": 1
-    },
-    {
-      "id": 1219866,
-      "name": "Soul of the Reckoner",
-      "enchant": 7787,
-      "stats": {},
-      "procSpell": 467536,
-      "procPPM": 1
-    },
-    {
-      "id": 1219867,
-      "name": "Soul of the Ironclad",
-      "enchant": 7788,
-      "stats": {},
-      "procSpell": 1213410,
-      "procPPM": 1
-    },
-    {
-      "id": 1219868,
-      "name": "Soul of the Guardian",
-      "enchant": 7789,
-      "stats": {},
-      "procSpell": 1213413,
-      "procPPM": 1
-    },
-    {
-      "id": 1219869,
-      "name": "Soul of the Peacekeeper",
-      "enchant": 7790,
-      "stats": {},
-      "procSpell": 456488,
-      "procPPM": 1
     },
     {
       "id": 1219870,
@@ -4802,134 +4224,6 @@ const templateEnchants = {
       }
     },
     {
-      "id": 1219871,
-      "name": "Soul of the Exemplar",
-      "enchant": 7792,
-      "stats": {},
-      "procSpell": 456492,
-      "procPPM": 1
-    },
-    {
-      "id": 1219874,
-      "name": "Soul of the Dominus",
-      "enchant": 7795,
-      "stats": {},
-      "procSpell": 467513,
-      "procPPM": 1
-    },
-    {
-      "id": 1219876,
-      "name": "Soul of the Altruist",
-      "enchant": 7797,
-      "stats": {},
-      "procSpell": 1213353,
-      "procPPM": 1
-    },
-    {
-      "id": 1219877,
-      "name": "Soul of the Arbiter",
-      "enchant": 7798,
-      "stats": {},
-      "procSpell": 456494,
-      "procPPM": 1
-    },
-    {
-      "id": 1219878,
-      "name": "Soul of the Sealbearer",
-      "enchant": 7799,
-      "stats": {},
-      "procSpell": 456533,
-      "procPPM": 1
-    },
-    {
-      "id": 1219881,
-      "name": "Soul of the Ascendant",
-      "enchant": 7802,
-      "stats": {},
-      "procSpell": 467529,
-      "procPPM": 1
-    },
-    {
-      "id": 1219884,
-      "name": "Soul of the Lightbringer",
-      "enchant": 7805,
-      "stats": {},
-      "procSpell": 468428,
-      "procPPM": 1
-    },
-    {
-      "id": 1219886,
-      "name": "Soul of the Templar",
-      "enchant": 7807,
-      "stats": {},
-      "procSpell": 1213467,
-      "procPPM": 1
-    },
-    {
-      "id": 1219888,
-      "name": "Soul of the Shield Master",
-      "enchant": 7809,
-      "stats": {},
-      "procSpell": 457541,
-      "procPPM": 1
-    },
-    {
-      "id": 1219891,
-      "name": "Soul of the Spiritual Bulwark",
-      "enchant": 7812,
-      "stats": {},
-      "procSpell": 467909,
-      "procPPM": 1
-    },
-    {
-      "id": 1219892,
-      "name": "Soul of the Maelstrombringer",
-      "enchant": 7813,
-      "stats": {},
-      "procSpell": 467916,
-      "procPPM": 1
-    },
-    {
-      "id": 1219894,
-      "name": "Soul of the True Alpha",
-      "enchant": 7815,
-      "stats": {},
-      "procSpell": 1213937,
-      "procPPM": 1
-    },
-    {
-      "id": 1219896,
-      "name": "Soul of the Ancestors",
-      "enchant": 7817,
-      "stats": {},
-      "procSpell": 457478,
-      "procPPM": 1
-    },
-    {
-      "id": 1219897,
-      "name": "Soul of the Spiritweaver",
-      "enchant": 7818,
-      "stats": {},
-      "procSpell": 457494,
-      "procPPM": 1
-    },
-    {
-      "id": 1219898,
-      "name": "Soul of the Waterwalker",
-      "enchant": 7819,
-      "stats": {},
-      "procSpell": 467804,
-      "procPPM": 1
-    },
-    {
-      "id": 1219899,
-      "name": "Soul of the Stormtender",
-      "enchant": 7820,
-      "stats": {},
-      "procSpell": 467809,
-      "procPPM": 1
-    },
-    {
       "id": 1219903,
       "name": "Soul of the Refined",
       "enchant": 7824,
@@ -4947,148 +4241,12 @@ const templateEnchants = {
       }
     },
     {
-      "id": 1219906,
-      "name": "Soul of the Stormbreaker",
-      "enchant": 7827,
-      "stats": {},
-      "procSpell": 467879,
-      "procPPM": 1
-    },
-    {
-      "id": 1219907,
-      "name": "Soul of the Tempest",
-      "enchant": 7828,
-      "stats": {},
-      "procSpell": 467882,
-      "procPPM": 1
-    },
-    {
-      "id": 1219909,
-      "name": "Soul of the Flamebringer",
-      "enchant": 7830,
-      "stats": {},
-      "procSpell": 1213918,
-      "procPPM": 1
-    },
-    {
-      "id": 1219910,
-      "name": "Soul of the Volcano",
-      "enchant": 7831,
-      "stats": {},
-      "procSpell": 457520,
-      "procPPM": 1
-    },
-    {
-      "id": 1219911,
-      "name": "Soul of the Raging Flame",
-      "enchant": 7832,
-      "stats": {},
-      "procSpell": 457524,
-      "procPPM": 1
-    },
-    {
-      "id": 1219914,
-      "name": "Soul of the Spirit Guide",
-      "enchant": 7835,
-      "stats": {},
-      "procSpell": 467863,
-      "procPPM": 1
-    },
-    {
-      "id": 1219917,
-      "name": "Soul of the Lava Sage",
-      "enchant": 7838,
-      "stats": {},
-      "procSpell": 1213957,
-      "procPPM": 1
-    },
-    {
       "id": 1219918,
       "name": "Soul of the Ancestral Warden",
       "enchant": 7839,
       "stats": {
         "block_chance": 10
       }
-    },
-    {
-      "id": 1219923,
-      "name": "Soul of the Territorial",
-      "enchant": 7844,
-      "stats": {},
-      "procSpell": 467216,
-      "procPPM": 1
-    },
-    {
-      "id": 1219924,
-      "name": "Soul of the Beast",
-      "enchant": 7845,
-      "stats": {},
-      "procSpell": 467221,
-      "procPPM": 1
-    },
-    {
-      "id": 1219925,
-      "name": "Soul of the Lacerator",
-      "enchant": 7846,
-      "stats": {},
-      "procSpell": 467227,
-      "procPPM": 1
-    },
-    {
-      "id": 1219928,
-      "name": "Soul of the Innervator",
-      "enchant": 7849,
-      "stats": {},
-      "procSpell": 456194,
-      "procPPM": 1
-    },
-    {
-      "id": 1219929,
-      "name": "Soul of the Nurturer",
-      "enchant": 7850,
-      "stats": {},
-      "procSpell": 456222,
-      "procPPM": 1
-    },
-    {
-      "id": 1219935,
-      "name": "Soul of the Lifeweaver",
-      "enchant": 7856,
-      "stats": {},
-      "procSpell": 1213160,
-      "procPPM": 1
-    },
-    {
-      "id": 1219940,
-      "name": "Soul of the Prideful",
-      "enchant": 7861,
-      "stats": {},
-      "procSpell": 467208,
-      "procPPM": 1
-    },
-    {
-      "id": 1219941,
-      "name": "Soul of the Barbaric",
-      "enchant": 7862,
-      "stats": {},
-      "procSpell": 467211,
-      "procPPM": 1
-    },
-    {
-      "id": 1219942,
-      "name": "Soul of the Frenetic",
-      "enchant": 7863,
-      "stats": {},
-      "procSpell": 1213171,
-      "procPPM": 1
-    },
-    {
-      "id": 1219943,
-      "name": "Soul of the Exsanguinator",
-      "enchant": 7864,
-      "stats": {},
-      "procSpell": 1213174,
-      "procPPM": 1
     },
     {
       "id": 1219945,
@@ -5106,14 +4264,6 @@ const templateEnchants = {
           0
         ]
       }
-    },
-    {
-      "id": 1219948,
-      "name": "Soul of the Keepers",
-      "enchant": 7869,
-      "stats": {},
-      "procSpell": 467084,
-      "procPPM": 1
     }
   ],
   "held_enchant": [

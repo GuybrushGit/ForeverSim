@@ -553,8 +553,6 @@ export function applyEffectAura(
 			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDSPEC) return Dummy.DualWieldSpecRage(player, value);
 			if (spell.id == SpellIds.ID_WARRIOR_RAGINGBLOWS) return;
 			if (spell.id == SpellIds.ID_WARRIOR_TOUCHGRAVE) return Dummy.TouchGrave(player, spell);
-			if (sim && spell.id == SpellIds.ID_WINDFURY) return Dummy.WindfuryProc(sim);
-
 			if (spell.id == 11826) return;
 			if (spell.id == 24658) return;
 			if (spell.id == 1259813) return;

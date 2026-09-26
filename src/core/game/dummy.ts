@@ -154,10 +154,4 @@ export class Dummy {
 	static TouchGraveProc(sim: Simulation) {
 		return sim.final_stats.health * 0.05;
 	}
-
-	static WindfuryProc(sim: Simulation) {
-		let spell = templateSpells[SpellIds.ID_WINDFURY_PROC_4];
-		if (!spell) return;
-		spell.cast(sim);
-	}
 }

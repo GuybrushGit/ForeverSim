@@ -198,13 +198,13 @@ export default function SpellGenerator() {
 					let statEffects = getRows(spellEffect, 'SpellID', spellid);
 					for (let stEff of statEffects) {
 						switch (Number(stEff.EffectAura)) {
-							case AuraType.DummyAura:
-								obj.procSpell = Number(enchant['EffectArg[0]']);
-								if (Number(enchant['EffectPointsMin[0]'])) obj.procChance = Number(enchant['EffectPointsMin[0]']);
-								if (!obj.procChance) obj.procPPM = 1;
-								if (obj.name == 'Windfury Weapon') obj.procCooldown = 200;
-								if (obj.name == 'Windfury Weapon' && obj.id != 16362) delete obj.procSpell;
-								break;
+							// case AuraType.DummyAura:
+							// 	obj.procSpell = Number(enchant['EffectArg[0]']);
+							// 	if (Number(enchant['EffectPointsMin[0]'])) obj.procChance = Number(enchant['EffectPointsMin[0]']);
+							// 	if (!obj.procChance) obj.procPPM = 1;
+							// 	if (obj.name == 'Windfury Weapon') obj.procCooldown = 200;
+							// 	if (obj.name == 'Windfury Weapon' && obj.id != 16362) delete obj.procSpell;
+							// 	break;
 							case AuraType.ModStat:
 								if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_STRENGTH) obj.stats.str = Number(stEff.EffectBasePointsF);
 								if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_AGILITY) obj.stats.agi = Number(stEff.EffectBasePointsF);
@@ -368,6 +368,38 @@ export default function SpellGenerator() {
 				}
 			}
 		}
+
+		let wf1 = {
+			id: 8512,
+			name: 'Windfury Weapon',
+			enchant: 1669,
+			procSpell: 8516,
+			procChance: 20,
+			procCooldown: 200,
+		};
+		let wf2 = {
+			id: 10613,
+			name: 'Windfury Weapon',
+			enchant: 1669,
+			procSpell: 10608,
+			procChance: 20,
+			procCooldown: 200,
+		};
+		let wf3 = {
+			id: 10614,
+			name: 'Windfury Weapon',
+			enchant: 1669,
+			procSpell: 10610,
+			procChance: 20,
+			procCooldown: 200,
+		};
+
+		addEnchant(wf1, 'mainhand_temp');
+		addEnchant(wf2, 'mainhand_temp');
+		addEnchant(wf3, 'mainhand_temp');
+		addEnchant(wf1, 'twohand_temp');
+		addEnchant(wf2, 'twohand_temp');
+		addEnchant(wf3, 'twohand_temp');
 
 		setWorking(false);
 		let jsonstring = JSON.stringify(allTheEnchants, null, 2);
