@@ -351,6 +351,8 @@ export default function SpellGenerator() {
 		if (spell.id == 23584) spell.effects[1].basePointsF = 20;
 		if (spell.id == 23584) spell.effects[2].basePointsF = 2;
 
+		if (spell.id == 16361) spell.effects[0].basePointsF = 433;
+
 		if (spell.name == 'Shield Slam') spell.classMask = 64;
 		if (spell.name == 'Whirlwind') spell.classMask = 64;
 		if (spell.id == 1310222) spell.classMask = 64;
@@ -450,6 +452,10 @@ export default function SpellGenerator() {
 		spells[12966] = createSpell(12966);
 		spells[1289681] = createSpell(1289681);
 		spells[1260198] = createSpell(1260198);
+		spells[8233] = createSpell(8233);
+		spells[8236] = createSpell(8236);
+		spells[10484] = createSpell(10484);
+		spells[16361] = createSpell(16361);
 
 		// proc spells
 		for (let i in spells) {

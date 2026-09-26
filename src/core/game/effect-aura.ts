@@ -1,4 +1,19 @@
-import { AuraType, EffectType, EventType, Powers, SchoolMask, SpellIds, SpellModOp, SpellSchool, SpellType, SkillType, BaseStats, WeaponType, CombatResult, SpellAttributesEx3 } from '@core/shared/enums';
+import {
+	AuraType,
+	EffectType,
+	EventType,
+	Powers,
+	SchoolMask,
+	SpellIds,
+	SpellModOp,
+	SpellSchool,
+	SpellType,
+	SkillType,
+	BaseStats,
+	WeaponType,
+	CombatResult,
+	SpellAttributesEx3,
+} from '@core/shared/enums';
 import type { Player, PlayerStats } from './player';
 import type { Simulation } from '@core/simulation';
 import { type Action } from './action';
@@ -11,7 +26,17 @@ import type { SpellModifier } from '@core/shared/types';
 import { Dummy } from './dummy';
 import type { Effect } from './effect';
 
-export function applyEffectAura(this: Effect, player: Player, stats: PlayerStats, spell: Spell, sim?: Simulation, remove?: boolean, action?: Action, mods?: SpellModifier[], charges?: number) {
+export function applyEffectAura(
+	this: Effect,
+	player: Player,
+	stats: PlayerStats,
+	spell: Spell,
+	sim?: Simulation,
+	remove?: boolean,
+	action?: Action,
+	mods?: SpellModifier[],
+	charges?: number,
+) {
 	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty) return;
 	if (!this.auraType) return;
 	let value = this.getValue(player, spell, action, sim && sim.actions_mods, mods);
@@ -23,6 +48,7 @@ export function applyEffectAura(this: Effect, player: Player, stats: PlayerStats
 			if (sim)
 				sim.final_stats.melee_ap =
 					(player.base_stats.melee_ap + sim.aura_stats.melee_ap + sim.final_stats.str * player.ap_per_str) * sim.final_stats.melee_ap_mod;
+			if (sim) sim.addEvent(EventType.Custom, value * (remove ? -1 : 1));
 			break;
 		case AuraType.ModRangedAttackPower:
 			stats.ranged_ap += value * (remove ? -1 : 1);
@@ -60,8 +86,7 @@ export function applyEffectAura(this: Effect, player: Player, stats: PlayerStats
 			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDSPEC) return Dummy.DualWieldSpecHit(player, value);
 
 			stats.hit[SpellSchool.Physical] += value * (remove ? -1 : 1);
-			if (sim)
-				sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];
+			if (sim) sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];
 			break;
 		case AuraType.ModMeleeHaste:
 		case AuraType.ModMeleeHaste2:
@@ -117,8 +142,7 @@ export function applyEffectAura(this: Effect, player: Player, stats: PlayerStats
 			if (SchoolMask.Nature & spell.schoolMask) stats.hit[SpellSchool.Nature] += value;
 			if (SchoolMask.Shadow & spell.schoolMask) stats.hit[SpellSchool.Shadow] += value;
 			if (SchoolMask.Holy & spell.schoolMask) stats.hit[SpellSchool.Holy] += value;
-			if (sim)
-				sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];
+			if (sim) sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];
 			break;
 		case AuraType.ModSpellCritChance:
 			if (remove) value *= -1;
@@ -529,6 +553,7 @@ export function applyEffectAura(this: Effect, player: Player, stats: PlayerStats
 			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDSPEC) return Dummy.DualWieldSpecRage(player, value);
 			if (spell.id == SpellIds.ID_WARRIOR_RAGINGBLOWS) return;
 			if (spell.id == SpellIds.ID_WARRIOR_TOUCHGRAVE) return Dummy.TouchGrave(player, spell);
+			if (sim && spell.id == SpellIds.ID_WINDFURY) return Dummy.WindfuryProc(sim);
 
 			if (spell.id == 11826) return;
 			if (spell.id == 24658) return;

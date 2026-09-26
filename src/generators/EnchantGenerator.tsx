@@ -10,6 +10,7 @@ import {
 	SchoolMask,
 	SkillType,
 	SpellSchool,
+	SpellType,
 	WeaponType,
 } from '@core/shared/enums';
 
@@ -144,7 +145,7 @@ export default function SpellGenerator() {
 
 	function generateData() {
 		for (let effect of spellEffect) {
-			if (Number(effect.Effect) == 53 || Number(effect.Effect) == 54 || Number(effect.Effect) == 92) {
+			if (Number(effect.Effect) == 53 || Number(effect.Effect) == 54 || Number(effect.Effect) == 92 || Number(effect.Effect) == 360) {
 				let enchant = getRow(spellItemEnchantment, effect['EffectMiscValue[0]']);
 				let effectType = Number(enchant['Effect[0]']);
 
@@ -164,7 +165,7 @@ export default function SpellGenerator() {
 					classOptions.length &&
 					Number(classOptions[0].SpellClassSet) != 4 && // warrior
 					Number(classOptions[0].SpellClassSet) != 0 &&
-					(Number(classOptions[0].SpellClassSet) != 11 || Number(effect.Effect) != 92) // shaman
+					(Number(classOptions[0].SpellClassSet) != 11 || (Number(effect.Effect) != 92 && Number(effect.Effect) != 360)) // shaman
 				)
 					continue;
 
@@ -197,6 +198,13 @@ export default function SpellGenerator() {
 					let statEffects = getRows(spellEffect, 'SpellID', spellid);
 					for (let stEff of statEffects) {
 						switch (Number(stEff.EffectAura)) {
+							case AuraType.DummyAura:
+								obj.procSpell = Number(enchant['EffectArg[0]']);
+								if (Number(enchant['EffectPointsMin[0]'])) obj.procChance = Number(enchant['EffectPointsMin[0]']);
+								if (!obj.procChance) obj.procPPM = 1;
+								if (obj.name == 'Windfury Weapon') obj.procCooldown = 200;
+								if (obj.name == 'Windfury Weapon' && obj.id != 16362) delete obj.procSpell;
+								break;
 							case AuraType.ModStat:
 								if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_STRENGTH) obj.stats.str = Number(stEff.EffectBasePointsF);
 								if (Number(stEff['EffectMiscValue[0]']) == BaseStats.STAT_AGILITY) obj.stats.agi = Number(stEff.EffectBasePointsF);
@@ -227,8 +235,14 @@ export default function SpellGenerator() {
 								obj.stats.ranged_ap = Number(stEff.EffectBasePointsF);
 								break;
 							case AuraType.ModMeleeHaste:
-								obj.stats.haste = Array(4).fill(1);
-								obj.stats.haste[SpellSchool.Physical] += Number(stEff.EffectBasePointsF);
+							case AuraType.ModMeleeHaste2:
+							case AuraType.ModMeleeHasteRacial:
+								if (!obj.stats.haste) obj.stats.haste = Array(4).fill(1);
+								obj.stats.haste[SpellType.Melee] *= 1 + Number(stEff.EffectBasePointsF) / 100;
+								break;
+							case AuraType.CastingSpeedNotStack:
+								if (!obj.stats.haste) obj.stats.haste = Array(4).fill(1);
+								obj.stats.haste[SpellType.Magic] *= 1 + Number(stEff.EffectBasePointsF) / 100;
 								break;
 							case AuraType.ModWeaponCritPercent:
 								if (!obj.stats.crit) obj.stats.crit = Array(8).fill(0);
@@ -291,7 +305,7 @@ export default function SpellGenerator() {
 						}
 					}
 
-					if (Object.keys(obj.stats).length == 0 && !obj.procBlock) continue;
+					if (Object.keys(obj.stats).length == 0 && !obj.procBlock && !obj.procSpell) continue;
 				}
 
 				if (effectType == 5) {
@@ -316,7 +330,7 @@ export default function SpellGenerator() {
 				}
 
 				let mainhandonly = false;
-				if (Number(effect.Effect) == 92) {
+				if (Number(effect.Effect) == 92 || Number(effect.Effect) == 360) {
 					classId = 2;
 					subclassId = 3;
 					mainhandonly = true;

@@ -293,7 +293,8 @@ export class Player {
 			if (value == null || !(key in base)) continue;
 			if (Array.isArray(value)) {
 				for (let i = 0; i < value.length; i++) {
-					base[key][i] += round(value[i] * modifier) || 0;
+					if (key == 'haste') base[key][i] *= round(value[i] * modifier) || 0;
+					else base[key][i] += round(value[i] * modifier) || 0;
 				}
 			} else if (key == 'dodge_rate') base.dodge += round((value * modifier) / this.dodge_per_rate) || 0;
 			else if (key == 'parry_rate') base.parry += round((value * modifier) / this.parry_per_rate) || 0;
