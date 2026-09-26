@@ -299,6 +299,20 @@ export var templateAbilities = [
 		item: true,
 	},
 
+	// new pots
+	{
+		id: 1251940,
+		item: true,
+	},
+	{
+		id: 1250986,
+		item: true,
+	},
+	{
+		id: 1250985,
+		item: true,
+	},
+
 	// Berserker Rage
 	{
 		id: 18499,

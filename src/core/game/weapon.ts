@@ -21,7 +21,7 @@ export class Weapon {
 	bonusdmg: number = 0;
 	dmgmod: number = 1;
 	armor_penetration: number = 0;
-	rage_mod: number = 1;
+	rage_mod: number = 3.46;
 
 	constructor(item: Item, offhand: boolean, twohand: boolean, templateSpells: any) {
 		this.index = offhand ? 1 : 0;
@@ -35,6 +35,8 @@ export class Weapon {
 		this.class = item.classId as ItemType;
 		this.dmgmod = offhand ? 0.5 : 1;
 		this.procs = [];
+		if (this.twohand) this.rage_mod = 4.5;
+		if (this.offhand) this.rage_mod /= 2;
 
 		if (item.proc) {
 			let chance = item.proc.chance;

@@ -42,7 +42,7 @@ export const Combat = {
 
 		dmg = round(dmg);
 
-		sim.addEvent(EventType.AttackDone, dmg, dmg * sim.final_stats.threat_mod, result, undefined, weapon);
+		sim.addEvent(EventType.AttackDone, dmg, round(dmg * sim.final_stats.threat_mod), result, undefined, weapon);
 
 		Combat.procEvent(sim, ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_HIT, result, target, weapon, dmg);
 
@@ -99,7 +99,7 @@ export const Combat = {
 		if (action && action.threat_mod) threat *= action.threat_mod;
 		if (action && action.threat_flat) threat += action.threat_flat;
 
-		sim.addEvent(EventType.SpellDone, dmg, threat, result, spell, wep);
+		sim.addEvent(EventType.SpellDone, dmg, round(threat), result, spell, wep);
 
 		Combat.procEvent(sim, procFlag, result, target, wep, dmg);
 
@@ -152,7 +152,7 @@ export const Combat = {
 		if (action && action.threat_mod) threat *= action.threat_mod;
 		if (action && action.threat_flat) threat += action.threat_flat;
 
-		sim.addEvent(EventType.SpellDone, dmg, threat, result, spell, wep);
+		sim.addEvent(EventType.SpellDone, dmg, round(threat), result, spell, wep);
 
 		Combat.procEvent(sim, procFlag, result, target, wep, dmg);
 
@@ -170,6 +170,10 @@ export const Combat = {
 		if (result == CombatResult.Crushing) dmg *= 2.5;
 		if (result == CombatResult.Crit) dmg *= 2;
 
+		// rage gain before armor / block
+		// https://github.com/magey/forever-warrior/issues/3
+		if (dmg) sim.addPower((dmg * 100) / sim.final_stats.health);
+
 		// armor damage reduction and dmg taken reduction
 		dmg = dmg * (1 - sim.target_stats[target.index].player_armor_reduction);
 		dmg += sim.final_stats.dmg_taken[SpellSchool.Physical]; // before or after modifiers??
@@ -183,7 +187,7 @@ export const Combat = {
 		sim.addEvent(EventType.AttackReceived, dmg, 0, result);
 		Combat.procEvent(sim, ProcFlags.PROC_FLAG_TAKEN_MELEE_HIT, result, target, undefined, dmg);
 
-		if (dmg) sim.addPower((dmg / sim.player.rage_conversion) * 25);
+		//if (dmg) sim.addPower((dmg / sim.player.rage_conversion) * 25);
 	},
 
 	rollMeleeAttackBack(sim: Simulation, weapon: Weapon, target: number) {
@@ -352,9 +356,10 @@ export const Combat = {
 			}
 		} else {
 			if (result == CombatResult.Dodge || result == CombatResult.Parry) {
-				sim.addPower((weapon.getAverageDamage(sim, 0) / sim.player.rage_conversion) * 75 * 0.75);
+				//sim.addPower((weapon.getAverageDamage(sim, 0) / sim.player.rage_conversion) * 75 * 0.75);
 			} else if (result != CombatResult.Miss) {
-				sim.addPower((dmg / sim.player.rage_conversion) * 75 * weapon.rage_mod);
+				// https://github.com/magey/forever-warrior/issues/3
+				sim.addPower(weapon.speed * weapon.rage_mod * 10);
 			}
 		}
 	},
@@ -380,7 +385,7 @@ export const Combat = {
 
 		dmg = round(dmg);
 
-		sim.addEvent(EventType.SpellDone, dmg, dmg * sim.final_stats.threat_mod, result.type, spell);
+		sim.addEvent(EventType.SpellDone, dmg, round(dmg * sim.final_stats.threat_mod), result.type, spell);
 	},
 
 	rollMagicSpell(sim: Simulation, spell: Spell, target: Target) {

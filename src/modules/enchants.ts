@@ -976,7 +976,7 @@ const templateEnchants = {
     },
     {
       "id": 22725,
-      "name": "Defense +3",
+      "name": "Core Armor Kit",
       "enchant": 2503,
       "stats": {
         "defense": null
@@ -1050,7 +1050,7 @@ const templateEnchants = {
     },
     {
       "id": 22725,
-      "name": "Defense +3",
+      "name": "Core Armor Kit",
       "enchant": 2503,
       "stats": {
         "defense": null
@@ -1408,7 +1408,7 @@ const templateEnchants = {
     },
     {
       "id": 22725,
-      "name": "Defense +3",
+      "name": "Core Armor Kit",
       "enchant": 2503,
       "stats": {
         "defense": null
@@ -1932,7 +1932,7 @@ const templateEnchants = {
     },
     {
       "id": 22725,
-      "name": "Defense +3",
+      "name": "Core Armor Kit",
       "enchant": 2503,
       "stats": {
         "defense": null

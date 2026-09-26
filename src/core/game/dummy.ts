@@ -26,7 +26,7 @@ export class Dummy {
 
 	static SweepingStrikes(sim: Simulation, spell: Spell, dmg: number) {
 		if (sim.targets.length < 2) return;
-		sim.addEvent(EventType.SpellDone, dmg, dmg * sim.final_stats.threat_mod, CombatResult.Normal, spell);
+		sim.addEvent(EventType.SpellDone, dmg, round(dmg * sim.final_stats.threat_mod), CombatResult.Normal, spell);
 	}
 
 	static RestlessStrength(sim: Simulation, spell: Spell, remove?: boolean) {

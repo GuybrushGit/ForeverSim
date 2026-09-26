@@ -320,9 +320,9 @@ export class Simulation {
 		return this.step <= this.duration;
 	}
 
-	addPower(amount: number) {
+	addPower(amount: number, spell?: Spell) {
 		this.power = Math.min(this.player.power_max, this.power + ~~amount);
-		this.addEvent(EventType.PowerChange, ~~amount);
+		this.addEvent(EventType.PowerChange, ~~amount, 0, CombatResult.Normal, spell);
 	}
 
 	regenPower() {

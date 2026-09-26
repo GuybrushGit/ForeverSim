@@ -27,6 +27,7 @@ function SimCombatLog(props: { events: Event[] }) {
 		let incoming = false;
 		let color = 'transparent';
 		let value = event.value;
+		let threat = event.threat;
 		let result = 'hit';
 		if (event.result && event.result != CombatResult.Normal) result = GetCombatResult(event.result).toLowerCase();
 
@@ -44,7 +45,7 @@ function SimCombatLog(props: { events: Event[] }) {
 				msg = `<span class="aura">${event.spell && event.spell.name}</span> charge removed`;
 				break;
 			case EventType.PowerChange:
-				msg = `Rage ${(event.value || 0) < 0 ? 'lost' : 'gained'} <span class="power">${event.value}</span>`;
+				msg = `Rage ${(event.value || 0) < 0 ? 'lost' : 'gained'} <span class="power">${event.value}</span> ${event.spell ? `(<span class="spell">${event.spell && event.spell.name}</span>)` : ''}`;
 				break;
 			case EventType.FormChange:
 				color = '#a1587a';
@@ -52,11 +53,11 @@ function SimCombatLog(props: { events: Event[] }) {
 				break;
 
 			case EventType.AttackDone:
-				msg = `${event.weapon && event.weapon.offhand ? 'Off' : 'Main'} attack <span class="${result}">${result}</span> ${value ? `for <span class="dmg">${value}</span>` : ''}`;
+				msg = `${event.weapon && event.weapon.offhand ? 'Off' : 'Main'} attack <span class="${result}">${result}</span> ${value ? `for <span class="dmg">${value}</span>` : ''} ${threat ? `(<span class="threat">${threat} T</span>)` : ''}`;
 				break;
 			case EventType.SpellDone:
 				color = 'Tomato';
-				msg = `<span class="spell">${event.spell && event.spell.name}</span> <span class="${result}">${result}</span> ${value ? `for <span class="dmgspell">${value}</span>` : ''}`;
+				msg = `<span class="spell">${event.spell && event.spell.name}</span> <span class="${result}">${result}</span> ${value ? `for <span class="dmgspell">${value}</span>` : ''} ${threat ? ` (<span class="threat">${threat} T</span>)` : ''}`;
 				break;
 			case EventType.AttackReceived:
 				incoming = true;

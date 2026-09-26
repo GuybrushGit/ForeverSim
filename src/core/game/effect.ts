@@ -91,7 +91,7 @@ export class Effect {
 
 				if (spell.schoolMask & SchoolMask.Physical) {
 					let dmg = this.getValue(sim.player, spell, action);
-					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_MORTAL_STRIKE)) dmg = Dummy.Bloodthirst(sim);
+					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_MORTAL_STRIKE)) dmg += Dummy.Bloodthirst(sim);
 					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_SHIELD_SLAM)) dmg += sim.final_stats.block_amount;
 
 					if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
@@ -152,8 +152,8 @@ export class Effect {
 				if (spell.id == SpellIds.ID_WARRIOR_MASTERDEFENSE) value = 50;
 				if (spell.id == SpellIds.ID_WARRIOR_UNBRIDLEDWRATH && sim.player.mainhand && sim.player.mainhand.twohand) value *= 2;
 
-				if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA) sim.addPower(value);
-				else if (this.miscValue == sim.player.power_type) sim.addPower(value);
+				if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA) sim.addPower(value, spell);
+				else if (this.miscValue == sim.player.power_type) sim.addPower(value, spell);
 				return 0;
 			}
 			case EffectType.AddExtraAttacks: {
@@ -714,7 +714,7 @@ export class Effect {
 			case AuraType.ProcTriggerDamage:
 				// shield spikes - assumed no procs no rolls and no modifiers just flat dmg
 				let dmg = round(value);
-				if (sim) sim.addEvent(EventType.SpellDone, dmg, dmg * sim.final_stats.threat_mod, CombatResult.Normal, spell);
+				if (sim) sim.addEvent(EventType.SpellDone, dmg, round(dmg * sim.final_stats.threat_mod), CombatResult.Normal, spell);
 				break;
 			case AuraType.PeriodicTriggerSpell:
 				if (remove) return;
@@ -790,8 +790,8 @@ export class Effect {
 		switch (this.auraType) {
 			case AuraType.PeriodicEnergize:
 				if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA)
-					sim.addPower(this.getValue(sim.player, spell, action, sim && sim.actions_mods));
-				else if (this.miscValue == sim.player.power_type) sim.addPower(this.getValue(sim.player, spell, action, sim && sim.actions_mods));
+					sim.addPower(this.getValue(sim.player, spell, action, sim && sim.actions_mods), spell);
+				else if (this.miscValue == sim.player.power_type) sim.addPower(this.getValue(sim.player, spell, action, sim && sim.actions_mods), spell);
 				return 0;
 			case AuraType.PeriodicDamage:
 			case AuraType.PeriodicLeech:
@@ -823,7 +823,7 @@ export class Effect {
 					dmg = round(dmg * modifier * sim.final_stats.dmg_done_mod[spell.spellSchool]);
 				}
 
-				sim.addEvent(EventType.AuraTick, dmg, dmg * sim.final_stats.threat_mod, undefined, spell);
+				sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), undefined, spell);
 				break;
 			case AuraType.PeriodicTriggerSpell:
 				if (!this.triggerSpell) return 0;
@@ -833,7 +833,7 @@ export class Effect {
 			case AuraType.DummyAura:
 				if (spell.name == 'Deep Wounds') {
 					let dmg = sim.aux[spell.id];
-					sim.addEvent(EventType.AuraTick, dmg, dmg * sim.final_stats.threat_mod, undefined, spell);
+					sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), undefined, spell);
 				} else {
 					//console.log('dummy aura not implemented', this);
 				}

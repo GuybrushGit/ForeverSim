@@ -8,7 +8,7 @@ import templateTalents from '@modules/warrior/talents';
 import templateBuffs from '@modules/warrior/buffs';
 import templateAbilities from '@modules/warrior/abilities';
 
-import { AuraType, ClassFlag, CombatResult, EffectType, GetAuraType, GetEffectType } from '@core/shared/enums';
+import { AuraType, ClassFlag, CombatResult, EffectType, GetAuraType, GetEffectType, SpellAttributes } from '@core/shared/enums';
 
 function Loading() {
 	return (

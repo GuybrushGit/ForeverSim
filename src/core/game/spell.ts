@@ -1,4 +1,4 @@
-import { AuraType, ClassFlag, EffectType, SchoolMask, Targets } from '@core/shared/enums';
+import { AuraType, ClassFlag, EffectType, SchoolMask, SpellAttributes, Targets } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import type { Action } from './action';
 import type { Effect } from './effect';
@@ -54,6 +54,10 @@ export class Spell {
 		this.isWeaponDamageSpell = this.hasWeaponDamage();
 		this.hasAura = this.effects.filter(eff => eff.effectType == EffectType.ApplyAura || eff.effectType == EffectType.ApplyAreaAuraParty).length > 0;
 		this.spellSchool = Math.log2(this.schoolMask) + 1;
+
+		// AoEs like TClap
+		if (!this.isWeaponDamageSpell && this.effects.filter(eff => eff.target == Targets.TARGET_CASTER_COORDINATES).length > 0)
+			this.attributes |= SpellAttributes.SPELL_ATTR_IMPOSSIBLE_DODGE_PARRY_BLOCK;
 	}
 
 	applyEffects(sim: Simulation, target?: Target, action?: Action, weapon?: Weapon): number {
@@ -138,6 +142,13 @@ export class Spell {
 
 /********************************  TODO LIST  *************************
  *
+ * split effects.ts
+ * go over flurry logs
+ * rend and deep wounds crit
+ * new enchants https://github.com/tzcnt/WarriorSim/commit/4e6552d4082a3f52e034dcc200521ef918c8e09c
+ * check all items and trinkets
+ * 
+ * procs on multi target attacks
  * 
 	item sets
 	crit caps
