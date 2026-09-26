@@ -1,4 +1,14 @@
-import { AuraType, EffectType, EventType, Powers, SchoolMask, SpellSchool } from '@core/shared/enums';
+import {
+	AuraType,
+	CombatResult,
+	EffectType,
+	EventType,
+	Powers,
+	SchoolMask,
+	SpellAttributes,
+	SpellAttributesEx2,
+	SpellSchool,
+} from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import { type Action } from './action';
 import { rng10k, round } from '@core/shared/utils';
@@ -21,8 +31,15 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 			if (!spell.schoolMask) return;
 			if (!target) return;
 
+			let result = CombatResult.Normal as CombatResult;
 			let dmg = this.getValue(sim.player, spell, action, sim && sim.actions_mods);
 			if (spell.schoolMask & SchoolMask.Physical) {
+				if (!(spell.attributesEx2 & SpellAttributesEx2.SPELL_ATTR_CANT_CRIT)) {
+					if (rng10k() < (sim.target_stats[target.index].player_crit + (action ? action.crit : 0)) * 100) {
+						result = CombatResult.Crit;
+						dmg *= 2;
+					}
+				}
 				dmg = round(dmg * sim.final_stats.dmg_done_mod[SpellSchool.Physical]);
 			} else {
 				// if binary = no partial resist
@@ -41,12 +58,17 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 						}
 					}
 				}
+				if (modifier > 1) result = CombatResult.Resist;
+				if (rng10k() < sim.final_stats.crit[spell.spellSchool] * 100) {
+					result = modifier > 1 ? CombatResult.ResistCrit : CombatResult.Crit;
+					modifier *= 1.5;
+				}
 				// missing coefficient
 				dmg += sim.final_stats.dmg_done[spell.spellSchool];
 				dmg = round(dmg * modifier * sim.final_stats.dmg_done_mod[spell.spellSchool]);
 			}
 
-			sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), undefined, spell);
+			sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), result, spell);
 			break;
 		case AuraType.PeriodicTriggerSpell:
 			if (!this.triggerSpell) return 0;

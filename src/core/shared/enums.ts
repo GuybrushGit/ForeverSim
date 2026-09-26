@@ -458,6 +458,7 @@ export type SpellAttributesEx = (typeof SpellAttributesEx)[keyof typeof SpellAtt
 export const SpellAttributesEx2 = Object.freeze({
 	SPELL_ATTR_EX2_IGNORE_LOS: 0x00000004,
 	SPELL_ATTR_DO_NOT_RESET_COMBAT_TIMERS: 0x00020000,
+	SPELL_ATTR_CANT_CRIT: 0x20000000,
 } as const);
 export type SpellAttributesEx2 = (typeof SpellAttributesEx2)[keyof typeof SpellAttributesEx2];
 

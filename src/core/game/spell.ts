@@ -142,9 +142,7 @@ export class Spell {
 
 /********************************  TODO LIST  *************************
  *
- * split effects.ts
  * go over flurry logs
- * rend and deep wounds crit
  * new enchants https://github.com/tzcnt/WarriorSim/commit/4e6552d4082a3f52e034dcc200521ef918c8e09c
  * check all items and trinkets
  * 
