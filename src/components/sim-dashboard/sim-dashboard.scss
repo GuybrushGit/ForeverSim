@@ -8,7 +8,8 @@
 	.sim-dashboard-left {
 		width: 500px;
 		height: 100%;
-		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: auto;
 		& > p {
 			margin-top: 40px;
 			text-align: center;

@@ -1,6 +1,7 @@
 import type { ItemSet } from '@core/shared/types';const templateSets = [
   {
     "id": 141,
+    "name": "Volcanic Armor",
     "items": [
       15053,
       15054,
@@ -15,6 +16,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 142,
+    "name": "Stormshroud Armor",
     "items": [
       15056,
       15057,
@@ -38,6 +40,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 143,
+    "name": "Devilsaur Armor",
     "items": [
       15062,
       15063
@@ -51,6 +54,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 144,
+    "name": "Ironfeather Armor",
     "items": [
       15066,
       15067
@@ -64,6 +68,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 281,
+    "name": "Champion's Battlegear",
     "items": [
       272478,
       272477,
@@ -89,6 +94,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 282,
+    "name": "Lieutenant Commander's Battlegear",
     "items": [
       272717,
       272716,
@@ -114,6 +120,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 321,
+    "name": "Imperial Plate",
     "items": [
       12424,
       12426,
@@ -149,6 +156,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 383,
+    "name": "Warlord's Battlegear",
     "items": [
       272513,
       272510,
@@ -174,6 +182,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 384,
+    "name": "Field Marshal's Battlegear",
     "items": [
       272793,
       272792,
@@ -199,6 +208,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 421,
+    "name": "Bloodvine Garb",
     "items": [
       19682,
       19683,
@@ -213,6 +223,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 441,
+    "name": "Primal Batskin",
     "items": [
       19685,
       19687,
@@ -227,6 +238,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 442,
+    "name": "Blood Tiger Harness",
     "items": [
       19688,
       19689
@@ -244,6 +256,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 443,
+    "name": "Bloodsoul Embrace",
     "items": [
       19690,
       19691,
@@ -258,6 +271,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 444,
+    "name": "The Darksoul",
     "items": [
       19693,
       19694,
@@ -272,6 +286,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 467,
+    "name": "The Highlander's Resolution",
     "items": [
       20041,
       20048,
@@ -290,6 +305,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 468,
+    "name": "The Highlander's Resolve",
     "items": [
       20042,
       20049,
@@ -308,6 +324,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 469,
+    "name": "The Highlander's Determination",
     "items": [
       20043,
       20050,
@@ -326,6 +343,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 470,
+    "name": "The Highlander's Fortitude",
     "items": [
       20044,
       20051,
@@ -344,6 +362,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 471,
+    "name": "The Highlander's Purpose",
     "items": [
       20052,
       20045,
@@ -362,6 +381,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 472,
+    "name": "The Highlander's Will",
     "items": [
       20053,
       20046,
@@ -380,6 +400,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 473,
+    "name": "The Highlander's Intent",
     "items": [
       20054,
       20047,
@@ -398,6 +419,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 474,
+    "name": "Vindicator's Battlegear",
     "items": [
       19951,
       19577,
@@ -422,6 +444,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 483,
+    "name": "The Defiler's Determination",
     "items": [
       20158,
       20154,
@@ -440,6 +463,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 484,
+    "name": "The Defiler's Fortitude",
     "items": [
       20195,
       20199,
@@ -458,6 +482,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 485,
+    "name": "The Defiler's Intent",
     "items": [
       20176,
       20159,
@@ -476,6 +501,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 486,
+    "name": "The Defiler's Purpose",
     "items": [
       20186,
       20190,
@@ -494,6 +520,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 487,
+    "name": "The Defiler's Resolution",
     "items": [
       20204,
       20208,
@@ -512,6 +539,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 488,
+    "name": "The Defiler's Will",
     "items": [
       20167,
       20171,
@@ -530,6 +558,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 489,
+    "name": "Black Dragon Mail",
     "items": [
       16984,
       15050,
@@ -553,6 +582,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 490,
+    "name": "Green Dragon Mail",
     "items": [
       15045,
       15046,
@@ -571,6 +601,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 491,
+    "name": "Blue Dragon Mail",
     "items": [
       15048,
       20295,
@@ -588,7 +619,23 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     ]
   },
   {
+    "id": 492,
+    "name": "Twilight Trappings",
+    "items": [
+      20406,
+      20408,
+      20407
+    ],
+    "sets": [
+      {
+        "count": 3,
+        "spell": 24746
+      }
+    ]
+  },
+  {
     "id": 495,
+    "name": "Battlegear of Unyielding Strength",
     "items": [
       21394,
       21392,
@@ -603,6 +650,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 496,
+    "name": "Conqueror's Battlegear",
     "items": [
       21331,
       21329,
@@ -623,6 +671,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 511,
+    "name": "Battlegear of Heroism",
     "items": [
       21994,
       21995,
@@ -654,6 +703,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 512,
+    "name": "Darkmantle Armor",
     "items": [
       22002,
       22003,
@@ -685,6 +735,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 513,
+    "name": "Feralheart Raiment",
     "items": [
       22106,
       22107,
@@ -720,6 +771,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 514,
+    "name": "Vestments of the Virtuous",
     "items": [
       22078,
       22079,
@@ -751,6 +803,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 515,
+    "name": "Beastmaster Armor",
     "items": [
       22010,
       22011,
@@ -782,6 +835,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 516,
+    "name": "Soulforge Armor",
     "items": [
       22086,
       22087,
@@ -813,6 +867,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 517,
+    "name": "Sorcerer's Regalia",
     "items": [
       22062,
       22063,
@@ -844,6 +899,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 518,
+    "name": "Deathmist Raiment",
     "items": [
       22070,
       22071,
@@ -875,6 +931,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 519,
+    "name": "The Five Thunders",
     "items": [
       22095,
       22096,
@@ -906,6 +963,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 521,
+    "name": "Dreamwalker Raiment",
     "items": [
       22492,
       22494,
@@ -938,6 +996,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 523,
+    "name": "Dreadnaught's Battlegear",
     "items": [
       22423,
       22416,
@@ -970,6 +1029,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 524,
+    "name": "Bonescythe Armor",
     "items": [
       22483,
       22476,
@@ -1002,6 +1062,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 525,
+    "name": "Vestments of Faith",
     "items": [
       22518,
       22519,
@@ -1034,6 +1095,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 526,
+    "name": "Frostfire Regalia",
     "items": [
       22502,
       22503,
@@ -1066,6 +1128,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 527,
+    "name": "The Earthshatterer",
     "items": [
       22468,
       22470,
@@ -1098,6 +1161,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 528,
+    "name": "Redemption Armor",
     "items": [
       22430,
       22431,
@@ -1130,6 +1194,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 529,
+    "name": "Plagueheart Raiment",
     "items": [
       22510,
       22511,
@@ -1162,6 +1227,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 530,
+    "name": "Cryptstalker Armor",
     "items": [
       22440,
       22442,
@@ -1194,6 +1260,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 533,
+    "name": "Battlegear of Undead Slaying",
     "items": [
       23090,
       23087,
@@ -1208,6 +1275,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 534,
+    "name": "Undead Slayer's Armor",
     "items": [
       23081,
       23089,
@@ -1222,6 +1290,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 535,
+    "name": "Garb of the Undead Slayer",
     "items": [
       23088,
       23082,
@@ -1236,6 +1305,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 536,
+    "name": "Regalia of Undead Cleansing",
     "items": [
       23091,
       23084,
@@ -1250,6 +1320,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 537,
+    "name": "Champion's Battlearmor",
     "items": [
       22868,
       22858,
@@ -1275,6 +1346,7 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
   },
   {
     "id": 545,
+    "name": "Lieutenant Commander's Battlearmor",
     "items": [
       23300,
       23301,

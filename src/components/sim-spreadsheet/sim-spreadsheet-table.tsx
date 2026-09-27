@@ -186,7 +186,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		backgroundColor: 'transparent',
 		borderColor: 'hsla(220, 20%, 25%, 0.6)',
 		browserColorScheme: 'dark',
-		fontSize: 12,
+		fontSize: 11,
 		foregroundColor: 'white',
 		headerBackgroundColor: 'hsl(220, 30%, 6%)',
 		headerFontSize: 12,
@@ -407,20 +407,20 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		});
 	}
 
-	function simPageOne() {
+	function simVisibleRows() {
 		getBaseLine(function () {
 			updateInterval = setInterval(updateProgressBar, 2);
 			const filteredCollections = getFilteredCollections();
 
-			const pageSize = global.gridApi.paginationGetPageSize();
-			const pageOneItems = [];
-			for (let rowIndex = 0; rowIndex < pageSize; rowIndex++) {
+			const firstRowIndex = global.gridApi.getFirstDisplayedRowIndex();
+			const lastRowIndex = global.gridApi.getLastDisplayedRowIndex();
+			const visibleItems = [];
+			for (let rowIndex = firstRowIndex; rowIndex <= lastRowIndex; rowIndex++) {
 				const rowNode = global.gridApi.getDisplayedRowAtIndex(rowIndex);
-				if (!rowNode) break;
-				pageOneItems.push(rowNode.data);
+				if (rowNode) visibleItems.push(rowNode.data);
 			}
-			const itemsFiltered = slot.includes('enchant') ? filteredCollections.items : { ...filteredCollections.items, [slot]: pageOneItems };
-			const enchantsFiltered = slot.includes('enchant') ? { ...filteredCollections.enchants, [slot]: pageOneItems } : filteredCollections.enchants;
+			const itemsFiltered = slot.includes('enchant') ? filteredCollections.items : { ...filteredCollections.items, [slot]: visibleItems };
+			const enchantsFiltered = slot.includes('enchant') ? { ...filteredCollections.enchants, [slot]: visibleItems } : filteredCollections.enchants;
 
 			let data = {
 				classid,
@@ -523,27 +523,29 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 			</div>
 			<div className="buttons">
 				<button onClick={simPinned}>Sim Pinned</button>
-				<button onClick={simPageOne}>Sim Page 1</button>
+				<button onClick={simVisibleRows}>Sim Visible</button>
 				<button onClick={() => simAll(0)}>Sim All</button>
+
+				<input type="text" id="quick-filter" placeholder="Search" onInput={onFilterTextBoxChanged} />
+				{visibleFilters.length > 0 && (
+					<div className="filters-bar">
+						{visibleFilters.map(filter => (
+							<div className="filter" key={filter.id}>
+								<span>{formatFilter(filter)}</span>
+								<button aria-label={`Remove ${formatFilter(filter)}`} onClick={() => removeFilter(filter.id)}>
+									<XIcon size={12} weight="bold" />
+								</button>
+							</div>
+						))}
+					</div>
+				)}
 				<button onClick={() => setIsFilterModalOpen(true)}>
 					<FunnelSimpleIcon size={14} />
 					Add Filter
 				</button>
-				<input type="text" id="quick-filter" placeholder="Search" onInput={onFilterTextBoxChanged} />
 			</div>
 			<div className="progress-bar" ref={progressBarRef}>
 				<div></div>
-			</div>
-			<div className="filters-bar">
-				{visibleFilters.map(filter => (
-					<div className="filter" key={filter.id}>
-						<span>{formatFilter(filter)}</span>
-						<button aria-label={`Remove ${formatFilter(filter)}`} onClick={() => removeFilter(filter.id)}>
-							<XIcon size={12} weight="bold" />
-						</button>
-					</div>
-				))}
-				{visibleFilters.length === 0 && <span className="empty">&nbsp;No filters applied</span>}
 			</div>
 			<SimModal isOpen={isFilterModalOpen} onClose={() => setIsFilterModalOpen(false)}>
 				<div className="filter-modal">
@@ -596,8 +598,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 					theme={myTheme}
 					columnDefs={colDefs}
 					rowData={getItemData()}
-					pagination={true}
-					paginationAutoPageSize={true}
+					rowHeight={26}
 					gridOptions={gridOptions}
 					defaultColDef={{ flex: 1 }}
 					isRowPinned={isRowPinned}

@@ -31,6 +31,18 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 	const [tab, setTab] = useState(0);
 	let items = getItems();
 	let enchants = getEnchants();
+	const activeSetCounts: { set: any; count: number }[] = [];
+	for (const slotItems of Object.values(items) as any[]) {
+		for (const item of slotItems) {
+			if (!item.selected) continue;
+			const itemSet = getItemSet(item.id);
+			if (!itemSet) continue;
+			const activeSet = activeSetCounts.find(entry => entry.set.id === itemSet.id);
+			if (activeSet) activeSet.count++;
+			else activeSetCounts.push({ set: itemSet, count: 1 });
+		}
+	}
+	activeSetCounts.sort((a, b) => a.set.id - b.set.id);
 
 	const encounter = new Encounter(data);
 	const player = new Player(data);
@@ -169,6 +181,35 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 					{buildSlot('trinket2')}
 				</div>
 			</div>
+			<section className="active-sets" aria-label="Active item sets">
+				{activeSetCounts.length === 0 ? (
+					<p className="active-sets-empty">No set pieces equipped</p>
+				) : (
+					<div className="active-sets-list">
+						{activeSetCounts.map(({ set, count }) => (
+							<a href={`https://www.wowhead.com/forever/item-set=${set.id}`} className="wh-tooltip" onClick={e => e.preventDefault()}>
+								<div className="active-set" key={set.id}>
+									<div className="active-set-summary">
+										<strong>{set.name || `Set ${set.id}`}</strong>
+										<div className="active-set-bonuses">
+											{[...set.sets]
+												.sort((a: any, b: any) => a.count - b.count)
+												.map((bonus: any) => (
+													<span className={clsx(count >= bonus.count && 'active')} key={bonus.count}>
+														{bonus.count}-piece
+													</span>
+												))}
+										</div>
+									</div>
+									<div className="active-set-progress" aria-hidden="true">
+										<div style={{ width: `${Math.min(100, (count / set.items.length) * 100)}%` }}></div>
+									</div>
+								</div>
+							</a>
+						))}
+					</div>
+				)}
+			</section>
 		</div>
 	);
 }

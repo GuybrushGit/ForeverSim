@@ -3,9 +3,9 @@
 	position: relative;
 	.container {
 		width: 100%;
-		height: calc(100vh - 182px);
+		height: calc(100vh - 149px);
 		&.dashboard {
-			height: calc(100vh - 160px);
+			height: calc(100vh - 128px);
 		}
 	}
 	.ag-column-first {
@@ -34,9 +34,12 @@
 		width: 100%;
 		padding: 8px;
 		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
 		gap: 8px;
 		input {
-			width: 100%;
+			flex: 1 1 180px;
+			width: auto;
 			height: 30px;
 			border: 1px solid $border-color;
 			background: $background-dark;
@@ -56,17 +59,14 @@
 		}
 	}
 	.filters-bar {
-		width: 100%;
-		min-height: 32px;
+		width: auto;
+		min-height: 24px;
+		flex: 1 1 240px;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: flex-end;
 		gap: 8px;
-		padding: 0 8px 6px;
-		.empty {
-			font-size: 12px;
-			color: $light-grey;
-			padding: 4px 0;
-		}
+		padding: 0;
 		.filter {
 			font-size: 12px;
 			font-weight: 500;

@@ -90,6 +90,7 @@ export default function ItemSetGenerator() {
 		for (let itemSet of itemSets) {
 			let obj = {} as ItemSet;
 			obj.id = Number(itemSet.ID);
+			obj.name = itemSet.Name_lang;
 			if (!obj.id || obj.id > 1500) continue; // sod
 			obj.items = [];
 
