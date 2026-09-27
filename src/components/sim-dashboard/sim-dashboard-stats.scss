@@ -1,9 +1,10 @@
 .sim-dashboard-stats {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	letter-spacing: 0.2ch;
 	font-size: 12px;
+	max-height: 298px;
+	overflow-x: hidden;
 	div {
 		display: flex;
 		justify-content: space-between;

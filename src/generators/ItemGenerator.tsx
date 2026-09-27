@@ -702,7 +702,7 @@ export default function ItemGenerator() {
 			let blockrate = getStat(sparse, 15, budget);
 			let spdmg = getStat(sparse, 42, budget);
 			let armor = getStat(sparse, 50, budget);
-			let expertise = getStat(sparse, 37, budget);
+			let expertiserate = getStat(sparse, 37, budget);
 			let rap = getStat(sparse, 39, budget);
 			if (agi) obj.stats.agi = agi;
 			if (str) obj.stats.str = str;
@@ -717,7 +717,7 @@ export default function ItemGenerator() {
 			if (dodgerate) obj.stats.dodge_rate = dodgerate;
 			if (parryrate) obj.stats.parry_rate = parryrate;
 			if (blockrate) obj.stats.block_rate = blockrate;
-			if (expertise) obj.stats.expertise = expertise;
+			if (expertiserate) obj.stats.expertise_rate = expertiserate;
 			if (critrate) obj.stats.crit_rate = critrate;
 			if (hitrate) obj.stats.hit_rate = hitrate;
 			if (armor) obj.stats.armor = armor;

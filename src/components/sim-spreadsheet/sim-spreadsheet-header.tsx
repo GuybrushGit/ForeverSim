@@ -42,7 +42,7 @@ function SimSpreadsheetHeader() {
 				<SimIcon
 					child={child}
 					id={item.id}
-					item={slot.indexOf('enchant') == -1}
+					item={iconSlot.indexOf('enchant') == -1}
 					rand={item.rand}
 					ench={enchant}
 					pieces={pieces}

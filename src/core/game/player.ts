@@ -63,6 +63,7 @@ export class PlayerStats {
 	dodge_rate: number = 0;
 	parry_rate: number = 0;
 	block_rate: number = 0;
+	expertise_rate: number = 0;
 
 	// None: 0,
 	// Magic: 1,
@@ -115,6 +116,7 @@ export class Player {
 	parry_per_rate: number;
 	hit_per_rate: number;
 	spell_hit_per_rate: number;
+	expertise_per_rate: number;
 
 	rage_conversion: number;
 	agi_per_crit: number;
@@ -163,6 +165,7 @@ export class Player {
 		this.parry_per_rate = 15 * ((this.level - 8) / 52);
 		this.hit_per_rate = 10 * ((this.level - 8) / 52);
 		this.spell_hit_per_rate = 8 * ((this.level - 8) / 52);
+		this.expertise_per_rate = 10 * ((this.level - 8) / 52);
 
 		this.actions = [];
 		this.procs = [];
@@ -299,7 +302,9 @@ export class Player {
 			} else if (key == 'dodge_rate') base.dodge += round((value * modifier) / this.dodge_per_rate) || 0;
 			else if (key == 'parry_rate') base.parry += round((value * modifier) / this.parry_per_rate) || 0;
 			else if (key == 'block_rate') base.block += round((value * modifier) / this.block_per_rate) || 0;
-			else if (key == 'crit_rate') {
+			else if (key == 'expertise_rate') {
+				base.expertise += round((value * modifier) / this.expertise_per_rate) || 0;
+			} else if (key == 'crit_rate') {
 				base.crit[SpellSchool.Physical] += round((value * modifier) / this.crit_per_rate) || 0;
 				base.crit[SpellSchool.Arcane] += round((value * modifier) / this.crit_per_rate) || 0;
 				base.crit[SpellSchool.Fire] += round((value * modifier) / this.crit_per_rate) || 0;

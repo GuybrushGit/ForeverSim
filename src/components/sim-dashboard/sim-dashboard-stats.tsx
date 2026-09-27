@@ -78,6 +78,14 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; si
 						<p>MH Skill</p>
 						<p>{stats.weapon_skill[mh.type]}</p>
 					</div>,
+					<div key="mhdodge">
+						<p>MH Dodge</p>
+						<p>{target_stats.dodge[0]} %</p>
+					</div>,
+					<div key="mhparry">
+						<p>MH Parry</p>
+						<p>{target_stats.parry} %</p>
+					</div>,
 				]}
 			{props.type == 'offensive' &&
 				oh && [
@@ -103,6 +111,14 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; si
 					<div key="ohskill">
 						<p>OH Skill</p>
 						<p>{stats.weapon_skill[oh.type]}</p>
+					</div>,
+					<div key="ohdodge">
+						<p>OH Dodge</p>
+						<p>{target_stats.dodge[1]} %</p>
+					</div>,
+					<div key="ohparry">
+						<p>OH Parry</p>
+						<p>{target_stats.parry} %</p>
 					</div>,
 				]}
 

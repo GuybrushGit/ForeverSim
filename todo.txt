@@ -1,11 +1,9 @@
 /********************************  TODO LIST  *************************
  *
- * 
- * windfury:
 
-Sweeping Strikes - Can't proc it
 
- *  
+clean up spreadsheet
+reck
 	item sets
 	crit caps
 	check all items and trinkets and enchats

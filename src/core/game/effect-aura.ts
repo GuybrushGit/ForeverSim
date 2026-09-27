@@ -48,7 +48,6 @@ export function applyEffectAura(
 			if (sim)
 				sim.final_stats.melee_ap =
 					(player.base_stats.melee_ap + sim.aura_stats.melee_ap + sim.final_stats.str * player.ap_per_str) * sim.final_stats.melee_ap_mod;
-			if (sim) sim.addEvent(EventType.Custom, value * (remove ? -1 : 1));
 			break;
 		case AuraType.ModRangedAttackPower:
 			stats.ranged_ap += value * (remove ? -1 : 1);
