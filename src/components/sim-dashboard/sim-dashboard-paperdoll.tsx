@@ -156,13 +156,15 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 				</div>
 				<div className="center">
 					<SimTabs>
-						<SimTabsItem text="Base Stats" selected={tab == 0} handleClick={() => setTab(0)}></SimTabsItem>
-						<SimTabsItem text="Defensive" selected={tab == 1} handleClick={() => setTab(1)}></SimTabsItem>
-						<SimTabsItem text="Weapons" selected={tab == 2} handleClick={() => setTab(2)}></SimTabsItem>
+						<SimTabsItem text="Base" selected={tab == 0} handleClick={() => setTab(0)}></SimTabsItem>
+						<SimTabsItem text="Def" selected={tab == 1} handleClick={() => setTab(1)}></SimTabsItem>
+						<SimTabsItem text="MH" selected={tab == 2} handleClick={() => setTab(2)}></SimTabsItem>
+						<SimTabsItem text="OH" selected={tab == 3} handleClick={() => setTab(3)}></SimTabsItem>
 					</SimTabs>
 					{tab == 0 && <SimDashboardStats type="base" sim={sim}></SimDashboardStats>}
 					{tab == 1 && <SimDashboardStats type="defensive" sim={sim}></SimDashboardStats>}
-					{tab == 2 && <SimDashboardStats type="offensive" sim={sim}></SimDashboardStats>}
+					{tab == 2 && <SimDashboardStats type="mainhand" sim={sim}></SimDashboardStats>}
+					{tab == 3 && <SimDashboardStats type="offhand" sim={sim}></SimDashboardStats>}
 					<div className="bottom">
 						{buildSlot('mainhand')}
 						{buildSlot('offhand')}

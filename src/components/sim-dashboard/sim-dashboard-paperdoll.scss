@@ -35,7 +35,8 @@
 		& > div {
 			width: 100%;
 			display: flex;
-			justify-content: space-between;
+			justify-content: flex-start;
+			gap: 4px;
 			border-top: 1px solid $border-color;
 			padding: 5px 0;
 			&:first-child {
@@ -71,19 +72,6 @@
 			}
 		}
 		&.slot-selected {
-			// &::after {
-			// 	content: '';
-			// 	position: absolute;
-			// 	right: -18px;
-			// 	top: 50%;
-			// 	transform: translateY(-50%);
-			// 	width: 18px;
-			// 	height: 2px;
-			// 	background: $icon-border;
-			// 	border-radius: 999px;
-			// 	box-shadow: 0 0 0 1px rgba(255, 205, 69, 0.3);
-			// 	pointer-events: none;
-			// }
 			.sim-icon {
 				border-color: $icon-border;
 			}
@@ -258,7 +246,7 @@
 		background: $border-color;
 		div {
 			height: 100%;
-			background: $light-blue;
+			background: $yellow-copy;
 		}
 	}
 	.active-set-bonuses {
@@ -272,8 +260,8 @@
 			color: $light-grey;
 			font-size: 10px;
 			&.active {
-				border-color: $light-blue;
-				color: $light-blue;
+				border-color: $yellow-copy;
+				color: $yellow-copy;
 			}
 		}
 	}

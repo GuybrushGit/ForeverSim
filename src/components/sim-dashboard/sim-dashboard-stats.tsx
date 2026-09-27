@@ -1,13 +1,18 @@
 import { Simulation } from '@core/simulation';
 import './sim-dashboard-stats.scss';
-import { SpellSchool, SpellType } from '@core/shared/enums';
+import { EncounterPosition, SpellSchool, SpellType } from '@core/shared/enums';
 import { round } from '@core/shared/utils';
 
-function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; sim: Simulation }) {
+function SimDashboardStats(props: { type: 'base' | 'defensive' | 'mainhand' | 'offhand'; sim: Simulation }) {
 	let stats = props.sim.final_stats;
 	let mh = props.sim.player.mainhand;
 	let oh = props.sim.player.offhand;
 	let target_stats = props.sim.target_stats[0];
+	function getCritCap(weaponIndex: number) {
+		const miss = target_stats.player_dw_miss_chance[weaponIndex];
+		const block = props.sim.encounter.position === EncounterPosition.Front ? target_stats.parry + target_stats.block_chance[weaponIndex] : 0;
+		return Math.max(0, round(100 - miss - target_stats.dodge[weaponIndex] - target_stats.player_glance_chance[weaponIndex] - block));
+	}
 
 	return (
 		<div className="sim-dashboard-stats">
@@ -50,7 +55,7 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; si
 				</div>,
 			]}
 
-			{props.type == 'offensive' &&
+			{props.type == 'mainhand' &&
 				mh && [
 					<div key="mhdmg">
 						<p>MH Dmg</p>
@@ -74,6 +79,10 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; si
 						<p>MH Crit</p>
 						<p>{round(target_stats.player_crit + mh.bonuscrit)}%</p>
 					</div>,
+					<div key="mhcritcap">
+						<p>MH Crit Cap</p>
+						<p>{getCritCap(mh.index)}%</p>
+					</div>,
 					<div key="mhskill">
 						<p>MH Skill</p>
 						<p>{stats.weapon_skill[mh.type]}</p>
@@ -87,9 +96,8 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; si
 						<p>{target_stats.parry} %</p>
 					</div>,
 				]}
-			{props.type == 'offensive' &&
+			{props.type == 'offhand' &&
 				oh && [
-					<br key="ohbreak" />,
 					<div key="ohdmg">
 						<p>OH Dmg</p>
 						<p>
@@ -107,6 +115,10 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'offensive'; si
 					<div key="ohcrit">
 						<p>OH Crit</p>
 						<p>{round(target_stats.player_crit + oh.bonuscrit)}%</p>
+					</div>,
+					<div key="ohcritcap">
+						<p>OH Crit Cap</p>
+						<p>{getCritCap(oh.index)}%</p>
 					</div>,
 					<div key="ohskill">
 						<p>OH Skill</p>

@@ -1,8 +1,6 @@
 /********************************  TODO LIST  *************************
  *
 
-
-	crit caps
 	check all items and trinkets and enchats
  *
  * low prio stuff
