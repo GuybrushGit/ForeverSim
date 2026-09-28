@@ -6,8 +6,9 @@ import type { Spell } from './spell';
 import templateSpells from '@modules/spells';
 import type { Target } from './target';
 import type { Effect } from './effect';
+import type { Aura } from './aura';
 
-export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, target?: Target, action?: Action) {
+export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, aura: Aura, target?: Target, action?: Action) {
 	if (this.effectType != EffectType.ApplyAura || !this.auraType) return;
 
 	switch (this.auraType) {
@@ -66,8 +67,12 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 			break;
 		case AuraType.DummyAura:
 			if (spell.name == 'Deep Wounds') {
-				let dmg = sim.aux[spell.id];
-				sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), undefined, spell);
+				if (!target) return;
+				let ticksleft = (aura.duration + aura.timer - aura.endtimer) / aura.period + 1;
+				let dmg = sim.aux[spell.id][target.index] / ticksleft;
+				sim.aux[spell.id][target.index] -= dmg;
+				sim.addEvent(EventType.Custom, sim.aux[spell.id][target.index]);
+				sim.addEvent(EventType.AuraTick, round(dmg), round(dmg * sim.final_stats.threat_mod), undefined, spell);
 			} else {
 				console.log('dummy aura not implemented', this);
 			}

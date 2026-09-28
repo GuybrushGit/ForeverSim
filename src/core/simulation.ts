@@ -356,8 +356,12 @@ export class Simulation {
 		let aura = this.getAura(spell.id, target, weapon);
 		if (!aura) aura = this.addAura(spell, target, action, weapon);
 		else {
-			aura.timer = this.step;
-			aura.endtimer = this.step + (aura.period ? aura.period : aura.duration);
+			if (aura.timer && aura.period) {
+				aura.timer = aura.endtimer - aura.period;
+			} else {
+				aura.timer = this.step;
+				aura.endtimer = this.step + (aura.period ? aura.period : aura.duration);
+			}
 		}
 		if (spell.procCharges) aura.charges = spell.procCharges;
 		if (action && action.charges) aura.charges = action.charges;
@@ -384,7 +388,7 @@ export class Simulation {
 	getAura(id: number, target?: Target, weapon?: Weapon) {
 		let r;
 		this.auras.forEach(aura => {
-			if (aura.spell.id == id && (!target || aura.target == target) && (!weapon || aura.weapon == weapon)) {
+			if (aura.spell.id == id && (!target || aura.target == target) && (!aura.spell.weaponDependentAura || aura.weapon == weapon)) {
 				r = aura;
 				return;
 			}

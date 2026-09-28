@@ -69,7 +69,7 @@ function SimCombatLog(props: { events: Event[] }) {
 				break;
 			case EventType.AuraTick:
 				color = 'Tomato';
-				msg = `<span class="spell">${event.spell && event.spell.name}</span> tick <span class="${result}">${result}</span> for <span class="dmgspell">${value}</span>`;
+				msg = `<span class="spell">${event.spell && event.spell.name}</span> tick <span class="${result}">${result}</span> for <span class="dmgspell">${value}</span> ${threat ? ` (<span class="threat">${threat} T</span>)` : ''}`;
 				break;
 			case EventType.ExtraAttack:
 				color = 'Tomato';

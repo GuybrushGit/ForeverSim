@@ -140,7 +140,7 @@ export class Target {
 
 			for (let effect of spell.effects) {
 				if (effect.target != Targets.TARGET_UNIT_TARGET_ENEMY && effect.target != Targets.TARGET_ALL_ENEMY_IN_AREA) continue;
-				effect.applyEffectAuraTarget(player, this.base_stats, spell, this, undefined, false, undefined, mods);
+				effect.applyEffectAuraTarget(player, this.base_stats, spell, undefined, undefined, undefined, false, undefined, mods);
 			}
 		}
 	}

@@ -5,6 +5,7 @@ import type { Effect } from './effect';
 import { Combat } from './combat';
 import type { Target } from './target';
 import type { Weapon } from './weapon';
+import type { Aura } from './aura';
 
 export class Spell {
 	id: number = 0;
@@ -45,6 +46,7 @@ export class Spell {
 	isBinary: boolean;
 	hasAura: boolean;
 	spellSchool: number;
+	weaponDependentAura: boolean = false;
 
 	constructor(obj: any) {
 		obj && Object.assign(this, obj);
@@ -59,6 +61,9 @@ export class Spell {
 
 		// AoEs like TClap
 		if (!this.isWeaponDamageSpell && this.effects.filter(eff => eff.target == Targets.TARGET_CASTER_COORDINATES).length > 0) this.isMagicSpell = true;
+
+		// Crusaders
+		if (this.name == 'Righteous Strength' || this.name == 'Holy Strength') this.weaponDependentAura = true;
 	}
 
 	applyEffects(sim: Simulation, target?: Target, action?: Action, weapon?: Weapon): number {
@@ -76,7 +81,7 @@ export class Spell {
 		for (let effect of this.effects) {
 			if (effect.target != Targets.TARGET_UNIT_TARGET_ENEMY && effect.target != Targets.TARGET_ALL_ENEMY_IN_AREA)
 				effect.applyEffectAura(sim.player, sim.aura_stats, this, sim, true, action, undefined, charges);
-			else if (target) effect.applyEffectAuraTarget(sim.player, sim.target_stats[target.index], this, target, sim, true, action);
+			else if (target) effect.applyEffectAuraTarget(sim.player, sim.target_stats[target.index], this, undefined, target, sim, true, action);
 		}
 	}
 
@@ -122,8 +127,8 @@ export class Spell {
 		return num;
 	}
 
-	tick(sim: Simulation, target?: Target, action?: Action) {
-		for (let effect of this.effects) if (effect.auraPeriod) effect.applyPeriodicAura(sim, this, target, action);
+	tick(sim: Simulation, aura: Aura, target?: Target, action?: Action) {
+		for (let effect of this.effects) if (effect.auraPeriod) effect.applyPeriodicAura(sim, this, aura, target, action);
 	}
 
 	cast(sim: Simulation, action?: Action, _target?: Target, weapon?: Weapon) {

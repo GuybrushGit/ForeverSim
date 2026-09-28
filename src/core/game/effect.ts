@@ -12,6 +12,7 @@ import { applyEffectAura as applyEffectAuraImpl } from './effect-aura';
 import { applyPeriodicAura as applyPeriodicAuraImpl } from './effect-aura-periodic';
 import { applyEffectAuraTarget as applyEffectAuraTargetImpl } from './effect-aura-target';
 import { Dummy } from './dummy';
+import type { Aura } from './aura';
 
 export class Effect {
 	effectType: EffectType = 0;
@@ -62,10 +63,10 @@ export class Effect {
 			case EffectType.ApplyAura:
 			case EffectType.ApplyAreaAuraParty: {
 				let aura = sim.getAura(spell.id, target, weapon);
-				if (!aura || !aura.timer || (spell.maxStacks && aura.charges < spell.maxStacks)) {
+				if (!aura || !aura.timer || (spell.maxStacks && aura.charges < spell.maxStacks) || aura.stackableDot) {
 					if (spell.selfTarget || (this.target != Targets.TARGET_UNIT_TARGET_ENEMY && this.target != Targets.TARGET_ALL_ENEMY_IN_AREA))
 						this.applyEffectAura(sim.player, sim.aura_stats, spell, sim, false, action);
-					else if (target) this.applyEffectAuraTarget(sim.player, sim.target_stats[target.index], spell, target, sim, false, action);
+					else if (target) this.applyEffectAuraTarget(sim.player, sim.target_stats[target.index], spell, weapon, target, sim, false, action);
 				}
 				break;
 			}
@@ -221,20 +222,21 @@ export class Effect {
 		return applyEffectAuraImpl.call(this, player, stats, spell, sim, remove, action, mods, charges);
 	}
 
-	applyPeriodicAura(sim: Simulation, spell: Spell, target?: Target, action?: Action) {
-		return applyPeriodicAuraImpl.call(this, sim, spell, target, action);
+	applyPeriodicAura(sim: Simulation, spell: Spell, aura: Aura, target?: Target, action?: Action) {
+		return applyPeriodicAuraImpl.call(this, sim, spell, aura, target, action);
 	}
 
 	applyEffectAuraTarget(
 		player: Player,
 		stats: TargetStats,
 		spell: Spell,
-		_target: Target,
+		weapon?: Weapon,
+		target?: Target,
 		sim?: Simulation,
 		remove?: boolean,
 		action?: Action,
 		mods?: SpellModifier[],
 	) {
-		return applyEffectAuraTargetImpl.call(this, player, stats, spell, _target, sim, remove, action, mods);
+		return applyEffectAuraTargetImpl.call(this, player, stats, spell, weapon, target, sim, remove, action, mods);
 	}
 }

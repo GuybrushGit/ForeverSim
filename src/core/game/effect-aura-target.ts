@@ -8,13 +8,15 @@ import type { SpellModifier } from '@core/shared/types';
 import type { Target, TargetStats } from './target';
 import { Dummy } from './dummy';
 import type { Effect } from './effect';
+import type { Weapon } from './weapon';
 
 export function applyEffectAuraTarget(
 	this: Effect,
 	player: Player,
 	stats: TargetStats,
 	spell: Spell,
-	_target: Target,
+	weapon?: Weapon,
+	target?: Target,
 	sim?: Simulation,
 	remove?: boolean,
 	action?: Action,
@@ -67,7 +69,7 @@ export function applyEffectAuraTarget(
 			break;
 		case AuraType.DummyAura:
 			if (!sim) return;
-			if (spell.name == 'Deep Wounds') Dummy.DeepWounds(sim, spell, this.basePointsF);
+			if (spell.name == 'Deep Wounds') Dummy.DeepWounds(sim, spell, weapon, target, this.basePointsF);
 			break;
 		case AuraType.DispelImmunity:
 		case AuraType.PreventsFleeing:

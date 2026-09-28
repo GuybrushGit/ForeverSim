@@ -19,9 +19,12 @@ export class Dummy {
 		return (value + sim.final_stats.dmg_done[SpellSchool.Physical]) * sim.final_stats.dmg_done_mod[SpellSchool.Physical];
 	}
 
-	static DeepWounds(sim: Simulation, spell: Spell, basePoints?: number) {
-		if (!sim.player.mainhand) return;
-		sim.aux[spell.id] = round(sim.player.mainhand.getDeepWoundsDamage(sim) * (basePoints || 0) * (sim.player.traits[spell.id] || 1) * 0.25);
+	static DeepWounds(sim: Simulation, spell: Spell, weapon?: Weapon, target?: Target, basePoints?: number) {
+		if (!weapon || !target) return;
+		if (!sim.aux[spell.id]) sim.aux[spell.id] = {};
+		if (!sim.aux[spell.id][target.index]) sim.aux[spell.id][target.index] = 0;
+		sim.aux[spell.id][target.index] += round(weapon.getDeepWoundsDamage(sim) * (basePoints || 0) * (sim.player.traits[spell.id] || 1));
+		sim.addEvent(EventType.Custom, sim.aux[spell.id][target.index]);
 	}
 
 	static SweepingStrikes(sim: Simulation, spell: Spell, dmg: number) {

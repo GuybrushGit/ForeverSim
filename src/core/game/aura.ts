@@ -18,6 +18,7 @@ export class Aura {
 	charges: number;
 	endtimer: number;
 	dummy: any;
+	stackableDot: boolean = false;
 
 	constructor(step: number, spell: Spell, target?: Target, action?: Action, weapon?: Weapon) {
 		this.timer = step;
@@ -35,6 +36,8 @@ export class Aura {
 		});
 
 		this.endtimer = step + (this.period ? this.period : this.duration);
+
+		if (this.spell.name == 'Deep Wounds') this.stackableDot = true;
 	}
 
 	removeCharge(sim: Simulation) {
@@ -53,7 +56,7 @@ export class Aura {
 
 	processTimer(sim: Simulation) {
 		if (this.period) {
-			this.spell.tick(sim, this.target, this.action);
+			this.spell.tick(sim, this, this.target, this.action);
 			this.endtimer = sim.step + this.period;
 			if (sim.step - this.timer >= this.duration) this.removeAura(sim);
 			else sim.setNextAura();
@@ -109,7 +112,7 @@ export class ProcSpell {
 
 		// prevents Deep Wounds from missing
 		if (this.spell.attributesEx2 & SpellAttributesEx2.SPELL_ATTR_EX2_IGNORE_LOS) {
-			this.spell.applyEffects(sim, target);
+			this.spell.applyEffects(sim, target, undefined, weapon);
 			return;
 		}
 
