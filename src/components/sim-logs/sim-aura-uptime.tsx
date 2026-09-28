@@ -17,6 +17,7 @@ function SimAuraUptime() {
 			name: spell.name + (ids[1] == '1' ? ' MH' : ids[1] == '2' ? ' OH' : '') + (ids[2] !== '' ? ' ' + ids[2] : ''),
 			target: ids[2] ? ids[2] : undefined,
 			pct: ((simdata.spells[key].uptime / simdata.durationsteps) * 100).toFixed(2),
+			dps: ((simdata.spells[key].damage / simdata.durationsteps) * 1000).toFixed(2),
 			color: ids[2] ? 'buff' : 'debuff',
 		});
 	});
@@ -38,7 +39,9 @@ function SimAuraUptime() {
 								<div key={index} className="uptime-row">
 									<div className="uptime-label-row">
 										<span>{aura.name}</span>
-										<span className="uptime-value">{aura.pct}%</span>
+										<span className="uptime-value">
+											{aura.pct}% · {aura.dps} DPS
+										</span>
 									</div>
 									<div className="uptime-bar-wrap">
 										<div className={`uptime-bar ${aura.color}`} style={{ width: `${aura.pct}%` }}></div>
@@ -59,6 +62,9 @@ function SimAuraUptime() {
 										<div className="uptime-label-row">
 											<span>{aura.name}</span>
 											<span className="uptime-value">{aura.pct}%</span>
+											<span className="uptime-dps">
+												{aura.dps} <span>DPS</span>
+											</span>
 										</div>
 										<div className="uptime-bar-wrap">
 											<div className={`uptime-bar ${aura.color}`} style={{ width: `${aura.pct}%` }}></div>

@@ -58,7 +58,7 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, a
 				dmg = round(dmg * modifier * sim.final_stats.dmg_done_mod[spell.spellSchool]);
 			}
 
-			sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), result, spell);
+			sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), result, spell, aura.weapon, target);
 			break;
 		case AuraType.PeriodicTriggerSpell:
 			if (!this.triggerSpell) return 0;
@@ -71,8 +71,7 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, a
 				let ticksleft = (aura.duration + aura.timer - aura.endtimer) / aura.period + 1;
 				let dmg = sim.aux[spell.id][target.index] / ticksleft;
 				sim.aux[spell.id][target.index] -= dmg;
-				sim.addEvent(EventType.Custom, sim.aux[spell.id][target.index]);
-				sim.addEvent(EventType.AuraTick, round(dmg), round(dmg * sim.final_stats.threat_mod), undefined, spell);
+				sim.addEvent(EventType.AuraTick, round(dmg), round(dmg * sim.final_stats.threat_mod), undefined, spell, aura.weapon, target);
 			} else {
 				console.log('dummy aura not implemented', this);
 			}

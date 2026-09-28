@@ -3,7 +3,7 @@
 
 	check all items and trinkets and enchats
 
-	Rend adds 2% of attack power to every tick?
+	Rend adds 2% of ap?
 	Revenge adds 25% ap ?
  *
  * low prio stuff

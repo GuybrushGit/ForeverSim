@@ -45,6 +45,18 @@
 		font-size: 11px;
 		color: $white-copy;
 		letter-spacing: 0.03em;
+		margin-left: auto;
+	}
+
+	.uptime-dps {
+		font-size: 11px;
+		color: $yellow-copy;
+		font-weight: 600;
+		letter-spacing: 0.03em;
+		margin-left: 0;
+		span {
+			font-size: 10px;
+		}
 	}
 
 	.uptime-bar-wrap {

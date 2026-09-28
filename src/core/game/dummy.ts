@@ -24,7 +24,6 @@ export class Dummy {
 		if (!sim.aux[spell.id]) sim.aux[spell.id] = {};
 		if (!sim.aux[spell.id][target.index]) sim.aux[spell.id][target.index] = 0;
 		sim.aux[spell.id][target.index] += round(weapon.getDeepWoundsDamage(sim) * (basePoints || 0) * (sim.player.traits[spell.id] || 1));
-		sim.addEvent(EventType.Custom, sim.aux[spell.id][target.index]);
 	}
 
 	static SweepingStrikes(sim: Simulation, spell: Spell, dmg: number) {

@@ -37,6 +37,12 @@ onmessage = async (params: any) => {
 				if (!simdata[index]) simdata[index] = { results: Array(12).fill(0), damage: 0, uptime: 0 };
 				if (event.result) simdata[index].results[event.result]++;
 				if (event.value) simdata[index].damage += Math.round(event.value);
+
+				if (event.type == EventType.AuraTick && event.spell) {
+					let auraIndex = `${event.spell.id.toString()}|${!event.weapon ? 0 : event.weapon.offhand ? 2 : 1}|${event.target ? event.target.index : ''}`;
+					if (!simdata[auraIndex]) simdata[auraIndex] = { results: Array(12).fill(0), damage: 0, uptime: 0 };
+					if (event.value) simdata[auraIndex].damage += Math.round(event.value);
+				}
 			}
 			// damage received
 			if (event.type == EventType.AttackReceived) {

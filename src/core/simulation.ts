@@ -370,7 +370,7 @@ export class Simulation {
 		let threat = 0;
 		if (action && action.threat_buff) threat = action.threat_buff * 5;
 
-		this.addEvent(EventType.AuraStart, undefined, threat, undefined, spell, weapon, target);
+		this.addEvent(EventType.AuraStart, undefined, threat, undefined, spell, spell.weaponDependentAura ? weapon : undefined, target);
 	}
 
 	setNextAura() {
@@ -388,7 +388,7 @@ export class Simulation {
 	getAura(id: number, target?: Target, weapon?: Weapon) {
 		let r;
 		this.auras.forEach(aura => {
-			if (aura.spell.id == id && (!target || aura.target == target) && (!aura.spell.weaponDependentAura || aura.weapon == weapon)) {
+			if (aura.spell.id == id && (!target || aura.target == target) && (!aura.weapon || aura.weapon == weapon)) {
 				r = aura;
 				return;
 			}
@@ -397,7 +397,7 @@ export class Simulation {
 	}
 
 	addAura(spell: Spell, target?: Target, action?: Action, weapon?: Weapon): Aura {
-		let aura = new Aura(this.step, spell, target, action, weapon);
+		let aura = new Aura(this.step, spell, target, action, spell.weaponDependentAura ? weapon : undefined);
 		this.auras.push(aura);
 		return aura;
 	}
