@@ -145,6 +145,7 @@ export class Target {
 		}
 	}
 	setResistances(player: Player) {
+		this.resist_binary[SpellSchool.Physical] = getTargetSpellBinaryResist(player, this, 0);
 		this.resist_binary[SpellSchool.Arcane] = getTargetSpellBinaryResist(player, this, this.base_stats.resistance[SpellSchool.Arcane]);
 		this.resist_binary[SpellSchool.Fire] = getTargetSpellBinaryResist(player, this, this.base_stats.resistance[SpellSchool.Fire]);
 		this.resist_binary[SpellSchool.Frost] = getTargetSpellBinaryResist(player, this, this.base_stats.resistance[SpellSchool.Frost]);
@@ -152,6 +153,7 @@ export class Target {
 		this.resist_binary[SpellSchool.Shadow] = getTargetSpellBinaryResist(player, this, this.base_stats.resistance[SpellSchool.Shadow]);
 		this.resist_binary[SpellSchool.Holy] = getTargetSpellBinaryResist(player, this, this.base_stats.resistance[SpellSchool.Holy]);
 
+		this.partial_resist_table[SpellSchool.Physical] = getSpellPartialResistTable(player.level, this.level, 0, false);
 		this.partial_resist_table[SpellSchool.Arcane] = getSpellPartialResistTable(
 			player.level,
 			this.level,

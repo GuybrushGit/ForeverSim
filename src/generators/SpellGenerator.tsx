@@ -223,6 +223,7 @@ export default function SpellGenerator() {
 			if (Number(e['EffectMiscValue[0]'])) obj.miscValue = Number(e['EffectMiscValue[0]']);
 			if (Number(e['EffectSpellClassMask[0]'])) obj.classMask = Number(e['EffectSpellClassMask[0]']);
 			if (Number(e['ImplicitTarget[0]'])) obj.target = Number(e['ImplicitTarget[0]']);
+			if (e['EffectMiscValue[0]'] == '0') obj.miscValue = 0;
 
 			// Berserking
 			// if (id == 20554) {

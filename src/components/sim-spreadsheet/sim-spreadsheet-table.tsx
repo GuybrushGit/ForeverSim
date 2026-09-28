@@ -167,6 +167,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 			field: 'dps',
 			headerName: 'DPS',
 			flex: 1.2,
+			type: 'rightAligned',
 			sort: 'desc',
 			cellRenderer: function (params: any) {
 				if (baselineDps.current) params.data.baseline = baselineDps.current;

@@ -13,7 +13,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 12,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -36,7 +37,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 11,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -59,7 +61,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 21,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -82,7 +85,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 32,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -106,7 +110,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -120,7 +125,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 92,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -145,20 +151,23 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 6,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 17,
         "pointsPerLevel": 0.8,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 77,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -227,7 +236,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -293,7 +303,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 5,
         "targetCount": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -309,14 +320,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -40,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 342,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -342,7 +355,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 32,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -365,7 +379,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 44,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -388,7 +403,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 121,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -414,14 +430,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 33,
         "basePointsF": -40,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -446,7 +464,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -479,7 +498,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -508,7 +528,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 51,
         "basePointsF": 75,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "procExtra": 520
@@ -535,7 +556,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 64,
         "triggerSpell": 29131,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -572,7 +594,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -717,7 +740,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 21,
         "pointsPerLevel": 0.3,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -742,13 +766,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 125,
         "amplitude": 0.3,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 26651,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -822,7 +848,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 33,
         "pointsPerLevel": 0.3,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -839,7 +866,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 11,
         "variance": 0.36363637,
         "amplitude": 1,
-        "target": 16
+        "target": 16,
+        "miscValue": 0
       })
     ]
   }),
@@ -863,14 +891,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -898,7 +928,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 7,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -926,7 +957,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 9,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -954,7 +986,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 11,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -981,7 +1014,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 22,
         "variance": 0.15384616,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1008,7 +1042,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 34,
         "variance": 0.2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1065,7 +1100,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 25,
         "variance": 0.48,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1090,7 +1126,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 9,
         "pointsPerLevel": 0.3,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -1151,7 +1188,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 10,
         "targetCount": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1177,14 +1215,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 18,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 33,
         "basePointsF": -45,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1210,14 +1250,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 45,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 33,
         "basePointsF": -50,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1279,7 +1321,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 48,
         "variance": 0.21428572,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1297,7 +1340,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -1319,7 +1363,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 166,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1344,7 +1389,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1379,7 +1425,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -2250,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1414,7 +1461,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -2250,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1449,7 +1497,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 52,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1466,7 +1515,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 52,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1490,7 +1540,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 45,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -1504,7 +1555,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 92,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1528,7 +1580,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 65,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -1542,7 +1595,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 92,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1557,7 +1611,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1571,7 +1626,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1596,7 +1652,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1618,14 +1675,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 32,
         "pointsPerLevel": 2.1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1647,14 +1706,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 48,
         "pointsPerLevel": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1674,7 +1735,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 7,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1693,7 +1755,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 13,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -1713,7 +1776,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 14,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1733,7 +1797,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1757,14 +1822,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 23,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -1788,14 +1855,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 37,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -1819,14 +1888,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 55,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -1844,14 +1915,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 61,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1864,7 +1937,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1899,7 +1973,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -2250,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -1922,13 +1997,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 95,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 19,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -1962,6 +2039,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0,
         "basePointsF": -2250
       })
     ]
@@ -1996,6 +2074,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0,
         "basePointsF": -2250
       })
     ]
@@ -2030,6 +2109,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0,
         "basePointsF": -2250
       })
     ]
@@ -2056,7 +2136,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 43,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -2094,7 +2175,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 70,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2193,7 +2275,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 40,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -2210,14 +2293,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 14,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 14,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2237,7 +2322,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -2253,7 +2339,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 300,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2287,7 +2374,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2324,7 +2412,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 9057,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2341,14 +2430,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 26,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 26,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2451,7 +2542,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 80,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2471,7 +2563,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 18,
         "variance": 0.22222222,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2491,7 +2584,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 10,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2506,7 +2600,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -2514,7 +2609,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 5000,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -2795,7 +2891,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 42,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2817,14 +2914,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 77,
         "pointsPerLevel": 5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -2841,7 +2940,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 400,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -2859,7 +2959,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 331,
         "variance": 0.27190334,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -2867,7 +2968,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 33,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -2890,13 +2992,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 179,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 19,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2919,13 +3023,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 246,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 19,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -2984,7 +3090,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -3021,7 +3128,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 100,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -3055,6 +3163,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0,
         "basePointsF": -2250
       })
     ]
@@ -3089,6 +3198,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0,
         "basePointsF": -2250
       })
     ]
@@ -3176,7 +3286,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 11374,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -3214,7 +3325,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -3239,7 +3351,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 51,
         "pointsPerLevel": 0.6,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -3264,7 +3377,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 78,
         "pointsPerLevel": 0.6,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -3289,7 +3403,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 111,
         "pointsPerLevel": 0.6,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -3312,7 +3427,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 58,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3335,7 +3451,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 80,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3358,7 +3475,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 111,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3381,7 +3499,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 138,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3409,7 +3528,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 14,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3437,7 +3557,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 18,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3465,7 +3586,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 21,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3489,14 +3611,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 82,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -3520,14 +3644,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 103,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -3552,7 +3678,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3577,7 +3704,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3612,7 +3740,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -2250,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3647,7 +3776,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -2250,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3674,7 +3804,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 82,
         "variance": 0.20833333,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3701,7 +3832,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 121,
         "variance": 0.1971831,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3727,7 +3859,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 68,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3753,7 +3886,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 87,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3778,7 +3912,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 18,
         "targetCount": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3803,7 +3938,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 32,
         "targetCount": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3819,7 +3955,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 24,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -3861,7 +3998,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 90,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -3875,7 +4013,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 92,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -3912,6 +4051,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "amplitude": 1,
         "target": 6,
+        "miscValue": 0,
         "auraType": 4,
         "auraPeriod": 3000,
         "basePointsF": 0.2
@@ -3953,14 +4093,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 12278,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "basePointsF": 2,
         "triggerSpell": 11009,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -3975,7 +4117,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 75,
         "amplitude": 1,
-        "target": 24
+        "target": 24,
+        "miscValue": 0
       })
     ]
   }),
@@ -3999,7 +4142,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 1257049,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4039,7 +4183,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 280,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4119,7 +4264,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 23694,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -4163,7 +4309,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4197,7 +4344,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 85,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -4215,7 +4363,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4240,21 +4389,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 4,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 4,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4291,7 +4443,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 51,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -4299,7 +4452,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 20,
         "triggerSpell": 1310318,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4324,7 +4478,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 466,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4386,7 +4541,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 100,
         "triggerSpell": 18498,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4443,7 +4599,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "procExtra": 2624
@@ -4463,7 +4620,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "procExtra": 576
@@ -4483,7 +4641,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 52,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4524,7 +4683,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 12964,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4545,7 +4705,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -50,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -4623,7 +4784,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 105,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4664,7 +4826,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4757,7 +4920,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -4779,7 +4943,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 12162,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "procExtra": 576
@@ -4912,7 +5077,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 38
+        "target": 38,
+        "miscValue": 0
       })
     ]
   }),
@@ -4975,7 +5141,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -4992,7 +5159,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5009,7 +5177,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 133,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "cooldown": 600000
@@ -5027,7 +5196,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 50,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5044,7 +5214,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5082,7 +5253,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5101,13 +5273,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 12,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 22646,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5143,7 +5317,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 51,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -5151,7 +5326,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5170,14 +5346,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -50,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 50,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5193,7 +5371,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5213,7 +5392,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 60,
         "variance": 0.33333334,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5230,7 +5410,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 67,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5246,7 +5427,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       })
     ]
   }),
@@ -5263,7 +5445,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 51,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5277,7 +5460,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5293,13 +5477,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 100,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5342,14 +5528,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5366,7 +5554,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5454,7 +5643,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5469,7 +5659,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5508,7 +5699,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5587,7 +5779,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5604,7 +5797,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 54,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5621,7 +5815,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 65,
         "variance": 0.12307692,
         "amplitude": 1,
-        "target": 24
+        "target": 24,
+        "miscValue": 0
       })
     ]
   }),
@@ -5641,7 +5836,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 15851,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5660,7 +5856,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -5701,14 +5898,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -5730,14 +5929,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 127,
         "pointsPerLevel": 4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5759,14 +5960,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 158,
         "pointsPerLevel": 5.6,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5785,7 +5988,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 6000,
         "basePointsF": 17,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5804,7 +6008,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5823,7 +6028,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5840,7 +6046,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5856,7 +6063,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 47,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5874,7 +6082,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -5882,7 +6091,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 20,
         "triggerSpell": 16488,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5900,7 +6110,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -5954,7 +6165,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -5991,7 +6203,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 25,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6008,7 +6221,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 50,
         "variance": 0.6,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6025,7 +6239,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 100,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6044,7 +6259,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 140,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6080,7 +6296,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6112,14 +6329,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 120,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 10,
         "basePointsF": 360,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6138,7 +6357,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.32,
         "targetCount": 3,
         "amplitude": 0.7,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6155,14 +6375,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 33,
         "basePointsF": -30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6201,14 +6423,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 61,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6244,7 +6468,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 15,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -6270,7 +6495,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6297,7 +6523,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 60,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "cooldown": 120000
@@ -6324,7 +6551,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6345,7 +6573,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 34,
         "basePointsF": 1200,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6383,7 +6612,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 91,
         "variance": 0.3148148,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6404,7 +6634,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 228,
         "variance": 0.24561404,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -6412,7 +6643,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 12,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6432,7 +6664,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 85,
         "pointsPerLevel": 1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6449,7 +6682,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 700,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6471,7 +6705,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6509,7 +6744,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 200,
         "variance": 0.75,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6526,7 +6762,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       })
     ]
   }),
@@ -6546,7 +6783,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 18374,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6562,7 +6800,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -6578,7 +6817,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 57,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6594,7 +6834,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 57,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6613,7 +6854,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 45,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6723,14 +6965,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 270,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 30,
         "basePointsF": 128,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6749,7 +6993,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 18980,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6765,7 +7010,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 20,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6780,7 +7026,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 19,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6801,7 +7048,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 124,
         "basePointsF": 50,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6823,7 +7071,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 14,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6863,7 +7112,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6885,7 +7135,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6907,7 +7158,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 61,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6929,7 +7181,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 83,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6951,7 +7204,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 112,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -6980,7 +7234,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 65,
         "auraType": 118,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6994,7 +7249,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 9,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7011,14 +7267,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 33,
         "basePointsF": -30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7054,14 +7312,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 10,
         "basePointsF": 100,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7121,14 +7381,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 4,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7182,21 +7444,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 133,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 54,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 55,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7214,21 +7479,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 140,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 65,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7270,7 +7538,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 50,
         "targetCount": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7290,21 +7559,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 166,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 167,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 317,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7322,7 +7594,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7338,14 +7611,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 49,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 31,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7361,7 +7636,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 178,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7379,7 +7655,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7421,13 +7698,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 200,
         "amplitude": 0.6,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 26651,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7452,13 +7731,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 325,
         "amplitude": 0.9,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 26651,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7483,13 +7764,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 450,
         "amplitude": 1.2,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 26651,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7514,13 +7797,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 600,
         "amplitude": 1.5,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 26651,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7539,7 +7824,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 75,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7560,7 +7846,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 124,
         "basePointsF": 75,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7581,7 +7868,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 124,
         "basePointsF": 50,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7600,7 +7888,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 12,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 16
+        "target": 16,
+        "miscValue": 0
       })
     ]
   }),
@@ -7658,7 +7947,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 92,
         "variance": 0.19565217,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -7666,7 +7956,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7687,7 +7978,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 303,
         "variance": 0.1980198,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -7695,7 +7987,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7714,7 +8007,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.5,
         "targetCount": 3,
         "amplitude": 0.7,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7729,7 +8023,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "effects": [
       new Effect({
         "effectType": 34,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7747,13 +8042,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 7,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7805,7 +8102,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 110,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7839,7 +8137,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 135,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7873,7 +8172,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 121,
         "basePointsF": 160,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7890,7 +8190,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 85,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7907,7 +8208,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 85,
         "basePointsF": 12,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7923,7 +8225,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 134,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7937,7 +8240,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 30,
         "basePointsF": 32,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -7982,13 +8286,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 300,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 27648,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8004,7 +8310,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 252,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8020,7 +8327,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 252,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8054,13 +8362,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 96,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 13327,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8101,14 +8411,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 200,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 200,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -8138,12 +8450,14 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 24,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 22991,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8158,7 +8472,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 24,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8174,7 +8489,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 24,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8197,14 +8513,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 666,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 30,
         "basePointsF": 304,
         "variance": 0.5,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -8299,7 +8617,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 252,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8316,7 +8635,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8334,7 +8654,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 12,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8376,21 +8697,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 122,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 4,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 54,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8407,7 +8731,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 45,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8455,7 +8780,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -540,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8471,7 +8797,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 150,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8505,7 +8832,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 250,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8535,7 +8863,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 26,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8549,7 +8878,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8574,7 +8904,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 64,
         "triggerSpell": 23770,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       })
     ]
   }),
@@ -8593,7 +8924,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       })
     ]
   }),
@@ -8612,7 +8944,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 23864,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8652,13 +8985,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 30,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8681,13 +9016,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 37,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8710,13 +9047,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 43,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8739,13 +9078,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 48,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 35,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8777,7 +9118,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 430,
         "variance": 0.04347826,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8809,7 +9151,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 505,
         "variance": 0.044444446,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8841,7 +9184,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 580,
         "variance": 0.045161292,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8873,7 +9217,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 655,
         "variance": 0.045714285,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -8909,14 +9254,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 58,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8941,14 +9288,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 82,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 58,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -8968,7 +9317,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -9050,13 +9400,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 24590,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 29284,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9072,7 +9424,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 77,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9090,12 +9443,14 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 29275,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9114,7 +9469,25 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "24746": new Spell({
+    "id": 24746,
+    "name": "Twilight Cultist Disguise",
+    "schoolMask": 1,
+    "attributes": 64,
+    "procChance": 101,
+    "path": "temp",
+    "effects": [
+      new Effect({
+        "effectType": 35,
+        "auraType": 4,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9133,7 +9506,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9151,7 +9525,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 1000,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9169,7 +9544,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9210,7 +9586,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 157,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -9237,7 +9614,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 153,
         "variance": 0.2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -9262,7 +9640,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 139,
         "pointsPerLevel": 0.6,
         "amplitude": 1,
-        "target": 20
+        "target": 20,
+        "miscValue": 0
       })
     ]
   }),
@@ -9285,7 +9664,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 133,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -9326,7 +9706,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 53,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9404,14 +9785,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 280,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 280,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9427,7 +9810,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 63,
         "basePointsF": -650,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -9481,7 +9865,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -9584,7 +9969,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 15,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9637,13 +10023,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 26465,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 29286,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9659,7 +10047,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 77,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9680,7 +10069,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 13567,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9699,7 +10089,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 26481,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9737,7 +10128,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9753,7 +10145,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 110,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9771,7 +10164,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 27418,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9791,7 +10185,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 27499,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9851,7 +10246,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": -20,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -9865,7 +10261,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 24,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -9891,7 +10288,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 54,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9911,7 +10309,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 27775,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9956,7 +10355,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 27779,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -9998,7 +10398,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 21330,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10016,7 +10417,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 27798,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10036,7 +10438,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 27786,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10051,7 +10454,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 30,
         "basePointsF": 200,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10071,7 +10475,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 27788,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10101,7 +10506,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10121,7 +10527,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "triggerSpell": 27868,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10136,7 +10543,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 26,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -10177,7 +10585,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 28204,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10242,7 +10651,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "amplitude": 1,
         "classMask": 16,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10347,7 +10757,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28753,
         "amplitude": 1,
         "classMask": 4096,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10362,7 +10773,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 30,
         "basePointsF": 50,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10400,7 +10812,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 3000,
         "triggerSpell": 28757,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10418,7 +10831,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 5
+        "target": 5,
+        "miscValue": 0
       })
     ]
   }),
@@ -10435,7 +10849,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 30,
         "basePointsF": 500,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10455,7 +10870,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28762,
         "amplitude": 1,
         "classMask": 4096,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10513,7 +10929,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10531,7 +10948,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 28772,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10572,7 +10990,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 274,
         "basePointsF": 235,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10610,7 +11029,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10627,14 +11047,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 260,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 260,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10719,7 +11141,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28788,
         "amplitude": 1,
         "classMask": 4096,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10735,7 +11158,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 10,
         "basePointsF": 200,
         "amplitude": 1,
-        "target": 21
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -10754,7 +11178,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "amplitude": 1,
         "classMask": 4096,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10775,7 +11200,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28804,
         "amplitude": 1,
         "classMask": 32768,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10793,7 +11219,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 85,
         "basePointsF": 24,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10852,7 +11279,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "amplitude": 1,
         "classMask": 16,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10893,7 +11321,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28813,
         "amplitude": 1,
         "classMask": 570556422,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10929,7 +11358,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28815,
         "amplitude": 1,
         "classMask": 131072,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10975,7 +11405,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28817,
         "amplitude": 1,
         "classMask": 570556422,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10991,7 +11422,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 100,
         "variance": 0.2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11029,7 +11461,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 85,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -11037,7 +11470,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 5000,
         "triggerSpell": 18350,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11057,7 +11491,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28820,
         "amplitude": 1,
         "classMask": 1024,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11076,7 +11511,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "amplitude": 1,
         "classMask": 4096,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11134,7 +11570,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28839,
         "amplitude": 1,
         "classMask": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11150,12 +11587,14 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 300,
         "variance": 0.2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11214,7 +11653,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 75,
         "amplitude": 1,
         "classMask": 1024,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11234,7 +11674,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "triggerSpell": 28846,
         "amplitude": 1,
         "classMask": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11290,14 +11731,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 140,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11343,7 +11786,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 94,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11389,14 +11833,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 52,
         "basePointsF": 50,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 57,
         "basePointsF": 60,
         "amplitude": 1,
-        "target": 22
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -11413,7 +11859,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "classMask": 16777825,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11430,7 +11877,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "classMask": 16777825,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11447,7 +11895,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "classMask": 16777825,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11464,7 +11913,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "classMask": 16777825,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11482,7 +11932,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 54,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11500,14 +11951,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 52,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 57,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11545,13 +11998,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "triggerSpell": 29604,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 29604,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11569,14 +12024,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 65,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 65,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11593,7 +12050,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 26,
         "variance": 0.36363637,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11636,7 +12094,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 33,
         "basePointsF": -40,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
@@ -11644,7 +12103,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.12121212,
         "pointsPerLevel": 0.7,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11666,7 +12126,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.15384616,
         "pointsPerLevel": 0.9,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11693,21 +12154,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 140,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 52,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 140,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       })
     ]
   }),
@@ -11726,21 +12190,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 34,
         "basePointsF": 300,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 319,
         "basePointsF": 15,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 85,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 25
+        "target": 25,
+        "miscValue": 0
       })
     ]
   }),
@@ -11759,7 +12226,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 436445,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11773,7 +12241,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 7,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11811,13 +12280,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 84,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 1312052,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11834,14 +12305,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 54,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 55,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11857,14 +12330,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 54,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 55,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11883,7 +12358,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11902,7 +12378,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11919,7 +12396,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -11935,14 +12413,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 120,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 10,
         "basePointsF": 400,
         "variance": 0.25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11958,14 +12438,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 200,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 10,
         "basePointsF": 400,
         "variance": 0.25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -11985,7 +12467,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 96,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 30,
@@ -11998,7 +12481,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 64,
         "triggerSpell": 7922,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12018,7 +12502,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 96,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 30,
@@ -12031,7 +12516,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 64,
         "triggerSpell": 7922,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12051,7 +12537,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 96,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 30,
@@ -12064,7 +12551,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 64,
         "triggerSpell": 7922,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12099,14 +12587,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 55,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 55,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12149,7 +12639,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 18,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -12174,14 +12665,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 290,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12200,14 +12693,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 99,
         "basePointsF": 80,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 124,
         "basePointsF": 80,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12223,7 +12718,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 29,
         "basePointsF": 20,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12240,14 +12736,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 54,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 55,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12264,7 +12762,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12278,7 +12777,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 19,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12311,14 +12811,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 342,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 65,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12336,7 +12838,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12373,7 +12876,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 10,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12423,7 +12927,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12442,7 +12947,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12458,7 +12964,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 9,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12498,7 +13005,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 104,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12513,7 +13021,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 75,
         "variance": 0.16,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12527,7 +13036,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12545,7 +13055,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12573,12 +13084,14 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 560,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12622,7 +13135,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 33,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12648,12 +13162,14 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12674,7 +13190,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 4,
         "triggerSpell": 1282733,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12692,7 +13209,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12712,14 +13230,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 250,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 65,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12762,7 +13282,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12794,7 +13315,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 51,
         "basePointsF": 8,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12812,7 +13334,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 49,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12843,17 +13366,20 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 607,
         "amplitude": 1,
-        "target": 53
+        "target": 53,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 0,
         "basePointsF": 2,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 0,
         "basePointsF": 4,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12873,12 +13399,14 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "basePointsF": 6,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 8,
-        "amplitude": 1
+        "amplitude": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -12886,7 +13414,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 2,
         "triggerSpell": 1295633,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12900,7 +13429,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 32,
         "triggerSpell": 1295661,
         "amplitude": 1,
-        "target": 72
+        "target": 72,
+        "miscValue": 0
       })
     ]
   }),
@@ -12935,7 +13465,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 467,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -12960,7 +13491,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 4,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -12978,14 +13510,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 1000,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 4,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13002,14 +13536,16 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 319,
         "basePointsF": -15,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 33,
         "basePointsF": -25,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13027,7 +13563,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13046,7 +13583,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 6,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13062,7 +13600,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 56,
         "variance": 1.95,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13079,7 +13618,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 26,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13113,7 +13653,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 105,
         "basePointsF": 1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13128,7 +13669,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 56,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13148,7 +13690,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 104,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13187,13 +13730,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.14285715,
         "triggerSpell": 1316048,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -13221,7 +13766,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 129,
         "basePointsF": 60,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -13244,7 +13790,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 305,
         "basePointsF": 80,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13264,19 +13811,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 129,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 140,
         "triggerSpell": 1302834,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13296,7 +13846,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 18,
         "basePointsF": 250,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13317,19 +13868,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraPeriod": 2000,
         "basePointsF": 370,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
         "auraType": 12,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 140,
         "triggerSpell": 1302875,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -13376,7 +13930,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 5,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -13405,7 +13960,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 290,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13442,26 +13998,30 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 64,
         "triggerSpell": 1309725,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 1309726,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 64,
         "triggerSpell": 1309728,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 2,
         "basePointsF": 215,
         "variance": 0.1,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13477,7 +14037,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 520,
         "variance": 0.25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13493,7 +14054,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 520,
         "variance": 0.25,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13510,7 +14072,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 31,
         "basePointsF": 50,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13537,7 +14100,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 16,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13564,7 +14128,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 32,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13591,7 +14156,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 43,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13618,7 +14184,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 68,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13645,7 +14212,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 17,
         "basePointsF": 87,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13668,19 +14236,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 121,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 31,
         "basePointsF": 40,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 2,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ],
     "classMask": 64
@@ -13716,7 +14287,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "basePointsF": 100,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -13744,7 +14316,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 42,
         "triggerSpell": 23602,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ],
     "procExtra": 20
@@ -13813,7 +14386,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 26,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -13847,13 +14421,15 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 112,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 3,
         "basePointsF": 3,
         "amplitude": 1,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -13868,7 +14444,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "amplitude": 1,
-        "target": 18
+        "target": 18,
+        "miscValue": 0
       })
     ]
   }),
@@ -13883,7 +14460,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 105,
         "variance": 0.4,
         "amplitude": 1,
-        "target": 6
+        "target": 6,
+        "miscValue": 0
       })
     ]
   })

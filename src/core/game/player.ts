@@ -384,7 +384,9 @@ export class Player {
 		for (let set of templateSets) {
 			let count = this.items.filter(item => set.items.includes(item.id)).length;
 			for (let s of set.sets) {
-				if (s.count <= count) this.passive_auras.push(templateSpells[s.spell]);
+				if (s.count <= count) {
+					this.passive_auras.push(templateSpells[s.spell]);
+				}
 			}
 		}
 	}
@@ -451,6 +453,7 @@ export class Player {
 							case SpellModOp.SPELLMOD_COST:
 								newAction.cost += mod.value * mult;
 								break;
+							case SpellModOp.SPELLMOD_DAMAGE:
 							case SpellModOp.SPELLMOD_ALL_EFFECTS:
 								newAction.flatModifier += mod.value * mult;
 								break;
@@ -477,6 +480,7 @@ export class Player {
 						}
 					if (spell.classMask && mod.mask & spell.classMask && mod.type == AuraType.AddPctModifier)
 						switch (mod.op) {
+							case SpellModOp.SPELLMOD_DAMAGE:
 							case SpellModOp.SPELLMOD_DOT:
 							case SpellModOp.SPELLMOD_ALL_EFFECTS:
 								newAction.pctModifier *= 1 + (mod.value * mult) / 100;

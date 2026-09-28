@@ -62,6 +62,7 @@ export const Combat = {
 		if (spell.attributes & SpellAttributes.SPELL_ATTR_ON_NEXT_SWING) procFlag |= ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SWING_HIT;
 
 		let dmg = 0;
+		let threat = 0;
 		let fullyBlocked = spell.attributesEx3 & SpellAttributesEx3.SPELL_ATTR_EX3_BLOCKABLE_SPELL;
 		if (
 			result == CombatResult.Normal ||
@@ -90,15 +91,15 @@ export const Combat = {
 			// before or after modifiers??
 			dmg += sim.target_stats[target.index].dmg_taken[spell.spellSchool];
 			dmg = dmg * sim.target_stats[target.index].dmg_taken_mod[spell.spellSchool];
+
+			// https://github.com/magey/tbc-warrior/wiki/Threat-Values
+			// https://github.com/Voomlz/voomlz.github.io/blob/master/era/class/warrior.js
+			threat = dmg * sim.final_stats.threat_mod;
+			if (action && action.threat_mod) threat *= action.threat_mod;
+			if (action && action.threat_flat) threat += action.threat_flat;
 		}
 
 		dmg = round(dmg);
-
-		// https://github.com/magey/tbc-warrior/wiki/Threat-Values
-		// https://github.com/Voomlz/voomlz.github.io/blob/master/era/class/warrior.js
-		let threat = dmg * sim.final_stats.threat_mod;
-		if (action && action.threat_mod) threat *= action.threat_mod;
-		if (action && action.threat_flat) threat += action.threat_flat;
 
 		sim.addEvent(EventType.SpellDone, dmg, round(threat), result, spell, wep);
 
@@ -121,6 +122,7 @@ export const Combat = {
 		let procFlag = ProcFlags.PROC_FLAG_SUCCESSFUL_MELEE_SPELL_HIT as ProcFlags;
 
 		let dmg = 0;
+		let threat = 0;
 		let fullyBlocked = spell.attributesEx3 & SpellAttributesEx3.SPELL_ATTR_EX3_BLOCKABLE_SPELL;
 		if (
 			result == CombatResult.Normal ||
@@ -149,13 +151,13 @@ export const Combat = {
 			// before or after modifiers??
 			dmg += sim.target_stats[target.index].dmg_taken[spell.spellSchool];
 			dmg = dmg * sim.target_stats[target.index].dmg_taken_mod[spell.spellSchool];
+
+			let threat = dmg * sim.final_stats.threat_mod;
+			if (action && action.threat_mod) threat *= action.threat_mod;
+			if (action && action.threat_flat) threat += action.threat_flat;
 		}
 
 		dmg = round(dmg);
-
-		let threat = dmg * sim.final_stats.threat_mod;
-		if (action && action.threat_mod) threat *= action.threat_mod;
-		if (action && action.threat_flat) threat += action.threat_flat;
 
 		sim.addEvent(EventType.SpellDone, dmg, round(threat), result, spell, wep);
 
@@ -412,7 +414,7 @@ export const Combat = {
 
 	rollMagicSpell(sim: Simulation, spell: Spell, target: Target) {
 		let modifier = 1;
-		if (rng10k() < sim.target_stats[target.index].player_spell_miss_chance) return { type: CombatResult.Miss, mod: 0 };
+		if (rng10k() < sim.target_stats[target.index].player_spell_miss_chance * 100) return { type: CombatResult.Miss, mod: 0 };
 		if (spell.isBinary) {
 			if (rng10k() < target.resist_binary[spell.spellSchool]) return { type: CombatResult.Resist, mod: 0 };
 		} else {

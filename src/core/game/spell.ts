@@ -40,6 +40,7 @@ export class Spell {
 	selfTarget: boolean;
 	targetCount: number;
 	isDamageSpell: boolean;
+	isMagicSpell: boolean = false;
 	isWeaponDamageSpell: boolean;
 	isBinary: boolean;
 	hasAura: boolean;
@@ -54,10 +55,10 @@ export class Spell {
 		this.isWeaponDamageSpell = this.hasWeaponDamage();
 		this.hasAura = this.effects.filter(eff => eff.effectType == EffectType.ApplyAura || eff.effectType == EffectType.ApplyAreaAuraParty).length > 0;
 		this.spellSchool = Math.log2(this.schoolMask) + 1;
+		if (!(this.schoolMask & SchoolMask.Physical)) this.isMagicSpell = true;
 
 		// AoEs like TClap
-		if (!this.isWeaponDamageSpell && this.effects.filter(eff => eff.target == Targets.TARGET_CASTER_COORDINATES).length > 0)
-			this.attributes |= SpellAttributes.SPELL_ATTR_IMPOSSIBLE_DODGE_PARRY_BLOCK;
+		if (!this.isWeaponDamageSpell && this.effects.filter(eff => eff.target == Targets.TARGET_CASTER_COORDINATES).length > 0) this.isMagicSpell = true;
 	}
 
 	applyEffects(sim: Simulation, target?: Target, action?: Action, weapon?: Weapon): number {
@@ -104,6 +105,7 @@ export class Spell {
 				case AuraType.ModStun:
 				case AuraType.ModStat:
 				case AuraType.ModResistance:
+				case AuraType.ModMeleeHaste2:
 					return true;
 			}
 		}
@@ -126,7 +128,7 @@ export class Spell {
 
 	cast(sim: Simulation, action?: Action, target?: Target, weapon?: Weapon) {
 		if (this.selfTarget) this.applyEffects(sim, undefined, action, weapon);
-		else if (this.schoolMask & SchoolMask.Physical) {
+		else if (!this.isMagicSpell) {
 			// Melee spells
 			if (this.targetCount > 1) sim.aux[this.id] = 1;
 			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) {

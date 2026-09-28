@@ -45,7 +45,7 @@ export class Effect {
 			let flatMod = 0;
 			let pctMod = 1;
 			for (let mod of mods) {
-				if (mod.op != SpellModOp.SPELLMOD_ALL_EFFECTS) continue;
+				if (mod.op != SpellModOp.SPELLMOD_ALL_EFFECTS && mod.op != SpellModOp.SPELLMOD_DAMAGE) continue;
 				if (mod.type == AuraType.AddFlatModifier) flatMod += mod.value;
 				if (mod.type == AuraType.AddPctModifier) pctMod *= 1 + mod.value / 100;
 			}
