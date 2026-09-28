@@ -39,7 +39,7 @@ export function applyEffectAura(
 ) {
 	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty) return;
 	if (!this.auraType) return;
-	let value = this.getValue(player, spell, action, sim && sim.actions_mods, mods);
+	let value = this.getValue(player, spell, sim, action, mods);
 	if (remove && charges && charges > 1) value *= charges;
 
 	switch (this.auraType) {
@@ -196,7 +196,7 @@ export function applyEffectAura(
 			else if (this.miscValue == SkillType.SKILL_CROSSBOWS) stats.weapon_skill[WeaponType.Crossbow] += value;
 			else if (this.miscValue == SkillType.SKILL_WANDS) stats.weapon_skill[WeaponType.Wand] += value;
 			else if (this.miscValue == SkillType.SKILL_POLEARMS) stats.weapon_skill[WeaponType.Polearm] += value;
-			//else console.log('mod skill not implemented', this, spell);
+			else console.log('mod skill not implemented', this, spell);
 			if (sim) sim.updateFinalStats();
 			break;
 		case AuraType.ModSkillTalent:
@@ -216,7 +216,7 @@ export function applyEffectAura(
 			else if (this.miscValue == SkillType.SKILL_CROSSBOWS) stats.weapon_skill[WeaponType.Crossbow] += value;
 			else if (this.miscValue == SkillType.SKILL_WANDS) stats.weapon_skill[WeaponType.Wand] += value;
 			else if (this.miscValue == SkillType.SKILL_POLEARMS) stats.weapon_skill[WeaponType.Polearm] += value;
-			//else console.log('mod skill talent not implemented', this, spell);
+			else console.log('mod skill talent not implemented', this, spell);
 			break;
 		case AuraType.ProcTriggerSpell:
 			if (!this.triggerSpell) return;
@@ -556,7 +556,7 @@ export function applyEffectAura(
 			if (spell.id == 24658) return;
 			if (spell.id == 1259813) return;
 
-			//console.log('dummy aura not implemented', this, spell);
+			console.log('dummy aura not implemented', this, spell);
 			break;
 		case AuraType.AddFlatModifier:
 		case AuraType.AddPctModifier:

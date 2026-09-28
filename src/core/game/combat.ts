@@ -357,7 +357,7 @@ export const Combat = {
 		}
 	},
 
-	gainRage(sim: Simulation, weapon: Weapon, result: CombatResult, dmg: number, action?: Action) {
+	gainRage(sim: Simulation, weapon: Weapon, result: CombatResult, _dmg: number, action?: Action) {
 		if (sim.player.power_type != Powers.POWER_RAGE) return;
 		if (action) {
 			if (
@@ -377,13 +377,13 @@ export const Combat = {
 		}
 	},
 
-	magicSpellOutgoing(sim: Simulation, spell: Spell, target: Target) {
+	magicSpellOutgoing(sim: Simulation, spell: Spell, target: Target, action?: Action) {
 		let result = Combat.rollMagicSpell(sim, spell, target);
 		let dmg = 0;
 
 		if (result.mod) {
 			// spell did hit, do effects
-			dmg = spell.applyEffects(sim, target);
+			dmg = spell.applyEffects(sim, target, action);
 
 			if (dmg == 0) result.type = CombatResult.Normal;
 

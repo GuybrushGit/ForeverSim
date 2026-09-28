@@ -31,6 +31,7 @@ export class Action {
 	threat_flat?: number;
 	threat_mod?: number;
 	threat_buff?: number;
+	bonus_ap_perc: number = 0;
 
 	constructor(obj: any) {
 		obj && Object.assign(this, obj);

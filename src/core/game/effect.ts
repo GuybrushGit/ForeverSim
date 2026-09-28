@@ -33,13 +33,12 @@ export class Effect {
 		obj && Object.assign(this, obj);
 	}
 
-	getValue(player: Player, spell: Spell, action?: Action, action_mods?: any, mods?: SpellModifier[]) {
+	getValue(player: Player, spell: Spell, sim?: Simulation, action?: Action, mods?: SpellModifier[]) {
 		let val = this.basePointsF || 0;
 		if (this.variance) val *= 1 + (rng(-1000, 1000) / 1000) * this.variance;
-		// if (this.dieSides && this.dieSides > 1) val += rng(1, this.dieSides);
-		// else val += this.dieSides || 0;
 		if (this.pointsPerLevel) val += ~~((Math.min(player.level, spell.maxLevel || 60) - (spell.baseLevel || 1)) * (this.pointsPerLevel || 0));
 		if (player.traits[spell.id]) val *= player.traits[spell.id];
+		if (sim && action && action.bonus_ap_perc) val += sim.final_stats.melee_ap * (action.bonus_ap_perc / 100);
 		if (action) val = (val + action.flatModifier) * action.pctModifier;
 		if (mods && mods.length > 0) {
 			let flatMod = 0;
@@ -51,8 +50,8 @@ export class Effect {
 			}
 			val = (val + flatMod) * pctMod;
 		}
-		if (action_mods && action_mods[spell.id]) {
-			val *= action_mods[spell.id].pctMod;
+		if (sim && sim.actions_mods && sim.actions_mods[spell.id]) {
+			val *= sim.actions_mods[spell.id].pctMod;
 		}
 		return val;
 	}
@@ -74,15 +73,14 @@ export class Effect {
 				if (!spell.schoolMask) return 0;
 
 				if (spell.schoolMask & SchoolMask.Physical) {
-					let dmg = this.getValue(sim.player, spell, action);
-					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_MORTAL_STRIKE)) dmg += Dummy.Bloodthirst(sim);
+					let dmg = this.getValue(sim.player, spell, sim, action);
 					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_SHIELD_SLAM)) dmg += sim.final_stats.block_amount;
 
 					if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
 					dmg = (dmg + sim.final_stats.dmg_done[SchoolMask.Physical]) * sim.final_stats.dmg_done_mod[SchoolMask.Physical];
 					return dmg;
 				} else {
-					let dmg = this.getValue(sim.player, spell, action, sim && sim.actions_mods);
+					let dmg = this.getValue(sim.player, spell, sim, action);
 
 					// missing coefficient
 					dmg += sim.final_stats.dmg_done[spell.spellSchool];
@@ -94,7 +92,7 @@ export class Effect {
 				if (!sim.player.mainhand) return 0;
 
 				let weapon = sim.player.mainhand;
-				let dmg = this.getValue(sim.player, spell, action);
+				let dmg = this.getValue(sim.player, spell, sim, action);
 				dmg += rng(weapon.mindmg + weapon.bonusdmg, weapon.maxdmg + weapon.bonusdmg) + (sim.final_stats.melee_ap / 14) * weapon.speed;
 
 				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
@@ -105,7 +103,7 @@ export class Effect {
 				if (!action || !sim.player.mainhand) return 0;
 
 				let wep = weapon || sim.player.mainhand;
-				let dmg = this.getValue(sim.player, spell, action);
+				let dmg = this.getValue(sim.player, spell, sim, action);
 				dmg += rng(wep.mindmg + wep.bonusdmg, wep.maxdmg + wep.bonusdmg) + (sim.final_stats.melee_ap / 14) * wep.normSpeed;
 
 				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
@@ -119,7 +117,7 @@ export class Effect {
 			}
 			case EffectType.HealthLeech: {
 				if (!spell.schoolMask) return 0;
-				let dmg = this.getValue(sim.player, spell, action, sim && sim.actions_mods);
+				let dmg = this.getValue(sim.player, spell, sim, action);
 
 				// missing coefficient
 				dmg += sim.final_stats.dmg_done[spell.spellSchool];
@@ -130,7 +128,7 @@ export class Effect {
 				return dmg;
 			}
 			case EffectType.Energize: {
-				let value = this.getValue(sim.player, spell, action, sim && sim.actions_mods);
+				let value = this.getValue(sim.player, spell, sim, action);
 				if (spell.id == SpellIds.ID_WARRIOR_SHIELDSPECPROC) value = 50;
 				if (spell.id == SpellIds.ID_WARRIOR_UNBRIDLEDWRATH) value = 10;
 				if (spell.id == SpellIds.ID_WARRIOR_MASTERDEFENSE) value = 50;
@@ -154,10 +152,11 @@ export class Effect {
 			}
 			case EffectType.Dummy: {
 				if (action && action instanceof ExecuteAction)
-					return Dummy.Execute(sim, spell, this.getValue(sim.player, spell, action, sim && sim.actions_mods), this.amplitude);
+					return Dummy.Execute(sim, spell, this.getValue(sim.player, spell, sim, action), this.amplitude);
 				if (spell.id == SpellIds.ID_ITEMS_RESTLESSSTRENGTHPROC) return Dummy.RestlessStrengthProc(sim);
 				if (spell.id == SpellIds.ID_ITEMS_BRITTLEARMOR) return Dummy.BrittleArmor(sim, spell, false);
 				if (target && spell.id == SpellIds.ID_WARRIOR_BLOODTHRILLPROC) return Dummy.BloodthrillProc(sim);
+				if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_MORTAL_STRIKE)) return; // Bloothirst
 
 				if (spell.id == 13180) return;
 				if (spell.id == 12938) return;
@@ -170,10 +169,9 @@ export class Effect {
 				if (spell.id == 16389) return;
 				if (spell.id == 8248) return;
 				if (spell.id == 8253) return;
-				if (spell.id == 23894) return;
 				if (spell.id == 1310222) return;
 
-				//console.log('dummy spell not implemented ', spell);
+				console.log('dummy spell not implemented ', spell);
 				break;
 			}
 			case EffectType.ScriptEffect: {
@@ -181,12 +179,12 @@ export class Effect {
 				if (spell.id == 17512) return;
 				if (spell.id == 707) return;
 
-				//console.log('script effect not implemented ', spell);
+				console.log('script effect not implemented ', spell);
 				break;
 			}
 			case EffectType.Threat: {
 				if (!target) return;
-				let val = this.getValue(sim.player, spell, action, sim && sim.actions_mods);
+				let val = this.getValue(sim.player, spell, sim, action);
 				sim.addEvent(EventType.Threat, 0, val, CombatResult.Normal, spell, undefined, target);
 				break;
 			}
@@ -205,7 +203,7 @@ export class Effect {
 				// dont care
 				break;
 			default:
-			//console.log('effect not implemented: ' + this.effectType, spell);
+				console.log('effect not implemented: ' + this.effectType, spell);
 		}
 		return 0;
 	}

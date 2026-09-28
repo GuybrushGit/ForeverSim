@@ -25,15 +25,19 @@ export var templateAbilities = [
 	// Bloodthirst
 	{
 		id: 23881,
+		bonus_ap_perc: 35,
 	},
 	{
 		id: 23892,
+		bonus_ap_perc: 35,
 	},
 	{
 		id: 23893,
+		bonus_ap_perc: 35,
 	},
 	{
 		id: 23894,
+		bonus_ap_perc: 35,
 	},
 
 	// Mortal Strike
@@ -244,27 +248,27 @@ export var templateAbilities = [
 	// Thunder Clap
 	{
 		id: 6343,
-		threat_mod: 2.5,
+		threat_mod: 1,
 	},
 	{
 		id: 8198,
-		threat_mod: 2.5,
+		threat_mod: 1,
 	},
 	{
 		id: 8204,
-		threat_mod: 2.5,
+		threat_mod: 1,
 	},
 	{
 		id: 8205,
-		threat_mod: 2.5,
+		threat_mod: 1,
 	},
 	{
 		id: 11580,
-		threat_mod: 2.5,
+		threat_mod: 1,
 	},
 	{
 		id: 11581,
-		threat_mod: 2.5,
+		threat_mod: 1,
 	},
 
 	// Shield Slam
@@ -394,31 +398,41 @@ export var templateAbilities = [
 	// Revenge
 	{
 		id: 6572,
-		threat_mod: 2.25,
+		threat_mod: 1,
+		threat_flat: 14 * 2,
+		bonus_ap_perc: 25,
 	},
 	{
 		id: 6574,
-		threat_mod: 2.25,
+		threat_mod: 1,
+		threat_flat: 24 * 2,
+		bonus_ap_perc: 25,
 	},
 	{
 		id: 7379,
-		threat_mod: 2.25,
+		threat_mod: 1,
+		threat_flat: 34 * 2,
+		bonus_ap_perc: 25,
 	},
 	{
 		id: 11600,
-		threat_mod: 2.25,
+		threat_mod: 1,
+		threat_flat: 44 * 2,
+		bonus_ap_perc: 25,
 	},
 	{
 		id: 11601,
 		requires: [{ name: 'aqbooks', value: 'no' }],
-		threat_flat: 243,
-		threat_mod: 2.25,
+		threat_flat: 54 * 2,
+		threat_mod: 1,
+		bonus_ap_perc: 25,
 	},
 	{
 		id: 25288,
 		requires: [{ name: 'aqbooks', value: 'yes' }],
-		threat_flat: 270,
-		threat_mod: 2.25,
+		threat_flat: 60 * 2,
+		threat_mod: 1,
+		bonus_ap_perc: 25,
 	},
 ] as AbilityObject[];
 

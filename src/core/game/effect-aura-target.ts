@@ -9,10 +9,20 @@ import type { Target, TargetStats } from './target';
 import { Dummy } from './dummy';
 import type { Effect } from './effect';
 
-export function applyEffectAuraTarget(this: Effect, player: Player, stats: TargetStats, spell: Spell, _target: Target, sim?: Simulation, remove?: boolean, action?: Action, mods?: SpellModifier[]) {
+export function applyEffectAuraTarget(
+	this: Effect,
+	player: Player,
+	stats: TargetStats,
+	spell: Spell,
+	_target: Target,
+	sim?: Simulation,
+	remove?: boolean,
+	action?: Action,
+	mods?: SpellModifier[],
+) {
 	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty) return;
 	if (!this.auraType) return;
-	let value = this.getValue(player, spell, action, sim && sim.actions_mods, mods);
+	let value = this.getValue(player, spell, sim, action, mods);
 
 	switch (this.auraType) {
 		case AuraType.ModAttackPower:
@@ -79,7 +89,7 @@ export function applyEffectAuraTarget(this: Effect, player: Player, stats: Targe
 			// dont care
 			break;
 		default:
-			//console.log('target aura not implemented', this, spell);
+			console.log('target aura not implemented', this, spell);
 			break;
 	}
 

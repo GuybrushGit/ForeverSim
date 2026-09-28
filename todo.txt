@@ -2,6 +2,10 @@
  *
 
 	check all items and trinkets and enchats
+	deep wounds https://github.com/magey/classic-warrior/issues/33
+
+	Rend adds 2% of attack power to every tick?
+	Revenge adds 25% ap ?
  *
  * low prio stuff
  * target creature types (troll racial too)

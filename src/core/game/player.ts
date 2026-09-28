@@ -444,6 +444,7 @@ export class Player {
 				if (ability.threat_flat) newAction.threat_flat = ability.threat_flat;
 				if (ability.threat_mod) newAction.threat_mod = ability.threat_mod;
 				if (ability.threat_buff) newAction.threat_buff = ability.threat_buff;
+				if (ability.bonus_ap_perc) newAction.bonus_ap_perc = ability.bonus_ap_perc;
 
 				// apply modifiers from talents
 				for (let mod of this.spell_mods) {

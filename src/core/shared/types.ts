@@ -159,6 +159,7 @@ export type AbilityObject = {
 	threat_flat?: number;
 	threat_mod?: number;
 	threat_buff?: number;
+	bonus_ap_perc?: number;
 	phase?: number;
 };
 

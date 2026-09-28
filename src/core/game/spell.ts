@@ -1,4 +1,4 @@
-import { AuraType, ClassFlag, EffectType, SchoolMask, SpellAttributes, Targets } from '@core/shared/enums';
+import { AuraType, ClassFlag, EffectType, SchoolMask, Targets } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import type { Action } from './action';
 import type { Effect } from './effect';
@@ -126,7 +126,7 @@ export class Spell {
 		for (let effect of this.effects) if (effect.auraPeriod) effect.applyPeriodicAura(sim, this, target, action);
 	}
 
-	cast(sim: Simulation, action?: Action, target?: Target, weapon?: Weapon) {
+	cast(sim: Simulation, action?: Action, _target?: Target, weapon?: Weapon) {
 		if (this.selfTarget) this.applyEffects(sim, undefined, action, weapon);
 		else if (!this.isMagicSpell) {
 			// Melee spells
@@ -137,7 +137,7 @@ export class Spell {
 		} else {
 			// Magic spells
 			if (this.targetCount > 1) sim.aux[this.id] = 1;
-			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) Combat.magicSpellOutgoing(sim, this, sim.targets[i]);
+			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) Combat.magicSpellOutgoing(sim, this, sim.targets[i], action);
 		}
 	}
 }

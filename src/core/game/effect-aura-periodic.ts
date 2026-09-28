@@ -1,14 +1,4 @@
-import {
-	AuraType,
-	CombatResult,
-	EffectType,
-	EventType,
-	Powers,
-	SchoolMask,
-	SpellAttributes,
-	SpellAttributesEx2,
-	SpellSchool,
-} from '@core/shared/enums';
+import { AuraType, CombatResult, EffectType, EventType, Powers, SchoolMask, SpellAttributesEx2, SpellSchool } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import { type Action } from './action';
 import { rng10k, round } from '@core/shared/utils';
@@ -22,9 +12,8 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 
 	switch (this.auraType) {
 		case AuraType.PeriodicEnergize:
-			if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA)
-				sim.addPower(this.getValue(sim.player, spell, action, sim && sim.actions_mods), spell);
-			else if (this.miscValue == sim.player.power_type) sim.addPower(this.getValue(sim.player, spell, action, sim && sim.actions_mods), spell);
+			if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA) sim.addPower(this.getValue(sim.player, spell, sim, action), spell);
+			else if (this.miscValue == sim.player.power_type) sim.addPower(this.getValue(sim.player, spell, sim, action), spell);
 			return 0;
 		case AuraType.PeriodicDamage:
 		case AuraType.PeriodicLeech:
@@ -32,7 +21,7 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 			if (!target) return;
 
 			let result = CombatResult.Normal as CombatResult;
-			let dmg = this.getValue(sim.player, spell, action, sim && sim.actions_mods);
+			let dmg = this.getValue(sim.player, spell, sim, action);
 			if (spell.schoolMask & SchoolMask.Physical) {
 				if (!(spell.attributesEx2 & SpellAttributesEx2.SPELL_ATTR_CANT_CRIT)) {
 					if (rng10k() < (sim.target_stats[target.index].player_crit + (action ? action.crit : 0)) * 100) {
@@ -80,7 +69,7 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 				let dmg = sim.aux[spell.id];
 				sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), undefined, spell);
 			} else {
-				//console.log('dummy aura not implemented', this);
+				console.log('dummy aura not implemented', this);
 			}
 			break;
 		case AuraType.ObsModHealth:
@@ -89,7 +78,7 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, t
 			// dont care
 			break;
 		default:
-			//console.log('periodic aura not implemented', this);
+			console.log('periodic aura not implemented', this);
 			break;
 	}
 }
