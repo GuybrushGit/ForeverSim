@@ -360,6 +360,13 @@ export default function SpellGenerator() {
 		if (spell.id == 1289682) spell.procMask = 1073741828;
 		if (spell.id == 1289682) spell.procChance = 4;
 
+		if (spell.id == 1293742) spell.effects[2].basePointsF = 5;
+		if (spell.id == 1293740) spell.effects[2].basePointsF = 5;
+		if (spell.id == 1293740) spell.effects[3].basePointsF = 5;
+		if (spell.id == 1293743) spell.effects[2].basePointsF = 5;
+		if (spell.id == 1293743) spell.effects[3].basePointsF = 5;
+		if (spell.id == 1293741) spell.effects[2].basePointsF = 4;
+
 		if (spell.effects && spell.effects.length) return spell;
 	}
 

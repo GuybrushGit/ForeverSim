@@ -1,6 +1,8 @@
 /********************************  TODO LIST  *************************
  *
 
+ppm table
+	sunder armor
 	check all items and trinkets and enchats
 
 	Rend adds 2% of ap?
@@ -15,5 +17,19 @@
  * life giving gem
  * 
  * 
- *
+ 
+
+
+
+
+ITEMS:
+https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
+
+
+
+
+
+
+
+
  */

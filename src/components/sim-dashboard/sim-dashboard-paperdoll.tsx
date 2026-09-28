@@ -184,9 +184,7 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 				</div>
 			</div>
 			<section className="active-sets" aria-label="Active item sets">
-				{activeSetCounts.length === 0 ? (
-					<p className="active-sets-empty">No set pieces equipped</p>
-				) : (
+				{activeSetCounts.length > 0 && (
 					<div className="active-sets-list">
 						{activeSetCounts.map(({ set, count }) => (
 							<a href={`https://www.wowhead.com/forever/item-set=${set.id}`} className="wh-tooltip" onClick={e => e.preventDefault()}>

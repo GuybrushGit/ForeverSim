@@ -81,6 +81,9 @@ export function applyEffectAura(
 			stats.dodge += value * (remove ? -1 : 1);
 			if (sim) for (let target of sim.targets) sim.target_stats[target.index].player_dodge = getDodgeChance(sim, sim.targets[target.index]);
 			break;
+		case AuraType.ModExpertise:
+			stats.expertise += value * (remove ? -1 : 1);
+			break;
 		case AuraType.ModHitChance:
 			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDSPEC) return Dummy.DualWieldSpecHit(player, value);
 
@@ -555,6 +558,13 @@ export function applyEffectAura(
 			if (spell.id == 11826) return;
 			if (spell.id == 24658) return;
 			if (spell.id == 1259813) return;
+			if (spell.id == 16487) return;
+			if (spell.id == 12296) return;
+
+			if (spell.id == 1293742) return;
+			if (spell.id == 1293740) return;
+			if (spell.id == 1293743) return;
+			if (spell.id == 1293741) return;
 
 			console.log('dummy aura not implemented', this, spell);
 			break;

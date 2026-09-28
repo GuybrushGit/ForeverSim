@@ -13320,6 +13320,174 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1293740": new Spell({
+    "id": 1293740,
+    "name": "Flask of Natural Accuracy",
+    "schoolMask": 1,
+    "attributes": 671088640,
+    "attributesEx2": 1,
+    "attributesEx3": 1048576,
+    "duration": 7200000,
+    "cooldown": 1000,
+    "procChance": 101,
+    "path": "inv_potionc_5",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 60,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 54,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0,
+        "basePointsF": 5
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 55,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0,
+        "basePointsF": 5
+      })
+    ]
+  }),
+  "1293741": new Spell({
+    "id": 1293741,
+    "name": "Flask of Natural Aggression",
+    "schoolMask": 1,
+    "attributes": 671088640,
+    "attributesEx2": 1,
+    "attributesEx3": 1048576,
+    "duration": 7200000,
+    "cooldown": 1000,
+    "procChance": 101,
+    "path": "inv_potionc_1",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 60,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 4,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 290,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0,
+        "basePointsF": 4
+      })
+    ]
+  }),
+  "1293742": new Spell({
+    "id": 1293742,
+    "name": "Flask of Natural Precision",
+    "schoolMask": 1,
+    "attributes": 671088640,
+    "attributesEx2": 1,
+    "attributesEx3": 1048576,
+    "duration": 7200000,
+    "cooldown": 1000,
+    "procChance": 101,
+    "path": "inv_potionc_3",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 60,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 240,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0,
+        "basePointsF": 5
+      })
+    ]
+  }),
+  "1293743": new Spell({
+    "id": 1293743,
+    "name": "Flask of Natural Accuracy",
+    "schoolMask": 1,
+    "attributes": 671088640,
+    "attributesEx2": 1,
+    "attributesEx3": 1048576,
+    "duration": 7200000,
+    "cooldown": 1000,
+    "procChance": 101,
+    "path": "inv_potionc_4",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 60,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 342,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0,
+        "basePointsF": 5
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 65,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0,
+        "basePointsF": 5
+      })
+    ]
+  }),
   "1293820": new Spell({
     "id": 1293820,
     "name": "Toy Soldier",

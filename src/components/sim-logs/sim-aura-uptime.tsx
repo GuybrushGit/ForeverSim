@@ -61,10 +61,10 @@ function SimAuraUptime() {
 									<div key={index} className="uptime-row">
 										<div className="uptime-label-row">
 											<span>{aura.name}</span>
-											<span className="uptime-value">{aura.pct}%</span>
 											<span className="uptime-dps">
 												{aura.dps} <span>DPS</span>
 											</span>
+											<span className="uptime-value">{aura.pct}%</span>
 										</div>
 										<div className="uptime-bar-wrap">
 											<div className={`uptime-bar ${aura.color}`} style={{ width: `${aura.pct}%` }}></div>

@@ -39,6 +39,22 @@ const filterFields: { value: FilterField; label: string; numeric: boolean }[] = 
 	{ value: 'type', label: 'Type', numeric: false },
 ];
 
+const columnOptions = [
+	{ field: 'ilvl', label: 'Item level' },
+	{ field: 'name', label: 'Name' },
+	{ field: 'stats.str', label: 'Strength' },
+	{ field: 'stats.agi', label: 'Agility' },
+	{ field: 'stats.sta', label: 'Stamina' },
+	{ field: 'stats.melee_ap', label: 'Attack power' },
+	{ field: 'stats.hit_rate', label: 'Hit' },
+	{ field: 'stats.crit_rate', label: 'Crit' },
+	{ field: 'stats.expertise_rate', label: 'Expertise' },
+	{ field: 'stats.defense', label: 'Defense' },
+	{ field: 'proc.ppm', label: 'Proc Chance' },
+	{ field: 'type', label: 'Type' },
+	{ field: 'dps', label: 'DPS' },
+];
+
 const textOperators: { value: FilterOperator; label: string }[] = [
 	{ value: 'contains', label: 'includes' },
 	{ value: 'equals', label: 'is' },
@@ -79,6 +95,19 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	const [filterField, setFilterField] = useState<FilterField>('name');
 	const [filterOperator, setFilterOperator] = useState<FilterOperator>('contains');
 	const [filterValue, setFilterValue] = useState('');
+	const [columnVisibility, setColumnVisibility] = useState<Record<string, boolean>>({
+		'ilvl': true,
+		'name': true,
+		'proc.ppm': false,
+		'stats.str': true,
+		'stats.agi': true,
+		'stats.sta': true,
+		'stats.melee_ap': true,
+		'stats.hit_rate': true,
+		'stats.crit_rate': true,
+		'type': true,
+		'dps': true,
+	});
 	let classid = getPlayerClassId();
 	let items = getItems();
 	let enchants = getEnchants();
@@ -140,8 +169,6 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 				);
 			},
 		},
-		// { field: 'proc.spell', headerName: 'proc' },
-		// { field: 'useSpell', headerName: 'use spell' },
 
 		{ field: 'stats.str', headerName: 'Str' },
 		{ field: 'stats.agi', headerName: 'Agi' },
@@ -154,6 +181,28 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		{
 			field: 'stats.crit_rate',
 			headerName: 'Crit',
+		},
+		{
+			field: 'stats.expertise_rate',
+			headerName: 'Expertise',
+			hide: true,
+		},
+		{
+			field: 'stats.defense',
+			headerName: 'Defense',
+			hide: true,
+		},
+
+		{
+			field: 'proc.ppm',
+			headerName: 'PPM',
+			hide: true,
+			valueGetter: (p: any) => {
+				if (!p.data.proc) return;
+				if (p.data.proc.chance) return p.data.proc.chance + ' %';
+				if (p.data.proc.ppm) return p.data.proc.ppm + ' PPM';
+				return '';
+			},
 		},
 		{
 			field: 'type',
@@ -178,7 +227,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	const [colDefs, setColDefs]: any[] = useState(defaultColDef);
 
 	useEffect(() => {
-		setColDefs(defaultColDef);
+		setColDefs(defaultColDef.map((column: any) => (column.field ? { ...column, hide: !columnVisibility[column.field] } : column)));
 	}, [slot]);
 
 	const myTheme = themeQuartz.withParams({
@@ -213,6 +262,18 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		{ colId: 'dps', sort: 'desc', sortIndex: 0 },
 		{ colId: 'ilvl', sort: 'desc', sortIndex: 1 },
 	];
+
+	function updateColumnVisibility(field: string, visible: boolean) {
+		setColumnVisibility(current => ({ ...current, [field]: visible }));
+		setColDefs((current: any[]) => current.map(column => (column.field === field ? { ...column, hide: !visible } : column)));
+		global.gridApi?.applyColumnState({ state: [{ colId: field, hide: !visible }] });
+	}
+
+	function applyColumnVisibility() {
+		global.gridApi.applyColumnState({
+			state: columnOptions.map(column => ({ colId: column.field, hide: !columnVisibility[column.field] })),
+		});
+	}
 
 	const gridOptions = {
 		animateRows: false,
@@ -476,6 +537,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		update(states);
 		global.gridApi.applyColumnState({ state: defaultSortModel });
 		global.gridApi!.resetColumnState();
+		applyColumnVisibility();
 
 		// 100 sims on all
 		// 1000 on top 50
@@ -513,6 +575,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		hideProgressBar();
 		global.gridApi.applyColumnState({ state: defaultSortModel });
 		global.gridApi!.resetColumnState();
+		applyColumnVisibility();
 	}
 
 	const visibleFilters = filters.filter(filter => !filter.hidden && filter.slot === slot);
@@ -544,6 +607,21 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 					<FunnelSimpleIcon size={14} />
 					Add Filter
 				</button>
+				<details className="column-chooser">
+					<summary>Columns</summary>
+					<div className="column-chooser-menu">
+						{columnOptions.map(column => (
+							<label key={column.field}>
+								<input
+									type="checkbox"
+									checked={columnVisibility[column.field]}
+									onChange={event => updateColumnVisibility(column.field, event.currentTarget.checked)}
+								/>
+								{column.label}
+							</label>
+						))}
+					</div>
+				</details>
 			</div>
 			<div className="progress-bar" ref={progressBarRef}>
 				<div></div>

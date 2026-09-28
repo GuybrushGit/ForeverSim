@@ -158,6 +158,7 @@ export class Effect {
 				if (spell.id == SpellIds.ID_ITEMS_BRITTLEARMOR) return Dummy.BrittleArmor(sim, spell, false);
 				if (target && spell.id == SpellIds.ID_WARRIOR_BLOODTHRILLPROC) return Dummy.BloodthrillProc(sim);
 				if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_MORTAL_STRIKE)) return; // Bloothirst
+				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) return;
 
 				if (spell.id == 13180) return;
 				if (spell.id == 12938) return;
@@ -170,7 +171,9 @@ export class Effect {
 				if (spell.id == 16389) return;
 				if (spell.id == 8248) return;
 				if (spell.id == 8253) return;
-				if (spell.id == 1310222) return;
+				if (spell.id == 1225982) return;
+				if (spell.id == 1226001) return;
+				if (spell.id == 1225951) return;
 
 				console.log('dummy spell not implemented ', spell);
 				break;
@@ -189,6 +192,13 @@ export class Effect {
 				sim.addEvent(EventType.Threat, 0, val, CombatResult.Normal, spell, undefined, target);
 				break;
 			}
+			case EffectType.WeaponPercDmg: {
+				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) return;
+				console.log('effect not implemented: ' + this.effectType, spell);
+				break;
+			}
+			case EffectType.SummonObject:
+			case EffectType.KnockBack:
 			case EffectType.Dispel:
 			case EffectType.Heal:
 			case EffectType.Summon:
