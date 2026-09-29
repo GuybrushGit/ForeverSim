@@ -79,7 +79,9 @@ function SimDashboardModel() {
 
 	return (
 		<div id="sim-paperdoll-model" className="sim-dashboard-model" ref={modelContainer} aria-label="Character model">
-			{modelError && <span className="model-error">Model only when running locally unless someone can find me a host for all the texture files</span>}
+			{modelError && (
+				<span className="model-error">Model only when running locally unless someone can find me a host with all the texture files</span>
+			)}
 		</div>
 	);
 }

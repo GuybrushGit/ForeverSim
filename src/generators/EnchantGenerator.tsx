@@ -193,7 +193,7 @@ export default function SpellGenerator() {
 
 				if (effectType == 3 && Number(enchant['EffectArg[0]'])) {
 					let spellid = enchant['EffectArg[0]'];
-					obj.stats = {};
+					if (!obj.stats) obj.stats = {};
 
 					let statEffects = getRows(spellEffect, 'SpellID', spellid);
 					for (let stEff of statEffects) {
@@ -308,23 +308,59 @@ export default function SpellGenerator() {
 					if (Object.keys(obj.stats).length == 0 && !obj.procBlock && !obj.procSpell) continue;
 				}
 
+				if (effectType == 4) {
+					if (!obj.stats) obj.stats = {};
+					obj.stats.armor = Number(enchant['EffectPointsMin[0]']);
+				}
+
 				if (effectType == 5) {
-					obj.stats = {};
+					if (!obj.stats) obj.stats = {};
 					switch (Number(enchant['EffectArg[0]'])) {
-						case BaseStats.STAT_STRENGTH:
+						case 4:
 							obj.stats.str = Number(enchant['EffectPointsMin[0]']);
 							break;
-						case BaseStats.STAT_AGILITY:
+						case 3:
 							obj.stats.agi = Number(enchant['EffectPointsMin[0]']);
 							break;
-						case BaseStats.STAT_STAMINA:
+						case 7:
 							obj.stats.sta = Number(enchant['EffectPointsMin[0]']);
 							break;
-						case BaseStats.STAT_INTELLECT:
+						case 5:
 							obj.stats.int = Number(enchant['EffectPointsMin[0]']);
 							break;
-						case BaseStats.STAT_SPIRIT:
+						case 6:
 							obj.stats.spi = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 12:
+							obj.stats.defense = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 13:
+							obj.stats.dodge_rate = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 15:
+							obj.stats.block_rate = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 32:
+							obj.stats.crit_rate = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 36:
+							obj.stats.haste_rate = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 38:
+							obj.stats.melee_ap = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 51:
+							obj.stats.resistance = Array(8).fill(0);
+							obj.stats.resistance[SpellSchool.Fire] = Number(enchant['EffectPointsMin[0]']);
+							break;
+						case 124:
+							obj.stats.resistance = Array(8).fill(0);
+							obj.stats.resistance[SpellSchool.Arcane] = Number(enchant['EffectPointsMin[0]']);
+							obj.stats.resistance[SpellSchool.Holy] = Number(enchant['EffectPointsMin[0]']);
+							obj.stats.resistance[SpellSchool.Fire] = Number(enchant['EffectPointsMin[0]']);
+							obj.stats.resistance[SpellSchool.Frost] = Number(enchant['EffectPointsMin[0]']);
+							obj.stats.resistance[SpellSchool.Shadow] = Number(enchant['EffectPointsMin[0]']);
+							obj.stats.resistance[SpellSchool.Nature] = Number(enchant['EffectPointsMin[0]']);
 							break;
 					}
 				}
@@ -351,7 +387,7 @@ export default function SpellGenerator() {
 					if (temp) addEnchant(obj, 'twohand_temp');
 					else addEnchant(obj, 'twohand_');
 				}
-				if (classId == ItemType.Armor && subclassId & (1 << ArmorType.Shield)) {
+				if (classId == ItemType.Armor && (subclassId & (1 << ArmorType.Shield) || 16384 == invType)) {
 					addEnchant(obj, 'offhand_');
 				}
 				if (classId == ItemType.Armor) {

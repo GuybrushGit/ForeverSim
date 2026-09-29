@@ -184,7 +184,7 @@ export class Player {
 		this.addItems();
 		this.addEnchants(test_slot, test_item);
 		this.addSets();
-		this.addBuffs();
+		this.addBuffs(data.actions);
 		if (data.custom) this.addStats(data.custom);
 
 		this.buildSpellMods();
@@ -390,7 +390,7 @@ export class Player {
 			}
 		}
 	}
-	addBuffs() {
+	addBuffs(actionSettings: Action[]) {
 		for (let type in this.buffs) {
 			fields: for (let field of this.buffs[type]) {
 				if (!field.selected) continue;
@@ -404,6 +404,12 @@ export class Player {
 
 				let spell = templateSpells[field.id];
 				if (!spell) continue;
+
+				// Disable expose if sunder is an action
+				if (spell.classMask == 524288 && spell.classSet == 8) {
+					for (let action of actionSettings) if (action.name == 'Sunder Armor') continue fields;
+				}
+
 				this.passive_auras.push(spell);
 			}
 		}

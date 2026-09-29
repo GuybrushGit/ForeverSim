@@ -2,7 +2,7 @@ import { AuraType, ClassFlag, CombatResult, EffectType, EventType, Powers, Schoo
 import type { Player, PlayerStats } from './player';
 import type { Simulation } from '@core/simulation';
 import { ExecuteAction, type Action } from './action';
-import { rng } from '@core/shared/utils';
+import { rng, round } from '@core/shared/utils';
 import type { Spell } from './spell';
 import type { SpellModifier } from '@core/shared/types';
 import type { Target, TargetStats } from './target';
@@ -196,7 +196,7 @@ export class Effect {
 			case EffectType.Threat: {
 				if (!target) return;
 				let val = this.getValue(sim.player, spell, sim, action);
-				sim.addEvent(EventType.Threat, 0, val, CombatResult.Normal, spell, undefined, target);
+				sim.addEvent(EventType.Threat, 0, round(val * sim.final_stats.threat_mod), CombatResult.Normal, spell, undefined, target);
 				break;
 			}
 			case EffectType.WeaponPercDmg: {

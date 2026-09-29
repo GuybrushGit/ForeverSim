@@ -233,14 +233,11 @@ export default function SpellGenerator() {
 			// }
 
 			// Expose Armor
-			if (spell.classMask == 524288 && spell.classSet == 8) {
-				obj.basePointsF = -2250;
-			}
-
-			// Sunder Armor
-			if (spell.classMask == 16384) {
-				obj.basePointsF = -2250;
-			}
+			if (spell.id == 8647) obj.basePointsF = -450;
+			if (spell.id == 8649) obj.basePointsF = -900;
+			if (spell.id == 8650) obj.basePointsF = -1350;
+			if (spell.id == 11197) obj.basePointsF = -1800;
+			if (spell.id == 11198) obj.basePointsF = -2250;
 
 			// Deep Wounds
 			if (spell.name == 'Deep Wounds' && spell.attributes == 262544) {
@@ -366,6 +363,8 @@ export default function SpellGenerator() {
 		if (spell.id == 1293743) spell.effects[2].basePointsF = 5;
 		if (spell.id == 1293743) spell.effects[3].basePointsF = 5;
 		if (spell.id == 1293741) spell.effects[2].basePointsF = 4;
+
+		if (spell.id == 21992) spell.effects[1].targetCount = 5;
 
 		if (spell.effects && spell.effects.length) return spell;
 	}

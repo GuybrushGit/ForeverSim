@@ -542,6 +542,7 @@ export default function ItemGenerator() {
 			let armor = getStat(sparse, 50, budget);
 			let expertiserate = getStat(sparse, 37, budget);
 			let rap = getStat(sparse, 39, budget);
+			let dmgdone = getStat(sparse, 83, budget);
 			if (agi) obj.stats.agi = agi;
 			if (str) obj.stats.str = str;
 			if (sta) obj.stats.sta = sta;
@@ -559,6 +560,10 @@ export default function ItemGenerator() {
 			if (critrate) obj.stats.crit_rate = critrate;
 			if (hitrate) obj.stats.hit_rate = hitrate;
 			if (armor) obj.stats.armor = armor;
+			if (dmgdone) {
+				obj.stats.dmg_done = Array(8).fill(0);
+				obj.stats.dmg_done[SpellSchool.Physical] = dmgdone;
+			}
 			if (spdmg) {
 				obj.stats.dmg_done_mod = Array(8).fill(0);
 				obj.stats.dmg_done_mod[SpellSchool.Arcane] = spdmg;

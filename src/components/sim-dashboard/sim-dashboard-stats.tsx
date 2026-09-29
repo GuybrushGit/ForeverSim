@@ -162,13 +162,17 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'mainhand' | 'o
 				<div key="resistance" className="sim-dashboard-stats-resistance">
 					<p>Resistance</p>
 					<p style={{ textAlign: 'right', lineHeight: '16px' }}>
-						<span>Ar {stats.resistance[SpellSchool.Arcane] + stats.resistance_no_stack[SpellSchool.Arcane]} - </span>
-						<span>Fi {stats.resistance[SpellSchool.Fire] + stats.resistance_no_stack[SpellSchool.Fire]} - </span>
-						<span>Fr {stats.resistance[SpellSchool.Frost] + stats.resistance_no_stack[SpellSchool.Frost]}</span>
+						<span>{stats.resistance[SpellSchool.Arcane] + stats.resistance_no_stack[SpellSchool.Arcane]} Arcane</span>
 						<br />
-						<span>Na {stats.resistance[SpellSchool.Nature] + stats.resistance_no_stack[SpellSchool.Nature]} - </span>
-						<span>Sh {stats.resistance[SpellSchool.Shadow] + stats.resistance_no_stack[SpellSchool.Shadow]} - </span>
-						<span>Ho {stats.resistance[SpellSchool.Holy] + stats.resistance_no_stack[SpellSchool.Holy]}</span>
+						<span>{stats.resistance[SpellSchool.Fire] + stats.resistance_no_stack[SpellSchool.Fire]} Fire</span>
+						<br />
+						<span>{stats.resistance[SpellSchool.Frost] + stats.resistance_no_stack[SpellSchool.Frost]} Frost</span>
+						<br />
+						<span>{stats.resistance[SpellSchool.Nature] + stats.resistance_no_stack[SpellSchool.Nature]} Nature</span>
+						<br />
+						<span>{stats.resistance[SpellSchool.Shadow] + stats.resistance_no_stack[SpellSchool.Shadow]} Shadow</span>
+						<br />
+						<span>{stats.resistance[SpellSchool.Holy] + stats.resistance_no_stack[SpellSchool.Holy]} Holy</span>
 					</p>
 				</div>,
 			]}

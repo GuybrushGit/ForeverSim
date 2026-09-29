@@ -434,6 +434,23 @@ export var templateAbilities = [
 		threat_mod: 1,
 		bonus_ap_perc: 25,
 	},
+
+	// Sunder Armor
+	{
+		id: 7386,
+	},
+	{
+		id: 7405,
+	},
+	{
+		id: 8380,
+	},
+	{
+		id: 11596,
+	},
+	{
+		id: 11597,
+	},
 ] as AbilityObject[];
 
 export var templatePhases = [
