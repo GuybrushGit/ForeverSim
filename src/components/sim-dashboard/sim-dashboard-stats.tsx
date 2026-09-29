@@ -159,7 +159,7 @@ function SimDashboardStats(props: { type: 'base' | 'defensive' | 'mainhand' | 'o
 					<p>Parry</p>
 					<p>{target_stats.player_parry}%</p>
 				</div>,
-				<div key="resistance">
+				<div key="resistance" className="sim-dashboard-stats-resistance">
 					<p>Resistance</p>
 					<p style={{ textAlign: 'right', lineHeight: '16px' }}>
 						<span>Ar {stats.resistance[SpellSchool.Arcane] + stats.resistance_no_stack[SpellSchool.Arcane]} - </span>

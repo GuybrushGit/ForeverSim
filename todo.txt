@@ -3,6 +3,9 @@
 
 sunder armor
 check all enchats
+more stat weights inc stam
+stats pull out screen
+
 
 Rend adds 2% of ap?
 Revenge adds 25% ap ?
