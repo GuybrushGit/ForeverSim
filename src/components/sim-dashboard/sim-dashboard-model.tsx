@@ -57,7 +57,8 @@ function SimDashboardModel() {
 		let cancelled = false;
 		setModelError(false);
 		container.replaceChildren();
-		(globalThis as any).CONTENT_PATH = '/ForeverSim/modelviewer/classicplus/';
+		//(globalThis as any).CONTENT_PATH = '/ForeverSim/modelviewer/classicplus/';
+		(globalThis as any).CONTENT_PATH = '/modelviewer/classicplus/';
 
 		generateClassicModel(0.65, '#sim-paperdoll-model', { race: Number(playerRace) || 1, gender: 1, items: modelItems }, 'classic')
 			.then(model => {
@@ -78,7 +79,7 @@ function SimDashboardModel() {
 
 	return (
 		<div id="sim-paperdoll-model" className="sim-dashboard-model" ref={modelContainer} aria-label="Character model">
-			{modelError && <span className="model-error">Character model unavailable</span>}
+			{modelError && <span className="model-error">Model only when running locally unless someone can find me a host for all the texture files</span>}
 		</div>
 	);
 }
