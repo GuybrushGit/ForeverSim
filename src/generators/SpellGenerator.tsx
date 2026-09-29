@@ -232,13 +232,6 @@ export default function SpellGenerator() {
 			// 	obj.basePointsF = 9;
 			// }
 
-			// Expose Armor
-			if (spell.id == 8647) obj.basePointsF = -450;
-			if (spell.id == 8649) obj.basePointsF = -900;
-			if (spell.id == 8650) obj.basePointsF = -1350;
-			if (spell.id == 11197) obj.basePointsF = -1800;
-			if (spell.id == 11198) obj.basePointsF = -2250;
-
 			// Deep Wounds
 			if (spell.name == 'Deep Wounds' && spell.attributes == 262544) {
 				obj.effectType = EffectType.ApplyAura;
@@ -365,6 +358,20 @@ export default function SpellGenerator() {
 		if (spell.id == 1293741) spell.effects[2].basePointsF = 4;
 
 		if (spell.id == 21992) spell.effects[1].targetCount = 5;
+
+		// Expose Armor
+		if (spell.id == 8647) spell.effects[0].basePointsF = -450;
+		if (spell.id == 8649) spell.effects[0].basePointsF = -900;
+		if (spell.id == 8650) spell.effects[0].basePointsF = -1350;
+		if (spell.id == 11197) spell.effects[0].basePointsF = -1800;
+		if (spell.id == 11198) spell.effects[0].basePointsF = -2250;
+
+		// Sunder Armor
+		if (spell.id == 7386) spell.effects[0].basePointsF = -450;
+		if (spell.id == 7405) spell.effects[0].basePointsF = -900;
+		if (spell.id == 8380) spell.effects[0].basePointsF = -1350;
+		if (spell.id == 11596) spell.effects[0].basePointsF = -1800;
+		if (spell.id == 11597) spell.effects[0].basePointsF = -2250;
 
 		if (spell.effects && spell.effects.length) return spell;
 	}

@@ -1416,7 +1416,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 22,
-        "basePointsF": -90,
+        "basePointsF": -450,
         "amplitude": 1,
         "miscValue": 1,
         "target": 6
@@ -1452,7 +1452,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 22,
-        "basePointsF": -180,
+        "basePointsF": -900,
         "amplitude": 1,
         "miscValue": 1,
         "target": 6
@@ -1964,7 +1964,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 22,
-        "basePointsF": -270,
+        "basePointsF": -1350,
         "amplitude": 1,
         "miscValue": 1,
         "target": 6
@@ -2039,8 +2039,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
-        "miscValue": 0,
-        "basePointsF": -450
+        "miscValue": 0
       })
     ]
   }),
@@ -2074,8 +2073,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
-        "miscValue": 0,
-        "basePointsF": -900
+        "miscValue": 0
       })
     ]
   }),
@@ -2109,8 +2107,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
-        "miscValue": 0,
-        "basePointsF": -1350
+        "miscValue": 0
       })
     ]
   }),
@@ -3163,8 +3160,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
-        "miscValue": 0,
-        "basePointsF": -1800
+        "miscValue": 0
       })
     ]
   }),
@@ -3198,8 +3194,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 1,
-        "miscValue": 0,
-        "basePointsF": -2250
+        "miscValue": 0
       })
     ]
   }),
@@ -3731,7 +3726,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 22,
-        "basePointsF": -360,
+        "basePointsF": -1800,
         "amplitude": 1,
         "miscValue": 1,
         "target": 6
@@ -3767,7 +3762,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 22,
-        "basePointsF": -450,
+        "basePointsF": -2250,
         "amplitude": 1,
         "miscValue": 1,
         "target": 6

@@ -1,15 +1,15 @@
 /********************************  TODO LIST  *************************
 
 
-sunder armor
 Rend adds 2% of ap?
 Revenge adds 25% ap ?
 target creature types, auras + racials
+
 gear presets
 more presets
 logo
 TMI health changes
-
+update data
 
 
 ITEMS:

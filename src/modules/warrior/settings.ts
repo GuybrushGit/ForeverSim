@@ -150,50 +150,50 @@ const templateSettings = {
 			type: 'number',
 			value: 1000,
 		},
-		{
-			id: 'targettype1',
-			label: 'Type',
-			type: 'dropdown',
-			value: 0,
-			options: [
-				{
-					value: 0,
-					label: 'None',
-				},
-				{
-					value: 1,
-					label: 'Beast',
-				},
-				{
-					value: 2,
-					label: 'Dragonkin',
-				},
-				{
-					value: 3,
-					label: 'Demon',
-				},
-				{
-					value: 4,
-					label: 'Elemental',
-				},
-				{
-					value: 5,
-					label: 'Giant',
-				},
-				{
-					value: 6,
-					label: 'Undead',
-				},
-				{
-					value: 7,
-					label: 'Humanoid',
-				},
-				{
-					value: 9,
-					label: 'Mechanical',
-				},
-			],
-		},
+		// {
+		// 	id: 'targettype1',
+		// 	label: 'Type',
+		// 	type: 'dropdown',
+		// 	value: 0,
+		// 	options: [
+		// 		{
+		// 			value: 0,
+		// 			label: 'None',
+		// 		},
+		// 		{
+		// 			value: 1,
+		// 			label: 'Beast',
+		// 		},
+		// 		{
+		// 			value: 2,
+		// 			label: 'Dragonkin',
+		// 		},
+		// 		{
+		// 			value: 3,
+		// 			label: 'Demon',
+		// 		},
+		// 		{
+		// 			value: 4,
+		// 			label: 'Elemental',
+		// 		},
+		// 		{
+		// 			value: 5,
+		// 			label: 'Giant',
+		// 		},
+		// 		{
+		// 			value: 6,
+		// 			label: 'Undead',
+		// 		},
+		// 		{
+		// 			value: 7,
+		// 			label: 'Humanoid',
+		// 		},
+		// 		{
+		// 			value: 9,
+		// 			label: 'Mechanical',
+		// 		},
+		// 	],
+		// },
 	] as SettingsField[],
 	target2: [
 		{
@@ -254,50 +254,50 @@ const templateSettings = {
 			type: 'number',
 			value: 1000,
 		},
-		{
-			id: 'targettype2',
-			label: 'Type',
-			type: 'dropdown',
-			value: 0,
-			options: [
-				{
-					value: 0,
-					label: 'None',
-				},
-				{
-					value: 1,
-					label: 'Beast',
-				},
-				{
-					value: 2,
-					label: 'Dragonkin',
-				},
-				{
-					value: 3,
-					label: 'Demon',
-				},
-				{
-					value: 4,
-					label: 'Elemental',
-				},
-				{
-					value: 5,
-					label: 'Giant',
-				},
-				{
-					value: 6,
-					label: 'Undead',
-				},
-				{
-					value: 7,
-					label: 'Humanoid',
-				},
-				{
-					value: 9,
-					label: 'Mechanical',
-				},
-			],
-		},
+		// {
+		// 	id: 'targettype2',
+		// 	label: 'Type',
+		// 	type: 'dropdown',
+		// 	value: 0,
+		// 	options: [
+		// 		{
+		// 			value: 0,
+		// 			label: 'None',
+		// 		},
+		// 		{
+		// 			value: 1,
+		// 			label: 'Beast',
+		// 		},
+		// 		{
+		// 			value: 2,
+		// 			label: 'Dragonkin',
+		// 		},
+		// 		{
+		// 			value: 3,
+		// 			label: 'Demon',
+		// 		},
+		// 		{
+		// 			value: 4,
+		// 			label: 'Elemental',
+		// 		},
+		// 		{
+		// 			value: 5,
+		// 			label: 'Giant',
+		// 		},
+		// 		{
+		// 			value: 6,
+		// 			label: 'Undead',
+		// 		},
+		// 		{
+		// 			value: 7,
+		// 			label: 'Humanoid',
+		// 		},
+		// 		{
+		// 			value: 9,
+		// 			label: 'Mechanical',
+		// 		},
+		// 	],
+		// },
 	] as SettingsField[],
 	target3: [
 		{
@@ -358,50 +358,50 @@ const templateSettings = {
 			type: 'number',
 			value: 1000,
 		},
-		{
-			id: 'targettype3',
-			label: 'Type',
-			type: 'dropdown',
-			value: 0,
-			options: [
-				{
-					value: 0,
-					label: 'None',
-				},
-				{
-					value: 1,
-					label: 'Beast',
-				},
-				{
-					value: 2,
-					label: 'Dragonkin',
-				},
-				{
-					value: 3,
-					label: 'Demon',
-				},
-				{
-					value: 4,
-					label: 'Elemental',
-				},
-				{
-					value: 5,
-					label: 'Giant',
-				},
-				{
-					value: 6,
-					label: 'Undead',
-				},
-				{
-					value: 7,
-					label: 'Humanoid',
-				},
-				{
-					value: 9,
-					label: 'Mechanical',
-				},
-			],
-		},
+		// {
+		// 	id: 'targettype3',
+		// 	label: 'Type',
+		// 	type: 'dropdown',
+		// 	value: 0,
+		// 	options: [
+		// 		{
+		// 			value: 0,
+		// 			label: 'None',
+		// 		},
+		// 		{
+		// 			value: 1,
+		// 			label: 'Beast',
+		// 		},
+		// 		{
+		// 			value: 2,
+		// 			label: 'Dragonkin',
+		// 		},
+		// 		{
+		// 			value: 3,
+		// 			label: 'Demon',
+		// 		},
+		// 		{
+		// 			value: 4,
+		// 			label: 'Elemental',
+		// 		},
+		// 		{
+		// 			value: 5,
+		// 			label: 'Giant',
+		// 		},
+		// 		{
+		// 			value: 6,
+		// 			label: 'Undead',
+		// 		},
+		// 		{
+		// 			value: 7,
+		// 			label: 'Humanoid',
+		// 		},
+		// 		{
+		// 			value: 9,
+		// 			label: 'Mechanical',
+		// 		},
+		// 	],
+		// },
 	] as SettingsField[],
 	target4: [
 		{
@@ -462,50 +462,50 @@ const templateSettings = {
 			type: 'number',
 			value: 1000,
 		},
-		{
-			id: 'targettype4',
-			label: 'Type',
-			type: 'dropdown',
-			value: 0,
-			options: [
-				{
-					value: 0,
-					label: 'None',
-				},
-				{
-					value: 1,
-					label: 'Beast',
-				},
-				{
-					value: 2,
-					label: 'Dragonkin',
-				},
-				{
-					value: 3,
-					label: 'Demon',
-				},
-				{
-					value: 4,
-					label: 'Elemental',
-				},
-				{
-					value: 5,
-					label: 'Giant',
-				},
-				{
-					value: 6,
-					label: 'Undead',
-				},
-				{
-					value: 7,
-					label: 'Humanoid',
-				},
-				{
-					value: 9,
-					label: 'Mechanical',
-				},
-			],
-		},
+		// {
+		// 	id: 'targettype4',
+		// 	label: 'Type',
+		// 	type: 'dropdown',
+		// 	value: 0,
+		// 	options: [
+		// 		{
+		// 			value: 0,
+		// 			label: 'None',
+		// 		},
+		// 		{
+		// 			value: 1,
+		// 			label: 'Beast',
+		// 		},
+		// 		{
+		// 			value: 2,
+		// 			label: 'Dragonkin',
+		// 		},
+		// 		{
+		// 			value: 3,
+		// 			label: 'Demon',
+		// 		},
+		// 		{
+		// 			value: 4,
+		// 			label: 'Elemental',
+		// 		},
+		// 		{
+		// 			value: 5,
+		// 			label: 'Giant',
+		// 		},
+		// 		{
+		// 			value: 6,
+		// 			label: 'Undead',
+		// 		},
+		// 		{
+		// 			value: 7,
+		// 			label: 'Humanoid',
+		// 		},
+		// 		{
+		// 			value: 9,
+		// 			label: 'Mechanical',
+		// 		},
+		// 	],
+		// },
 	] as SettingsField[],
 	encounter: [
 		{
@@ -528,7 +528,7 @@ const templateSettings = {
 		},
 		{
 			id: 'executeperc',
-			label: 'Execute Duration Percentage',
+			label: 'Execute Duration %',
 			type: 'number',
 			value: 20,
 		},

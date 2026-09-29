@@ -32,6 +32,7 @@ export function applyEffectAuraTarget(
 			break;
 		case AuraType.ModResistance:
 			if (!this.miscValue) return;
+			if (sim && spell.classMask == 16384) return; // Prevent Sunder Armor action from removing armor
 			if (remove) value *= -1;
 			if (this.miscValue & SchoolMask.Physical) stats.resistance[SpellSchool.Physical] += value;
 			if (this.miscValue & SchoolMask.Arcane) stats.resistance[SpellSchool.Arcane] += value;
