@@ -401,7 +401,9 @@ export default function ItemGenerator() {
 		itemarmorshield: any[],
 		armorlocation: any[],
 		itemarmorquality: any[],
-		itemarmortotal: any[];
+		itemarmortotal: any[],
+		itemmodifiedappearance: any[],
+		itemappearance: any[];
 
 	const [working, setWorking] = useState(false);
 
@@ -426,6 +428,8 @@ export default function ItemGenerator() {
 		promises.push(loadTable('armorlocation'));
 		promises.push(loadTable('itemarmorquality'));
 		promises.push(loadTable('itemarmortotal'));
+		promises.push(loadTable('itemmodifiedappearance'));
+		promises.push(loadTable('itemappearance'));
 
 		Promise.all(promises).then(values => {
 			items = values[0];
@@ -447,6 +451,8 @@ export default function ItemGenerator() {
 			armorlocation = values[16];
 			itemarmorquality = values[17];
 			itemarmortotal = values[18];
+			itemmodifiedappearance = values[19];
+			itemappearance = values[20];
 		});
 	}, []);
 
@@ -653,19 +659,13 @@ export default function ItemGenerator() {
 				obj.stats.block_amount = (obj.stats.block_amount || 0) + Number(blockvalue);
 			}
 
-			// if (Number(sparse.RandomSelect)) {
-			// 	let tiger = getSuffixObject(obj, sparse, 'tiger', 'of the Tiger');
-			// 	let bear = getSuffixObject(obj, sparse, 'bear', 'of the Bear');
-			// 	let strength = getSuffixObject(obj, sparse, 'strength', 'of Strength');
-			// 	let striking = getSuffixObject(obj, sparse, 'striking', 'of Striking');
-
-			// 	if (tiger) addToGear(tiger, allTheGear);
-			// 	if (bear) addToGear(bear, allTheGear);
-			// 	if (strength) addToGear(strength, allTheGear);
-			// 	if (striking) addToGear(striking, allTheGear);
-
-			// 	if (tiger || bear || strength || striking) continue;
-			// }
+			// display id
+			let appearance = getRows(itemmodifiedappearance, 'ItemID', obj.id);
+			if (appearance && appearance.length) {
+				let appearanceId = appearance[0]['ItemAppearanceID'];
+				let appearancerow = getRow(itemappearance, appearanceId);
+				if (appearancerow) obj.displayid = appearancerow['ItemDisplayInfoID'];
+			}
 
 			// custom stuff
 			if (obj.id == 20130) obj.useSpell = 24427;

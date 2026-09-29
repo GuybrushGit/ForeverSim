@@ -1,0 +1,15 @@
+.sim-dashboard-model {
+	position: relative;
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+	justify-content: center;
+	padding-top: 0;
+
+	.model-error {
+		align-self: center;
+		color: $light-grey;
+		font-size: 12px;
+	}
+}

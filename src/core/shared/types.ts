@@ -79,6 +79,7 @@ export type Item = {
 	quality?: number;
 	ilvl?: number;
 	path?: string;
+	displayid?: number;
 	stats?: Stats;
 	speed?: number;
 	maxdmg?: number;

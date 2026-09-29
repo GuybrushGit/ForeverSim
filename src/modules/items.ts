@@ -13480,7 +13480,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13439
-      }
+      },
+      "displayid": "19726"
     },
     {
       "id": 864,
@@ -13497,7 +13498,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_27",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "26579"
     },
     {
       "id": 935,
@@ -13515,7 +13517,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "8272"
     },
     {
       "id": 1009,
@@ -13533,7 +13536,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8583"
     },
     {
       "id": 1480,
@@ -13551,7 +13555,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "9381"
     },
     {
       "id": 1913,
@@ -13569,7 +13574,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1839"
     },
     {
       "id": 2044,
@@ -13587,7 +13593,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "19220"
     },
     {
       "id": 2189,
@@ -13604,7 +13611,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_rifle_04",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1938"
     },
     {
       "id": 2194,
@@ -13623,7 +13631,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "3940"
     },
     {
       "id": 2218,
@@ -13641,7 +13650,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20451"
     },
     {
       "id": 2236,
@@ -13669,7 +13679,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "20345"
     },
     {
       "id": 2263,
@@ -13689,7 +13700,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 14119
-      }
+      },
+      "displayid": "5170"
     },
     {
       "id": 2847,
@@ -13707,7 +13719,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "4805"
     },
     {
       "id": 2848,
@@ -13725,7 +13738,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "5198"
     },
     {
       "id": 2849,
@@ -13743,7 +13757,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "armor": 0
-      }
+      },
+      "displayid": "19929"
     },
     {
       "id": 2850,
@@ -13761,7 +13776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "1546"
     },
     {
       "id": 2908,
@@ -13779,7 +13795,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20605"
     },
     {
       "id": 3154,
@@ -13797,7 +13814,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "18340"
     },
     {
       "id": 3184,
@@ -13814,7 +13832,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_shortblade_01",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 3225,
@@ -13832,7 +13851,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "2705"
     },
     {
       "id": 3462,
@@ -13850,7 +13870,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28607"
     },
     {
       "id": 3489,
@@ -13869,7 +13890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8474"
     },
     {
       "id": 3490,
@@ -13887,7 +13909,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "2708"
     },
     {
       "id": 3491,
@@ -13905,7 +13928,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "5205"
     },
     {
       "id": 3492,
@@ -13923,7 +13947,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "armor": 0
-      }
+      },
+      "displayid": "3780"
     },
     {
       "id": 3570,
@@ -13941,7 +13966,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "5197"
     },
     {
       "id": 3572,
@@ -13959,7 +13985,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "1766"
     },
     {
       "id": 3581,
@@ -13978,7 +14005,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20414"
     },
     {
       "id": 3755,
@@ -13996,7 +14024,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "19228"
     },
     {
       "id": 3848,
@@ -14014,7 +14043,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "4154"
     },
     {
       "id": 3849,
@@ -14032,7 +14062,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "5129"
     },
     {
       "id": 3850,
@@ -14052,7 +14083,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 4,
         "ranged_ap": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20215"
     },
     {
       "id": 3895,
@@ -14069,7 +14101,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_01",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "747638"
     },
     {
       "id": 3933,
@@ -14121,7 +14154,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 0
-      }
+      },
+      "displayid": "2038"
     },
     {
       "id": 4126,
@@ -14140,7 +14174,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "19217"
     },
     {
       "id": 4302,
@@ -14158,7 +14193,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "2717"
     },
     {
       "id": 4511,
@@ -14176,7 +14212,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "armor": 0
-      }
+      },
+      "displayid": "19783"
     },
     {
       "id": 4568,
@@ -14193,7 +14230,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_12",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "22478"
     },
     {
       "id": 4765,
@@ -14211,7 +14249,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "7313"
     },
     {
       "id": 4766,
@@ -14229,7 +14268,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "5154"
     },
     {
       "id": 4824,
@@ -14247,7 +14287,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "3297"
     },
     {
       "id": 4825,
@@ -14266,7 +14307,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 8,
         "ranged_ap": 8,
         "armor": 0
-      }
+      },
+      "displayid": "1390"
     },
     {
       "id": 4826,
@@ -14284,7 +14326,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "19224"
     },
     {
       "id": 4947,
@@ -14302,7 +14345,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20388"
     },
     {
       "id": 4948,
@@ -14320,7 +14364,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1839"
     },
     {
       "id": 4971,
@@ -14338,7 +14383,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8572"
     },
     {
       "id": 4974,
@@ -14356,7 +14402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "2717"
     },
     {
       "id": 4977,
@@ -14375,7 +14422,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20009"
     },
     {
       "id": 4978,
@@ -14393,7 +14441,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "19741"
     },
     {
       "id": 4987,
@@ -14411,7 +14460,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 0
-      }
+      },
+      "displayid": "20083"
     },
     {
       "id": 5279,
@@ -14429,7 +14479,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "6469"
     },
     {
       "id": 5321,
@@ -14447,7 +14498,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20014"
     },
     {
       "id": 5324,
@@ -14465,7 +14517,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "1597"
     },
     {
       "id": 5344,
@@ -14483,7 +14536,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "7590"
     },
     {
       "id": 5459,
@@ -14500,7 +14554,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_01",
       "stats": {
         "armor": 10
-      }
+      },
+      "displayid": "5014"
     },
     {
       "id": 5540,
@@ -14519,7 +14574,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "2733"
     },
     {
       "id": 5541,
@@ -14538,7 +14594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "19801"
     },
     {
       "id": 5587,
@@ -14556,7 +14613,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19648"
     },
     {
       "id": 5627,
@@ -14574,7 +14632,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20354"
     },
     {
       "id": 5757,
@@ -14593,7 +14652,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "6795"
     },
     {
       "id": 6194,
@@ -14611,7 +14671,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "19404"
     },
     {
       "id": 6360,
@@ -14629,7 +14690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "10816"
     },
     {
       "id": 6738,
@@ -14649,7 +14711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16403
-      }
+      },
+      "displayid": "19126"
     },
     {
       "id": 6966,
@@ -14667,7 +14730,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19135"
     },
     {
       "id": 6967,
@@ -14685,7 +14749,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20162"
     },
     {
       "id": 6968,
@@ -14703,7 +14768,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19771"
     },
     {
       "id": 6969,
@@ -14721,7 +14787,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20400"
     },
     {
       "id": 6978,
@@ -14739,7 +14806,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19133"
     },
     {
       "id": 6979,
@@ -14757,7 +14825,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19274"
     },
     {
       "id": 6980,
@@ -14775,7 +14844,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20398"
     },
     {
       "id": 6981,
@@ -14793,7 +14863,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20400"
     },
     {
       "id": 6982,
@@ -14811,7 +14882,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19652"
     },
     {
       "id": 6983,
@@ -14829,7 +14901,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19773"
     },
     {
       "id": 6984,
@@ -14847,7 +14920,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20159"
     },
     {
       "id": 6985,
@@ -14865,7 +14939,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20163"
     },
     {
       "id": 7115,
@@ -14883,7 +14958,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19204"
     },
     {
       "id": 7116,
@@ -14901,7 +14977,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20602"
     },
     {
       "id": 7117,
@@ -14919,7 +14996,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19776"
     },
     {
       "id": 7118,
@@ -14937,7 +15015,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20161"
     },
     {
       "id": 7166,
@@ -14955,7 +15034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "13848"
     },
     {
       "id": 7326,
@@ -14973,7 +15053,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19132"
     },
     {
       "id": 7327,
@@ -14991,7 +15072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20398"
     },
     {
       "id": 7328,
@@ -15009,7 +15091,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19649"
     },
     {
       "id": 7329,
@@ -15027,7 +15110,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20160"
     },
     {
       "id": 7941,
@@ -15045,7 +15129,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "16126"
     },
     {
       "id": 7942,
@@ -15063,7 +15148,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "5639"
     },
     {
       "id": 7943,
@@ -15082,7 +15168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "16128"
     },
     {
       "id": 7944,
@@ -15100,7 +15187,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "4911"
     },
     {
       "id": 7945,
@@ -15118,7 +15206,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 0
-      }
+      },
+      "displayid": "5199"
     },
     {
       "id": 7946,
@@ -15137,7 +15226,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "defense": 4,
         "armor": 0
-      }
+      },
+      "displayid": "15887"
     },
     {
       "id": 7947,
@@ -15155,7 +15245,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 9,
         "armor": 0
-      }
+      },
+      "displayid": "16130"
     },
     {
       "id": 7954,
@@ -15175,7 +15266,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13534
-      }
+      },
+      "displayid": "1022"
     },
     {
       "id": 7961,
@@ -15195,7 +15287,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 9806
-      }
+      },
+      "displayid": "25053"
     },
     {
       "id": 8708,
@@ -15215,7 +15308,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1317432
-      }
+      },
+      "displayid": "17788"
     },
     {
       "id": 9380,
@@ -15254,7 +15348,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "armor": 0
-      }
+      },
+      "displayid": "20574"
     },
     {
       "id": 9651,
@@ -15274,7 +15369,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18081
-      }
+      },
+      "displayid": "18578"
     },
     {
       "id": 9680,
@@ -15293,7 +15389,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20475"
     },
     {
       "id": 9684,
@@ -15311,7 +15408,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 9,
         "armor": 0
-      }
+      },
+      "displayid": "19130"
     },
     {
       "id": 9686,
@@ -15329,7 +15427,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 0
-      }
+      },
+      "displayid": "19746"
     },
     {
       "id": 9718,
@@ -15348,7 +15447,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "13488"
     },
     {
       "id": 10696,
@@ -15368,7 +15468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 18,
         "armor": 0
       },
-      "useSpell": 12938
+      "useSpell": 12938,
+      "displayid": "22229"
     },
     {
       "id": 10697,
@@ -15388,7 +15489,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 18,
         "armor": 0
       },
-      "useSpell": 12938
+      "useSpell": 12938,
+      "displayid": "20570"
     },
     {
       "id": 10703,
@@ -15406,7 +15508,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 0
-      }
+      },
+      "displayid": "20297"
     },
     {
       "id": 10744,
@@ -15424,7 +15527,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 9,
         "armor": 0
-      }
+      },
+      "displayid": "19130"
     },
     {
       "id": 11120,
@@ -15442,7 +15546,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 0
-      }
+      },
+      "displayid": "28262"
     },
     {
       "id": 11856,
@@ -15461,7 +15566,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28312"
     },
     {
       "id": 11906,
@@ -15480,7 +15586,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 0
-      }
+      },
+      "displayid": "28075"
     },
     {
       "id": 12247,
@@ -15498,7 +15605,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "3175"
     },
     {
       "id": 12248,
@@ -15516,7 +15624,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "22248"
     },
     {
       "id": 12259,
@@ -15535,7 +15644,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 12260,
@@ -15553,7 +15663,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "22258"
     },
     {
       "id": 12584,
@@ -15574,7 +15685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31966"
     },
     {
       "id": 12773,
@@ -15592,7 +15704,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 0
-      }
+      },
+      "displayid": "23234"
     },
     {
       "id": 12774,
@@ -15610,7 +15723,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "23236"
     },
     {
       "id": 12777,
@@ -15630,7 +15744,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16898
-      }
+      },
+      "displayid": "23241"
     },
     {
       "id": 12781,
@@ -15650,7 +15765,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16908
-      }
+      },
+      "displayid": "6795"
     },
     {
       "id": 12783,
@@ -15669,7 +15785,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "20299"
     },
     {
       "id": 12792,
@@ -15689,7 +15806,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18082
-      }
+      },
+      "displayid": "18312"
     },
     {
       "id": 12794,
@@ -15709,7 +15827,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16921
-      }
+      },
+      "displayid": "1022"
     },
     {
       "id": 12795,
@@ -15729,7 +15848,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13318
-      }
+      },
+      "displayid": "743527"
     },
     {
       "id": 12797,
@@ -15749,7 +15869,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16927
-      }
+      },
+      "displayid": "23274"
     },
     {
       "id": 12798,
@@ -15771,7 +15892,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16928
-      }
+      },
+      "displayid": "28504"
     },
     {
       "id": 12976,
@@ -15790,7 +15912,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "8272"
     },
     {
       "id": 12990,
@@ -15809,7 +15932,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "spi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "25470"
     },
     {
       "id": 15211,
@@ -15826,7 +15950,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_20",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "28567"
     },
     {
       "id": 15224,
@@ -15843,7 +15968,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_hammer_08",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "28318"
     },
     {
       "id": 15335,
@@ -15861,7 +15987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "28093"
     },
     {
       "id": 15396,
@@ -15879,7 +16006,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "12880"
     },
     {
       "id": 15705,
@@ -15898,7 +16026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "26432"
     },
     {
       "id": 15706,
@@ -15917,7 +16046,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "26433"
     },
     {
       "id": 15782,
@@ -15936,7 +16066,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 18,
         "ranged_ap": 18,
         "armor": 0
-      }
+      },
+      "displayid": "5165"
     },
     {
       "id": 15783,
@@ -15955,7 +16086,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 18,
         "ranged_ap": 18,
         "armor": 0
-      }
+      },
+      "displayid": "26464"
     },
     {
       "id": 15800,
@@ -15973,7 +16105,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 0
-      }
+      },
+      "displayid": "26477"
     },
     {
       "id": 15801,
@@ -15991,7 +16124,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 0
-      }
+      },
+      "displayid": "26479"
     },
     {
       "id": 15814,
@@ -16011,7 +16145,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16406
-      }
+      },
+      "displayid": "20035"
     },
     {
       "id": 15862,
@@ -16030,7 +16165,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 20,
         "ranged_ap": 20,
         "armor": 0
-      }
+      },
+      "displayid": "26545"
     },
     {
       "id": 15863,
@@ -16049,7 +16185,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "5205"
     },
     {
       "id": 16345,
@@ -16070,7 +16207,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31997"
     },
     {
       "id": 16769,
@@ -16089,7 +16227,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "18572"
     },
     {
       "id": 16792,
@@ -16125,7 +16264,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "28593"
     },
     {
       "id": 16891,
@@ -16143,7 +16283,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28608"
     },
     {
       "id": 17002,
@@ -16163,7 +16304,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 17511
-      }
+      },
+      "displayid": "28834"
     },
     {
       "id": 17003,
@@ -16183,7 +16325,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "28835"
     },
     {
       "id": 17015,
@@ -16211,7 +16354,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "24452"
     },
     {
       "id": 17016,
@@ -16239,7 +16383,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "23276"
     },
     {
       "id": 17046,
@@ -16258,7 +16403,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28873"
     },
     {
       "id": 17142,
@@ -16276,7 +16422,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 210,
         "armor": 0
-      }
+      },
+      "displayid": "29097"
     },
     {
       "id": 17704,
@@ -16297,7 +16444,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16407
-      }
+      },
+      "displayid": "29759"
     },
     {
       "id": 17733,
@@ -16351,7 +16499,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 0
       },
-      "useSpell": 22989
+      "useSpell": 22989,
+      "displayid": "30936"
     },
     {
       "id": 18583,
@@ -16382,7 +16531,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 0
       },
-      "useSpell": 22990
+      "useSpell": 22990,
+      "displayid": "30934"
     },
     {
       "id": 18584,
@@ -16412,7 +16562,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           50
         ],
         "armor": 0
-      }
+      },
+      "displayid": "30935"
     },
     {
       "id": 18800,
@@ -16440,7 +16591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 0
-      }
+      },
+      "displayid": "31258"
     },
     {
       "id": 18827,
@@ -16461,7 +16613,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31956"
     },
     {
       "id": 18828,
@@ -16482,7 +16635,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31957"
     },
     {
       "id": 18838,
@@ -16503,7 +16657,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31379"
     },
     {
       "id": 18840,
@@ -16524,7 +16679,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31381"
     },
     {
       "id": 18843,
@@ -16545,7 +16701,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "743531"
     },
     {
       "id": 18844,
@@ -16566,7 +16723,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31754"
     },
     {
       "id": 18865,
@@ -16587,7 +16745,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31955"
     },
     {
       "id": 18866,
@@ -16608,7 +16767,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31751"
     },
     {
       "id": 18957,
@@ -16626,7 +16786,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "31400"
     },
     {
       "id": 19019,
@@ -16659,7 +16820,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 21992,
         "ppm": 6
-      }
+      },
+      "displayid": "30606"
     },
     {
       "id": 19040,
@@ -16678,7 +16840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "31526"
     },
     {
       "id": 19099,
@@ -16699,7 +16862,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18398
-      }
+      },
+      "displayid": "31605"
     },
     {
       "id": 19100,
@@ -16720,7 +16884,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 23592
-      }
+      },
+      "displayid": "31606"
     },
     {
       "id": 19103,
@@ -16738,7 +16903,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 0
-      }
+      },
+      "displayid": "31611"
     },
     {
       "id": 19104,
@@ -16756,7 +16922,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 0
-      }
+      },
+      "displayid": "23948"
     },
     {
       "id": 19166,
@@ -16776,7 +16943,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 23604
-      }
+      },
+      "displayid": "20291"
     },
     {
       "id": 19168,
@@ -16795,7 +16963,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "parry_rate": 15,
         "armor": 0
-      }
+      },
+      "displayid": "31692"
     },
     {
       "id": 19170,
@@ -16827,7 +16996,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 18211,
         "ppm": 0.4
-      }
+      },
+      "displayid": "31822"
     },
     {
       "id": 19313,
@@ -16881,7 +17051,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1290950
-      }
+      },
+      "displayid": "31820"
     },
     {
       "id": 19427,
@@ -16985,7 +17156,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19543,
@@ -17004,7 +17176,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19544,
@@ -17023,7 +17196,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19545,
@@ -17042,7 +17216,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19546,
@@ -17061,7 +17236,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19547,
@@ -17080,7 +17256,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19548,
@@ -17099,7 +17276,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19549,
@@ -17118,7 +17296,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19550,
@@ -17137,7 +17316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19551,
@@ -17156,7 +17336,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19552,
@@ -17175,7 +17356,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19553,
@@ -17194,7 +17376,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19554,
@@ -17213,7 +17396,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19555,
@@ -17232,7 +17416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19556,
@@ -17251,7 +17436,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19557,
@@ -17270,7 +17456,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19622,
@@ -17323,7 +17510,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "743536"
     },
     {
       "id": 20070,
@@ -17342,7 +17530,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "crit_rate": 14,
         "armor": 40
-      }
+      },
+      "displayid": "32648"
     },
     {
       "id": 20214,
@@ -17361,7 +17550,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "crit_rate": 14,
         "armor": 40
-      }
+      },
+      "displayid": "32648"
     },
     {
       "id": 20317,
@@ -17399,7 +17589,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 20440,
@@ -17418,7 +17609,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 20441,
@@ -17437,7 +17629,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 20443,
@@ -17456,7 +17649,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 20580,
@@ -17475,7 +17669,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 12,
         "armor": 90
-      }
+      },
+      "displayid": "33017"
     },
     {
       "id": 20647,
@@ -17493,7 +17688,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20369"
     },
     {
       "id": 20648,
@@ -17512,7 +17708,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "3940"
     },
     {
       "id": 20723,
@@ -17530,7 +17727,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 0
-      }
+      },
+      "displayid": "1682"
     },
     {
       "id": 21126,
@@ -17550,7 +17748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 38,
         "ranged_ap": 38,
         "armor": 0
-      }
+      },
+      "displayid": "34512"
     },
     {
       "id": 21127,
@@ -17567,7 +17766,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_mace_24",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "33431"
     },
     {
       "id": 21242,
@@ -17589,7 +17789,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 14,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34178"
     },
     {
       "id": 21244,
@@ -17611,7 +17812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "34142"
     },
     {
       "id": 21268,
@@ -17631,7 +17833,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "defense": 8,
         "armor": 70
-      }
+      },
+      "displayid": "33830"
     },
     {
       "id": 21392,
@@ -17652,7 +17855,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "defense": 4,
         "armor": 0
-      }
+      },
+      "displayid": "33727"
     },
     {
       "id": 21520,
@@ -17672,7 +17876,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31866"
     },
     {
       "id": 21521,
@@ -17692,7 +17897,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "33994"
     },
     {
       "id": 21522,
@@ -17712,7 +17918,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "33992"
     },
     {
       "id": 21523,
@@ -17732,7 +17939,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 14,
         "armor": 0
-      }
+      },
+      "displayid": "33991"
     },
     {
       "id": 21622,
@@ -17752,7 +17960,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 7,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34232"
     },
     {
       "id": 21650,
@@ -17773,7 +17982,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 20,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34264"
     },
     {
       "id": 21782,
@@ -17809,7 +18019,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 19,
         "armor": 0
-      }
+      },
+      "displayid": "34485"
     },
     {
       "id": 22377,
@@ -17828,7 +18039,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "20598"
     },
     {
       "id": 22378,
@@ -17848,7 +18060,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 26,
         "ranged_ap": 26,
         "armor": 0
-      }
+      },
+      "displayid": "34850"
     },
     {
       "id": 22379,
@@ -17866,7 +18079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "armor": 0
-      }
+      },
+      "displayid": "2669"
     },
     {
       "id": 22380,
@@ -17884,7 +18098,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 0
-      }
+      },
+      "displayid": "34860"
     },
     {
       "id": 22383,
@@ -17904,7 +18119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "36970"
     },
     {
       "id": 22384,
@@ -17923,7 +18139,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "36969"
     },
     {
       "id": 22688,
@@ -17942,7 +18159,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "20326"
     },
     {
       "id": 22805,
@@ -17962,7 +18180,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "35247"
     },
     {
       "id": 23451,
@@ -17982,7 +18201,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 8,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36045"
     },
     {
       "id": 23454,
@@ -18001,7 +18221,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "36064"
     },
     {
       "id": 23456,
@@ -18022,7 +18243,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36066"
     },
     {
       "id": 23464,
@@ -18041,7 +18263,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "36078"
     },
     {
       "id": 23466,
@@ -18061,7 +18284,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 8,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36080"
     },
     {
       "id": 23467,
@@ -18082,7 +18306,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36081"
     },
     {
       "id": 24071,
@@ -18099,7 +18324,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_12",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "2704"
     },
     {
       "id": 213105,
@@ -18117,7 +18343,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 0
       },
-      "useSpell": 434488
+      "useSpell": 434488,
+      "displayid": "674179"
     },
     {
       "id": 215235,
@@ -18136,7 +18363,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 22,
         "armor": 0
-      }
+      },
+      "displayid": "18409"
     },
     {
       "id": 231887,
@@ -18156,7 +18384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13318
-      }
+      },
+      "displayid": "742844"
     },
     {
       "id": 236760,
@@ -18175,7 +18404,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "26432"
     },
     {
       "id": 239618,
@@ -18194,7 +18424,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 28,
         "ranged_ap": 28,
         "armor": 0
-      }
+      },
+      "displayid": "18254"
     },
     {
       "id": 239688,
@@ -18213,7 +18444,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 28,
         "ranged_ap": 28,
         "armor": 0
-      }
+      },
+      "displayid": "698952"
     },
     {
       "id": 241089,
@@ -18231,7 +18463,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "699444"
     },
     {
       "id": 246164,
@@ -18248,7 +18481,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_mace_01",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1839"
     },
     {
       "id": 248006,
@@ -18266,7 +18500,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "26577"
     },
     {
       "id": 248007,
@@ -18284,7 +18519,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "6475"
     },
     {
       "id": 250602,
@@ -18303,7 +18539,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "3007"
     },
     {
       "id": 250604,
@@ -18320,7 +18557,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "21715"
     },
     {
       "id": 250606,
@@ -18337,7 +18575,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "5199"
     },
     {
       "id": 250607,
@@ -18355,7 +18594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 14,
         "ranged_ap": 14,
         "armor": 0
-      }
+      },
+      "displayid": "20354"
     },
     {
       "id": 250609,
@@ -18374,7 +18614,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "743520"
     },
     {
       "id": 250611,
@@ -18391,7 +18632,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "2733"
     },
     {
       "id": 250614,
@@ -18410,7 +18652,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 0
-      }
+      },
+      "displayid": "23742"
     },
     {
       "id": 250616,
@@ -18429,7 +18672,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 0
-      }
+      },
+      "displayid": "2706"
     },
     {
       "id": 250618,
@@ -18448,7 +18692,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "743527"
     },
     {
       "id": 254779,
@@ -18466,7 +18711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "715516"
     },
     {
       "id": 257346,
@@ -18483,7 +18729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "736428"
     },
     {
       "id": 260172,
@@ -18501,7 +18748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "717929"
     },
     {
       "id": 260180,
@@ -18519,7 +18767,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "717976"
     },
     {
       "id": 260209,
@@ -18536,7 +18785,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 0
-      }
+      },
+      "displayid": "718108"
     },
     {
       "id": 263313,
@@ -18554,7 +18804,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "7494"
     },
     {
       "id": 263314,
@@ -18572,7 +18823,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8565"
     },
     {
       "id": 263329,
@@ -18588,7 +18840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 12.94,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "736433"
     },
     {
       "id": 263432,
@@ -18606,7 +18859,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "736428"
     },
     {
       "id": 269716,
@@ -18624,7 +18878,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "717976"
     },
     {
       "id": 270048,
@@ -18643,7 +18898,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "5212"
     },
     {
       "id": 270069,
@@ -18661,7 +18917,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "6475"
     },
     {
       "id": 270070,
@@ -18679,7 +18936,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "armor": 0
-      }
+      },
+      "displayid": "6475"
     },
     {
       "id": 270088,
@@ -18697,7 +18955,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "19721"
     },
     {
       "id": 270092,
@@ -18716,7 +18975,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 5,
         "armor": 0
-      }
+      },
+      "displayid": "5144"
     },
     {
       "id": 271664,
@@ -18736,7 +18996,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "19271"
     },
     {
       "id": 271796,
@@ -18755,7 +19016,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "23798"
     },
     {
       "id": 271799,
@@ -18773,7 +19035,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 6,
         "armor": 0
-      }
+      },
+      "displayid": "20321"
     },
     {
       "id": 271802,
@@ -18792,7 +19055,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "28318"
     },
     {
       "id": 271804,
@@ -18811,7 +19075,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 1,
         "int": 6,
         "armor": 0
-      }
+      },
+      "displayid": "23253"
     },
     {
       "id": 272180,
@@ -18829,7 +19094,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "736644"
     },
     {
       "id": 272181,
@@ -18847,7 +19113,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "736645"
     },
     {
       "id": 272452,
@@ -18868,7 +19135,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31997"
     },
     {
       "id": 272592,
@@ -18889,7 +19157,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31957"
     },
     {
       "id": 272596,
@@ -18910,7 +19179,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31381"
     },
     {
       "id": 272597,
@@ -18931,7 +19201,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31754"
     },
     {
       "id": 272600,
@@ -18952,7 +19223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31751"
     },
     {
       "id": 272681,
@@ -18971,7 +19243,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "36078"
     },
     {
       "id": 272683,
@@ -18991,7 +19264,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 7,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36080"
     },
     {
       "id": 272684,
@@ -19012,7 +19286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36081"
     },
     {
       "id": 272693,
@@ -19033,7 +19308,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31966"
     },
     {
       "id": 272839,
@@ -19054,7 +19330,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31956"
     },
     {
       "id": 272843,
@@ -19075,7 +19352,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31379"
     },
     {
       "id": 272844,
@@ -19096,7 +19374,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "743531"
     },
     {
       "id": 272847,
@@ -19117,7 +19396,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31955"
     },
     {
       "id": 272856,
@@ -19137,7 +19417,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 7,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36045"
     },
     {
       "id": 272857,
@@ -19156,7 +19437,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "36064"
     },
     {
       "id": 272859,
@@ -19177,7 +19459,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36066"
     },
     {
       "id": 274383,
@@ -19197,7 +19480,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "739800"
     },
     {
       "id": 274744,
@@ -19215,7 +19499,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "1595"
     },
     {
       "id": 274753,
@@ -19234,7 +19519,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "int": -1,
         "armor": 0
-      }
+      },
+      "displayid": "22135"
     },
     {
       "id": 274920,
@@ -19254,7 +19540,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "739775"
     },
     {
       "id": 274928,
@@ -19273,7 +19560,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "defense": 2,
         "armor": 0
-      }
+      },
+      "displayid": "739813"
     },
     {
       "id": 274948,
@@ -19291,7 +19579,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "6530"
     },
     {
       "id": 275293,
@@ -19309,7 +19598,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "armor": 0
-      }
+      },
+      "displayid": "740390"
     },
     {
       "id": 275647,
@@ -19330,7 +19620,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1297369
-      }
+      },
+      "displayid": "739803"
     },
     {
       "id": 275698,
@@ -19348,7 +19639,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 0
-      }
+      },
+      "displayid": "685538"
     },
     {
       "id": 275700,
@@ -19367,7 +19659,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "674397"
     },
     {
       "id": 275836,
@@ -19386,7 +19679,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "739798"
     },
     {
       "id": 276338,
@@ -19405,7 +19699,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "739835"
     },
     {
       "id": 276886,
@@ -19424,7 +19719,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 4,
         "ranged_ap": 4,
         "armor": 0
-      }
+      },
+      "displayid": "859"
     },
     {
       "id": 276888,
@@ -19442,7 +19738,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "28568"
     },
     {
       "id": 276903,
@@ -19460,7 +19757,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "742845"
     },
     {
       "id": 277243,
@@ -19478,7 +19776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "spi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "3297"
     },
     {
       "id": 277244,
@@ -19496,7 +19795,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "spi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "743529"
     },
     {
       "id": 277245,
@@ -19514,7 +19814,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 9,
         "armor": 0
-      }
+      },
+      "displayid": "35129"
     },
     {
       "id": 277247,
@@ -19532,7 +19833,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 1,
         "int": 1,
         "armor": 0
-      }
+      },
+      "displayid": "753043"
     },
     {
       "id": 277248,
@@ -19550,7 +19852,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "19556"
     },
     {
       "id": 277288,
@@ -19568,7 +19871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "3297"
     },
     {
       "id": 277515,
@@ -19586,7 +19890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20451"
     },
     {
       "id": 277979,
@@ -19604,7 +19909,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "7463"
     },
     {
       "id": 277988,
@@ -19622,7 +19928,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20388"
     },
     {
       "id": 278002,
@@ -19640,7 +19947,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1839"
     },
     {
       "id": 278423,
@@ -19657,7 +19965,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pick_02",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1379"
     },
     {
       "id": 279259,
@@ -19677,7 +19986,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "744936"
     },
     {
       "id": 279261,
@@ -19696,7 +20006,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "743971"
     },
     {
       "id": 279392,
@@ -19713,7 +20024,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_24",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "744884"
     },
     {
       "id": 279393,
@@ -19730,7 +20042,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_24",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "744824"
     },
     {
       "id": 280605,
@@ -19748,7 +20061,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "741039"
     },
     {
       "id": 280607,
@@ -19766,7 +20080,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 0
-      }
+      },
+      "displayid": "741038"
     },
     {
       "id": 281254,
@@ -19784,7 +20099,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "spi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1596"
     },
     {
       "id": 281257,
@@ -19801,7 +20117,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "3175"
     },
     {
       "id": 281293,
@@ -19818,7 +20135,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "28458"
     },
     {
       "id": 281297,
@@ -19835,7 +20153,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "2706"
     },
     {
       "id": 281314,
@@ -19853,7 +20172,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 281586,
@@ -19872,7 +20192,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 10,
         "armor": 0
-      }
+      },
+      "displayid": "28521"
     },
     {
       "id": 281587,
@@ -19891,7 +20212,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20094"
     },
     {
       "id": 281720,
@@ -19907,7 +20229,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 3.63,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "8483"
     },
     {
       "id": 281722,
@@ -19923,7 +20246,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 2.8,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "22136"
     },
     {
       "id": 281723,
@@ -19939,7 +20263,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 3.63,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "5194"
     },
     {
       "id": 281728,
@@ -19955,7 +20280,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 3.63,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1542"
     },
     {
       "id": 282064,
@@ -19973,7 +20299,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19556"
     },
     {
       "id": 282284,
@@ -19990,7 +20317,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "22142"
     }
   ],
   "offhand": [
@@ -20009,7 +20337,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_27",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "26579"
     },
     {
       "id": 935,
@@ -20027,7 +20356,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "8272"
     },
     {
       "id": 1276,
@@ -20043,7 +20373,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "armor": 528,
         "block_amount": 10
-      }
+      },
+      "displayid": "2210"
     },
     {
       "id": 1547,
@@ -20059,7 +20390,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "armor": 578,
         "block_amount": 11
-      }
+      },
+      "displayid": "21551"
     },
     {
       "id": 1557,
@@ -20075,7 +20407,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "armor": 411,
         "block_amount": 7
-      }
+      },
+      "displayid": "18456"
     },
     {
       "id": 2194,
@@ -20094,7 +20427,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "3940"
     },
     {
       "id": 2218,
@@ -20112,7 +20446,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20451"
     },
     {
       "id": 2236,
@@ -20140,7 +20475,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "20345"
     },
     {
       "id": 2847,
@@ -20158,7 +20494,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "4805"
     },
     {
       "id": 2848,
@@ -20176,7 +20513,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "5198"
     },
     {
       "id": 2849,
@@ -20194,7 +20532,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "armor": 0
-      }
+      },
+      "displayid": "19929"
     },
     {
       "id": 2850,
@@ -20212,7 +20551,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "1546"
     },
     {
       "id": 2908,
@@ -20230,7 +20570,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20605"
     },
     {
       "id": 2916,
@@ -20248,7 +20589,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "armor": 645,
         "block_amount": 13
-      }
+      },
+      "displayid": "2934"
     },
     {
       "id": 3160,
@@ -20263,7 +20605,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 328,
         "block_amount": 5
-      }
+      },
+      "displayid": "2324"
     },
     {
       "id": 3184,
@@ -20280,7 +20623,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_shortblade_01",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 3225,
@@ -20298,7 +20642,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "2705"
     },
     {
       "id": 3450,
@@ -20314,7 +20659,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "armor": 328,
         "block_amount": 5
-      }
+      },
+      "displayid": "18659"
     },
     {
       "id": 3489,
@@ -20333,7 +20679,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8474"
     },
     {
       "id": 3490,
@@ -20351,7 +20698,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "2708"
     },
     {
       "id": 3491,
@@ -20369,7 +20717,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "5205"
     },
     {
       "id": 3492,
@@ -20387,7 +20736,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "armor": 0
-      }
+      },
+      "displayid": "3780"
     },
     {
       "id": 3572,
@@ -20405,7 +20755,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "1766"
     },
     {
       "id": 3581,
@@ -20424,7 +20775,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20414"
     },
     {
       "id": 3743,
@@ -20441,7 +20793,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 1,
         "armor": 545,
         "block_amount": 10
-      }
+      },
+      "displayid": "1757"
     },
     {
       "id": 3761,
@@ -20458,7 +20811,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "armor": 611,
         "block_amount": 12
-      }
+      },
+      "displayid": "18769"
     },
     {
       "id": 3763,
@@ -20475,7 +20829,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "armor": 963,
         "block_amount": 17
-      }
+      },
+      "displayid": "4108"
     },
     {
       "id": 3848,
@@ -20493,7 +20848,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "4154"
     },
     {
       "id": 3849,
@@ -20511,7 +20867,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "5129"
     },
     {
       "id": 3850,
@@ -20531,7 +20888,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 4,
         "ranged_ap": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20215"
     },
     {
       "id": 4115,
@@ -20549,7 +20907,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "armor": 695,
         "block_amount": 15
-      }
+      },
+      "displayid": "17888"
     },
     {
       "id": 4129,
@@ -20566,7 +20925,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "armor": 1380,
         "block_amount": 20
-      }
+      },
+      "displayid": "4458"
     },
     {
       "id": 4302,
@@ -20584,7 +20944,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "2717"
     },
     {
       "id": 4507,
@@ -20601,7 +20962,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "armor": 1148,
         "block_amount": 18
-      }
+      },
+      "displayid": "18653"
     },
     {
       "id": 4568,
@@ -20618,7 +20980,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_12",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "22478"
     },
     {
       "id": 4652,
@@ -20635,7 +20998,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "armor": 1408,
         "block_amount": 20
-      }
+      },
+      "displayid": "18789"
     },
     {
       "id": 4820,
@@ -20652,7 +21016,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "armor": 495,
         "block_amount": 9
-      }
+      },
+      "displayid": "18511"
     },
     {
       "id": 4821,
@@ -20669,7 +21034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "armor": 461,
         "block_amount": 8
-      }
+      },
+      "displayid": "1673"
     },
     {
       "id": 4822,
@@ -20685,7 +21051,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 4,
         "armor": 461,
         "block_amount": 8
-      }
+      },
+      "displayid": "4403"
     },
     {
       "id": 4825,
@@ -20704,7 +21071,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 8,
         "ranged_ap": 8,
         "armor": 0
-      }
+      },
+      "displayid": "1390"
     },
     {
       "id": 4947,
@@ -20722,7 +21090,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20388"
     },
     {
       "id": 4974,
@@ -20740,7 +21109,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "2717"
     },
     {
       "id": 4975,
@@ -20757,7 +21127,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "block_rate": 5,
         "armor": 728,
         "block_amount": 16
-      }
+      },
+      "displayid": "18491"
     },
     {
       "id": 4987,
@@ -20775,7 +21146,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 0
-      }
+      },
+      "displayid": "20083"
     },
     {
       "id": 5279,
@@ -20793,7 +21165,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "6469"
     },
     {
       "id": 5302,
@@ -20809,7 +21182,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "armor": 411,
         "block_amount": 7
-      }
+      },
+      "displayid": "18451"
     },
     {
       "id": 5321,
@@ -20827,7 +21201,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20014"
     },
     {
       "id": 5325,
@@ -20843,7 +21218,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "armor": 345,
         "block_amount": 6
-      }
+      },
+      "displayid": "7559"
     },
     {
       "id": 5357,
@@ -20860,7 +21236,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 1,
         "armor": 528,
         "block_amount": 10
-      }
+      },
+      "displayid": "1685"
     },
     {
       "id": 5540,
@@ -20879,7 +21256,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "2733"
     },
     {
       "id": 5541,
@@ -20898,7 +21276,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "19801"
     },
     {
       "id": 5627,
@@ -20916,7 +21295,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20354"
     },
     {
       "id": 6187,
@@ -20932,7 +21312,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "armor": 361,
         "block_amount": 6
-      }
+      },
+      "displayid": "18658"
     },
     {
       "id": 6203,
@@ -20948,7 +21329,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "armor": 274,
         "block_amount": 5
-      }
+      },
+      "displayid": "18669"
     },
     {
       "id": 6223,
@@ -20965,7 +21347,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "armor": 661,
         "block_amount": 14
-      }
+      },
+      "displayid": "2594"
     },
     {
       "id": 6360,
@@ -20983,7 +21366,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "10816"
     },
     {
       "id": 6676,
@@ -21000,7 +21384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "armor": 528,
         "block_amount": 10
-      }
+      },
+      "displayid": "12805"
     },
     {
       "id": 6746,
@@ -21017,7 +21402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 8,
         "armor": 963,
         "block_amount": 17
-      }
+      },
+      "displayid": "18507"
     },
     {
       "id": 6828,
@@ -21034,7 +21420,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "armor": 711,
         "block_amount": 15
-      }
+      },
+      "displayid": "18455"
     },
     {
       "id": 6969,
@@ -21052,7 +21439,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20400"
     },
     {
       "id": 6970,
@@ -21068,7 +21456,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "armor": 411,
         "block_amount": 7
-      }
+      },
+      "displayid": "21475"
     },
     {
       "id": 6980,
@@ -21086,7 +21475,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20398"
     },
     {
       "id": 6981,
@@ -21104,7 +21494,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20400"
     },
     {
       "id": 7116,
@@ -21122,7 +21513,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20602"
     },
     {
       "id": 7120,
@@ -21138,7 +21530,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "armor": 411,
         "block_amount": 7
-      }
+      },
+      "displayid": "22730"
     },
     {
       "id": 7166,
@@ -21156,7 +21549,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "13848"
     },
     {
       "id": 7327,
@@ -21174,7 +21568,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20398"
     },
     {
       "id": 7748,
@@ -21209,7 +21604,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "16126"
     },
     {
       "id": 7942,
@@ -21227,7 +21623,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "5639"
     },
     {
       "id": 7943,
@@ -21246,7 +21643,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "16128"
     },
     {
       "id": 7944,
@@ -21264,7 +21662,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "4911"
     },
     {
       "id": 7945,
@@ -21282,7 +21681,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 0
-      }
+      },
+      "displayid": "5199"
     },
     {
       "id": 7946,
@@ -21301,7 +21701,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "defense": 4,
         "armor": 0
-      }
+      },
+      "displayid": "15887"
     },
     {
       "id": 7947,
@@ -21319,7 +21720,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 9,
         "armor": 0
-      }
+      },
+      "displayid": "16130"
     },
     {
       "id": 7954,
@@ -21339,7 +21741,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13534
-      }
+      },
+      "displayid": "1022"
     },
     {
       "id": 7961,
@@ -21359,7 +21762,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 9806
-      }
+      },
+      "displayid": "25053"
     },
     {
       "id": 9380,
@@ -21398,7 +21802,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "armor": 0
-      }
+      },
+      "displayid": "20574"
     },
     {
       "id": 9643,
@@ -21415,7 +21820,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "block_rate": 10,
         "armor": 1578,
         "block_amount": 25
-      }
+      },
+      "displayid": "18822"
     },
     {
       "id": 9661,
@@ -21432,7 +21838,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "armor": 1257,
         "block_amount": 19
-      }
+      },
+      "displayid": "20900"
     },
     {
       "id": 9680,
@@ -21451,7 +21858,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20475"
     },
     {
       "id": 9706,
@@ -21467,7 +21875,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "armor": 1257,
         "block_amount": 19
-      }
+      },
+      "displayid": "20975"
     },
     {
       "id": 9718,
@@ -21486,7 +21895,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "13488"
     },
     {
       "id": 9888,
@@ -21518,7 +21928,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "armor": 1691,
         "block_amount": 29
-      }
+      },
+      "displayid": "20820"
     },
     {
       "id": 10697,
@@ -21538,7 +21949,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 18,
         "armor": 0
       },
-      "useSpell": 12938
+      "useSpell": 12938,
+      "displayid": "20570"
     },
     {
       "id": 10703,
@@ -21556,7 +21968,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 0
-      }
+      },
+      "displayid": "20297"
     },
     {
       "id": 11856,
@@ -21575,7 +21988,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28312"
     },
     {
       "id": 11863,
@@ -21594,7 +22008,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "743521"
     },
     {
       "id": 11915,
@@ -21611,7 +22026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "armor": 1691,
         "block_amount": 29
-      }
+      },
+      "displayid": "18750"
     },
     {
       "id": 12247,
@@ -21629,7 +22045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "3175"
     },
     {
       "id": 12248,
@@ -21647,7 +22064,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "22248"
     },
     {
       "id": 12259,
@@ -21666,7 +22084,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 12260,
@@ -21684,7 +22103,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "22258"
     },
     {
       "id": 12584,
@@ -21705,7 +22125,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31966"
     },
     {
       "id": 12773,
@@ -21723,7 +22144,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 0
-      }
+      },
+      "displayid": "23234"
     },
     {
       "id": 12774,
@@ -21741,7 +22163,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "23236"
     },
     {
       "id": 12777,
@@ -21761,7 +22184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16898
-      }
+      },
+      "displayid": "23241"
     },
     {
       "id": 12781,
@@ -21781,7 +22205,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16908
-      }
+      },
+      "displayid": "6795"
     },
     {
       "id": 12783,
@@ -21800,7 +22225,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "20299"
     },
     {
       "id": 12792,
@@ -21820,7 +22246,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18082
-      }
+      },
+      "displayid": "18312"
     },
     {
       "id": 12794,
@@ -21840,7 +22267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16921
-      }
+      },
+      "displayid": "1022"
     },
     {
       "id": 12797,
@@ -21860,7 +22288,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16927
-      }
+      },
+      "displayid": "23274"
     },
     {
       "id": 12798,
@@ -21882,7 +22311,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16928
-      }
+      },
+      "displayid": "28504"
     },
     {
       "id": 12976,
@@ -21901,7 +22331,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "8272"
     },
     {
       "id": 12990,
@@ -21920,7 +22351,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "spi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "25470"
     },
     {
       "id": 14597,
@@ -21971,7 +22403,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "armor": 411,
         "block_amount": 7
-      }
+      },
+      "displayid": "26322"
     },
     {
       "id": 15211,
@@ -21988,7 +22421,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_20",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "28567"
     },
     {
       "id": 15224,
@@ -22005,7 +22439,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_hammer_08",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "28318"
     },
     {
       "id": 15335,
@@ -22023,7 +22458,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "28093"
     },
     {
       "id": 15396,
@@ -22041,7 +22477,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "12880"
     },
     {
       "id": 15466,
@@ -22059,7 +22496,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "armor": 545,
         "block_amount": 10
-      }
+      },
+      "displayid": "28269"
     },
     {
       "id": 15695,
@@ -22076,7 +22514,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "armor": 711,
         "block_amount": 15
-      }
+      },
+      "displayid": "26046"
     },
     {
       "id": 15705,
@@ -22095,7 +22534,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "26432"
     },
     {
       "id": 15706,
@@ -22114,7 +22554,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "26433"
     },
     {
       "id": 15782,
@@ -22133,7 +22574,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 18,
         "ranged_ap": 18,
         "armor": 0
-      }
+      },
+      "displayid": "5165"
     },
     {
       "id": 15783,
@@ -22152,7 +22594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 18,
         "ranged_ap": 18,
         "armor": 0
-      }
+      },
+      "displayid": "26464"
     },
     {
       "id": 15800,
@@ -22170,7 +22613,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 0
-      }
+      },
+      "displayid": "26477"
     },
     {
       "id": 15814,
@@ -22190,7 +22634,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16406
-      }
+      },
+      "displayid": "20035"
     },
     {
       "id": 15862,
@@ -22209,7 +22654,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 20,
         "ranged_ap": 20,
         "armor": 0
-      }
+      },
+      "displayid": "26545"
     },
     {
       "id": 15865,
@@ -22225,7 +22671,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "armor": 728,
         "block_amount": 16
-      }
+      },
+      "displayid": "26548"
     },
     {
       "id": 15888,
@@ -22276,7 +22723,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31997"
     },
     {
       "id": 16660,
@@ -22294,7 +22742,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 3,
         "armor": 528,
         "block_amount": 10
-      }
+      },
+      "displayid": "27517"
     },
     {
       "id": 16788,
@@ -22310,7 +22759,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "armor": 678,
         "block_amount": 14
-      }
+      },
+      "displayid": "18456"
     },
     {
       "id": 16890,
@@ -22329,7 +22779,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "28593"
     },
     {
       "id": 16891,
@@ -22347,7 +22798,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28608"
     },
     {
       "id": 16998,
@@ -22364,7 +22816,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "armor": 2121,
         "block_amount": 39
-      }
+      },
+      "displayid": "28829"
     },
     {
       "id": 17002,
@@ -22384,7 +22837,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 17511
-      }
+      },
+      "displayid": "28834"
     },
     {
       "id": 17015,
@@ -22412,7 +22866,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "24452"
     },
     {
       "id": 17016,
@@ -22440,7 +22895,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "23276"
     },
     {
       "id": 17046,
@@ -22459,7 +22915,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "28873"
     },
     {
       "id": 17142,
@@ -22477,7 +22934,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 210,
         "armor": 0
-      }
+      },
+      "displayid": "29097"
     },
     {
       "id": 17704,
@@ -22498,7 +22956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16407
-      }
+      },
+      "displayid": "29759"
     },
     {
       "id": 18168,
@@ -22517,7 +22976,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 22619
-      }
+      },
+      "displayid": "20987"
     },
     {
       "id": 18582,
@@ -22549,7 +23009,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 0
       },
-      "useSpell": 22989
+      "useSpell": 22989,
+      "displayid": "30936"
     },
     {
       "id": 18583,
@@ -22580,7 +23041,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 0
       },
-      "useSpell": 22990
+      "useSpell": 22990,
+      "displayid": "30934"
     },
     {
       "id": 18584,
@@ -22610,7 +23072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           50
         ],
         "armor": 0
-      }
+      },
+      "displayid": "30935"
     },
     {
       "id": 18825,
@@ -22630,7 +23093,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16782
-      }
+      },
+      "displayid": "31733"
     },
     {
       "id": 18826,
@@ -22650,7 +23114,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16782
-      }
+      },
+      "displayid": "31746"
     },
     {
       "id": 18827,
@@ -22671,7 +23136,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31956"
     },
     {
       "id": 18828,
@@ -22692,7 +23158,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31957"
     },
     {
       "id": 18838,
@@ -22713,7 +23180,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31379"
     },
     {
       "id": 18840,
@@ -22734,7 +23202,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31381"
     },
     {
       "id": 18847,
@@ -22755,7 +23224,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "743532"
     },
     {
       "id": 18848,
@@ -22776,7 +23246,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "743533"
     },
     {
       "id": 18865,
@@ -22797,7 +23268,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31955"
     },
     {
       "id": 18866,
@@ -22818,7 +23290,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31751"
     },
     {
       "id": 18957,
@@ -22836,7 +23309,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "31400"
     },
     {
       "id": 19019,
@@ -22869,7 +23343,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 21992,
         "ppm": 6
-      }
+      },
+      "displayid": "30606"
     },
     {
       "id": 19040,
@@ -22888,7 +23363,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "31526"
     },
     {
       "id": 19099,
@@ -22909,7 +23385,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18398
-      }
+      },
+      "displayid": "31605"
     },
     {
       "id": 19100,
@@ -22930,7 +23407,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 23592
-      }
+      },
+      "displayid": "31606"
     },
     {
       "id": 19103,
@@ -22948,7 +23426,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 0
-      }
+      },
+      "displayid": "31611"
     },
     {
       "id": 19104,
@@ -22966,7 +23445,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 0
-      }
+      },
+      "displayid": "23948"
     },
     {
       "id": 19166,
@@ -22986,7 +23466,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 23604
-      }
+      },
+      "displayid": "20291"
     },
     {
       "id": 19168,
@@ -23005,7 +23486,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "parry_rate": 15,
         "armor": 0
-      }
+      },
+      "displayid": "31692"
     },
     {
       "id": 19170,
@@ -23037,7 +23519,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 18211,
         "ppm": 0.4
-      }
+      },
+      "displayid": "31822"
     },
     {
       "id": 19313,
@@ -23087,7 +23570,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "block_amount": 71,
         "armor": 2468
-      }
+      },
+      "displayid": "31815"
     },
     {
       "id": 19324,
@@ -23107,7 +23591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1290950
-      }
+      },
+      "displayid": "31820"
     },
     {
       "id": 19427,
@@ -23211,7 +23696,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19543,
@@ -23230,7 +23716,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19544,
@@ -23249,7 +23736,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19545,
@@ -23268,7 +23756,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 19546,
@@ -23287,7 +23776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19547,
@@ -23306,7 +23796,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19548,
@@ -23325,7 +23816,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19549,
@@ -23344,7 +23836,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 19550,
@@ -23363,7 +23856,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19551,
@@ -23382,7 +23876,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19552,
@@ -23401,7 +23896,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19553,
@@ -23420,7 +23916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 19554,
@@ -23439,7 +23936,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19555,
@@ -23458,7 +23956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19556,
@@ -23477,7 +23976,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19557,
@@ -23496,7 +23996,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 19622,
@@ -23548,7 +24049,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "743537"
     },
     {
       "id": 20317,
@@ -23586,7 +24088,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "32076"
     },
     {
       "id": 20440,
@@ -23605,7 +24108,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "7526"
     },
     {
       "id": 20441,
@@ -23624,7 +24128,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 20443,
@@ -23643,7 +24148,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "2711"
     },
     {
       "id": 20502,
@@ -23660,7 +24166,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 1803,
         "block_amount": 31
-      }
+      },
+      "displayid": "23835"
     },
     {
       "id": 21126,
@@ -23680,7 +24187,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 38,
         "ranged_ap": 38,
         "armor": 0
-      }
+      },
+      "displayid": "34512"
     },
     {
       "id": 21242,
@@ -23702,7 +24210,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 14,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34178"
     },
     {
       "id": 21244,
@@ -23724,7 +24233,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "34142"
     },
     {
       "id": 21268,
@@ -23744,7 +24254,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "defense": 8,
         "armor": 70
-      }
+      },
+      "displayid": "33830"
     },
     {
       "id": 21269,
@@ -23762,7 +24273,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 8,
         "block_rate": 15,
         "armor": 2964
-      }
+      },
+      "displayid": "34137"
     },
     {
       "id": 21392,
@@ -23783,7 +24295,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "defense": 4,
         "armor": 0
-      }
+      },
+      "displayid": "33727"
     },
     {
       "id": 21520,
@@ -23803,7 +24316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31866"
     },
     {
       "id": 21522,
@@ -23823,7 +24337,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "33992"
     },
     {
       "id": 21610,
@@ -23850,7 +24365,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 3035,
         "block_amount": 57
-      }
+      },
+      "displayid": "34206"
     },
     {
       "id": 21650,
@@ -23871,7 +24387,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 20,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34264"
     },
     {
       "id": 21782,
@@ -23907,7 +24424,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 27559
-      }
+      },
+      "displayid": "34533"
     },
     {
       "id": 22377,
@@ -23926,7 +24444,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "20598"
     },
     {
       "id": 22378,
@@ -23946,7 +24465,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 26,
         "ranged_ap": 26,
         "armor": 0
-      }
+      },
+      "displayid": "34850"
     },
     {
       "id": 22384,
@@ -23965,7 +24485,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "36969"
     },
     {
       "id": 22805,
@@ -23985,7 +24506,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "35247"
     },
     {
       "id": 23454,
@@ -24004,7 +24526,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "36064"
     },
     {
       "id": 23456,
@@ -24025,7 +24548,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36066"
     },
     {
       "id": 23464,
@@ -24044,7 +24568,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "36078"
     },
     {
       "id": 23467,
@@ -24065,7 +24590,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36081"
     },
     {
       "id": 24071,
@@ -24082,7 +24608,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_12",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "2704"
     },
     {
       "id": 213105,
@@ -24100,7 +24627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 0
       },
-      "useSpell": 434488
+      "useSpell": 434488,
+      "displayid": "674179"
     },
     {
       "id": 215235,
@@ -24119,7 +24647,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 22,
         "armor": 0
-      }
+      },
+      "displayid": "18409"
     },
     {
       "id": 236760,
@@ -24138,7 +24667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "26432"
     },
     {
       "id": 239618,
@@ -24157,7 +24687,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 28,
         "ranged_ap": 28,
         "armor": 0
-      }
+      },
+      "displayid": "18254"
     },
     {
       "id": 241089,
@@ -24175,7 +24706,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "699444"
     },
     {
       "id": 246265,
@@ -24190,7 +24722,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 311,
         "block_amount": 5
-      }
+      },
+      "displayid": "5422"
     },
     {
       "id": 248007,
@@ -24208,7 +24741,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "6475"
     },
     {
       "id": 250602,
@@ -24227,7 +24761,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "3007"
     },
     {
       "id": 250604,
@@ -24244,7 +24779,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "21715"
     },
     {
       "id": 250607,
@@ -24262,7 +24798,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 14,
         "ranged_ap": 14,
         "armor": 0
-      }
+      },
+      "displayid": "20354"
     },
     {
       "id": 250609,
@@ -24281,7 +24818,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "743520"
     },
     {
       "id": 250611,
@@ -24298,7 +24836,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "2733"
     },
     {
       "id": 250614,
@@ -24317,7 +24856,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 0
-      }
+      },
+      "displayid": "23742"
     },
     {
       "id": 250616,
@@ -24336,7 +24876,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 0
-      }
+      },
+      "displayid": "2706"
     },
     {
       "id": 250618,
@@ -24355,7 +24896,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "743527"
     },
     {
       "id": 254779,
@@ -24373,7 +24915,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "715516"
     },
     {
       "id": 257255,
@@ -24388,7 +24931,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "armor": 126,
         "block_amount": 3
-      }
+      },
+      "displayid": "736748"
     },
     {
       "id": 257346,
@@ -24405,7 +24949,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "736428"
     },
     {
       "id": 260172,
@@ -24423,7 +24968,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "717929"
     },
     {
       "id": 260180,
@@ -24441,7 +24987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "717976"
     },
     {
       "id": 260210,
@@ -24458,7 +25005,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 4,
         "armor": 1930,
         "block_amount": 35
-      }
+      },
+      "displayid": "718114"
     },
     {
       "id": 263305,
@@ -24473,7 +25021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "armor": 177,
         "block_amount": 4
-      }
+      },
+      "displayid": "736673"
     },
     {
       "id": 263313,
@@ -24491,7 +25040,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "7494"
     },
     {
       "id": 263314,
@@ -24509,7 +25059,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8565"
     },
     {
       "id": 263329,
@@ -24525,7 +25076,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 12.94,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "736433"
     },
     {
       "id": 263431,
@@ -24540,7 +25092,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "armor": 177,
         "block_amount": 4
-      }
+      },
+      "displayid": "736750"
     },
     {
       "id": 263432,
@@ -24558,7 +25111,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "736428"
     },
     {
       "id": 270048,
@@ -24577,7 +25131,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "5212"
     },
     {
       "id": 270065,
@@ -24593,7 +25148,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "armor": 711,
         "block_amount": 15
-      }
+      },
+      "displayid": "4403"
     },
     {
       "id": 270092,
@@ -24612,7 +25168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 5,
         "armor": 0
-      }
+      },
+      "displayid": "5144"
     },
     {
       "id": 270270,
@@ -24627,7 +25184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 711,
         "block_amount": 15
-      }
+      },
+      "displayid": "733809"
     },
     {
       "id": 271664,
@@ -24647,7 +25205,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "19271"
     },
     {
       "id": 271796,
@@ -24666,7 +25225,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "23798"
     },
     {
       "id": 271798,
@@ -24682,7 +25242,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "armor": 1257,
         "block_amount": 19
-      }
+      },
+      "displayid": "736098"
     },
     {
       "id": 271802,
@@ -24701,7 +25262,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "28318"
     },
     {
       "id": 272180,
@@ -24719,7 +25281,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "736644"
     },
     {
       "id": 272452,
@@ -24740,7 +25303,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31997"
     },
     {
       "id": 272591,
@@ -24760,7 +25324,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16782
-      }
+      },
+      "displayid": "31746"
     },
     {
       "id": 272592,
@@ -24781,7 +25346,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31957"
     },
     {
       "id": 272596,
@@ -24802,7 +25368,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31381"
     },
     {
       "id": 272598,
@@ -24823,7 +25390,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "743533"
     },
     {
       "id": 272600,
@@ -24844,7 +25412,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31751"
     },
     {
       "id": 272684,
@@ -24865,7 +25434,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36081"
     },
     {
       "id": 272693,
@@ -24886,7 +25456,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31966"
     },
     {
       "id": 272838,
@@ -24906,7 +25477,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16782
-      }
+      },
+      "displayid": "31733"
     },
     {
       "id": 272839,
@@ -24927,7 +25499,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31956"
     },
     {
       "id": 272843,
@@ -24948,7 +25521,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31379"
     },
     {
       "id": 272845,
@@ -24969,7 +25543,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "743532"
     },
     {
       "id": 272847,
@@ -24990,7 +25565,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31955"
     },
     {
       "id": 272859,
@@ -25011,7 +25587,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 24,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "36066"
     },
     {
       "id": 274383,
@@ -25031,7 +25608,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "739800"
     },
     {
       "id": 274418,
@@ -25046,7 +25624,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "armor": 2076,
         "block_amount": 36
-      }
+      },
+      "displayid": "738044"
     },
     {
       "id": 274753,
@@ -25065,7 +25644,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "int": -1,
         "armor": 0
-      }
+      },
+      "displayid": "22135"
     },
     {
       "id": 274920,
@@ -25085,7 +25665,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "739775"
     },
     {
       "id": 274928,
@@ -25104,7 +25685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "defense": 2,
         "armor": 0
-      }
+      },
+      "displayid": "739813"
     },
     {
       "id": 275049,
@@ -25121,7 +25703,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "armor": 1436,
         "block_amount": 21
-      }
+      },
+      "displayid": "18700"
     },
     {
       "id": 275051,
@@ -25138,7 +25721,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "armor": 1436,
         "block_amount": 21
-      }
+      },
+      "displayid": "740275"
     },
     {
       "id": 275649,
@@ -25155,7 +25739,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "armor": 1805,
         "block_amount": 33
-      }
+      },
+      "displayid": "741448"
     },
     {
       "id": 275700,
@@ -25174,7 +25759,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "674397"
     },
     {
       "id": 276204,
@@ -25198,7 +25784,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14
         ],
         "armor": 1580
-      }
+      },
+      "displayid": "741398"
     },
     {
       "id": 276334,
@@ -25214,7 +25801,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "armor": 1833,
         "block_amount": 34
-      }
+      },
+      "displayid": "741467"
     },
     {
       "id": 276338,
@@ -25233,7 +25821,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "739835"
     },
     {
       "id": 276754,
@@ -25259,7 +25848,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 1898,
         "block_amount": 34
-      }
+      },
+      "displayid": "739865"
     },
     {
       "id": 276889,
@@ -25275,7 +25865,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "armor": 478,
         "block_amount": 9
-      }
+      },
+      "displayid": "742823"
     },
     {
       "id": 277243,
@@ -25293,7 +25884,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "spi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "3297"
     },
     {
       "id": 277244,
@@ -25311,7 +25903,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "spi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "743529"
     },
     {
       "id": 277245,
@@ -25329,7 +25922,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 9,
         "armor": 0
-      }
+      },
+      "displayid": "35129"
     },
     {
       "id": 277257,
@@ -25343,7 +25937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 718,
         "block_amount": 13
-      }
+      },
+      "displayid": "18733"
     },
     {
       "id": 277258,
@@ -25359,7 +25954,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "armor": 1739,
         "block_amount": 29
-      }
+      },
+      "displayid": "20833"
     },
     {
       "id": 277515,
@@ -25377,7 +25973,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20451"
     },
     {
       "id": 277555,
@@ -25391,7 +25988,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 126,
         "block_amount": 3
-      }
+      },
+      "displayid": "736750"
     },
     {
       "id": 277979,
@@ -25409,7 +26007,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "7463"
     },
     {
       "id": 277988,
@@ -25427,7 +26026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20388"
     },
     {
       "id": 278423,
@@ -25444,7 +26044,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pick_02",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1379"
     },
     {
       "id": 278468,
@@ -25471,7 +26072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 2468,
         "block_amount": 44
-      }
+      },
+      "displayid": "31733"
     },
     {
       "id": 278469,
@@ -25498,7 +26100,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 2468,
         "block_amount": 44
-      }
+      },
+      "displayid": "31746"
     },
     {
       "id": 279259,
@@ -25518,7 +26121,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "744936"
     },
     {
       "id": 279261,
@@ -25537,7 +26141,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "743971"
     },
     {
       "id": 279262,
@@ -25563,7 +26168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         ],
         "armor": 2468,
         "block_amount": 44
-      }
+      },
+      "displayid": "743963"
     },
     {
       "id": 279392,
@@ -25580,7 +26186,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_24",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "744884"
     },
     {
       "id": 279393,
@@ -25597,7 +26204,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_24",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "744824"
     },
     {
       "id": 280696,
@@ -25614,7 +26222,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "armor": 1078,
         "block_amount": 20
-      }
+      },
+      "displayid": "741451"
     },
     {
       "id": 281020,
@@ -25628,7 +26237,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 126,
         "block_amount": 3
-      }
+      },
+      "displayid": "736673"
     },
     {
       "id": 281254,
@@ -25646,7 +26256,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "spi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1596"
     },
     {
       "id": 281257,
@@ -25663,7 +26274,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "3175"
     },
     {
       "id": 281293,
@@ -25680,7 +26292,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "28458"
     },
     {
       "id": 281307,
@@ -25696,7 +26309,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "armor": 595,
         "block_amount": 12
-      }
+      },
+      "displayid": "18493"
     },
     {
       "id": 281314,
@@ -25714,7 +26328,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20396"
     },
     {
       "id": 281587,
@@ -25733,7 +26348,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20094"
     },
     {
       "id": 281637,
@@ -25749,7 +26365,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 10,
         "armor": 1994,
         "block_amount": 36
-      }
+      },
+      "displayid": "20909"
     },
     {
       "id": 281720,
@@ -25765,7 +26382,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 3.63,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "8483"
     },
     {
       "id": 281722,
@@ -25781,7 +26399,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 2.8,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "22136"
     },
     {
       "id": 281723,
@@ -25797,7 +26416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 3.63,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "5194"
     },
     {
       "id": 281728,
@@ -25813,7 +26433,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 3.63,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1542"
     },
     {
       "id": 281731,
@@ -25827,7 +26448,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 16,
         "block_amount": 1
-      }
+      },
+      "displayid": "1680"
     },
     {
       "id": 282284,
@@ -25844,7 +26466,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "22142"
     }
   ],
   "back": [
@@ -25861,7 +26484,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 13
-      }
+      },
+      "displayid": "23106"
     },
     {
       "id": 2308,
@@ -25876,7 +26500,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 13
-      }
+      },
+      "displayid": "23028"
     },
     {
       "id": 2310,
@@ -25891,7 +26516,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 12
-      }
+      },
+      "displayid": "23010"
     },
     {
       "id": 2316,
@@ -25907,7 +26533,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 2,
         "armor": 17
-      }
+      },
+      "displayid": "23021"
     },
     {
       "id": 2580,
@@ -25921,7 +26548,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_07",
       "stats": {
         "armor": 11
-      }
+      },
+      "displayid": "23105"
     },
     {
       "id": 2584,
@@ -25936,7 +26564,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 14
-      }
+      },
+      "displayid": "23144"
     },
     {
       "id": 2805,
@@ -25952,7 +26581,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 3,
         "armor": 22
-      }
+      },
+      "displayid": "23084"
     },
     {
       "id": 2902,
@@ -25968,7 +26598,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "armor": 21
-      }
+      },
+      "displayid": "23099"
     },
     {
       "id": 2953,
@@ -25983,7 +26614,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 22
-      }
+      },
+      "displayid": "23077"
     },
     {
       "id": 3449,
@@ -25997,7 +26629,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_13",
       "stats": {
         "armor": 13
-      }
+      },
+      "displayid": "23115"
     },
     {
       "id": 3511,
@@ -26012,7 +26645,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 13
-      }
+      },
+      "displayid": "23020"
     },
     {
       "id": 3561,
@@ -26027,7 +26661,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 19
-      }
+      },
+      "displayid": "23101"
     },
     {
       "id": 3582,
@@ -26042,7 +26677,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 15
-      }
+      },
+      "displayid": "23085"
     },
     {
       "id": 3719,
@@ -26057,7 +26693,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 21
-      }
+      },
+      "displayid": "23040"
     },
     {
       "id": 3749,
@@ -26073,7 +26710,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 5,
         "armor": 21
-      }
+      },
+      "displayid": "23100"
     },
     {
       "id": 4113,
@@ -26089,7 +26727,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 9,
         "armor": 29
-      }
+      },
+      "displayid": "23119"
     },
     {
       "id": 4114,
@@ -26105,7 +26744,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 7,
         "armor": 27
-      }
+      },
+      "displayid": "15110"
     },
     {
       "id": 4311,
@@ -26120,7 +26760,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 17
-      }
+      },
+      "displayid": "23093"
     },
     {
       "id": 4326,
@@ -26135,7 +26776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 24
-      }
+      },
+      "displayid": "15076"
     },
     {
       "id": 4327,
@@ -26160,7 +26802,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 29
-      }
+      },
+      "displayid": "15063"
     },
     {
       "id": 4504,
@@ -26176,7 +26819,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 6,
         "armor": 21
-      }
+      },
+      "displayid": "15066"
     },
     {
       "id": 4790,
@@ -26200,7 +26844,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 19
-      }
+      },
+      "displayid": "15165"
     },
     {
       "id": 4792,
@@ -26215,7 +26860,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 18
-      }
+      },
+      "displayid": "23131"
     },
     {
       "id": 4793,
@@ -26231,7 +26877,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 4,
         "armor": 18
-      }
+      },
+      "displayid": "15247"
     },
     {
       "id": 4797,
@@ -26255,7 +26902,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 19
-      }
+      },
+      "displayid": "15042"
     },
     {
       "id": 4798,
@@ -26271,7 +26919,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "armor": 19
-      }
+      },
+      "displayid": "15066"
     },
     {
       "id": 4799,
@@ -26286,7 +26935,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 18
-      }
+      },
+      "displayid": "23087"
     },
     {
       "id": 5314,
@@ -26301,7 +26951,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 16
-      }
+      },
+      "displayid": "23012"
     },
     {
       "id": 5343,
@@ -26316,7 +26967,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 15
-      }
+      },
+      "displayid": "23088"
     },
     {
       "id": 5542,
@@ -26331,7 +26983,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 16
-      }
+      },
+      "displayid": "23131"
     },
     {
       "id": 5610,
@@ -26346,7 +26999,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 13
-      }
+      },
+      "displayid": "23115"
     },
     {
       "id": 5965,
@@ -26361,7 +27015,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 24
-      }
+      },
+      "displayid": "23033"
     },
     {
       "id": 6466,
@@ -26377,7 +27032,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 15
-      }
+      },
+      "displayid": "23010"
     },
     {
       "id": 6667,
@@ -26393,7 +27049,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 2,
         "armor": 20
-      }
+      },
+      "displayid": "23110"
     },
     {
       "id": 6745,
@@ -26409,7 +27066,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 2,
         "armor": 22
-      }
+      },
+      "displayid": "23047"
     },
     {
       "id": 6789,
@@ -26425,7 +27083,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 2,
         "armor": 27
-      }
+      },
+      "displayid": "23096"
     },
     {
       "id": 6832,
@@ -26440,7 +27099,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 13,
         "armor": 30
-      }
+      },
+      "displayid": "23097"
     },
     {
       "id": 7053,
@@ -26455,7 +27115,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "armor": 23
-      }
+      },
+      "displayid": "23092"
     },
     {
       "id": 7056,
@@ -26480,7 +27141,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 23
-      }
+      },
+      "displayid": "15102"
     },
     {
       "id": 7283,
@@ -26494,7 +27156,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_monsterscales_03",
       "stats": {
         "armor": 16
-      }
+      },
+      "displayid": "23010"
     },
     {
       "id": 7377,
@@ -26508,7 +27171,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_04",
       "stats": {
         "armor": 23
-      }
+      },
+      "displayid": "23030"
     },
     {
       "id": 7739,
@@ -26523,7 +27187,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "armor": 15
-      }
+      },
+      "displayid": "15032"
     },
     {
       "id": 8195,
@@ -26539,7 +27204,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "sta": 3,
         "armor": 30
-      }
+      },
+      "displayid": "23019"
     },
     {
       "id": 8215,
@@ -26553,7 +27219,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_03",
       "stats": {
         "armor": 32
-      }
+      },
+      "displayid": "23057"
     },
     {
       "id": 8216,
@@ -26568,7 +27235,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "armor": 31
-      }
+      },
+      "displayid": "24297"
     },
     {
       "id": 9635,
@@ -26584,7 +27252,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 1,
         "armor": 29
-      }
+      },
+      "displayid": "14851"
     },
     {
       "id": 9648,
@@ -26600,7 +27269,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 3,
         "armor": 31
-      }
+      },
+      "displayid": "28097"
     },
     {
       "id": 9660,
@@ -26615,7 +27285,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 10,
         "armor": 28
-      }
+      },
+      "displayid": "28299"
     },
     {
       "id": 9699,
@@ -26631,7 +27302,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 6,
         "armor": 22
-      }
+      },
+      "displayid": "28326"
     },
     {
       "id": 9703,
@@ -26647,7 +27319,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 9,
         "armor": 28
-      }
+      },
+      "displayid": "28297"
     },
     {
       "id": 10249,
@@ -26661,7 +27334,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_20",
       "stats": {
         "armor": 39
-      }
+      },
+      "displayid": "26126"
     },
     {
       "id": 10518,
@@ -26678,7 +27352,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 29
       },
       "useSpell": 12438,
-      "cooldown": 1800000
+      "cooldown": 1800000,
+      "displayid": "23129"
     },
     {
       "id": 10638,
@@ -26693,7 +27368,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 13
-      }
+      },
+      "displayid": "28209"
     },
     {
       "id": 10821,
@@ -26708,7 +27384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 13
-      }
+      },
+      "displayid": "28298"
     },
     {
       "id": 11858,
@@ -26725,7 +27402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 29
-      }
+      },
+      "displayid": "23553"
     },
     {
       "id": 11873,
@@ -26741,7 +27419,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 3,
         "armor": 36
-      }
+      },
+      "displayid": "28325"
     },
     {
       "id": 12253,
@@ -26756,7 +27435,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 26
-      }
+      },
+      "displayid": "28690"
     },
     {
       "id": 12254,
@@ -26771,7 +27451,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 28
-      }
+      },
+      "displayid": "23033"
     },
     {
       "id": 13860,
@@ -26786,7 +27467,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 34
-      }
+      },
+      "displayid": "25232"
     },
     {
       "id": 14044,
@@ -26801,7 +27483,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 35
-      }
+      },
+      "displayid": "23422"
     },
     {
       "id": 14103,
@@ -26825,7 +27508,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 35
-      }
+      },
+      "displayid": "24928"
     },
     {
       "id": 14134,
@@ -26851,7 +27535,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 39
       },
       "useSpell": 18364,
-      "cooldown": 120000
+      "cooldown": 120000,
+      "displayid": "24928"
     },
     {
       "id": 15138,
@@ -26876,7 +27561,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 42
-      }
+      },
+      "displayid": "24174"
     },
     {
       "id": 15468,
@@ -26891,7 +27577,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 21
-      }
+      },
+      "displayid": "28303"
     },
     {
       "id": 15703,
@@ -26907,7 +27594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 12,
         "armor": 35
-      }
+      },
+      "displayid": "26431"
     },
     {
       "id": 15789,
@@ -26923,7 +27611,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 7,
         "armor": 36
-      }
+      },
+      "displayid": "26468"
     },
     {
       "id": 15804,
@@ -26941,7 +27630,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 6,
         "armor": 36
-      }
+      },
+      "displayid": "25958"
     },
     {
       "id": 15815,
@@ -26965,7 +27655,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15
         ],
         "armor": 38
-      }
+      },
+      "displayid": "23042"
     },
     {
       "id": 16315,
@@ -26984,7 +27675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 4,
         "armor": 23
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 16337,
@@ -27003,7 +27695,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 8,
         "armor": 42
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 16341,
@@ -27018,7 +27711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 14,
         "armor": 95
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 16342,
@@ -27033,7 +27727,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 17,
         "armor": 114
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 16658,
@@ -27050,7 +27745,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 22
-      }
+      },
+      "displayid": "25910"
     },
     {
       "id": 16661,
@@ -27065,7 +27761,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 20
-      }
+      },
+      "displayid": "27521"
     },
     {
       "id": 16990,
@@ -27081,7 +27778,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 3,
         "armor": 20
-      }
+      },
+      "displayid": "28775"
     },
     {
       "id": 17523,
@@ -27106,7 +27804,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 37
-      }
+      },
+      "displayid": "29630"
     },
     {
       "id": 18413,
@@ -27121,7 +27820,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "defense": 5,
         "armor": 213
-      }
+      },
+      "displayid": "30783"
     },
     {
       "id": 18427,
@@ -27136,7 +27836,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 65
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 18440,
@@ -27151,7 +27852,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 65
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 18441,
@@ -27166,7 +27868,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 14,
         "armor": 95
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 18461,
@@ -27181,7 +27884,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 17,
         "armor": 114
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 18509,
@@ -27207,7 +27911,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 47
-      }
+      },
+      "displayid": "28299"
     },
     {
       "id": 18510,
@@ -27233,7 +27938,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14
         ],
         "armor": 47
-      }
+      },
+      "displayid": "29720"
     },
     {
       "id": 18511,
@@ -27250,7 +27956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "dodge_rate": 12,
         "armor": 47
-      }
+      },
+      "displayid": "30851"
     },
     {
       "id": 19083,
@@ -27277,7 +27984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 42
-      }
+      },
+      "displayid": "26468"
     },
     {
       "id": 19084,
@@ -27304,7 +28012,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 42
-      }
+      },
+      "displayid": "27197"
     },
     {
       "id": 19085,
@@ -27329,7 +28038,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 42
-      }
+      },
+      "displayid": "31592"
     },
     {
       "id": 19086,
@@ -27354,7 +28064,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 42
-      }
+      },
+      "displayid": "15042"
     },
     {
       "id": 19121,
@@ -27370,7 +28081,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 9,
         "armor": 36
-      }
+      },
+      "displayid": "31632"
     },
     {
       "id": 19526,
@@ -27396,7 +28108,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 44
-      }
+      },
+      "displayid": "32066"
     },
     {
       "id": 19527,
@@ -27422,7 +28135,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 37
-      }
+      },
+      "displayid": "32069"
     },
     {
       "id": 19528,
@@ -27448,7 +28162,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 31
-      }
+      },
+      "displayid": "27974"
     },
     {
       "id": 19529,
@@ -27474,7 +28189,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 24
-      }
+      },
+      "displayid": "23071"
     },
     {
       "id": 19530,
@@ -27500,7 +28216,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 44
-      }
+      },
+      "displayid": "32067"
     },
     {
       "id": 19531,
@@ -27526,7 +28243,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 37
-      }
+      },
+      "displayid": "23065"
     },
     {
       "id": 19532,
@@ -27552,7 +28270,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 31
-      }
+      },
+      "displayid": "27960"
     },
     {
       "id": 19533,
@@ -27578,7 +28297,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 24
-      }
+      },
+      "displayid": "23055"
     },
     {
       "id": 20068,
@@ -27596,7 +28316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 34,
         "ranged_ap": 34,
         "armor": 50
-      }
+      },
+      "displayid": "23140"
     },
     {
       "id": 20073,
@@ -27614,7 +28335,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 34,
         "ranged_ap": 34,
         "armor": 50
-      }
+      },
+      "displayid": "23140"
     },
     {
       "id": 20218,
@@ -27630,7 +28352,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 8,
         "armor": 41
-      }
+      },
+      "displayid": "32726"
     },
     {
       "id": 20219,
@@ -27646,7 +28369,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 10,
         "armor": 41
-      }
+      },
+      "displayid": "32727"
     },
     {
       "id": 20283,
@@ -27719,7 +28443,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 20
-      }
+      },
+      "displayid": "23071"
     },
     {
       "id": 20428,
@@ -27745,7 +28470,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 20
-      }
+      },
+      "displayid": "23055"
     },
     {
       "id": 21187,
@@ -27761,7 +28487,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "hit_rate": 10,
         "armor": 43
-      }
+      },
+      "displayid": "33531"
     },
     {
       "id": 21394,
@@ -27779,7 +28506,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "hit_rate": 10,
         "armor": 51
-      }
+      },
+      "displayid": "24013"
     },
     {
       "id": 21583,
@@ -27796,7 +28524,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 12,
         "armor": 66
-      }
+      },
+      "displayid": "34179"
     },
     {
       "id": 21710,
@@ -27813,7 +28542,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 15,
         "armor": 66
-      }
+      },
+      "displayid": "34337"
     },
     {
       "id": 22230,
@@ -27828,7 +28558,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 77
-      }
+      },
+      "displayid": "23057"
     },
     {
       "id": 22658,
@@ -27853,7 +28584,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 60
-      }
+      },
+      "displayid": "23125"
     },
     {
       "id": 22660,
@@ -27878,7 +28610,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 49
-      }
+      },
+      "displayid": "27752"
     },
     {
       "id": 215112,
@@ -27903,7 +28636,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 29
-      }
+      },
+      "displayid": "15063"
     },
     {
       "id": 257943,
@@ -27917,7 +28651,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 7
-      }
+      },
+      "displayid": "736747"
     },
     {
       "id": 260168,
@@ -27933,7 +28668,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 9,
         "armor": 33
-      }
+      },
+      "displayid": "23027"
     },
     {
       "id": 271716,
@@ -27950,7 +28686,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "int": 7,
         "armor": 24
-      }
+      },
+      "displayid": "737172"
     },
     {
       "id": 271719,
@@ -27968,7 +28705,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 5,
         "armor": 24
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 271720,
@@ -27985,7 +28723,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 23
-      }
+      },
+      "displayid": "735671"
     },
     {
       "id": 271810,
@@ -28001,7 +28740,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 11,
         "armor": 31
-      }
+      },
+      "displayid": "25948"
     },
     {
       "id": 272413,
@@ -28026,7 +28766,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 45
-      }
+      },
+      "displayid": "33531"
     },
     {
       "id": 272451,
@@ -28041,7 +28782,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 14,
         "armor": 95
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 272578,
@@ -28060,7 +28802,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 8,
         "armor": 42
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 272589,
@@ -28075,7 +28818,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "armor": 109
-      }
+      },
+      "displayid": "27088"
     },
     {
       "id": 272698,
@@ -28094,7 +28838,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 8,
         "armor": 42
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 272699,
@@ -28109,7 +28854,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "armor": 109
-      }
+      },
+      "displayid": "27087"
     },
     {
       "id": 273654,
@@ -28124,7 +28870,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 63
-      }
+      },
+      "displayid": "737433"
     },
     {
       "id": 274035,
@@ -28141,7 +28888,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 8,
         "armor": 36
-      }
+      },
+      "displayid": "23106"
     },
     {
       "id": 274740,
@@ -28156,7 +28904,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 4,
         "armor": 19
-      }
+      },
+      "displayid": "23077"
     },
     {
       "id": 274752,
@@ -28170,7 +28919,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "armor": 29
-      }
+      },
+      "displayid": "15110"
     },
     {
       "id": 275046,
@@ -28195,7 +28945,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 30
-      }
+      },
+      "displayid": "23048"
     },
     {
       "id": 275050,
@@ -28220,7 +28971,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 30
-      }
+      },
+      "displayid": "23048"
     },
     {
       "id": 275668,
@@ -28236,7 +28988,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "int": 10,
         "armor": 38
-      }
+      },
+      "displayid": "26951"
     },
     {
       "id": 275711,
@@ -28271,7 +29024,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 43
-      }
+      },
+      "displayid": "32371"
     },
     {
       "id": 275833,
@@ -28286,7 +29040,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 37
-      }
+      },
+      "displayid": "26118"
     },
     {
       "id": 276901,
@@ -28301,7 +29056,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "spi": 6,
         "armor": 35
-      }
+      },
+      "displayid": "27220"
     },
     {
       "id": 277205,
@@ -28316,7 +29072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 25
-      }
+      },
+      "displayid": "15068"
     },
     {
       "id": 277206,
@@ -28331,7 +29088,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 5,
         "armor": 26
-      }
+      },
+      "displayid": "15181"
     },
     {
       "id": 277207,
@@ -28345,7 +29103,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 26
-      }
+      },
+      "displayid": "22994"
     },
     {
       "id": 277289,
@@ -28360,7 +29119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 5,
         "armor": 20
-      }
+      },
+      "displayid": "15061"
     },
     {
       "id": 279269,
@@ -28376,7 +29136,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "crit_rate": 14,
         "armor": 50
-      }
+      },
+      "displayid": "744065"
     },
     {
       "id": 281250,
@@ -28390,7 +29151,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 10
-      }
+      },
+      "displayid": "15033"
     },
     {
       "id": 281289,
@@ -28404,7 +29166,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 12
-      }
+      },
+      "displayid": "23051"
     },
     {
       "id": 281305,
@@ -28419,7 +29182,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 21
-      }
+      },
+      "displayid": "14794"
     },
     {
       "id": 281319,
@@ -28433,7 +29197,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "armor": 96
-      }
+      },
+      "displayid": "22987"
     },
     {
       "id": 281717,
@@ -28446,7 +29211,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloak",
       "stats": {
         "armor": 1
-      }
+      },
+      "displayid": "747423"
     },
     {
       "id": 286426,
@@ -28473,7 +29239,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           1
         ],
         "armor": 13
-      }
+      },
+      "displayid": "33730"
     },
     {
       "id": 286427,
@@ -28500,7 +29267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           1
         ],
         "armor": 13
-      }
+      },
+      "displayid": "26228"
     }
   ],
   "chest": [
@@ -28518,7 +29286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 8,
         "armor": 182
-      }
+      },
+      "displayid": "12723"
     },
     {
       "id": 1275,
@@ -28534,7 +29303,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 7,
         "armor": 182
-      }
+      },
+      "displayid": "1019"
     },
     {
       "id": 2300,
@@ -28549,7 +29319,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 61
-      }
+      },
+      "displayid": "9502"
     },
     {
       "id": 2311,
@@ -28564,7 +29335,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 64
-      }
+      },
+      "displayid": "6026"
     },
     {
       "id": 2317,
@@ -28579,7 +29351,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 6,
         "armor": 77
-      }
+      },
+      "displayid": "9521"
     },
     {
       "id": 2578,
@@ -28594,7 +29367,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 26
-      }
+      },
+      "displayid": "7811"
     },
     {
       "id": 2582,
@@ -28609,7 +29383,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 30
-      }
+      },
+      "displayid": "10849"
     },
     {
       "id": 2817,
@@ -28624,7 +29399,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 61
-      }
+      },
+      "displayid": "9727"
     },
     {
       "id": 2864,
@@ -28640,7 +29416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 161
-      }
+      },
+      "displayid": "22458"
     },
     {
       "id": 2866,
@@ -28655,7 +29432,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 176
-      }
+      },
+      "displayid": "4407"
     },
     {
       "id": 2869,
@@ -28672,7 +29450,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 4,
         "armor": 185
-      }
+      },
+      "displayid": "4412"
     },
     {
       "id": 2870,
@@ -28688,7 +29467,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 6,
         "armor": 214
-      }
+      },
+      "displayid": "9695"
     },
     {
       "id": 3166,
@@ -28703,7 +29483,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 143
-      }
+      },
+      "displayid": "12965"
     },
     {
       "id": 3431,
@@ -28720,7 +29501,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 5,
         "armor": 85
-      }
+      },
+      "displayid": "10123"
     },
     {
       "id": 3471,
@@ -28735,7 +29517,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 107
-      }
+      },
+      "displayid": "13090"
     },
     {
       "id": 3566,
@@ -28752,7 +29535,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 91
-      }
+      },
+      "displayid": "1797"
     },
     {
       "id": 3585,
@@ -28768,7 +29552,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 6,
         "armor": 80
-      }
+      },
+      "displayid": "3064"
     },
     {
       "id": 3733,
@@ -28784,7 +29569,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 3,
         "armor": 176
-      }
+      },
+      "displayid": "4085"
     },
     {
       "id": 3750,
@@ -28801,7 +29587,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 5,
         "armor": 93
-      }
+      },
+      "displayid": "8732"
     },
     {
       "id": 3752,
@@ -28817,7 +29604,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "spi": 4,
         "armor": 35
-      }
+      },
+      "displayid": "8189"
     },
     {
       "id": 3844,
@@ -28833,7 +29621,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 11,
         "armor": 357
-      }
+      },
+      "displayid": "70731"
     },
     {
       "id": 4119,
@@ -28850,7 +29639,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 16,
         "armor": 117
-      }
+      },
+      "displayid": "4451"
     },
     {
       "id": 4138,
@@ -28866,7 +29656,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "spi": 15,
         "armor": 248
-      }
+      },
+      "displayid": "8638"
     },
     {
       "id": 4243,
@@ -28882,7 +29673,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 3,
         "armor": 72
-      }
+      },
+      "displayid": "9511"
     },
     {
       "id": 4244,
@@ -28897,7 +29689,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 77
-      }
+      },
+      "displayid": "1975"
     },
     {
       "id": 4255,
@@ -28913,7 +29706,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "int": 8,
         "armor": 95
-      }
+      },
+      "displayid": "8359"
     },
     {
       "id": 4256,
@@ -28928,7 +29722,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 101
-      }
+      },
+      "displayid": "8414"
     },
     {
       "id": 4324,
@@ -28943,7 +29738,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "armor": 42
-      }
+      },
+      "displayid": "17128"
     },
     {
       "id": 4455,
@@ -28958,7 +29754,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "armor": 98
-      }
+      },
+      "displayid": "7708"
     },
     {
       "id": 4508,
@@ -28974,7 +29771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 15,
         "armor": 238
-      }
+      },
+      "displayid": "4767"
     },
     {
       "id": 4781,
@@ -28989,7 +29787,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 33
-      }
+      },
+      "displayid": "2577"
     },
     {
       "id": 5316,
@@ -29004,7 +29803,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 85
-      }
+      },
+      "displayid": "10991"
     },
     {
       "id": 5317,
@@ -29020,7 +29820,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 8,
         "armor": 85
-      }
+      },
+      "displayid": "7552"
     },
     {
       "id": 5341,
@@ -29036,7 +29837,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "spi": 3,
         "armor": 69
-      }
+      },
+      "displayid": "7551"
     },
     {
       "id": 5420,
@@ -29051,7 +29853,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 26
-      }
+      },
+      "displayid": "7898"
     },
     {
       "id": 5739,
@@ -29068,7 +29871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 8,
         "armor": 106
-      }
+      },
+      "displayid": "10883"
     },
     {
       "id": 5781,
@@ -29084,7 +29888,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 5,
         "armor": 75
-      }
+      },
+      "displayid": "8908"
     },
     {
       "id": 5782,
@@ -29100,7 +29905,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 8,
         "armor": 99
-      }
+      },
+      "displayid": "22393"
     },
     {
       "id": 5814,
@@ -29116,7 +29922,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "spi": 9,
         "armor": 93
-      }
+      },
+      "displayid": "7857"
     },
     {
       "id": 5957,
@@ -29131,7 +29938,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 54
-      }
+      },
+      "displayid": "2104"
     },
     {
       "id": 6085,
@@ -29147,7 +29955,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 2,
         "armor": 64
-      }
+      },
+      "displayid": "11368"
     },
     {
       "id": 6239,
@@ -29162,7 +29971,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 22
-      }
+      },
+      "displayid": "10706"
     },
     {
       "id": 6240,
@@ -29177,7 +29987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 22
-      }
+      },
+      "displayid": "10843"
     },
     {
       "id": 6502,
@@ -29193,7 +30004,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 1,
         "armor": 173
-      }
+      },
+      "displayid": "12282"
     },
     {
       "id": 6670,
@@ -29209,7 +30021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 2,
         "armor": 88
-      }
+      },
+      "displayid": "8215"
     },
     {
       "id": 6709,
@@ -29224,7 +30037,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 74
-      }
+      },
+      "displayid": "11487"
     },
     {
       "id": 6721,
@@ -29241,7 +30055,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "armor": 179
-      }
+      },
+      "displayid": "4412"
     },
     {
       "id": 6730,
@@ -29256,7 +30071,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 151
-      }
+      },
+      "displayid": "12559"
     },
     {
       "id": 6731,
@@ -29272,7 +30088,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 197
-      }
+      },
+      "displayid": "10441"
     },
     {
       "id": 6773,
@@ -29288,7 +30105,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 14,
         "armor": 238
-      }
+      },
+      "displayid": "12971"
     },
     {
       "id": 6972,
@@ -29307,7 +30125,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "useSpell": 9174,
       "cooldown": 3600000,
-      "category_cooldown": 15000
+      "category_cooldown": 15000,
+      "displayid": "22480"
     },
     {
       "id": 7051,
@@ -29323,7 +30142,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 10,
         "armor": 45
-      }
+      },
+      "displayid": "2471"
     },
     {
       "id": 7058,
@@ -29338,7 +30158,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 48
-      }
+      },
+      "displayid": "13671"
     },
     {
       "id": 7065,
@@ -29353,7 +30174,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "armor": 45
-      }
+      },
+      "displayid": "13684"
     },
     {
       "id": 7133,
@@ -29372,7 +30194,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "useSpell": 9174,
       "cooldown": 3600000,
-      "category_cooldown": 15000
+      "category_cooldown": 15000,
+      "displayid": "12971"
     },
     {
       "id": 7229,
@@ -29388,7 +30211,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 1,
         "armor": 129
-      }
+      },
+      "displayid": "4340"
     },
     {
       "id": 7335,
@@ -29403,7 +30227,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 90
-      }
+      },
+      "displayid": "10515"
     },
     {
       "id": 7336,
@@ -29419,7 +30244,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "str": 8,
         "armor": 179
-      }
+      },
+      "displayid": "14069"
     },
     {
       "id": 7374,
@@ -29434,7 +30260,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 14,
         "armor": 101
-      }
+      },
+      "displayid": "8071"
     },
     {
       "id": 7375,
@@ -29452,7 +30279,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 9159
-      }
+      },
+      "displayid": "12965"
     },
     {
       "id": 7914,
@@ -29467,7 +30295,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "armor": 204
-      }
+      },
+      "displayid": "11407"
     },
     {
       "id": 7930,
@@ -29482,7 +30311,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "armor": 535
-      }
+      },
+      "displayid": "4151"
     },
     {
       "id": 7935,
@@ -29498,7 +30328,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dodge_rate": 12,
         "crit_rate": 14,
         "armor": 462
-      }
+      },
+      "displayid": "14945"
     },
     {
       "id": 7939,
@@ -29516,7 +30347,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 9777
-      }
+      },
+      "displayid": "23666"
     },
     {
       "id": 7963,
@@ -29532,7 +30364,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "block_rate": 10,
         "armor": 230
-      }
+      },
+      "displayid": "5386"
     },
     {
       "id": 8175,
@@ -29548,7 +30381,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "sta": 6,
         "armor": 112
-      }
+      },
+      "displayid": "8435"
     },
     {
       "id": 8189,
@@ -29564,7 +30398,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 238
-      }
+      },
+      "displayid": "11598"
     },
     {
       "id": 8203,
@@ -29580,7 +30415,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "int": 7,
         "armor": 245
-      }
+      },
+      "displayid": "14689"
     },
     {
       "id": 8211,
@@ -29594,7 +30430,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_06",
       "stats": {
         "armor": 121
-      }
+      },
+      "displayid": "9563"
     },
     {
       "id": 8349,
@@ -29610,7 +30447,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 24,
         "int": 10,
         "armor": 145
-      }
+      },
+      "displayid": "743317"
     },
     {
       "id": 8367,
@@ -29637,7 +30475,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 305
       },
       "useSpell": 10618,
-      "cooldown": 300000
+      "cooldown": 300000,
+      "displayid": "12295"
     },
     {
       "id": 9650,
@@ -29654,7 +30493,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 3,
         "armor": 297
-      }
+      },
+      "displayid": "12115"
     },
     {
       "id": 9663,
@@ -29670,7 +30510,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 16,
         "spi": 5,
         "armor": 248
-      }
+      },
+      "displayid": "21244"
     },
     {
       "id": 9998,
@@ -29685,7 +30526,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 53
-      }
+      },
+      "displayid": "24352"
     },
     {
       "id": 10007,
@@ -29700,7 +30542,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 18,
         "armor": 56
-      }
+      },
+      "displayid": "19093"
     },
     {
       "id": 10020,
@@ -29726,7 +30569,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 59
-      }
+      },
+      "displayid": "8161"
     },
     {
       "id": 10021,
@@ -29742,7 +30586,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 9,
         "armor": 64
-      }
+      },
+      "displayid": "9575"
     },
     {
       "id": 10264,
@@ -29756,7 +30601,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_07",
       "stats": {
         "armor": 164
-      }
+      },
+      "displayid": "4392"
     },
     {
       "id": 10384,
@@ -29770,7 +30616,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate16",
       "stats": {
         "armor": 614
-      }
+      },
+      "displayid": "18012"
     },
     {
       "id": 10421,
@@ -29785,7 +30632,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 107
-      }
+      },
+      "displayid": "977"
     },
     {
       "id": 10827,
@@ -29801,7 +30649,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "spi": 15,
         "armor": 128
-      }
+      },
+      "displayid": "22365"
     },
     {
       "id": 11193,
@@ -29818,7 +30667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 5,
         "armor": 147
-      }
+      },
+      "displayid": "3816"
     },
     {
       "id": 11194,
@@ -29835,7 +30685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 23,
         "int": 4,
         "armor": 307
-      }
+      },
+      "displayid": "21537"
     },
     {
       "id": 11195,
@@ -29851,7 +30702,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 24,
         "sta": 2,
         "armor": 542
-      }
+      },
+      "displayid": "26183"
     },
     {
       "id": 11604,
@@ -29876,7 +30728,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "20992"
     },
     {
       "id": 11606,
@@ -29901,7 +30754,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "16661"
     },
     {
       "id": 11876,
@@ -29917,7 +30771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 23,
         "armor": 145
-      }
+      },
+      "displayid": "13726"
     },
     {
       "id": 12405,
@@ -29942,7 +30797,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 480
-      }
+      },
+      "displayid": "21305"
     },
     {
       "id": 12415,
@@ -29966,7 +30822,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 292
-      }
+      },
+      "displayid": "21179"
     },
     {
       "id": 12422,
@@ -29982,7 +30839,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 17,
         "armor": 569
-      }
+      },
+      "displayid": "24504"
     },
     {
       "id": 12613,
@@ -30007,7 +30865,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 588
-      }
+      },
+      "displayid": "13138"
     },
     {
       "id": 12615,
@@ -30022,7 +30881,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 27,
         "armor": 331
-      }
+      },
+      "displayid": "22860"
     },
     {
       "id": 12618,
@@ -30039,7 +30899,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "defense": 9,
         "armor": 656
-      }
+      },
+      "displayid": "13380"
     },
     {
       "id": 12624,
@@ -30055,7 +30916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "hit_rate": 10,
         "armor": 322
-      }
+      },
+      "displayid": "4474"
     },
     {
       "id": 12641,
@@ -30073,7 +30935,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16621
-      }
+      },
+      "displayid": "16726"
     },
     {
       "id": 12970,
@@ -30107,7 +30970,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 14,
         "armor": 370
-      }
+      },
+      "displayid": "23605"
     },
     {
       "id": 13092,
@@ -30138,7 +31002,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 67
-      }
+      },
+      "displayid": "25207"
     },
     {
       "id": 13869,
@@ -30153,7 +31018,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 66
-      }
+      },
+      "displayid": "24610"
     },
     {
       "id": 14042,
@@ -30168,7 +31034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 67
-      }
+      },
+      "displayid": "15986"
     },
     {
       "id": 14138,
@@ -30194,7 +31061,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 85
-      }
+      },
+      "displayid": "10403"
     },
     {
       "id": 14141,
@@ -30209,7 +31077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 20,
         "armor": 71
-      }
+      },
+      "displayid": "11906"
     },
     {
       "id": 14158,
@@ -30223,7 +31092,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_07",
       "stats": {
         "armor": 39
-      }
+      },
+      "displayid": "9031"
     },
     {
       "id": 15045,
@@ -30258,7 +31128,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 311
-      }
+      },
+      "displayid": "12837"
     },
     {
       "id": 15047,
@@ -30292,7 +31163,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 359
-      }
+      },
+      "displayid": "17862"
     },
     {
       "id": 15048,
@@ -30317,7 +31189,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 338
-      }
+      },
+      "displayid": "25676"
     },
     {
       "id": 15050,
@@ -30344,7 +31217,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 343
-      }
+      },
+      "displayid": "26912"
     },
     {
       "id": 15053,
@@ -30369,7 +31243,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 147
-      }
+      },
+      "displayid": "13803"
     },
     {
       "id": 15056,
@@ -30385,7 +31260,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dodge_rate": 12,
         "crit_rate": 28,
         "armor": 162
-      }
+      },
+      "displayid": "4320"
     },
     {
       "id": 15059,
@@ -30421,7 +31297,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 169
-      }
+      },
+      "displayid": "25082"
     },
     {
       "id": 15064,
@@ -30438,7 +31315,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 27,
         "armor": 157
-      }
+      },
+      "displayid": "10883"
     },
     {
       "id": 15066,
@@ -30454,7 +31332,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 28,
         "int": 12,
         "armor": 165
-      }
+      },
+      "displayid": "25699"
     },
     {
       "id": 15068,
@@ -30479,7 +31358,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 158
-      }
+      },
+      "displayid": "6020"
     },
     {
       "id": 15075,
@@ -30504,7 +31384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           17
         ],
         "armor": 150
-      }
+      },
+      "displayid": "5477"
     },
     {
       "id": 15076,
@@ -30520,7 +31401,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "sta": 16,
         "armor": 288
-      }
+      },
+      "displayid": "9652"
     },
     {
       "id": 15085,
@@ -30536,7 +31418,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 25,
         "sta": 7,
         "armor": 155
-      }
+      },
+      "displayid": "1080"
     },
     {
       "id": 15090,
@@ -30551,7 +31434,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 21,
         "armor": 158
-      }
+      },
+      "displayid": "25731"
     },
     {
       "id": 15141,
@@ -30581,7 +31465,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "26912"
     },
     {
       "id": 15471,
@@ -30598,7 +31483,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 3,
         "armor": 91
-      }
+      },
+      "displayid": "9177"
     },
     {
       "id": 15786,
@@ -30614,7 +31500,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 8,
         "armor": 152
-      }
+      },
+      "displayid": "8158"
     },
     {
       "id": 15787,
@@ -30631,7 +31518,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 6,
         "armor": 317
-      }
+      },
+      "displayid": "26467"
     },
     {
       "id": 16430,
@@ -30649,7 +31537,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "crit_rate": 14,
         "armor": 656
-      }
+      },
+      "displayid": "27243"
     },
     {
       "id": 16477,
@@ -30667,7 +31556,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 33,
         "crit_rate": 14,
         "armor": 875
-      }
+      },
+      "displayid": "30315"
     },
     {
       "id": 16513,
@@ -30685,7 +31575,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "crit_rate": 14,
         "armor": 656
-      }
+      },
+      "displayid": "27274"
     },
     {
       "id": 16541,
@@ -30703,7 +31594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 33,
         "crit_rate": 14,
         "armor": 875
-      }
+      },
+      "displayid": "30373"
     },
     {
       "id": 17005,
@@ -30719,7 +31611,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 6,
         "armor": 88
-      }
+      },
+      "displayid": "7010"
     },
     {
       "id": 19041,
@@ -30736,7 +31629,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 15,
         "armor": 128
-      }
+      },
+      "displayid": "11213"
     },
     {
       "id": 19042,
@@ -30753,7 +31647,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 15,
         "armor": 128
-      }
+      },
+      "displayid": "8200"
     },
     {
       "id": 19127,
@@ -30769,7 +31664,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 18,
         "sta": 8,
         "armor": 132
-      }
+      },
+      "displayid": "11233"
     },
     {
       "id": 19128,
@@ -30786,7 +31682,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "armor": 273
-      }
+      },
+      "displayid": "31641"
     },
     {
       "id": 19682,
@@ -30802,7 +31699,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "hit_rate": 20,
         "armor": 91
-      }
+      },
+      "displayid": "11481"
     },
     {
       "id": 19685,
@@ -30819,7 +31717,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "hit_rate": 10,
         "armor": 180
-      }
+      },
+      "displayid": "17930"
     },
     {
       "id": 19688,
@@ -30837,7 +31736,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 16,
         "armor": 180
-      }
+      },
+      "displayid": "13803"
     },
     {
       "id": 19690,
@@ -30854,7 +31754,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "crit_rate": 28,
         "armor": 381
-      }
+      },
+      "displayid": "30518"
     },
     {
       "id": 19693,
@@ -30870,7 +31771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 32,
         "hit_rate": 10,
         "armor": 736
-      }
+      },
+      "displayid": "30786"
     },
     {
       "id": 19822,
@@ -30888,7 +31790,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "defense": 4,
         "armor": 827
-      }
+      },
+      "displayid": "32415"
     },
     {
       "id": 20282,
@@ -30947,7 +31850,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 434
-      }
+      },
+      "displayid": "25238"
     },
     {
       "id": 20478,
@@ -30972,7 +31876,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 365
-      }
+      },
+      "displayid": "32872"
     },
     {
       "id": 20479,
@@ -30989,7 +31894,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 15,
         "int": 16,
         "armor": 365
-      }
+      },
+      "displayid": "16391"
     },
     {
       "id": 20550,
@@ -31015,7 +31921,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 656
-      }
+      },
+      "displayid": "32943"
     },
     {
       "id": 20575,
@@ -31030,7 +31937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 77
-      }
+      },
+      "displayid": "2019"
     },
     {
       "id": 20642,
@@ -31046,7 +31954,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 10,
         "armor": 61
-      }
+      },
+      "displayid": "4270"
     },
     {
       "id": 21183,
@@ -31062,7 +31971,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 22,
         "crit_rate": 14,
         "armor": 93
-      }
+      },
+      "displayid": "3832"
     },
     {
       "id": 21311,
@@ -31077,7 +31987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "armor": 62
-      }
+      },
+      "displayid": "5295"
     },
     {
       "id": 21320,
@@ -31093,7 +32004,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 20,
         "sta": 12,
         "armor": 312
-      }
+      },
+      "displayid": "11216"
     },
     {
       "id": 21322,
@@ -31109,7 +32021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 17,
         "defense": 10,
         "armor": 551
-      }
+      },
+      "displayid": "14800"
     },
     {
       "id": 21331,
@@ -31127,7 +32040,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 38,
         "defense": 6,
         "armor": 984
-      }
+      },
+      "displayid": "33709"
     },
     {
       "id": 21997,
@@ -31145,7 +32059,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "hit_rate": 10,
         "armor": 683
-      }
+      },
+      "displayid": "34617"
     },
     {
       "id": 22009,
@@ -31162,7 +32077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "hit_rate": 20,
         "armor": 184
-      }
+      },
+      "displayid": "34689"
     },
     {
       "id": 22060,
@@ -31180,7 +32096,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "crit_rate": 14,
         "armor": 386
-      }
+      },
+      "displayid": "34645"
     },
     {
       "id": 22089,
@@ -31199,7 +32116,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 683
-      }
+      },
+      "displayid": "34519"
     },
     {
       "id": 22102,
@@ -31218,7 +32136,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 386
-      }
+      },
+      "displayid": "34698"
     },
     {
       "id": 22113,
@@ -31237,7 +32156,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 17,
         "armor": 184
-      }
+      },
+      "displayid": "34644"
     },
     {
       "id": 22191,
@@ -31254,7 +32174,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 76,
         "crit_rate": 14,
         "armor": 458
-      }
+      },
+      "displayid": "23605"
     },
     {
       "id": 22196,
@@ -31270,7 +32191,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 38,
         "sta": 16,
         "armor": 813
-      }
+      },
+      "displayid": "29253"
     },
     {
       "id": 22416,
@@ -31289,7 +32211,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dodge_rate": 12,
         "hit_rate": 20,
         "armor": 1026
-      }
+      },
+      "displayid": "35049"
     },
     {
       "id": 22425,
@@ -31306,7 +32229,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 31,
         "crit_rate": 14,
         "armor": 1026
-      }
+      },
+      "displayid": "35618"
     },
     {
       "id": 22436,
@@ -31325,7 +32249,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 576
-      }
+      },
+      "displayid": "35415"
     },
     {
       "id": 22464,
@@ -31341,7 +32266,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "int": 32,
         "armor": 576
-      }
+      },
+      "displayid": "35752"
     },
     {
       "id": 22476,
@@ -31360,7 +32286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 10,
         "armor": 261
-      }
+      },
+      "displayid": "35054"
     },
     {
       "id": 22488,
@@ -31377,7 +32304,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 19,
         "int": 29,
         "armor": 261
-      }
+      },
+      "displayid": "35159"
     },
     {
       "id": 22652,
@@ -31402,7 +32330,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 121
-      }
+      },
+      "displayid": "35302"
     },
     {
       "id": 22661,
@@ -31428,7 +32357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 234
-      }
+      },
+      "displayid": "35290"
     },
     {
       "id": 22664,
@@ -31455,7 +32385,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 505
-      }
+      },
+      "displayid": "35293"
     },
     {
       "id": 22669,
@@ -31482,7 +32413,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 899
-      }
+      },
+      "displayid": "35276"
     },
     {
       "id": 22756,
@@ -31507,7 +32439,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 98
-      }
+      },
+      "displayid": "8388"
     },
     {
       "id": 22872,
@@ -31524,7 +32457,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "crit_rate": 14,
         "armor": 706
-      }
+      },
+      "displayid": "27274"
     },
     {
       "id": 23300,
@@ -31541,7 +32475,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "crit_rate": 14,
         "armor": 706
-      }
+      },
+      "displayid": "27243"
     },
     {
       "id": 250487,
@@ -31556,7 +32491,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 6,
         "armor": 198
-      }
+      },
+      "displayid": "4412"
     },
     {
       "id": 250488,
@@ -31572,7 +32508,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 5,
         "armor": 184
-      }
+      },
+      "displayid": "712824"
     },
     {
       "id": 250489,
@@ -31588,7 +32525,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "defense": 5,
         "armor": 184
-      }
+      },
+      "displayid": "712818"
     },
     {
       "id": 250490,
@@ -31603,7 +32541,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "defense": 5,
         "armor": 184
-      }
+      },
+      "displayid": "712824"
     },
     {
       "id": 250491,
@@ -31628,7 +32567,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 184
-      }
+      },
+      "displayid": "712756"
     },
     {
       "id": 250492,
@@ -31643,7 +32583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 5,
         "armor": 184
-      }
+      },
+      "displayid": "712763"
     },
     {
       "id": 250518,
@@ -31659,7 +32600,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 7,
         "armor": 207
-      }
+      },
+      "displayid": "712824"
     },
     {
       "id": 250519,
@@ -31675,7 +32617,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 7,
         "armor": 207
-      }
+      },
+      "displayid": "712818"
     },
     {
       "id": 250520,
@@ -31690,7 +32633,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 7,
         "armor": 207
-      }
+      },
+      "displayid": "712824"
     },
     {
       "id": 250521,
@@ -31715,7 +32659,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 207
-      }
+      },
+      "displayid": "712756"
     },
     {
       "id": 250522,
@@ -31730,7 +32675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 7,
         "armor": 207
-      }
+      },
+      "displayid": "712763"
     },
     {
       "id": 250533,
@@ -31744,7 +32690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 210
-      }
+      },
+      "displayid": "712841"
     },
     {
       "id": 250540,
@@ -31758,7 +32705,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "armor": 436
-      }
+      },
+      "displayid": "712871"
     },
     {
       "id": 250594,
@@ -31774,7 +32722,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 20,
         "sta": 8,
         "armor": 579
-      }
+      },
+      "displayid": "740638"
     },
     {
       "id": 250595,
@@ -31789,7 +32738,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "defense": 9,
         "armor": 646
-      }
+      },
+      "displayid": "712933"
     },
     {
       "id": 250601,
@@ -31814,7 +32764,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14
         ],
         "armor": 694
-      }
+      },
+      "displayid": "740637"
     },
     {
       "id": 252434,
@@ -31830,7 +32781,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 5,
         "armor": 118
-      }
+      },
+      "displayid": "714398"
     },
     {
       "id": 252435,
@@ -31846,7 +32798,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 3,
         "armor": 85
-      }
+      },
+      "displayid": "740636"
     },
     {
       "id": 252450,
@@ -31862,7 +32815,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 8,
         "armor": 148
-      }
+      },
+      "displayid": "714404"
     },
     {
       "id": 252451,
@@ -31878,7 +32832,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "armor": 97
-      }
+      },
+      "displayid": "714556"
     },
     {
       "id": 252480,
@@ -31894,7 +32849,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 12,
         "armor": 150
-      }
+      },
+      "displayid": "746667"
     },
     {
       "id": 252483,
@@ -31910,7 +32866,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 187
-      }
+      },
+      "displayid": "714396"
     },
     {
       "id": 252484,
@@ -31926,7 +32883,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 33,
         "crit_rate": 14,
         "armor": 187
-      }
+      },
+      "displayid": "714543"
     },
     {
       "id": 252490,
@@ -31943,7 +32901,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "armor": 85
-      }
+      },
+      "displayid": "714377"
     },
     {
       "id": 252491,
@@ -31960,7 +32919,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 3,
         "armor": 85
-      }
+      },
+      "displayid": "740635"
     },
     {
       "id": 252492,
@@ -31976,7 +32936,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 85
-      }
+      },
+      "displayid": "714521"
     },
     {
       "id": 252493,
@@ -32002,7 +32963,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 85
-      }
+      },
+      "displayid": "714583"
     },
     {
       "id": 252508,
@@ -32019,7 +32981,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "armor": 97
-      }
+      },
+      "displayid": "714386"
     },
     {
       "id": 252509,
@@ -32036,7 +32999,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 6,
         "armor": 97
-      }
+      },
+      "displayid": "714563"
     },
     {
       "id": 252510,
@@ -32052,7 +33016,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 6,
         "armor": 97
-      }
+      },
+      "displayid": "714527"
     },
     {
       "id": 252511,
@@ -32078,7 +33043,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 97
-      }
+      },
+      "displayid": "714589"
     },
     {
       "id": 252552,
@@ -32093,7 +33059,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "int": 16,
         "armor": 145
-      }
+      },
+      "displayid": "714544"
     },
     {
       "id": 252598,
@@ -32108,7 +33075,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 15,
         "armor": 307
-      }
+      },
+      "displayid": "714387"
     },
     {
       "id": 252599,
@@ -32123,7 +33091,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 16,
         "armor": 317
-      }
+      },
+      "displayid": "714538"
     },
     {
       "id": 253884,
@@ -32152,7 +33121,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 37
-      }
+      },
+      "displayid": "715257"
     },
     {
       "id": 253905,
@@ -32168,7 +33138,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 37
-      }
+      },
+      "displayid": "715270"
     },
     {
       "id": 253907,
@@ -32184,7 +33155,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 37
-      }
+      },
+      "displayid": "715276"
     },
     {
       "id": 253909,
@@ -32200,7 +33172,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 37
-      }
+      },
+      "displayid": "715283"
     },
     {
       "id": 253911,
@@ -32216,7 +33189,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 37
-      }
+      },
+      "displayid": "715289"
     },
     {
       "id": 253961,
@@ -32242,7 +33216,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 44
-      }
+      },
+      "displayid": "715246"
     },
     {
       "id": 253963,
@@ -32258,7 +33233,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 44
-      }
+      },
+      "displayid": "715257"
     },
     {
       "id": 253965,
@@ -32274,7 +33250,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 44
-      }
+      },
+      "displayid": "715270"
     },
     {
       "id": 253967,
@@ -32290,7 +33267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 44
-      }
+      },
+      "displayid": "715276"
     },
     {
       "id": 253969,
@@ -32306,7 +33284,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 44
-      }
+      },
+      "displayid": "715283"
     },
     {
       "id": 253971,
@@ -32322,7 +33301,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 44
-      }
+      },
+      "displayid": "715289"
     },
     {
       "id": 254121,
@@ -32346,7 +33326,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14
         ],
         "armor": 76
-      }
+      },
+      "displayid": "715301"
     },
     {
       "id": 257344,
@@ -32361,7 +33342,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 2,
         "armor": 64
-      }
+      },
+      "displayid": "736799"
     },
     {
       "id": 260178,
@@ -32376,7 +33358,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 9,
         "armor": 497
-      }
+      },
+      "displayid": "717962"
     },
     {
       "id": 260181,
@@ -32391,7 +33374,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 9,
         "armor": 497
-      }
+      },
+      "displayid": "717981"
     },
     {
       "id": 263333,
@@ -32405,7 +33389,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 129
-      }
+      },
+      "displayid": "736664"
     },
     {
       "id": 263401,
@@ -32419,7 +33404,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 58
-      }
+      },
+      "displayid": "736674"
     },
     {
       "id": 269502,
@@ -32436,7 +33422,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 13,
         "armor": 611
-      }
+      },
+      "displayid": "22583"
     },
     {
       "id": 270000,
@@ -32451,7 +33438,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 24
-      }
+      },
+      "displayid": "5844"
     },
     {
       "id": 270022,
@@ -32466,7 +33454,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 33
-      }
+      },
+      "displayid": "4305"
     },
     {
       "id": 270035,
@@ -32482,7 +33471,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 8,
         "armor": 40
-      }
+      },
+      "displayid": "27751"
     },
     {
       "id": 270079,
@@ -32497,7 +33487,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 17,
         "armor": 53
-      }
+      },
+      "displayid": "11530"
     },
     {
       "id": 270082,
@@ -32512,7 +33503,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 55
-      }
+      },
+      "displayid": "28064"
     },
     {
       "id": 270096,
@@ -32528,7 +33520,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 10,
         "armor": 445
-      }
+      },
+      "displayid": "7804"
     },
     {
       "id": 270113,
@@ -32543,7 +33536,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 14,
         "armor": 65
-      }
+      },
+      "displayid": "70631"
     },
     {
       "id": 270118,
@@ -32559,7 +33553,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 24,
         "armor": 77
-      }
+      },
+      "displayid": "8145"
     },
     {
       "id": 272479,
@@ -32576,7 +33571,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "crit_rate": 14,
         "armor": 626
-      }
+      },
+      "displayid": "27274"
     },
     {
       "id": 272506,
@@ -32593,7 +33589,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "crit_rate": 14,
         "armor": 737
-      }
+      },
+      "displayid": "30373"
     },
     {
       "id": 272739,
@@ -32610,7 +33607,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "crit_rate": 14,
         "armor": 626
-      }
+      },
+      "displayid": "27243"
     },
     {
       "id": 272786,
@@ -32627,7 +33625,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "crit_rate": 14,
         "armor": 737
-      }
+      },
+      "displayid": "30315"
     },
     {
       "id": 274758,
@@ -32642,7 +33641,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 19,
         "sta": 11,
         "armor": 524
-      }
+      },
+      "displayid": "9695"
     },
     {
       "id": 274938,
@@ -32658,7 +33658,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "spi": 11,
         "armor": 115
-      }
+      },
+      "displayid": "740102"
     },
     {
       "id": 274942,
@@ -32674,7 +33675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "sta": 13,
         "armor": 115
-      }
+      },
+      "displayid": "8414"
     },
     {
       "id": 275708,
@@ -32700,7 +33702,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 171
-      }
+      },
+      "displayid": "5477"
     },
     {
       "id": 275832,
@@ -32716,7 +33719,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "int": 10,
         "armor": 150
-      }
+      },
+      "displayid": "743317"
     },
     {
       "id": 276721,
@@ -32743,7 +33747,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 122
-      }
+      },
+      "displayid": "743094"
     },
     {
       "id": 276998,
@@ -32757,7 +33762,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 61
-      }
+      },
+      "displayid": "743006"
     },
     {
       "id": 277004,
@@ -32771,7 +33777,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 61
-      }
+      },
+      "displayid": "743050"
     },
     {
       "id": 277010,
@@ -32785,7 +33792,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 22
-      }
+      },
+      "displayid": "742970"
     },
     {
       "id": 277016,
@@ -32799,7 +33807,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 122
-      }
+      },
+      "displayid": "743125"
     },
     {
       "id": 277022,
@@ -32813,7 +33822,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 61
-      }
+      },
+      "displayid": "743044"
     },
     {
       "id": 277028,
@@ -32827,7 +33837,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 61
-      }
+      },
+      "displayid": "743081"
     },
     {
       "id": 277034,
@@ -32841,7 +33852,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 22
-      }
+      },
+      "displayid": "742997"
     },
     {
       "id": 277221,
@@ -32856,7 +33868,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "str": 14,
         "armor": 121
-      }
+      },
+      "displayid": "743317"
     },
     {
       "id": 277229,
@@ -32869,7 +33882,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Enduring Chain Vest",
       "stats": {
         "armor": 248
-      }
+      },
+      "displayid": "16401"
     },
     {
       "id": 277237,
@@ -32884,7 +33898,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 13,
         "armor": 436
-      }
+      },
+      "displayid": "24348"
     },
     {
       "id": 277514,
@@ -32899,7 +33914,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 9,
         "armor": 45
-      }
+      },
+      "displayid": "743362"
     },
     {
       "id": 281284,
@@ -32913,7 +33929,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 58
-      }
+      },
+      "displayid": "2106"
     },
     {
       "id": 281299,
@@ -32928,7 +33945,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 17,
         "sta": 9,
         "armor": 130
-      }
+      },
+      "displayid": "14928"
     },
     {
       "id": 281303,
@@ -32943,7 +33961,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "int": 15,
         "armor": 245
-      }
+      },
+      "displayid": "8908"
     },
     {
       "id": 281324,
@@ -32957,7 +33976,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 30
-      }
+      },
+      "displayid": "2499"
     },
     {
       "id": 281687,
@@ -32970,7 +33990,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Vest",
       "stats": {
         "armor": 2
-      }
+      },
+      "displayid": "747333"
     },
     {
       "id": 281695,
@@ -32983,7 +34004,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Tunic",
       "stats": {
         "armor": 17
-      }
+      },
+      "displayid": "747533"
     },
     {
       "id": 281703,
@@ -32996,7 +34018,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Chestpiece",
       "stats": {
         "armor": 38
-      }
+      },
+      "displayid": "747549"
     },
     {
       "id": 281711,
@@ -33009,7 +34032,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Chestguard",
       "stats": {
         "armor": 43
-      }
+      },
+      "displayid": "747624"
     }
   ],
   "head": [
@@ -33027,7 +34051,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "spi": 8,
         "armor": 168
-      }
+      },
+      "displayid": "15282"
     },
     {
       "id": 2275,
@@ -33073,7 +34098,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 11,
         "armor": 170
-      }
+      },
+      "displayid": "25658"
     },
     {
       "id": 4124,
@@ -33089,7 +34115,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "spi": 10,
         "armor": 89
-      }
+      },
+      "displayid": "15307"
     },
     {
       "id": 4322,
@@ -33104,7 +34131,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 36
-      }
+      },
+      "displayid": "15024"
     },
     {
       "id": 4323,
@@ -33119,7 +34147,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 37
-      }
+      },
+      "displayid": "15319"
     },
     {
       "id": 4368,
@@ -33135,7 +34164,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "armor": 27
-      }
+      },
+      "displayid": "4651"
     },
     {
       "id": 4373,
@@ -33151,7 +34181,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 5,
         "armor": 30
-      }
+      },
+      "displayid": "17597"
     },
     {
       "id": 4385,
@@ -33167,7 +34198,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 7,
         "armor": 34
-      }
+      },
+      "displayid": "13374"
     },
     {
       "id": 4393,
@@ -33182,7 +34214,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 15,
         "armor": 39
-      }
+      },
+      "displayid": "4661"
     },
     {
       "id": 4543,
@@ -33197,7 +34230,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 10,
         "armor": 89
-      }
+      },
+      "displayid": "21313"
     },
     {
       "id": 6720,
@@ -33213,7 +34247,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "spi": 9,
         "armor": 85
-      }
+      },
+      "displayid": "15315"
     },
     {
       "id": 6971,
@@ -33229,7 +34264,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 8,
         "armor": 163
-      }
+      },
+      "displayid": "15288"
     },
     {
       "id": 7048,
@@ -33244,7 +34280,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 34
-      }
+      },
+      "displayid": "15283"
     },
     {
       "id": 7050,
@@ -33259,7 +34296,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 36
-      }
+      },
+      "displayid": "15863"
     },
     {
       "id": 7130,
@@ -33275,7 +34313,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 8,
         "armor": 163
-      }
+      },
+      "displayid": "15288"
     },
     {
       "id": 7915,
@@ -33291,7 +34330,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 9,
         "armor": 173
-      }
+      },
+      "displayid": "16084"
     },
     {
       "id": 7922,
@@ -33307,7 +34347,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 12,
         "armor": 310
-      }
+      },
+      "displayid": "15380"
     },
     {
       "id": 7931,
@@ -33323,7 +34364,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 13,
         "armor": 205
-      }
+      },
+      "displayid": "15288"
     },
     {
       "id": 7934,
@@ -33338,7 +34380,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "armor": 468
-      }
+      },
+      "displayid": "16115"
     },
     {
       "id": 7937,
@@ -33354,7 +34397,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "crit_rate": 14,
         "armor": 383
-      }
+      },
+      "displayid": "16119"
     },
     {
       "id": 8174,
@@ -33369,7 +34413,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 89
-      }
+      },
+      "displayid": "15921"
     },
     {
       "id": 8176,
@@ -33385,7 +34430,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 11,
         "armor": 91
-      }
+      },
+      "displayid": "15321"
     },
     {
       "id": 8191,
@@ -33401,7 +34447,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 10,
         "armor": 205
-      }
+      },
+      "displayid": "15307"
     },
     {
       "id": 8201,
@@ -33416,7 +34463,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 14,
         "armor": 97
-      }
+      },
+      "displayid": "18689"
     },
     {
       "id": 8208,
@@ -33432,7 +34480,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 14,
         "int": 14,
         "armor": 221
-      }
+      },
+      "displayid": "16520"
     },
     {
       "id": 8214,
@@ -33446,7 +34495,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_10",
       "stats": {
         "armor": 98
-      }
+      },
+      "displayid": "15307"
     },
     {
       "id": 8348,
@@ -33475,7 +34525,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "useSpell": 10578,
       "cooldown": 300000,
-      "category_cooldown": 10000
+      "category_cooldown": 10000,
+      "displayid": "17226"
     },
     {
       "id": 9653,
@@ -33491,7 +34542,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 14,
         "int": 14,
         "armor": 52
-      }
+      },
+      "displayid": "11976"
     },
     {
       "id": 9664,
@@ -33508,7 +34560,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 6,
         "armor": 354
-      }
+      },
+      "displayid": "8380"
     },
     {
       "id": 10008,
@@ -33523,7 +34576,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "str": 11,
         "armor": 45
-      }
+      },
+      "displayid": "745672"
     },
     {
       "id": 10024,
@@ -33538,7 +34592,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 12,
         "armor": 48
-      }
+      },
+      "displayid": "740009"
     },
     {
       "id": 10025,
@@ -33553,7 +34608,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 51
-      }
+      },
+      "displayid": "19060"
     },
     {
       "id": 10030,
@@ -33569,7 +34625,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 50
       },
       "useSpell": 12022,
-      "cooldown": 60000
+      "cooldown": 60000,
+      "displayid": "18872"
     },
     {
       "id": 10032,
@@ -33595,7 +34652,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 50
-      }
+      },
+      "displayid": "18877"
     },
     {
       "id": 10033,
@@ -33610,7 +34668,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 20,
         "armor": 50
-      }
+      },
+      "displayid": "16396"
     },
     {
       "id": 10041,
@@ -33626,7 +34685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 10,
         "armor": 58
-      }
+      },
+      "displayid": "19000"
     },
     {
       "id": 10499,
@@ -33642,7 +34702,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 9,
         "armor": 37
-      }
+      },
+      "displayid": "17718"
     },
     {
       "id": 10500,
@@ -33666,7 +34727,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 43
-      }
+      },
+      "displayid": "11700"
     },
     {
       "id": 10501,
@@ -33680,7 +34742,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_47",
       "stats": {
         "armor": 46
-      }
+      },
+      "displayid": "17900"
     },
     {
       "id": 10502,
@@ -33694,7 +34757,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_47",
       "stats": {
         "armor": 45
-      }
+      },
+      "displayid": "745506"
     },
     {
       "id": 10503,
@@ -33710,7 +34774,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 12,
         "armor": 48
-      }
+      },
+      "displayid": "22423"
     },
     {
       "id": 10504,
@@ -33725,7 +34790,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 57
-      }
+      },
+      "displayid": "16098"
     },
     {
       "id": 10506,
@@ -33740,7 +34806,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 48
-      }
+      },
+      "displayid": "23161"
     },
     {
       "id": 10542,
@@ -33755,7 +34822,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "armor": 190
-      }
+      },
+      "displayid": "17729"
     },
     {
       "id": 10543,
@@ -33781,7 +34849,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 43
       },
       "useSpell": 12561,
-      "cooldown": 3600000
+      "cooldown": 3600000,
+      "displayid": "15368"
     },
     {
       "id": 10545,
@@ -33798,7 +34867,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 9,
         "armor": 44
-      }
+      },
+      "displayid": "18138"
     },
     {
       "id": 10588,
@@ -33815,7 +34885,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 49
       },
       "useSpell": 22641,
-      "cooldown": 1200000
+      "cooldown": 1200000,
+      "displayid": "23166"
     },
     {
       "id": 10726,
@@ -33832,7 +34903,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 49
       },
       "useSpell": 13180,
-      "cooldown": 1800000
+      "cooldown": 1800000,
+      "displayid": "19667"
     },
     {
       "id": 10741,
@@ -33849,7 +34921,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 3,
         "armor": 112
-      }
+      },
+      "displayid": "28212"
     },
     {
       "id": 10743,
@@ -33866,7 +34939,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 15,
         "int": 9,
         "armor": 225
-      }
+      },
+      "displayid": "5257"
     },
     {
       "id": 11913,
@@ -33882,7 +34956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 16,
         "spi": 15,
         "armor": 241
-      }
+      },
+      "displayid": "4177"
     },
     {
       "id": 12018,
@@ -33898,7 +34973,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "spi": 20,
         "armor": 261
-      }
+      },
+      "displayid": "28135"
     },
     {
       "id": 12410,
@@ -33923,7 +34999,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 433
-      }
+      },
+      "displayid": "21257"
     },
     {
       "id": 12417,
@@ -33948,7 +35025,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 257
-      }
+      },
+      "displayid": "25826"
     },
     {
       "id": 12427,
@@ -33964,7 +35042,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 17,
         "armor": 455
-      }
+      },
+      "displayid": "14964"
     },
     {
       "id": 12612,
@@ -33989,7 +35068,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 470
-      }
+      },
+      "displayid": "15562"
     },
     {
       "id": 12620,
@@ -34006,7 +35086,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "defense": 9,
         "armor": 525
-      }
+      },
+      "displayid": "22881"
     },
     {
       "id": 12633,
@@ -34032,7 +35113,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12
         ]
-      }
+      },
+      "displayid": "22901"
     },
     {
       "id": 12636,
@@ -34057,7 +35139,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15
         ],
         "armor": 292
-      }
+      },
+      "displayid": "15378"
     },
     {
       "id": 12640,
@@ -34074,7 +35157,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 20,
         "armor": 564
-      }
+      },
+      "displayid": "22855"
     },
     {
       "id": 12904,
@@ -34088,7 +35172,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_31",
       "stats": {
         "armor": 63
-      }
+      },
+      "displayid": "23411"
     },
     {
       "id": 13866,
@@ -34103,7 +35188,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 20,
         "armor": 61
-      }
+      },
+      "displayid": "25230"
     },
     {
       "id": 13936,
@@ -34134,7 +35220,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 60
-      }
+      },
+      "displayid": "15391"
     },
     {
       "id": 14130,
@@ -34158,7 +35245,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           18
         ],
         "armor": 63
-      }
+      },
+      "displayid": "24942"
     },
     {
       "id": 14140,
@@ -34184,7 +35272,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           17
         ],
         "armor": 71
-      }
+      },
+      "displayid": "28414"
     },
     {
       "id": 15080,
@@ -34200,7 +35289,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 20,
         "armor": 257
-      }
+      },
+      "displayid": "28976"
     },
     {
       "id": 15086,
@@ -34216,7 +35306,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 16,
         "sta": 16,
         "armor": 118
-      }
+      },
+      "displayid": "740009"
     },
     {
       "id": 15094,
@@ -34231,7 +35322,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 20,
         "armor": 121
-      }
+      },
+      "displayid": "25739"
     },
     {
       "id": 15999,
@@ -34245,7 +35337,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_47",
       "stats": {
         "armor": 56
-      }
+      },
+      "displayid": "745507"
     },
     {
       "id": 16008,
@@ -34261,7 +35354,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "spi": 17,
         "armor": 60
-      }
+      },
+      "displayid": "745505"
     },
     {
       "id": 16121,
@@ -34285,7 +35379,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 37
-      }
+      },
+      "displayid": "15293"
     },
     {
       "id": 16429,
@@ -34302,7 +35397,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 31,
         "armor": 533
-      }
+      },
+      "displayid": "28934"
     },
     {
       "id": 16478,
@@ -34319,7 +35415,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "crit_rate": 14,
         "armor": 718
-      }
+      },
+      "displayid": "30316"
     },
     {
       "id": 16514,
@@ -34336,7 +35433,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 31,
         "armor": 533
-      }
+      },
+      "displayid": "30071"
     },
     {
       "id": 16542,
@@ -34353,7 +35451,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "crit_rate": 14,
         "armor": 718
-      }
+      },
+      "displayid": "30374"
     },
     {
       "id": 16983,
@@ -34379,7 +35478,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 149
-      }
+      },
+      "displayid": "28856"
     },
     {
       "id": 18807,
@@ -34397,7 +35497,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 14,
         "crit_rate": 14,
         "armor": 296
-      }
+      },
+      "displayid": "31268"
     },
     {
       "id": 19039,
@@ -34414,7 +35515,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 14,
         "armor": 104
-      }
+      },
+      "displayid": "15919"
     },
     {
       "id": 19148,
@@ -34439,7 +35541,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "31671"
     },
     {
       "id": 19743,
@@ -34455,7 +35558,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "sta": 10,
         "armor": 86
-      }
+      },
+      "displayid": "17409"
     },
     {
       "id": 19972,
@@ -34469,7 +35573,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "armor": 42
-      }
+      },
+      "displayid": "741485"
     },
     {
       "id": 19986,
@@ -34485,7 +35590,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 20,
         "armor": 122
-      }
+      },
+      "displayid": "1166"
     },
     {
       "id": 19998,
@@ -34501,7 +35607,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "crit_rate": 28,
         "armor": 147
-      }
+      },
+      "displayid": "17725"
     },
     {
       "id": 19999,
@@ -34517,7 +35624,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 20,
         "armor": 74
-      }
+      },
+      "displayid": "745507"
     },
     {
       "id": 20286,
@@ -34578,7 +35686,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_27",
       "stats": {
         "armor": 62
-      }
+      },
+      "displayid": "33073"
     },
     {
       "id": 20551,
@@ -34604,7 +35713,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 533
-      }
+      },
+      "displayid": "25438"
     },
     {
       "id": 20640,
@@ -34621,7 +35731,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "defense": 4,
         "armor": 354
-      }
+      },
+      "displayid": "15304"
     },
     {
       "id": 20643,
@@ -34638,7 +35749,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 10,
         "armor": 102
-      }
+      },
+      "displayid": "15343"
     },
     {
       "id": 21317,
@@ -34654,7 +35766,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 14,
         "armor": 116
-      }
+      },
+      "displayid": "33598"
     },
     {
       "id": 21329,
@@ -34672,7 +35785,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "defense": 6,
         "armor": 739
-      }
+      },
+      "displayid": "34486"
     },
     {
       "id": 21517,
@@ -34688,7 +35802,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "int": 31,
         "armor": 92
-      }
+      },
+      "displayid": "23411"
     },
     {
       "id": 21614,
@@ -34715,7 +35830,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 192
-      }
+      },
+      "displayid": "34606"
     },
     {
       "id": 21615,
@@ -34741,7 +35857,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           21
         ],
         "armor": 99
-      }
+      },
+      "displayid": "30670"
     },
     {
       "id": 21669,
@@ -34758,7 +35875,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 17,
         "int": 23,
         "armor": 182
-      }
+      },
+      "displayid": "17269"
     },
     {
       "id": 21693,
@@ -34776,7 +35894,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 36,
         "dodge_rate": 12,
         "armor": 250
-      }
+      },
+      "displayid": "34607"
     },
     {
       "id": 21999,
@@ -34793,7 +35912,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 32,
         "crit_rate": 14,
         "armor": 555
-      }
+      },
+      "displayid": "34614"
     },
     {
       "id": 22005,
@@ -34811,7 +35931,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "crit_rate": 14,
         "armor": 149
-      }
+      },
+      "displayid": "34700"
     },
     {
       "id": 22013,
@@ -34829,7 +35950,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 12,
         "hit_rate": 10,
         "armor": 314
-      }
+      },
+      "displayid": "34649"
     },
     {
       "id": 22065,
@@ -34847,7 +35969,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 25,
         "crit_rate": 14,
         "armor": 75
-      }
+      },
+      "displayid": "34602"
     },
     {
       "id": 22074,
@@ -34864,7 +35987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 24,
         "hit_rate": 10,
         "armor": 75
-      }
+      },
+      "displayid": "34624"
     },
     {
       "id": 22080,
@@ -34882,7 +36006,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 75
-      }
+      },
+      "displayid": "34630"
     },
     {
       "id": 22091,
@@ -34901,7 +36026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 555
-      }
+      },
+      "displayid": "34524"
     },
     {
       "id": 22097,
@@ -34919,7 +36045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 21,
         "crit_rate": 14,
         "armor": 314
-      }
+      },
+      "displayid": "34693"
     },
     {
       "id": 22109,
@@ -34938,7 +36065,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 17,
         "armor": 149
-      }
+      },
+      "displayid": "34639"
     },
     {
       "id": 22273,
@@ -34954,7 +36082,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 15,
         "crit_rate": 14,
         "armor": 122
-      }
+      },
+      "displayid": "685381"
     },
     {
       "id": 22418,
@@ -34972,7 +36101,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 14,
         "dodge_rate": 12,
         "armor": 799
-      }
+      },
+      "displayid": "35447"
     },
     {
       "id": 22428,
@@ -34989,7 +36119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 26,
         "crit_rate": 14,
         "armor": 799
-      }
+      },
+      "displayid": "36972"
     },
     {
       "id": 22438,
@@ -35007,7 +36138,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 12,
         "crit_rate": 28,
         "armor": 449
-      }
+      },
+      "displayid": "35601"
     },
     {
       "id": 22466,
@@ -35023,7 +36155,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "int": 30,
         "armor": 449
-      }
+      },
+      "displayid": "37056"
     },
     {
       "id": 22478,
@@ -35042,7 +36175,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 10,
         "armor": 205
-      }
+      },
+      "displayid": "35132"
     },
     {
       "id": 22490,
@@ -35059,7 +36193,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 20,
         "int": 31,
         "armor": 205
-      }
+      },
+      "displayid": "35162"
     },
     {
       "id": 22498,
@@ -35077,7 +36212,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 10,
         "armor": 107
-      }
+      },
+      "displayid": "36440"
     },
     {
       "id": 22506,
@@ -35095,7 +36231,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 10,
         "armor": 107
-      }
+      },
+      "displayid": "35182"
     },
     {
       "id": 22514,
@@ -35112,7 +36249,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 22,
         "int": 22,
         "armor": 107
-      }
+      },
+      "displayid": "35155"
     },
     {
       "id": 22689,
@@ -35139,7 +36277,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13
         ],
         "armor": 148
-      }
+      },
+      "displayid": "35095"
     },
     {
       "id": 22757,
@@ -35164,7 +36303,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 79
-      }
+      },
+      "displayid": "35206"
     },
     {
       "id": 22759,
@@ -35189,7 +36329,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 156
-      }
+      },
+      "displayid": "35211"
     },
     {
       "id": 23019,
@@ -35216,7 +36357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 756
-      }
+      },
+      "displayid": "35419"
     },
     {
       "id": 23020,
@@ -35242,7 +36384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 196
-      }
+      },
+      "displayid": "35421"
     },
     {
       "id": 23032,
@@ -35268,7 +36411,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 102
-      }
+      },
+      "displayid": "35432"
     },
     {
       "id": 23033,
@@ -35294,7 +36438,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 425
-      }
+      },
+      "displayid": "36433"
     },
     {
       "id": 23244,
@@ -35312,7 +36457,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 598
-      }
+      },
+      "displayid": "30071"
     },
     {
       "id": 23314,
@@ -35330,7 +36476,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 598
-      }
+      },
+      "displayid": "35810"
     },
     {
       "id": 236755,
@@ -35344,7 +36491,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_04",
       "stats": {
         "armor": 107
-      }
+      },
+      "displayid": "11275"
     },
     {
       "id": 250498,
@@ -35359,7 +36507,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 11,
         "armor": 176
-      }
+      },
+      "displayid": "712829"
     },
     {
       "id": 250499,
@@ -35374,7 +36523,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 11,
         "armor": 176
-      }
+      },
+      "displayid": "712823"
     },
     {
       "id": 250500,
@@ -35389,7 +36539,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 8,
         "armor": 176
-      }
+      },
+      "displayid": "712829"
     },
     {
       "id": 250501,
@@ -35413,7 +36564,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 176
-      }
+      },
+      "displayid": "712758"
     },
     {
       "id": 250502,
@@ -35427,7 +36579,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 176
-      }
+      },
+      "displayid": "712815"
     },
     {
       "id": 250528,
@@ -35442,7 +36595,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 9,
         "armor": 163
-      }
+      },
+      "displayid": "712829"
     },
     {
       "id": 250529,
@@ -35457,7 +36611,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "sta": 9,
         "armor": 163
-      }
+      },
+      "displayid": "712823"
     },
     {
       "id": 250530,
@@ -35472,7 +36627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "defense": 7,
         "armor": 163
-      }
+      },
+      "displayid": "712829"
     },
     {
       "id": 250531,
@@ -35496,7 +36652,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 163
-      }
+      },
+      "displayid": "712758"
     },
     {
       "id": 250532,
@@ -35510,7 +36667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 163
-      }
+      },
+      "displayid": "712815"
     },
     {
       "id": 250537,
@@ -35524,7 +36682,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "armor": 187
-      }
+      },
+      "displayid": "712971"
     },
     {
       "id": 250543,
@@ -35538,7 +36697,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "armor": 375
-      }
+      },
+      "displayid": "712877"
     },
     {
       "id": 250593,
@@ -35553,7 +36713,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 7,
         "armor": 462
-      }
+      },
+      "displayid": "712932"
     },
     {
       "id": 250597,
@@ -35568,7 +36729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "defense": 8,
         "armor": 533
-      }
+      },
+      "displayid": "712935"
     },
     {
       "id": 250599,
@@ -35583,7 +36745,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "hit_rate": 20,
         "armor": 564
-      }
+      },
+      "displayid": "712941"
     },
     {
       "id": 252447,
@@ -35598,7 +36761,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 10,
         "armor": 76
-      }
+      },
+      "displayid": "747878"
     },
     {
       "id": 252448,
@@ -35612,7 +36776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 76
-      }
+      },
+      "displayid": "714570"
     },
     {
       "id": 252455,
@@ -35627,7 +36792,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 13,
         "armor": 83
-      }
+      },
+      "displayid": "747879"
     },
     {
       "id": 252456,
@@ -35641,7 +36807,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "armor": 83
-      }
+      },
+      "displayid": "714567"
     },
     {
       "id": 252482,
@@ -35657,7 +36824,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 7,
         "armor": 126
-      }
+      },
+      "displayid": "743294"
     },
     {
       "id": 252485,
@@ -35673,7 +36841,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 33,
         "armor": 152
-      }
+      },
+      "displayid": "714573"
     },
     {
       "id": 252504,
@@ -35688,7 +36857,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 10,
         "armor": 76
-      }
+      },
+      "displayid": "714381"
     },
     {
       "id": 252505,
@@ -35703,7 +36873,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 8,
         "armor": 76
-      }
+      },
+      "displayid": "714572"
     },
     {
       "id": 252506,
@@ -35718,7 +36889,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 9,
         "armor": 76
-      }
+      },
+      "displayid": "744523"
     },
     {
       "id": 252507,
@@ -35742,7 +36914,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 76
-      }
+      },
+      "displayid": "714592"
     },
     {
       "id": 252512,
@@ -35757,7 +36930,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "sta": 13,
         "armor": 83
-      }
+      },
+      "displayid": "752139"
     },
     {
       "id": 252513,
@@ -35772,7 +36946,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 10,
         "armor": 83
-      }
+      },
+      "displayid": "714571"
     },
     {
       "id": 252514,
@@ -35787,7 +36962,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 10,
         "armor": 83
-      }
+      },
+      "displayid": "744524"
     },
     {
       "id": 252515,
@@ -35811,7 +36987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 83
-      }
+      },
+      "displayid": "714591"
     },
     {
       "id": 252555,
@@ -35826,7 +37003,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 15,
         "int": 12,
         "armor": 121
-      }
+      },
+      "displayid": "714568"
     },
     {
       "id": 252561,
@@ -35851,7 +37029,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           25
         ],
         "armor": 152
-      }
+      },
+      "displayid": "747996"
     },
     {
       "id": 252581,
@@ -35866,7 +37045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 16,
         "armor": 234
-      }
+      },
+      "displayid": "714393"
     },
     {
       "id": 252597,
@@ -35881,7 +37061,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 13,
         "armor": 249
-      }
+      },
+      "displayid": "714569"
     },
     {
       "id": 252604,
@@ -35896,7 +37077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 18,
         "hit_rate": 10,
         "armor": 319
-      }
+      },
+      "displayid": "714357"
     },
     {
       "id": 252605,
@@ -35912,7 +37094,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 38,
         "crit_rate": 14,
         "armor": 319
-      }
+      },
+      "displayid": "714355"
     },
     {
       "id": 253949,
@@ -35936,7 +37119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 34
-      }
+      },
+      "displayid": "747756"
     },
     {
       "id": 253951,
@@ -35950,7 +37134,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 34
-      }
+      },
+      "displayid": "747760"
     },
     {
       "id": 253953,
@@ -35964,7 +37149,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 34
-      }
+      },
+      "displayid": "747754"
     },
     {
       "id": 253955,
@@ -35978,7 +37164,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 34
-      }
+      },
+      "displayid": "747757"
     },
     {
       "id": 253957,
@@ -35992,7 +37179,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 34
-      }
+      },
+      "displayid": "747755"
     },
     {
       "id": 253959,
@@ -36006,7 +37194,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 34
-      }
+      },
+      "displayid": "747759"
     },
     {
       "id": 253975,
@@ -36030,7 +37219,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 38
-      }
+      },
+      "displayid": "747756"
     },
     {
       "id": 253977,
@@ -36044,7 +37234,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 38
-      }
+      },
+      "displayid": "747760"
     },
     {
       "id": 253979,
@@ -36058,7 +37249,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 38
-      }
+      },
+      "displayid": "747754"
     },
     {
       "id": 253981,
@@ -36072,7 +37264,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 38
-      }
+      },
+      "displayid": "747757"
     },
     {
       "id": 253983,
@@ -36086,7 +37279,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 38
-      }
+      },
+      "displayid": "747755"
     },
     {
       "id": 253985,
@@ -36100,7 +37294,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 38
-      }
+      },
+      "displayid": "747759"
     },
     {
       "id": 254015,
@@ -36124,7 +37319,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 39
-      }
+      },
+      "displayid": "744514"
     },
     {
       "id": 254135,
@@ -36138,7 +37334,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 18,
         "armor": 63
-      }
+      },
+      "displayid": "744516"
     },
     {
       "id": 254137,
@@ -36162,7 +37359,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14
         ],
         "armor": 63
-      }
+      },
+      "displayid": "744515"
     },
     {
       "id": 259846,
@@ -36178,7 +37376,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "armor": 50
       },
-      "useSpell": 1265220
+      "useSpell": 1265220,
+      "displayid": "717729"
     },
     {
       "id": 260195,
@@ -36192,7 +37391,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "armor": 57
-      }
+      },
+      "displayid": "744526"
     },
     {
       "id": 260212,
@@ -36218,7 +37418,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12
         ],
         "armor": 64
-      }
+      },
+      "displayid": "15907"
     },
     {
       "id": 270067,
@@ -36233,7 +37434,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 88
-      }
+      },
+      "displayid": "13323"
     },
     {
       "id": 270093,
@@ -36248,7 +37450,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 17,
         "armor": 47
-      }
+      },
+      "displayid": "28414"
     },
     {
       "id": 271812,
@@ -36265,7 +37468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 11,
         "armor": 50
-      }
+      },
+      "displayid": "21152"
     },
     {
       "id": 272480,
@@ -36282,7 +37486,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "crit_rate": 7,
         "armor": 509
-      }
+      },
+      "displayid": "30071"
     },
     {
       "id": 272507,
@@ -36299,7 +37504,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "crit_rate": 14,
         "armor": 669
-      }
+      },
+      "displayid": "30374"
     },
     {
       "id": 272738,
@@ -36316,7 +37522,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "crit_rate": 7,
         "armor": 509
-      }
+      },
+      "displayid": "28934"
     },
     {
       "id": 272787,
@@ -36333,7 +37540,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "crit_rate": 14,
         "armor": 669
-      }
+      },
+      "displayid": "30316"
     },
     {
       "id": 273878,
@@ -36385,7 +37593,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 116
-      }
+      },
+      "displayid": "15863"
     },
     {
       "id": 275028,
@@ -36400,7 +37609,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 47
-      }
+      },
+      "displayid": "740251"
     },
     {
       "id": 276105,
@@ -36417,7 +37627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "hit_rate": 7,
         "armor": 104
-      }
+      },
+      "displayid": "734034"
     },
     {
       "id": 276719,
@@ -36445,7 +37656,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 9,
         "armor": 173
-      }
+      },
+      "displayid": "743092"
     },
     {
       "id": 277042,
@@ -36460,7 +37672,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 9,
         "armor": 82
-      }
+      },
+      "displayid": "743048"
     },
     {
       "id": 277044,
@@ -36475,7 +37688,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 82
-      }
+      },
+      "displayid": "743004"
     },
     {
       "id": 277046,
@@ -36490,7 +37704,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 37
-      }
+      },
+      "displayid": "742968"
     },
     {
       "id": 277048,
@@ -36505,7 +37720,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 9,
         "armor": 173
-      }
+      },
+      "displayid": "743127"
     },
     {
       "id": 277050,
@@ -36520,7 +37736,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 9,
         "armor": 82
-      }
+      },
+      "displayid": "743046"
     },
     {
       "id": 277052,
@@ -36535,7 +37752,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 82
-      }
+      },
+      "displayid": "743083"
     },
     {
       "id": 277054,
@@ -36550,7 +37768,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 37
-      }
+      },
+      "displayid": "742999"
     },
     {
       "id": 277211,
@@ -36565,7 +37784,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 14,
         "armor": 48
-      }
+      },
+      "displayid": "737497"
     },
     {
       "id": 277219,
@@ -36580,7 +37800,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "spi": 5,
         "armor": 76
-      }
+      },
+      "displayid": "15916"
     },
     {
       "id": 277227,
@@ -36595,7 +37816,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 9,
         "armor": 160
-      }
+      },
+      "displayid": "15290"
     },
     {
       "id": 277235,
@@ -36610,7 +37832,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 10,
         "armor": 354
-      }
+      },
+      "displayid": "15380"
     },
     {
       "id": 279253,
@@ -36627,7 +37850,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 31,
         "crit_rate": 21,
         "armor": 160
-      }
+      },
+      "displayid": "741823"
     },
     {
       "id": 280310,
@@ -36641,7 +37865,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 47
       },
-      "useSpell": 12883
+      "useSpell": 12883,
+      "displayid": "745508"
     },
     {
       "id": 280311,
@@ -36655,7 +37880,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 98
       },
-      "useSpell": 12883
+      "useSpell": 12883,
+      "displayid": "745507"
     },
     {
       "id": 280312,
@@ -36669,7 +37895,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 201
       },
-      "useSpell": 12883
+      "useSpell": 12883,
+      "displayid": "745509"
     },
     {
       "id": 280313,
@@ -36683,7 +37910,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 354
       },
-      "useSpell": 12883
+      "useSpell": 12883,
+      "displayid": "745507"
     },
     {
       "id": 281539,
@@ -36698,7 +37926,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "int": 17,
         "armor": 61
-      }
+      },
+      "displayid": "16826"
     },
     {
       "id": 281675,
@@ -36713,7 +37942,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 8,
         "armor": 34
-      }
+      },
+      "displayid": "744819"
     },
     {
       "id": 281685,
@@ -36726,7 +37956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Helm",
       "stats": {
         "armor": 2
-      }
+      },
+      "displayid": "747331"
     },
     {
       "id": 281693,
@@ -36739,7 +37970,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Hood",
       "stats": {
         "armor": 14
-      }
+      },
+      "displayid": "747532"
     },
     {
       "id": 281701,
@@ -36752,7 +37984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Coif",
       "stats": {
         "armor": 31
-      }
+      },
+      "displayid": "747544"
     },
     {
       "id": 281709,
@@ -36765,7 +37998,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Helm",
       "stats": {
         "armor": 35
-      }
+      },
+      "displayid": "747618"
     }
   ],
   "hands": [
@@ -36783,7 +38017,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 2,
         "armor": 46
-      }
+      },
+      "displayid": "1796"
     },
     {
       "id": 1303,
@@ -36799,7 +38034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "spi": 2,
         "armor": 104
-      }
+      },
+      "displayid": "510"
     },
     {
       "id": 1304,
@@ -36815,7 +38051,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "int": 3,
         "armor": 21
-      }
+      },
+      "displayid": "5444"
     },
     {
       "id": 2036,
@@ -36831,7 +38068,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "str": 3,
         "armor": 46
-      }
+      },
+      "displayid": "17054"
     },
     {
       "id": 2230,
@@ -36846,7 +38084,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "armor": 112
-      }
+      },
+      "displayid": "3985"
     },
     {
       "id": 2312,
@@ -36861,7 +38100,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 43
-      }
+      },
+      "displayid": "5406"
     },
     {
       "id": 3458,
@@ -36877,7 +38117,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 1,
         "armor": 100
-      }
+      },
+      "displayid": "3071"
     },
     {
       "id": 3472,
@@ -36893,7 +38134,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "sta": 1,
         "armor": 76
-      }
+      },
+      "displayid": "25850"
     },
     {
       "id": 3474,
@@ -36907,7 +38149,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "armor": 89
-      }
+      },
+      "displayid": "3518"
     },
     {
       "id": 3483,
@@ -36924,7 +38167,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 3,
         "armor": 118
-      }
+      },
+      "displayid": "4413"
     },
     {
       "id": 3485,
@@ -36940,7 +38184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 6,
         "armor": 123
-      }
+      },
+      "displayid": "9414"
     },
     {
       "id": 3559,
@@ -36956,7 +38201,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "str": 4,
         "armor": 106
-      }
+      },
+      "displayid": "8614"
     },
     {
       "id": 3565,
@@ -36972,7 +38218,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 21
-      }
+      },
+      "displayid": "14127"
     },
     {
       "id": 3754,
@@ -36988,7 +38235,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 7,
         "armor": 61
-      }
+      },
+      "displayid": "3875"
     },
     {
       "id": 3759,
@@ -37004,7 +38252,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 28
-      }
+      },
+      "displayid": "12468"
     },
     {
       "id": 4107,
@@ -37020,7 +38269,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "str": 7,
         "armor": 65
-      }
+      },
+      "displayid": "4438"
     },
     {
       "id": 4121,
@@ -37037,7 +38287,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 6,
         "armor": 29
-      }
+      },
+      "displayid": "1657"
     },
     {
       "id": 4239,
@@ -37053,7 +38304,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 1,
         "armor": 40
-      }
+      },
+      "displayid": "9503"
     },
     {
       "id": 4247,
@@ -37068,7 +38320,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 57
-      }
+      },
+      "displayid": "2362"
     },
     {
       "id": 4248,
@@ -37082,7 +38335,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "armor": 54
-      }
+      },
+      "displayid": "9526"
     },
     {
       "id": 4253,
@@ -37099,7 +38353,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 3,
         "armor": 61
-      }
+      },
+      "displayid": "2361"
     },
     {
       "id": 4254,
@@ -37116,7 +38371,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 5,
         "armor": 58
-      }
+      },
+      "displayid": "9543"
     },
     {
       "id": 4307,
@@ -37130,7 +38386,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "armor": 12
-      }
+      },
+      "displayid": "2202"
     },
     {
       "id": 4310,
@@ -37145,7 +38402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 18
-      }
+      },
+      "displayid": "11036"
     },
     {
       "id": 4318,
@@ -37160,7 +38418,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "armor": 24
-      }
+      },
+      "displayid": "4620"
     },
     {
       "id": 4319,
@@ -37175,7 +38434,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "armor": 26
-      }
+      },
+      "displayid": "11226"
     },
     {
       "id": 4331,
@@ -37189,7 +38449,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_19",
       "stats": {
         "armor": 24
-      }
+      },
+      "displayid": "8876"
     },
     {
       "id": 4509,
@@ -37205,7 +38466,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 11,
         "armor": 68
-      }
+      },
+      "displayid": "4768"
     },
     {
       "id": 5299,
@@ -37221,7 +38483,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 3,
         "armor": 48
-      }
+      },
+      "displayid": "12761"
     },
     {
       "id": 5312,
@@ -37237,7 +38500,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 1,
         "armor": 106
-      }
+      },
+      "displayid": "4855"
     },
     {
       "id": 5337,
@@ -37252,7 +38516,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "armor": 18
-      }
+      },
+      "displayid": "11119"
     },
     {
       "id": 5629,
@@ -37268,7 +38533,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 3,
         "armor": 48
-      }
+      },
+      "displayid": "8131"
     },
     {
       "id": 5630,
@@ -37283,7 +38549,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 48
-      }
+      },
+      "displayid": "8449"
     },
     {
       "id": 5822,
@@ -37299,7 +38566,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 2,
         "armor": 112
-      }
+      },
+      "displayid": "9082"
     },
     {
       "id": 5966,
@@ -37314,7 +38582,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 66
-      }
+      },
+      "displayid": "8608"
     },
     {
       "id": 6467,
@@ -37330,7 +38599,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 3,
         "armor": 49
-      }
+      },
+      "displayid": "11952"
     },
     {
       "id": 6727,
@@ -37346,7 +38616,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 9,
         "armor": 70
-      }
+      },
+      "displayid": "11175"
     },
     {
       "id": 6732,
@@ -37362,7 +38633,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "int": 7,
         "armor": 66
-      }
+      },
+      "displayid": "8398"
     },
     {
       "id": 6733,
@@ -37378,7 +38650,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 169
-      }
+      },
+      "displayid": "12948"
     },
     {
       "id": 6744,
@@ -37394,7 +38667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "int": 6,
         "armor": 28
-      }
+      },
+      "displayid": "9402"
     },
     {
       "id": 6784,
@@ -37410,7 +38684,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 7,
         "armor": 64
-      }
+      },
+      "displayid": "7711"
     },
     {
       "id": 6794,
@@ -37426,7 +38701,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "spi": 4,
         "armor": 68
-      }
+      },
+      "displayid": "3828"
     },
     {
       "id": 6974,
@@ -37442,7 +38718,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 125
-      }
+      },
+      "displayid": "22482"
     },
     {
       "id": 7047,
@@ -37457,7 +38734,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 26
-      }
+      },
+      "displayid": "12615"
     },
     {
       "id": 7049,
@@ -37482,7 +38760,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 26
-      }
+      },
+      "displayid": "11097"
     },
     {
       "id": 7064,
@@ -37497,7 +38776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 34
-      }
+      },
+      "displayid": "11482"
     },
     {
       "id": 7106,
@@ -37513,7 +38793,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 4,
         "armor": 28
-      }
+      },
+      "displayid": "9630"
     },
     {
       "id": 7129,
@@ -37529,7 +38810,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 125
-      }
+      },
+      "displayid": "13484"
     },
     {
       "id": 7284,
@@ -37547,7 +38829,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 9057,
         "chance": 5
-      }
+      },
+      "displayid": "3992"
     },
     {
       "id": 7285,
@@ -37563,7 +38846,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 4,
         "armor": 52
-      }
+      },
+      "displayid": "4685"
     },
     {
       "id": 7348,
@@ -37579,7 +38863,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "parry_rate": -15,
         "crit_rate": 14,
         "armor": 53
-      }
+      },
+      "displayid": "2361"
     },
     {
       "id": 7349,
@@ -37593,7 +38878,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_18",
       "stats": {
         "armor": 55
-      }
+      },
+      "displayid": "7816"
     },
     {
       "id": 7358,
@@ -37608,7 +38894,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 56
-      }
+      },
+      "displayid": "2057"
     },
     {
       "id": 7359,
@@ -37624,7 +38911,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 57
-      }
+      },
+      "displayid": "10945"
     },
     {
       "id": 7738,
@@ -37640,7 +38928,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 3,
         "armor": 19
-      }
+      },
+      "displayid": "9556"
     },
     {
       "id": 7917,
@@ -37655,7 +38944,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 137
-      }
+      },
+      "displayid": "11537"
     },
     {
       "id": 7919,
@@ -37670,7 +38960,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 267
-      }
+      },
+      "displayid": "3983"
     },
     {
       "id": 7925,
@@ -37686,7 +38977,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 10,
         "armor": 153
-      }
+      },
+      "displayid": "2951"
     },
     {
       "id": 7927,
@@ -37701,7 +38993,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 14,
         "armor": 267
-      }
+      },
+      "displayid": "16105"
     },
     {
       "id": 7938,
@@ -37717,7 +39010,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 7,
         "armor": 300
-      }
+      },
+      "displayid": "13172"
     },
     {
       "id": 8187,
@@ -37733,7 +39027,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 146
-      }
+      },
+      "displayid": "16488"
     },
     {
       "id": 8204,
@@ -37749,7 +39044,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "int": 9,
         "armor": 155
-      }
+      },
+      "displayid": "11833"
     },
     {
       "id": 8346,
@@ -37776,7 +39072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 85
       },
       "useSpell": 10577,
-      "cooldown": 1800000
+      "cooldown": 1800000,
+      "displayid": "10513"
     },
     {
       "id": 8347,
@@ -37793,7 +39090,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "crit_rate": 14,
         "armor": 170
-      }
+      },
+      "displayid": "12296"
     },
     {
       "id": 9518,
@@ -37808,7 +39106,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 64
-      }
+      },
+      "displayid": "17073"
     },
     {
       "id": 9631,
@@ -37824,7 +39123,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 10,
         "armor": 75
-      }
+      },
+      "displayid": "4438"
     },
     {
       "id": 9632,
@@ -37840,7 +39140,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 10,
         "armor": 75
-      }
+      },
+      "displayid": "12114"
     },
     {
       "id": 9634,
@@ -37857,7 +39158,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 10,
         "armor": 37
-      }
+      },
+      "displayid": "16412"
     },
     {
       "id": 9656,
@@ -37872,7 +39174,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 294
-      }
+      },
+      "displayid": "11537"
     },
     {
       "id": 9665,
@@ -37888,7 +39191,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 10,
         "armor": 40
-      }
+      },
+      "displayid": "11590"
     },
     {
       "id": 9698,
@@ -37903,7 +39207,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 61
-      }
+      },
+      "displayid": "3875"
     },
     {
       "id": 9704,
@@ -37919,7 +39224,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "int": 9,
         "armor": 73
-      }
+      },
+      "displayid": "10696"
     },
     {
       "id": 10003,
@@ -37933,7 +39239,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "armor": 35
-      }
+      },
+      "displayid": "8307"
     },
     {
       "id": 10011,
@@ -37958,7 +39265,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 36
-      }
+      },
+      "displayid": "11303"
     },
     {
       "id": 10018,
@@ -37973,7 +39281,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 36
-      }
+      },
+      "displayid": "19095"
     },
     {
       "id": 10019,
@@ -37989,7 +39298,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 4,
         "armor": 40
-      }
+      },
+      "displayid": "9534"
     },
     {
       "id": 10023,
@@ -38004,7 +39314,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 36
-      }
+      },
+      "displayid": "11126"
     },
     {
       "id": 10637,
@@ -38020,7 +39331,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "int": 2,
         "armor": 17
-      }
+      },
+      "displayid": "11144"
     },
     {
       "id": 10654,
@@ -38035,7 +39347,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 26
-      }
+      },
+      "displayid": "11985"
     },
     {
       "id": 11867,
@@ -38051,7 +39364,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 15,
         "armor": 180
-      }
+      },
+      "displayid": "28332"
     },
     {
       "id": 11888,
@@ -38067,7 +39381,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 11,
         "armor": 40
-      }
+      },
+      "displayid": "28342"
     },
     {
       "id": 11918,
@@ -38083,7 +39398,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "int": 12,
         "armor": 186
-      }
+      },
+      "displayid": "11604"
     },
     {
       "id": 12051,
@@ -38100,7 +39416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 2,
         "armor": 183
-      }
+      },
+      "displayid": "11699"
     },
     {
       "id": 12418,
@@ -38125,7 +39442,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 192
-      }
+      },
+      "displayid": "23697"
     },
     {
       "id": 12522,
@@ -38141,7 +39459,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "int": 2,
         "armor": 43
-      }
+      },
+      "displayid": "12198"
     },
     {
       "id": 12631,
@@ -38169,7 +39488,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 7714,
         "chance": 100
-      }
+      },
+      "displayid": "19753"
     },
     {
       "id": 12632,
@@ -38188,7 +39508,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16614
-      }
+      },
+      "displayid": "22897"
     },
     {
       "id": 12639,
@@ -38205,7 +39526,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "parry_rate": 15,
         "crit_rate": 14,
         "armor": 441
-      }
+      },
+      "displayid": "22917"
     },
     {
       "id": 13863,
@@ -38221,7 +39543,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 9,
         "armor": 44
-      }
+      },
+      "displayid": "25231"
     },
     {
       "id": 13870,
@@ -38236,7 +39559,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 43
-      }
+      },
+      "displayid": "11303"
     },
     {
       "id": 14043,
@@ -38251,7 +39575,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 43
-      }
+      },
+      "displayid": "7523"
     },
     {
       "id": 14101,
@@ -38275,7 +39600,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 43
-      }
+      },
+      "displayid": "3218"
     },
     {
       "id": 14142,
@@ -38290,7 +39616,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 15,
         "armor": 43
-      }
+      },
+      "displayid": "11097"
     },
     {
       "id": 15063,
@@ -38308,7 +39635,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 28,
         "crit_rate": 14,
         "armor": 103
-      }
+      },
+      "displayid": "9543"
     },
     {
       "id": 15070,
@@ -38333,7 +39661,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 95
-      }
+      },
+      "displayid": "19017"
     },
     {
       "id": 15074,
@@ -38358,7 +39687,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12
         ],
         "armor": 86
-      }
+      },
+      "displayid": "11175"
     },
     {
       "id": 15078,
@@ -38374,7 +39704,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 12,
         "armor": 186
-      }
+      },
+      "displayid": "7731"
     },
     {
       "id": 15083,
@@ -38390,7 +39721,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 11,
         "armor": 85
-      }
+      },
+      "displayid": "2375"
     },
     {
       "id": 15091,
@@ -38405,7 +39737,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 88
-      }
+      },
+      "displayid": "25735"
     },
     {
       "id": 15401,
@@ -38420,7 +39753,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 16
-      }
+      },
+      "displayid": "16710"
     },
     {
       "id": 15402,
@@ -38435,7 +39769,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 85
-      }
+      },
+      "displayid": "28223"
     },
     {
       "id": 15405,
@@ -38451,7 +39786,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 2,
         "armor": 45
-      }
+      },
+      "displayid": "9529"
     },
     {
       "id": 15463,
@@ -38467,7 +39803,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 2,
         "armor": 114
-      }
+      },
+      "displayid": "28288"
     },
     {
       "id": 15585,
@@ -38483,7 +39820,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 8,
         "armor": 29
-      }
+      },
+      "displayid": "12615"
     },
     {
       "id": 15708,
@@ -38500,7 +39838,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 8,
         "armor": 93
-      }
+      },
+      "displayid": "26436"
     },
     {
       "id": 15795,
@@ -38516,7 +39855,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 13,
         "armor": 344
-      }
+      },
+      "displayid": "26473"
     },
     {
       "id": 15823,
@@ -38531,7 +39871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 18,
         "armor": 186
-      }
+      },
+      "displayid": "26512"
     },
     {
       "id": 16161,
@@ -38555,7 +39896,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 165
-      }
+      },
+      "displayid": "19678"
     },
     {
       "id": 16406,
@@ -38571,7 +39913,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 15,
         "armor": 410
-      }
+      },
+      "displayid": "26753"
     },
     {
       "id": 16484,
@@ -38588,7 +39931,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "crit_rate": 14,
         "armor": 531
-      }
+      },
+      "displayid": "30321"
     },
     {
       "id": 16510,
@@ -38604,7 +39948,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 15,
         "armor": 410
-      }
+      },
+      "displayid": "27271"
     },
     {
       "id": 16548,
@@ -38621,7 +39966,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "crit_rate": 14,
         "armor": 531
-      }
+      },
+      "displayid": "30371"
     },
     {
       "id": 16738,
@@ -38636,7 +39982,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 13,
         "armor": 39
-      }
+      },
+      "displayid": "13348"
     },
     {
       "id": 16740,
@@ -38653,7 +40000,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 6,
         "armor": 27
-      }
+      },
+      "displayid": "11985"
     },
     {
       "id": 16741,
@@ -38669,7 +40017,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 2,
         "armor": 59
-      }
+      },
+      "displayid": "9366"
     },
     {
       "id": 16873,
@@ -38686,7 +40035,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 66
-      }
+      },
+      "displayid": "28522"
     },
     {
       "id": 16978,
@@ -38702,7 +40052,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 3,
         "armor": 129
-      }
+      },
+      "displayid": "25333"
     },
     {
       "id": 16986,
@@ -38718,7 +40069,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 2,
         "armor": 114
-      }
+      },
+      "displayid": "28288"
     },
     {
       "id": 16994,
@@ -38735,7 +40087,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 14,
         "armor": 96
-      }
+      },
+      "displayid": "3846"
     },
     {
       "id": 17721,
@@ -38759,7 +40112,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           24
         ],
         "armor": 66
-      }
+      },
+      "displayid": "3515"
     },
     {
       "id": 18238,
@@ -38775,7 +40129,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "crit_rate": 14,
         "armor": 75
-      }
+      },
+      "displayid": "7731"
     },
     {
       "id": 18407,
@@ -38790,7 +40145,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 54
-      }
+      },
+      "displayid": "7523"
     },
     {
       "id": 18408,
@@ -38805,7 +40161,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "armor": 54
-      }
+      },
+      "displayid": "3828"
     },
     {
       "id": 18409,
@@ -38831,7 +40188,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11
         ],
         "armor": 54
-      }
+      },
+      "displayid": "25045"
     },
     {
       "id": 19049,
@@ -38848,7 +40206,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 21,
         "sta": 9,
         "armor": 107
-      }
+      },
+      "displayid": "31541"
     },
     {
       "id": 19057,
@@ -38864,7 +40223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 21,
         "sta": 9,
         "armor": 398
-      }
+      },
+      "displayid": "31563"
     },
     {
       "id": 19116,
@@ -38889,7 +40249,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 40
-      }
+      },
+      "displayid": "16633"
     },
     {
       "id": 19119,
@@ -38906,7 +40267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 9,
         "armor": 82
-      }
+      },
+      "displayid": "12017"
     },
     {
       "id": 19123,
@@ -38921,7 +40283,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 39
-      }
+      },
+      "displayid": "8307"
     },
     {
       "id": 19126,
@@ -38937,7 +40300,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 7,
         "armor": 294
-      }
+      },
+      "displayid": "14884"
     },
     {
       "id": 19157,
@@ -38964,7 +40328,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 278
-      }
+      },
+      "displayid": "31680"
     },
     {
       "id": 19164,
@@ -38990,7 +40355,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 494
-      }
+      },
+      "displayid": "31683"
     },
     {
       "id": 19686,
@@ -39007,7 +40373,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "hit_rate": 20,
         "armor": 113
-      }
+      },
+      "displayid": "32159"
     },
     {
       "id": 19692,
@@ -39024,7 +40391,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 14,
         "armor": 238
-      }
+      },
+      "displayid": "27901"
     },
     {
       "id": 20284,
@@ -39075,7 +40443,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 208
-      }
+      },
+      "displayid": "32762"
     },
     {
       "id": 20318,
@@ -39131,7 +40500,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 228
-      }
+      },
+      "displayid": "26798"
     },
     {
       "id": 20480,
@@ -39148,7 +40518,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 12,
         "armor": 228
-      }
+      },
+      "displayid": "17416"
     },
     {
       "id": 20549,
@@ -39174,7 +40545,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 410
-      }
+      },
+      "displayid": "32944"
     },
     {
       "id": 20650,
@@ -39191,7 +40563,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 6,
         "armor": 356
-      }
+      },
+      "displayid": "21413"
     },
     {
       "id": 20712,
@@ -39210,7 +40583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 10,
         "armor": 231
-      }
+      },
+      "displayid": "4422"
     },
     {
       "id": 20713,
@@ -39227,7 +40601,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 10,
         "armor": 231
-      }
+      },
+      "displayid": "4422"
     },
     {
       "id": 20716,
@@ -39243,7 +40618,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 5,
         "armor": 55
-      }
+      },
+      "displayid": "11842"
     },
     {
       "id": 20717,
@@ -39270,7 +40646,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           17
         ],
         "armor": 55
-      }
+      },
+      "displayid": "11842"
     },
     {
       "id": 21178,
@@ -39285,7 +40662,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "armor": 108
-      }
+      },
+      "displayid": "13344"
     },
     {
       "id": 21278,
@@ -39301,7 +40679,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 108
-      }
+      },
+      "displayid": "3839"
     },
     {
       "id": 21318,
@@ -39315,7 +40694,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_24",
       "stats": {
         "armor": 46
-      }
+      },
+      "displayid": "13348"
     },
     {
       "id": 21319,
@@ -39331,7 +40711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "str": 13,
         "armor": 93
-      }
+      },
+      "displayid": "4438"
     },
     {
       "id": 21339,
@@ -39345,7 +40726,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_21",
       "stats": {
         "armor": 74
-      }
+      },
+      "displayid": "33624"
     },
     {
       "id": 21581,
@@ -39363,7 +40745,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 615
-      }
+      },
+      "displayid": "34165"
     },
     {
       "id": 21585,
@@ -39380,7 +40763,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 15,
         "hit_rate": 10,
         "armor": 82
-      }
+      },
+      "displayid": "34183"
     },
     {
       "id": 21605,
@@ -39407,7 +40791,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           0
         ]
-      }
+      },
+      "displayid": "34260"
     },
     {
       "id": 21619,
@@ -39433,7 +40818,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 74
-      }
+      },
+      "displayid": "34229"
     },
     {
       "id": 21623,
@@ -39452,7 +40838,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "crit_rate": 14,
         "armor": 548
-      }
+      },
+      "displayid": "34235"
     },
     {
       "id": 21624,
@@ -39471,7 +40858,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "crit_rate": 14,
         "armor": 308
-      }
+      },
+      "displayid": "34236"
     },
     {
       "id": 21672,
@@ -39489,7 +40877,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "hit_rate": 10,
         "armor": 140
-      }
+      },
+      "displayid": "34295"
     },
     {
       "id": 21674,
@@ -39507,7 +40896,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 20,
         "defense": 9,
         "armor": 535
-      }
+      },
+      "displayid": "26473"
     },
     {
       "id": 21888,
@@ -39523,7 +40913,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "int": 16,
         "armor": 187
-      }
+      },
+      "displayid": "29736"
     },
     {
       "id": 21998,
@@ -39540,7 +40931,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "crit_rate": 14,
         "armor": 393
-      }
+      },
+      "displayid": "34613"
     },
     {
       "id": 22006,
@@ -39557,7 +40949,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 9,
         "armor": 107
-      }
+      },
+      "displayid": "34686"
     },
     {
       "id": 22015,
@@ -39574,7 +40967,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 10,
         "armor": 223
-      }
+      },
+      "displayid": "34650"
     },
     {
       "id": 22066,
@@ -39592,7 +40986,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 14,
         "hit_rate": 10,
         "armor": 53
-      }
+      },
+      "displayid": "34600"
     },
     {
       "id": 22077,
@@ -39609,7 +41004,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "hit_rate": 10,
         "armor": 53
-      }
+      },
+      "displayid": "34627"
     },
     {
       "id": 22081,
@@ -39626,7 +41022,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 15,
         "armor": 53
-      }
+      },
+      "displayid": "34631"
     },
     {
       "id": 22090,
@@ -39644,7 +41041,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 393
-      }
+      },
+      "displayid": "34523"
     },
     {
       "id": 22099,
@@ -39661,7 +41059,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 14,
         "armor": 223
-      }
+      },
+      "displayid": "34695"
     },
     {
       "id": 22110,
@@ -39680,7 +41079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 12,
         "armor": 107
-      }
+      },
+      "displayid": "34640"
     },
     {
       "id": 22194,
@@ -39700,7 +41100,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18350
-      }
+      },
+      "displayid": "27041"
     },
     {
       "id": 22421,
@@ -39719,7 +41120,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 9,
         "block_rate": 15,
         "armor": 615
-      }
+      },
+      "displayid": "35050"
     },
     {
       "id": 22426,
@@ -39735,7 +41137,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "int": 22,
         "armor": 615
-      }
+      },
+      "displayid": "35615"
     },
     {
       "id": 22441,
@@ -39753,7 +41156,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 15,
         "crit_rate": 14,
         "armor": 345
-      }
+      },
+      "displayid": "35411"
     },
     {
       "id": 22469,
@@ -39769,7 +41173,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "int": 28,
         "armor": 345
-      }
+      },
+      "displayid": "35748"
     },
     {
       "id": 22481,
@@ -39788,7 +41193,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 158
-      }
+      },
+      "displayid": "744870"
     },
     {
       "id": 22493,
@@ -39805,7 +41211,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 22,
         "armor": 158
-      }
+      },
+      "displayid": "744869"
     },
     {
       "id": 22501,
@@ -39822,7 +41229,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 19,
         "armor": 82
-      }
+      },
+      "displayid": "740648"
     },
     {
       "id": 22509,
@@ -39839,7 +41247,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 82
-      }
+      },
+      "displayid": "740649"
     },
     {
       "id": 22517,
@@ -39856,7 +41265,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 22,
         "int": 21,
         "armor": 82
-      }
+      },
+      "displayid": "740650"
     },
     {
       "id": 22654,
@@ -39881,7 +41291,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 75
-      }
+      },
+      "displayid": "35286"
     },
     {
       "id": 22662,
@@ -39907,7 +41318,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 146
-      }
+      },
+      "displayid": "35303"
     },
     {
       "id": 22666,
@@ -39934,7 +41346,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 316
-      }
+      },
+      "displayid": "35294"
     },
     {
       "id": 22670,
@@ -39961,7 +41374,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 562
-      }
+      },
+      "displayid": "35277"
     },
     {
       "id": 22868,
@@ -39977,7 +41391,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 17,
         "armor": 429
-      }
+      },
+      "displayid": "27271"
     },
     {
       "id": 23078,
@@ -39994,7 +41409,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 410
-      }
+      },
+      "displayid": "35550"
     },
     {
       "id": 23081,
@@ -40011,7 +41427,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 110
-      }
+      },
+      "displayid": "35553"
     },
     {
       "id": 23082,
@@ -40028,7 +41445,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 231
-      }
+      },
+      "displayid": "35542"
     },
     {
       "id": 23084,
@@ -40044,7 +41462,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 10,
         "armor": 55
-      }
+      },
+      "displayid": "35545"
     },
     {
       "id": 23286,
@@ -40060,7 +41479,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 17,
         "armor": 429
-      }
+      },
+      "displayid": "26753"
     },
     {
       "id": 213391,
@@ -40076,7 +41496,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 7,
         "armor": 327
-      }
+      },
+      "displayid": "13172"
     },
     {
       "id": 217270,
@@ -40092,7 +41513,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 146
-      }
+      },
+      "displayid": "16488"
     },
     {
       "id": 217273,
@@ -40107,7 +41529,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 146
-      }
+      },
+      "displayid": "18256"
     },
     {
       "id": 234819,
@@ -40124,7 +41547,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 15,
         "armor": 172
-      }
+      },
+      "displayid": "32107"
     },
     {
       "id": 235044,
@@ -40141,7 +41565,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 15,
         "armor": 172
-      }
+      },
+      "displayid": "32107"
     },
     {
       "id": 250485,
@@ -40156,7 +41581,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 116
-      }
+      },
+      "displayid": "4413"
     },
     {
       "id": 250508,
@@ -40172,7 +41598,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 115
-      }
+      },
+      "displayid": "712964"
     },
     {
       "id": 250509,
@@ -40188,7 +41615,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "defense": 3,
         "armor": 115
-      }
+      },
+      "displayid": "712967"
     },
     {
       "id": 250510,
@@ -40203,7 +41631,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "defense": 3,
         "armor": 115
-      }
+      },
+      "displayid": "712964"
     },
     {
       "id": 250511,
@@ -40228,7 +41657,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 115
-      }
+      },
+      "displayid": "712965"
     },
     {
       "id": 250512,
@@ -40243,7 +41673,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 5,
         "armor": 115
-      }
+      },
+      "displayid": "712966"
     },
     {
       "id": 250538,
@@ -40257,7 +41688,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 144
-      }
+      },
+      "displayid": "712969"
     },
     {
       "id": 250545,
@@ -40271,7 +41703,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "armor": 294
-      }
+      },
+      "displayid": "712970"
     },
     {
       "id": 250551,
@@ -40287,7 +41720,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 11,
         "armor": 360
-      }
+      },
+      "displayid": "712901"
     },
     {
       "id": 250552,
@@ -40303,7 +41737,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "defense": 11,
         "armor": 360
-      }
+      },
+      "displayid": "712903"
     },
     {
       "id": 250553,
@@ -40318,7 +41753,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "defense": 11,
         "armor": 360
-      }
+      },
+      "displayid": "712900"
     },
     {
       "id": 250554,
@@ -40343,7 +41779,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12
         ],
         "armor": 360
-      }
+      },
+      "displayid": "712902"
     },
     {
       "id": 250555,
@@ -40358,7 +41795,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 11,
         "armor": 360
-      }
+      },
+      "displayid": "712899"
     },
     {
       "id": 250566,
@@ -40374,7 +41812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 9,
         "armor": 158
-      }
+      },
+      "displayid": "712906"
     },
     {
       "id": 250567,
@@ -40390,7 +41829,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 7,
         "armor": 158
-      }
+      },
+      "displayid": "712908"
     },
     {
       "id": 250568,
@@ -40405,7 +41845,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 7,
         "armor": 158
-      }
+      },
+      "displayid": "712905"
     },
     {
       "id": 250569,
@@ -40430,7 +41871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 158
-      }
+      },
+      "displayid": "712907"
     },
     {
       "id": 250570,
@@ -40445,7 +41887,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 9,
         "armor": 158
-      }
+      },
+      "displayid": "712904"
     },
     {
       "id": 250588,
@@ -40461,7 +41904,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 13,
         "armor": 322
-      }
+      },
+      "displayid": "712931"
     },
     {
       "id": 250589,
@@ -40476,7 +41920,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 12,
         "armor": 339
-      }
+      },
+      "displayid": "712930"
     },
     {
       "id": 252494,
@@ -40492,7 +41937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 53
-      }
+      },
+      "displayid": "714380"
     },
     {
       "id": 252495,
@@ -40508,7 +41954,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 53
-      }
+      },
+      "displayid": "714560"
     },
     {
       "id": 252496,
@@ -40523,7 +41970,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 87
-      }
+      },
+      "displayid": "714401"
     },
     {
       "id": 252497,
@@ -40538,7 +41986,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 53
-      }
+      },
+      "displayid": "714553"
     },
     {
       "id": 252498,
@@ -40553,7 +42002,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 4,
         "armor": 53
-      }
+      },
+      "displayid": "714524"
     },
     {
       "id": 252499,
@@ -40578,7 +42028,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 53
-      }
+      },
+      "displayid": "714587"
     },
     {
       "id": 252524,
@@ -40594,7 +42045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 7,
         "armor": 75
-      }
+      },
+      "displayid": "714471"
     },
     {
       "id": 252525,
@@ -40610,7 +42062,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 7,
         "armor": 75
-      }
+      },
+      "displayid": "714490"
     },
     {
       "id": 252526,
@@ -40626,7 +42079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "armor": 75
-      }
+      },
+      "displayid": "714515"
     },
     {
       "id": 252527,
@@ -40641,7 +42095,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 10,
         "armor": 147
-      }
+      },
+      "displayid": "714578"
     },
     {
       "id": 252528,
@@ -40656,7 +42111,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 7,
         "armor": 75
-      }
+      },
+      "displayid": "714490"
     },
     {
       "id": 252529,
@@ -40671,7 +42127,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 9,
         "armor": 75
-      }
+      },
+      "displayid": "714499"
     },
     {
       "id": 252530,
@@ -40696,7 +42153,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 75
-      }
+      },
+      "displayid": "714451"
     },
     {
       "id": 252546,
@@ -40712,7 +42170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 5,
         "armor": 86
-      }
+      },
+      "displayid": "746817"
     },
     {
       "id": 252547,
@@ -40729,7 +42188,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 6,
         "armor": 98
-      }
+      },
+      "displayid": "714470"
     },
     {
       "id": 252548,
@@ -40746,7 +42206,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 6,
         "armor": 98
-      }
+      },
+      "displayid": "714489"
     },
     {
       "id": 252549,
@@ -40762,7 +42223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 14,
         "armor": 160
-      }
+      },
+      "displayid": "714577"
     },
     {
       "id": 252550,
@@ -40778,7 +42240,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 9,
         "armor": 98
-      }
+      },
+      "displayid": "714498"
     },
     {
       "id": 252551,
@@ -40804,7 +42267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 98
-      }
+      },
+      "displayid": "714450"
     },
     {
       "id": 252553,
@@ -40819,7 +42283,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 12,
         "armor": 92
-      }
+      },
+      "displayid": "714548"
     },
     {
       "id": 252584,
@@ -40836,7 +42301,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 9,
         "armor": 204
-      }
+      },
+      "displayid": "714518"
     },
     {
       "id": 252585,
@@ -40852,7 +42318,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 9,
         "armor": 204
-      }
+      },
+      "displayid": "714508"
     },
     {
       "id": 252586,
@@ -40868,7 +42335,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 6,
         "armor": 204
-      }
+      },
+      "displayid": "714483"
     },
     {
       "id": 252587,
@@ -40894,7 +42362,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 204
-      }
+      },
+      "displayid": "714460"
     },
     {
       "id": 252596,
@@ -40909,7 +42378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 9,
         "armor": 189
-      }
+      },
+      "displayid": "714391"
     },
     {
       "id": 253913,
@@ -40934,7 +42404,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 23
-      }
+      },
+      "displayid": "715240"
     },
     {
       "id": 253915,
@@ -40949,7 +42420,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 23
-      }
+      },
+      "displayid": "715258"
     },
     {
       "id": 253917,
@@ -40964,7 +42436,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 23
-      }
+      },
+      "displayid": "715271"
     },
     {
       "id": 253919,
@@ -40979,7 +42452,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 23
-      }
+      },
+      "displayid": "715278"
     },
     {
       "id": 253921,
@@ -40994,7 +42468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 23
-      }
+      },
+      "displayid": "715284"
     },
     {
       "id": 253923,
@@ -41009,7 +42484,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 23
-      }
+      },
+      "displayid": "715290"
     },
     {
       "id": 254017,
@@ -41033,7 +42509,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 32
-      }
+      },
+      "displayid": "715295"
     },
     {
       "id": 254021,
@@ -41058,7 +42535,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 36
-      }
+      },
+      "displayid": "715315"
     },
     {
       "id": 254023,
@@ -41073,7 +42551,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "armor": 36
-      }
+      },
+      "displayid": "715323"
     },
     {
       "id": 254025,
@@ -41088,7 +42567,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "armor": 36
-      }
+      },
+      "displayid": "715337"
     },
     {
       "id": 254027,
@@ -41103,7 +42583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "armor": 36
-      }
+      },
+      "displayid": "715347"
     },
     {
       "id": 254029,
@@ -41118,7 +42599,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "armor": 36
-      }
+      },
+      "displayid": "715352"
     },
     {
       "id": 254031,
@@ -41133,7 +42615,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "armor": 36
-      }
+      },
+      "displayid": "715381"
     },
     {
       "id": 254075,
@@ -41157,7 +42640,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 42
-      }
+      },
+      "displayid": "715306"
     },
     {
       "id": 254095,
@@ -41183,7 +42667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 49
-      }
+      },
+      "displayid": "715319"
     },
     {
       "id": 254097,
@@ -41199,7 +42684,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 10,
         "armor": 49
-      }
+      },
+      "displayid": "715324"
     },
     {
       "id": 254099,
@@ -41215,7 +42701,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 10,
         "armor": 49
-      }
+      },
+      "displayid": "715338"
     },
     {
       "id": 254101,
@@ -41231,7 +42718,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 10,
         "armor": 49
-      }
+      },
+      "displayid": "715346"
     },
     {
       "id": 254103,
@@ -41247,7 +42735,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 10,
         "armor": 49
-      }
+      },
+      "displayid": "715353"
     },
     {
       "id": 254105,
@@ -41263,7 +42752,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 10,
         "armor": 49
-      }
+      },
+      "displayid": "715382"
     },
     {
       "id": 260211,
@@ -41279,7 +42769,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 13,
         "armor": 100
-      }
+      },
+      "displayid": "718115"
     },
     {
       "id": 263306,
@@ -41293,7 +42784,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 36
-      }
+      },
+      "displayid": "736670"
     },
     {
       "id": 263310,
@@ -41307,7 +42799,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 13
-      }
+      },
+      "displayid": "736758"
     },
     {
       "id": 263337,
@@ -41321,7 +42814,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 80
-      }
+      },
+      "displayid": "736757"
     },
     {
       "id": 270004,
@@ -41336,7 +42830,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 42
-      }
+      },
+      "displayid": "14729"
     },
     {
       "id": 270012,
@@ -41351,7 +42846,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 21
-      }
+      },
+      "displayid": "28056"
     },
     {
       "id": 270034,
@@ -41367,7 +42863,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 4,
         "armor": 118
-      }
+      },
+      "displayid": "510"
     },
     {
       "id": 270038,
@@ -41383,7 +42880,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 123
-      }
+      },
+      "displayid": "25794"
     },
     {
       "id": 270072,
@@ -41398,7 +42896,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 12,
         "armor": 68
-      }
+      },
+      "displayid": "2481"
     },
     {
       "id": 270086,
@@ -41413,7 +42912,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 35
-      }
+      },
+      "displayid": "11303"
     },
     {
       "id": 270089,
@@ -41429,7 +42929,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "str": 7,
         "armor": 75
-      }
+      },
+      "displayid": "8346"
     },
     {
       "id": 271940,
@@ -41446,7 +42947,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 27,
         "sta": 15,
         "armor": 461
-      }
+      },
+      "displayid": "31563"
     },
     {
       "id": 271941,
@@ -41463,7 +42965,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 23,
         "sta": 12,
         "armor": 393
-      }
+      },
+      "displayid": "31563"
     },
     {
       "id": 271945,
@@ -41489,7 +42992,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 62
-      }
+      },
+      "displayid": "17057"
     },
     {
       "id": 271946,
@@ -41515,7 +43019,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 53
-      }
+      },
+      "displayid": "17057"
     },
     {
       "id": 272095,
@@ -41532,7 +43037,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 27,
         "sta": 15,
         "armor": 461
-      }
+      },
+      "displayid": "31563"
     },
     {
       "id": 272096,
@@ -41549,7 +43055,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 23,
         "sta": 12,
         "armor": 393
-      }
+      },
+      "displayid": "31563"
     },
     {
       "id": 272097,
@@ -41575,7 +43082,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 62
-      }
+      },
+      "displayid": "17057"
     },
     {
       "id": 272098,
@@ -41601,7 +43109,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 53
-      }
+      },
+      "displayid": "17057"
     },
     {
       "id": 272478,
@@ -41618,7 +43127,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 19,
         "armor": 391
-      }
+      },
+      "displayid": "27271"
     },
     {
       "id": 272513,
@@ -41635,7 +43145,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 26,
         "armor": 461
-      }
+      },
+      "displayid": "30371"
     },
     {
       "id": 272717,
@@ -41652,7 +43163,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 19,
         "armor": 391
-      }
+      },
+      "displayid": "26753"
     },
     {
       "id": 272793,
@@ -41669,7 +43181,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 26,
         "armor": 461
-      }
+      },
+      "displayid": "30321"
     },
     {
       "id": 273876,
@@ -41683,7 +43196,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 15
-      }
+      },
+      "displayid": "736751"
     },
     {
       "id": 274745,
@@ -41698,7 +43212,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 2,
         "armor": 133
-      }
+      },
+      "displayid": "739984"
     },
     {
       "id": 274755,
@@ -41713,7 +43228,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 9,
         "armor": 44
-      }
+      },
+      "displayid": "739987"
     },
     {
       "id": 274957,
@@ -41728,7 +43244,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 13,
         "armor": 73
-      }
+      },
+      "displayid": "740110"
     },
     {
       "id": 275604,
@@ -41753,7 +43270,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 51
-      }
+      },
+      "displayid": "740569"
     },
     {
       "id": 275607,
@@ -41787,7 +43305,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 51
-      }
+      },
+      "displayid": "740572"
     },
     {
       "id": 275610,
@@ -41812,7 +43331,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 103
-      }
+      },
+      "displayid": "740591"
     },
     {
       "id": 275613,
@@ -41837,7 +43357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 103
-      }
+      },
+      "displayid": "740594"
     },
     {
       "id": 275616,
@@ -41862,7 +43383,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 214
-      }
+      },
+      "displayid": "740598"
     },
     {
       "id": 275619,
@@ -41896,7 +43418,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 214
-      }
+      },
+      "displayid": "740601"
     },
     {
       "id": 275622,
@@ -41921,7 +43444,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 379
-      }
+      },
+      "displayid": "740606"
     },
     {
       "id": 275625,
@@ -41946,7 +43470,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 379
-      }
+      },
+      "displayid": "740608"
     },
     {
       "id": 275669,
@@ -41961,7 +43486,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 13,
         "armor": 93
-      }
+      },
+      "displayid": "740597"
     },
     {
       "id": 275715,
@@ -41976,7 +43502,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 46
-      }
+      },
+      "displayid": "8876"
     },
     {
       "id": 276200,
@@ -41992,7 +43519,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 272
-      }
+      },
+      "displayid": "741382"
     },
     {
       "id": 276539,
@@ -42020,7 +43548,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 100
-      }
+      },
+      "displayid": "742486"
     },
     {
       "id": 276994,
@@ -42034,7 +43563,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 71
-      }
+      },
+      "displayid": "743097"
     },
     {
       "id": 277000,
@@ -42048,7 +43578,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 36
-      }
+      },
+      "displayid": "743028"
     },
     {
       "id": 277006,
@@ -42062,7 +43593,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 36
-      }
+      },
+      "displayid": "743053"
     },
     {
       "id": 277012,
@@ -42076,7 +43608,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 13
-      }
+      },
+      "displayid": "742972"
     },
     {
       "id": 277018,
@@ -42090,7 +43623,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 71
-      }
+      },
+      "displayid": "743122"
     },
     {
       "id": 277024,
@@ -42104,7 +43638,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 36
-      }
+      },
+      "displayid": "743041"
     },
     {
       "id": 277030,
@@ -42118,7 +43653,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 36
-      }
+      },
+      "displayid": "743078"
     },
     {
       "id": 277036,
@@ -42132,7 +43668,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 13
-      }
+      },
+      "displayid": "742995"
     },
     {
       "id": 277215,
@@ -42147,7 +43684,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 8,
         "armor": 36
-      }
+      },
+      "displayid": "2609"
     },
     {
       "id": 277223,
@@ -42161,7 +43699,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 9,
         "armor": 75
-      }
+      },
+      "displayid": "4768"
     },
     {
       "id": 277231,
@@ -42177,7 +43716,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 21,
         "ranged_ap": 21,
         "armor": 155
-      }
+      },
+      "displayid": "4345"
     },
     {
       "id": 277239,
@@ -42192,7 +43732,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "spi": 11,
         "armor": 272
-      }
+      },
+      "displayid": "8321"
     },
     {
       "id": 279257,
@@ -42209,7 +43750,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 14,
         "armor": 259
-      }
+      },
+      "displayid": "741895"
     },
     {
       "id": 279264,
@@ -42226,7 +43768,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "defense": 12,
         "armor": 461
-      }
+      },
+      "displayid": "741975"
     },
     {
       "id": 281279,
@@ -42241,7 +43784,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 14,
         "armor": 356
-      }
+      },
+      "displayid": "17769"
     },
     {
       "id": 281280,
@@ -42256,7 +43800,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 10,
         "armor": 201
-      }
+      },
+      "displayid": "11604"
     },
     {
       "id": 281315,
@@ -42270,7 +43815,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 18
-      }
+      },
+      "displayid": "3846"
     },
     {
       "id": 281689,
@@ -42283,7 +43829,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Handwraps",
       "stats": {
         "armor": 1
-      }
+      },
+      "displayid": "747401"
     },
     {
       "id": 281697,
@@ -42296,7 +43843,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Gloves",
       "stats": {
         "armor": 10
-      }
+      },
+      "displayid": "747535"
     },
     {
       "id": 281705,
@@ -42309,7 +43857,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Clasps",
       "stats": {
         "armor": 24
-      }
+      },
+      "displayid": "747601"
     },
     {
       "id": 281713,
@@ -42322,7 +43871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Handguards",
       "stats": {
         "armor": 27
-      }
+      },
+      "displayid": "747626"
     }
   ],
   "wrists": [
@@ -42340,7 +43890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 33
-      }
+      },
+      "displayid": "11387"
     },
     {
       "id": 2032,
@@ -42356,7 +43907,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 7,
         "armor": 20
-      }
+      },
+      "displayid": "11905"
     },
     {
       "id": 2854,
@@ -42372,7 +43924,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 2,
         "armor": 72
-      }
+      },
+      "displayid": "17518"
     },
     {
       "id": 2867,
@@ -42387,7 +43940,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 77
-      }
+      },
+      "displayid": "4331"
     },
     {
       "id": 2868,
@@ -42402,7 +43956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "armor": 79
-      }
+      },
+      "displayid": "19677"
     },
     {
       "id": 3224,
@@ -42417,7 +43972,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 9
-      }
+      },
+      "displayid": "8186"
     },
     {
       "id": 3835,
@@ -42433,7 +43989,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 5,
         "armor": 90
-      }
+      },
+      "displayid": "9417"
     },
     {
       "id": 4118,
@@ -42448,7 +44005,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 119
-      }
+      },
+      "displayid": "4464"
     },
     {
       "id": 4132,
@@ -42464,7 +44022,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 2,
         "armor": 95
-      }
+      },
+      "displayid": "4331"
     },
     {
       "id": 4133,
@@ -42480,7 +44039,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 7,
         "armor": 21
-      }
+      },
+      "displayid": "3897"
     },
     {
       "id": 4259,
@@ -42496,7 +44056,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "int": 5,
         "armor": 45
-      }
+      },
+      "displayid": "9546"
     },
     {
       "id": 4260,
@@ -42511,7 +44072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 47
-      }
+      },
+      "displayid": "9550"
     },
     {
       "id": 4308,
@@ -42526,7 +44088,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 9
-      }
+      },
+      "displayid": "3041"
     },
     {
       "id": 4545,
@@ -42541,7 +44104,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 23
-      }
+      },
+      "displayid": "7794"
     },
     {
       "id": 4744,
@@ -42556,7 +44120,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 22
-      }
+      },
+      "displayid": "16925"
     },
     {
       "id": 4745,
@@ -42572,7 +44137,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 8,
         "armor": 100
-      }
+      },
+      "displayid": "4916"
     },
     {
       "id": 4794,
@@ -42588,7 +44154,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 2,
         "armor": 37
-      }
+      },
+      "displayid": "1980"
     },
     {
       "id": 4795,
@@ -42603,7 +44170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 37
-      }
+      },
+      "displayid": "4601"
     },
     {
       "id": 4796,
@@ -42618,7 +44186,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 37
-      }
+      },
+      "displayid": "3382"
     },
     {
       "id": 4979,
@@ -42634,7 +44203,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 8,
         "armor": 24
-      }
+      },
+      "displayid": "5434"
     },
     {
       "id": 5315,
@@ -42650,7 +44220,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 2,
         "armor": 13
-      }
+      },
+      "displayid": "7812"
     },
     {
       "id": 5783,
@@ -42666,7 +44237,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 6,
         "armor": 46
-      }
+      },
+      "displayid": "4337"
     },
     {
       "id": 6040,
@@ -42682,7 +44254,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 5,
         "armor": 95
-      }
+      },
+      "displayid": "9634"
     },
     {
       "id": 6665,
@@ -42698,7 +44271,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 4,
         "armor": 81
-      }
+      },
+      "displayid": "12783"
     },
     {
       "id": 6675,
@@ -42714,7 +44288,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 1,
         "armor": 82
-      }
+      },
+      "displayid": "12804"
     },
     {
       "id": 6722,
@@ -42730,7 +44305,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "sta": 6,
         "armor": 86
-      }
+      },
+      "displayid": "4344"
     },
     {
       "id": 6793,
@@ -42746,7 +44322,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 3,
         "armor": 100
-      }
+      },
+      "displayid": "9378"
     },
     {
       "id": 7281,
@@ -42762,7 +44339,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "str": 1,
         "armor": 29
-      }
+      },
+      "displayid": "14002"
     },
     {
       "id": 7378,
@@ -42777,7 +44355,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 45
-      }
+      },
+      "displayid": "14802"
     },
     {
       "id": 7386,
@@ -42792,7 +44371,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 46
-      }
+      },
+      "displayid": "12844"
     },
     {
       "id": 7924,
@@ -42808,7 +44388,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 7,
         "armor": 105
-      }
+      },
+      "displayid": "2980"
     },
     {
       "id": 8198,
@@ -42824,7 +44405,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 5,
         "armor": 104
-      }
+      },
+      "displayid": "16506"
     },
     {
       "id": 8205,
@@ -42840,7 +44422,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "int": 6,
         "armor": 107
-      }
+      },
+      "displayid": "8197"
     },
     {
       "id": 9638,
@@ -42856,7 +44439,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 10,
         "armor": 119
-      }
+      },
+      "displayid": "28117"
     },
     {
       "id": 10461,
@@ -42872,7 +44456,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 8,
         "armor": 25
-      }
+      },
+      "displayid": "17646"
     },
     {
       "id": 10705,
@@ -42888,7 +44473,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "int": 10,
         "armor": 26
-      }
+      },
+      "displayid": "16027"
     },
     {
       "id": 10746,
@@ -42904,7 +44490,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 11,
         "armor": 210
-      }
+      },
+      "displayid": "28343"
     },
     {
       "id": 11469,
@@ -42920,7 +44507,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 9,
         "armor": 26
-      }
+      },
+      "displayid": "14594"
     },
     {
       "id": 11875,
@@ -42936,7 +44524,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 12,
         "armor": 30
-      }
+      },
+      "displayid": "12046"
     },
     {
       "id": 11917,
@@ -42953,7 +44542,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 12,
         "armor": 31
-      }
+      },
+      "displayid": "28255"
     },
     {
       "id": 12408,
@@ -42978,7 +44568,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 213
-      }
+      },
+      "displayid": "19760"
     },
     {
       "id": 12425,
@@ -42994,7 +44585,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 8,
         "armor": 225
-      }
+      },
+      "displayid": "24511"
     },
     {
       "id": 14550,
@@ -43012,7 +44604,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 8,
         "armor": 68
-      }
+      },
+      "displayid": "15609"
     },
     {
       "id": 15077,
@@ -43028,7 +44621,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 8,
         "armor": 121
-      }
+      },
+      "displayid": "18978"
     },
     {
       "id": 15084,
@@ -43044,7 +44638,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 5,
         "armor": 60
-      }
+      },
+      "displayid": "2881"
     },
     {
       "id": 15092,
@@ -43059,7 +44654,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 62
-      }
+      },
+      "displayid": "7116"
     },
     {
       "id": 15403,
@@ -43075,7 +44671,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 2,
         "armor": 32
-      }
+      },
+      "displayid": "10976"
     },
     {
       "id": 15459,
@@ -43092,7 +44689,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 2,
         "armor": 83
-      }
+      },
+      "displayid": "23366"
     },
     {
       "id": 15462,
@@ -43107,7 +44705,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 37
-      }
+      },
+      "displayid": "10075"
     },
     {
       "id": 15796,
@@ -43123,7 +44722,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 4,
         "armor": 138
-      }
+      },
+      "displayid": "26475"
     },
     {
       "id": 15797,
@@ -43139,7 +44739,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 13,
         "armor": 245
-      }
+      },
+      "displayid": "26476"
     },
     {
       "id": 15864,
@@ -43154,7 +44755,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 22
-      }
+      },
+      "displayid": "3655"
     },
     {
       "id": 16404,
@@ -43187,7 +44789,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 17,
         "armor": 322
-      }
+      },
+      "displayid": "30320"
     },
     {
       "id": 16512,
@@ -43220,7 +44823,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 17,
         "armor": 322
-      }
+      },
+      "displayid": "30369"
     },
     {
       "id": 16664,
@@ -43251,7 +44855,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 5,
         "armor": 21
-      }
+      },
+      "displayid": "17646"
     },
     {
       "id": 16794,
@@ -43268,7 +44873,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 97
-      }
+      },
+      "displayid": "23729"
     },
     {
       "id": 16981,
@@ -43284,7 +44890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "int": 2,
         "armor": 14
-      }
+      },
+      "displayid": "10939"
     },
     {
       "id": 17014,
@@ -43309,7 +44916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "17679"
     },
     {
       "id": 18263,
@@ -43334,7 +44942,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 43
-      }
+      },
+      "displayid": "8171"
     },
     {
       "id": 18429,
@@ -43350,7 +44959,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 17,
         "armor": 287
-      }
+      },
+      "displayid": "27273"
     },
     {
       "id": 18430,
@@ -43366,7 +44976,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 14,
         "armor": 231
-      }
+      },
+      "displayid": "27273"
     },
     {
       "id": 18445,
@@ -43382,7 +44993,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 17,
         "armor": 287
-      }
+      },
+      "displayid": "26664"
     },
     {
       "id": 18447,
@@ -43398,7 +45010,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 14,
         "armor": 231
-      }
+      },
+      "displayid": "26664"
     },
     {
       "id": 18508,
@@ -43414,7 +45027,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 41,
         "armor": 159
-      }
+      },
+      "displayid": "11603"
     },
     {
       "id": 18948,
@@ -43431,7 +45045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 6,
         "armor": 46
-      }
+      },
+      "displayid": "11617"
     },
     {
       "id": 19578,
@@ -43448,7 +45063,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 19,
         "sta": 11,
         "armor": 322
-      }
+      },
+      "displayid": "32088"
     },
     {
       "id": 19580,
@@ -43465,7 +45081,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 9,
         "armor": 275
-      }
+      },
+      "displayid": "32088"
     },
     {
       "id": 19581,
@@ -43482,7 +45099,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 8,
         "armor": 229
-      }
+      },
+      "displayid": "32088"
     },
     {
       "id": 19582,
@@ -43501,7 +45119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 38,
         "ranged_ap": 38,
         "armor": 181
-      }
+      },
+      "displayid": "29218"
     },
     {
       "id": 19583,
@@ -43520,7 +45139,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 34,
         "ranged_ap": 34,
         "armor": 156
-      }
+      },
+      "displayid": "29218"
     },
     {
       "id": 19584,
@@ -43539,7 +45159,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 28,
         "ranged_ap": 28,
         "armor": 130
-      }
+      },
+      "displayid": "29218"
     },
     {
       "id": 19587,
@@ -43556,7 +45177,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 8,
         "armor": 86
-      }
+      },
+      "displayid": "17316"
     },
     {
       "id": 19589,
@@ -43573,7 +45195,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 7,
         "armor": 75
-      }
+      },
+      "displayid": "17316"
     },
     {
       "id": 19590,
@@ -43590,7 +45213,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 6,
         "armor": 63
-      }
+      },
+      "displayid": "17316"
     },
     {
       "id": 19595,
@@ -43607,7 +45231,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 8,
         "armor": 43
-      }
+      },
+      "displayid": "8408"
     },
     {
       "id": 19596,
@@ -43624,7 +45249,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 6,
         "armor": 37
-      }
+      },
+      "displayid": "8408"
     },
     {
       "id": 19597,
@@ -43641,7 +45267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 6,
         "armor": 30
-      }
+      },
+      "displayid": "8408"
     },
     {
       "id": 19687,
@@ -43658,7 +45285,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "hit_rate": 10,
         "armor": 79
-      }
+      },
+      "displayid": "22500"
     },
     {
       "id": 19824,
@@ -43675,7 +45303,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 13,
         "armor": 304
-      }
+      },
+      "displayid": "32417"
     },
     {
       "id": 20281,
@@ -43747,7 +45376,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 159
-      }
+      },
+      "displayid": "26793"
     },
     {
       "id": 20481,
@@ -43764,7 +45394,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 9,
         "armor": 159
-      }
+      },
+      "displayid": "16395"
     },
     {
       "id": 21184,
@@ -43781,7 +45412,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 19,
         "sta": 8,
         "armor": 308
-      }
+      },
+      "displayid": "23832"
     },
     {
       "id": 21186,
@@ -43797,7 +45429,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "hit_rate": 10,
         "armor": 41
-      }
+      },
+      "displayid": "17646"
     },
     {
       "id": 21584,
@@ -43813,7 +45446,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 26,
         "sta": 20,
         "armor": 241
-      }
+      },
+      "displayid": "34181"
     },
     {
       "id": 21587,
@@ -43830,7 +45464,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 13,
         "armor": 430
-      }
+      },
+      "displayid": "34185"
     },
     {
       "id": 21588,
@@ -43846,7 +45481,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 13,
         "armor": 241
-      }
+      },
+      "displayid": "34186"
     },
     {
       "id": 21594,
@@ -43863,7 +45499,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 15,
         "hit_rate": 10,
         "armor": 110
-      }
+      },
+      "displayid": "34187"
     },
     {
       "id": 21602,
@@ -43881,7 +45518,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "hit_rate": 10,
         "armor": 103
-      }
+      },
+      "displayid": "34197"
     },
     {
       "id": 21604,
@@ -43898,7 +45536,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 10,
         "armor": 53
-      }
+      },
+      "displayid": "34199"
     },
     {
       "id": 21611,
@@ -43914,7 +45553,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 13,
         "armor": 53
-      }
+      },
+      "displayid": "34207"
     },
     {
       "id": 21618,
@@ -43930,7 +45570,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 18,
         "str": 23,
         "armor": 384
-      }
+      },
+      "displayid": "34227"
     },
     {
       "id": 21996,
@@ -43948,7 +45589,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "defense": 3,
         "armor": 295
-      }
+      },
+      "displayid": "34612"
     },
     {
       "id": 22004,
@@ -43965,7 +45607,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 7,
         "armor": 79
-      }
+      },
+      "displayid": "34685"
     },
     {
       "id": 22011,
@@ -43982,7 +45625,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 5,
         "armor": 166
-      }
+      },
+      "displayid": "34647"
     },
     {
       "id": 22063,
@@ -43999,7 +45643,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 12,
         "armor": 40
-      }
+      },
+      "displayid": "34601"
     },
     {
       "id": 22071,
@@ -44015,7 +45660,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 12,
         "armor": 40
-      }
+      },
+      "displayid": "34621"
     },
     {
       "id": 22079,
@@ -44032,7 +45678,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 8,
         "armor": 40
-      }
+      },
+      "displayid": "34629"
     },
     {
       "id": 22088,
@@ -44049,7 +45696,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 9,
         "armor": 295
-      }
+      },
+      "displayid": "34522"
     },
     {
       "id": 22095,
@@ -44066,7 +45714,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 9,
         "armor": 166
-      }
+      },
+      "displayid": "34691"
     },
     {
       "id": 22108,
@@ -44085,7 +45734,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 12,
         "armor": 79
-      }
+      },
+      "displayid": "34641"
     },
     {
       "id": 22423,
@@ -44102,7 +45752,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "defense": 5,
         "armor": 430
-      }
+      },
+      "displayid": "35044"
     },
     {
       "id": 22424,
@@ -44118,7 +45769,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "int": 15,
         "armor": 430
-      }
+      },
+      "displayid": "35619"
     },
     {
       "id": 22443,
@@ -44135,7 +45787,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "hit_rate": 10,
         "armor": 241
-      }
+      },
+      "displayid": "35416"
     },
     {
       "id": 22471,
@@ -44151,7 +45804,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "int": 18,
         "armor": 241
-      }
+      },
+      "displayid": "35753"
     },
     {
       "id": 22483,
@@ -44168,7 +45822,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "crit_rate": 14,
         "armor": 110
-      }
+      },
+      "displayid": "35053"
     },
     {
       "id": 22495,
@@ -44184,7 +45839,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 16,
         "armor": 110
-      }
+      },
+      "displayid": "35158"
     },
     {
       "id": 22503,
@@ -44200,7 +45856,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 15,
         "armor": 58
-      }
+      },
+      "displayid": "35677"
     },
     {
       "id": 22511,
@@ -44216,7 +45873,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "int": 14,
         "armor": 58
-      }
+      },
+      "displayid": "35180"
     },
     {
       "id": 22519,
@@ -44233,7 +45891,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 17,
         "int": 15,
         "armor": 58
-      }
+      },
+      "displayid": "35144"
     },
     {
       "id": 22655,
@@ -44258,7 +45917,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 53
-      }
+      },
+      "displayid": "35283"
     },
     {
       "id": 22663,
@@ -44284,7 +45944,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 102
-      }
+      },
+      "displayid": "35287"
     },
     {
       "id": 22665,
@@ -44311,7 +45972,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 221
-      }
+      },
+      "displayid": "35292"
     },
     {
       "id": 22667,
@@ -44338,7 +46000,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 40
-      }
+      },
+      "displayid": "8147"
     },
     {
       "id": 22668,
@@ -44355,7 +46018,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 12,
         "armor": 80
-      }
+      },
+      "displayid": "16420"
     },
     {
       "id": 22671,
@@ -44382,7 +46046,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 393
-      }
+      },
+      "displayid": "35275"
     },
     {
       "id": 210781,
@@ -44396,7 +46061,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_25a",
       "stats": {
         "armor": 20
-      }
+      },
+      "displayid": "14867"
     },
     {
       "id": 250535,
@@ -44410,7 +46076,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "armor": 95
-      }
+      },
+      "displayid": "712851"
     },
     {
       "id": 250581,
@@ -44426,7 +46093,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 8,
         "armor": 231
-      }
+      },
+      "displayid": "712896"
     },
     {
       "id": 250582,
@@ -44442,7 +46110,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 8,
         "armor": 231
-      }
+      },
+      "displayid": "712898"
     },
     {
       "id": 250583,
@@ -44457,7 +46126,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 8,
         "armor": 231
-      }
+      },
+      "displayid": "712895"
     },
     {
       "id": 250584,
@@ -44482,7 +46152,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 231
-      }
+      },
+      "displayid": "712897"
     },
     {
       "id": 250585,
@@ -44497,7 +46168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 8,
         "armor": 231
-      }
+      },
+      "displayid": "712894"
     },
     {
       "id": 250590,
@@ -44513,7 +46185,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 6,
         "armor": 237
-      }
+      },
+      "displayid": "712928"
     },
     {
       "id": 252539,
@@ -44530,7 +46203,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "armor": 63
-      }
+      },
+      "displayid": "714468"
     },
     {
       "id": 252540,
@@ -44547,7 +46221,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "armor": 63
-      }
+      },
+      "displayid": "714488"
     },
     {
       "id": 252541,
@@ -44563,7 +46238,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 9,
         "armor": 115
-      }
+      },
+      "displayid": "714576"
     },
     {
       "id": 252542,
@@ -44579,7 +46255,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 63
-      }
+      },
+      "displayid": "714497"
     },
     {
       "id": 252543,
@@ -44605,7 +46282,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 63
-      }
+      },
+      "displayid": "714449"
     },
     {
       "id": 252557,
@@ -44620,7 +46298,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 11,
         "armor": 66
-      }
+      },
+      "displayid": "714547"
     },
     {
       "id": 252559,
@@ -44636,7 +46315,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 6,
         "armor": 67
-      }
+      },
+      "displayid": "744393"
     },
     {
       "id": 252570,
@@ -44653,7 +46333,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 6,
         "armor": 131
-      }
+      },
+      "displayid": "714517"
     },
     {
       "id": 252571,
@@ -44669,7 +46350,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 131
-      }
+      },
+      "displayid": "714506"
     },
     {
       "id": 252572,
@@ -44685,7 +46367,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "armor": 131
-      }
+      },
+      "displayid": "714480"
     },
     {
       "id": 252573,
@@ -44711,7 +46394,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 131
-      }
+      },
+      "displayid": "714459"
     },
     {
       "id": 252582,
@@ -44726,7 +46410,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 8,
         "armor": 130
-      }
+      },
+      "displayid": "714536"
     },
     {
       "id": 252593,
@@ -44741,7 +46426,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 7,
         "armor": 132
-      }
+      },
+      "displayid": "714390"
     },
     {
       "id": 254019,
@@ -44765,7 +46451,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 23
-      }
+      },
+      "displayid": "715297"
     },
     {
       "id": 254061,
@@ -44791,7 +46478,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 31
-      }
+      },
+      "displayid": "715412"
     },
     {
       "id": 254063,
@@ -44807,7 +46495,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 31
-      }
+      },
+      "displayid": "715413"
     },
     {
       "id": 254065,
@@ -44823,7 +46512,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 31
-      }
+      },
+      "displayid": "715414"
     },
     {
       "id": 254067,
@@ -44839,7 +46529,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 31
-      }
+      },
+      "displayid": "715416"
     },
     {
       "id": 254069,
@@ -44855,7 +46546,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 31
-      }
+      },
+      "displayid": "715417"
     },
     {
       "id": 254071,
@@ -44871,7 +46563,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 31
-      }
+      },
+      "displayid": "715418"
     },
     {
       "id": 254123,
@@ -44885,7 +46578,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 33
-      }
+      },
+      "displayid": "715310"
     },
     {
       "id": 254131,
@@ -44909,7 +46603,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 33
-      }
+      },
+      "displayid": "715305"
     },
     {
       "id": 260183,
@@ -44924,7 +46619,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 6,
         "armor": 69
-      }
+      },
+      "displayid": "717996"
     },
     {
       "id": 263311,
@@ -44938,7 +46634,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 50
-      }
+      },
+      "displayid": "736764"
     },
     {
       "id": 263336,
@@ -44951,7 +46648,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Windsong Bangles",
       "stats": {
         "armor": 10
-      }
+      },
+      "displayid": "736762"
     },
     {
       "id": 263338,
@@ -44966,7 +46664,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 28
-      }
+      },
+      "displayid": "736763"
     },
     {
       "id": 269501,
@@ -44981,7 +46680,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "armor": 183
-      }
+      },
+      "displayid": "26103"
     },
     {
       "id": 270010,
@@ -44997,7 +46697,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 1,
         "armor": 73
-      }
+      },
+      "displayid": "13617"
     },
     {
       "id": 270028,
@@ -45013,7 +46714,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "int": 4,
         "armor": 17
-      }
+      },
+      "displayid": "4376"
     },
     {
       "id": 270033,
@@ -45029,7 +46731,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 3,
         "armor": 38
-      }
+      },
+      "displayid": "11582"
     },
     {
       "id": 270068,
@@ -45045,7 +46748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 3,
         "armor": 99
-      }
+      },
+      "displayid": "22154"
     },
     {
       "id": 270073,
@@ -45061,7 +46765,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 3,
         "armor": 100
-      }
+      },
+      "displayid": "22154"
     },
     {
       "id": 270076,
@@ -45078,7 +46783,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 3,
         "armor": 48
-      }
+      },
+      "displayid": "13514"
     },
     {
       "id": 270080,
@@ -45094,7 +46800,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 7,
         "armor": 48
-      }
+      },
+      "displayid": "13514"
     },
     {
       "id": 270091,
@@ -45110,7 +46817,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 5,
         "armor": 52
-      }
+      },
+      "displayid": "7651"
     },
     {
       "id": 270100,
@@ -45127,7 +46835,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 6,
         "ranged_ap": 6,
         "armor": 55
-      }
+      },
+      "displayid": "17886"
     },
     {
       "id": 270102,
@@ -45143,7 +46852,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "str": 5,
         "armor": 58
-      }
+      },
+      "displayid": "17886"
     },
     {
       "id": 270103,
@@ -45159,7 +46869,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "spi": 5,
         "armor": 121
-      }
+      },
+      "displayid": "26181"
     },
     {
       "id": 270105,
@@ -45175,7 +46886,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "str": 3,
         "armor": 210
-      }
+      },
+      "displayid": "27402"
     },
     {
       "id": 270110,
@@ -45191,7 +46903,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "int": 8,
         "armor": 119
-      }
+      },
+      "displayid": "15661"
     },
     {
       "id": 271732,
@@ -45209,7 +46922,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 8,
         "ranged_ap": 8,
         "armor": 47
-      }
+      },
+      "displayid": "22593"
     },
     {
       "id": 271740,
@@ -45225,7 +46939,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 4,
         "armor": 21
-      }
+      },
+      "displayid": "22593"
     },
     {
       "id": 272186,
@@ -45242,7 +46957,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 14,
         "ranged_ap": 14,
         "armor": 56
-      }
+      },
+      "displayid": "736659"
     },
     {
       "id": 272511,
@@ -45258,7 +46974,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 21,
         "armor": 322
-      }
+      },
+      "displayid": "30369"
     },
     {
       "id": 272579,
@@ -45274,7 +46991,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 15,
         "armor": 274
-      }
+      },
+      "displayid": "27273"
     },
     {
       "id": 272580,
@@ -45290,7 +47008,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 14,
         "armor": 231
-      }
+      },
+      "displayid": "27273"
     },
     {
       "id": 272790,
@@ -45306,7 +47025,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 21,
         "armor": 322
-      }
+      },
+      "displayid": "30320"
     },
     {
       "id": 272828,
@@ -45322,7 +47042,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 15,
         "armor": 274
-      }
+      },
+      "displayid": "26664"
     },
     {
       "id": 274742,
@@ -45337,7 +47058,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "int": 4,
         "armor": 37
-      }
+      },
+      "displayid": "739980"
     },
     {
       "id": 274750,
@@ -45361,7 +47083,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 191
-      }
+      },
+      "displayid": "739986"
     },
     {
       "id": 275390,
@@ -45376,7 +47099,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "armor": 32
-      }
+      },
+      "displayid": "12743"
     },
     {
       "id": 275739,
@@ -45393,7 +47117,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 75
-      }
+      },
+      "displayid": "11760"
     },
     {
       "id": 276722,
@@ -45408,7 +47133,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "int": 4,
         "armor": 78
-      }
+      },
+      "displayid": "742488"
     },
     {
       "id": 276993,
@@ -45422,7 +47148,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 47
-      }
+      },
+      "displayid": "743096"
     },
     {
       "id": 276999,
@@ -45436,7 +47163,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 24
-      }
+      },
+      "displayid": "743008"
     },
     {
       "id": 277005,
@@ -45450,7 +47178,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 24
-      }
+      },
+      "displayid": "743052"
     },
     {
       "id": 277011,
@@ -45464,7 +47193,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 8
-      }
+      },
+      "displayid": "742973"
     },
     {
       "id": 277017,
@@ -45478,7 +47208,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 47
-      }
+      },
+      "displayid": "743123"
     },
     {
       "id": 277023,
@@ -45492,7 +47223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 24
-      }
+      },
+      "displayid": "743042"
     },
     {
       "id": 277029,
@@ -45506,7 +47238,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 24
-      }
+      },
+      "displayid": "743079"
     },
     {
       "id": 277035,
@@ -45520,7 +47253,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 8
-      }
+      },
+      "displayid": "742994"
     },
     {
       "id": 277214,
@@ -45535,7 +47269,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 5,
         "armor": 20
-      }
+      },
+      "displayid": "6173"
     },
     {
       "id": 277222,
@@ -45549,7 +47284,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 53
-      }
+      },
+      "displayid": "743318"
     },
     {
       "id": 277230,
@@ -45564,7 +47300,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 7,
         "armor": 108
-      }
+      },
+      "displayid": "2980"
     },
     {
       "id": 277238,
@@ -45579,7 +47316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 7,
         "armor": 191
-      }
+      },
+      "displayid": "11828"
     },
     {
       "id": 279256,
@@ -45596,7 +47334,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 10,
         "armor": 181
-      }
+      },
+      "displayid": "741918"
     },
     {
       "id": 281251,
@@ -45611,7 +47350,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 3,
         "armor": 36
-      }
+      },
+      "displayid": "2178"
     },
     {
       "id": 281256,
@@ -45626,7 +47366,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 2,
         "armor": 14
-      }
+      },
+      "displayid": "3382"
     },
     {
       "id": 281269,
@@ -45640,7 +47381,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 8
-      }
+      },
+      "displayid": "2992"
     },
     {
       "id": 281270,
@@ -45654,7 +47396,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 24
-      }
+      },
+      "displayid": "3381"
     },
     {
       "id": 281271,
@@ -45668,7 +47411,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 24
-      }
+      },
+      "displayid": "3382"
     },
     {
       "id": 281272,
@@ -45682,7 +47426,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 47
-      }
+      },
+      "displayid": "4331"
     },
     {
       "id": 281273,
@@ -45696,7 +47441,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 47
-      }
+      },
+      "displayid": "4337"
     },
     {
       "id": 281301,
@@ -45711,7 +47457,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 9,
         "armor": 206
-      }
+      },
+      "displayid": "23366"
     },
     {
       "id": 281688,
@@ -45724,7 +47471,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Bracers",
       "stats": {
         "armor": 1
-      }
+      },
+      "displayid": "747334"
     },
     {
       "id": 281696,
@@ -45737,7 +47485,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Wristcuffs",
       "stats": {
         "armor": 7
-      }
+      },
+      "displayid": "747534"
     },
     {
       "id": 281704,
@@ -45750,7 +47499,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Wristguards",
       "stats": {
         "armor": 16
-      }
+      },
+      "displayid": "747598"
     },
     {
       "id": 281712,
@@ -45763,7 +47513,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Wristguards",
       "stats": {
         "armor": 19
-      }
+      },
+      "displayid": "747625"
     }
   ],
   "legs": [
@@ -45781,7 +47532,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 4,
         "armor": 67
-      }
+      },
+      "displayid": "15673"
     },
     {
       "id": 1436,
@@ -45797,7 +47549,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 3,
         "armor": 63
-      }
+      },
+      "displayid": "16733"
     },
     {
       "id": 1832,
@@ -45814,7 +47567,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 3,
         "armor": 26
-      }
+      },
+      "displayid": "16844"
     },
     {
       "id": 2303,
@@ -45829,7 +47583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 48
-      }
+      },
+      "displayid": "5441"
     },
     {
       "id": 2545,
@@ -45846,7 +47601,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 3,
         "armor": 162
-      }
+      },
+      "displayid": "2922"
     },
     {
       "id": 2694,
@@ -45862,7 +47618,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "spi": 3,
         "armor": 138
-      }
+      },
+      "displayid": "24717"
     },
     {
       "id": 2818,
@@ -45878,7 +47635,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "str": 2,
         "armor": 60
-      }
+      },
+      "displayid": "1963"
     },
     {
       "id": 2852,
@@ -45893,7 +47651,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 94
-      }
+      },
+      "displayid": "13095"
     },
     {
       "id": 2865,
@@ -45909,7 +47668,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 4,
         "armor": 149
-      }
+      },
+      "displayid": "4333"
     },
     {
       "id": 2954,
@@ -45925,7 +47685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 8,
         "armor": 39
-      }
+      },
+      "displayid": "14615"
     },
     {
       "id": 3457,
@@ -45941,7 +47702,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 3,
         "armor": 27
-      }
+      },
+      "displayid": "8956"
     },
     {
       "id": 3473,
@@ -45957,7 +47719,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 2,
         "armor": 113
-      }
+      },
+      "displayid": "22459"
     },
     {
       "id": 3578,
@@ -45973,7 +47736,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "spi": 3,
         "armor": 60
-      }
+      },
+      "displayid": "9049"
     },
     {
       "id": 3751,
@@ -45989,7 +47753,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 7,
         "armor": 173
-      }
+      },
+      "displayid": "3083"
     },
     {
       "id": 3842,
@@ -46005,7 +47770,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 8,
         "armor": 175
-      }
+      },
+      "displayid": "9415"
     },
     {
       "id": 4108,
@@ -46021,7 +47787,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "sta": 11,
         "armor": 96
-      }
+      },
+      "displayid": "4439"
     },
     {
       "id": 4242,
@@ -46036,7 +47803,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 60
-      }
+      },
+      "displayid": "9505"
     },
     {
       "id": 4261,
@@ -46051,7 +47819,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 16
-      }
+      },
+      "displayid": "16794"
     },
     {
       "id": 4309,
@@ -46066,7 +47835,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 23
-      }
+      },
+      "displayid": "2656"
     },
     {
       "id": 4316,
@@ -46081,7 +47851,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 31
-      }
+      },
+      "displayid": "4617"
     },
     {
       "id": 4317,
@@ -46096,7 +47867,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 4,
         "armor": 33
-      }
+      },
+      "displayid": "4619"
     },
     {
       "id": 4343,
@@ -46110,7 +47882,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "armor": 16
-      }
+      },
+      "displayid": "1883"
     },
     {
       "id": 4505,
@@ -46126,7 +47899,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 4,
         "armor": 38
-      }
+      },
+      "displayid": "10992"
     },
     {
       "id": 4741,
@@ -46143,7 +47917,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 6,
         "armor": 191
-      }
+      },
+      "displayid": "4912"
     },
     {
       "id": 4800,
@@ -46159,7 +47934,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 154
-      }
+      },
+      "displayid": "697"
     },
     {
       "id": 4816,
@@ -46175,7 +47951,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "spi": 5,
         "armor": 157
-      }
+      },
+      "displayid": "3541"
     },
     {
       "id": 4830,
@@ -46191,7 +47968,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "spi": 6,
         "armor": 79
-      }
+      },
+      "displayid": "6183"
     },
     {
       "id": 4831,
@@ -46207,7 +47985,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 6,
         "armor": 76
-      }
+      },
+      "displayid": "8140"
     },
     {
       "id": 4832,
@@ -46223,7 +48002,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 80
-      }
+      },
+      "displayid": "15766"
     },
     {
       "id": 4909,
@@ -46238,7 +48018,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 4,
         "armor": 60
-      }
+      },
+      "displayid": "6202"
     },
     {
       "id": 4976,
@@ -46253,7 +48034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 17,
         "armor": 98
-      }
+      },
+      "displayid": "8163"
     },
     {
       "id": 5016,
@@ -46269,7 +48051,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "spi": 9,
         "armor": 40
-      }
+      },
+      "displayid": "4293"
     },
     {
       "id": 5310,
@@ -46285,7 +48068,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "spi": 4,
         "armor": 29
-      }
+      },
+      "displayid": "7533"
     },
     {
       "id": 5327,
@@ -46301,7 +48085,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 3,
         "armor": 65
-      }
+      },
+      "displayid": "752110"
     },
     {
       "id": 5617,
@@ -46317,7 +48102,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "str": 2,
         "armor": 56
-      }
+      },
+      "displayid": "5339"
     },
     {
       "id": 5958,
@@ -46333,7 +48119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 5,
         "armor": 69
-      }
+      },
+      "displayid": "2628"
     },
     {
       "id": 5961,
@@ -46348,7 +48135,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 72
-      }
+      },
+      "displayid": "9018"
     },
     {
       "id": 5962,
@@ -46363,7 +48151,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 84
-      }
+      },
+      "displayid": "8426"
     },
     {
       "id": 5963,
@@ -46380,7 +48169,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 7,
         "armor": 87
-      }
+      },
+      "displayid": "8160"
     },
     {
       "id": 6084,
@@ -46395,7 +48185,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "armor": 113
-      }
+      },
+      "displayid": "3058"
     },
     {
       "id": 6282,
@@ -46412,7 +48203,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 5,
         "armor": 38
-      }
+      },
+      "displayid": "10098"
     },
     {
       "id": 6659,
@@ -46428,7 +48220,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "armor": 29
-      }
+      },
+      "displayid": "5839"
     },
     {
       "id": 6671,
@@ -46443,7 +48236,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 165
-      }
+      },
+      "displayid": "4333"
     },
     {
       "id": 6737,
@@ -46459,7 +48253,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 9,
         "armor": 40
-      }
+      },
+      "displayid": "8193"
     },
     {
       "id": 6973,
@@ -46475,7 +48270,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 7,
         "armor": 170
-      }
+      },
+      "displayid": "22481"
     },
     {
       "id": 7046,
@@ -46490,7 +48286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "armor": 36
-      }
+      },
+      "displayid": "12360"
     },
     {
       "id": 7062,
@@ -46505,7 +48302,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "armor": 45
-      }
+      },
+      "displayid": "4310"
     },
     {
       "id": 7132,
@@ -46521,7 +48319,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 7,
         "armor": 170
-      }
+      },
+      "displayid": "3541"
     },
     {
       "id": 7280,
@@ -46536,7 +48335,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 50
-      }
+      },
+      "displayid": "15765"
     },
     {
       "id": 7282,
@@ -46552,7 +48352,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "sta": 3,
         "armor": 66
-      }
+      },
+      "displayid": "3248"
     },
     {
       "id": 7373,
@@ -46567,7 +48368,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 13,
         "armor": 86
-      }
+      },
+      "displayid": "8073"
     },
     {
       "id": 7920,
@@ -46583,7 +48385,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "dodge_rate": 12,
         "armor": 208
-      }
+      },
+      "displayid": "3409"
     },
     {
       "id": 7921,
@@ -46598,7 +48401,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 416
-      }
+      },
+      "displayid": "5611"
     },
     {
       "id": 7926,
@@ -46614,7 +48418,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "dodge_rate": 12,
         "armor": 374
-      }
+      },
+      "displayid": "16103"
     },
     {
       "id": 7929,
@@ -46629,7 +48434,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 17,
         "armor": 208
-      }
+      },
+      "displayid": "14787"
     },
     {
       "id": 8185,
@@ -46645,7 +48451,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 10,
         "armor": 226
-      }
+      },
+      "displayid": "12169"
     },
     {
       "id": 8193,
@@ -46661,7 +48468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 16,
         "sta": 7,
         "armor": 108
-      }
+      },
+      "displayid": "5469"
     },
     {
       "id": 8202,
@@ -46676,7 +48484,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 10,
         "armor": 110
-      }
+      },
+      "displayid": "11838"
     },
     {
       "id": 8206,
@@ -46692,7 +48501,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 17,
         "int": 10,
         "armor": 234
-      }
+      },
+      "displayid": "7765"
     },
     {
       "id": 8212,
@@ -46706,7 +48516,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_14",
       "stats": {
         "armor": 115
-      }
+      },
+      "displayid": "4388"
     },
     {
       "id": 9599,
@@ -46721,7 +48532,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 94
-      }
+      },
+      "displayid": "25239"
     },
     {
       "id": 9652,
@@ -46737,7 +48549,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "str": 15,
         "armor": 121
-      }
+      },
+      "displayid": "5822"
     },
     {
       "id": 9999,
@@ -46752,7 +48565,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 14,
         "armor": 47
-      }
+      },
+      "displayid": "20405"
     },
     {
       "id": 10002,
@@ -46767,7 +48581,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 48
-      }
+      },
+      "displayid": "8236"
     },
     {
       "id": 10009,
@@ -46782,7 +48597,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 12,
         "armor": 49
-      }
+      },
+      "displayid": "7520"
     },
     {
       "id": 10010,
@@ -46807,7 +48623,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 50
-      }
+      },
+      "displayid": "5874"
     },
     {
       "id": 10043,
@@ -46823,7 +48640,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 7,
         "armor": 38
-      }
+      },
+      "displayid": "20209"
     },
     {
       "id": 10047,
@@ -46838,7 +48656,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 24
-      }
+      },
+      "displayid": "10199"
     },
     {
       "id": 10048,
@@ -46853,7 +48672,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 28
-      }
+      },
+      "displayid": "10636"
     },
     {
       "id": 10423,
@@ -46870,7 +48690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 6,
         "armor": 175
-      }
+      },
+      "displayid": "4346"
     },
     {
       "id": 10549,
@@ -46885,7 +48706,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 19
-      }
+      },
+      "displayid": "18108"
     },
     {
       "id": 10740,
@@ -46901,7 +48723,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "str": 15,
         "armor": 443
-      }
+      },
+      "displayid": "9068"
     },
     {
       "id": 10742,
@@ -46918,7 +48741,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "spi": 14,
         "armor": 58
-      }
+      },
+      "displayid": "7080"
     },
     {
       "id": 11882,
@@ -46934,7 +48758,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 16,
         "armor": 264
-      }
+      },
+      "displayid": "27770"
     },
     {
       "id": 11910,
@@ -46951,7 +48776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "dodge_rate": 12,
         "armor": 458
-      }
+      },
+      "displayid": "17932"
     },
     {
       "id": 11911,
@@ -46968,7 +48794,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 18,
         "int": 8,
         "armor": 62
-      }
+      },
+      "displayid": "27598"
     },
     {
       "id": 12041,
@@ -46985,7 +48812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 22,
         "armor": 136
-      }
+      },
+      "displayid": "10724"
     },
     {
       "id": 12105,
@@ -47000,7 +48828,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 13,
         "armor": 281
-      }
+      },
+      "displayid": "24545"
     },
     {
       "id": 12107,
@@ -47015,7 +48844,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 20,
         "armor": 67
-      }
+      },
+      "displayid": "28182"
     },
     {
       "id": 12255,
@@ -47031,7 +48861,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 13,
         "armor": 52
-      }
+      },
+      "displayid": "4765"
     },
     {
       "id": 12256,
@@ -47046,7 +48877,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 15,
         "armor": 55
-      }
+      },
+      "displayid": "7520"
     },
     {
       "id": 12295,
@@ -47061,7 +48893,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 24
-      }
+      },
+      "displayid": "8969"
     },
     {
       "id": 12414,
@@ -47086,7 +48919,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 498
-      }
+      },
+      "displayid": "22545"
     },
     {
       "id": 12420,
@@ -47111,7 +48945,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 286
-      }
+      },
+      "displayid": "25745"
     },
     {
       "id": 12429,
@@ -47127,7 +48962,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 18,
         "armor": 506
-      }
+      },
+      "displayid": "24506"
     },
     {
       "id": 12614,
@@ -47152,7 +48988,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 514
-      }
+      },
+      "displayid": "23485"
     },
     {
       "id": 12619,
@@ -47169,7 +49006,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "defense": 8,
         "armor": 574
-      }
+      },
+      "displayid": "22882"
     },
     {
       "id": 13865,
@@ -47184,7 +49022,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 20,
         "armor": 64
-      }
+      },
+      "displayid": "25208"
     },
     {
       "id": 13871,
@@ -47199,7 +49038,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 63
-      }
+      },
+      "displayid": "8974"
     },
     {
       "id": 14045,
@@ -47214,7 +49054,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 12,
         "armor": 63
-      }
+      },
+      "displayid": "15984"
     },
     {
       "id": 14104,
@@ -47238,7 +49079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 65
-      }
+      },
+      "displayid": "12341"
     },
     {
       "id": 14107,
@@ -47253,7 +49095,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 12,
         "armor": 62
-      }
+      },
+      "displayid": "4310"
     },
     {
       "id": 14132,
@@ -47277,7 +49120,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           16
         ],
         "armor": 62
-      }
+      },
+      "displayid": "8420"
     },
     {
       "id": 14137,
@@ -47303,7 +49147,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11
         ],
         "armor": 72
-      }
+      },
+      "displayid": "2318"
     },
     {
       "id": 14144,
@@ -47318,7 +49163,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 20,
         "armor": 65
-      }
+      },
+      "displayid": "10098"
     },
     {
       "id": 14363,
@@ -47351,7 +49197,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 4,
         "armor": 144
-      }
+      },
+      "displayid": "22807"
     },
     {
       "id": 15046,
@@ -47386,7 +49233,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 281
-      }
+      },
+      "displayid": "12840"
     },
     {
       "id": 15052,
@@ -47413,7 +49261,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 319
-      }
+      },
+      "displayid": "26918"
     },
     {
       "id": 15054,
@@ -47438,7 +49287,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 123
-      }
+      },
+      "displayid": "5488"
     },
     {
       "id": 15057,
@@ -47454,7 +49304,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dodge_rate": 12,
         "crit_rate": 28,
         "armor": 138
-      }
+      },
+      "displayid": "3833"
     },
     {
       "id": 15060,
@@ -47490,7 +49341,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 142
-      }
+      },
+      "displayid": "8345"
     },
     {
       "id": 15062,
@@ -47508,7 +49360,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 46,
         "crit_rate": 14,
         "armor": 148
-      }
+      },
+      "displayid": "8160"
     },
     {
       "id": 15065,
@@ -47525,7 +49378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 28,
         "sta": 12,
         "armor": 142
-      }
+      },
+      "displayid": "11014"
     },
     {
       "id": 15069,
@@ -47550,7 +49404,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 129
-      }
+      },
+      "displayid": "5822"
     },
     {
       "id": 15072,
@@ -47575,7 +49430,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           16
         ],
         "armor": 127
-      }
+      },
+      "displayid": "5479"
     },
     {
       "id": 15079,
@@ -47591,7 +49447,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 20,
         "sta": 12,
         "armor": 269
-      }
+      },
+      "displayid": "11280"
     },
     {
       "id": 15087,
@@ -47607,7 +49464,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 20,
         "sta": 12,
         "armor": 131
-      }
+      },
+      "displayid": "1512"
     },
     {
       "id": 15095,
@@ -47622,7 +49480,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "armor": 134
-      }
+      },
+      "displayid": "8389"
     },
     {
       "id": 15202,
@@ -47639,7 +49498,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "spi": 2,
         "armor": 65
-      }
+      },
+      "displayid": "7834"
     },
     {
       "id": 15203,
@@ -47656,7 +49516,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 1,
         "armor": 141
-      }
+      },
+      "displayid": "23707"
     },
     {
       "id": 15456,
@@ -47672,7 +49533,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 5,
         "armor": 91
-      }
+      },
+      "displayid": "7011"
     },
     {
       "id": 15470,
@@ -47688,7 +49550,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 8,
         "armor": 170
-      }
+      },
+      "displayid": "28290"
     },
     {
       "id": 16431,
@@ -47705,7 +49568,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "crit_rate": 28,
         "armor": 574
-      }
+      },
+      "displayid": "26659"
     },
     {
       "id": 16479,
@@ -47723,7 +49587,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 10,
         "armor": 742
-      }
+      },
+      "displayid": "30317"
     },
     {
       "id": 16515,
@@ -47740,7 +49605,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "crit_rate": 28,
         "armor": 574
-      }
+      },
+      "displayid": "27275"
     },
     {
       "id": 16543,
@@ -47758,7 +49624,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "hit_rate": 10,
         "armor": 742
-      }
+      },
+      "displayid": "30375"
     },
     {
       "id": 17006,
@@ -47775,7 +49642,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 7,
         "armor": 165
-      }
+      },
+      "displayid": "24311"
     },
     {
       "id": 17013,
@@ -47800,7 +49668,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "28843"
     },
     {
       "id": 19117,
@@ -47816,7 +49685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 10,
         "armor": 420
-      }
+      },
+      "displayid": "27383"
     },
     {
       "id": 19124,
@@ -47833,7 +49703,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "defense": 3,
         "armor": 404
-      }
+      },
+      "displayid": "14875"
     },
     {
       "id": 19165,
@@ -47858,7 +49729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 93
-      }
+      },
+      "displayid": "31685"
     },
     {
       "id": 19683,
@@ -47874,7 +49746,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "hit_rate": 10,
         "armor": 80
-      }
+      },
+      "displayid": "7939"
     },
     {
       "id": 19694,
@@ -47890,7 +49763,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "hit_rate": 20,
         "armor": 721
-      }
+      },
+      "displayid": "25550"
     },
     {
       "id": 19742,
@@ -47906,7 +49780,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 29,
         "armor": 148
-      }
+      },
+      "displayid": "32192"
     },
     {
       "id": 20287,
@@ -47947,7 +49822,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12
         ],
         "armor": 310
-      }
+      },
+      "displayid": "28447"
     },
     {
       "id": 20320,
@@ -48004,7 +49880,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           0
         ]
-      }
+      },
+      "displayid": "2018"
     },
     {
       "id": 20538,
@@ -48029,7 +49906,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 78
-      }
+      },
+      "displayid": "20405"
     },
     {
       "id": 20639,
@@ -48048,7 +49926,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 21,
         "armor": 711
-      }
+      },
+      "displayid": "13382"
     },
     {
       "id": 20699,
@@ -48074,7 +49953,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 574
-      }
+      },
+      "displayid": "13206"
     },
     {
       "id": 20700,
@@ -48100,7 +49980,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 574
-      }
+      },
+      "displayid": "13206"
     },
     {
       "id": 20701,
@@ -48126,7 +50007,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 324
-      }
+      },
+      "displayid": "9415"
     },
     {
       "id": 20702,
@@ -48152,7 +50034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 324
-      }
+      },
+      "displayid": "9415"
     },
     {
       "id": 20703,
@@ -48179,7 +50062,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 154
-      }
+      },
+      "displayid": "4388"
     },
     {
       "id": 20704,
@@ -48214,7 +50098,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 154
-      }
+      },
+      "displayid": "4388"
     },
     {
       "id": 20705,
@@ -48239,7 +50124,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 78
-      }
+      },
+      "displayid": "27598"
     },
     {
       "id": 20706,
@@ -48264,7 +50150,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 78
-      }
+      },
+      "displayid": "27598"
     },
     {
       "id": 20707,
@@ -48299,7 +50186,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 78
-      }
+      },
+      "displayid": "27598"
     },
     {
       "id": 21316,
@@ -48315,7 +50203,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "crit_rate": 14,
         "armor": 458
-      }
+      },
+      "displayid": "14787"
     },
     {
       "id": 21332,
@@ -48334,7 +50223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 6,
         "hit_rate": 10,
         "armor": 796
-      }
+      },
+      "displayid": "33713"
     },
     {
       "id": 21530,
@@ -48361,7 +50251,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 427
-      }
+      },
+      "displayid": "17700"
     },
     {
       "id": 21667,
@@ -48379,7 +50270,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 23,
         "crit_rate": 14,
         "armor": 749
-      }
+      },
+      "displayid": "17950"
     },
     {
       "id": 22000,
@@ -48397,7 +50289,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "defense": 5,
         "armor": 600
-      }
+      },
+      "displayid": "34615"
     },
     {
       "id": 22007,
@@ -48414,7 +50307,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 15,
         "armor": 160
-      }
+      },
+      "displayid": "34687"
     },
     {
       "id": 22017,
@@ -48431,7 +50325,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 9,
         "armor": 338
-      }
+      },
+      "displayid": "34652"
     },
     {
       "id": 22067,
@@ -48448,7 +50343,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 22,
         "armor": 81
-      }
+      },
+      "displayid": "34598"
     },
     {
       "id": 22072,
@@ -48464,7 +50360,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "int": 21,
         "armor": 81
-      }
+      },
+      "displayid": "34622"
     },
     {
       "id": 22085,
@@ -48481,7 +50378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 14,
         "armor": 81
-      }
+      },
+      "displayid": "34635"
     },
     {
       "id": 22092,
@@ -48499,7 +50397,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 17,
         "armor": 600
-      }
+      },
+      "displayid": "34525"
     },
     {
       "id": 22100,
@@ -48517,7 +50416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 17,
         "armor": 338
-      }
+      },
+      "displayid": "34696"
     },
     {
       "id": 22111,
@@ -48536,7 +50436,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 14,
         "armor": 160
-      }
+      },
+      "displayid": "34642"
     },
     {
       "id": 22385,
@@ -48553,7 +50454,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 20,
         "armor": 598
-      }
+      },
+      "displayid": "34890"
     },
     {
       "id": 22417,
@@ -48572,7 +50474,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 13,
         "dodge_rate": 12,
         "armor": 861
-      }
+      },
+      "displayid": "35051"
     },
     {
       "id": 22427,
@@ -48589,7 +50492,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 31,
         "crit_rate": 14,
         "armor": 861
-      }
+      },
+      "displayid": "35616"
     },
     {
       "id": 22437,
@@ -48607,7 +50511,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 483
-      }
+      },
+      "displayid": "35413"
     },
     {
       "id": 22465,
@@ -48623,7 +50528,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "int": 30,
         "armor": 483
-      }
+      },
+      "displayid": "35754"
     },
     {
       "id": 22477,
@@ -48642,7 +50548,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 221
-      }
+      },
+      "displayid": "35065"
     },
     {
       "id": 22489,
@@ -48659,7 +50566,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 20,
         "int": 26,
         "armor": 221
-      }
+      },
+      "displayid": "35161"
     },
     {
       "id": 22497,
@@ -48677,7 +50585,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 26,
         "hit_rate": 10,
         "armor": 116
-      }
+      },
+      "displayid": "35522"
     },
     {
       "id": 22505,
@@ -48694,7 +50603,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 25,
         "crit_rate": 14,
         "armor": 116
-      }
+      },
+      "displayid": "35184"
     },
     {
       "id": 22513,
@@ -48711,7 +50621,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 28,
         "int": 26,
         "armor": 116
-      }
+      },
+      "displayid": "35154"
     },
     {
       "id": 22651,
@@ -48729,7 +50640,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 645
-      }
+      },
+      "displayid": "23403"
     },
     {
       "id": 22672,
@@ -48747,7 +50659,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 645
-      }
+      },
+      "displayid": "23403"
     },
     {
       "id": 22673,
@@ -48765,7 +50678,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 363
-      }
+      },
+      "displayid": "33854"
     },
     {
       "id": 22676,
@@ -48783,7 +50697,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 22,
         "crit_rate": 14,
         "armor": 363
-      }
+      },
+      "displayid": "33854"
     },
     {
       "id": 22690,
@@ -48801,7 +50716,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 338
-      }
+      },
+      "displayid": "7193"
     },
     {
       "id": 22699,
@@ -48828,7 +50744,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 786
-      }
+      },
+      "displayid": "35278"
     },
     {
       "id": 22700,
@@ -48853,7 +50770,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 106
-      }
+      },
+      "displayid": "35282"
     },
     {
       "id": 22701,
@@ -48879,7 +50797,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 204
-      }
+      },
+      "displayid": "35289"
     },
     {
       "id": 22702,
@@ -48905,7 +50824,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 442
-      }
+      },
+      "displayid": "35295"
     },
     {
       "id": 22740,
@@ -48922,7 +50842,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 27,
         "crit_rate": 14,
         "armor": 232
-      }
+      },
+      "displayid": "3833"
     },
     {
       "id": 22741,
@@ -48941,7 +50862,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 22,
         "armor": 262
-      }
+      },
+      "displayid": "8389"
     },
     {
       "id": 22747,
@@ -48958,7 +50880,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 19,
         "armor": 187
-      }
+      },
+      "displayid": "20405"
     },
     {
       "id": 22748,
@@ -48976,7 +50899,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 363
-      }
+      },
+      "displayid": "33854"
     },
     {
       "id": 22749,
@@ -48993,7 +50917,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 27,
         "crit_rate": 14,
         "armor": 232
-      }
+      },
+      "displayid": "3833"
     },
     {
       "id": 22750,
@@ -49012,7 +50937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 22,
         "armor": 262
-      }
+      },
+      "displayid": "8389"
     },
     {
       "id": 22752,
@@ -49029,7 +50955,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 19,
         "armor": 187
-      }
+      },
+      "displayid": "20405"
     },
     {
       "id": 22753,
@@ -49047,7 +50974,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 645
-      }
+      },
+      "displayid": "23663"
     },
     {
       "id": 22873,
@@ -49064,7 +50992,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 28,
         "armor": 618
-      }
+      },
+      "displayid": "27275"
     },
     {
       "id": 23301,
@@ -49081,7 +51010,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 28,
         "armor": 618
-      }
+      },
+      "displayid": "26659"
     },
     {
       "id": 250484,
@@ -49096,7 +51026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 162
-      }
+      },
+      "displayid": "712958"
     },
     {
       "id": 250493,
@@ -49112,7 +51043,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 7,
         "armor": 175
-      }
+      },
+      "displayid": "712825"
     },
     {
       "id": 250494,
@@ -49128,7 +51060,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "defense": 7,
         "armor": 175
-      }
+      },
+      "displayid": "712819"
     },
     {
       "id": 250495,
@@ -49143,7 +51076,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "defense": 7,
         "armor": 175
-      }
+      },
+      "displayid": "712825"
     },
     {
       "id": 250496,
@@ -49169,7 +51103,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 175
-      }
+      },
+      "displayid": "712757"
     },
     {
       "id": 250497,
@@ -49184,7 +51119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 7,
         "armor": 175
-      }
+      },
+      "displayid": "712814"
     },
     {
       "id": 250523,
@@ -49200,7 +51136,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 8,
         "armor": 190
-      }
+      },
+      "displayid": "712825"
     },
     {
       "id": 250524,
@@ -49216,7 +51153,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 8,
         "armor": 190
-      }
+      },
+      "displayid": "712819"
     },
     {
       "id": 250525,
@@ -49231,7 +51169,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "defense": 8,
         "armor": 190
-      }
+      },
+      "displayid": "712825"
     },
     {
       "id": 250526,
@@ -49256,7 +51195,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 190
-      }
+      },
+      "displayid": "712757"
     },
     {
       "id": 250527,
@@ -49271,7 +51211,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 8,
         "armor": 190
-      }
+      },
+      "displayid": "712814"
     },
     {
       "id": 250536,
@@ -49285,7 +51226,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 195
-      }
+      },
+      "displayid": "712843"
     },
     {
       "id": 250544,
@@ -49299,7 +51241,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "armor": 412
-      }
+      },
+      "displayid": "712973"
     },
     {
       "id": 250591,
@@ -49315,7 +51258,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 20,
         "armor": 490
-      }
+      },
+      "displayid": "712926"
     },
     {
       "id": 250596,
@@ -49330,7 +51274,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "defense": 9,
         "armor": 574
-      }
+      },
+      "displayid": "712934"
     },
     {
       "id": 250598,
@@ -49345,7 +51290,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "crit_rate": 14,
         "armor": 608
-      }
+      },
+      "displayid": "741548"
     },
     {
       "id": 250600,
@@ -49370,7 +51316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           25
         ],
         "armor": 608
-      }
+      },
+      "displayid": "712945"
     },
     {
       "id": 252445,
@@ -49386,7 +51333,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 6,
         "armor": 124
-      }
+      },
+      "displayid": "714403"
     },
     {
       "id": 252446,
@@ -49402,7 +51350,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 82
-      }
+      },
+      "displayid": "714555"
     },
     {
       "id": 252457,
@@ -49418,7 +51367,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 9,
         "armor": 148
-      }
+      },
+      "displayid": "714402"
     },
     {
       "id": 252458,
@@ -49434,7 +51384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 90
-      }
+      },
+      "displayid": "714554"
     },
     {
       "id": 252478,
@@ -49450,7 +51401,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 16,
         "armor": 127
-      }
+      },
+      "displayid": "746819"
     },
     {
       "id": 252486,
@@ -49465,7 +51417,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 18,
         "crit_rate": 14,
         "armor": 163
-      }
+      },
+      "displayid": "714420"
     },
     {
       "id": 252500,
@@ -49482,7 +51435,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "armor": 82
-      }
+      },
+      "displayid": "714385"
     },
     {
       "id": 252501,
@@ -49499,7 +51453,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 4,
         "armor": 82
-      }
+      },
+      "displayid": "714562"
     },
     {
       "id": 252502,
@@ -49515,7 +51470,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 82
-      }
+      },
+      "displayid": "714526"
     },
     {
       "id": 252503,
@@ -49541,7 +51497,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 82
-      }
+      },
+      "displayid": "714588"
     },
     {
       "id": 252516,
@@ -49558,7 +51515,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 6,
         "armor": 90
-      }
+      },
+      "displayid": "714384"
     },
     {
       "id": 252517,
@@ -49575,7 +51533,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 7,
         "armor": 90
-      }
+      },
+      "displayid": "714561"
     },
     {
       "id": 252518,
@@ -49592,7 +51551,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "int": 7,
         "armor": 90
-      }
+      },
+      "displayid": "714525"
     },
     {
       "id": 252519,
@@ -49618,7 +51578,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 90
-      }
+      },
+      "displayid": "714590"
     },
     {
       "id": 252560,
@@ -49633,7 +51594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 17,
         "armor": 136
-      }
+      },
+      "displayid": "714549"
     },
     {
       "id": 252580,
@@ -49648,7 +51610,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 16,
         "armor": 252
-      }
+      },
+      "displayid": "744348"
     },
     {
       "id": 252600,
@@ -49663,7 +51626,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 9,
         "armor": 277
-      }
+      },
+      "displayid": "714392"
     },
     {
       "id": 252603,
@@ -49687,7 +51651,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           20
         ],
         "armor": 343
-      }
+      },
+      "displayid": "714475"
     },
     {
       "id": 252606,
@@ -49702,7 +51667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "crit_rate": 14,
         "armor": 343
-      }
+      },
+      "displayid": "714465"
     },
     {
       "id": 253937,
@@ -49728,7 +51694,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 37
-      }
+      },
+      "displayid": "715248"
     },
     {
       "id": 253939,
@@ -49744,7 +51711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 37
-      }
+      },
+      "displayid": "715260"
     },
     {
       "id": 253941,
@@ -49760,7 +51728,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 37
-      }
+      },
+      "displayid": "715273"
     },
     {
       "id": 253943,
@@ -49776,7 +51745,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 37
-      }
+      },
+      "displayid": "715277"
     },
     {
       "id": 253945,
@@ -49792,7 +51762,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 37
-      }
+      },
+      "displayid": "715286"
     },
     {
       "id": 253947,
@@ -49808,7 +51779,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 37
-      }
+      },
+      "displayid": "715292"
     },
     {
       "id": 253987,
@@ -49834,7 +51806,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 41
-      }
+      },
+      "displayid": "715248"
     },
     {
       "id": 253989,
@@ -49850,7 +51823,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 41
-      }
+      },
+      "displayid": "715260"
     },
     {
       "id": 253991,
@@ -49866,7 +51840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 41
-      }
+      },
+      "displayid": "715273"
     },
     {
       "id": 253993,
@@ -49882,7 +51857,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 41
-      }
+      },
+      "displayid": "715277"
     },
     {
       "id": 253995,
@@ -49898,7 +51874,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 41
-      }
+      },
+      "displayid": "715286"
     },
     {
       "id": 253997,
@@ -49914,7 +51891,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 41
-      }
+      },
+      "displayid": "715292"
     },
     {
       "id": 253999,
@@ -49938,7 +51916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 40
-      }
+      },
+      "displayid": "715294"
     },
     {
       "id": 254125,
@@ -49962,7 +51941,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13
         ],
         "armor": 65
-      }
+      },
+      "displayid": "715304"
     },
     {
       "id": 257342,
@@ -49976,7 +51956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "armor": 113
-      }
+      },
+      "displayid": "736781"
     },
     {
       "id": 263307,
@@ -49989,7 +51970,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shadowgale Pants",
       "stats": {
         "armor": 18
-      }
+      },
+      "displayid": "736778"
     },
     {
       "id": 263330,
@@ -50003,7 +51985,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 56
-      }
+      },
+      "displayid": "736780"
     },
     {
       "id": 263340,
@@ -50017,7 +52000,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 3,
         "armor": 113
-      }
+      },
+      "displayid": "736777"
     },
     {
       "id": 270011,
@@ -50032,7 +52016,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 30
-      }
+      },
+      "displayid": "4310"
     },
     {
       "id": 270014,
@@ -50048,7 +52033,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 3,
         "armor": 67
-      }
+      },
+      "displayid": "15673"
     },
     {
       "id": 270020,
@@ -50064,7 +52050,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 4,
         "armor": 73
-      }
+      },
+      "displayid": "2018"
     },
     {
       "id": 270037,
@@ -50080,7 +52067,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 9,
         "armor": 79
-      }
+      },
+      "displayid": "691"
     },
     {
       "id": 270056,
@@ -50096,7 +52084,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 9,
         "armor": 42
-      }
+      },
+      "displayid": "25280"
     },
     {
       "id": 270057,
@@ -50113,7 +52102,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 6,
         "armor": 91
-      }
+      },
+      "displayid": "9749"
     },
     {
       "id": 270077,
@@ -50130,7 +52120,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 8,
         "armor": 201
-      }
+      },
+      "displayid": "23944"
     },
     {
       "id": 270083,
@@ -50146,7 +52137,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 9,
         "armor": 100
-      }
+      },
+      "displayid": "6865"
     },
     {
       "id": 270090,
@@ -50161,7 +52153,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 50
-      }
+      },
+      "displayid": "5874"
     },
     {
       "id": 270097,
@@ -50177,7 +52170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 17,
         "sta": 6,
         "armor": 221
-      }
+      },
+      "displayid": "2989"
     },
     {
       "id": 270111,
@@ -50193,7 +52187,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "str": 17,
         "armor": 117
-      }
+      },
+      "displayid": "8204"
     },
     {
       "id": 270114,
@@ -50210,7 +52205,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "spi": 8,
         "armor": 117
-      }
+      },
+      "displayid": "12918"
     },
     {
       "id": 270122,
@@ -50227,7 +52223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 9,
         "armor": 125
-      }
+      },
+      "displayid": "3826"
     },
     {
       "id": 272481,
@@ -50244,7 +52241,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 25,
         "armor": 548
-      }
+      },
+      "displayid": "27275"
     },
     {
       "id": 272508,
@@ -50261,7 +52259,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 21,
         "sta": 34,
         "armor": 645
-      }
+      },
+      "displayid": "30375"
     },
     {
       "id": 272740,
@@ -50278,7 +52277,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 25,
         "armor": 548
-      }
+      },
+      "displayid": "26659"
     },
     {
       "id": 272788,
@@ -50295,7 +52295,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 21,
         "sta": 34,
         "armor": 645
-      }
+      },
+      "displayid": "30317"
     },
     {
       "id": 274741,
@@ -50309,7 +52310,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 33
-      }
+      },
+      "displayid": "739979"
     },
     {
       "id": 274939,
@@ -50325,7 +52327,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 8,
         "armor": 208
-      }
+      },
+      "displayid": "4418"
     },
     {
       "id": 274943,
@@ -50341,7 +52344,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "int": 11,
         "armor": 208
-      }
+      },
+      "displayid": "4912"
     },
     {
       "id": 276201,
@@ -50356,7 +52360,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 13,
         "armor": 217
-      }
+      },
+      "displayid": "741383"
     },
     {
       "id": 276339,
@@ -50373,7 +52378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 9,
         "armor": 134
-      }
+      },
+      "displayid": "10071"
     },
     {
       "id": 276340,
@@ -50390,7 +52396,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "spi": 5,
         "armor": 134
-      }
+      },
+      "displayid": "741549"
     },
     {
       "id": 276538,
@@ -50431,7 +52438,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 107
-      }
+      },
+      "displayid": "743098"
     },
     {
       "id": 277002,
@@ -50445,7 +52453,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 54
-      }
+      },
+      "displayid": "743010"
     },
     {
       "id": 277008,
@@ -50459,7 +52468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 54
-      }
+      },
+      "displayid": "743054"
     },
     {
       "id": 277014,
@@ -50473,7 +52483,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 19
-      }
+      },
+      "displayid": "742971"
     },
     {
       "id": 277020,
@@ -50487,7 +52498,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 107
-      }
+      },
+      "displayid": "743121"
     },
     {
       "id": 277026,
@@ -50501,7 +52513,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 54
-      }
+      },
+      "displayid": "743040"
     },
     {
       "id": 277032,
@@ -50515,7 +52528,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 54
-      }
+      },
+      "displayid": "743077"
     },
     {
       "id": 277038,
@@ -50529,7 +52543,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 19
-      }
+      },
+      "displayid": "742996"
     },
     {
       "id": 277217,
@@ -50544,7 +52559,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 8,
         "armor": 51
-      }
+      },
+      "displayid": "3248"
     },
     {
       "id": 277225,
@@ -50560,7 +52576,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 25,
         "ranged_ap": 25,
         "armor": 106
-      }
+      },
+      "displayid": "743319"
     },
     {
       "id": 277233,
@@ -50575,7 +52592,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 14,
         "armor": 217
-      }
+      },
+      "displayid": "27020"
     },
     {
       "id": 277241,
@@ -50589,7 +52607,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "armor": 464
-      }
+      },
+      "displayid": "9068"
     },
     {
       "id": 279254,
@@ -50615,7 +52634,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13
         ],
         "armor": 172
-      }
+      },
+      "displayid": "741864"
     },
     {
       "id": 279265,
@@ -50632,7 +52652,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 24,
         "sta": 27,
         "armor": 645
-      }
+      },
+      "displayid": "741992"
     },
     {
       "id": 281267,
@@ -50646,7 +52667,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 81
-      }
+      },
+      "displayid": "24717"
     },
     {
       "id": 281283,
@@ -50660,7 +52682,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 18
-      }
+      },
+      "displayid": "2628"
     },
     {
       "id": 281295,
@@ -50675,7 +52698,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 9,
         "armor": 83
-      }
+      },
+      "displayid": "5680"
     },
     {
       "id": 281298,
@@ -50690,7 +52714,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "int": 16,
         "armor": 55
-      }
+      },
+      "displayid": "7947"
     },
     {
       "id": 281309,
@@ -50705,7 +52730,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 6,
         "armor": 81
-      }
+      },
+      "displayid": "28591"
     },
     {
       "id": 281310,
@@ -50720,7 +52746,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 8,
         "armor": 81
-      }
+      },
+      "displayid": "5839"
     },
     {
       "id": 281316,
@@ -50735,7 +52762,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 9,
         "armor": 243
-      }
+      },
+      "displayid": "27770"
     },
     {
       "id": 281691,
@@ -50748,7 +52776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Pants",
       "stats": {
         "armor": 2
-      }
+      },
+      "displayid": "747403"
     },
     {
       "id": 281699,
@@ -50761,7 +52790,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Chaps",
       "stats": {
         "armor": 15
-      }
+      },
+      "displayid": "747540"
     },
     {
       "id": 281707,
@@ -50774,7 +52804,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Legguards",
       "stats": {
         "armor": 33
-      }
+      },
+      "displayid": "747610"
     },
     {
       "id": 281715,
@@ -50787,7 +52818,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Legs",
       "stats": {
         "armor": 38
-      }
+      },
+      "displayid": "752454"
     }
   ],
   "robe": [
@@ -50804,7 +52836,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "10895"
     },
     {
       "id": 2231,
@@ -50818,7 +52851,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_25",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "16671"
     },
     {
       "id": 2572,
@@ -50833,7 +52867,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 0
-      }
+      },
+      "displayid": "10621"
     },
     {
       "id": 2585,
@@ -50848,7 +52883,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 0
-      }
+      },
+      "displayid": "10896"
     },
     {
       "id": 3161,
@@ -50863,7 +52899,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "16696"
     },
     {
       "id": 3461,
@@ -50878,7 +52915,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "12213"
     },
     {
       "id": 3555,
@@ -50894,7 +52932,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "16615"
     },
     {
       "id": 3558,
@@ -50909,7 +52948,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "armor": 0
-      }
+      },
+      "displayid": "16528"
     },
     {
       "id": 4120,
@@ -50926,7 +52966,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 10,
         "armor": 0
-      }
+      },
+      "displayid": "16695"
     },
     {
       "id": 4782,
@@ -50943,7 +52984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 1,
         "armor": 0
-      }
+      },
+      "displayid": "16811"
     },
     {
       "id": 4989,
@@ -50959,7 +53001,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "spi": 18,
         "armor": 0
-      }
+      },
+      "displayid": "16673"
     },
     {
       "id": 5766,
@@ -50974,7 +53017,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "8864"
     },
     {
       "id": 5770,
@@ -50989,7 +53033,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "armor": 0
-      }
+      },
+      "displayid": "8865"
     },
     {
       "id": 5812,
@@ -51005,7 +53050,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "9053"
     },
     {
       "id": 6238,
@@ -51020,7 +53066,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "10465"
     },
     {
       "id": 6241,
@@ -51035,7 +53082,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 0
-      }
+      },
+      "displayid": "17123"
     },
     {
       "id": 6242,
@@ -51050,7 +53098,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "8853"
     },
     {
       "id": 6243,
@@ -51065,7 +53114,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 0
-      }
+      },
+      "displayid": "10894"
     },
     {
       "id": 6263,
@@ -51081,7 +53131,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "11037"
     },
     {
       "id": 6264,
@@ -51097,7 +53148,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "12716"
     },
     {
       "id": 6503,
@@ -51113,7 +53165,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "12283"
     },
     {
       "id": 6787,
@@ -51129,7 +53182,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "13046"
     },
     {
       "id": 6801,
@@ -51146,7 +53200,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 7,
         "armor": 0
-      }
+      },
+      "displayid": "13077"
     },
     {
       "id": 7054,
@@ -51162,7 +53217,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 12,
         "armor": 0
-      }
+      },
+      "displayid": "17133"
     },
     {
       "id": 7063,
@@ -51177,7 +53233,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 15,
         "armor": 0
-      }
+      },
+      "displayid": "5483"
     },
     {
       "id": 7334,
@@ -51193,7 +53250,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "16523"
     },
     {
       "id": 8200,
@@ -51208,7 +53266,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 14,
         "armor": 0
-      }
+      },
+      "displayid": "13666"
     },
     {
       "id": 9598,
@@ -51223,7 +53282,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "16811"
     },
     {
       "id": 9649,
@@ -51240,7 +53300,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 3,
         "armor": 0
-      }
+      },
+      "displayid": "26513"
     },
     {
       "id": 10001,
@@ -51256,7 +53317,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "4368"
     },
     {
       "id": 10004,
@@ -51271,7 +53333,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "armor": 0
-      }
+      },
+      "displayid": "24950"
     },
     {
       "id": 10042,
@@ -51285,7 +53348,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_25",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "14606"
     },
     {
       "id": 10143,
@@ -51299,7 +53363,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_12",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "27645"
     },
     {
       "id": 13080,
@@ -51326,7 +53391,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13
         ],
         "armor": 0
-      }
+      },
+      "displayid": "23604"
     },
     {
       "id": 13858,
@@ -51341,7 +53407,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 17,
         "armor": 0
-      }
+      },
+      "displayid": "21957"
     },
     {
       "id": 13868,
@@ -51356,7 +53423,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 0
-      }
+      },
+      "displayid": "24612"
     },
     {
       "id": 14100,
@@ -51380,7 +53448,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "15820"
     },
     {
       "id": 14106,
@@ -51395,7 +53464,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "24932"
     },
     {
       "id": 14128,
@@ -51419,7 +53489,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           18
         ],
         "armor": 0
-      }
+      },
+      "displayid": "17275"
     },
     {
       "id": 14136,
@@ -51434,7 +53505,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 12,
         "armor": 0
-      }
+      },
+      "displayid": "24612"
     },
     {
       "id": 15455,
@@ -51449,7 +53521,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "24189"
     },
     {
       "id": 18486,
@@ -51475,7 +53548,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 0
-      }
+      },
+      "displayid": "30823"
     },
     {
       "id": 19129,
@@ -51491,7 +53565,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "int": 11,
         "armor": 0
-      }
+      },
+      "displayid": "21719"
     },
     {
       "id": 19156,
@@ -51516,7 +53591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "16668"
     },
     {
       "id": 20360,
@@ -51545,7 +53621,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_17",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "32841"
     },
     {
       "id": 21527,
@@ -51571,7 +53648,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "30868"
     },
     {
       "id": 21663,
@@ -51597,7 +53675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           23
         ],
         "armor": 0
-      }
+      },
+      "displayid": "29242"
     },
     {
       "id": 22069,
@@ -51614,7 +53693,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 25,
         "armor": 0
-      }
+      },
+      "displayid": "34596"
     },
     {
       "id": 22075,
@@ -51631,7 +53711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 22,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34625"
     },
     {
       "id": 22083,
@@ -51648,7 +53729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 22,
         "armor": 0
-      }
+      },
+      "displayid": "34633"
     },
     {
       "id": 22496,
@@ -51666,7 +53748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "35523"
     },
     {
       "id": 22504,
@@ -51684,7 +53767,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "35185"
     },
     {
       "id": 22512,
@@ -51701,7 +53785,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 21,
         "int": 27,
         "armor": 0
-      }
+      },
+      "displayid": "36354"
     },
     {
       "id": 253901,
@@ -51727,7 +53812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 0
-      }
+      },
+      "displayid": "715246"
     },
     {
       "id": 263332,
@@ -51741,7 +53827,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "737475"
     },
     {
       "id": 274941,
@@ -51756,7 +53843,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 0
-      }
+      },
+      "displayid": "740090"
     },
     {
       "id": 274946,
@@ -51771,7 +53859,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 0
-      }
+      },
+      "displayid": "740090"
     },
     {
       "id": 279266,
@@ -51787,7 +53876,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 27,
         "int": 24,
         "armor": 0
-      }
+      },
+      "displayid": "741513"
     }
   ],
   "twohand": [
@@ -51807,7 +53897,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20078"
     },
     {
       "id": 1893,
@@ -51825,7 +53916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "1682"
     },
     {
       "id": 2000,
@@ -51845,7 +53937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18091
-      }
+      },
+      "displayid": "20251"
     },
     {
       "id": 2907,
@@ -51863,7 +53956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "expertise_rate": 6,
         "armor": 0
-      }
+      },
+      "displayid": "8513"
     },
     {
       "id": 2950,
@@ -51881,7 +53975,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20378"
     },
     {
       "id": 3103,
@@ -51900,7 +53995,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "spi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8588"
     },
     {
       "id": 3209,
@@ -51919,7 +54015,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "20250"
     },
     {
       "id": 3440,
@@ -51937,7 +54034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "armor": 0
-      }
+      },
+      "displayid": "6806"
     },
     {
       "id": 3446,
@@ -51955,7 +54053,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "11919"
     },
     {
       "id": 3452,
@@ -51973,7 +54072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "5120"
     },
     {
       "id": 3487,
@@ -51991,7 +54091,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "20196"
     },
     {
       "id": 3488,
@@ -52009,7 +54110,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "8516"
     },
     {
       "id": 3586,
@@ -52028,7 +54130,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "19231"
     },
     {
       "id": 3687,
@@ -52067,7 +54170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20374"
     },
     {
       "id": 3822,
@@ -52087,7 +54191,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16409
-      }
+      },
+      "displayid": "20180"
     },
     {
       "id": 3851,
@@ -52105,7 +54210,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 0
-      }
+      },
+      "displayid": "2775"
     },
     {
       "id": 3852,
@@ -52123,7 +54229,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 0
-      }
+      },
+      "displayid": "15468"
     },
     {
       "id": 3853,
@@ -52141,7 +54248,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "5105"
     },
     {
       "id": 3854,
@@ -52162,7 +54270,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13439
-      }
+      },
+      "displayid": "20252"
     },
     {
       "id": 3855,
@@ -52181,7 +54290,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "782"
     },
     {
       "id": 3856,
@@ -52199,7 +54309,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 0
-      }
+      },
+      "displayid": "8502"
     },
     {
       "id": 4128,
@@ -52218,7 +54329,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 15,
         "armor": 0
-      }
+      },
+      "displayid": "7495"
     },
     {
       "id": 4134,
@@ -52237,7 +54349,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 15,
         "int": 8,
         "armor": 0
-      }
+      },
+      "displayid": "20294"
     },
     {
       "id": 4548,
@@ -52255,7 +54368,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "expertise_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "2440"
     },
     {
       "id": 4777,
@@ -52273,7 +54387,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "19538"
     },
     {
       "id": 4778,
@@ -52291,7 +54406,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "6808"
     },
     {
       "id": 4817,
@@ -52309,7 +54425,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 0
-      }
+      },
+      "displayid": "7319"
     },
     {
       "id": 4818,
@@ -52327,7 +54444,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 0
-      }
+      },
+      "displayid": "20155"
     },
     {
       "id": 4939,
@@ -52345,7 +54463,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20112"
     },
     {
       "id": 4964,
@@ -52363,7 +54482,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "19544"
     },
     {
       "id": 4983,
@@ -52382,7 +54502,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 34,
         "ranged_ap": 34,
         "armor": 0
-      }
+      },
+      "displayid": "19596"
     },
     {
       "id": 5306,
@@ -52400,7 +54521,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "2840"
     },
     {
       "id": 5318,
@@ -52418,7 +54540,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "22225"
     },
     {
       "id": 5322,
@@ -52436,7 +54559,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 9,
         "armor": 0
-      }
+      },
+      "displayid": "19532"
     },
     {
       "id": 5340,
@@ -52454,7 +54578,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20417"
     },
     {
       "id": 5345,
@@ -52472,7 +54597,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "8594"
     },
     {
       "id": 5613,
@@ -52492,7 +54618,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "useSpell": 14134,
-      "cooldown": 300000
+      "cooldown": 300000,
+      "displayid": "20384"
     },
     {
       "id": 5614,
@@ -52511,7 +54638,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "spi": 10,
         "armor": 0
-      }
+      },
+      "displayid": "20182"
     },
     {
       "id": 5615,
@@ -52530,7 +54658,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20121"
     },
     {
       "id": 5626,
@@ -52549,7 +54678,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "19246"
     },
     {
       "id": 5813,
@@ -52568,7 +54698,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "9055"
     },
     {
       "id": 5815,
@@ -52588,7 +54719,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 20869
-      }
+      },
+      "displayid": "9057"
     },
     {
       "id": 6093,
@@ -52607,7 +54739,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "19646"
     },
     {
       "id": 6186,
@@ -52625,7 +54758,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20119"
     },
     {
       "id": 6214,
@@ -52643,7 +54777,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "10642"
     },
     {
       "id": 6215,
@@ -52662,7 +54797,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "1201"
     },
     {
       "id": 6975,
@@ -52681,7 +54817,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "22734"
     },
     {
       "id": 6976,
@@ -52700,7 +54837,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "25046"
     },
     {
       "id": 6977,
@@ -52719,7 +54857,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "22731"
     },
     {
       "id": 7955,
@@ -52738,7 +54877,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20071"
     },
     {
       "id": 7956,
@@ -52757,7 +54897,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "16146"
     },
     {
       "id": 7957,
@@ -52775,7 +54916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "16147"
     },
     {
       "id": 7958,
@@ -52793,7 +54935,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 0
-      }
+      },
+      "displayid": "19272"
     },
     {
       "id": 7959,
@@ -52813,7 +54956,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 9796
-      }
+      },
+      "displayid": "22234"
     },
     {
       "id": 7960,
@@ -52833,7 +54977,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 9800
-      }
+      },
+      "displayid": "5105"
     },
     {
       "id": 9521,
@@ -52852,7 +54997,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "19307"
     },
     {
       "id": 9602,
@@ -52888,7 +55034,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20432"
     },
     {
       "id": 9678,
@@ -52906,7 +55053,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "armor": 0
-      }
+      },
+      "displayid": "5136"
     },
     {
       "id": 9679,
@@ -52925,7 +55073,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "22223"
     },
     {
       "id": 9683,
@@ -52944,7 +55093,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 18,
         "armor": 0
-      }
+      },
+      "displayid": "20289"
     },
     {
       "id": 9685,
@@ -52982,7 +55132,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 14,
         "armor": 0
-      }
+      },
+      "displayid": "19311"
     },
     {
       "id": 10698,
@@ -53002,7 +55153,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 40,
         "armor": 0
       },
-      "useSpell": 12938
+      "useSpell": 12938,
+      "displayid": "20275"
     },
     {
       "id": 10826,
@@ -53021,7 +55173,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 18,
         "int": 5,
         "armor": 0
-      }
+      },
+      "displayid": "20293"
     },
     {
       "id": 11265,
@@ -53039,7 +55192,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 24,
         "armor": 0
-      }
+      },
+      "displayid": "28629"
     },
     {
       "id": 11607,
@@ -53059,7 +55213,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 15280
-      }
+      },
+      "displayid": "21159"
     },
     {
       "id": 11608,
@@ -53079,7 +55234,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 15283
-      }
+      },
+      "displayid": "25046"
     },
     {
       "id": 11854,
@@ -53097,7 +55253,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "28245"
     },
     {
       "id": 11857,
@@ -53116,7 +55273,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 17,
         "armor": 0
-      }
+      },
+      "displayid": "20316"
     },
     {
       "id": 11864,
@@ -53135,7 +55293,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "int": 3,
         "armor": 0
-      }
+      },
+      "displayid": "25632"
     },
     {
       "id": 11907,
@@ -53154,7 +55313,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 36,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "28073"
     },
     {
       "id": 12249,
@@ -53172,7 +55332,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "armor": 0
-      }
+      },
+      "displayid": "22249"
     },
     {
       "id": 12250,
@@ -53192,7 +55353,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 13440
-      }
+      },
+      "displayid": "22217"
     },
     {
       "id": 12251,
@@ -53210,7 +55372,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "armor": 0
-      }
+      },
+      "displayid": "20413"
     },
     {
       "id": 12252,
@@ -53227,7 +55390,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_staff_07",
       "stats": {
         "armor": 100
-      }
+      },
+      "displayid": "28699"
     },
     {
       "id": 12764,
@@ -53245,7 +55409,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 22,
         "armor": 0
-      }
+      },
+      "displayid": "5190"
     },
     {
       "id": 12769,
@@ -53267,7 +55432,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16871
-      }
+      },
+      "displayid": "25600"
     },
     {
       "id": 12772,
@@ -53285,7 +55451,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 23,
         "armor": 0
-      }
+      },
+      "displayid": "15468"
     },
     {
       "id": 12775,
@@ -53302,7 +55469,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_halberd_11",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "23434"
     },
     {
       "id": 12776,
@@ -53331,7 +55499,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 0
-      }
+      },
+      "displayid": "2466"
     },
     {
       "id": 12782,
@@ -53350,7 +55519,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 30,
         "sta": 30,
         "armor": 0
-      }
+      },
+      "displayid": "24255"
     },
     {
       "id": 12784,
@@ -53370,7 +55540,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 62,
         "ranged_ap": 62,
         "armor": 0
-      }
+      },
+      "displayid": "23904"
     },
     {
       "id": 12790,
@@ -53390,7 +55561,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16916
-      }
+      },
+      "displayid": "24813"
     },
     {
       "id": 12796,
@@ -53411,7 +55583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 56
-      }
+      },
+      "displayid": "25047"
     },
     {
       "id": 13262,
@@ -53431,7 +55604,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 18112
-      }
+      },
+      "displayid": "23875"
     },
     {
       "id": 15397,
@@ -53450,7 +55624,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "1201"
     },
     {
       "id": 15464,
@@ -53470,7 +55645,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "28096"
     },
     {
       "id": 16889,
@@ -53489,7 +55665,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "28592"
     },
     {
       "id": 16894,
@@ -53508,7 +55685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 5,
         "armor": 0
-      }
+      },
+      "displayid": "28610"
     },
     {
       "id": 17004,
@@ -53527,7 +55705,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 20,
         "int": 15,
         "armor": 0
-      }
+      },
+      "displayid": "28836"
     },
     {
       "id": 17073,
@@ -53549,7 +55728,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 21152
-      }
+      },
+      "displayid": "32162"
     },
     {
       "id": 17182,
@@ -53582,7 +55762,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 21162,
         "ppm": 0.7
-      }
+      },
+      "displayid": "29698"
     },
     {
       "id": 17193,
@@ -53602,7 +55783,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 21159
-      }
+      },
+      "displayid": "29699"
     },
     {
       "id": 17223,
@@ -53623,7 +55805,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "proc": {
         "spell": 21179
       },
-      "useSpell": 21181
+      "useSpell": 21181,
+      "displayid": "29191"
     },
     {
       "id": 18830,
@@ -53643,7 +55826,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31302"
     },
     {
       "id": 18831,
@@ -53663,7 +55847,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31958"
     },
     {
       "id": 18867,
@@ -53683,7 +55868,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31954"
     },
     {
       "id": 18868,
@@ -53703,7 +55889,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31750"
     },
     {
       "id": 18869,
@@ -53723,7 +55910,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31761"
     },
     {
       "id": 18871,
@@ -53743,7 +55931,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31766"
     },
     {
       "id": 18873,
@@ -53763,7 +55952,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 17,
         "int": 23,
         "armor": 0
-      }
+      },
+      "displayid": "31764"
     },
     {
       "id": 18874,
@@ -53783,7 +55973,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 17,
         "int": 23,
         "armor": 0
-      }
+      },
+      "displayid": "31765"
     },
     {
       "id": 18876,
@@ -53803,7 +55994,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31996"
     },
     {
       "id": 18877,
@@ -53823,7 +56015,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31998"
     },
     {
       "id": 18881,
@@ -53855,7 +56048,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 21162
-      }
+      },
+      "displayid": "29698"
     },
     {
       "id": 18882,
@@ -53876,7 +56070,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 21153
-      }
+      },
+      "displayid": "29170"
     },
     {
       "id": 19106,
@@ -53896,7 +56091,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 20,
         "armor": 0
-      }
+      },
+      "displayid": "31613"
     },
     {
       "id": 19158,
@@ -53928,7 +56124,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 21162
-      }
+      },
+      "displayid": "29698"
     },
     {
       "id": 19167,
@@ -53958,7 +56155,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "31720"
     },
     {
       "id": 19184,
@@ -54270,7 +56468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 23454
-      }
+      },
+      "displayid": "31817"
     },
     {
       "id": 19455,
@@ -54306,7 +56505,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "15430"
     },
     {
       "id": 19569,
@@ -54325,7 +56525,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "15430"
     },
     {
       "id": 19572,
@@ -54344,7 +56545,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "18289"
     },
     {
       "id": 19573,
@@ -54363,7 +56565,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 7,
         "armor": 0
-      }
+      },
+      "displayid": "18289"
     },
     {
       "id": 19662,
@@ -54472,7 +56675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "dodge_rate": 24,
         "armor": 0
-      }
+      },
+      "displayid": "20256"
     },
     {
       "id": 20425,
@@ -54491,7 +56695,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "15430"
     },
     {
       "id": 20434,
@@ -54510,7 +56715,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 4,
         "armor": 0
-      }
+      },
+      "displayid": "18289"
     },
     {
       "id": 20724,
@@ -54529,7 +56735,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 22,
         "armor": 0
-      }
+      },
+      "displayid": "33172"
     },
     {
       "id": 21134,
@@ -54552,7 +56759,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 26108
-      }
+      },
+      "displayid": "33435"
     },
     {
       "id": 21276,
@@ -54569,7 +56777,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_staff_20",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "33422"
     },
     {
       "id": 22348,
@@ -54589,7 +56798,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "25366"
     },
     {
       "id": 22391,
@@ -54607,7 +56817,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34891"
     },
     {
       "id": 22589,
@@ -54629,7 +56840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "hit_rate": 20,
         "armor": 0
       },
-      "useSpell": 28148
+      "useSpell": 28148,
+      "displayid": "35632"
     },
     {
       "id": 22630,
@@ -54650,7 +56862,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 28,
         "armor": 0
       },
-      "useSpell": 28148
+      "useSpell": 28148,
+      "displayid": "35631"
     },
     {
       "id": 22631,
@@ -54671,7 +56884,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 28,
         "armor": 0
       },
-      "useSpell": 28148
+      "useSpell": 28148,
+      "displayid": "35634"
     },
     {
       "id": 22632,
@@ -54692,7 +56906,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 28,
         "armor": 0
       },
-      "useSpell": 28148
+      "useSpell": 28148,
+      "displayid": "685048"
     },
     {
       "id": 22814,
@@ -54712,7 +56927,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 86,
         "ranged_ap": 86,
         "armor": 0
-      }
+      },
+      "displayid": "685403"
     },
     {
       "id": 22817,
@@ -54731,7 +56947,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 41,
         "sta": 31,
         "armor": 0
-      }
+      },
+      "displayid": "35259"
     },
     {
       "id": 23455,
@@ -54750,7 +56967,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "int": 27,
         "armor": 0
-      }
+      },
+      "displayid": "36065"
     },
     {
       "id": 23465,
@@ -54769,7 +56987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "int": 27,
         "armor": 0
-      }
+      },
+      "displayid": "36079"
     },
     {
       "id": 208222,
@@ -54789,7 +57008,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "670593"
     },
     {
       "id": 211940,
@@ -54806,7 +57026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_halberd_04",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "673753"
     },
     {
       "id": 211941,
@@ -54826,7 +57047,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 14537
-      }
+      },
+      "displayid": "673752"
     },
     {
       "id": 221518,
@@ -54846,7 +57068,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 17,
         "armor": 0
-      }
+      },
+      "displayid": "748125"
     },
     {
       "id": 236759,
@@ -54865,7 +57088,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 18,
         "armor": 0
-      }
+      },
+      "displayid": "20289"
     },
     {
       "id": 241090,
@@ -54883,7 +57107,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 0
-      }
+      },
+      "displayid": "699445"
     },
     {
       "id": 246165,
@@ -54901,7 +57126,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "8298"
     },
     {
       "id": 248005,
@@ -54919,7 +57145,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "8588"
     },
     {
       "id": 248008,
@@ -54937,7 +57164,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20357"
     },
     {
       "id": 249392,
@@ -54956,7 +57184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "armor": 0
-      }
+      },
+      "displayid": "28578"
     },
     {
       "id": 249393,
@@ -54975,7 +57204,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "spi": 11,
         "armor": 0
-      }
+      },
+      "displayid": "20363"
     },
     {
       "id": 249453,
@@ -54994,7 +57224,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "int": 19,
         "armor": 0
-      }
+      },
+      "displayid": "20340"
     },
     {
       "id": 249454,
@@ -55013,7 +57244,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "spi": 19,
         "armor": 0
-      }
+      },
+      "displayid": "32677"
     },
     {
       "id": 250603,
@@ -55032,7 +57264,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 6,
         "ranged_ap": 6,
         "armor": 0
-      }
+      },
+      "displayid": "22239"
     },
     {
       "id": 250605,
@@ -55051,7 +57284,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 10,
         "ranged_ap": 10,
         "armor": 0
-      }
+      },
+      "displayid": "12857"
     },
     {
       "id": 250608,
@@ -55069,7 +57303,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 14,
         "str": 9,
         "armor": 0
-      }
+      },
+      "displayid": "22133"
     },
     {
       "id": 250610,
@@ -55087,7 +57322,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 15,
         "armor": 0
-      }
+      },
+      "displayid": "26585"
     },
     {
       "id": 250612,
@@ -55104,7 +57340,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "armor": 0
-      }
+      },
+      "displayid": "19302"
     },
     {
       "id": 250613,
@@ -55121,7 +57358,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 21,
         "armor": 0
-      }
+      },
+      "displayid": "29939"
     },
     {
       "id": 250615,
@@ -55140,7 +57378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 10,
         "armor": 0
-      }
+      },
+      "displayid": "745938"
     },
     {
       "id": 250617,
@@ -55158,7 +57397,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 11,
         "armor": 0
-      }
+      },
+      "displayid": "21159"
     },
     {
       "id": 250619,
@@ -55178,7 +57418,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 54,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "712752"
     },
     {
       "id": 251960,
@@ -55198,7 +57439,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 1,
         "ranged_ap": 1,
         "armor": 0
-      }
+      },
+      "displayid": "714131"
     },
     {
       "id": 257343,
@@ -55216,7 +57458,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "736745"
     },
     {
       "id": 257345,
@@ -55234,7 +57477,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "spi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "736438"
     },
     {
       "id": 260166,
@@ -55252,7 +57496,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "spi": 15,
         "armor": 0
-      }
+      },
+      "displayid": "717884"
     },
     {
       "id": 260186,
@@ -55271,7 +57516,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16784
-      }
+      },
+      "displayid": "718020"
     },
     {
       "id": 260207,
@@ -55290,7 +57536,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 16,
         "armor": 0
-      }
+      },
+      "displayid": "718119"
     },
     {
       "id": 263312,
@@ -55308,7 +57555,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "7495"
     },
     {
       "id": 263407,
@@ -55325,7 +57573,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "736423"
     },
     {
       "id": 263434,
@@ -55342,7 +57591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "736743"
     },
     {
       "id": 269717,
@@ -55360,7 +57610,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "armor": 0
-      }
+      },
+      "displayid": "20193"
     },
     {
       "id": 270049,
@@ -55379,7 +57630,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20362"
     },
     {
       "id": 270071,
@@ -55398,7 +57650,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "25139"
     },
     {
       "id": 270085,
@@ -55416,7 +57669,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "armor": 0
-      }
+      },
+      "displayid": "28546"
     },
     {
       "id": 270108,
@@ -55434,7 +57688,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "armor": 0
-      }
+      },
+      "displayid": "2466"
     },
     {
       "id": 271667,
@@ -55455,7 +57710,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "armor": 0
-      }
+      },
+      "displayid": "8590"
     },
     {
       "id": 271766,
@@ -55475,7 +57731,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 26,
         "ranged_ap": 26,
         "armor": 70
-      }
+      },
+      "displayid": "735727"
     },
     {
       "id": 271767,
@@ -55493,7 +57750,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 0
-      }
+      },
+      "displayid": "5554"
     },
     {
       "id": 271794,
@@ -55511,7 +57769,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 13,
         "armor": 0
-      }
+      },
+      "displayid": "736076"
     },
     {
       "id": 271795,
@@ -55529,7 +57788,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "28598"
     },
     {
       "id": 271797,
@@ -55547,7 +57807,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 10,
         "armor": 0
-      }
+      },
+      "displayid": "736095"
     },
     {
       "id": 271800,
@@ -55567,7 +57828,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 0
-      }
+      },
+      "displayid": "745938"
     },
     {
       "id": 271801,
@@ -55586,7 +57848,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "8508"
     },
     {
       "id": 271803,
@@ -55605,7 +57868,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 12,
         "armor": 0
-      }
+      },
+      "displayid": "24517"
     },
     {
       "id": 272179,
@@ -55623,7 +57887,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "int": 9,
         "armor": 0
-      }
+      },
+      "displayid": "736642"
     },
     {
       "id": 272593,
@@ -55643,7 +57908,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31958"
     },
     {
       "id": 272601,
@@ -55663,7 +57929,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31750"
     },
     {
       "id": 272602,
@@ -55683,7 +57950,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31766"
     },
     {
       "id": 272603,
@@ -55702,7 +57970,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 36,
         "int": 20,
         "armor": 0
-      }
+      },
+      "displayid": "31765"
     },
     {
       "id": 272604,
@@ -55722,7 +57991,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31998"
     },
     {
       "id": 272682,
@@ -55742,7 +58012,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "int": 24,
         "armor": 0
-      }
+      },
+      "displayid": "36079"
     },
     {
       "id": 272840,
@@ -55762,7 +58033,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31302"
     },
     {
       "id": 272848,
@@ -55782,7 +58054,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31954"
     },
     {
       "id": 272849,
@@ -55802,7 +58075,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31761"
     },
     {
       "id": 272850,
@@ -55821,7 +58095,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 36,
         "int": 20,
         "armor": 0
-      }
+      },
+      "displayid": "31764"
     },
     {
       "id": 272851,
@@ -55841,7 +58116,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 35,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "31996"
     },
     {
       "id": 272858,
@@ -55861,7 +58137,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "int": 24,
         "armor": 0
-      }
+      },
+      "displayid": "36065"
     },
     {
       "id": 274419,
@@ -55881,7 +58158,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 27,
         "ranged_ap": 27,
         "armor": 0
-      }
+      },
+      "displayid": "738047"
     },
     {
       "id": 274420,
@@ -55899,7 +58177,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "int": 23,
         "armor": 0
-      }
+      },
+      "displayid": "730936"
     },
     {
       "id": 274929,
@@ -55917,7 +58196,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "armor": 0
-      }
+      },
+      "displayid": "739819"
     },
     {
       "id": 274940,
@@ -55936,7 +58216,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "740091"
     },
     {
       "id": 274944,
@@ -55956,7 +58237,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 20,
         "ranged_ap": 20,
         "armor": 0
-      }
+      },
+      "displayid": "740091"
     },
     {
       "id": 274963,
@@ -55976,7 +58258,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1295744
-      }
+      },
+      "displayid": "5949"
     },
     {
       "id": 275291,
@@ -55996,7 +58279,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 12,
         "armor": 0
-      }
+      },
+      "displayid": "739842"
     },
     {
       "id": 275645,
@@ -56018,7 +58302,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1297357
-      }
+      },
+      "displayid": "740095"
     },
     {
       "id": 275648,
@@ -56037,7 +58322,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 19,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "739841"
     },
     {
       "id": 275701,
@@ -56056,7 +58342,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 20,
         "int": 12,
         "armor": 0
-      }
+      },
+      "displayid": "740632"
     },
     {
       "id": 275729,
@@ -56077,7 +58364,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "useSpell": 1297762,
-      "cooldown": 900000
+      "cooldown": 900000,
+      "displayid": "740653"
     },
     {
       "id": 275742,
@@ -56096,7 +58384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 38,
         "ranged_ap": 38,
         "armor": 0
-      }
+      },
+      "displayid": "739838"
     },
     {
       "id": 275824,
@@ -56113,7 +58402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_66",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "31958"
     },
     {
       "id": 276102,
@@ -56132,7 +58422,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "739780"
     },
     {
       "id": 276203,
@@ -56151,7 +58442,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 20,
         "armor": 0
-      }
+      },
+      "displayid": "741384"
     },
     {
       "id": 276335,
@@ -56171,7 +58463,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 44,
         "ranged_ap": 44,
         "armor": 0
-      }
+      },
+      "displayid": "739778"
     },
     {
       "id": 276887,
@@ -56189,7 +58482,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "28526"
     },
     {
       "id": 277250,
@@ -56208,7 +58502,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 18,
         "ranged_ap": 18,
         "armor": 0
-      }
+      },
+      "displayid": "25367"
     },
     {
       "id": 277253,
@@ -56227,7 +58522,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 15,
         "int": 6,
         "armor": 0
-      }
+      },
+      "displayid": "24517"
     },
     {
       "id": 277286,
@@ -56246,7 +58542,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "spi": 9,
         "armor": 0
-      }
+      },
+      "displayid": "743215"
     },
     {
       "id": 279260,
@@ -56264,7 +58561,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 27,
         "armor": 0
-      }
+      },
+      "displayid": "743936"
     },
     {
       "id": 280604,
@@ -56283,7 +58581,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 15,
         "armor": 0
-      }
+      },
+      "displayid": "741091"
     },
     {
       "id": 281253,
@@ -56301,7 +58600,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "28460"
     },
     {
       "id": 281274,
@@ -56318,7 +58618,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20389"
     },
     {
       "id": 281296,
@@ -56336,7 +58637,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "24370"
     },
     {
       "id": 281308,
@@ -56354,7 +58656,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "spi": 11,
         "armor": 0
-      }
+      },
+      "displayid": "26591"
     },
     {
       "id": 281312,
@@ -56372,7 +58675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 11,
         "armor": 0
-      }
+      },
+      "displayid": "24445"
     },
     {
       "id": 281313,
@@ -56390,7 +58694,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 12,
         "armor": 0
-      }
+      },
+      "displayid": "1627"
     },
     {
       "id": 281588,
@@ -56409,7 +58714,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 23,
         "ranged_ap": 23,
         "armor": 115
-      }
+      },
+      "displayid": "746806"
     },
     {
       "id": 281721,
@@ -56425,7 +58731,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 6.14,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "22114"
     },
     {
       "id": 281724,
@@ -56441,7 +58748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 6.14,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "19533"
     },
     {
       "id": 281725,
@@ -56457,7 +58765,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 6.14,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "12857"
     },
     {
       "id": 281727,
@@ -56473,7 +58782,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 6.14,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "20421"
     },
     {
       "id": 281729,
@@ -56489,7 +58799,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 6.14,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "1627"
     }
   ],
   "feet": [
@@ -56507,7 +58818,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 2,
         "armor": 111
-      }
+      },
+      "displayid": "11447"
     },
     {
       "id": 2307,
@@ -56523,7 +58835,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 2,
         "armor": 51
-      }
+      },
+      "displayid": "9512"
     },
     {
       "id": 2309,
@@ -56538,7 +58851,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 47
-      }
+      },
+      "displayid": "5853"
     },
     {
       "id": 2315,
@@ -56553,7 +58867,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 53
-      }
+      },
+      "displayid": "4956"
     },
     {
       "id": 2569,
@@ -56568,7 +58883,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 16
-      }
+      },
+      "displayid": "15682"
     },
     {
       "id": 2583,
@@ -56584,7 +58900,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 2,
         "armor": 22
-      }
+      },
+      "displayid": "5380"
     },
     {
       "id": 2910,
@@ -56600,7 +58917,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 5,
         "armor": 125
-      }
+      },
+      "displayid": "2928"
     },
     {
       "id": 2949,
@@ -56616,7 +58934,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 6,
         "armor": 58
-      }
+      },
+      "displayid": "4314"
     },
     {
       "id": 3469,
@@ -56630,7 +58949,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 74
-      }
+      },
+      "displayid": "23528"
     },
     {
       "id": 3482,
@@ -56647,7 +58967,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 3,
         "armor": 127
-      }
+      },
+      "displayid": "4343"
     },
     {
       "id": 3484,
@@ -56663,7 +58984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 7,
         "armor": 134
-      }
+      },
+      "displayid": "9412"
     },
     {
       "id": 3741,
@@ -56679,7 +59001,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 4,
         "armor": 57
-      }
+      },
+      "displayid": "17164"
     },
     {
       "id": 3764,
@@ -56696,7 +59019,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "spi": 7,
         "armor": 36
-      }
+      },
+      "displayid": "3750"
     },
     {
       "id": 3846,
@@ -56711,7 +59035,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 150
-      }
+      },
+      "displayid": "16640"
     },
     {
       "id": 4109,
@@ -56727,7 +59052,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 7,
         "armor": 77
-      }
+      },
+      "displayid": "5480"
     },
     {
       "id": 4136,
@@ -56743,7 +59069,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "spi": 8,
         "armor": 163
-      }
+      },
+      "displayid": "4330"
     },
     {
       "id": 4137,
@@ -56760,7 +59087,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 3,
         "armor": 38
-      }
+      },
+      "displayid": "4835"
     },
     {
       "id": 4139,
@@ -56777,7 +59105,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 5,
         "armor": 33
-      }
+      },
+      "displayid": "740250"
     },
     {
       "id": 4312,
@@ -56792,7 +59121,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 19
-      }
+      },
+      "displayid": "5840"
     },
     {
       "id": 4313,
@@ -56807,7 +59137,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 23
-      }
+      },
+      "displayid": "4615"
     },
     {
       "id": 4320,
@@ -56823,7 +59154,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 29
-      }
+      },
+      "displayid": "4301"
     },
     {
       "id": 4321,
@@ -56838,7 +59170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "armor": 28
-      }
+      },
+      "displayid": "4466"
     },
     {
       "id": 4325,
@@ -56853,7 +59186,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "armor": 31
-      }
+      },
+      "displayid": "4631"
     },
     {
       "id": 4653,
@@ -56869,7 +59203,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 9,
         "armor": 170
-      }
+      },
+      "displayid": "4846"
     },
     {
       "id": 4788,
@@ -56884,7 +59219,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 53
-      }
+      },
+      "displayid": "3749"
     },
     {
       "id": 4789,
@@ -56899,7 +59235,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 51
-      }
+      },
+      "displayid": "4487"
     },
     {
       "id": 5311,
@@ -56915,7 +59252,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 2,
         "armor": 54
-      }
+      },
+      "displayid": "7537"
     },
     {
       "id": 5320,
@@ -56931,7 +59269,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 2,
         "armor": 104
-      }
+      },
+      "displayid": "4336"
     },
     {
       "id": 5821,
@@ -56947,7 +59286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "sta": 2,
         "armor": 57
-      }
+      },
+      "displayid": "5522"
     },
     {
       "id": 5944,
@@ -56962,7 +59302,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 98
-      }
+      },
+      "displayid": "4336"
     },
     {
       "id": 6092,
@@ -56977,7 +59318,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 51
-      }
+      },
+      "displayid": "739926"
     },
     {
       "id": 6095,
@@ -56993,7 +59335,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 26
-      }
+      },
+      "displayid": "7307"
     },
     {
       "id": 6188,
@@ -57008,7 +59351,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 98
-      }
+      },
+      "displayid": "3070"
     },
     {
       "id": 6191,
@@ -57024,7 +59368,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 4,
         "armor": 26
-      }
+      },
+      "displayid": "4380"
     },
     {
       "id": 6350,
@@ -57040,7 +59385,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 3,
         "armor": 111
-      }
+      },
+      "displayid": "4330"
     },
     {
       "id": 6478,
@@ -57056,7 +59402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "spi": 4,
         "armor": 25
-      }
+      },
+      "displayid": "11999"
     },
     {
       "id": 6482,
@@ -57072,7 +59419,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 1,
         "armor": 26
-      }
+      },
+      "displayid": "9173"
     },
     {
       "id": 6666,
@@ -57088,7 +59436,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 4,
         "armor": 119
-      }
+      },
+      "displayid": "12095"
     },
     {
       "id": 6668,
@@ -57104,7 +59453,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 61
-      }
+      },
+      "displayid": "6301"
     },
     {
       "id": 6791,
@@ -57121,7 +59471,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 5,
         "armor": 36
-      }
+      },
+      "displayid": "17227"
     },
     {
       "id": 7027,
@@ -57136,7 +59487,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 28
-      }
+      },
+      "displayid": "10095"
     },
     {
       "id": 7189,
@@ -57152,7 +59504,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 40
       },
       "useSpell": 8892,
-      "cooldown": 300000
+      "cooldown": 300000,
+      "displayid": "14763"
     },
     {
       "id": 7390,
@@ -57168,7 +59521,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 3,
         "armor": 75
-      }
+      },
+      "displayid": "8074"
     },
     {
       "id": 7391,
@@ -57185,7 +59539,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 75
       },
       "useSpell": 9175,
-      "cooldown": 300000
+      "cooldown": 300000,
+      "displayid": "9750"
     },
     {
       "id": 7916,
@@ -57201,7 +59556,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 7,
         "armor": 148
-      }
+      },
+      "displayid": "11408"
     },
     {
       "id": 7933,
@@ -57216,7 +59572,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 382
-      }
+      },
+      "displayid": "5615"
     },
     {
       "id": 7936,
@@ -57233,7 +59590,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 324
       },
       "useSpell": 9774,
-      "cooldown": 1800000
+      "cooldown": 1800000,
+      "displayid": "16118"
     },
     {
       "id": 8197,
@@ -57248,7 +59606,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 12,
         "armor": 86
-      }
+      },
+      "displayid": "5470"
     },
     {
       "id": 8209,
@@ -57264,7 +59623,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "int": 7,
         "armor": 177
-      }
+      },
+      "displayid": "11832"
     },
     {
       "id": 8213,
@@ -57278,7 +59638,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_07",
       "stats": {
         "armor": 89
-      }
+      },
+      "displayid": "4389"
     },
     {
       "id": 9519,
@@ -57294,7 +59655,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "spi": 9,
         "armor": 32
-      }
+      },
+      "displayid": "15628"
     },
     {
       "id": 9630,
@@ -57310,7 +59672,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 6,
         "armor": 83
-      }
+      },
+      "displayid": "4440"
     },
     {
       "id": 9633,
@@ -57326,7 +59689,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 6,
         "armor": 83
-      }
+      },
+      "displayid": "12113"
     },
     {
       "id": 9637,
@@ -57342,7 +59706,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 10,
         "armor": 300
-      }
+      },
+      "displayid": "11220"
     },
     {
       "id": 9645,
@@ -57359,7 +59724,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "int": 2,
         "armor": 43
-      }
+      },
+      "displayid": "12841"
     },
     {
       "id": 9646,
@@ -57375,7 +59741,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": -5,
         "sta": 16,
         "armor": 324
-      }
+      },
+      "displayid": "23644"
     },
     {
       "id": 9658,
@@ -57392,7 +59759,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 9,
         "armor": 38
-      }
+      },
+      "displayid": "19913"
     },
     {
       "id": 9662,
@@ -57408,7 +59776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 10,
         "armor": 262
-      }
+      },
+      "displayid": "14791"
     },
     {
       "id": 10026,
@@ -57423,7 +59792,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 41
-      }
+      },
+      "displayid": "21154"
     },
     {
       "id": 10031,
@@ -57438,7 +59808,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 10,
         "armor": 43
-      }
+      },
+      "displayid": "9048"
     },
     {
       "id": 10039,
@@ -57463,7 +59834,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 44
-      }
+      },
+      "displayid": "5875"
     },
     {
       "id": 10044,
@@ -57477,7 +59849,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "armor": 43
-      }
+      },
+      "displayid": "18933"
     },
     {
       "id": 10653,
@@ -57493,7 +59866,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 3,
         "armor": 64
-      }
+      },
+      "displayid": "9174"
     },
     {
       "id": 10700,
@@ -57510,7 +59884,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 8,
         "armor": 40
-      }
+      },
+      "displayid": "18832"
     },
     {
       "id": 10701,
@@ -57526,7 +59901,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 2,
         "armor": 170
-      }
+      },
+      "displayid": "28263"
     },
     {
       "id": 10702,
@@ -57542,7 +59918,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 9,
         "armor": 80
-      }
+      },
+      "displayid": "22434"
     },
     {
       "id": 10707,
@@ -57558,7 +59935,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 11,
         "armor": 341
-      }
+      },
+      "displayid": "13383"
     },
     {
       "id": 10724,
@@ -57574,7 +59952,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 40
       },
       "useSpell": 13141,
-      "cooldown": 1800000
+      "cooldown": 1800000,
+      "displayid": "4630"
     },
     {
       "id": 10748,
@@ -57590,7 +59969,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "str": 5,
         "armor": 77
-      }
+      },
+      "displayid": "3827"
     },
     {
       "id": 11853,
@@ -57606,7 +59986,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 1,
         "armor": 51
-      }
+      },
+      "displayid": "10115"
     },
     {
       "id": 11872,
@@ -57622,7 +60003,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "dodge_rate": 12,
         "armor": 354
-      }
+      },
+      "displayid": "26799"
     },
     {
       "id": 11908,
@@ -57639,7 +60021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 9,
         "armor": 49
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 11919,
@@ -57655,7 +60038,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 12,
         "armor": 360
-      }
+      },
+      "displayid": "16408"
     },
     {
       "id": 12021,
@@ -57672,7 +60056,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "spi": 9,
         "armor": 389
-      }
+      },
+      "displayid": "17814"
     },
     {
       "id": 12050,
@@ -57689,7 +60074,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 7,
         "armor": 48
-      }
+      },
+      "displayid": "4272"
     },
     {
       "id": 12409,
@@ -57713,7 +60099,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 366
-      }
+      },
+      "displayid": "14883"
     },
     {
       "id": 12419,
@@ -57738,7 +60125,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 214
-      }
+      },
+      "displayid": "21181"
     },
     {
       "id": 12426,
@@ -57754,7 +60142,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 12,
         "armor": 385
-      }
+      },
+      "displayid": "24513"
     },
     {
       "id": 12611,
@@ -57779,7 +60168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 391
-      }
+      },
+      "displayid": "23486"
     },
     {
       "id": 12616,
@@ -57795,7 +60185,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 15,
         "armor": 231
-      }
+      },
+      "displayid": "9181"
     },
     {
       "id": 13242,
@@ -57824,7 +60215,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 14,
         "armor": 49
-      }
+      },
+      "displayid": "25233"
     },
     {
       "id": 14108,
@@ -57839,7 +60231,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 50
-      }
+      },
+      "displayid": "8959"
     },
     {
       "id": 15071,
@@ -57864,7 +60257,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 98
-      }
+      },
+      "displayid": "5823"
     },
     {
       "id": 15073,
@@ -57889,7 +60283,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12
         ],
         "armor": 98
-      }
+      },
+      "displayid": "5480"
     },
     {
       "id": 15104,
@@ -57904,7 +60299,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 10,
         "armor": 35
-      }
+      },
+      "displayid": "14660"
     },
     {
       "id": 15406,
@@ -57919,7 +60315,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 109
-      }
+      },
+      "displayid": "13038"
     },
     {
       "id": 15458,
@@ -57936,7 +60333,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 6,
         "armor": 62
-      }
+      },
+      "displayid": "13137"
     },
     {
       "id": 15461,
@@ -57952,7 +60350,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 4,
         "armor": 26
-      }
+      },
+      "displayid": "13141"
     },
     {
       "id": 15697,
@@ -57969,7 +60368,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 8,
         "armor": 34
-      }
+      },
+      "displayid": "25459"
     },
     {
       "id": 15802,
@@ -57995,7 +60395,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 54
-      }
+      },
+      "displayid": "9675"
     },
     {
       "id": 16405,
@@ -58012,7 +60413,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 23,
         "armor": 451
-      }
+      },
+      "displayid": "26752"
     },
     {
       "id": 16483,
@@ -58030,7 +60432,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "hit_rate": 10,
         "armor": 592
-      }
+      },
+      "displayid": "30319"
     },
     {
       "id": 16509,
@@ -58047,7 +60450,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 23,
         "armor": 451
-      }
+      },
+      "displayid": "27270"
     },
     {
       "id": 16545,
@@ -58065,7 +60469,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "hit_rate": 10,
         "armor": 592
-      }
+      },
+      "displayid": "30370"
     },
     {
       "id": 16977,
@@ -58081,7 +60486,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 6,
         "armor": 67
-      }
+      },
+      "displayid": "12541"
     },
     {
       "id": 16982,
@@ -58107,7 +60513,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 125
-      }
+      },
+      "displayid": "5489"
     },
     {
       "id": 16984,
@@ -58134,7 +60541,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 269
-      }
+      },
+      "displayid": "28760"
     },
     {
       "id": 16985,
@@ -58149,7 +60557,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "armor": 26
-      }
+      },
+      "displayid": "18290"
     },
     {
       "id": 17688,
@@ -58165,7 +60574,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 4,
         "armor": 182
-      }
+      },
+      "displayid": "29022"
     },
     {
       "id": 18506,
@@ -58181,7 +60591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 23,
         "sta": 9,
         "armor": 119
-      }
+      },
+      "displayid": "9080"
     },
     {
       "id": 19048,
@@ -58198,7 +60609,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 20,
         "ranged_ap": 20,
         "armor": 247
-      }
+      },
+      "displayid": "31536"
     },
     {
       "id": 19052,
@@ -58215,7 +60627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 18,
         "armor": 113
-      }
+      },
+      "displayid": "31552"
     },
     {
       "id": 19056,
@@ -58240,7 +60653,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 56
-      }
+      },
+      "displayid": "31557"
     },
     {
       "id": 19684,
@@ -58256,7 +60670,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 16,
         "hit_rate": 10,
         "armor": 63
-      }
+      },
+      "displayid": "32156"
     },
     {
       "id": 19969,
@@ -58271,7 +60686,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 36
-      }
+      },
+      "displayid": "32449"
     },
     {
       "id": 20039,
@@ -58295,7 +60711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "32599"
     },
     {
       "id": 20048,
@@ -58312,7 +60729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 12,
         "armor": 451
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20049,
@@ -58330,7 +60748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 8,
         "armor": 451
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20050,
@@ -58347,7 +60766,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 8,
         "armor": 254
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20051,
@@ -58364,7 +60784,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 8,
         "armor": 254
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20052,
@@ -58382,7 +60803,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 181
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20053,
@@ -58401,7 +60823,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 181
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20054,
@@ -58417,7 +60840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 8,
         "armor": 161
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20091,
@@ -58434,7 +60858,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 6,
         "armor": 217
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20092,
@@ -58451,7 +60876,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 3,
         "armor": 182
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20093,
@@ -58467,7 +60893,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 8,
         "armor": 74
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20094,
@@ -58483,7 +60910,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 6,
         "armor": 132
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20095,
@@ -58499,7 +60927,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 3,
         "armor": 102
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20096,
@@ -58514,7 +60943,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 84
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20100,
@@ -58533,7 +60963,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 145
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20101,
@@ -58552,7 +60983,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 6,
         "ranged_ap": 6,
         "armor": 128
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20102,
@@ -58569,7 +61001,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 4,
         "armor": 104
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20109,
@@ -58587,7 +61020,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 382
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20110,
@@ -58605,7 +61039,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "armor": 288
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20111,
@@ -58623,7 +61058,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 156
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20112,
@@ -58641,7 +61077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 145
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20113,
@@ -58659,7 +61096,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 6,
         "ranged_ap": 6,
         "armor": 128
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20114,
@@ -58675,7 +61113,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 8,
         "armor": 104
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20121,
@@ -58692,7 +61131,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 6,
         "armor": 217
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20122,
@@ -58709,7 +61149,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 3,
         "armor": 182
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20123,
@@ -58725,7 +61166,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 8,
         "armor": 74
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20127,
@@ -58742,7 +61184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 10,
         "armor": 382
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20128,
@@ -58759,7 +61202,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 8,
         "armor": 288
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20129,
@@ -58776,7 +61220,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 156
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20154,
@@ -58793,7 +61238,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 8,
         "armor": 254
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20155,
@@ -58810,7 +61256,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 6,
         "armor": 217
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20156,
@@ -58827,7 +61274,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 3,
         "armor": 182
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20157,
@@ -58843,7 +61291,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 8,
         "armor": 74
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20159,
@@ -58859,7 +61308,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 8,
         "armor": 161
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20160,
@@ -58875,7 +61325,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 6,
         "armor": 132
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20161,
@@ -58891,7 +61342,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 3,
         "armor": 102
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20162,
@@ -58906,7 +61358,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 84
-      }
+      },
+      "displayid": "2496"
     },
     {
       "id": 20167,
@@ -58925,7 +61378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 181
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20168,
@@ -58944,7 +61398,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 6,
         "ranged_ap": 6,
         "armor": 128
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20169,
@@ -58961,7 +61416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 4,
         "armor": 104
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20170,
@@ -58980,7 +61436,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 145
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20181,
@@ -58998,7 +61455,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "int": 8,
         "armor": 451
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20182,
@@ -59016,7 +61474,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 156
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20183,
@@ -59034,7 +61493,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "armor": 288
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20185,
@@ -59052,7 +61512,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 382
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20186,
@@ -59070,7 +61531,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 181
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20187,
@@ -59088,7 +61550,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 6,
         "ranged_ap": 6,
         "armor": 128
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20188,
@@ -59104,7 +61567,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 8,
         "armor": 104
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20189,
@@ -59122,7 +61586,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 145
-      }
+      },
+      "displayid": "32641"
     },
     {
       "id": 20199,
@@ -59139,7 +61604,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 8,
         "armor": 254
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20200,
@@ -59156,7 +61622,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 3,
         "armor": 182
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20201,
@@ -59172,7 +61639,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 8,
         "armor": 74
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20202,
@@ -59189,7 +61657,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 6,
         "armor": 217
-      }
+      },
+      "displayid": "23354"
     },
     {
       "id": 20208,
@@ -59206,7 +61675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 12,
         "armor": 451
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20209,
@@ -59223,7 +61693,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 8,
         "armor": 288
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20210,
@@ -59240,7 +61711,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 156
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20211,
@@ -59257,7 +61729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 10,
         "armor": 382
-      }
+      },
+      "displayid": "27829"
     },
     {
       "id": 20291,
@@ -59304,7 +61777,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 14,
         "armor": 55
-      }
+      },
+      "displayid": "29594"
     },
     {
       "id": 20537,
@@ -59329,7 +61803,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 61
-      }
+      },
+      "displayid": "5871"
     },
     {
       "id": 20641,
@@ -59344,7 +61819,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 40
-      }
+      },
+      "displayid": "5871"
     },
     {
       "id": 20710,
@@ -59360,7 +61836,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "defense": 5,
         "armor": 511
-      }
+      },
+      "displayid": "24782"
     },
     {
       "id": 20711,
@@ -59387,7 +61864,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5
         ],
         "armor": 451
-      }
+      },
+      "displayid": "24782"
     },
     {
       "id": 20714,
@@ -59403,7 +61881,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 12,
         "armor": 121
-      }
+      },
+      "displayid": "18958"
     },
     {
       "id": 20715,
@@ -59420,7 +61899,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 10,
         "armor": 121
-      }
+      },
+      "displayid": "18958"
     },
     {
       "id": 21333,
@@ -59438,7 +61918,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "defense": 4,
         "armor": 603
-      }
+      },
+      "displayid": "33714"
     },
     {
       "id": 21532,
@@ -59465,7 +61946,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 156
-      }
+      },
+      "displayid": "28627"
     },
     {
       "id": 21600,
@@ -59481,7 +61963,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 19,
         "armor": 84
-      }
+      },
+      "displayid": "34195"
     },
     {
       "id": 21612,
@@ -59498,7 +61981,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 12,
         "armor": 351
-      }
+      },
+      "displayid": "34208"
     },
     {
       "id": 21613,
@@ -59515,7 +61999,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 13,
         "armor": 162
-      }
+      },
+      "displayid": "34210"
     },
     {
       "id": 21645,
@@ -59532,7 +62017,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 30,
         "armor": 216
-      }
+      },
+      "displayid": "34259"
     },
     {
       "id": 21648,
@@ -59558,7 +62044,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 79
-      }
+      },
+      "displayid": "25281"
     },
     {
       "id": 21995,
@@ -59575,7 +62062,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 20,
         "hit_rate": 10,
         "armor": 470
-      }
+      },
+      "displayid": "34611"
     },
     {
       "id": 22003,
@@ -59591,7 +62079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 24,
         "sta": 10,
         "armor": 126
-      }
+      },
+      "displayid": "34684"
     },
     {
       "id": 22061,
@@ -59607,7 +62096,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 24,
         "sta": 9,
         "armor": 265
-      }
+      },
+      "displayid": "34648"
     },
     {
       "id": 22064,
@@ -59624,7 +62114,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 16,
         "armor": 63
-      }
+      },
+      "displayid": "34782"
     },
     {
       "id": 22076,
@@ -59640,7 +62131,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "int": 14,
         "armor": 63
-      }
+      },
+      "displayid": "34626"
     },
     {
       "id": 22084,
@@ -59657,7 +62149,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 13,
         "armor": 63
-      }
+      },
+      "displayid": "34634"
     },
     {
       "id": 22087,
@@ -59675,7 +62168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 12,
         "armor": 470
-      }
+      },
+      "displayid": "34521"
     },
     {
       "id": 22096,
@@ -59693,7 +62187,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 12,
         "armor": 265
-      }
+      },
+      "displayid": "34692"
     },
     {
       "id": 22107,
@@ -59712,7 +62207,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 12,
         "armor": 126
-      }
+      },
+      "displayid": "34638"
     },
     {
       "id": 22420,
@@ -59730,7 +62226,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 9,
         "dodge_rate": 12,
         "armor": 662
-      }
+      },
+      "displayid": "35067"
     },
     {
       "id": 22430,
@@ -59747,7 +62244,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 18,
         "crit_rate": 14,
         "armor": 662
-      }
+      },
+      "displayid": "35613"
     },
     {
       "id": 22440,
@@ -59765,7 +62263,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 8,
         "hit_rate": 10,
         "armor": 372
-      }
+      },
+      "displayid": "35409"
     },
     {
       "id": 22468,
@@ -59781,7 +62280,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 20,
         "int": 25,
         "armor": 372
-      }
+      },
+      "displayid": "35746"
     },
     {
       "id": 22480,
@@ -59800,7 +62300,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 170
-      }
+      },
+      "displayid": "36351"
     },
     {
       "id": 22492,
@@ -59817,7 +62318,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 20,
         "armor": 170
-      }
+      },
+      "displayid": "35173"
     },
     {
       "id": 22500,
@@ -59835,7 +62337,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 18,
         "crit_rate": 14,
         "armor": 89
-      }
+      },
+      "displayid": "35525"
     },
     {
       "id": 22508,
@@ -59852,7 +62355,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 16,
         "crit_rate": 14,
         "armor": 89
-      }
+      },
+      "displayid": "35186"
     },
     {
       "id": 22516,
@@ -59869,7 +62373,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 22,
         "armor": 89
-      }
+      },
+      "displayid": "35148"
     },
     {
       "id": 22760,
@@ -59894,7 +62399,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 132
-      }
+      },
+      "displayid": "35214"
     },
     {
       "id": 22858,
@@ -59911,7 +62417,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 23,
         "armor": 471
-      }
+      },
+      "displayid": "27270"
     },
     {
       "id": 23287,
@@ -59928,7 +62435,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 23,
         "armor": 471
-      }
+      },
+      "displayid": "26752"
     },
     {
       "id": 250482,
@@ -59952,7 +62460,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 108
-      }
+      },
+      "displayid": "4343"
     },
     {
       "id": 250483,
@@ -59967,7 +62476,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 3,
         "armor": 125
-      }
+      },
+      "displayid": "4343"
     },
     {
       "id": 250503,
@@ -59983,7 +62493,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 131
-      }
+      },
+      "displayid": "712849"
     },
     {
       "id": 250504,
@@ -59999,7 +62510,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "defense": 4,
         "armor": 131
-      }
+      },
+      "displayid": "712848"
     },
     {
       "id": 250505,
@@ -60014,7 +62526,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "defense": 4,
         "armor": 131
-      }
+      },
+      "displayid": "712849"
     },
     {
       "id": 250506,
@@ -60039,7 +62552,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 131
-      }
+      },
+      "displayid": "712845"
     },
     {
       "id": 250507,
@@ -60054,7 +62568,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 5,
         "armor": 131
-      }
+      },
+      "displayid": "712847"
     },
     {
       "id": 250534,
@@ -60068,7 +62583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "armor": 146
-      }
+      },
+      "displayid": "712844"
     },
     {
       "id": 250542,
@@ -60082,7 +62598,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 9,
         "armor": 300
-      }
+      },
+      "displayid": "744501"
     },
     {
       "id": 250546,
@@ -60098,7 +62615,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 9,
         "armor": 330
-      }
+      },
+      "displayid": "745166"
     },
     {
       "id": 250547,
@@ -60114,7 +62632,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 9,
         "armor": 330
-      }
+      },
+      "displayid": "745168"
     },
     {
       "id": 250548,
@@ -60129,7 +62648,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 9,
         "armor": 330
-      }
+      },
+      "displayid": "745165"
     },
     {
       "id": 250549,
@@ -60154,7 +62674,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 330
-      }
+      },
+      "displayid": "745167"
     },
     {
       "id": 250550,
@@ -60169,7 +62690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 9,
         "armor": 330
-      }
+      },
+      "displayid": "745164"
     },
     {
       "id": 250561,
@@ -60185,7 +62707,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 12,
         "armor": 376
-      }
+      },
+      "displayid": "745160"
     },
     {
       "id": 250562,
@@ -60201,7 +62724,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 9,
         "armor": 376
-      }
+      },
+      "displayid": "745162"
     },
     {
       "id": 250563,
@@ -60216,7 +62740,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 9,
         "armor": 376
-      }
+      },
+      "displayid": "745157"
     },
     {
       "id": 250564,
@@ -60241,7 +62766,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 376
-      }
+      },
+      "displayid": "745161"
     },
     {
       "id": 250565,
@@ -60256,7 +62782,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 12,
         "armor": 376
-      }
+      },
+      "displayid": "745159"
     },
     {
       "id": 250587,
@@ -60272,7 +62799,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 7,
         "armor": 341
-      }
+      },
+      "displayid": "743475"
     },
     {
       "id": 250620,
@@ -60287,7 +62815,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 108
-      }
+      },
+      "displayid": "712956"
     },
     {
       "id": 250621,
@@ -60301,7 +62830,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 108
-      }
+      },
+      "displayid": "11408"
     },
     {
       "id": 252424,
@@ -60325,7 +62855,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 52
-      }
+      },
+      "displayid": "714356"
     },
     {
       "id": 252425,
@@ -60340,7 +62871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 4,
         "armor": 52
-      }
+      },
+      "displayid": "714395"
     },
     {
       "id": 252426,
@@ -60355,7 +62887,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 52
-      }
+      },
+      "displayid": "745803"
     },
     {
       "id": 252427,
@@ -60369,7 +62902,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 52
-      }
+      },
+      "displayid": "714463"
     },
     {
       "id": 252439,
@@ -60385,7 +62919,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 4,
         "armor": 61
-      }
+      },
+      "displayid": "714379"
     },
     {
       "id": 252440,
@@ -60401,7 +62936,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 61
-      }
+      },
+      "displayid": "714559"
     },
     {
       "id": 252441,
@@ -60416,7 +62952,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 5,
         "armor": 99
-      }
+      },
+      "displayid": "714400"
     },
     {
       "id": 252442,
@@ -60431,7 +62968,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 4,
         "armor": 61
-      }
+      },
+      "displayid": "714552"
     },
     {
       "id": 252443,
@@ -60446,7 +62984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 5,
         "armor": 61
-      }
+      },
+      "displayid": "714523"
     },
     {
       "id": 252444,
@@ -60471,7 +63010,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 61
-      }
+      },
+      "displayid": "714585"
     },
     {
       "id": 252449,
@@ -60485,7 +63025,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 61
-      }
+      },
+      "displayid": "714419"
     },
     {
       "id": 252465,
@@ -60502,7 +63043,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 5,
         "armor": 91
-      }
+      },
+      "displayid": "714472"
     },
     {
       "id": 252466,
@@ -60518,7 +63060,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 11,
         "armor": 140
-      }
+      },
+      "displayid": "714579"
     },
     {
       "id": 252467,
@@ -60534,7 +63077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 11,
         "armor": 94
-      }
+      },
+      "displayid": "746818"
     },
     {
       "id": 252468,
@@ -60550,7 +63094,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 9,
         "armor": 103
-      }
+      },
+      "displayid": "714467"
     },
     {
       "id": 252469,
@@ -60566,7 +63111,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 9,
         "armor": 103
-      }
+      },
+      "displayid": "714487"
     },
     {
       "id": 252470,
@@ -60581,7 +63127,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 13,
         "armor": 196
-      }
+      },
+      "displayid": "714575"
     },
     {
       "id": 252471,
@@ -60596,7 +63143,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 11,
         "armor": 103
-      }
+      },
+      "displayid": "714496"
     },
     {
       "id": 252472,
@@ -60621,7 +63169,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 103
-      }
+      },
+      "displayid": "714447"
     },
     {
       "id": 252479,
@@ -60636,7 +63185,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 12,
         "armor": 101
-      }
+      },
+      "displayid": "714581"
     },
     {
       "id": 252531,
@@ -60653,7 +63203,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 5,
         "armor": 91
-      }
+      },
+      "displayid": "714491"
     },
     {
       "id": 252532,
@@ -60669,7 +63220,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 91
-      }
+      },
+      "displayid": "714500"
     },
     {
       "id": 252533,
@@ -60695,7 +63247,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 91
-      }
+      },
+      "displayid": "714452"
     },
     {
       "id": 252545,
@@ -60710,7 +63263,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 5,
         "armor": 95
-      }
+      },
+      "displayid": "714546"
     },
     {
       "id": 252562,
@@ -60727,7 +63281,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 187
-      }
+      },
+      "displayid": "714505"
     },
     {
       "id": 252563,
@@ -60743,7 +63298,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 7,
         "armor": 187
-      }
+      },
+      "displayid": "714505"
     },
     {
       "id": 252564,
@@ -60760,7 +63316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 5,
         "armor": 187
-      }
+      },
+      "displayid": "746246"
     },
     {
       "id": 252565,
@@ -60786,7 +63343,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 187
-      }
+      },
+      "displayid": "745811"
     },
     {
       "id": 252574,
@@ -60801,7 +63359,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 10,
         "armor": 191
-      }
+      },
+      "displayid": "714535"
     },
     {
       "id": 252576,
@@ -60817,7 +63376,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 9,
         "armor": 214
-      }
+      },
+      "displayid": "714512"
     },
     {
       "id": 252577,
@@ -60832,7 +63392,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 11,
         "armor": 214
-      }
+      },
+      "displayid": "714512"
     },
     {
       "id": 252578,
@@ -60847,7 +63408,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 9,
         "armor": 214
-      }
+      },
+      "displayid": "714485"
     },
     {
       "id": 252579,
@@ -60872,7 +63434,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 214
-      }
+      },
+      "displayid": "746836"
     },
     {
       "id": 252594,
@@ -60887,7 +63450,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "sta": 9,
         "armor": 208
-      }
+      },
+      "displayid": "714418"
     },
     {
       "id": 252601,
@@ -60902,7 +63466,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 7,
         "armor": 224
-      }
+      },
+      "displayid": "714532"
     },
     {
       "id": 252602,
@@ -60917,7 +63482,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 9,
         "armor": 224
-      }
+      },
+      "displayid": "714389"
     },
     {
       "id": 253889,
@@ -60942,7 +63508,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 22
-      }
+      },
+      "displayid": "747019"
     },
     {
       "id": 253891,
@@ -60957,7 +63524,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 22
-      }
+      },
+      "displayid": "715255"
     },
     {
       "id": 253893,
@@ -60972,7 +63540,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 22
-      }
+      },
+      "displayid": "715269"
     },
     {
       "id": 253895,
@@ -60987,7 +63556,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 22
-      }
+      },
+      "displayid": "715275"
     },
     {
       "id": 253897,
@@ -61002,7 +63572,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 22
-      }
+      },
+      "displayid": "715282"
     },
     {
       "id": 253899,
@@ -61017,7 +63588,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 22
-      }
+      },
+      "displayid": "715288"
     },
     {
       "id": 254001,
@@ -61043,7 +63615,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 35
-      }
+      },
+      "displayid": "715316"
     },
     {
       "id": 254003,
@@ -61059,7 +63632,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 35
-      }
+      },
+      "displayid": "715321"
     },
     {
       "id": 254005,
@@ -61075,7 +63649,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 35
-      }
+      },
+      "displayid": "715335"
     },
     {
       "id": 254007,
@@ -61091,7 +63666,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 35
-      }
+      },
+      "displayid": "715341"
     },
     {
       "id": 254009,
@@ -61107,7 +63683,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 35
-      }
+      },
+      "displayid": "715351"
     },
     {
       "id": 254011,
@@ -61123,7 +63700,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 7,
         "armor": 35
-      }
+      },
+      "displayid": "715379"
     },
     {
       "id": 254013,
@@ -61147,7 +63725,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 32
-      }
+      },
+      "displayid": "715298"
     },
     {
       "id": 254093,
@@ -61171,7 +63750,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 48
-      }
+      },
+      "displayid": "715307"
     },
     {
       "id": 254107,
@@ -61196,7 +63776,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11
         ],
         "armor": 53
-      }
+      },
+      "displayid": "715320"
     },
     {
       "id": 254109,
@@ -61211,7 +63792,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 9,
         "armor": 53
-      }
+      },
+      "displayid": "715322"
     },
     {
       "id": 254111,
@@ -61226,7 +63808,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 9,
         "armor": 53
-      }
+      },
+      "displayid": "715336"
     },
     {
       "id": 254113,
@@ -61241,7 +63824,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 9,
         "armor": 53
-      }
+      },
+      "displayid": "715342"
     },
     {
       "id": 254115,
@@ -61256,7 +63840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 9,
         "armor": 53
-      }
+      },
+      "displayid": "715350"
     },
     {
       "id": 254117,
@@ -61271,7 +63856,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 9,
         "armor": 53
-      }
+      },
+      "displayid": "715380"
     },
     {
       "id": 254129,
@@ -61285,7 +63871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 13,
         "armor": 53
-      }
+      },
+      "displayid": "715312"
     },
     {
       "id": 259890,
@@ -61302,7 +63889,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "armor": 43
       },
-      "useSpell": 1265304
+      "useSpell": 1265304,
+      "displayid": "717735"
     },
     {
       "id": 260167,
@@ -61318,7 +63906,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "spi": 8,
         "armor": 94
-      }
+      },
+      "displayid": "717891"
     },
     {
       "id": 260185,
@@ -61333,7 +63922,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 9,
         "armor": 225
-      }
+      },
+      "displayid": "718019"
     },
     {
       "id": 263308,
@@ -61347,7 +63937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 79
-      }
+      },
+      "displayid": "736668"
     },
     {
       "id": 263309,
@@ -61362,7 +63953,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 40
-      }
+      },
+      "displayid": "736672"
     },
     {
       "id": 263339,
@@ -61377,7 +63969,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 16
-      }
+      },
+      "displayid": "736677"
     },
     {
       "id": 263406,
@@ -61391,7 +63984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "armor": 19
-      }
+      },
+      "displayid": "736665"
     },
     {
       "id": 269503,
@@ -61408,7 +64002,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 7,
         "armor": 105
-      }
+      },
+      "displayid": "16734"
     },
     {
       "id": 270006,
@@ -61422,7 +64017,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "armor": 50
-      }
+      },
+      "displayid": "18145"
     },
     {
       "id": 270013,
@@ -61437,7 +64033,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 53
-      }
+      },
+      "displayid": "739926"
     },
     {
       "id": 270019,
@@ -61453,7 +64050,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "spi": 3,
         "armor": 57
-      }
+      },
+      "displayid": "4027"
     },
     {
       "id": 270066,
@@ -61469,7 +64067,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 6,
         "armor": 74
-      }
+      },
+      "displayid": "3172"
     },
     {
       "id": 270094,
@@ -61485,7 +64084,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "spi": 9,
         "armor": 83
-      }
+      },
+      "displayid": "4389"
     },
     {
       "id": 270101,
@@ -61501,7 +64101,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 10,
         "armor": 89
-      }
+      },
+      "displayid": "15412"
     },
     {
       "id": 270104,
@@ -61517,7 +64118,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 8,
         "armor": 90
-      }
+      },
+      "displayid": "12599"
     },
     {
       "id": 272477,
@@ -61534,7 +64136,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 20,
         "armor": 430
-      }
+      },
+      "displayid": "27270"
     },
     {
       "id": 272510,
@@ -61551,7 +64154,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 28,
         "armor": 507
-      }
+      },
+      "displayid": "30370"
     },
     {
       "id": 272716,
@@ -61568,7 +64172,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 20,
         "armor": 430
-      }
+      },
+      "displayid": "26752"
     },
     {
       "id": 272792,
@@ -61585,7 +64190,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 28,
         "armor": 507
-      }
+      },
+      "displayid": "30319"
     },
     {
       "id": 273875,
@@ -61599,7 +64205,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 47
-      }
+      },
+      "displayid": "736770"
     },
     {
       "id": 274490,
@@ -61615,7 +64222,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 10,
         "armor": 75
-      }
+      },
+      "displayid": "5875"
     },
     {
       "id": 274718,
@@ -61631,7 +64239,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 14,
         "armor": 379
-      }
+      },
+      "displayid": "233"
     },
     {
       "id": 274719,
@@ -61647,7 +64256,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "spi": 9,
         "armor": 103
-      }
+      },
+      "displayid": "9080"
     },
     {
       "id": 274720,
@@ -61663,7 +64273,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "int": 12,
         "armor": 214
-      }
+      },
+      "displayid": "233"
     },
     {
       "id": 274721,
@@ -61688,7 +64299,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 51
-      }
+      },
+      "displayid": "10295"
     },
     {
       "id": 274747,
@@ -61703,7 +64315,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 4,
         "armor": 31
-      }
+      },
+      "displayid": "739926"
     },
     {
       "id": 274916,
@@ -61718,7 +64331,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "armor": 158
-      }
+      },
+      "displayid": "15669"
     },
     {
       "id": 275438,
@@ -61743,7 +64357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 379
-      }
+      },
+      "displayid": "740459"
     },
     {
       "id": 275606,
@@ -61767,7 +64382,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 56
-      }
+      },
+      "displayid": "746830"
     },
     {
       "id": 275609,
@@ -61801,7 +64417,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 56
-      }
+      },
+      "displayid": "746829"
     },
     {
       "id": 275612,
@@ -61825,7 +64442,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 113
-      }
+      },
+      "displayid": "740593"
     },
     {
       "id": 275615,
@@ -61850,7 +64468,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 113
-      }
+      },
+      "displayid": "740596"
     },
     {
       "id": 275618,
@@ -61876,7 +64495,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 236
-      }
+      },
+      "displayid": "740600"
     },
     {
       "id": 275621,
@@ -61910,7 +64530,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 236
-      }
+      },
+      "displayid": "740603"
     },
     {
       "id": 275624,
@@ -61936,7 +64557,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 417
-      }
+      },
+      "displayid": "740607"
     },
     {
       "id": 275627,
@@ -61961,7 +64583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 417
-      }
+      },
+      "displayid": "740611"
     },
     {
       "id": 276274,
@@ -61976,7 +64599,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "armor": 29
       },
-      "useSpell": 1299351
+      "useSpell": 1299351,
+      "displayid": "741499"
     },
     {
       "id": 276341,
@@ -62001,7 +64625,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 379
-      }
+      },
+      "displayid": "740459"
     },
     {
       "id": 276541,
@@ -62030,7 +64655,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "int": 5,
         "armor": 136
-      }
+      },
+      "displayid": "746826"
     },
     {
       "id": 276997,
@@ -62044,7 +64670,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 79
-      }
+      },
+      "displayid": "743100"
     },
     {
       "id": 277003,
@@ -62058,7 +64685,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 40
-      }
+      },
+      "displayid": "743018"
     },
     {
       "id": 277009,
@@ -62072,7 +64700,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 40
-      }
+      },
+      "displayid": "743056"
     },
     {
       "id": 277015,
@@ -62086,7 +64715,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 14
-      }
+      },
+      "displayid": "742974"
     },
     {
       "id": 277021,
@@ -62100,7 +64730,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 79
-      }
+      },
+      "displayid": "743119"
     },
     {
       "id": 277027,
@@ -62114,7 +64745,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 40
-      }
+      },
+      "displayid": "743038"
     },
     {
       "id": 277033,
@@ -62128,7 +64760,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 40
-      }
+      },
+      "displayid": "743075"
     },
     {
       "id": 277039,
@@ -62142,7 +64775,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 1,
         "armor": 14
-      }
+      },
+      "displayid": "742993"
     },
     {
       "id": 277218,
@@ -62157,7 +64791,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 6,
         "armor": 28
-      }
+      },
+      "displayid": "4631"
     },
     {
       "id": 277226,
@@ -62172,7 +64807,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 62
-      }
+      },
+      "displayid": "3715"
     },
     {
       "id": 277234,
@@ -62187,7 +64823,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 5,
         "armor": 131
-      }
+      },
+      "displayid": "4030"
     },
     {
       "id": 277242,
@@ -62201,7 +64838,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 300
-      }
+      },
+      "displayid": "11076"
     },
     {
       "id": 277672,
@@ -62215,7 +64853,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 74
-      }
+      },
+      "displayid": "23528"
     },
     {
       "id": 279263,
@@ -62241,7 +64880,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           21
         ],
         "armor": 507
-      }
+      },
+      "displayid": "741998"
     },
     {
       "id": 279268,
@@ -62257,7 +64897,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "spi": 18,
         "armor": 68
-      }
+      },
+      "displayid": "744106"
     },
     {
       "id": 281259,
@@ -62272,7 +64913,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 7,
         "armor": 330
-      }
+      },
+      "displayid": "2986"
     },
     {
       "id": 281285,
@@ -62286,7 +64928,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 79
-      }
+      },
+      "displayid": "3334"
     },
     {
       "id": 281317,
@@ -62301,7 +64944,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 11,
         "int": 11,
         "armor": 335
-      }
+      },
+      "displayid": "14870"
     },
     {
       "id": 281692,
@@ -62314,7 +64958,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Shoes",
       "stats": {
         "armor": 2
-      }
+      },
+      "displayid": "747404"
     },
     {
       "id": 281700,
@@ -62327,7 +64972,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Boots",
       "stats": {
         "armor": 11
-      }
+      },
+      "displayid": "747657"
     },
     {
       "id": 281708,
@@ -62340,7 +64986,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Boots",
       "stats": {
         "armor": 26
-      }
+      },
+      "displayid": "747613"
     },
     {
       "id": 281716,
@@ -62353,7 +65000,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Boots",
       "stats": {
         "armor": 29
-      }
+      },
+      "displayid": "747629"
     }
   ],
   "waist": [
@@ -62370,7 +65018,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 64
-      }
+      },
+      "displayid": "23529"
     },
     {
       "id": 2857,
@@ -62386,7 +65035,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 2,
         "armor": 90
-      }
+      },
+      "displayid": "19499"
     },
     {
       "id": 3217,
@@ -62402,7 +65052,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 2,
         "armor": 15
-      }
+      },
+      "displayid": "5372"
     },
     {
       "id": 3344,
@@ -62418,7 +65069,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 2,
         "armor": 15
-      }
+      },
+      "displayid": "3553"
     },
     {
       "id": 3747,
@@ -62434,7 +65086,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "armor": 52
-      }
+      },
+      "displayid": "9024"
     },
     {
       "id": 3753,
@@ -62449,7 +65102,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 56
-      }
+      },
+      "displayid": "7858"
     },
     {
       "id": 3758,
@@ -62465,7 +65119,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 6,
         "armor": 116
-      }
+      },
+      "displayid": "3254"
     },
     {
       "id": 4117,
@@ -62480,7 +65135,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "armor": 32
-      }
+      },
+      "displayid": "8977"
     },
     {
       "id": 4131,
@@ -62496,7 +65152,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 67
-      }
+      },
+      "displayid": "8344"
     },
     {
       "id": 4237,
@@ -62511,7 +65168,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 30
-      }
+      },
+      "displayid": "3253"
     },
     {
       "id": 4246,
@@ -62527,7 +65185,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 40
-      }
+      },
+      "displayid": "4099"
     },
     {
       "id": 4249,
@@ -62543,7 +65202,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 4,
         "armor": 48
-      }
+      },
+      "displayid": "4591"
     },
     {
       "id": 4250,
@@ -62558,7 +65218,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 48
-      }
+      },
+      "displayid": "6049"
     },
     {
       "id": 4257,
@@ -62574,7 +65235,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "int": 6,
         "armor": 54
-      }
+      },
+      "displayid": "8350"
     },
     {
       "id": 4258,
@@ -62589,7 +65251,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 56
-      }
+      },
+      "displayid": "8606"
     },
     {
       "id": 4262,
@@ -62608,7 +65271,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 64
       },
       "useSpell": 9163,
-      "cooldown": 300000
+      "cooldown": 300000,
+      "displayid": "9715"
     },
     {
       "id": 4264,
@@ -62626,7 +65290,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "useSpell": 9174,
       "cooldown": 300000,
-      "category_cooldown": 15000
+      "category_cooldown": 15000,
+      "displayid": "7766"
     },
     {
       "id": 4328,
@@ -62643,7 +65308,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 26
       },
       "useSpell": 9774,
-      "cooldown": 1800000
+      "cooldown": 1800000,
+      "displayid": "5764"
     },
     {
       "id": 4329,
@@ -62658,7 +65324,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "armor": 29
-      }
+      },
+      "displayid": "4634"
     },
     {
       "id": 4456,
@@ -62674,7 +65341,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 55
-      }
+      },
+      "displayid": "6182"
     },
     {
       "id": 4786,
@@ -62689,7 +65357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 18
-      }
+      },
+      "displayid": "9211"
     },
     {
       "id": 4827,
@@ -62704,7 +65373,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 8,
         "armor": 23
-      }
+      },
+      "displayid": "6071"
     },
     {
       "id": 4828,
@@ -62720,7 +65390,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 6,
         "armor": 22
-      }
+      },
+      "displayid": "4881"
     },
     {
       "id": 4829,
@@ -62736,7 +65407,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 7,
         "armor": 23
-      }
+      },
+      "displayid": "5772"
     },
     {
       "id": 5275,
@@ -62751,7 +65423,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 39
-      }
+      },
+      "displayid": "7545"
     },
     {
       "id": 5328,
@@ -62767,7 +65440,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 2,
         "armor": 80
-      }
+      },
+      "displayid": "4335"
     },
     {
       "id": 5355,
@@ -62783,7 +65457,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "sta": 5,
         "armor": 50
-      }
+      },
+      "displayid": "7662"
     },
     {
       "id": 5609,
@@ -62799,7 +65474,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 45
-      }
+      },
+      "displayid": "4599"
     },
     {
       "id": 5780,
@@ -62815,7 +65491,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 2,
         "armor": 41
-      }
+      },
+      "displayid": "3335"
     },
     {
       "id": 6468,
@@ -62832,7 +65509,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 6,
         "armor": 50
-      }
+      },
+      "displayid": "9748"
     },
     {
       "id": 6477,
@@ -62848,7 +65526,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 3,
         "armor": 18
-      }
+      },
+      "displayid": "10091"
     },
     {
       "id": 6719,
@@ -62864,7 +65543,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 5,
         "armor": 52
-      }
+      },
+      "displayid": "11953"
     },
     {
       "id": 6726,
@@ -62880,7 +65560,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "int": 12,
         "armor": 30
-      }
+      },
+      "displayid": "4306"
     },
     {
       "id": 6740,
@@ -62896,7 +65577,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 7,
         "armor": 51
-      }
+      },
+      "displayid": "11880"
     },
     {
       "id": 6780,
@@ -62912,7 +65594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 9,
         "armor": 26
-      }
+      },
+      "displayid": "11860"
     },
     {
       "id": 6788,
@@ -62928,7 +65611,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 9,
         "armor": 64
-      }
+      },
+      "displayid": "9045"
     },
     {
       "id": 7052,
@@ -62943,7 +65627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 26
-      }
+      },
+      "displayid": "7700"
     },
     {
       "id": 7055,
@@ -62958,7 +65643,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 7,
         "armor": 26
-      }
+      },
+      "displayid": "5804"
     },
     {
       "id": 7061,
@@ -62983,7 +65669,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 28
-      }
+      },
+      "displayid": "4905"
     },
     {
       "id": 7107,
@@ -62999,7 +65686,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 116
-      }
+      },
+      "displayid": "13518"
     },
     {
       "id": 7387,
@@ -63015,7 +65703,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 8,
         "armor": 61
-      }
+      },
+      "displayid": "8072"
     },
     {
       "id": 9636,
@@ -63031,7 +65720,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 9,
         "armor": 33
-      }
+      },
+      "displayid": "3553"
     },
     {
       "id": 9657,
@@ -63047,7 +65737,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 3,
         "armor": 73
-      }
+      },
+      "displayid": "10269"
     },
     {
       "id": 9666,
@@ -63063,7 +65754,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 10,
         "armor": 153
-      }
+      },
+      "displayid": "27323"
     },
     {
       "id": 9682,
@@ -63079,7 +65771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 12,
         "armor": 67
-      }
+      },
+      "displayid": "6299"
     },
     {
       "id": 9687,
@@ -63095,7 +65788,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 5,
         "armor": 55
-      }
+      },
+      "displayid": "8396"
     },
     {
       "id": 9705,
@@ -63110,7 +65804,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 13,
         "armor": 66
-      }
+      },
+      "displayid": "6182"
     },
     {
       "id": 10462,
@@ -63127,7 +65822,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 11,
         "armor": 34
-      }
+      },
+      "displayid": "7755"
     },
     {
       "id": 10706,
@@ -63143,7 +65839,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 2,
         "armor": 145
-      }
+      },
+      "displayid": "27429"
     },
     {
       "id": 10721,
@@ -63160,7 +65857,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 66
       },
       "useSpell": 13234,
-      "cooldown": 3600000
+      "cooldown": 3600000,
+      "displayid": "8072"
     },
     {
       "id": 10747,
@@ -63176,7 +65874,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "int": 12,
         "armor": 30
-      }
+      },
+      "displayid": "8401"
     },
     {
       "id": 10820,
@@ -63191,7 +65890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 15
-      }
+      },
+      "displayid": "9189"
     },
     {
       "id": 11229,
@@ -63207,7 +65907,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 6,
         "armor": 114
-      }
+      },
+      "displayid": "11523"
     },
     {
       "id": 11861,
@@ -63225,7 +65926,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 16783
-      }
+      },
+      "displayid": "2985"
     },
     {
       "id": 11909,
@@ -63241,7 +65943,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 16,
         "armor": 80
-      }
+      },
+      "displayid": "2364"
     },
     {
       "id": 11936,
@@ -63258,7 +65961,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 4,
         "armor": 18
-      }
+      },
+      "displayid": "8149"
     },
     {
       "id": 12257,
@@ -63274,7 +65978,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 6,
         "armor": 133
-      }
+      },
+      "displayid": "28777"
     },
     {
       "id": 12258,
@@ -63289,7 +65994,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 14,
         "armor": 137
-      }
+      },
+      "displayid": "13205"
     },
     {
       "id": 12406,
@@ -63314,7 +66020,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 270
-      }
+      },
+      "displayid": "16460"
     },
     {
       "id": 12416,
@@ -63339,7 +66046,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 159
-      }
+      },
+      "displayid": "21180"
     },
     {
       "id": 12424,
@@ -63355,7 +66063,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 11,
         "armor": 284
-      }
+      },
+      "displayid": "5679"
     },
     {
       "id": 13856,
@@ -63370,7 +66079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 12,
         "armor": 37
-      }
+      },
+      "displayid": "25235"
     },
     {
       "id": 14143,
@@ -63385,7 +66095,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "armor": 38
-      }
+      },
+      "displayid": "10087"
     },
     {
       "id": 14652,
@@ -63402,7 +66113,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 7,
         "armor": 68
-      }
+      },
+      "displayid": "12918"
     },
     {
       "id": 14661,
@@ -63419,7 +66131,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 7,
         "armor": 73
-      }
+      },
+      "displayid": "8223"
     },
     {
       "id": 14674,
@@ -63436,7 +66149,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 8,
         "armor": 80
-      }
+      },
+      "displayid": "12918"
     },
     {
       "id": 14864,
@@ -63453,7 +66167,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 6,
         "armor": 315
-      }
+      },
+      "displayid": "26879"
     },
     {
       "id": 15082,
@@ -63469,7 +66184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 12,
         "armor": 170
-      }
+      },
+      "displayid": "7728"
     },
     {
       "id": 15088,
@@ -63485,7 +66201,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 14,
         "sta": 13,
         "armor": 86
-      }
+      },
+      "displayid": "8151"
     },
     {
       "id": 15093,
@@ -63500,7 +66217,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 14,
         "armor": 81
-      }
+      },
+      "displayid": "4460"
     },
     {
       "id": 15180,
@@ -63514,7 +66232,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_11",
       "stats": {
         "armor": 78
-      }
+      },
+      "displayid": "8204"
     },
     {
       "id": 15388,
@@ -63528,7 +66247,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_21",
       "stats": {
         "armor": 77
-      }
+      },
+      "displayid": "8223"
     },
     {
       "id": 15399,
@@ -63543,7 +66263,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 2,
         "armor": 38
-      }
+      },
+      "displayid": "8002"
     },
     {
       "id": 15404,
@@ -63559,7 +66280,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 3,
         "armor": 90
-      }
+      },
+      "displayid": "6559"
     },
     {
       "id": 15469,
@@ -63576,7 +66298,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 51
-      }
+      },
+      "displayid": "28302"
     },
     {
       "id": 15587,
@@ -63593,7 +66316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 16,
         "ranged_ap": 16,
         "armor": 57
-      }
+      },
+      "displayid": "11953"
     },
     {
       "id": 15588,
@@ -63610,7 +66334,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 7,
         "armor": 119
-      }
+      },
+      "displayid": "13437"
     },
     {
       "id": 15707,
@@ -63627,7 +66352,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 10,
         "armor": 42
-      }
+      },
+      "displayid": "13729"
     },
     {
       "id": 15709,
@@ -63644,7 +66370,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 5,
         "armor": 310
-      }
+      },
+      "displayid": "26437"
     },
     {
       "id": 15791,
@@ -63661,7 +66388,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 15,
         "armor": 42
-      }
+      },
+      "displayid": "25311"
     },
     {
       "id": 15813,
@@ -63677,7 +66405,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 12,
         "armor": 170
-      }
+      },
+      "displayid": "26502"
     },
     {
       "id": 16407,
@@ -63712,7 +66441,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 25,
         "sta": 15,
         "armor": 414
-      }
+      },
+      "displayid": "30322"
     },
     {
       "id": 16511,
@@ -63747,7 +66477,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 25,
         "sta": 15,
         "armor": 414
-      }
+      },
+      "displayid": "30372"
     },
     {
       "id": 16659,
@@ -63765,7 +66496,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 49
-      }
+      },
+      "displayid": "22432"
     },
     {
       "id": 16975,
@@ -63780,7 +66512,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 25
-      }
+      },
+      "displayid": "9401"
     },
     {
       "id": 16987,
@@ -63799,7 +66532,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 49
-      }
+      },
+      "displayid": "16187"
     },
     {
       "id": 16989,
@@ -63826,7 +66560,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 214
-      }
+      },
+      "displayid": "13135"
     },
     {
       "id": 18405,
@@ -63843,7 +66578,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 16,
         "crit_rate": 14,
         "armor": 53
-      }
+      },
+      "displayid": "5788"
     },
     {
       "id": 18504,
@@ -63859,7 +66595,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 23,
         "armor": 97
-      }
+      },
+      "displayid": "10433"
     },
     {
       "id": 19043,
@@ -63876,7 +66613,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 42,
         "ranged_ap": 42,
         "armor": 193
-      }
+      },
+      "displayid": "24404"
     },
     {
       "id": 19044,
@@ -63893,7 +66631,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 21,
         "sta": 9,
         "armor": 92
-      }
+      },
+      "displayid": "9183"
     },
     {
       "id": 19047,
@@ -63919,7 +66658,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11
         ],
         "armor": 46
-      }
+      },
+      "displayid": "9398"
     },
     {
       "id": 19051,
@@ -63935,7 +66675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 21,
         "sta": 9,
         "armor": 341
-      }
+      },
+      "displayid": "21199"
     },
     {
       "id": 19087,
@@ -63962,7 +66703,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 352
-      }
+      },
+      "displayid": "5512"
     },
     {
       "id": 19088,
@@ -63989,7 +66731,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 199
-      }
+      },
+      "displayid": "12455"
     },
     {
       "id": 19089,
@@ -64016,7 +66759,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 95
-      }
+      },
+      "displayid": "10433"
     },
     {
       "id": 19090,
@@ -64042,7 +66786,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 47
-      }
+      },
+      "displayid": "6062"
     },
     {
       "id": 19091,
@@ -64069,7 +66814,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 352
-      }
+      },
+      "displayid": "21345"
     },
     {
       "id": 19092,
@@ -64096,7 +66842,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 199
-      }
+      },
+      "displayid": "8827"
     },
     {
       "id": 19093,
@@ -64123,7 +66870,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 95
-      }
+      },
+      "displayid": "5583"
     },
     {
       "id": 19094,
@@ -64149,7 +66897,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 47
-      }
+      },
+      "displayid": "7519"
     },
     {
       "id": 19125,
@@ -64165,7 +66914,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 7,
         "armor": 150
-      }
+      },
+      "displayid": "5964"
     },
     {
       "id": 19149,
@@ -64190,7 +66940,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "31672"
     },
     {
       "id": 19162,
@@ -64225,7 +66976,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 118
-      }
+      },
+      "displayid": "31681"
     },
     {
       "id": 19163,
@@ -64251,7 +67003,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 118
-      }
+      },
+      "displayid": "31682"
     },
     {
       "id": 19823,
@@ -64268,7 +67021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "crit_rate": 14,
         "armor": 390
-      }
+      },
+      "displayid": "17939"
     },
     {
       "id": 20041,
@@ -64285,7 +67039,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "crit_rate": 14,
         "armor": 369
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20042,
@@ -64303,7 +67058,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 369
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20043,
@@ -64321,7 +67077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 34,
         "crit_rate": 14,
         "armor": 208
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20044,
@@ -64338,7 +67095,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 208
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20045,
@@ -64356,7 +67114,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 34,
         "crit_rate": 14,
         "armor": 159
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20046,
@@ -64373,7 +67132,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 159
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20047,
@@ -64390,7 +67150,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "crit_rate": 14,
         "armor": 150
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20088,
@@ -64408,7 +67169,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 20,
         "crit_rate": 14,
         "armor": 178
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20089,
@@ -64426,7 +67188,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 8,
         "crit_rate": 14,
         "armor": 149
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20090,
@@ -64443,7 +67206,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "armor": 60
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20097,
@@ -64460,7 +67224,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 5,
         "crit_rate": 14,
         "armor": 112
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20098,
@@ -64476,7 +67241,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 104
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20099,
@@ -64492,7 +67258,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 87
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20103,
@@ -64509,7 +67276,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 136
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20104,
@@ -64525,7 +67293,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 15,
         "armor": 112
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20105,
@@ -64541,7 +67310,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 12,
         "armor": 90
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20106,
@@ -64559,7 +67329,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 8,
         "crit_rate": 14,
         "armor": 313
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20107,
@@ -64576,7 +67347,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 6,
         "armor": 236
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20108,
@@ -64593,7 +67365,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 5,
         "armor": 128
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20115,
@@ -64611,7 +67384,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 20,
         "crit_rate": 14,
         "armor": 136
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20116,
@@ -64628,7 +67402,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 112
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20117,
@@ -64645,7 +67420,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "armor": 90
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20118,
@@ -64662,7 +67438,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 178
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20119,
@@ -64678,7 +67455,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 15,
         "armor": 149
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20120,
@@ -64694,7 +67472,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 12,
         "armor": 60
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20124,
@@ -64711,7 +67490,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "crit_rate": 14,
         "armor": 313
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20125,
@@ -64727,7 +67507,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 6,
         "armor": 236
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20126,
@@ -64743,7 +67524,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 5,
         "armor": 128
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20150,
@@ -64761,7 +67543,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 34,
         "crit_rate": 14,
         "armor": 208
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20151,
@@ -64779,7 +67562,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 20,
         "crit_rate": 14,
         "armor": 178
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20152,
@@ -64796,7 +67580,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "armor": 60
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20153,
@@ -64814,7 +67599,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 8,
         "crit_rate": 14,
         "armor": 149
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20163,
@@ -64831,7 +67617,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 6,
         "crit_rate": 14,
         "armor": 150
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20164,
@@ -64847,7 +67634,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 87
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20165,
@@ -64864,7 +67652,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 5,
         "crit_rate": 14,
         "armor": 112
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20166,
@@ -64880,7 +67669,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 4,
         "armor": 104
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20171,
@@ -64897,7 +67687,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 159
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20172,
@@ -64913,7 +67704,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 12,
         "armor": 90
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20173,
@@ -64929,7 +67721,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 15,
         "armor": 112
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20174,
@@ -64946,7 +67739,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 136
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20178,
@@ -64963,7 +67757,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 5,
         "armor": 128
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20180,
@@ -64980,7 +67775,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 6,
         "armor": 236
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20190,
@@ -64998,7 +67794,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 34,
         "crit_rate": 14,
         "armor": 159
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20191,
@@ -65015,7 +67812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "armor": 90
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20192,
@@ -65032,7 +67830,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 112
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20193,
@@ -65050,7 +67849,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 20,
         "crit_rate": 14,
         "armor": 136
-      }
+      },
+      "displayid": "9965"
     },
     {
       "id": 20195,
@@ -65067,7 +67867,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 17,
         "crit_rate": 14,
         "armor": 208
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20196,
@@ -65084,7 +67885,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 178
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20197,
@@ -65100,7 +67902,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 12,
         "armor": 60
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20198,
@@ -65116,7 +67919,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 15,
         "armor": 149
-      }
+      },
+      "displayid": "2970"
     },
     {
       "id": 20204,
@@ -65133,7 +67937,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "crit_rate": 14,
         "armor": 369
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20205,
@@ -65150,7 +67955,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "crit_rate": 14,
         "armor": 313
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20206,
@@ -65166,7 +67972,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 6,
         "armor": 236
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20207,
@@ -65182,7 +67989,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 5,
         "armor": 128
-      }
+      },
+      "displayid": "25338"
     },
     {
       "id": 20213,
@@ -65199,7 +68007,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 23,
         "sta": 11,
         "armor": 408
-      }
+      },
+      "displayid": "32718"
     },
     {
       "id": 20215,
@@ -65217,7 +68026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 11,
         "armor": 230
-      }
+      },
+      "displayid": "25530"
     },
     {
       "id": 20216,
@@ -65235,7 +68045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "hit_rate": 10,
         "armor": 108
-      }
+      },
+      "displayid": "6299"
     },
     {
       "id": 20217,
@@ -65251,7 +68062,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "int": 17,
         "armor": 55
-      }
+      },
+      "displayid": "10083"
     },
     {
       "id": 20292,
@@ -65323,7 +68135,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 50
-      }
+      },
+      "displayid": "30555"
     },
     {
       "id": 21312,
@@ -65340,7 +68153,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "armor": 148
-      }
+      },
+      "displayid": "8871"
     },
     {
       "id": 21582,
@@ -65356,7 +68170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 19,
         "armor": 74
-      }
+      },
+      "displayid": "34176"
     },
     {
       "id": 21586,
@@ -65375,7 +68190,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 142
-      }
+      },
+      "displayid": "34184"
     },
     {
       "id": 21598,
@@ -65394,7 +68210,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 8,
         "parry_rate": 15,
         "armor": 511
-      }
+      },
+      "displayid": "34191"
     },
     {
       "id": 21606,
@@ -65412,7 +68229,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "int": 18,
         "armor": 511
-      }
+      },
+      "displayid": "34202"
     },
     {
       "id": 21607,
@@ -65430,7 +68248,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "int": 17,
         "armor": 287
-      }
+      },
+      "displayid": "34203"
     },
     {
       "id": 21609,
@@ -65447,7 +68266,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 18,
         "armor": 133
-      }
+      },
+      "displayid": "34205"
     },
     {
       "id": 21994,
@@ -65465,7 +68285,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "defense": 7,
         "armor": 380
-      }
+      },
+      "displayid": "34610"
     },
     {
       "id": 22002,
@@ -65482,7 +68303,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 13,
         "armor": 101
-      }
+      },
+      "displayid": "34699"
     },
     {
       "id": 22010,
@@ -65499,7 +68321,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 10,
         "armor": 214
-      }
+      },
+      "displayid": "34646"
     },
     {
       "id": 22062,
@@ -65516,7 +68339,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 14,
         "armor": 51
-      }
+      },
+      "displayid": "34599"
     },
     {
       "id": 22070,
@@ -65532,7 +68356,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 16,
         "armor": 51
-      }
+      },
+      "displayid": "34620"
     },
     {
       "id": 22078,
@@ -65549,7 +68374,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 13,
         "armor": 51
-      }
+      },
+      "displayid": "34628"
     },
     {
       "id": 22086,
@@ -65566,7 +68392,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "armor": 380
-      }
+      },
+      "displayid": "34520"
     },
     {
       "id": 22098,
@@ -65583,7 +68410,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "armor": 214
-      }
+      },
+      "displayid": "34694"
     },
     {
       "id": 22106,
@@ -65602,7 +68430,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 12,
         "armor": 101
-      }
+      },
+      "displayid": "34637"
     },
     {
       "id": 22195,
@@ -65619,7 +68448,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 32,
         "crit_rate": 14,
         "armor": 223
-      }
+      },
+      "displayid": "23364"
     },
     {
       "id": 22197,
@@ -65634,7 +68464,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 25,
         "armor": 397
-      }
+      },
+      "displayid": "23364"
     },
     {
       "id": 22422,
@@ -65653,7 +68484,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 9,
         "block_rate": 15,
         "armor": 553
-      }
+      },
+      "displayid": "739069"
     },
     {
       "id": 22431,
@@ -65669,7 +68501,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "int": 29,
         "armor": 553
-      }
+      },
+      "displayid": "739070"
     },
     {
       "id": 22442,
@@ -65688,7 +68521,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 311
-      }
+      },
+      "displayid": "740690"
     },
     {
       "id": 22470,
@@ -65704,7 +68538,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 25,
         "armor": 311
-      }
+      },
+      "displayid": "740689"
     },
     {
       "id": 22482,
@@ -65722,7 +68557,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 20,
         "crit_rate": 14,
         "armor": 142
-      }
+      },
+      "displayid": "739073"
     },
     {
       "id": 22494,
@@ -65739,7 +68575,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 13,
         "int": 23,
         "armor": 142
-      }
+      },
+      "displayid": "739072"
     },
     {
       "id": 22502,
@@ -65757,7 +68594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 21,
         "hit_rate": 10,
         "armor": 74
-      }
+      },
+      "displayid": "739071"
     },
     {
       "id": 22510,
@@ -65774,7 +68612,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 12,
         "crit_rate": 14,
         "armor": 74
-      }
+      },
+      "displayid": "739075"
     },
     {
       "id": 22518,
@@ -65791,7 +68630,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 17,
         "int": 23,
         "armor": 74
-      }
+      },
+      "displayid": "739074"
     },
     {
       "id": 22761,
@@ -65816,7 +68656,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 108
-      }
+      },
+      "displayid": "740688"
     },
     {
       "id": 215366,
@@ -65831,7 +68672,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 24
-      }
+      },
+      "displayid": "6121"
     },
     {
       "id": 250513,
@@ -65847,7 +68689,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 98
-      }
+      },
+      "displayid": "712826"
     },
     {
       "id": 250514,
@@ -65863,7 +68706,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "defense": 3,
         "armor": 98
-      }
+      },
+      "displayid": "712820"
     },
     {
       "id": 250515,
@@ -65878,7 +68722,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "defense": 3,
         "armor": 98
-      }
+      },
+      "displayid": "712826"
     },
     {
       "id": 250516,
@@ -65903,7 +68748,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 98
-      }
+      },
+      "displayid": "712759"
     },
     {
       "id": 250517,
@@ -65918,7 +68764,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 4,
         "armor": 98
-      }
+      },
+      "displayid": "712816"
     },
     {
       "id": 250556,
@@ -65934,7 +68781,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 7,
         "armor": 131
-      }
+      },
+      "displayid": "712911"
     },
     {
       "id": 250557,
@@ -65950,7 +68798,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 7,
         "armor": 131
-      }
+      },
+      "displayid": "712913"
     },
     {
       "id": 250558,
@@ -65965,7 +68814,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "defense": 7,
         "armor": 131
-      }
+      },
+      "displayid": "712910"
     },
     {
       "id": 250559,
@@ -65990,7 +68840,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 131
-      }
+      },
+      "displayid": "712912"
     },
     {
       "id": 250560,
@@ -66005,7 +68856,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 7,
         "armor": 131
-      }
+      },
+      "displayid": "712909"
     },
     {
       "id": 250571,
@@ -66021,7 +68873,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 13,
         "armor": 324
-      }
+      },
+      "displayid": "712911"
     },
     {
       "id": 250572,
@@ -66037,7 +68890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "defense": 10,
         "armor": 324
-      }
+      },
+      "displayid": "712913"
     },
     {
       "id": 250573,
@@ -66052,7 +68906,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "defense": 10,
         "armor": 324
-      }
+      },
+      "displayid": "712910"
     },
     {
       "id": 250574,
@@ -66077,7 +68932,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 324
-      }
+      },
+      "displayid": "712912"
     },
     {
       "id": 250575,
@@ -66092,7 +68948,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 13,
         "armor": 324
-      }
+      },
+      "displayid": "712909"
     },
     {
       "id": 250592,
@@ -66107,7 +68964,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 5,
         "armor": 315
-      }
+      },
+      "displayid": "712927"
     },
     {
       "id": 252428,
@@ -66123,7 +68981,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 45
-      }
+      },
+      "displayid": "714378"
     },
     {
       "id": 252429,
@@ -66139,7 +68998,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 3,
         "armor": 45
-      }
+      },
+      "displayid": "714558"
     },
     {
       "id": 252430,
@@ -66154,7 +69014,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 74
-      }
+      },
+      "displayid": "714399"
     },
     {
       "id": 252431,
@@ -66169,7 +69030,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 45
-      }
+      },
+      "displayid": "714551"
     },
     {
       "id": 252432,
@@ -66184,7 +69046,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 4,
         "armor": 45
-      }
+      },
+      "displayid": "714522"
     },
     {
       "id": 252433,
@@ -66209,7 +69072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3
         ],
         "armor": 45
-      }
+      },
+      "displayid": "714584"
     },
     {
       "id": 252459,
@@ -66226,7 +69090,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 4,
         "armor": 62
-      }
+      },
+      "displayid": "714466"
     },
     {
       "id": 252460,
@@ -66242,7 +69107,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 9,
         "armor": 100
-      }
+      },
+      "displayid": "714574"
     },
     {
       "id": 252461,
@@ -66258,7 +69124,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 4,
         "armor": 62
-      }
+      },
+      "displayid": "714476"
     },
     {
       "id": 252473,
@@ -66274,7 +69141,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 10,
         "armor": 88
-      }
+      },
+      "displayid": "714474"
     },
     {
       "id": 252474,
@@ -66290,7 +69158,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 10,
         "armor": 88
-      }
+      },
+      "displayid": "714493"
     },
     {
       "id": 252475,
@@ -66305,7 +69174,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 14,
         "armor": 190
-      }
+      },
+      "displayid": "714574"
     },
     {
       "id": 252476,
@@ -66320,7 +69190,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 12,
         "armor": 88
-      }
+      },
+      "displayid": "714502"
     },
     {
       "id": 252477,
@@ -66345,7 +69216,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 88
-      }
+      },
+      "displayid": "714456"
     },
     {
       "id": 252481,
@@ -66361,7 +69233,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 14,
         "armor": 85
-      }
+      },
+      "displayid": "744390"
     },
     {
       "id": 252520,
@@ -66378,7 +69251,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 4,
         "armor": 62
-      }
+      },
+      "displayid": "714486"
     },
     {
       "id": 252521,
@@ -66395,7 +69269,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 62
-      }
+      },
+      "displayid": "714514"
     },
     {
       "id": 252522,
@@ -66411,7 +69286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 62
-      }
+      },
+      "displayid": "714494"
     },
     {
       "id": 252523,
@@ -66437,7 +69313,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 62
-      }
+      },
+      "displayid": "714448"
     },
     {
       "id": 252544,
@@ -66452,7 +69329,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 11,
         "armor": 77
-      }
+      },
+      "displayid": "714545"
     },
     {
       "id": 252575,
@@ -66467,7 +69345,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 10,
         "armor": 156
-      }
+      },
+      "displayid": "714388"
     },
     {
       "id": 252588,
@@ -66483,7 +69362,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 10,
         "armor": 184
-      }
+      },
+      "displayid": "714516"
     },
     {
       "id": 252589,
@@ -66498,7 +69378,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 12,
         "armor": 184
-      }
+      },
+      "displayid": "714503"
     },
     {
       "id": 252590,
@@ -66513,7 +69394,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 10,
         "armor": 184
-      }
+      },
+      "displayid": "714478"
     },
     {
       "id": 252591,
@@ -66538,7 +69420,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 184
-      }
+      },
+      "displayid": "714457"
     },
     {
       "id": 252595,
@@ -66552,7 +69435,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 170
-      }
+      },
+      "displayid": "714530"
     },
     {
       "id": 253885,
@@ -66567,7 +69451,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "int": 3,
         "armor": 17
-      }
+      },
+      "displayid": "715236"
     },
     {
       "id": 253887,
@@ -66592,7 +69477,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           2
         ],
         "armor": 17
-      }
+      },
+      "displayid": "715237"
     },
     {
       "id": 253925,
@@ -66617,7 +69503,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4
         ],
         "armor": 22
-      }
+      },
+      "displayid": "715247"
     },
     {
       "id": 253927,
@@ -66632,7 +69519,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 22
-      }
+      },
+      "displayid": "715259"
     },
     {
       "id": 253929,
@@ -66647,7 +69535,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 22
-      }
+      },
+      "displayid": "715272"
     },
     {
       "id": 253931,
@@ -66662,7 +69551,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 22
-      }
+      },
+      "displayid": "715280"
     },
     {
       "id": 253933,
@@ -66677,7 +69567,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 22
-      }
+      },
+      "displayid": "715285"
     },
     {
       "id": 253935,
@@ -66692,7 +69583,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 4,
         "armor": 22
-      }
+      },
+      "displayid": "715291"
     },
     {
       "id": 254037,
@@ -66718,7 +69610,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 36
-      }
+      },
+      "displayid": "715317"
     },
     {
       "id": 254039,
@@ -66734,7 +69627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 36
-      }
+      },
+      "displayid": "715325"
     },
     {
       "id": 254041,
@@ -66750,7 +69644,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 36
-      }
+      },
+      "displayid": "715339"
     },
     {
       "id": 254043,
@@ -66766,7 +69661,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 36
-      }
+      },
+      "displayid": "715348"
     },
     {
       "id": 254045,
@@ -66782,7 +69678,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 36
-      }
+      },
+      "displayid": "715354"
     },
     {
       "id": 254047,
@@ -66798,7 +69695,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 36
-      }
+      },
+      "displayid": "715383"
     },
     {
       "id": 254073,
@@ -66812,7 +69710,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 38
-      }
+      },
+      "displayid": "715311"
     },
     {
       "id": 254077,
@@ -66836,7 +69735,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 38
-      }
+      },
+      "displayid": "715303"
     },
     {
       "id": 254081,
@@ -66861,7 +69761,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 41
-      }
+      },
+      "displayid": "715318"
     },
     {
       "id": 254083,
@@ -66876,7 +69777,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 9,
         "armor": 41
-      }
+      },
+      "displayid": "715329"
     },
     {
       "id": 254085,
@@ -66891,7 +69793,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 9,
         "armor": 41
-      }
+      },
+      "displayid": "715340"
     },
     {
       "id": 254087,
@@ -66906,7 +69809,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 9,
         "armor": 41
-      }
+      },
+      "displayid": "715349"
     },
     {
       "id": 254089,
@@ -66921,7 +69825,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 9,
         "armor": 41
-      }
+      },
+      "displayid": "715355"
     },
     {
       "id": 254091,
@@ -66936,7 +69841,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "int": 9,
         "armor": 41
-      }
+      },
+      "displayid": "715385"
     },
     {
       "id": 260179,
@@ -66950,7 +69856,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 77
-      }
+      },
+      "displayid": "717969"
     },
     {
       "id": 260182,
@@ -66964,7 +69871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 77
-      }
+      },
+      "displayid": "717982"
     },
     {
       "id": 260184,
@@ -66980,7 +69888,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 9,
         "armor": 324
-      }
+      },
+      "displayid": "717999"
     },
     {
       "id": 260196,
@@ -66996,7 +69905,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 14,
         "str": 12,
         "armor": 80
-      }
+      },
+      "displayid": "696923"
     },
     {
       "id": 260828,
@@ -67055,7 +69965,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 36
-      }
+      },
+      "displayid": "8137"
     },
     {
       "id": 263402,
@@ -67070,7 +69981,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 11
-      }
+      },
+      "displayid": "736789"
     },
     {
       "id": 263403,
@@ -67084,7 +69996,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 64
-      }
+      },
+      "displayid": "736791"
     },
     {
       "id": 263405,
@@ -67100,7 +70013,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "str": 2,
         "armor": 39
-      }
+      },
+      "displayid": "736671"
     },
     {
       "id": 270007,
@@ -67116,7 +70030,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 3,
         "armor": 17
-      }
+      },
+      "displayid": "4306"
     },
     {
       "id": 270087,
@@ -67132,7 +70047,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 10,
         "armor": 135
-      }
+      },
+      "displayid": "14868"
     },
     {
       "id": 271769,
@@ -67147,7 +70063,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "armor": 27
-      }
+      },
+      "displayid": "11172"
     },
     {
       "id": 272187,
@@ -67163,7 +70080,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 9,
         "armor": 236
-      }
+      },
+      "displayid": "24666"
     },
     {
       "id": 272403,
@@ -67180,7 +70098,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 11,
         "armor": 384
-      }
+      },
+      "displayid": "34610"
     },
     {
       "id": 272512,
@@ -67197,7 +70116,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 26,
         "armor": 414
-      }
+      },
+      "displayid": "30372"
     },
     {
       "id": 272791,
@@ -67214,7 +70134,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 17,
         "sta": 26,
         "armor": 414
-      }
+      },
+      "displayid": "30322"
     },
     {
       "id": 273324,
@@ -67231,7 +70152,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 19,
         "armor": 352
-      }
+      },
+      "displayid": "30372"
     },
     {
       "id": 273325,
@@ -67248,7 +70170,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 19,
         "armor": 352
-      }
+      },
+      "displayid": "30322"
     },
     {
       "id": 274757,
@@ -67264,7 +70187,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 13,
         "ranged_ap": 13,
         "armor": 167
-      }
+      },
+      "displayid": "739988"
     },
     {
       "id": 275434,
@@ -67282,7 +70206,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 18,
         "ranged_ap": 18,
         "armor": 175
-      }
+      },
+      "displayid": "740453"
     },
     {
       "id": 275605,
@@ -67307,7 +70232,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 46
-      }
+      },
+      "displayid": "740570"
     },
     {
       "id": 275608,
@@ -67341,7 +70267,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 46
-      }
+      },
+      "displayid": "740573"
     },
     {
       "id": 275611,
@@ -67366,7 +70293,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 92
-      }
+      },
+      "displayid": "740592"
     },
     {
       "id": 275614,
@@ -67391,7 +70319,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 92
-      }
+      },
+      "displayid": "740595"
     },
     {
       "id": 275617,
@@ -67416,7 +70345,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 193
-      }
+      },
+      "displayid": "740599"
     },
     {
       "id": 275620,
@@ -67450,7 +70380,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 193
-      }
+      },
+      "displayid": "740602"
     },
     {
       "id": 275623,
@@ -67475,7 +70406,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 341
-      }
+      },
+      "displayid": "740605"
     },
     {
       "id": 275626,
@@ -67500,7 +70432,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 341
-      }
+      },
+      "displayid": "740609"
     },
     {
       "id": 275741,
@@ -67516,7 +70449,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 13,
         "armor": 202
-      }
+      },
+      "displayid": "26037"
     },
     {
       "id": 275827,
@@ -67551,7 +70485,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 42
-      }
+      },
+      "displayid": "15837"
     },
     {
       "id": 276724,
@@ -67566,7 +70501,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 5,
         "armor": 101
-      }
+      },
+      "displayid": "742489"
     },
     {
       "id": 276995,
@@ -67580,7 +70516,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 60
-      }
+      },
+      "displayid": "743095"
     },
     {
       "id": 277001,
@@ -67594,7 +70531,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 30
-      }
+      },
+      "displayid": "743007"
     },
     {
       "id": 277007,
@@ -67608,7 +70546,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 30
-      }
+      },
+      "displayid": "743051"
     },
     {
       "id": 277013,
@@ -67622,7 +70561,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 10
-      }
+      },
+      "displayid": "742975"
     },
     {
       "id": 277019,
@@ -67636,7 +70576,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 60
-      }
+      },
+      "displayid": "743124"
     },
     {
       "id": 277025,
@@ -67650,7 +70591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 30
-      }
+      },
+      "displayid": "743043"
     },
     {
       "id": 277031,
@@ -67664,7 +70606,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 30
-      }
+      },
+      "displayid": "743080"
     },
     {
       "id": 277037,
@@ -67678,7 +70621,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 10
-      }
+      },
+      "displayid": "742992"
     },
     {
       "id": 277216,
@@ -67692,7 +70636,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 33
-      }
+      },
+      "displayid": "4102"
     },
     {
       "id": 277224,
@@ -67706,7 +70651,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 57
-      }
+      },
+      "displayid": "2985"
     },
     {
       "id": 277232,
@@ -67722,7 +70668,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 119
-      }
+      },
+      "displayid": "5670"
     },
     {
       "id": 277240,
@@ -67737,7 +70684,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 19,
         "ranged_ap": 19,
         "armor": 245
-      }
+      },
+      "displayid": "8241"
     },
     {
       "id": 279252,
@@ -67762,7 +70710,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 111
-      }
+      },
+      "displayid": "741866"
     },
     {
       "id": 279267,
@@ -67778,7 +70727,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "spi": 18,
         "armor": 56
-      }
+      },
+      "displayid": "737691"
     },
     {
       "id": 280306,
@@ -67791,7 +70741,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Whimsical Waistwrap",
       "stats": {
         "armor": 26
-      }
+      },
+      "displayid": "4634"
     },
     {
       "id": 280307,
@@ -67804,7 +70755,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Gizmo Girdle",
       "stats": {
         "armor": 57
-      }
+      },
+      "displayid": "8137"
     },
     {
       "id": 280308,
@@ -67817,7 +70769,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Clanking Cord",
       "stats": {
         "armor": 119
-      }
+      },
+      "displayid": "12086"
     },
     {
       "id": 281260,
@@ -67832,7 +70785,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 12,
         "armor": 36
-      }
+      },
+      "displayid": "4592"
     },
     {
       "id": 281261,
@@ -67847,7 +70801,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 14,
         "armor": 80
-      }
+      },
+      "displayid": "3247"
     },
     {
       "id": 281262,
@@ -67862,7 +70817,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "int": 15,
         "armor": 167
-      }
+      },
+      "displayid": "3253"
     },
     {
       "id": 281323,
@@ -67877,7 +70833,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "int": 4,
         "armor": 106
-      }
+      },
+      "displayid": "3358"
     },
     {
       "id": 281690,
@@ -67890,7 +70847,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Belt",
       "stats": {
         "armor": 1
-      }
+      },
+      "displayid": "747402"
     },
     {
       "id": 281698,
@@ -67903,7 +70861,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Strap",
       "stats": {
         "armor": 9
-      }
+      },
+      "displayid": "747539"
     },
     {
       "id": 281706,
@@ -67916,7 +70875,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Belt",
       "stats": {
         "armor": 21
-      }
+      },
+      "displayid": "747606"
     },
     {
       "id": 281714,
@@ -67929,7 +70889,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Belt",
       "stats": {
         "armor": 24
-      }
+      },
+      "displayid": "747627"
     }
   ],
   "bow": [
@@ -67949,7 +70910,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8107"
     },
     {
       "id": 3493,
@@ -67968,7 +70930,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20664"
     },
     {
       "id": 3742,
@@ -67987,7 +70950,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20667"
     },
     {
       "id": 4110,
@@ -68039,7 +71003,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20719"
     },
     {
       "id": 5817,
@@ -68058,7 +71023,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "9060"
     },
     {
       "id": 6739,
@@ -68077,7 +71043,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "int": 2,
         "armor": 0
-      }
+      },
+      "displayid": "6234"
     },
     {
       "id": 11303,
@@ -68095,7 +71062,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "8104"
     },
     {
       "id": 11304,
@@ -68114,7 +71082,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 4,
         "ranged_ap": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20550"
     },
     {
       "id": 11305,
@@ -68132,7 +71101,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "defense": 3,
         "armor": 0
-      }
+      },
+      "displayid": "21111"
     },
     {
       "id": 11306,
@@ -68150,7 +71120,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20713"
     },
     {
       "id": 11307,
@@ -68168,7 +71139,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "block_amount": 9,
         "armor": 0
-      }
+      },
+      "displayid": "21112"
     },
     {
       "id": 11308,
@@ -68195,7 +71167,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "21113"
     },
     {
       "id": 16622,
@@ -68213,7 +71186,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 8,
         "armor": 0
-      }
+      },
+      "displayid": "6235"
     },
     {
       "id": 16996,
@@ -68233,7 +71207,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 2,
         "sta": 9,
         "armor": 0
-      }
+      },
+      "displayid": "28827"
     },
     {
       "id": 17686,
@@ -68251,7 +71226,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 6,
         "armor": 0
-      }
+      },
+      "displayid": "675201"
     },
     {
       "id": 18833,
@@ -68270,7 +71246,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "31759"
     },
     {
       "id": 18835,
@@ -68289,7 +71266,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "31748"
     },
     {
       "id": 19114,
@@ -68308,7 +71286,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "31622"
     },
     {
       "id": 19490,
@@ -68344,7 +71323,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 10,
         "armor": 0
-      }
+      },
+      "displayid": "31622"
     },
     {
       "id": 19559,
@@ -68363,7 +71343,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "31622"
     },
     {
       "id": 19560,
@@ -68382,7 +71363,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "31622"
     },
     {
       "id": 19561,
@@ -68401,7 +71383,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "31622"
     },
     {
       "id": 19562,
@@ -68420,7 +71403,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "sta": 10,
         "armor": 0
-      }
+      },
+      "displayid": "6235"
     },
     {
       "id": 19563,
@@ -68439,7 +71423,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "6235"
     },
     {
       "id": 19564,
@@ -68458,7 +71443,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "6235"
     },
     {
       "id": 19565,
@@ -68477,7 +71463,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 5,
         "armor": 0
-      }
+      },
+      "displayid": "6235"
     },
     {
       "id": 19837,
@@ -68549,7 +71536,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "31622"
     },
     {
       "id": 20438,
@@ -68568,7 +71556,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "6235"
     },
     {
       "id": 20646,
@@ -68586,7 +71575,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "25602"
     },
     {
       "id": 21616,
@@ -68604,7 +71594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 18,
         "armor": 0
-      }
+      },
+      "displayid": "34223"
     },
     {
       "id": 217315,
@@ -68622,7 +71613,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "hit_rate": 3,
         "armor": 0
-      }
+      },
+      "displayid": "18355"
     },
     {
       "id": 263404,
@@ -68639,7 +71631,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "737673"
     },
     {
       "id": 270107,
@@ -68658,7 +71651,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "sta": 2,
         "armor": 0
-      }
+      },
+      "displayid": "28543"
     },
     {
       "id": 272594,
@@ -68678,7 +71672,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 32,
         "ranged_ap": 32,
         "armor": 0
-      }
+      },
+      "displayid": "31748"
     },
     {
       "id": 272841,
@@ -68698,7 +71693,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 32,
         "ranged_ap": 32,
         "armor": 0
-      }
+      },
+      "displayid": "31759"
     },
     {
       "id": 275439,
@@ -68718,7 +71714,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1296730
-      }
+      },
+      "displayid": "739844"
     },
     {
       "id": 275441,
@@ -68738,7 +71735,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 1297921
-      }
+      },
+      "displayid": "739844"
     },
     {
       "id": 276685,
@@ -68755,7 +71753,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20723"
     },
     {
       "id": 276695,
@@ -68774,7 +71773,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20670"
     },
     {
       "id": 276902,
@@ -68793,7 +71793,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 7,
         "ranged_ap": 7,
         "armor": 0
-      }
+      },
+      "displayid": "6234"
     },
     {
       "id": 277254,
@@ -68811,7 +71812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "9060"
     },
     {
       "id": 281264,
@@ -68829,7 +71831,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 2,
         "spi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "21111"
     },
     {
       "id": 281732,
@@ -68845,7 +71848,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 6.69,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "8104"
     }
   ],
   "ranged": [
@@ -68865,7 +71869,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20732"
     },
     {
       "id": 3041,
@@ -68883,7 +71888,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 4,
         "armor": 0
-      }
+      },
+      "displayid": "20729"
     },
     {
       "id": 3079,
@@ -68901,7 +71907,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 1,
         "armor": 0
-      }
+      },
+      "displayid": "20738"
     },
     {
       "id": 3567,
@@ -68919,7 +71926,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 2,
         "armor": 0
-      }
+      },
+      "displayid": "1137"
     },
     {
       "id": 4086,
@@ -68938,7 +71946,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20736"
     },
     {
       "id": 4111,
@@ -68974,7 +71983,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "int": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20662"
     },
     {
       "id": 4362,
@@ -68992,7 +72002,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1136"
     },
     {
       "id": 4369,
@@ -69010,7 +72021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "20743"
     },
     {
       "id": 4372,
@@ -69028,7 +72040,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "armor": 0
-      }
+      },
+      "displayid": "2409"
     },
     {
       "id": 4379,
@@ -69046,7 +72059,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "armor": 0
-      }
+      },
+      "displayid": "15835"
     },
     {
       "id": 4383,
@@ -69064,7 +72078,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "hit_rate": 3,
         "armor": 0
-      }
+      },
+      "displayid": "8256"
     },
     {
       "id": 5309,
@@ -69082,7 +72097,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "7531"
     },
     {
       "id": 6798,
@@ -69101,7 +72117,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "sta": 4,
         "armor": 0
-      }
+      },
+      "displayid": "13060"
     },
     {
       "id": 10508,
@@ -69119,7 +72136,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "armor": 0
-      }
+      },
+      "displayid": "18298"
     },
     {
       "id": 10510,
@@ -69137,7 +72155,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "ranged_ap": 14,
         "armor": 0
-      }
+      },
+      "displayid": "20744"
     },
     {
       "id": 13474,
@@ -69155,7 +72174,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "armor": 0
-      }
+      },
+      "displayid": "13060"
     },
     {
       "id": 15205,
@@ -69173,7 +72193,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "3699"
     },
     {
       "id": 15324,
@@ -69190,7 +72211,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_rifle_01",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "28331"
     },
     {
       "id": 15691,
@@ -69209,7 +72231,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "str": 3,
         "armor": 0
-      }
+      },
+      "displayid": "20732"
     },
     {
       "id": 15995,
@@ -69227,7 +72250,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "ranged_ap": 17,
         "armor": 0
-      }
+      },
+      "displayid": "13060"
     },
     {
       "id": 16004,
@@ -69247,7 +72271,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "proc": {
         "spell": 29641
-      }
+      },
+      "displayid": "26737"
     },
     {
       "id": 16992,
@@ -69274,7 +72299,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 0
-      }
+      },
+      "displayid": "28786"
     },
     {
       "id": 17687,
@@ -69293,7 +72319,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 4,
         "armor": 0
-      }
+      },
+      "displayid": "8095"
     },
     {
       "id": 18282,
@@ -69312,7 +72339,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 22,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "31210"
     },
     {
       "id": 18763,
@@ -69330,7 +72358,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "ranged_ap": 17,
         "armor": 0
-      }
+      },
+      "displayid": "743558"
     },
     {
       "id": 18764,
@@ -69348,7 +72377,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "ranged_ap": 17,
         "armor": 0
-      }
+      },
+      "displayid": "31225"
     },
     {
       "id": 18765,
@@ -69366,7 +72396,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "ranged_ap": 17,
         "armor": 0
-      }
+      },
+      "displayid": "31226"
     },
     {
       "id": 18836,
@@ -69385,7 +72416,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "31757"
     },
     {
       "id": 18837,
@@ -69404,7 +72436,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "31749"
     },
     {
       "id": 18855,
@@ -69423,7 +72456,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "31758"
     },
     {
       "id": 18860,
@@ -69442,7 +72476,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "ranged_ap": 36,
         "armor": 0
-      }
+      },
+      "displayid": "31747"
     },
     {
       "id": 19107,
@@ -69461,7 +72496,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 8,
         "armor": 0
-      }
+      },
+      "displayid": "25607"
     },
     {
       "id": 19489,
@@ -69516,7 +72552,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "ranged_ap": 31,
         "armor": 0
-      }
+      },
+      "displayid": "34139"
     },
     {
       "id": 22347,
@@ -69535,7 +72572,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "hit_rate": 10,
         "armor": 0
-      }
+      },
+      "displayid": "22929"
     },
     {
       "id": 22656,
@@ -69553,7 +72591,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "20662"
     },
     {
       "id": 23557,
@@ -69573,7 +72612,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 18,
         "crit_rate": 14,
         "armor": 0
-      }
+      },
+      "displayid": "34484"
     },
     {
       "id": 217314,
@@ -69590,7 +72630,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_rifle_06",
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "8256"
     },
     {
       "id": 259891,
@@ -69606,7 +72647,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 87.37,
       "stats": {
         "armor": 0
-      }
+      },
+      "displayid": "748654"
     },
     {
       "id": 269742,
@@ -69624,7 +72666,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 2,
         "armor": 0
-      }
+      },
+      "displayid": "8095"
     },
     {
       "id": 272595,
@@ -69644,7 +72687,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 32,
         "ranged_ap": 32,
         "armor": 0
-      }
+      },
+      "displayid": "31749"
     },
     {
       "id": 272599,
@@ -69664,7 +72708,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 32,
         "ranged_ap": 32,
         "armor": 0
-      }
+      },
+      "displayid": "31747"
     },
     {
       "id": 272842,
@@ -69684,7 +72729,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 32,
         "ranged_ap": 32,
         "armor": 0
-      }
+      },
+      "displayid": "31757"
     },
     {
       "id": 272846,
@@ -69704,7 +72750,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 32,
         "ranged_ap": 32,
         "armor": 0
-      }
+      },
+      "displayid": "31758"
     },
     {
       "id": 274748,
@@ -69724,7 +72771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 9,
         "armor": 0
       },
-      "useSpell": 1295313
+      "useSpell": 1295313,
+      "displayid": "1136"
     },
     {
       "id": 275296,
@@ -69744,7 +72792,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 8,
         "ranged_ap": 8,
         "armor": 0
-      }
+      },
+      "displayid": "739850"
     },
     {
       "id": 276332,
@@ -69763,7 +72812,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 6,
         "armor": 0
-      }
+      },
+      "displayid": "741079"
     },
     {
       "id": 276694,
@@ -69781,7 +72831,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 1,
         "armor": 0
-      }
+      },
+      "displayid": "1136"
     },
     {
       "id": 277255,
@@ -69799,7 +72850,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 1,
         "sta": 1,
         "armor": 0
-      }
+      },
+      "displayid": "743558"
     },
     {
       "id": 279273,
@@ -69819,7 +72871,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "ranged_ap": 21,
         "armor": 0
-      }
+      },
+      "displayid": "31210"
     }
   ],
   "shoulder": [
@@ -69837,7 +72890,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 6,
         "armor": 31
-      }
+      },
+      "displayid": "16828"
     },
     {
       "id": 3480,
@@ -69853,7 +72907,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 4,
         "armor": 130
-      }
+      },
+      "displayid": "23531"
     },
     {
       "id": 3481,
@@ -69870,7 +72925,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "armor": 137
-      }
+      },
+      "displayid": "9038"
     },
     {
       "id": 3560,
@@ -69886,7 +72942,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 7,
         "armor": 34
-      }
+      },
+      "displayid": "20715"
     },
     {
       "id": 3765,
@@ -69902,7 +72959,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 8,
         "armor": 172
-      }
+      },
+      "displayid": "4109"
     },
     {
       "id": 3840,
@@ -69918,7 +72976,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 7,
         "armor": 153
-      }
+      },
+      "displayid": "9422"
     },
     {
       "id": 4123,
@@ -69933,7 +72992,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "armor": 164
-      }
+      },
+      "displayid": "4455"
     },
     {
       "id": 4140,
@@ -69949,7 +73009,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 7,
         "armor": 34
-      }
+      },
+      "displayid": "4869"
     },
     {
       "id": 4196,
@@ -69979,7 +73040,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 3,
         "armor": 65
-      }
+      },
+      "displayid": "11274"
     },
     {
       "id": 4252,
@@ -69994,7 +73056,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "armor": 67
-      }
+      },
+      "displayid": "9528"
     },
     {
       "id": 4314,
@@ -70009,7 +73072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "armor": 26
-      }
+      },
+      "displayid": "5494"
     },
     {
       "id": 4315,
@@ -70024,7 +73088,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 4,
         "armor": 28
-      }
+      },
+      "displayid": "17135"
     },
     {
       "id": 4443,
@@ -70040,7 +73105,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "spi": 7,
         "armor": 162
-      }
+      },
+      "displayid": "11327"
     },
     {
       "id": 4833,
@@ -70056,7 +73122,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 5,
         "armor": 143
-      }
+      },
+      "displayid": "5000"
     },
     {
       "id": 4835,
@@ -70072,7 +73139,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 5,
         "armor": 148
-      }
+      },
+      "displayid": "5005"
     },
     {
       "id": 5274,
@@ -70087,7 +73155,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 30
-      }
+      },
+      "displayid": "17135"
     },
     {
       "id": 5820,
@@ -70103,7 +73172,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 6,
         "armor": 33
-      }
+      },
+      "displayid": "9077"
     },
     {
       "id": 5964,
@@ -70120,7 +73190,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 6,
         "armor": 76
-      }
+      },
+      "displayid": "9544"
     },
     {
       "id": 6189,
@@ -70135,7 +73206,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "armor": 134
-      }
+      },
+      "displayid": "8399"
     },
     {
       "id": 6664,
@@ -70151,7 +73223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 5,
         "armor": 29
-      }
+      },
+      "displayid": "12782"
     },
     {
       "id": 6747,
@@ -70167,7 +73240,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 8,
         "armor": 172
-      }
+      },
+      "displayid": "12986"
     },
     {
       "id": 6792,
@@ -70183,7 +73257,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "spi": 8,
         "armor": 172
-      }
+      },
+      "displayid": "11697"
     },
     {
       "id": 7057,
@@ -70198,7 +73273,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 11,
         "armor": 35
-      }
+      },
+      "displayid": "5762"
     },
     {
       "id": 7059,
@@ -70214,7 +73290,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 8,
         "armor": 37
-      }
+      },
+      "displayid": "9574"
     },
     {
       "id": 7060,
@@ -70229,7 +73306,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "armor": 37
-      }
+      },
+      "displayid": "16463"
     },
     {
       "id": 7352,
@@ -70244,7 +73322,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 66
-      }
+      },
+      "displayid": "4593"
     },
     {
       "id": 7913,
@@ -70260,7 +73339,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 6,
         "str": 6,
         "armor": 153
-      }
+      },
+      "displayid": "10166"
     },
     {
       "id": 7918,
@@ -70275,7 +73355,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "armor": 225
-      }
+      },
+      "displayid": "6027"
     },
     {
       "id": 7928,
@@ -70291,7 +73372,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "dodge_rate": 12,
         "armor": 327
-      }
+      },
+      "displayid": "10495"
     },
     {
       "id": 7932,
@@ -70307,7 +73389,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 10,
         "armor": 193
-      }
+      },
+      "displayid": "16111"
     },
     {
       "id": 8192,
@@ -70323,7 +73406,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 5,
         "armor": 86
-      }
+      },
+      "displayid": "8434"
     },
     {
       "id": 8207,
@@ -70339,7 +73423,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "int": 10,
         "armor": 197
-      }
+      },
+      "displayid": "4491"
     },
     {
       "id": 8210,
@@ -70353,7 +73438,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_18",
       "stats": {
         "armor": 89
-      }
+      },
+      "displayid": "9562"
     },
     {
       "id": 9647,
@@ -70369,7 +73455,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "str": 10,
         "armor": 96
-      }
+      },
+      "displayid": "8434"
     },
     {
       "id": 10027,
@@ -70384,7 +73471,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "armor": 45
-      }
+      },
+      "displayid": "4925"
     },
     {
       "id": 10028,
@@ -70399,7 +73487,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 46
-      }
+      },
+      "displayid": "12867"
     },
     {
       "id": 10029,
@@ -70414,7 +73503,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 15,
         "armor": 46
-      }
+      },
+      "displayid": "17703"
     },
     {
       "id": 10038,
@@ -70439,7 +73529,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7
         ],
         "armor": 47
-      }
+      },
+      "displayid": "11638"
     },
     {
       "id": 10745,
@@ -70455,7 +73546,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 10,
         "armor": 99
-      }
+      },
+      "displayid": "8220"
     },
     {
       "id": 11502,
@@ -70471,7 +73563,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "spi": 9,
         "armor": 92
-      }
+      },
+      "displayid": "28217"
     },
     {
       "id": 11605,
@@ -70496,7 +73589,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ]
-      }
+      },
+      "displayid": "21196"
     },
     {
       "id": 11871,
@@ -70512,7 +73606,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 11,
         "armor": 106
-      }
+      },
+      "displayid": "27733"
     },
     {
       "id": 11874,
@@ -70528,7 +73623,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "str": 12,
         "armor": 109
-      }
+      },
+      "displayid": "28313"
     },
     {
       "id": 11884,
@@ -70543,7 +73639,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "armor": 33
-      }
+      },
+      "displayid": "9440"
     },
     {
       "id": 11889,
@@ -70560,7 +73657,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "spi": 8,
         "armor": 360
-      }
+      },
+      "displayid": "28304"
     },
     {
       "id": 11916,
@@ -70577,7 +73675,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 12,
         "armor": 107
-      }
+      },
+      "displayid": "28254"
     },
     {
       "id": 12428,
@@ -70593,7 +73692,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 11,
         "armor": 379
-      }
+      },
+      "displayid": "24509"
     },
     {
       "id": 12610,
@@ -70618,7 +73718,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 427
-      }
+      },
+      "displayid": "23490"
     },
     {
       "id": 12617,
@@ -70634,7 +73735,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 17,
         "armor": 252
-      }
+      },
+      "displayid": "5833"
     },
     {
       "id": 12625,
@@ -70659,7 +73761,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15
         ],
         "armor": 455
-      }
+      },
+      "displayid": "25827"
     },
     {
       "id": 13867,
@@ -70674,7 +73777,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 15,
         "armor": 59
-      }
+      },
+      "displayid": "17746"
     },
     {
       "id": 14112,
@@ -70689,7 +73793,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "armor": 59
-      }
+      },
+      "displayid": "4488"
     },
     {
       "id": 14139,
@@ -70715,7 +73820,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13
         ],
         "armor": 64
-      }
+      },
+      "displayid": "24966"
     },
     {
       "id": 14389,
@@ -70754,7 +73860,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 261
-      }
+      },
+      "displayid": "25677"
     },
     {
       "id": 15051,
@@ -70781,7 +73888,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 265
-      }
+      },
+      "displayid": "25545"
     },
     {
       "id": 15055,
@@ -70806,7 +73914,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 116
-      }
+      },
+      "displayid": "23782"
     },
     {
       "id": 15058,
@@ -70823,7 +73932,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dodge_rate": 12,
         "crit_rate": 14,
         "armor": 125
-      }
+      },
+      "displayid": "8022"
     },
     {
       "id": 15061,
@@ -70859,7 +73969,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 116
-      }
+      },
+      "displayid": "11622"
     },
     {
       "id": 15067,
@@ -70875,7 +73986,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 20,
         "armor": 116
-      }
+      },
+      "displayid": "13697"
     },
     {
       "id": 15081,
@@ -70891,7 +74003,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 14,
         "armor": 245
-      }
+      },
+      "displayid": "25713"
     },
     {
       "id": 15096,
@@ -70906,7 +74019,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 15,
         "armor": 118
-      }
+      },
+      "displayid": "8387"
     },
     {
       "id": 15457,
@@ -70922,7 +74036,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 5,
         "armor": 31
-      }
+      },
+      "displayid": "8554"
     },
     {
       "id": 15698,
@@ -70939,7 +74054,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 6,
         "armor": 167
-      }
+      },
+      "displayid": "26419"
     },
     {
       "id": 15784,
@@ -70955,7 +74071,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 13,
         "armor": 57
-      }
+      },
+      "displayid": "26213"
     },
     {
       "id": 15792,
@@ -70972,7 +74089,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 15,
         "armor": 112
-      }
+      },
+      "displayid": "26472"
     },
     {
       "id": 15812,
@@ -70990,7 +74108,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 3,
         "int": 15,
         "armor": 54
-      }
+      },
+      "displayid": "26501"
     },
     {
       "id": 15822,
@@ -71005,7 +74124,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 18,
         "armor": 107
-      }
+      },
+      "displayid": "26504"
     },
     {
       "id": 16160,
@@ -71029,7 +74149,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12
         ],
         "armor": 198
-      }
+      },
+      "displayid": "10689"
     },
     {
       "id": 16432,
@@ -71046,7 +74167,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 23,
         "armor": 492
-      }
+      },
+      "displayid": "26662"
     },
     {
       "id": 16480,
@@ -71064,7 +74186,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "hit_rate": 10,
         "armor": 626
-      }
+      },
+      "displayid": "30318"
     },
     {
       "id": 16516,
@@ -71081,7 +74204,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 23,
         "armor": 492
-      }
+      },
+      "displayid": "31049"
     },
     {
       "id": 16544,
@@ -71099,7 +74223,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "hit_rate": 10,
         "armor": 626
-      }
+      },
+      "displayid": "30928"
     },
     {
       "id": 16739,
@@ -71115,7 +74240,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 4,
         "int": 11,
         "armor": 96
-      }
+      },
+      "displayid": "27911"
     },
     {
       "id": 16793,
@@ -71131,7 +74257,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "sta": 5,
         "armor": 167
-      }
+      },
+      "displayid": "28454"
     },
     {
       "id": 16980,
@@ -71158,7 +74285,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 70
-      }
+      },
+      "displayid": "28756"
     },
     {
       "id": 16988,
@@ -71184,7 +74312,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 298
-      }
+      },
+      "displayid": "23612"
     },
     {
       "id": 16995,
@@ -71200,7 +74329,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 17,
         "sta": 6,
         "armor": 115
-      }
+      },
+      "displayid": "6407"
     },
     {
       "id": 17047,
@@ -71217,7 +74347,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 2,
         "int": 4,
         "armor": 32
-      }
+      },
+      "displayid": "9440"
     },
     {
       "id": 17769,
@@ -71249,7 +74380,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 40,
         "crit_rate": 70,
         "armor": 66
-      }
+      },
+      "displayid": "27231"
     },
     {
       "id": 19037,
@@ -71266,7 +74398,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 10,
         "armor": 346
-      }
+      },
+      "displayid": "16458"
     },
     {
       "id": 19050,
@@ -71282,7 +74415,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "crit_rate": 14,
         "armor": 64
-      }
+      },
+      "displayid": "36269"
     },
     {
       "id": 19058,
@@ -71299,7 +74433,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 20,
         "armor": 128
-      }
+      },
+      "displayid": "31566"
     },
     {
       "id": 19059,
@@ -71324,7 +74459,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 64
-      }
+      },
+      "displayid": "31828"
     },
     {
       "id": 19689,
@@ -71342,7 +74478,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 12,
         "armor": 135
-      }
+      },
+      "displayid": "23670"
     },
     {
       "id": 19691,
@@ -71358,7 +74495,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 24,
         "sta": 10,
         "armor": 285
-      }
+      },
+      "displayid": "27904"
     },
     {
       "id": 19695,
@@ -71374,7 +74512,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "hit_rate": 10,
         "armor": 507
-      }
+      },
+      "displayid": "30785"
     },
     {
       "id": 20055,
@@ -71391,7 +74530,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 17,
         "armor": 311
-      }
+      },
+      "displayid": "32741"
     },
     {
       "id": 20056,
@@ -71409,7 +74549,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 17,
         "armor": 311
-      }
+      },
+      "displayid": "11272"
     },
     {
       "id": 20057,
@@ -71426,7 +74567,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 20,
         "armor": 553
-      }
+      },
+      "displayid": "32739"
     },
     {
       "id": 20058,
@@ -71444,7 +74586,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 10,
         "armor": 553
-      }
+      },
+      "displayid": "32739"
     },
     {
       "id": 20059,
@@ -71462,7 +74605,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 258
-      }
+      },
+      "displayid": "8022"
     },
     {
       "id": 20060,
@@ -71481,7 +74625,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 258
-      }
+      },
+      "displayid": "8022"
     },
     {
       "id": 20061,
@@ -71497,7 +74642,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 17,
         "armor": 185
-      }
+      },
+      "displayid": "32740"
     },
     {
       "id": 20158,
@@ -71514,7 +74660,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 17,
         "armor": 311
-      }
+      },
+      "displayid": "32741"
     },
     {
       "id": 20175,
@@ -71533,7 +74680,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 258
-      }
+      },
+      "displayid": "8022"
     },
     {
       "id": 20176,
@@ -71549,7 +74697,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 17,
         "armor": 185
-      }
+      },
+      "displayid": "32740"
     },
     {
       "id": 20184,
@@ -71567,7 +74716,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "int": 10,
         "armor": 553
-      }
+      },
+      "displayid": "32739"
     },
     {
       "id": 20194,
@@ -71585,7 +74735,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "armor": 258
-      }
+      },
+      "displayid": "8022"
     },
     {
       "id": 20203,
@@ -71603,7 +74754,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 17,
         "armor": 311
-      }
+      },
+      "displayid": "11272"
     },
     {
       "id": 20212,
@@ -71620,7 +74772,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 18,
         "sta": 20,
         "armor": 553
-      }
+      },
+      "displayid": "32739"
     },
     {
       "id": 20289,
@@ -71681,7 +74834,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_05",
       "stats": {
         "armor": 58
-      }
+      },
+      "displayid": "33129"
     },
     {
       "id": 21330,
@@ -71700,7 +74854,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 4,
         "hit_rate": 10,
         "armor": 658
-      }
+      },
+      "displayid": "34256"
     },
     {
       "id": 21639,
@@ -71718,7 +74873,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 9,
         "dodge_rate": 12,
         "armor": 650
-      }
+      },
+      "displayid": "34252"
     },
     {
       "id": 21665,
@@ -71735,7 +74891,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 16,
         "sta": 14,
         "armor": 170
-      }
+      },
+      "displayid": "34278"
     },
     {
       "id": 21694,
@@ -71752,7 +74909,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 20,
         "int": 17,
         "armor": 85
-      }
+      },
+      "displayid": "34323"
     },
     {
       "id": 22001,
@@ -71769,7 +74927,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 18,
         "armor": 507
-      }
+      },
+      "displayid": "34616"
     },
     {
       "id": 22008,
@@ -71785,7 +74944,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 24,
         "sta": 10,
         "armor": 135
-      }
+      },
+      "displayid": "34688"
     },
     {
       "id": 22016,
@@ -71802,7 +74962,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "int": 10,
         "armor": 285
-      }
+      },
+      "displayid": "34651"
     },
     {
       "id": 22068,
@@ -71819,7 +74980,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 7,
         "int": 17,
         "armor": 68
-      }
+      },
+      "displayid": "34597"
     },
     {
       "id": 22073,
@@ -71835,7 +74997,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 16,
         "armor": 68
-      }
+      },
+      "displayid": "34623"
     },
     {
       "id": 22082,
@@ -71852,7 +75015,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 13,
         "armor": 68
-      }
+      },
+      "displayid": "34632"
     },
     {
       "id": 22093,
@@ -71869,7 +75033,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "armor": 507
-      }
+      },
+      "displayid": "34526"
     },
     {
       "id": 22101,
@@ -71887,7 +75052,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 11,
         "armor": 285
-      }
+      },
+      "displayid": "34697"
     },
     {
       "id": 22112,
@@ -71906,7 +75072,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 16,
         "armor": 135
-      }
+      },
+      "displayid": "34643"
     },
     {
       "id": 22419,
@@ -71925,7 +75092,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 9,
         "hit_rate": 10,
         "armor": 722
-      }
+      },
+      "displayid": "35177"
     },
     {
       "id": 22429,
@@ -71942,7 +75110,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 20,
         "crit_rate": 14,
         "armor": 722
-      }
+      },
+      "displayid": "35617"
     },
     {
       "id": 22439,
@@ -71960,7 +75129,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "crit_rate": 14,
         "armor": 406
-      }
+      },
+      "displayid": "35611"
     },
     {
       "id": 22467,
@@ -71976,7 +75146,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "int": 19,
         "armor": 406
-      }
+      },
+      "displayid": "35751"
     },
     {
       "id": 22479,
@@ -71995,7 +75166,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "hit_rate": 10,
         "armor": 186
-      }
+      },
+      "displayid": "35064"
     },
     {
       "id": 22491,
@@ -72012,7 +75184,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 22,
         "armor": 186
-      }
+      },
+      "displayid": "35160"
     },
     {
       "id": 22499,
@@ -72029,7 +75202,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 9,
         "int": 18,
         "armor": 97
-      }
+      },
+      "displayid": "35326"
     },
     {
       "id": 22507,
@@ -72046,7 +75220,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 12,
         "hit_rate": 10,
         "armor": 97
-      }
+      },
+      "displayid": "35187"
     },
     {
       "id": 22515,
@@ -72063,7 +75238,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 17,
         "int": 18,
         "armor": 97
-      }
+      },
+      "displayid": "35149"
     },
     {
       "id": 22758,
@@ -72088,7 +75264,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 73
-      }
+      },
+      "displayid": "35209"
     },
     {
       "id": 22940,
@@ -72115,7 +75292,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 698
-      }
+      },
+      "displayid": "35324"
     },
     {
       "id": 22941,
@@ -72140,7 +75318,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 181
-      }
+      },
+      "displayid": "35325"
     },
     {
       "id": 22967,
@@ -72165,7 +75344,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 392
-      }
+      },
+      "displayid": "35369"
     },
     {
       "id": 22968,
@@ -72190,7 +75370,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0
         ],
         "armor": 94
-      }
+      },
+      "displayid": "35369"
     },
     {
       "id": 23034,
@@ -72207,7 +75388,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "crit_rate": 14,
         "armor": 698
-      }
+      },
+      "displayid": "35434"
     },
     {
       "id": 23243,
@@ -72224,7 +75406,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "crit_rate": 14,
         "armor": 552
-      }
+      },
+      "displayid": "31049"
     },
     {
       "id": 23315,
@@ -72241,7 +75424,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "crit_rate": 14,
         "armor": 552
-      }
+      },
+      "displayid": "26662"
     },
     {
       "id": 215113,
@@ -72255,7 +75439,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_22",
       "stats": {
         "armor": 82
-      }
+      },
+      "displayid": "8847"
     },
     {
       "id": 215365,
@@ -72270,7 +75455,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 5,
         "armor": 32
-      }
+      },
+      "displayid": "4904"
     },
     {
       "id": 227947,
@@ -72286,7 +75472,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 13,
         "sta": 17,
         "armor": 249
-      }
+      },
+      "displayid": "1068"
     },
     {
       "id": 250486,
@@ -72301,7 +75488,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 141
-      }
+      },
+      "displayid": "9038"
     },
     {
       "id": 250539,
@@ -72315,7 +75503,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "armor": 172
-      }
+      },
+      "displayid": "712854"
     },
     {
       "id": 250541,
@@ -72329,7 +75518,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "armor": 327
-      }
+      },
+      "displayid": "712876"
     },
     {
       "id": 250576,
@@ -72345,7 +75535,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 10,
         "armor": 374
-      }
+      },
+      "displayid": "712914"
     },
     {
       "id": 250577,
@@ -72361,7 +75552,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 10,
         "armor": 374
-      }
+      },
+      "displayid": "712916"
     },
     {
       "id": 250578,
@@ -72376,7 +75568,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "defense": 10,
         "armor": 374
-      }
+      },
+      "displayid": "712918"
     },
     {
       "id": 250579,
@@ -72401,7 +75594,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 374
-      }
+      },
+      "displayid": "712915"
     },
     {
       "id": 250580,
@@ -72416,7 +75610,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 10,
         "armor": 374
-      }
+      },
+      "displayid": "712917"
     },
     {
       "id": 250586,
@@ -72432,7 +75627,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 5,
         "sta": 7,
         "armor": 373
-      }
+      },
+      "displayid": "712929"
     },
     {
       "id": 252534,
@@ -72449,7 +75645,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 104
-      }
+      },
+      "displayid": "714473"
     },
     {
       "id": 252535,
@@ -72466,7 +75663,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 6,
         "armor": 104
-      }
+      },
+      "displayid": "714492"
     },
     {
       "id": 252536,
@@ -72482,7 +75680,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 11,
         "armor": 169
-      }
+      },
+      "displayid": "714580"
     },
     {
       "id": 252537,
@@ -72498,7 +75697,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 9,
         "armor": 104
-      }
+      },
+      "displayid": "714501"
     },
     {
       "id": 252538,
@@ -72524,7 +75724,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 104
-      }
+      },
+      "displayid": "714455"
     },
     {
       "id": 252554,
@@ -72540,7 +75741,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 12,
         "armor": 110
-      }
+      },
+      "displayid": "746816"
     },
     {
       "id": 252556,
@@ -72555,7 +75757,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 14,
         "armor": 114
-      }
+      },
+      "displayid": "714582"
     },
     {
       "id": 252558,
@@ -72570,7 +75773,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 10,
         "armor": 115
-      }
+      },
+      "displayid": "714566"
     },
     {
       "id": 252566,
@@ -72587,7 +75791,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 7,
         "armor": 213
-      }
+      },
+      "displayid": "714520"
     },
     {
       "id": 252567,
@@ -72603,7 +75808,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 9,
         "armor": 213
-      }
+      },
+      "displayid": "714513"
     },
     {
       "id": 252568,
@@ -72619,7 +75825,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "armor": 213
-      }
+      },
+      "displayid": "714484"
     },
     {
       "id": 252569,
@@ -72645,7 +75852,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8
         ],
         "armor": 213
-      }
+      },
+      "displayid": "714462"
     },
     {
       "id": 252583,
@@ -72660,7 +75868,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "int": 12,
         "armor": 223
-      }
+      },
+      "displayid": "714394"
     },
     {
       "id": 252592,
@@ -72675,7 +75884,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 12,
         "armor": 227
-      }
+      },
+      "displayid": "714542"
     },
     {
       "id": 254033,
@@ -72699,7 +75909,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6
         ],
         "armor": 40
-      }
+      },
+      "displayid": "715300"
     },
     {
       "id": 254049,
@@ -72725,7 +75936,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 50
-      }
+      },
+      "displayid": "715397"
     },
     {
       "id": 254051,
@@ -72741,7 +75953,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 50
-      }
+      },
+      "displayid": "715400"
     },
     {
       "id": 254053,
@@ -72757,7 +75970,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 50
-      }
+      },
+      "displayid": "715401"
     },
     {
       "id": 254055,
@@ -72773,7 +75987,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 50
-      }
+      },
+      "displayid": "715402"
     },
     {
       "id": 254057,
@@ -72789,7 +76004,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 50
-      }
+      },
+      "displayid": "715404"
     },
     {
       "id": 254059,
@@ -72805,7 +76021,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "int": 8,
         "armor": 50
-      }
+      },
+      "displayid": "715405"
     },
     {
       "id": 254119,
@@ -72829,7 +76046,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9
         ],
         "armor": 55
-      }
+      },
+      "displayid": "715308"
     },
     {
       "id": 254127,
@@ -72843,7 +76061,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "armor": 57
-      }
+      },
+      "displayid": "748643"
     },
     {
       "id": 260169,
@@ -72857,7 +76076,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 14,
         "armor": 50
-      }
+      },
+      "displayid": "717912"
     },
     {
       "id": 270039,
@@ -72872,7 +76092,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 3,
         "armor": 68
-      }
+      },
+      "displayid": "14950"
     },
     {
       "id": 270044,
@@ -72888,7 +76109,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 76
-      }
+      },
+      "displayid": "14950"
     },
     {
       "id": 270046,
@@ -72904,7 +76126,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 5,
         "int": 5,
         "armor": 32
-      }
+      },
+      "displayid": "4904"
     },
     {
       "id": 271811,
@@ -72921,7 +76144,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 8,
         "ranged_ap": 8,
         "armor": 199
-      }
+      },
+      "displayid": "27160"
     },
     {
       "id": 271955,
@@ -72938,7 +76162,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "crit_rate": 14,
         "armor": 148
-      }
+      },
+      "displayid": "29928"
     },
     {
       "id": 272105,
@@ -72955,7 +76180,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "crit_rate": 14,
         "armor": 148
-      }
+      },
+      "displayid": "29928"
     },
     {
       "id": 272509,
@@ -72972,7 +76198,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "crit_rate": 14,
         "armor": 553
-      }
+      },
+      "displayid": "30928"
     },
     {
       "id": 272637,
@@ -72989,7 +76216,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "crit_rate": 7,
         "armor": 470
-      }
+      },
+      "displayid": "31049"
     },
     {
       "id": 272741,
@@ -73006,7 +76234,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "crit_rate": 7,
         "armor": 470
-      }
+      },
+      "displayid": "26662"
     },
     {
       "id": 272789,
@@ -73023,7 +76252,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "crit_rate": 14,
         "armor": 553
-      }
+      },
+      "displayid": "30318"
     },
     {
       "id": 274751,
@@ -73039,7 +76269,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 12,
         "ranged_ap": 12,
         "armor": 91
-      }
+      },
+      "displayid": "14205"
     },
     {
       "id": 275666,
@@ -73054,7 +76285,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "armor": 114
-      }
+      },
+      "displayid": "36269"
     },
     {
       "id": 275737,
@@ -73072,7 +76304,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "ranged_ap": 26,
         "hit_rate": 13,
         "armor": 269
-      }
+      },
+      "displayid": "740682"
     },
     {
       "id": 276540,
@@ -73101,7 +76334,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "spi": 4,
         "armor": 130
-      }
+      },
+      "displayid": "742564"
     },
     {
       "id": 277041,
@@ -73116,7 +76350,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 7,
         "armor": 159
-      }
+      },
+      "displayid": "743093"
     },
     {
       "id": 277043,
@@ -73131,7 +76366,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 7,
         "armor": 76
-      }
+      },
+      "displayid": "743049"
     },
     {
       "id": 277045,
@@ -73146,7 +76382,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 76
-      }
+      },
+      "displayid": "743005"
     },
     {
       "id": 277047,
@@ -73161,7 +76398,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 34
-      }
+      },
+      "displayid": "742969"
     },
     {
       "id": 277049,
@@ -73176,7 +76414,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 7,
         "armor": 159
-      }
+      },
+      "displayid": "743126"
     },
     {
       "id": 277051,
@@ -73191,7 +76430,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 7,
         "armor": 76
-      }
+      },
+      "displayid": "743045"
     },
     {
       "id": 277053,
@@ -73206,7 +76446,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 76
-      }
+      },
+      "displayid": "743082"
     },
     {
       "id": 277055,
@@ -73221,7 +76462,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 7,
         "armor": 34
-      }
+      },
+      "displayid": "742998"
     },
     {
       "id": 277212,
@@ -73236,7 +76478,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 9,
         "armor": 44
-      }
+      },
+      "displayid": "6407"
     },
     {
       "id": 277220,
@@ -73251,7 +76494,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 8,
         "armor": 91
-      }
+      },
+      "displayid": "4486"
     },
     {
       "id": 277228,
@@ -73266,7 +76510,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 6,
         "armor": 186
-      }
+      },
+      "displayid": "8035"
     },
     {
       "id": 277236,
@@ -73282,7 +76527,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "crit_rate": 10,
         "armor": 360
-      }
+      },
+      "displayid": "747162"
     },
     {
       "id": 279255,
@@ -73308,7 +76554,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10
         ],
         "armor": 311
-      }
+      },
+      "displayid": "741909"
     },
     {
       "id": 281275,
@@ -73323,7 +76570,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "spi": 11,
         "armor": 48
-      }
+      },
+      "displayid": "16828"
     },
     {
       "id": 281276,
@@ -73338,7 +76586,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 11,
         "sta": 11,
         "armor": 99
-      }
+      },
+      "displayid": "29928"
     },
     {
       "id": 281277,
@@ -73353,7 +76602,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "armor": 204
-      }
+      },
+      "displayid": "25872"
     },
     {
       "id": 281278,
@@ -73368,7 +76618,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 11,
         "armor": 360
-      }
+      },
+      "displayid": "15663"
     },
     {
       "id": 281538,
@@ -73383,7 +76634,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "spi": 14,
         "armor": 114
-      }
+      },
+      "displayid": "10567"
     },
     {
       "id": 281686,
@@ -73396,7 +76648,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Cloth Shoulders",
       "stats": {
         "armor": 2
-      }
+      },
+      "displayid": "747332"
     },
     {
       "id": 281694,
@@ -73409,7 +76662,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Leather Spaulders",
       "stats": {
         "armor": 13
-      }
+      },
+      "displayid": "747531"
     },
     {
       "id": 281702,
@@ -73422,7 +76676,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Mail Shoulderguards",
       "stats": {
         "armor": 28
-      }
+      },
+      "displayid": "747545"
     },
     {
       "id": 281710,
@@ -73435,7 +76690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Restored Plate Shoulders",
       "stats": {
         "armor": 32
-      }
+      },
+      "displayid": "747623"
     }
   ],
   "neck": [

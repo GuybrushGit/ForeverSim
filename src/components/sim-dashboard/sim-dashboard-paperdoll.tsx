@@ -1,34 +1,15 @@
 import './sim-dashboard-paperdoll.scss';
+import SimDashboardModel from './sim-dashboard-model';
 import SimIcon from '@components/sim-icon/sim-icon';
 import { CheckCircleIcon } from '@phosphor-icons/react';
 import clsx from 'clsx';
-import SimDashboardStats from './sim-dashboard-stats';
 import { useStore } from '@core/shared/store';
-import { SimTabs, SimTabsItem } from '@components/sim-tabs/sim-tabs';
-import { useState } from 'react';
-import { Player } from '@core/game/player';
-import { getTargetArray, Target } from '@core/game/target';
-import { Encounter } from '@core/game/encounter';
-import { Simulation } from '@core/simulation';
 
 function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: any }) {
 	const store = useStore();
-	const { getPlayerClassId, getItems, getEnchants, getItemSet, setItem, setSlot, getSettings, getActions, getTalents, getBuffs, getAbilities, slot } =
-		store;
+	const { getItems, getEnchants, getItemSet, setItem, setSlot, slot } = store;
 	let itemSlot = slot;
 
-	let data = {
-		classid: getPlayerClassId(),
-		settings: getSettings(),
-		actions: getActions(),
-		items: getItems(),
-		enchants: getEnchants(),
-		talents: getTalents(),
-		buffs: getBuffs(),
-		abilities: getAbilities(),
-	};
-
-	const [tab, setTab] = useState(0);
 	let items = getItems();
 	let enchants = getEnchants();
 	const activeSetCounts: { set: any; count: number }[] = [];
@@ -43,11 +24,6 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 		}
 	}
 	activeSetCounts.sort((a, b) => a.set.id - b.set.id);
-
-	const encounter = new Encounter(data);
-	const player = new Player(data);
-	const targets: Target[] = getTargetArray(data, player);
-	const sim = new Simulation(encounter, targets, player);
 
 	function handleClick(slot: string) {
 		if (slot == 'shirt' || slot == 'tabard') return;
@@ -154,16 +130,7 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 					{buildSlot('wrists')}
 				</div>
 				<div className="center">
-					<SimTabs>
-						<SimTabsItem text="Base" selected={tab == 0} handleClick={() => setTab(0)}></SimTabsItem>
-						<SimTabsItem text="Def" selected={tab == 1} handleClick={() => setTab(1)}></SimTabsItem>
-						<SimTabsItem text="MH" selected={tab == 2} handleClick={() => setTab(2)}></SimTabsItem>
-						<SimTabsItem text="OH" selected={tab == 3} handleClick={() => setTab(3)}></SimTabsItem>
-					</SimTabs>
-					{tab == 0 && <SimDashboardStats type="base" sim={sim}></SimDashboardStats>}
-					{tab == 1 && <SimDashboardStats type="defensive" sim={sim}></SimDashboardStats>}
-					{tab == 2 && <SimDashboardStats type="mainhand" sim={sim}></SimDashboardStats>}
-					{tab == 3 && <SimDashboardStats type="offhand" sim={sim}></SimDashboardStats>}
+					<SimDashboardModel />
 					<div className="bottom">
 						{buildSlot('mainhand')}
 						{buildSlot('offhand')}
