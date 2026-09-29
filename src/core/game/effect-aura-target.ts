@@ -83,11 +83,14 @@ export function applyEffectAuraTarget(
 		case AuraType.ModConfuse:
 		case AuraType.ModStat:
 		case AuraType.ModMeleeHaste:
+		case AuraType.ModMeleeHaste2:
+		case AuraType.ModMeleeHasteRacial:
 		case AuraType.ModRangedHaste:
 		case AuraType.CastingSpeedNotStack:
 		case AuraType.ModDisarm:
 		case AuraType.ModRangedAttackPower:
 		case AuraType.ModSilence:
+		case AuraType.ModCharm:
 			// dont care
 			break;
 		default:

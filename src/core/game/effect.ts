@@ -144,6 +144,7 @@ export class Effect {
 				sim.addEvent(EventType.ExtraAttack, this.basePointsF || 0, 0, undefined, spell);
 				break;
 			}
+			case EffectType.ForceCast:
 			case EffectType.TriggerSpell: {
 				if (!this.triggerSpell) return 0;
 				if (action && action instanceof ExecuteAction) return 0;
@@ -174,6 +175,12 @@ export class Effect {
 				if (spell.id == 1225982) return;
 				if (spell.id == 1226001) return;
 				if (spell.id == 1225951) return;
+				if (spell.id == 1317432) return;
+				if (spell.id == 1269339) return;
+				if (spell.id == 1270941) return;
+				if (spell.id == 1302833) return;
+				if (spell.id == 1317740) return;
+				if (spell.id == 8344) return;
 
 				console.log('dummy spell not implemented ', spell);
 				break;
@@ -197,6 +204,7 @@ export class Effect {
 				console.log('effect not implemented: ' + this.effectType, spell);
 				break;
 			}
+			case EffectType.None:
 			case EffectType.SummonObject:
 			case EffectType.KnockBack:
 			case EffectType.Dispel:
@@ -211,6 +219,8 @@ export class Effect {
 			case EffectType.Inebriate:
 			case EffectType.DispelMechanic:
 			case EffectType.Teleport:
+			case EffectType.EnchantItemTmp:
+			case EffectType.TriggerMissileSpell:
 				// dont care
 				break;
 			default:

@@ -151,18 +151,6 @@ function getBudget(obj: any, randprop: any) {
 	if (obj.quality >= ItemQuality.Epic) budget = Number(randprop['Epic[' + invIndex + ']']);
 	return budget;
 }
-function getResistance(item: any) {
-	let resist = Array(8).fill(0);
-	if (Number(item['Resistances[0]'])) resist[SpellSchool.Physical] = Number(item['Resistances[0]']);
-	if (Number(item['Resistances[1]'])) resist[SpellSchool.Holy] = Number(item['Resistances[1]']);
-	if (Number(item['Resistances[2]'])) resist[SpellSchool.Fire] = Number(item['Resistances[2]']);
-	if (Number(item['Resistances[3]'])) resist[SpellSchool.Nature] = Number(item['Resistances[3]']);
-	if (Number(item['Resistances[4]'])) resist[SpellSchool.Frost] = Number(item['Resistances[4]']);
-	if (Number(item['Resistances[5]'])) resist[SpellSchool.Shadow] = Number(item['Resistances[5]']);
-	if (Number(item['Resistances[6]'])) resist[SpellSchool.Arcane] = Number(item['Resistances[6]']);
-	return resist;
-}
-
 // #endregion
 
 // #region item filtering
@@ -732,16 +720,21 @@ export default function ItemGenerator() {
 			}
 
 			// resistances
-			if (
-				Number(item['Resistances[0]']) ||
-				Number(item['Resistances[1]']) ||
-				Number(item['Resistances[2]']) ||
-				Number(item['Resistances[3]']) ||
-				Number(item['Resistances[4]']) ||
-				Number(item['Resistances[5]']) ||
-				Number(item['Resistances[6]'])
-			)
-				obj.stats.resistance = getResistance(item);
+			let fire_res = getStat(sparse, 51, budget);
+			let frost_res = getStat(sparse, 52, budget);
+			let holy_res = getStat(sparse, 53, budget);
+			let shadow_res = getStat(sparse, 54, budget);
+			let nature_res = getStat(sparse, 55, budget);
+			let arcane_res = getStat(sparse, 56, budget);
+			if (fire_res || frost_res || holy_res || shadow_res || nature_res || arcane_res) {
+				obj.stats.resistance = Array(8).fill(0);
+				if (arcane_res) obj.stats.resistance[SpellSchool.Arcane] = arcane_res;
+				if (fire_res) obj.stats.resistance[SpellSchool.Fire] = fire_res;
+				if (frost_res) obj.stats.resistance[SpellSchool.Frost] = frost_res;
+				if (holy_res) obj.stats.resistance[SpellSchool.Holy] = holy_res;
+				if (shadow_res) obj.stats.resistance[SpellSchool.Shadow] = shadow_res;
+				if (nature_res) obj.stats.resistance[SpellSchool.Nature] = nature_res;
+			}
 
 			if (obj.slot == InventoryType.Shield) {
 				let armorShield = getRow(itemarmorshield, sparse.ItemLevel);
@@ -832,6 +825,7 @@ export default function ItemGenerator() {
 
 			// custom stuff
 			if (obj.id == 20130) obj.useSpell = 24427;
+			if (obj.id == 274760) obj.useSpell = 1295633;
 			if (obj.id == 867) obj.stats.melee_ap = 20;
 			if (obj.id == 12548) obj.requires = 51;
 			if (forceExclude(obj)) continue;

@@ -560,11 +560,12 @@ export function applyEffectAura(
 			if (spell.id == 1259813) return;
 			if (spell.id == 16487) return;
 			if (spell.id == 12296) return;
-
 			if (spell.id == 1293742) return;
 			if (spell.id == 1293740) return;
 			if (spell.id == 1293743) return;
+			if (spell.id == 1287808) return;
 			if (spell.id == 1293741) return;
+			if (spell.id == 1295271) return;
 
 			console.log('dummy aura not implemented', this, spell);
 			break;

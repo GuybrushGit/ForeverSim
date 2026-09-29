@@ -48,7 +48,6 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 	const player = new Player(data);
 	const targets: Target[] = getTargetArray(data, player);
 	const sim = new Simulation(encounter, targets, player);
-	console.log(sim);
 
 	function handleClick(slot: string) {
 		if (slot == 'shirt' || slot == 'tabard') return;

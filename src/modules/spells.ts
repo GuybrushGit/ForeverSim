@@ -13551,42 +13551,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
-  "1295271": new Spell({
-    "id": 1295271,
-    "name": "Everlook Delivery Bot",
-    "schoolMask": 1,
-    "attributes": 16,
-    "attributesEx2": 268435456,
-    "attributesEx3": 197248,
-    "duration": 20000,
-    "procChance": 101,
-    "procMask": 139944,
-    "maxStacks": 99,
-    "path": "inv_misc_enggizmos_03",
-    "effects": [
-      new Effect({
-        "effectType": 3,
-        "basePointsF": 6,
-        "amplitude": 1,
-        "miscValue": 0
-      }),
-      new Effect({
-        "effectType": 3,
-        "basePointsF": 8,
-        "amplitude": 1,
-        "miscValue": 0
-      }),
-      new Effect({
-        "effectType": 6,
-        "auraType": 4,
-        "basePointsF": 2,
-        "triggerSpell": 1295633,
-        "amplitude": 1,
-        "target": 6,
-        "miscValue": 0
-      })
-    ]
-  }),
   "1295272": new Spell({
     "id": 1295272,
     "name": "Parachute-Priest Pager",

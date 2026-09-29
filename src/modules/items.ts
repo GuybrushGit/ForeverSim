@@ -89,6 +89,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of the Shadow",
       "path": "inv_jewelry_ring_15",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
         "armor": 0
       }
     },
@@ -408,6 +418,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Uber Resists (TEST)",
       "path": "inv_jewelry_ring_02",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          315,
+          315,
+          315,
+          315,
+          315
+        ],
         "armor": 0
       }
     },
@@ -914,6 +934,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Fire Res Ring",
       "path": "inv_jewelry_ring_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -945,6 +975,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Band of the Wraith",
       "path": "inv_jewelry_ring_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -978,6 +1018,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "int": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -995,6 +1045,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 4,
         "sta": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -1044,6 +1104,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "crit_rate": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -1109,6 +1179,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Necromantic Band",
       "path": "inv_jewelry_ring_09",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
         "armor": 0
       }
     },
@@ -1867,6 +1947,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_37",
       "stats": {
         "sta": 17,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -2330,6 +2420,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_35",
       "stats": {
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -2427,6 +2527,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_24",
       "stats": {
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       }
     },
@@ -2549,6 +2659,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_35",
       "stats": {
         "sta": 15,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -2564,6 +2684,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_11",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -2645,6 +2775,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -3312,6 +3452,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Leafre's Ring of Great Resistance",
       "path": "inv_jewelry_talisman_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          150,
+          150,
+          150,
+          150,
+          150
+        ],
         "armor": 0
       }
     },
@@ -4174,6 +4324,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of the Shadow",
       "path": "inv_jewelry_ring_15",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
         "armor": 0
       }
     },
@@ -4493,6 +4653,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Uber Resists (TEST)",
       "path": "inv_jewelry_ring_02",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          315,
+          315,
+          315,
+          315,
+          315
+        ],
         "armor": 0
       }
     },
@@ -4999,6 +5169,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Fire Res Ring",
       "path": "inv_jewelry_ring_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -5030,6 +5210,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Band of the Wraith",
       "path": "inv_jewelry_ring_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -5063,6 +5253,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "int": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -5080,6 +5280,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 4,
         "sta": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -5129,6 +5339,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "crit_rate": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -5194,6 +5414,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Necromantic Band",
       "path": "inv_jewelry_ring_09",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
         "armor": 0
       }
     },
@@ -5952,6 +6182,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_37",
       "stats": {
         "sta": 17,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -6415,6 +6655,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_35",
       "stats": {
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -6512,6 +6762,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_24",
       "stats": {
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       }
     },
@@ -6634,6 +6894,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_35",
       "stats": {
         "sta": 15,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -6649,6 +6919,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_11",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -6730,6 +7010,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -7397,6 +7687,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Leafre's Ring of Great Resistance",
       "path": "inv_jewelry_talisman_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          150,
+          150,
+          150,
+          150,
+          150
+        ],
         "armor": 0
       }
     },
@@ -8263,6 +8563,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Cold Basilisk Eye",
       "path": "inv_misc_eye_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1139,
@@ -8340,6 +8650,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "spell_shadow_lifedrain",
       "stats": {
         "defense": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
         "armor": 0
       }
     },
@@ -8418,6 +8738,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Frostwolf Insignia Rank 1",
       "path": "inv_jewelry_frostwolftrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -8433,6 +8763,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Stormpike Insignia Rank 1",
       "path": "inv_jewelry_stormpiketrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -8464,6 +8804,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Stormpike Insignia Rank 2",
       "path": "inv_jewelry_stormpiketrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -8480,6 +8830,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_02",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -8496,6 +8856,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_03",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -8512,6 +8882,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_04",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -8528,6 +8908,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_05",
       "stats": {
         "dodge_rate": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -8543,6 +8933,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Frostwolf Insignia Rank 2",
       "path": "inv_jewelry_frostwolftrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -8559,6 +8959,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_02",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -8575,6 +8985,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_03",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -8591,6 +9011,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_04",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -8607,6 +9037,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_05",
       "stats": {
         "dodge_rate": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -8622,6 +9062,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Onyxia Blood Talisman",
       "path": "spell_shadow_lifedrain",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1287808,
@@ -8638,6 +9088,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Gyrofreeze Ice Reflector",
       "path": "inv_misc_enggizmos_02",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 23131,
@@ -8670,6 +9130,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hyper-Radiant Flame Reflector",
       "path": "inv_misc_enggizmos_04",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 23097,
@@ -8686,6 +9156,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ultra-Flash Shadow Reflector",
       "path": "inv_misc_enggizmos_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 23132,
@@ -9583,6 +10063,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Loatheb's Reflection",
       "path": "inv_trinket_naxxramas05",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       },
       "useSpell": 28778,
@@ -9771,6 +10261,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_gem_sapphire_01",
       "stats": {
         "hit_rate": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1249110,
@@ -9788,6 +10288,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Molten Heart of the Mountain",
       "path": "inv_misc_gem_ruby_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1249113,
@@ -9805,6 +10315,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Dormant Heart of the Mountain",
       "path": "inv_misc_gem_diamond_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -10252,6 +10772,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Everlook Pathcarver",
       "path": "inv_misc_enggizmos_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1295270,
@@ -10269,9 +10799,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Everlook Delivery Bot",
       "path": "inv_misc_enggizmos_03",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 0
       },
-      "useSpell": 1295271,
+      "useSpell": 1295633,
       "cooldown": 300000,
       "category_cooldown": 20000
     },
@@ -10286,6 +10826,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Parachute-Priest Pager",
       "path": "inv_misc_enggizmos_05",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1295272,
@@ -10302,6 +10852,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Lichbane",
       "path": "inv_jewelry_talisman_06",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       },
       "useSpell": 1296564,
@@ -10320,6 +10880,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "melee_ap": 18,
         "ranged_ap": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          6,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1299440,
@@ -10495,6 +11065,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Cold Basilisk Eye",
       "path": "inv_misc_eye_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1139,
@@ -10572,6 +11152,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "spell_shadow_lifedrain",
       "stats": {
         "defense": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
         "armor": 0
       }
     },
@@ -10650,6 +11240,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Frostwolf Insignia Rank 1",
       "path": "inv_jewelry_frostwolftrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -10665,6 +11265,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Stormpike Insignia Rank 1",
       "path": "inv_jewelry_stormpiketrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -10696,6 +11306,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Stormpike Insignia Rank 2",
       "path": "inv_jewelry_stormpiketrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -10712,6 +11332,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_02",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -10728,6 +11358,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_03",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -10744,6 +11384,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_04",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -10760,6 +11410,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_stormpiketrinket_05",
       "stats": {
         "dodge_rate": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22564
@@ -10775,6 +11435,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Frostwolf Insignia Rank 2",
       "path": "inv_jewelry_frostwolftrinket_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -10791,6 +11461,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_02",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -10807,6 +11487,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_03",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -10823,6 +11513,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_04",
       "stats": {
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -10839,6 +11539,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_frostwolftrinket_05",
       "stats": {
         "dodge_rate": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 22563
@@ -10854,6 +11564,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Onyxia Blood Talisman",
       "path": "spell_shadow_lifedrain",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1287808,
@@ -10870,6 +11590,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Gyrofreeze Ice Reflector",
       "path": "inv_misc_enggizmos_02",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 23131,
@@ -10902,6 +11632,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hyper-Radiant Flame Reflector",
       "path": "inv_misc_enggizmos_04",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 23097,
@@ -10918,6 +11658,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ultra-Flash Shadow Reflector",
       "path": "inv_misc_enggizmos_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 23132,
@@ -11815,6 +12565,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Loatheb's Reflection",
       "path": "inv_trinket_naxxramas05",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       },
       "useSpell": 28778,
@@ -12003,6 +12763,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_gem_sapphire_01",
       "stats": {
         "hit_rate": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1249110,
@@ -12020,6 +12790,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Molten Heart of the Mountain",
       "path": "inv_misc_gem_ruby_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1249113,
@@ -12037,6 +12817,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Dormant Heart of the Mountain",
       "path": "inv_misc_gem_diamond_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -12484,6 +13274,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Everlook Pathcarver",
       "path": "inv_misc_enggizmos_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1295270,
@@ -12501,9 +13301,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Everlook Delivery Bot",
       "path": "inv_misc_enggizmos_03",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 0
       },
-      "useSpell": 1295271,
+      "useSpell": 1295633,
       "cooldown": 300000,
       "category_cooldown": 20000
     },
@@ -12518,6 +13328,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Parachute-Priest Pager",
       "path": "inv_misc_enggizmos_05",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1295272,
@@ -12534,6 +13354,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Lichbane",
       "path": "inv_jewelry_talisman_06",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       },
       "useSpell": 1296564,
@@ -12552,6 +13382,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "melee_ap": 18,
         "ranged_ap": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          6,
+          0
+        ],
         "armor": 0
       },
       "useSpell": 1299440,
@@ -12830,6 +13670,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_shortblade_02",
       "stats": {
         "spi": 2,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
         "armor": 0
       }
     },
@@ -15362,6 +16212,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_48",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -15380,6 +16240,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_12",
       "stats": {
         "str": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -15481,6 +16351,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 100,
         "int": 150,
         "hit_rate": 200,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          100,
+          100
+        ],
         "armor": 0
       },
       "useSpell": 22989
@@ -15502,6 +16382,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 40,
         "sta": 50,
         "int": 60,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          50,
+          60
+        ],
         "armor": 0
       },
       "useSpell": 22990
@@ -15523,6 +16413,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 60,
         "sta": 50,
         "int": 40,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          50
+        ],
         "armor": 0
       }
     },
@@ -15541,6 +16441,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_staff_goldfeathered_01",
       "stats": {
         "int": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -15746,6 +16656,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          8,
+          9,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -15904,6 +16824,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_hammer_19",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -19211,6 +20141,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_weapon_shortblade_02",
       "stats": {
         "spi": 2,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
         "armor": 0
       }
     },
@@ -21473,6 +22413,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_48",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -21491,6 +22441,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_12",
       "stats": {
         "str": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -21589,6 +22549,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 100,
         "int": 150,
         "hit_rate": 200,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          100,
+          100
+        ],
         "armor": 0
       },
       "useSpell": 22989
@@ -21610,6 +22580,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 40,
         "sta": 50,
         "int": 60,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          50,
+          60
+        ],
         "armor": 0
       },
       "useSpell": 22990
@@ -21631,6 +22611,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 60,
         "sta": 50,
         "int": 40,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          60,
+          50
+        ],
         "armor": 0
       }
     },
@@ -21876,6 +22866,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 5,
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          8,
+          9,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -22034,6 +23034,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_hammer_19",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -25174,6 +26184,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_04",
       "stats": {
         "spi": 6,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
         "armor": 29
       }
     },
@@ -25204,6 +26224,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Inferno Cloak",
       "path": "inv_misc_cape_18",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 19
       }
     },
@@ -25249,6 +26279,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Fiery Cloak",
       "path": "inv_misc_cape_08",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 19
       }
     },
@@ -25464,6 +26504,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_16",
       "stats": {
         "sta": 3,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 23
       }
     },
@@ -25799,6 +26849,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Cloak",
       "path": "inv_misc_cape_11",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          7,
+          0
+        ],
         "armor": 35
       }
     },
@@ -25813,6 +26873,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Cloak of Fire",
       "path": "inv_misc_cape_18",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 39
       },
       "useSpell": 18364,
@@ -25830,6 +26900,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_05",
       "stats": {
         "sta": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          16,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 42
       }
     },
@@ -25909,6 +26989,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hameya's Cloak",
       "path": "inv_misc_cape_18",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ],
         "armor": 38
       }
     },
@@ -26040,6 +27130,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_18",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 37
       }
     },
@@ -26131,6 +27231,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "crit_rate": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          12,
+          0
+        ],
         "armor": 47
       }
     },
@@ -26191,6 +27301,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "melee_ap": 24,
         "ranged_ap": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 42
       }
     },
@@ -26208,6 +27328,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "melee_ap": 24,
         "ranged_ap": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 42
       }
     },
@@ -26223,6 +27353,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_16",
       "stats": {
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 42
       }
     },
@@ -26238,6 +27378,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_18",
       "stats": {
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 42
       }
     },
@@ -26727,6 +27877,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_16",
       "stats": {
         "sta": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
         "armor": 60
       }
     },
@@ -26742,6 +27902,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_17",
       "stats": {
         "sta": 6,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 49
       }
     },
@@ -26757,6 +27927,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_04",
       "stats": {
         "spi": 6,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0
+        ],
         "armor": 29
       }
     },
@@ -27114,6 +28294,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
+        ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
         ],
         "armor": 43
       }
@@ -28469,6 +29659,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_chain_07",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 305
       },
       "useSpell": 10618,
@@ -28700,7 +29900,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate08",
       "stats": {
         "sta": 12,
-        "armor": 816
+        "armor": 816,
+        "resistance": [
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -28715,7 +29925,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_chain_16",
       "stats": {
         "sta": 13,
-        "armor": 432
+        "armor": 432,
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -28746,6 +29966,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate08",
       "stats": {
         "sta": 15,
+        "resistance": [
+          0,
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 480
       }
     },
@@ -28760,6 +29990,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Radiant Breastplate",
       "path": "inv_chest_plate16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          16,
+          0
+        ],
         "armor": 292
       }
     },
@@ -28791,6 +30031,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate11",
       "stats": {
         "sta": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          15,
+          0,
+          0,
+          0
+        ],
         "armor": 588
       }
     },
@@ -29032,6 +30282,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           21,
           21
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0
+        ],
         "armor": 311
       }
     },
@@ -29056,6 +30316,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           19,
           19
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 359
       }
     },
@@ -29071,6 +30341,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_chain_04",
       "stats": {
         "int": 28,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
         "armor": 338
       }
     },
@@ -29088,6 +30368,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "melee_ap": 50,
         "ranged_ap": 50,
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 343
       }
     },
@@ -29103,6 +30393,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_07",
       "stats": {
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 147
       }
     },
@@ -29144,6 +30444,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
+        ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
         ],
         "armor": 169
       }
@@ -29193,6 +30503,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_chain_10",
       "stats": {
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          18,
+          0
+        ],
         "armor": 158
       }
     },
@@ -29208,6 +30528,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_07",
       "stats": {
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          17
+        ],
         "armor": 150
       }
     },
@@ -29275,7 +30605,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 14,
         "crit_rate": 14,
-        "armor": 548
+        "armor": 548,
+        "resistance": [
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -29631,6 +30971,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 15,
         "sta": 15,
         "int": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
         "armor": 434
       }
     },
@@ -29646,6 +30996,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate07",
       "stats": {
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 365
       }
     },
@@ -29679,6 +31039,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 14,
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25,
+          0
+        ],
         "armor": 656
       }
     },
@@ -30056,6 +31426,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_08",
       "stats": {
         "sta": 26,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 121
       }
     },
@@ -30072,6 +31452,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 18,
         "sta": 26,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 234
       }
     },
@@ -30089,6 +31479,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "melee_ap": 40,
         "ranged_ap": 40,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 505
       }
     },
@@ -30106,6 +31506,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 24,
         "defense": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          42,
+          0,
+          0
+        ],
         "armor": 899
       }
     },
@@ -30121,6 +31531,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate07",
       "stats": {
         "sta": 15,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
         "armor": 98
       }
     },
@@ -31304,6 +32724,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 26,
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0
+        ],
         "armor": 171
       }
     },
@@ -32066,6 +33496,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 17,
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 118
       },
       "useSpell": 10578,
@@ -32250,6 +33690,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Fire Goggles",
       "path": "inv_helmet_47",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 43
       }
     },
@@ -32353,6 +33803,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Goblin Construction Helmet",
       "path": "inv_helmet_60",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 43
       },
       "useSpell": 12561,
@@ -32487,6 +33947,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_23",
       "stats": {
         "sta": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 433
       }
     },
@@ -32502,6 +33972,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_crown_01",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          18,
+          0
+        ],
         "armor": 257
       }
     },
@@ -32533,6 +34013,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_03",
       "stats": {
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          14,
+          0,
+          0,
+          0
+        ],
         "armor": 470
       }
     },
@@ -32692,6 +34182,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wizardweave Turban",
       "path": "inv_helmet_63",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          18
+        ],
         "armor": 63
       }
     },
@@ -32809,6 +34309,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Nature Res Head Cloth",
       "path": "inv_helmet_31",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0
+        ],
         "armor": 37
       }
     },
@@ -32893,6 +34403,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "dodge_rate": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 149
       }
     },
@@ -32943,7 +34463,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_22",
       "stats": {
         "sta": 20,
-        "armor": 758
+        "armor": 758,
+        "resistance": [
+          0,
+          0,
+          0,
+          35,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -33098,6 +34628,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "crit_rate": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25,
+          0
+        ],
         "armor": 533
       }
     },
@@ -33199,6 +34739,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 24,
         "str": 18,
         "sta": 26,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
         "armor": 192
       }
     },
@@ -33638,6 +35188,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_crown_01",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
         "armor": 79
       }
     },
@@ -33653,6 +35213,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_58",
       "stats": {
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
         "armor": 156
       }
     },
@@ -33670,6 +35240,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 24,
         "defense": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          44,
+          0,
+          0
+        ],
         "armor": 756
       }
     },
@@ -33686,6 +35266,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 18,
         "sta": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          44,
+          0,
+          0
+        ],
         "armor": 196
       }
     },
@@ -33702,6 +35292,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 20,
         "int": 21,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 102
       }
     },
@@ -33718,6 +35318,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 18,
         "sta": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          44,
+          0,
+          0
+        ],
         "armor": 425
       }
     },
@@ -34799,6 +36409,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 13,
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
         "armor": 116
       }
     },
@@ -36529,6 +38149,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_26",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          12,
+          0
+        ],
         "armor": 192
       }
     },
@@ -36559,6 +38189,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Fiery Plate Gauntlets",
       "path": "inv_gauntlets_03",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 379
       },
       "proc": {
@@ -36659,6 +38299,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Gloves",
       "path": "inv_gauntlets_21",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          12,
+          0
+        ],
         "armor": 43
       }
     },
@@ -36707,6 +38357,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_16",
       "stats": {
         "sta": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          13,
+          0
+        ],
         "armor": 95
       }
     },
@@ -36722,6 +38382,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_23",
       "stats": {
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          12
+        ],
         "armor": 86
       }
     },
@@ -36909,6 +38579,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Shadow Res Hands Plate",
       "path": "inv_gauntlets_23",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          0
+        ],
         "armor": 165
       }
     },
@@ -37308,6 +38988,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 44,
         "ranged_ap": 44,
         "crit_rate": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          0
+        ],
         "armor": 278
       }
     },
@@ -37324,6 +39014,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 12,
         "sta": 16,
+        "resistance": [
+          0,
+          0,
+          0,
+          28,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 494
       }
     },
@@ -37399,6 +39099,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0
+        ],
         "armor": 208
       }
     },
@@ -37445,6 +39155,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_11",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 228
       }
     },
@@ -37478,6 +39198,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "block_rate": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 410
       }
     },
@@ -37701,7 +39431,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 21,
         "str": 18,
         "sta": 22,
-        "armor": 247
+        "armor": 247,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ]
       }
     },
     {
@@ -38165,6 +39905,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_06",
       "stats": {
         "sta": 22,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
         "armor": 75
       }
     },
@@ -38181,6 +39931,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 18,
         "sta": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
         "armor": 146
       }
     },
@@ -38198,6 +39958,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "melee_ap": 22,
         "ranged_ap": 22,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
         "armor": 316
       }
     },
@@ -38215,6 +39985,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 18,
         "defense": 5,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          32,
+          0,
+          0
+        ],
         "armor": 562
       }
     },
@@ -39997,6 +41777,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 19,
         "int": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
         "armor": 51
       }
     },
@@ -40021,6 +41811,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
         "armor": 51
       }
     },
@@ -40036,6 +41836,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 19,
         "int": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
         "armor": 103
       }
     },
@@ -40051,6 +41861,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
         "armor": 103
       }
     },
@@ -40066,6 +41886,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 11,
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
         "armor": 214
       }
     },
@@ -40090,6 +41920,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
         "armor": 214
       }
     },
@@ -40105,6 +41945,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
         "armor": 379
       }
     },
@@ -40120,6 +41970,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
         "armor": 379
       }
     },
@@ -41142,6 +43002,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_13",
       "stats": {
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 213
       }
     },
@@ -41463,7 +43333,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_07",
       "stats": {
         "sta": 7,
-        "armor": 394
+        "armor": 394,
+        "resistance": [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -41478,6 +43358,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_09",
       "stats": {
         "int": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 43
       }
     },
@@ -41881,6 +43771,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_12",
       "stats": {
         "sta": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0
+        ],
         "armor": 159
       }
     },
@@ -42382,6 +44282,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_07",
       "stats": {
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 53
       }
     },
@@ -42398,6 +44308,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 12,
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 102
       }
     },
@@ -42415,6 +44335,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "melee_ap": 32,
         "ranged_ap": 32,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
         "armor": 221
       }
     },
@@ -42476,6 +44406,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 6,
         "sta": 13,
         "defense": 5,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
         "armor": 393
       }
     },
@@ -45170,6 +47110,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_04",
       "stats": {
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 498
       }
     },
@@ -45185,6 +47135,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_03",
       "stats": {
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          18,
+          0
+        ],
         "armor": 286
       }
     },
@@ -45216,6 +47176,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_04",
       "stats": {
         "sta": 19,
+        "resistance": [
+          0,
+          0,
+          0,
+          14,
+          14,
+          0,
+          0,
+          0
+        ],
         "armor": 514
       }
     },
@@ -45292,6 +47262,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Pants",
       "path": "inv_pants_09",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          17,
+          0
+        ],
         "armor": 65
       }
     },
@@ -45321,6 +47301,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wizardweave Leggings",
       "path": "inv_pants_09",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          16,
+          0,
+          0,
+          0,
+          16
+        ],
         "armor": 62
       }
     },
@@ -45420,6 +47410,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           17,
           17
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0
+        ],
         "armor": 281
       }
     },
@@ -45437,6 +47437,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "melee_ap": 54,
         "ranged_ap": 54,
+        "resistance": [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 319
       }
     },
@@ -45452,6 +47462,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 123
       }
     },
@@ -45493,6 +47513,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
+        ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
         ],
         "armor": 142
       }
@@ -45544,6 +47574,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_01",
       "stats": {
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          17,
+          0
+        ],
         "armor": 129
       }
     },
@@ -45559,6 +47599,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_02",
       "stats": {
         "sta": 11,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          16,
+          0,
+          0,
+          16
+        ],
         "armor": 127
       }
     },
@@ -45774,7 +47824,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_04",
       "stats": {
         "sta": 14,
-        "armor": 778
+        "armor": 778,
+        "resistance": [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -45822,6 +47882,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "sta": 21,
+        "resistance": [
+          0,
+          0,
+          0,
+          16,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 93
       }
     },
@@ -45901,6 +47971,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_mail_15",
       "stats": {
         "int": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12
+        ],
         "armor": 310
       }
     },
@@ -45948,7 +48028,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "int": 12,
-        "armor": 251
+        "armor": 251,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ]
       }
     },
     {
@@ -45963,6 +48053,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_05",
       "stats": {
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25,
+          0
+        ],
         "armor": 78
       }
     },
@@ -45998,6 +48098,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "defense": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 574
       }
     },
@@ -46014,6 +48124,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 574
       }
     },
@@ -46030,6 +48150,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 324
       }
     },
@@ -46046,6 +48176,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 13,
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 324
       }
     },
@@ -46063,6 +48203,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "melee_ap": 26,
         "ranged_ap": 26,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 154
       }
     },
@@ -46088,6 +48238,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 154
       }
     },
@@ -46103,6 +48263,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_06",
       "stats": {
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 78
       }
     },
@@ -46118,6 +48288,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_06",
       "stats": {
         "sta": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 78
       }
     },
@@ -46142,6 +48322,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
+        ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
         ],
         "armor": 78
       }
@@ -46195,6 +48385,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 23,
         "sta": 23,
         "int": 17,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0
+        ],
         "armor": 427
       }
     },
@@ -46652,6 +48852,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 25,
         "defense": 6,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 786
       }
     },
@@ -46667,6 +48877,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "sta": 28,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 106
       }
     },
@@ -46683,6 +48903,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 15,
         "sta": 28,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 204
       }
     },
@@ -46699,6 +48929,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 15,
         "sta": 28,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0
+        ],
         "armor": 442
       }
     },
@@ -49110,6 +51350,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 15,
         "int": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13
+        ],
         "armor": 0
       }
     },
@@ -49154,6 +51404,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Robe",
       "path": "inv_chest_cloth_26",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          16,
+          0
+        ],
         "armor": 0
       }
     },
@@ -49183,6 +51443,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wizardweave Robe",
       "path": "inv_chest_cloth_46",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          18
+        ],
         "armor": 0
       }
     },
@@ -49270,6 +51540,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_18",
       "stats": {
         "sta": 35,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -49315,6 +51595,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 17,
         "int": 17,
+        "resistance": [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -51065,6 +53355,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "parry_rate": 21,
         "hit_rate": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
         "armor": 0
       }
     },
@@ -51302,6 +53602,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -51566,6 +53876,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -51629,6 +53949,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -51652,6 +53982,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 35,
         "sta": 15,
         "crit_rate": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -55397,6 +57737,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Thorium Boots",
       "path": "inv_boots_plate_08",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 366
       }
     },
@@ -55412,6 +57762,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_plate_03",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          15,
+          0
+        ],
         "armor": 214
       }
     },
@@ -55443,6 +57803,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_plate_01",
       "stats": {
         "sta": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          10,
+          0,
+          0,
+          0
+        ],
         "armor": 391
       }
     },
@@ -55518,6 +57888,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          12,
+          0
+        ],
         "armor": 98
       }
     },
@@ -55533,6 +57913,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_07",
       "stats": {
         "sta": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          12
+        ],
         "armor": 98
       }
     },
@@ -55741,6 +58131,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 13,
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 125
       }
     },
@@ -55758,6 +58158,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "melee_ap": 28,
         "ranged_ap": 28,
+        "resistance": [
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 269
       }
     },
@@ -55854,6 +58264,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_cloth_03",
       "stats": {
         "sta": 21,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
         "armor": 56
       }
     },
@@ -55899,7 +58319,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Dark Iron Boots",
       "path": "inv_boots_chain_08",
       "stats": {
-        "armor": 664
+        "armor": 664,
+        "resistance": [
+          0,
+          0,
+          0,
+          28,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -56923,6 +59353,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 61
       }
     },
@@ -57049,6 +59489,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 17,
         "str": 13,
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 156
       }
     },
@@ -57132,6 +59582,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "int": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 79
       }
     },
@@ -57458,6 +59918,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_cloth_04",
       "stats": {
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
         "armor": 132
       }
     },
@@ -59321,6 +61791,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Venomspew Footpads",
       "stats": {
         "spi": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
         "armor": 56
       }
     },
@@ -59345,6 +61825,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 56
       }
     },
@@ -59359,6 +61849,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Bileblister Boots",
       "stats": {
         "spi": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
         "armor": 113
       }
     },
@@ -59374,6 +61874,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 19,
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 113
       }
     },
@@ -59390,6 +61900,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 8,
         "melee_ap": 38,
         "ranged_ap": 38,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
         "armor": 236
       }
     },
@@ -59414,6 +61934,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 236
       }
     },
@@ -59430,6 +61960,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "melee_ap": 38,
         "ranged_ap": 38,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
         "armor": 417
       }
     },
@@ -59445,6 +61985,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 19,
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 417
       }
     },
@@ -60788,6 +63338,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_30",
       "stats": {
         "sta": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 270
       }
     },
@@ -60803,6 +63363,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_11",
       "stats": {
         "sta": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          12,
+          0
+        ],
         "armor": 159
       }
     },
@@ -61280,6 +63850,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 8,
         "int": 9,
+        "resistance": [
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 214
       }
     },
@@ -61406,6 +63986,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 18,
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 352
       }
     },
@@ -61423,6 +64013,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 12,
         "int": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 199
       }
     },
@@ -61440,6 +64040,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "str": 11,
         "sta": 15,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 95
       }
     },
@@ -61456,6 +64066,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "int": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 47
       }
     },
@@ -61473,6 +64093,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "str": 18,
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 352
       }
     },
@@ -61490,6 +64120,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "sta": 12,
         "int": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 199
       }
     },
@@ -61507,6 +64147,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 10,
         "str": 11,
         "sta": 15,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 95
       }
     },
@@ -61523,6 +64173,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "int": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
         "armor": 47
       }
     },
@@ -61554,7 +64214,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_32",
       "stats": {
         "sta": 15,
-        "armor": 222
+        "armor": 222,
+        "resistance": [
+          0,
+          0,
+          0,
+          26,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -61579,6 +64249,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           21,
           21
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 118
       }
     },
@@ -61595,6 +64275,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 28,
         "sta": 16,
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 118
       }
     },
@@ -62657,6 +65347,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_14",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 50
       }
     },
@@ -63140,6 +65840,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_17",
       "stats": {
         "sta": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0
+        ],
         "armor": 108
       }
     },
@@ -64621,6 +67331,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 17,
         "int": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
         "armor": 46
       }
     },
@@ -64645,6 +67365,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 46
       }
     },
@@ -64660,6 +67390,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 17,
         "int": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
         "armor": 92
       }
     },
@@ -64675,6 +67415,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "sta": 21,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 92
       }
     },
@@ -64690,6 +67440,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 14,
         "sta": 17,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
         "armor": 193
       }
     },
@@ -64714,6 +67474,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5
         ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 193
       }
     },
@@ -64729,6 +67499,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "sta": 17,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
         "armor": 341
       }
     },
@@ -64744,6 +67524,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 21,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
         "armor": 341
       }
     },
@@ -64784,6 +67574,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
+        ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
         ],
         "armor": 42
       }
@@ -65419,6 +68219,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 59.44,
       "path": "inv_weapon_bow_07",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -66488,6 +69298,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 98.26,
       "path": "inv_weapon_rifle_08",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -67700,7 +70520,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_09",
       "stats": {
         "sta": 10,
-        "armor": 513
+        "armor": 513,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     },
     {
@@ -67812,6 +70642,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_23",
       "stats": {
         "sta": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          10,
+          0,
+          0,
+          0
+        ],
         "armor": 427
       }
     },
@@ -67938,6 +70778,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_18",
       "stats": {
         "int": 21,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
         "armor": 261
       }
     },
@@ -67955,6 +70805,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "melee_ap": 40,
         "ranged_ap": 40,
+        "resistance": [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 265
       }
     },
@@ -67970,6 +70830,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_13",
       "stats": {
         "sta": 4,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
         "armor": 116
       }
     },
@@ -68012,6 +70882,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
+        ],
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
         ],
         "armor": 116
       }
@@ -68173,6 +71053,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Arcane Res Shoulders Plate",
       "path": "inv_shoulder_28",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12
+        ],
         "armor": 198
       }
     },
@@ -68292,6 +71182,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 10,
         "int": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 70
       }
     },
@@ -68308,6 +71208,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 298
       }
     },
@@ -68438,6 +71348,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_13",
       "stats": {
         "spi": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
         "armor": 64
       }
     },
@@ -69192,6 +72112,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_18",
       "stats": {
         "sta": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 73
       }
     },
@@ -69209,6 +72139,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 18,
         "defense": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          33,
+          0,
+          0
+        ],
         "armor": 698
       }
     },
@@ -69224,6 +72164,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_07",
       "stats": {
         "sta": 25,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          33,
+          0,
+          0
+        ],
         "armor": 181
       }
     },
@@ -69239,6 +72189,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_14",
       "stats": {
         "sta": 25,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          33,
+          0,
+          0
+        ],
         "armor": 392
       }
     },
@@ -69254,6 +72214,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_14",
       "stats": {
         "sta": 18,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          33,
+          0,
+          0
+        ],
         "armor": 94
       }
     },
@@ -70666,6 +73636,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Necklace of Sanctuary",
       "path": "inv_jewelry_amulet_05",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          10,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70710,6 +73690,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Felstone Good Luck Charm",
       "path": "inv_jewelry_talisman_11",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70832,6 +73822,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Nature Res Neck",
       "path": "inv_jewelry_necklace_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70846,6 +73846,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Frost Res Neck",
       "path": "inv_jewelry_necklace_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70860,6 +73870,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Test Arcane Res Neck",
       "path": "inv_jewelry_necklace_01",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
         "armor": 0
       }
     },
@@ -70875,6 +73895,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_talisman_11",
       "stats": {
         "sta": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70923,6 +73953,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 13,
         "sta": 14,
+        "resistance": [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "proc": {
@@ -70944,6 +73984,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 13,
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          24,
+          24,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70961,6 +74011,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "str": 13,
         "sta": 8,
+        "resistance": [
+          0,
+          0,
+          0,
+          24,
+          24,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -70995,6 +74055,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "crit_rate": 14,
         "hit_rate": 10,
+        "resistance": [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -71550,6 +74620,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 5,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -71689,6 +74769,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "spi": 7,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
         "armor": 0
       }
     },
@@ -71705,6 +74795,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 12,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -71756,6 +74856,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 13,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -71807,6 +74917,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "melee_ap": 24,
         "ranged_ap": 24,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -71940,6 +75060,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_amulet_04",
       "stats": {
         "sta": 20,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
         "armor": 0
       }
     },
@@ -72563,6 +75693,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Frost's Whisper Pendant",
       "path": "inv_jewelry_necklace_16",
       "stats": {
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
         "armor": 0
       }
     },

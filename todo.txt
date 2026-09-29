@@ -1,7 +1,7 @@
 /********************************  TODO LIST  *************************
  *
 
-ppm table
+
 	sunder armor
 	check all items and trinkets and enchats
 

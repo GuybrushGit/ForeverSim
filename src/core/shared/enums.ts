@@ -236,10 +236,12 @@ export const EffectType = Object.freeze({
 	Summon: 28,
 	Energize: 30,
 	WeaponPercDmg: 31,
+	TriggerMissileSpell: 32,
 	SummonChangeItem: 34,
 	ApplyAreaAuraParty: 35,
 	Dispel: 38,
 	SummonObject: 50,
+	EnchantItemTmp: 54,
 	SummonPet: 56,
 	SendEvent: 61,
 	Threat: 63,
@@ -251,6 +253,7 @@ export const EffectType = Object.freeze({
 	Inebriate: 100,
 	DispelMechanic: 108,
 	NormalizedWeaponDmg: 121,
+	ForceCast: 140,
 	Teleport: 252,
 } as const);
 export type EffectType = (typeof EffectType)[keyof typeof EffectType];
@@ -263,6 +266,7 @@ export const AuraType = Object.freeze({
 	PeriodicDamage: 3,
 	DummyAura: 4,
 	ModConfuse: 5,
+	ModCharm: 6,
 	PeriodicHeal: 8,
 	ModThreat: 10,
 	ModStun: 12,
@@ -481,6 +485,7 @@ export const Targets = Object.freeze({
 	TARGET_CASTER_COORDINATES: 22,
 	TARGET_IN_FRONT_OF_CASTER: 24,
 	TARGET_DUELVSPLAYER: 25,
+	TARGET_DEST_TARGET_ENEMY: 53,
 } as const);
 export type Targets = (typeof Targets)[keyof typeof Targets];
 
