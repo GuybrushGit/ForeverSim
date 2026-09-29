@@ -3,7 +3,7 @@ import SimTalentsIcon from './sim-talents-icon';
 import type { TalentsObject } from '@core/shared/types';
 import { useStore } from '@core/shared/store';
 
-function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTotal: number }) {
+function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTotal: number; restrictions: boolean }) {
 	const store = useStore();
 	const { setTalent, getPlayerLevel } = store;
 
@@ -15,12 +15,13 @@ function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTot
 	function talentLeftClick(talent: any) {
 		let count = parseInt(talent.c);
 		let max = parseInt(talent.s.length);
-		//let row = parseInt(talent.y);
 		if (count >= max) return;
-		// if (treeTotal < row * 5) return;
-		// if (level - 9 - props.allTotal <= 0) return;
-		// if (talent.r && props.objects[talent.r[0]].c < talent.r[1]) return;
-
+		if (props.restrictions) {
+			let row = parseInt(talent.y);
+			if (treeTotal < row * 5) return;
+			if (level - 9 - props.allTotal <= 0) return;
+			if (talent.r.length && props.objects[talent.r[0]].c < talent.r[1]) return;
+		}
 		talent.c = count + 1;
 		setTalent(talent.i, talent.c);
 	}
@@ -32,22 +33,24 @@ function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTot
 
 		// check previous row points
 		let valid = true;
-		// let countArr: any[] = [];
-		// props.objects.forEach((t: any) => {
-		// 	countArr[t.y] = (countArr[t.y] || 0) + t.c;
-		// 	if (t.y == talent.y && t.x == talent.x) countArr[t.y]--;
-		// });
-		// for (let i = 0; i < countArr.length; i++) {
-		// 	countArr[i] += countArr[i - 1] || 0;
-		// }
-		// props.objects.forEach((t: any) => {
-		// 	if (t.c && t.y * 5 > countArr[t.y - 1]) valid = false;
-		// });
+		if (props.restrictions) {
+			let countArr: any[] = [];
+			props.objects.forEach((t: any) => {
+				countArr[t.y] = (countArr[t.y] || 0) + t.c;
+				if (t.y == talent.y && t.x == talent.x) countArr[t.y]--;
+			});
+			for (let i = 0; i < countArr.length; i++) {
+				countArr[i] += countArr[i - 1] || 0;
+			}
+			props.objects.forEach((t: any) => {
+				if (t.c && t.y * 5 > countArr[t.y - 1]) valid = false;
+			});
 
-		// // check arrow requirements
-		// props.objects.forEach((t: any) => {
-		// 	if (t.r && props.objects[t.r[0]] == talent && t.c) valid = false;
-		// });
+			// check arrow requirements
+			props.objects.forEach((t: any) => {
+				if (t.r && props.objects[t.r[0]] == talent && t.c) valid = false;
+			});
+		}
 
 		if (!valid) return;
 		talent.c = count - 1;
@@ -69,7 +72,7 @@ function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTot
 									data={talent}
 									definition={talent.def}
 									count={talent.c}
-									greyed={treeTotal < talent.y * 5 || level - 9 - props.allTotal <= 0}
+									greyed={props.restrictions && (treeTotal < talent.y * 5 || level - 9 - props.allTotal <= 0)}
 									required={talent.r && props.objects[talent.r[0]]}
 									handleRightClick={talentRightClick}
 									handleLeftClick={talentLeftClick}></SimTalentsIcon>

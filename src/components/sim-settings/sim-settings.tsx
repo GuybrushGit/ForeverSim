@@ -11,10 +11,6 @@ import { TargetIcon } from '@phosphor-icons/react';
 import SimModal from '@components/sim-modal/sim-modal';
 import SimTalents from '@components/sim-talents/sim-talents';
 import SimRotation from '@components/sim-rotation/sim-rotation';
-import SimDashboardPaperdoll from '@components/sim-dashboard/sim-dashboard-paperdoll';
-// import SimDashboardPaperdoll from '@components/sim-dashboard/sim-dashboard-paperdoll';
-// import SimCombatLog from '@components/sim-logs/sim-combat-log';
-// import SimLogs from '@components/sim-logs/sim-logs';
 
 function SimSettings() {
 	const store = useStore();

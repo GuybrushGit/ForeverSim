@@ -4,9 +4,11 @@ import { ArrowCounterClockwiseIcon, DownloadSimpleIcon } from '@phosphor-icons/r
 import type { TalentsTree, TalentsObject, PresetObject } from '@core/shared/types';
 import { SimMenu, SimMenuItem } from '@components/sim-menu/sim-menu';
 import { useStore } from '@core/shared/store';
+import { useState } from 'react';
 
 function SimTalents() {
 	const store = useStore();
+	const [restrictions, setRestrictions] = useState(true);
 	const { getTalents, setTalents, getPlayerLevel } = store;
 	let talents = getTalents();
 
@@ -38,6 +40,11 @@ function SimTalents() {
 					})}
 				</SimMenu>
 
+				<label className="restrictions">
+					<input type="checkbox" checked={restrictions} onChange={e => setRestrictions(e.target.checked)} />
+					<span>Restrictions</span>
+				</label>
+
 				<div className="points">
 					<p>
 						Points left: <span>{Math.max(level - 9 - total, 0)}</span>
@@ -46,7 +53,7 @@ function SimTalents() {
 			</div>
 			<div className="trees">
 				{talents.map((tree: any) => {
-					return <SimTalentsTree key={tree.n} label={tree.n} objects={tree.t} allTotal={total}></SimTalentsTree>;
+					return <SimTalentsTree key={tree.n} label={tree.n} objects={tree.t} allTotal={total} restrictions={restrictions}></SimTalentsTree>;
 				})}
 			</div>
 		</div>

@@ -11,6 +11,16 @@
 		width: 772px;
 		gap: 8px;
 	}
+	.restrictions {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		font-size: 14px;
+		white-space: nowrap;
+		input {
+			margin: 0;
+		}
+	}
 	.trees {
 		width: 100%;
 		display: flex;

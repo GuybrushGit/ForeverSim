@@ -8,7 +8,6 @@ import {
 	InventoryType,
 	ItemQuality,
 	ItemType,
-	SkillType,
 	SpellSchool,
 	WeaponType,
 } from '@core/shared/enums';
