@@ -57,7 +57,7 @@ function SimDashboardModel() {
 		let cancelled = false;
 		setModelError(false);
 		container.replaceChildren();
-		(globalThis as any).CONTENT_PATH = import.meta.env.DEV ? '/modelviewer/classicplus/' : 'https://wow.zamimg.com/modelviewer/classicplus/';
+		(globalThis as any).CONTENT_PATH = '/ForeverSim/modelviewer/classicplus/';
 
 		generateClassicModel(0.65, '#sim-paperdoll-model', { race: Number(playerRace) || 1, gender: 1, items: modelItems }, 'classic')
 			.then(model => {

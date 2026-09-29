@@ -5,15 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
 	base: '/ForeverSim/',
 	plugins: [react()],
-	server: {
-		proxy: {
-			'/modelviewer': {
-				target: 'https://wow.zamimg.com',
-				changeOrigin: true,
-				secure: true,
-			},
-		},
-	},
 	resolve: {
 		tsconfigPaths: true,
 	},
