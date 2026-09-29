@@ -11,7 +11,7 @@ function SimDashboardStatWeights() {
 	const [calculating, setCalculating] = useState(false);
 
 	const dps = useMemo(() => {
-		return Array(6).fill(0);
+		return Array(7).fill(0);
 	}, []);
 
 	useEffect(() => {
@@ -31,6 +31,8 @@ function SimDashboardStatWeights() {
 	const critScale = useRef(null);
 	const hitBar = useRef(null);
 	const hitScale = useRef(null);
+	const expertiseBar = useRef(null);
+	const expertiseScale = useRef(null);
 
 	function calcWeights() {
 		setCalculating(true);
@@ -38,8 +40,9 @@ function SimDashboardStatWeights() {
 		runTest({ melee_ap: 20 }, 1);
 		runTest({ str: 20 }, 2);
 		runTest({ agi: 20 }, 3);
-		runTest({ crit: [0, 2, 0, 0, 0, 0, 0, 0] }, 4);
-		runTest({ hit: [0, 1, 0, 0, 0, 0, 0, 0] }, 5);
+		runTest({ crit_rate: 28 }, 4);
+		runTest({ hit_rate: 10 }, 5);
+		runTest({ expertise_rate: 10 }, 6);
 	}
 
 	function runTest(stats: any, worker_index: number) {
@@ -87,18 +90,21 @@ function SimDashboardStatWeights() {
 		if (!critScale.current) return;
 		if (!hitBar.current) return;
 		if (!hitScale.current) return;
+		if (!expertiseBar.current) return;
+		if (!expertiseScale.current) return;
 
 		let baseline = dps[0];
-		let apDPS = (dps[1] - baseline) / 20;
-		let strDPS = (dps[2] - baseline) / 20;
-		let agiDPS = (dps[3] - baseline) / 20;
+		let apDPS = (dps[1] - baseline) / 2;
+		let strDPS = (dps[2] - baseline) / 2;
+		let agiDPS = (dps[3] - baseline) / 2;
 		let critDPS = (dps[4] - baseline) / 2;
 		let hitDPS = dps[5] - baseline;
+		let expertiseDPS = dps[6] - baseline;
 
 		let compare = 1;
-		if (scale == 'AP') compare = apDPS;
-		if (scale == 'STR') compare = strDPS;
-		if (scale == 'AGI') compare = agiDPS;
+		if (scale == 'AP') compare = apDPS / 10;
+		if (scale == 'STR') compare = strDPS / 10;
+		if (scale == 'AGI') compare = agiDPS / 10;
 
 		(dpsScale.current as HTMLElement).innerText = round(compare).toFixed(2);
 		(apScale.current as HTMLElement).innerText = round(apDPS / compare).toFixed(2);
@@ -106,14 +112,16 @@ function SimDashboardStatWeights() {
 		(agiScale.current as HTMLElement).innerText = round(agiDPS / compare).toFixed(2);
 		(critScale.current as HTMLElement).innerText = round(critDPS / compare).toFixed(2);
 		(hitScale.current as HTMLElement).innerText = round(hitDPS / compare).toFixed(2);
+		(expertiseScale.current as HTMLElement).innerText = round(expertiseDPS / compare).toFixed(2);
 
-		let max = scale == 'AP' ? 4 : 2;
+		let max = Math.max(critDPS / compare, hitDPS / compare, expertiseDPS / compare);
 		(dpsBar.current as HTMLElement).style.width = (compare / max) * 100 + '%';
 		(apBar.current as HTMLElement).style.width = (apDPS / compare / max) * 100 + '%';
 		(strBar.current as HTMLElement).style.width = (strDPS / compare / max) * 100 + '%';
 		(agiBar.current as HTMLElement).style.width = (agiDPS / compare / max) * 100 + '%';
 		(critBar.current as HTMLElement).style.width = (critDPS / compare / max) * 100 + '%';
 		(hitBar.current as HTMLElement).style.width = (hitDPS / compare / max) * 100 + '%';
+		(expertiseBar.current as HTMLElement).style.width = (expertiseDPS / compare / max) * 100 + '%';
 	}
 
 	return (
@@ -137,7 +145,7 @@ function SimDashboardStatWeights() {
 						</div>
 						<div className="weight-row" key={'ap'}>
 							<div className="weight-label">
-								<span>+1 Attack Power</span>
+								<span>+10 Attack Power</span>
 							</div>
 							<div className="weight-bar">
 								<span style={{ width: 0 }} ref={apBar}></span>
@@ -147,7 +155,7 @@ function SimDashboardStatWeights() {
 						</div>
 						<div className="weight-row" key={'str'}>
 							<div className="weight-label">
-								<span>+1 Strength</span>
+								<span>+10 Strength</span>
 							</div>
 							<div className="weight-bar">
 								<span style={{ width: 0 }} ref={strBar}></span>
@@ -157,7 +165,7 @@ function SimDashboardStatWeights() {
 						</div>
 						<div className="weight-row" key={'agi'}>
 							<div className="weight-label">
-								<span>+1 Agility</span>
+								<span>+10 Agility</span>
 							</div>
 							<div className="weight-bar">
 								<span style={{ width: 0 }} ref={agiBar}></span>
@@ -167,7 +175,7 @@ function SimDashboardStatWeights() {
 						</div>
 						<div className="weight-row" key={'crit'}>
 							<div className="weight-label">
-								<span>+1% Crit</span>
+								<span>+14 Crit Rate</span>
 							</div>
 							<div className="weight-bar">
 								<span style={{ width: 0 }} ref={critBar}></span>
@@ -177,12 +185,22 @@ function SimDashboardStatWeights() {
 						</div>
 						<div className="weight-row" key={'hit'}>
 							<div className="weight-label">
-								<span>+1% Hit</span>
+								<span>+10 Hit Rate</span>
 							</div>
 							<div className="weight-bar">
 								<span style={{ width: 0 }} ref={hitBar}></span>
 							</div>
 							<strong ref={hitScale}>{'1.00'}</strong>
+							<div className="weight-scale">{scale}</div>
+						</div>
+						<div className="weight-row" key={'expertise'}>
+							<div className="weight-label">
+								<span>+10 Expertise Rate</span>
+							</div>
+							<div className="weight-bar">
+								<span style={{ width: 0 }} ref={expertiseBar}></span>
+							</div>
+							<strong ref={expertiseScale}>{'1.00'}</strong>
 							<div className="weight-scale">{scale}</div>
 						</div>
 					</div>
