@@ -9307,9 +9307,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_rune_07",
       "stats": {
         "hit_rate": 7,
-        "armor": 0,
-        "melee_ap": null,
-        "ranged_ap": null
+        "armor": 0
       }
     },
     {
@@ -10459,8 +10457,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_qiraj_jewelglyphed",
       "stats": {
         "crit_rate": 7,
-        "armor": 0,
-        "healing": null
+        "armor": 0
       }
     },
     {
@@ -10492,9 +10489,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_coin_09",
       "stats": {
         "hit_rate": 7,
-        "armor": 0,
-        "melee_ap": null,
-        "ranged_ap": null
+        "armor": 0
       }
     },
     {
@@ -10509,8 +10504,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_coin_08",
       "stats": {
         "crit_rate": 7,
-        "armor": 0,
-        "healing": null
+        "armor": 0
       }
     },
     {
@@ -11809,9 +11803,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_rune_07",
       "stats": {
         "hit_rate": 7,
-        "armor": 0,
-        "melee_ap": null,
-        "ranged_ap": null
+        "armor": 0
       }
     },
     {
@@ -12961,8 +12953,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_qiraj_jewelglyphed",
       "stats": {
         "crit_rate": 7,
-        "armor": 0,
-        "healing": null
+        "armor": 0
       }
     },
     {
@@ -12994,9 +12985,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_coin_09",
       "stats": {
         "hit_rate": 7,
-        "armor": 0,
-        "melee_ap": null,
-        "ranged_ap": null
+        "armor": 0
       }
     },
     {
@@ -13011,8 +13000,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_coin_08",
       "stats": {
         "crit_rate": 7,
-        "armor": 0,
-        "healing": null
+        "armor": 0
       }
     },
     {
@@ -23559,30 +23547,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_monsterclaw_02",
       "stats": {
         "agi": 4,
-        "armor": 0,
-        "weapon_skill": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
+        "armor": 0
       }
     },
     {

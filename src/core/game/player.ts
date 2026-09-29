@@ -301,7 +301,7 @@ export class Player {
 				}
 			} else if (key == 'dodge_rate') base.dodge += round((value * modifier) / this.dodge_per_rate) || 0;
 			else if (key == 'parry_rate') base.parry += round((value * modifier) / this.parry_per_rate) || 0;
-			else if (key == 'block_rate') base.block += round((value * modifier) / this.block_per_rate) || 0;
+			else if (key == 'block_rate') base.block_chance += round((value * modifier) / this.block_per_rate) || 0;
 			else if (key == 'expertise_rate') {
 				base.expertise += round((value * modifier) / this.expertise_per_rate) || 0;
 			} else if (key == 'crit_rate') {

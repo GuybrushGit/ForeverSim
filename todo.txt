@@ -3,7 +3,7 @@
 
 
 	sunder armor
-	check all items and trinkets and enchats
+	check all enchats
 
 	Rend adds 2% of ap?
 	Revenge adds 25% ap ?
@@ -14,7 +14,7 @@
  * more presets
  * model
  * logo
- * life giving gem
+  TMI health changes
  * 
  * 
  
@@ -24,6 +24,17 @@
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
+https://www.wowhead.com/forever/item=19019/thunderfury-blessed-blade-of-the-windseeker
+https://www.wowhead.com/forever/item=12798/annihilator
+https://www.wowhead.com/forever/item=18882/test-level-80-epic
+https://www.wowhead.com/forever/item=16548/generals-plate-gauntlets
+https://www.wowhead.com/forever/item=12631/fiery-plate-gauntlets
+https://www.wowhead.com/forever/item=21189/might-of-cenarius
+https://www.wowhead.com/forever/item=19341/lifegiving-gem
+https://www.wowhead.com/forever/item=18815/essence-of-the-pure-flame
+https://www.wowhead.com/forever/item=21488/fetish-of-chitinous-spikes
+https://www.wowhead.com/forever/item=19289/darkmoon-card-maelstrom
+https://www.wowhead.com/forever/item=272440/defenders-grip-stabilizer
 
 
 
