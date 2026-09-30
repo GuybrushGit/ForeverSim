@@ -592,6 +592,7 @@ export const EventType = Object.freeze({
 	ExtraAttack: 11,
 	Custom: 12,
 	Threat: 13,
+	HealthChange: 14,
 } as const);
 export type EventType = (typeof EventType)[keyof typeof EventType];
 

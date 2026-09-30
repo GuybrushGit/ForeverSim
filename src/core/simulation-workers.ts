@@ -18,7 +18,7 @@ export class SimulationWorkers {
 	iterations: number = 0;
 
 	constructor() {
-		this.maxWorkers = Math.min(MAX_WORKERS, navigator.hardwareConcurrency || MAX_WORKERS);
+		this.maxWorkers = Math.max(Math.min(MAX_WORKERS, navigator.hardwareConcurrency || MAX_WORKERS), 7);
 		for (let i = 0; i < this.maxWorkers; i++) {
 			let worker = new Worker(new URL('./worker.ts', import.meta.url), { type: 'module' });
 			worker.onerror = err => {
@@ -62,7 +62,7 @@ export class SimulationWorkers {
 		data.iterations = Number(getSetting(data.settings, 'simulations').value);
 
 		if (data.iterations == 1) this.workers[0].postMessage({ data });
-		else if (data.worker_index !== undefined) this.workers[data.worker_index].postMessage({ data });
+		else if (data.worker_index !== undefined && this.workers[data.worker_index]) this.workers[data.worker_index].postMessage({ data });
 		else {
 			data.iterations = ~~(data.iterations / this.workers.length);
 			this.workers.forEach(worker => worker.postMessage({ data }));

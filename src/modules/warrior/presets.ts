@@ -26,6 +26,62 @@ const templatePresets = [
 	},
 	{
 		type: 'talents',
+		name: 'Arms',
+		value: {
+			'105927': 0,
+			'105931': 0,
+			'105932': 0,
+			'105934': 0,
+			'105935': 0,
+			'105936': 1,
+			'105937': 5,
+			'105939': 5,
+			'105941': 1,
+			'105944': 5,
+			'105945': 1,
+			'105947': 2,
+			'105948': 3,
+			'105949': 1,
+			'105950': 3,
+			'105951': 1,
+			'105952': 2,
+			'105953': 3,
+			'105954': 5,
+			'105956': 3,
+			'105958': 3,
+			'110524': 5,
+			'110858': 2,
+		},
+	},
+	{
+		type: 'talents',
+		name: 'Protection',
+		value: {
+			'105939': 0,
+			'105950': 3,
+			'105951': 0,
+			'105954': 0,
+			'105956': 3,
+			'105957': 5,
+			'105958': 2,
+			'105959': 1,
+			'105961': 2,
+			'105962': 5,
+			'105965': 1,
+			'105968': 0,
+			'105969': 3,
+			'105970': 1,
+			'105971': 2,
+			'105972': 3,
+			'105973': 5,
+			'105974': 2,
+			'105975': 5,
+			'105976': 5,
+			'110856': 3,
+		},
+	},
+	{
+		type: 'talents',
 		name: 'All',
 		value: {
 			'121': 3,
@@ -100,6 +156,216 @@ const templatePresets = [
 		},
 	},
 	{
+		type: 'items',
+		name: 'Test Preset',
+		value: {
+			mainhand: {
+				'19554': {
+					id: 19554,
+					path: 'inv_sword_27',
+					selected: true,
+				},
+			},
+			offhand: {
+				'19554': {
+					id: 19554,
+					path: 'inv_sword_27',
+					selected: true,
+				},
+			},
+			head: {
+				'21999': {
+					id: 21999,
+					path: 'inv_helmet_02',
+					selected: true,
+				},
+			},
+			shoulder: {
+				'22001': {
+					id: 22001,
+					path: 'inv_shoulder_30',
+					selected: true,
+				},
+			},
+			twohand: {},
+			hands: {
+				'21998': {
+					id: 21998,
+					path: 'inv_gauntlets_26',
+					selected: true,
+				},
+			},
+			feet: {
+				'21995': {
+					id: 21995,
+					path: 'inv_boots_plate_03',
+					selected: true,
+				},
+			},
+			legs: {
+				'22000': {
+					id: 22000,
+					path: 'inv_pants_04',
+					selected: true,
+				},
+			},
+			back: {
+				'18461': {
+					id: 18461,
+					path: 'inv_misc_cape_07',
+					selected: true,
+				},
+			},
+			chest: {
+				'21997': {
+					id: 21997,
+					path: 'inv_chest_plate03',
+					selected: true,
+				},
+			},
+			neck: {
+				'18404': {
+					id: 18404,
+					path: 'inv_jewelry_necklace_09',
+					selected: true,
+				},
+			},
+			trinket1: {
+				'272437': {
+					id: 272437,
+					path: 'inv_engineering_90_lightningbox',
+					selected: true,
+				},
+			},
+			wrists: {
+				'21996': {
+					id: 21996,
+					path: 'inv_bracer_18',
+					selected: true,
+				},
+			},
+			waist: {
+				'21994': {
+					id: 21994,
+					path: 'inv_belt_34',
+					selected: true,
+				},
+			},
+			finger1: {
+				'19325': {
+					id: 19325,
+					path: 'inv_jewelry_ring_35',
+					selected: true,
+				},
+			},
+			finger2: {
+				'18821': {
+					id: 18821,
+					path: 'inv_jewelry_ring_07',
+					selected: true,
+				},
+			},
+			trinket2: {
+				'249470': {
+					id: 249470,
+					path: 'inv_misc_gem_ruby_01',
+					selected: true,
+				},
+			},
+			ranged: {
+				'19107': {
+					id: 19107,
+					path: 'inv_weapon_crossbow_07',
+					selected: true,
+				},
+			},
+			offhand_enchant: {
+				'20034': {
+					id: 20034,
+					selected: true,
+				},
+			},
+			hands_enchant: {
+				'1248640': {
+					id: 1248640,
+					selected: true,
+				},
+			},
+			offhand_tempenchant: {
+				'22756': {
+					id: 22756,
+					selected: true,
+				},
+			},
+			mainhand_enchant: {
+				'20034': {
+					id: 20034,
+					selected: true,
+				},
+			},
+			mainhand_tempenchant: {
+				'10612': {
+					id: 10612,
+					selected: true,
+				},
+			},
+			waist_enchant: {
+				'1226211': {
+					id: 1226211,
+					selected: true,
+				},
+			},
+			legs_enchant: {
+				'468373': {
+					id: 468373,
+					selected: true,
+				},
+			},
+			feet_enchant: {
+				'20023': {
+					id: 20023,
+					selected: true,
+				},
+			},
+			wrists_enchant: {
+				'20010': {
+					id: 20010,
+					selected: true,
+				},
+			},
+			chest_enchant: {
+				'20025': {
+					id: 20025,
+					selected: true,
+				},
+			},
+			back_enchant: {
+				'1219587': {
+					id: 1219587,
+					selected: true,
+				},
+			},
+			shoulder_enchant: {
+				'24422': {
+					id: 24422,
+					selected: true,
+				},
+			},
+			neck_enchant: {
+				'1249019': {
+					id: 1249019,
+					selected: true,
+				},
+			},
+			head_enchant: {
+				'468373': {
+					id: 468373,
+					selected: true,
+				},
+			},
+		},
+	},
+	{
 		type: 'rotation',
 		name: 'Basic Fury Rotation',
 		value: [
@@ -111,11 +377,16 @@ const templatePresets = [
 				conditions: [],
 			},
 			{
-				id: 25289,
+				id: 11551,
 				name: 'Battle Shout',
 				path: 'ability_warrior_battleshout',
 				phase: 0,
-				conditions: [],
+				conditions: [
+					{
+						resource: 5,
+						precast: true,
+					},
+				],
 			},
 			{
 				id: 17528,
@@ -160,7 +431,7 @@ const templatePresets = [
 				conditions: [],
 			},
 			{
-				id: 25286,
+				id: 11567,
 				name: 'Heroic Strike',
 				path: 'ability_rogue_ambush',
 				phase: 0,
@@ -294,6 +565,336 @@ const templatePresets = [
 				path: 'inv_sword_48',
 				phase: 1,
 				conditions: [],
+			},
+		],
+	},
+	{
+		type: 'rotation',
+		name: 'Basic Arms Rotation',
+		value: [
+			{
+				id: 2687,
+				name: 'Bloodrage',
+				path: 'ability_racial_bloodrage',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 11551,
+				name: 'Battle Shout',
+				path: 'ability_warrior_battleshout',
+				phase: 0,
+				conditions: [
+					{
+						resource: 5,
+						precast: true,
+					},
+				],
+			},
+			{
+				id: 17528,
+				name: 'Mighty Rage',
+				path: 'ability_warrior_innerrage',
+				phase: 0,
+				conditions: [
+					{
+						resource: 2,
+						comparator: '<=',
+						value: '30',
+						maxtimeleft: 30000,
+					},
+				],
+				item: false,
+			},
+			{
+				id: 11585,
+				name: 'Overpower',
+				path: 'ability_meleedamage',
+				phase: 0,
+				conditions: [
+					{
+						resource: 1,
+						comparator: '<=',
+						value: '25',
+						maxpower: 250,
+					},
+				],
+			},
+			{
+				id: 11574,
+				name: 'Rend',
+				path: 'ability_gouge',
+				phase: 0,
+				conditions: [
+					{
+						resource: 1,
+						comparator: '<=',
+						value: '25',
+						maxpower: 250,
+					},
+				],
+				item: false,
+			},
+			{
+				id: 21553,
+				name: 'Mortal Strike',
+				path: 'ability_warrior_savageblow',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 11605,
+				name: 'Slam',
+				path: 'ability_warrior_decisivestrike',
+				phase: 0,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 1310222,
+				name: 'Spearing Strike',
+				path: 'inv_spear_01',
+				phase: 0,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 1,
+				name: 'Return to base stance',
+				path: 'spell_nature_enchantarmor',
+				phase: 0,
+				conditions: [
+					{
+						resource: 1,
+						comparator: '<=',
+						value: '25',
+						maxpower: 250,
+					},
+				],
+			},
+			{
+				id: 1259813,
+				name: 'Eureka!',
+				path: 'inv_gnometoy',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 1259799,
+				name: "Elune's Light",
+				path: 'spell_nature_moonglow',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 20572,
+				name: 'Blood Fury',
+				path: 'racial_orc_berserkerstrength',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 20554,
+				name: 'Berserking',
+				path: 'racial_troll_berserk',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 2687,
+				name: 'Bloodrage',
+				path: 'ability_racial_bloodrage',
+				phase: 1,
+				conditions: [],
+			},
+			{
+				id: 20662,
+				name: 'Execute',
+				path: 'inv_sword_48',
+				phase: 1,
+				conditions: [],
+			},
+		],
+	},
+	{
+		type: 'rotation',
+		name: 'Basic Protection Rotation',
+		value: [
+			{
+				id: 11551,
+				name: 'Battle Shout',
+				path: 'ability_warrior_battleshout',
+				phase: 0,
+				conditions: [
+					{
+						resource: 5,
+						precast: true,
+					},
+				],
+				item: false,
+			},
+			{
+				id: 2687,
+				name: 'Bloodrage',
+				path: 'ability_racial_bloodrage',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 12976,
+				name: 'Last Stand',
+				path: 'spell_holy_ashestoashes',
+				phase: 0,
+				conditions: [
+					{
+						resource: 2,
+						comparator: '<=',
+						value: '30',
+						maxtimeleft: 30000,
+					},
+				],
+				item: false,
+			},
+			{
+				id: 2565,
+				name: 'Shield Block',
+				path: 'ability_defend',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 23925,
+				name: 'Shield Slam',
+				path: 'inv_shield_05',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 11601,
+				name: 'Revenge',
+				path: 'ability_warrior_revenge',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 11567,
+				name: 'Heroic Strike',
+				path: 'ability_rogue_ambush',
+				phase: 0,
+				conditions: [
+					{
+						resource: 1,
+						comparator: '>=',
+						value: '30',
+						minpower: 300,
+					},
+				],
+			},
+			{
+				id: 1259813,
+				name: 'Eureka!',
+				path: 'inv_gnometoy',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 1259799,
+				name: "Elune's Light",
+				path: 'spell_nature_moonglow',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 20572,
+				name: 'Blood Fury',
+				path: 'racial_orc_berserkerstrength',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 20554,
+				name: 'Berserking',
+				path: 'racial_troll_berserk',
+				phase: 1,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 11551,
+				name: 'Battle Shout',
+				path: 'ability_warrior_battleshout',
+				phase: 1,
+				conditions: [
+					{
+						resource: 5,
+						precast: true,
+					},
+				],
+			},
+			{
+				id: 2687,
+				name: 'Bloodrage',
+				path: 'ability_racial_bloodrage',
+				phase: 1,
+				conditions: [],
+			},
+			{
+				id: 2565,
+				name: 'Shield Block',
+				path: 'ability_defend',
+				phase: 1,
+				conditions: [],
+			},
+			{
+				id: 23925,
+				name: 'Shield Slam',
+				path: 'inv_shield_05',
+				phase: 1,
+				conditions: [],
+			},
+			{
+				id: 11601,
+				name: 'Revenge',
+				path: 'ability_warrior_revenge',
+				phase: 1,
+				conditions: [],
+			},
+			{
+				id: 11567,
+				name: 'Heroic Strike',
+				path: 'ability_rogue_ambush',
+				phase: 1,
+				conditions: [
+					{
+						resource: 1,
+						comparator: '>=',
+						value: '30',
+						minpower: 300,
+					},
+				],
+			},
+			{
+				id: 11597,
+				name: 'Sunder Armor',
+				path: 'ability_warrior_sunder',
+				phase: 0,
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 11597,
+				name: 'Sunder Armor',
+				path: 'ability_warrior_sunder',
+				phase: 1,
+				conditions: [],
+				item: false,
 			},
 		],
 	},

@@ -303,17 +303,21 @@ export var templateAbilities = [
 		item: true,
 	},
 
-	// new pots
+	// frenzy pots
+	{
+		id: 1251936,
+		item: true,
+	},
+	{
+		id: 1251937,
+		item: true,
+	},
+	{
+		id: 1251938,
+		item: true,
+	},
 	{
 		id: 1251940,
-		item: true,
-	},
-	{
-		id: 1250986,
-		item: true,
-	},
-	{
-		id: 1250985,
 		item: true,
 	},
 

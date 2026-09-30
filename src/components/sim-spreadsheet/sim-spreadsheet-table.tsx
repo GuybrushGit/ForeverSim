@@ -437,7 +437,6 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 				else if (length <= 20) currentIterations = 6000;
 				else if (length <= 50) currentIterations = 4000;
 				else currentIterations = 2000;
-				currentIterations = 10;
 				updateInterval = setInterval(updateProgressBar, 2);
 			}
 

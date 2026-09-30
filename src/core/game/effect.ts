@@ -165,7 +165,6 @@ export class Effect {
 				if (spell.id == 12938) return;
 				if (spell.id == 29286) return;
 				if (spell.id == 14537) return;
-				if (spell.id == 23725) return;
 				if (spell.id == 23453) return;
 				if (spell.id == 29275) return;
 				if (spell.id == 10523) return;

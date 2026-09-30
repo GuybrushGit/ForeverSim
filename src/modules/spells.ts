@@ -5659,24 +5659,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
-  "14590": new Spell({
-    "id": 14590,
-    "name": "Increased Fire Resist 10",
-    "schoolMask": 1,
-    "attributes": 192,
-    "procChance": 101,
-    "path": "temp",
-    "effects": [
-      new Effect({
-        "effectType": 6,
-        "auraType": 22,
-        "basePointsF": 10,
-        "amplitude": 1,
-        "miscValue": 4,
-        "target": 1
-      })
-    ]
-  }),
   "14795": new Spell({
     "id": 14795,
     "name": "Venomhide Poison",
@@ -6316,7 +6298,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Strength of the Champion",
     "schoolMask": 2,
     "duration": 30000,
-    "procChance": 101,
     "path": "inv_sword_39",
     "effects": [
       new Effect({
@@ -8860,21 +8841,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 26,
         "amplitude": 1,
         "target": 6,
-        "miscValue": 0
-      })
-    ]
-  }),
-  "23725": new Spell({
-    "id": 23725,
-    "name": "Gift of Life",
-    "schoolMask": 1,
-    "attributes": 262144,
-    "path": "inv_misc_gem_pearl_05",
-    "effects": [
-      new Effect({
-        "effectType": 3,
-        "amplitude": 1,
-        "target": 1,
         "miscValue": 0
       })
     ]
@@ -12314,6 +12280,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "467498": new Spell({
+    "id": 467498,
+    "name": "Gift of Life",
+    "schoolMask": 1,
+    "duration": 20000,
+    "procChance": 101,
+    "path": "inv_misc_gem_pearl_05",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 133,
+        "basePointsF": 15,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1225295": new Spell({
     "id": 1225295,
     "name": "Precision",
@@ -12622,6 +12606,58 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1250918": new Spell({
+    "id": 1250918,
+    "name": "Elixir of Cunning",
+    "schoolMask": 1,
+    "attributes": 134217728,
+    "duration": 1800000,
+    "path": "inv_potion_166",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "miscValue": 3,
+        "target": 1
+      })
+    ]
+  }),
+  "1250940": new Spell({
+    "id": 1250940,
+    "name": "Elixir of the Owl",
+    "schoolMask": 1,
+    "attributes": 134217728,
+    "duration": 1800000,
+    "path": "inv_potion_164",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "miscValue": 3,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 290,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1250985": new Spell({
     "id": 1250985,
     "name": "Elixir of Ferocity",
@@ -12668,6 +12704,90 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 290,
         "basePointsF": 2,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1251936": new Spell({
+    "id": 1251936,
+    "name": "Frenzy Potion",
+    "schoolMask": 1,
+    "attributesEx": 1024,
+    "attributesEx3": 512,
+    "duration": 30000,
+    "cooldown": 120000,
+    "path": "inv_potiond_3",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 28,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 28,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1251937": new Spell({
+    "id": 1251937,
+    "name": "Greater Frenzy Potion",
+    "schoolMask": 1,
+    "attributesEx": 1024,
+    "attributesEx3": 512,
+    "duration": 30000,
+    "cooldown": 120000,
+    "path": "inv_potionf_1",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 40,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 40,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1251938": new Spell({
+    "id": 1251938,
+    "name": "Superior Frenzy Potion",
+    "schoolMask": 1,
+    "attributesEx": 1024,
+    "attributesEx3": 512,
+    "duration": 30000,
+    "cooldown": 120000,
+    "path": "inv_misc_potiona6",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 56,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 56,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -13063,8 +13183,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "attributes": 400,
     "attributesEx2": 4,
     "duration": 5000,
-    "procChance": 101,
-    "maxStacks": 3,
     "path": "ability_meleedamage",
     "baseLevel": 1,
     "effects": [

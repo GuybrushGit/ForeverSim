@@ -560,7 +560,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     "id": 489,
     "name": "Black Dragon Mail",
     "items": [
-      16984,
       15050,
       15052,
       15051
@@ -573,10 +572,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       {
         "count": 3,
         "spell": 7598
-      },
-      {
-        "count": 4,
-        "spell": 14590
       }
     ]
   },

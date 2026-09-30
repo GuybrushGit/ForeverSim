@@ -83,6 +83,10 @@ function SimCombatLog(props: { events: Event[] }) {
 				color = 'Tomato';
 				msg = `<span class="spell">Threat ${event.threat && event.threat < 0 ? 'decreased by' : 'increased by'} ${event.threat}</span>`;
 				break;
+			case EventType.HealthChange:
+				color = 'Tomato';
+				msg = `Health set to <span class="spell">${event.value ? event.value : ''}</span>`;
+				break;
 		}
 		return { color, msg, incoming };
 	}

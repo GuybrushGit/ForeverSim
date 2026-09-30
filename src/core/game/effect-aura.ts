@@ -112,7 +112,10 @@ export function applyEffectAura(
 			break;
 		case AuraType.ModIncreaseHealth:
 			stats.health += value * (remove ? -1 : 1);
-			if (sim) sim.final_stats.health = (player.base_stats.health + sim.aura_stats.health + sim.final_stats.sta * 10) * stats.health_mod;
+			if (sim) {
+				sim.final_stats.health = (player.base_stats.health + sim.aura_stats.health + sim.final_stats.sta * 10) * stats.health_mod;
+				sim.addEvent(EventType.HealthChange, sim.final_stats.health);
+			}
 			break;
 		case AuraType.ModIncreaseHealthPercent:
 			if (remove) stats.health_mod /= 1 + value / 100;
@@ -120,6 +123,7 @@ export function applyEffectAura(
 			if (sim) {
 				sim.final_stats.health_mod = sim.player.base_stats.health_mod * sim.aura_stats.health_mod;
 				sim.final_stats.health = (player.base_stats.health + sim.aura_stats.health + sim.final_stats.sta * 10) * stats.health_mod;
+				sim.addEvent(EventType.HealthChange, sim.final_stats.health);
 			}
 			break;
 		case AuraType.ModCritPct:

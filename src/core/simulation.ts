@@ -117,6 +117,7 @@ export class Simulation {
 		this.final_stats.defense = this.player.base_stats.defense + this.aura_stats.defense;
 		this.final_stats.health_mod = this.player.base_stats.health_mod * this.aura_stats.health_mod;
 		this.final_stats.health = (this.player.base_stats.health + this.aura_stats.health + this.final_stats.sta * 10) * this.final_stats.health_mod;
+		this.addEvent(EventType.HealthChange, this.final_stats.health);
 		this.final_stats.melee_ap_mod = this.player.base_stats.melee_ap_mod * this.aura_stats.melee_ap_mod;
 		this.final_stats.melee_ap_mod = this.player.base_stats.melee_ap_mod * this.aura_stats.melee_ap_mod;
 		this.final_stats.melee_ap =
@@ -410,9 +411,11 @@ export class Simulation {
 		let ma = Array(duration_secs - 5).fill(0);
 
 		// D(i) == normalized array damage / health
+		let currenthp = this.final_stats.health;
 		for (let event of this.events) {
+			if (event.type == EventType.HealthChange) currenthp = event.value || this.final_stats.health;
 			if (event.type != EventType.AttackReceived) continue;
-			d[Math.floor(event.step / 1000)] += (event.value || 0) / this.final_stats.health;
+			d[Math.floor(event.step / 1000)] += (event.value || 0) / currenthp;
 		}
 
 		// MA(i) = sum with j=1 to T/Δt of D(i+j-1)

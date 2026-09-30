@@ -186,6 +186,20 @@ export const useStore = create()(
 					}
 					return { profileList };
 				}),
+			setItems: (items: any) =>
+				set(() => {
+					let profile = get().profile;
+					let profileList = get().profileList;
+					let itemSlots = {} as any;
+					let enchantSlots = {} as any;
+					for (let slot in items) {
+						if (slot.includes('enchant')) enchantSlots[slot] = items[slot];
+						else itemSlots[slot] = items[slot];
+					}
+					profileList[profile].items = structuredClone(itemSlots);
+					profileList[profile].enchants = structuredClone(enchantSlots);
+					return { profileList };
+				}),
 			clearSlot: (slot: string) =>
 				set(() => {
 					let profile = get().profile;

@@ -675,8 +675,10 @@ export default function ItemGenerator() {
 			// custom stuff
 			if (obj.id == 20130) obj.useSpell = 24427;
 			if (obj.id == 274760) obj.useSpell = 1295633;
+			if (obj.id == 19341) obj.useSpell = 467498;
 			if (obj.id == 867) obj.stats.melee_ap = 20;
 			if (obj.id == 12548) obj.requires = 51;
+
 			if (forceExclude(obj)) continue;
 			if (!forceInclude(obj) && !obj.proc && !obj.useSpell && Object.keys(obj.stats).length === 0) continue;
 

@@ -73,15 +73,15 @@
 			}
 		}
 		&.slot-selected {
-			.sim-icon {
-				border-color: $icon-border;
-			}
 			.child {
 				display: block;
 			}
 		}
 	}
 	.right {
+		.item-selected .child {
+			border-left-color: $icon-border;
+		}
 		.slot-selected {
 			.icon-acquired {
 				left: 60px;
@@ -92,6 +92,9 @@
 		}
 	}
 	.left {
+		.item-selected .child {
+			border-right-color: $icon-border;
+		}
 		.slot-selected {
 			.icon-acquired {
 				left: -20px;
@@ -102,6 +105,9 @@
 		}
 	}
 	.bottom {
+		.item-selected .child {
+			border-bottom-color: $icon-border;
+		}
 		.slot-selected {
 			.icon-acquired {
 				top: -20px;
@@ -176,6 +182,7 @@
 		transition: all 0.2s ease;
 	}
 	.top-button {
+		gap: 2px;
 		button {
 			width: 260px;
 			justify-content: center;

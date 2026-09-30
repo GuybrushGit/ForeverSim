@@ -4,14 +4,17 @@ import SimIcon from '@components/sim-icon/sim-icon';
 import { CheckCircleIcon } from '@phosphor-icons/react';
 import clsx from 'clsx';
 import { useStore } from '@core/shared/store';
+import SimMenu, { SimMenuItem } from '@components/sim-menu/sim-menu';
+import type { PresetObject } from '@core/shared/types';
 
 function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: any }) {
 	const store = useStore();
-	const { getItems, getEnchants, getItemSet, setItem, setSlot, slot } = store;
+	const { getItems, getEnchants, getItemSet, getPresets, setItem, setItems, setSlot, slot } = store;
 	let itemSlot = slot;
 
 	let items = getItems();
 	let enchants = getEnchants();
+	let presets = getPresets();
 	const activeSetCounts: { set: any; count: number }[] = [];
 	for (const slotItems of Object.values(items) as any[]) {
 		for (const item of slotItems) {
@@ -79,7 +82,12 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 
 		return (
 			<div
-				className={clsx('icon-container', item && item.acquired && 'acquired', !props.statWeights && itemSlot.indexOf(slot) > -1 && 'slot-selected')}>
+				className={clsx(
+					'icon-container',
+					item && item.acquired && 'acquired',
+					!props.statWeights && itemSlot == slot && 'item-selected',
+					!props.statWeights && (itemSlot == slot || itemSlot.startsWith(slot + '_')) && 'slot-selected',
+				)}>
 				{getIcon(item, slot, img, false, child && child.enchant, pieces.join(':'))}
 				{item && hasEnchant && getIcon(child, slot + '_enchant', 'https://wow.zamimg.com/images/wow/icons/medium/inventoryslot_enchant.jpg', true)}
 				{item &&
@@ -105,10 +113,19 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 					name={item.name}
 					img={item.path}
 					greyed={false}
+					selected={!props.statWeights && itemSlot == slot}
 					handleClick={() => handleClick(slot)}></SimIcon>
 			);
 		}
-		return <SimIcon child={child} name={slot} fullimg={img} greyed={false} handleClick={() => handleClick(slot)}></SimIcon>;
+		return (
+			<SimIcon
+				child={child}
+				name={slot}
+				fullimg={img}
+				greyed={false}
+				selected={!props.statWeights && itemSlot == slot}
+				handleClick={() => handleClick(slot)}></SimIcon>
+		);
 	}
 
 	return (
@@ -117,6 +134,13 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 				<button className={props.statWeights ? 'selected' : ''} onClick={() => props.setStatWeights(true)}>
 					Stat Weights
 				</button>
+				<SimMenu text="Gear Presets">
+					{presets
+						.filter((preset: PresetObject) => preset.type == 'items')
+						.map((preset: PresetObject) => (
+							<SimMenuItem key={preset.name} text={preset.name} handleClick={() => setItems(preset.value)}></SimMenuItem>
+						))}
+				</SimMenu>
 			</div>
 			<div>
 				<div className="left">

@@ -2,7 +2,6 @@ const defaultProfile = {
 	id: 'warrior0',
 	name: 'Default',
 	level: 60,
-	race: 1,
 	class: 'Warrior',
 	classid: 1,
 	talents: {
@@ -25,81 +24,223 @@ const defaultProfile = {
 		'105977': 1,
 	},
 	settings: {
-		targetenabled2: 'yes',
-		initialpower: 0,
-		duration: '60',
+		race: '1',
 		position: '1',
-		targetarmor1: '3009',
-		defaultform: '16',
-		aqbooks: 'yes',
-		race: '7',
-		simulations: '10000',
-		targetlevel2: 60,
+		targetenabled2: 'no',
+		defaultform: '18',
+		simulations: '30000',
+		aqbooks: 'no',
 	},
-	buffs: [
-		355363, 24425, 23768, 355366, 1304690, 22817, 1304751, 1304753, 24932, 9885, 17055, 20906, 20217, 25291, 20048, 25362, 11597, 9907, 11717, 10667,
-		17538, 3164, 24799,
-	],
+	buffs: [24932, 9885, 17055, 20906, 20217, 19838, 20048, 10441, 10626, 11198, 9907, 11717, 17538, 11405, 17038, 18125, 1293741],
 	items: {
-		head: {
-			'23244': {
-				id: 23244,
-				path: 'inv_helmet_09',
-				selected: true,
-			},
-		},
 		mainhand: {
-			'18828': {
-				id: 18828,
-				path: 'inv_axe_02',
+			'19554': {
+				id: 19554,
+				path: 'inv_sword_27',
 				selected: true,
 			},
 		},
 		offhand: {
-			'18828': {
-				id: 18828,
-				path: 'inv_axe_02',
+			'19554': {
+				id: 19554,
+				path: 'inv_sword_27',
+				selected: true,
+			},
+		},
+		head: {
+			'21999': {
+				id: 21999,
+				path: 'inv_helmet_02',
+				selected: true,
+			},
+		},
+		shoulder: {
+			'22001': {
+				id: 22001,
+				path: 'inv_shoulder_30',
 				selected: true,
 			},
 		},
 		twohand: {},
-		shoulder: {
-			'23243': {
-				id: 23243,
-				path: 'inv_shoulder_11',
-				selected: true,
-			},
-		},
-		chest: {
-			'22872': {
-				id: 22872,
-				path: 'inv_chest_plate16',
-				selected: true,
-			},
-		},
 		hands: {
-			'22868': {
-				id: 22868,
+			'21998': {
+				id: 21998,
 				path: 'inv_gauntlets_26',
 				selected: true,
 			},
 		},
-		legs: {
-			'22873': {
-				id: 22873,
-				path: 'inv_pants_06',
+		feet: {
+			'21995': {
+				id: 21995,
+				path: 'inv_boots_plate_03',
 				selected: true,
 			},
 		},
-		feet: {
-			'22858': {
-				id: 22858,
-				path: 'inv_boots_plate_09',
+		legs: {
+			'22000': {
+				id: 22000,
+				path: 'inv_pants_04',
+				selected: true,
+			},
+		},
+		back: {
+			'18461': {
+				id: 18461,
+				path: 'inv_misc_cape_07',
+				selected: true,
+			},
+		},
+		chest: {
+			'21997': {
+				id: 21997,
+				path: 'inv_chest_plate03',
+				selected: true,
+			},
+		},
+		neck: {
+			'18404': {
+				id: 18404,
+				path: 'inv_jewelry_necklace_09',
+				selected: true,
+			},
+		},
+		trinket1: {
+			'272437': {
+				id: 272437,
+				path: 'inv_engineering_90_lightningbox',
+				selected: true,
+			},
+		},
+		wrists: {
+			'21996': {
+				id: 21996,
+				path: 'inv_bracer_18',
+				selected: true,
+			},
+		},
+		waist: {
+			'21994': {
+				id: 21994,
+				path: 'inv_belt_34',
+				selected: true,
+			},
+		},
+		finger1: {
+			'19325': {
+				id: 19325,
+				path: 'inv_jewelry_ring_35',
+				selected: true,
+			},
+		},
+		finger2: {
+			'18821': {
+				id: 18821,
+				path: 'inv_jewelry_ring_07',
+				selected: true,
+			},
+		},
+		trinket2: {
+			'249470': {
+				id: 249470,
+				path: 'inv_misc_gem_ruby_01',
+				selected: true,
+			},
+		},
+		ranged: {
+			'19107': {
+				id: 19107,
+				path: 'inv_weapon_crossbow_07',
 				selected: true,
 			},
 		},
 	},
-	enchants: {},
+	enchants: {
+		offhand_enchant: {
+			'20034': {
+				id: 20034,
+				selected: true,
+			},
+		},
+		hands_enchant: {
+			'1248640': {
+				id: 1248640,
+				selected: true,
+			},
+		},
+		offhand_tempenchant: {
+			'22756': {
+				id: 22756,
+				selected: true,
+			},
+		},
+		mainhand_enchant: {
+			'20034': {
+				id: 20034,
+				selected: true,
+			},
+		},
+		mainhand_tempenchant: {
+			'10612': {
+				id: 10612,
+				path: 'inv_stone_sharpeningstone_05',
+				selected: true,
+			},
+		},
+		waist_enchant: {
+			'1226211': {
+				id: 1226211,
+				selected: true,
+			},
+		},
+		legs_enchant: {
+			'468373': {
+				id: 468373,
+				selected: true,
+			},
+		},
+		feet_enchant: {
+			'20023': {
+				id: 20023,
+				selected: true,
+			},
+		},
+		wrists_enchant: {
+			'20010': {
+				id: 20010,
+				selected: true,
+			},
+		},
+		chest_enchant: {
+			'20025': {
+				id: 20025,
+				selected: true,
+			},
+		},
+		back_enchant: {
+			'1219587': {
+				id: 1219587,
+				selected: true,
+			},
+		},
+		shoulder_enchant: {
+			'24422': {
+				id: 24422,
+				selected: true,
+			},
+		},
+		neck_enchant: {
+			'1249019': {
+				id: 1249019,
+				selected: true,
+			},
+		},
+		head_enchant: {
+			'468373': {
+				id: 468373,
+				selected: true,
+			},
+		},
+	},
 	actions: [
 		{
 			id: 2687,
@@ -109,11 +250,16 @@ const defaultProfile = {
 			conditions: [],
 		},
 		{
-			id: 25289,
+			id: 11551,
 			name: 'Battle Shout',
 			path: 'ability_warrior_battleshout',
 			phase: 0,
-			conditions: [],
+			conditions: [
+				{
+					resource: 5,
+					precast: true,
+				},
+			],
 		},
 		{
 			id: 17528,
@@ -158,7 +304,7 @@ const defaultProfile = {
 			conditions: [],
 		},
 		{
-			id: 25286,
+			id: 11567,
 			name: 'Heroic Strike',
 			path: 'ability_rogue_ambush',
 			phase: 0,
@@ -294,6 +440,7 @@ const defaultProfile = {
 			conditions: [],
 		},
 	],
+	race: 1,
 } as any;
 
 export default defaultProfile;

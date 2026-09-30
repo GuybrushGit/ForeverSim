@@ -1,28 +1,31 @@
 /********************************  TODO LIST  *************************
 
-
-Rend adds 2% of ap?
-Revenge adds 25% ap ?
-target creature types, auras + racials
-
-gear presets
-more presets
-logo
-TMI health changes
-update data
-
+fix presets
+check crushing
+shields and enchants
+prevent lower cd with mult conditions
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
 https://www.wowhead.com/forever/item=16548/generals-plate-gauntlets
 https://www.wowhead.com/forever/item=12631/fiery-plate-gauntlets
-https://www.wowhead.com/forever/item=19341/lifegiving-gem
 https://www.wowhead.com/forever/item=18815/essence-of-the-pure-flame
 https://www.wowhead.com/forever/item=21488/fetish-of-chitinous-spikes
 https://www.wowhead.com/forever/item=19289/darkmoon-card-maelstrom
 https://www.wowhead.com/forever/item=272440/defenders-grip-stabilizer
 
 
+Maybe do this later:
+  add classic gear?
+  add custom gear
+  find somewhere to host models
+  target creature types, auras + racials
+  logo
+
+
+Check this someday:
+  Rend adds 2% of ap?
+  Revenge adds 25% ap ?
 
 
  */
