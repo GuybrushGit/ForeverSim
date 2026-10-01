@@ -177,9 +177,9 @@ export const Combat = {
 		if (result == CombatResult.Crushing) dmg *= 2.5;
 		if (result == CombatResult.Crit) dmg *= 2;
 
-		// rage gain before armor / block
-		// https://github.com/magey/forever-warrior/issues/3
-		if (dmg) sim.addPower((dmg * 100) / sim.final_stats.health);
+		// Rage gain from damage is calculated by ignoring Armor.
+		// old formula as if you always had 50% damage reduction from Armor.
+		if (dmg) sim.addPower(((dmg * 0.5) / sim.player.rage_conversion) * 25);
 
 		// armor damage reduction and dmg taken reduction
 		dmg = dmg * (1 - sim.target_stats[target.index].player_armor_reduction);
@@ -193,8 +193,6 @@ export const Combat = {
 
 		sim.addEvent(EventType.AttackReceived, dmg, 0, result);
 		Combat.procEvent(sim, ProcFlags.PROC_FLAG_TAKEN_MELEE_HIT, result, target, undefined, dmg);
-
-		//if (dmg) sim.addPower((dmg / sim.player.rage_conversion) * 25);
 	},
 
 	rollMeleeAttackBack(sim: Simulation, weapon: Weapon, target: number) {
@@ -372,7 +370,7 @@ export const Combat = {
 				//sim.addPower((weapon.getAverageDamage(sim, 0) / sim.player.rage_conversion) * 75 * 0.75);
 			} else if (result != CombatResult.Miss) {
 				// https://github.com/magey/forever-warrior/issues/3
-				sim.addPower(weapon.speed * weapon.rage_mod * 10);
+				sim.addPower(weapon.speed * weapon.rage_mod * 10 * (result == CombatResult.Crit ? 1.75 : 1));
 			}
 		}
 	},

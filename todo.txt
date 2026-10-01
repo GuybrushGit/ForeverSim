@@ -1,5 +1,6 @@
 /********************************  TODO LIST  *************************
 
+sunder armor AP scaling
 add custom gear
 get missing gear from wowhead
 

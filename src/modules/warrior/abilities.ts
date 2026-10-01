@@ -249,26 +249,32 @@ export var templateAbilities = [
 	{
 		id: 6343,
 		threat_mod: 1,
+		bonus_ap_perc: 2.5,
 	},
 	{
 		id: 8198,
 		threat_mod: 1,
+		bonus_ap_perc: 2.5,
 	},
 	{
 		id: 8204,
 		threat_mod: 1,
+		bonus_ap_perc: 2.5,
 	},
 	{
 		id: 8205,
 		threat_mod: 1,
+		bonus_ap_perc: 2.5,
 	},
 	{
 		id: 11580,
 		threat_mod: 1,
+		bonus_ap_perc: 2.5,
 	},
 	{
 		id: 11581,
 		threat_mod: 1,
+		bonus_ap_perc: 2.5,
 	},
 
 	// Shield Slam
@@ -358,24 +364,31 @@ export var templateAbilities = [
 	// Rend
 	{
 		id: 772,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 6546,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 6547,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 6548,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 11572,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 11573,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 11574,
+		bonus_ap_perc: 2,
 	},
 
 	// Last Stand
