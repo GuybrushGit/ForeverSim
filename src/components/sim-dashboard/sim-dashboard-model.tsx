@@ -78,7 +78,8 @@ function SimDashboardModel() {
 	}, [playerRace, modelItemsKey]);
 
 	return (
-		<div id="sim-paperdoll-model" className="sim-dashboard-model" ref={modelContainer} aria-label="Character model">
+		<div className="sim-dashboard-model" aria-label="Character model">
+			<div id="sim-paperdoll-model" className="model-viewer" ref={modelContainer}></div>
 			{modelError && (
 				<span className="model-error">Model only when running locally because i have nowhere to host all the texture files for free</span>
 			)}

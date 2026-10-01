@@ -71,13 +71,8 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, a
 				let ticksleft = (aura.duration + aura.timer - aura.endtimer) / aura.period + 1;
 				let dmg = sim.aux[spell.id][target.index] / ticksleft;
 				sim.aux[spell.id][target.index] -= dmg;
-				let result = CombatResult.Normal as CombatResult;
-				if (rng10k() < (sim.target_stats[target.index].player_crit + (action ? action.crit : 0)) * 100) {
-					result = CombatResult.Crit;
-					dmg *= 2;
-				}
 				dmg = round(dmg * sim.final_stats.dmg_done_mod[SpellSchool.Physical]);
-				sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), result, spell, aura.weapon, target);
+				sim.addEvent(EventType.AuraTick, dmg, round(dmg * sim.final_stats.threat_mod), CombatResult.Normal, spell, aura.weapon, target);
 			} else {
 				console.log('dummy aura not implemented', this);
 			}
