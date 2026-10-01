@@ -8,6 +8,7 @@ const SpellGenerator = React.lazy(() => import('./generators/SpellGenerator.tsx'
 const ItemGenerator = React.lazy(() => import('./generators/ItemGenerator.tsx'));
 const EnchantGenerator = React.lazy(() => import('./generators/EnchantGenerator.tsx'));
 const ItemSetGenerator = React.lazy(() => import('./generators/ItemSetGenerator.tsx'));
+const WowheadGenerator = React.lazy(() => import('./generators/WowheadGenerator.tsx'));
 const ClassicWarrior = React.lazy(() => import('./modules/warrior/App.tsx'));
 
 const router = createBrowserRouter(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
 			<Route path="/spells" element={<SpellGenerator />} />
 			<Route path="/enchants" element={<EnchantGenerator />} />
 			<Route path="/sets" element={<ItemSetGenerator />} />
+			<Route path="/wowhead" element={<WowheadGenerator />} />
 		</Route>,
 	),
 	{ basename: import.meta.env.BASE_URL },

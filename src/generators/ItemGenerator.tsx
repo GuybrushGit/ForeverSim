@@ -12,6 +12,7 @@ import {
 	WeaponType,
 } from '@core/shared/enums';
 import { round } from '@core/shared/utils';
+import templateItems from '@modules/items_wowhead';
 
 const script1 = document.createElement('script');
 script1.src = '/src/generators/data/rawdata.js';
@@ -41,21 +42,27 @@ async function saveFile(blob: any) {
 	a.click();
 }
 
+function addOrReplaceInSlot(obj: any, slotItems: any[]) {
+	const existingIndex = slotItems.findIndex(item => item.id === obj.id);
+	if (existingIndex === -1) slotItems.push(obj);
+	else slotItems[existingIndex] = obj;
+}
+
 function addToGear(obj: any, allTheGear: any) {
 	if (obj.slot == InventoryType.Ring) {
-		allTheGear.finger1.push(obj);
-		allTheGear.finger2.push(obj);
+		addOrReplaceInSlot(obj, allTheGear.finger1);
+		addOrReplaceInSlot(obj, allTheGear.finger2);
 	} else if (obj.slot == InventoryType.Trinket) {
-		allTheGear.trinket1.push(obj);
-		allTheGear.trinket2.push(obj);
+		addOrReplaceInSlot(obj, allTheGear.trinket1);
+		addOrReplaceInSlot(obj, allTheGear.trinket2);
 	} else if (obj.slot == InventoryType.Onehand) {
-		allTheGear.mainhand.push(obj);
-		allTheGear.offhand.push(obj);
+		addOrReplaceInSlot(obj, allTheGear.mainhand);
+		addOrReplaceInSlot(obj, allTheGear.offhand);
 	} else if (obj.slot == InventoryType.Shield) {
-		allTheGear.offhand.push(obj);
+		addOrReplaceInSlot(obj, allTheGear.offhand);
 	} else {
 		if (!allTheGear[GetInventoryType(obj.slot).toLowerCase()]) allTheGear[GetInventoryType(obj.slot).toLowerCase()] = [];
-		allTheGear[GetInventoryType(obj.slot).toLowerCase()].push(obj);
+		addOrReplaceInSlot(obj, allTheGear[GetInventoryType(obj.slot).toLowerCase()]);
 	}
 }
 
@@ -457,14 +464,7 @@ export default function ItemGenerator() {
 	}, []);
 
 	function generateData() {
-		var allTheGear = {
-			finger1: [],
-			finger2: [],
-			trinket1: [],
-			trinket2: [],
-			mainhand: [],
-			offhand: [],
-		} as any;
+		var allTheGear = structuredClone(templateItems) as any;
 
 		if (!items) {
 			setWorking(false);

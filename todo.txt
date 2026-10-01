@@ -2,7 +2,6 @@
 
 sunder armor AP scaling
 add custom gear
-get missing gear from wowhead
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
@@ -16,7 +15,6 @@ https://www.wowhead.com/forever/item=272440/defenders-grip-stabilizer
 
 Maybe do this later:
   add classic gear?
-  
   find somewhere to host models
   target creature types, auras + racials
   logo

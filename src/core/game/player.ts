@@ -17,6 +17,7 @@ import {
 	SpellIds,
 	SpellModOp,
 	SpellSchool,
+	SpellType,
 	Targets,
 } from '@core/shared/enums';
 import { Weapon } from './weapon';
@@ -64,6 +65,7 @@ export class PlayerStats {
 	parry_rate: number = 0;
 	block_rate: number = 0;
 	expertise_rate: number = 0;
+	haste_rate: number = 0;
 
 	// None: 0,
 	// Magic: 1,
@@ -117,6 +119,7 @@ export class Player {
 	hit_per_rate: number;
 	spell_hit_per_rate: number;
 	expertise_per_rate: number;
+	haste_per_rate: number;
 
 	rage_conversion: number;
 	agi_per_crit: number;
@@ -166,6 +169,7 @@ export class Player {
 		this.hit_per_rate = 10 * ((this.level - 8) / 52);
 		this.spell_hit_per_rate = 8 * ((this.level - 8) / 52);
 		this.expertise_per_rate = 10 * ((this.level - 8) / 52);
+		this.haste_per_rate = 10 * ((this.level - 8) / 52);
 
 		this.actions = [];
 		this.procs = [];
@@ -320,6 +324,10 @@ export class Player {
 				base.hit[SpellSchool.Shadow] += round((value * modifier) / this.spell_hit_per_rate) || 0;
 				base.hit[SpellSchool.Nature] += round((value * modifier) / this.spell_hit_per_rate) || 0;
 				base.hit[SpellSchool.Holy] += round((value * modifier) / this.spell_hit_per_rate) || 0;
+			} else if (key == 'haste_rate') {
+				base.haste[SpellType.Melee] *= 1 + (round((value * modifier) / this.haste_per_rate) || 0) / 100;
+				base.haste[SpellType.Ranged] *= 1 + (round((value * modifier) / this.haste_per_rate) || 0) / 100;
+				base.haste[SpellType.Magic] *= 1 + (round((value * modifier) / this.haste_per_rate) || 0) / 100;
 			} else if (key == 'armor') {
 				base.resistance[SpellSchool.Physical] += round(value * modifier) || 0;
 			} else {
