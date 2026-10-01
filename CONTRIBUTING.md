@@ -7,8 +7,8 @@ This project uses node 24.20.0.
 Install webapp (first time):
 
 ```bash
-git clone https://github.com/GuybrushGit/ClassicSim.git
-cd ClassicSim
+git clone https://github.com/GuybrushGit/ForeverSim.git
+cd ForeverSim
 npm install
 ```
 

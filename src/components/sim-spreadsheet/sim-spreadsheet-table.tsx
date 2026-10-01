@@ -6,7 +6,7 @@ import { getQualityClass, round } from '@core/shared/utils';
 import { FunnelSimpleIcon, PushPinIcon, XIcon } from '@phosphor-icons/react';
 import { useStore } from '@core/shared/store';
 import clsx from 'clsx';
-import { GetArmorType, GetWeaponType, ItemType } from '@core/shared/enums';
+import { GetArmorType, GetWeaponType, InventoryType, ItemType } from '@core/shared/enums';
 import SimModal from '@components/sim-modal/sim-modal';
 
 ModuleRegistry.registerModules([AllCommunityModule]);
@@ -333,7 +333,13 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	function getItemData() {
 		let level = getPlayerLevel();
 		let list = slot.includes('enchant') ? enchants : items;
-		const availableItems = list[slot].filter((item: any) => !item.requires || level >= item.requires || item.selected || item.pinned);
+		const offhand = items.offhand?.find((item: any) => item.selected);
+		const offhandEnchant = slot == 'offhand_enchant' || slot == 'offhand_tempenchant';
+		const availableItems = list[slot].filter(
+			(item: any) =>
+				(!offhandEnchant || !offhand || (offhand.slot == InventoryType.Shield) == item.name.toLowerCase().includes('shield')) &&
+				(!item.requires || level >= item.requires || item.selected || item.pinned),
+		);
 		return availableItems.filter(itemMatchesFilters);
 	}
 

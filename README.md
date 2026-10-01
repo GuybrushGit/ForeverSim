@@ -1,9 +1,9 @@
 # ClassicSim
 
-A webapp to simulate how 1.12/Classic/Forever DPS Warrior performs with different gear, buffs, rotations, and talents.
+A webapp to simulate how WoW Forever DPS Warrior performs with different gear, buffs, rotations, and talents.
 
 Live version here:
-https://guybrushgit.github.io/WarriorSim/
+https://guybrushgit.github.io/ForeverSim/
 
 ## Self-hosting and Contributing
 

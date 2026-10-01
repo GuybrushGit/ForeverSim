@@ -39,7 +39,7 @@ export class Simulation {
 	// dynamic simulation specific data
 	// do not modify target or player objects during runtime
 	timers: any;
-	actionTimers: Map<number, number>;
+	actionTimers: Map<number, [number, number]>;
 	auras: Aura[];
 	events: Event[];
 	aura_stats: PlayerStats; // Stats given by temporary auras
@@ -90,8 +90,8 @@ export class Simulation {
 		this.timers.items = 0;
 
 		// holds the time an action was used
-		this.actionTimers = new Map<number, number>();
-		for (let action of this.player.actions) this.actionTimers.set(action.id, 0);
+		this.actionTimers = new Map<number, [number, number]>();
+		for (let action of this.player.actions) this.actionTimers.set(action.id, [0, 0]);
 
 		this.form = player.base_form;
 		this.changeForm(this.form);

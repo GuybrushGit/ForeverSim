@@ -431,29 +431,23 @@ const templatePresets = [
 				conditions: [],
 			},
 			{
-				id: 11567,
-				name: 'Heroic Strike',
-				path: 'ability_rogue_ambush',
+				id: 1680,
+				name: 'Whirlwind',
+				path: 'ability_whirlwind',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 1,
+				name: 'Return to base stance',
+				path: 'spell_nature_enchantarmor',
 				phase: 0,
 				conditions: [
 					{
 						resource: 1,
-						comparator: '>=',
-						value: '40',
-						minpower: 400,
-					},
-				],
-			},
-			{
-				id: 2,
-				name: 'Prevent lower priority actions',
-				path: 'spell_holy_borrowedtime',
-				phase: 0,
-				conditions: [
-					{
-						resource: 2687,
 						comparator: '<=',
-						value: '2',
+						value: '15',
+						maxpower: 150,
 					},
 				],
 			},
@@ -468,29 +462,27 @@ const templatePresets = [
 						comparator: '<=',
 						value: '2',
 					},
+					{
+						resource: 23894,
+						comparator: '<=',
+						value: '2',
+					},
 				],
 				item: false,
 			},
 			{
-				id: 1,
-				name: 'Return to base stance',
-				path: 'spell_nature_enchantarmor',
+				id: 11567,
+				name: 'Heroic Strike',
+				path: 'ability_rogue_ambush',
 				phase: 0,
 				conditions: [
 					{
 						resource: 1,
-						comparator: '<=',
-						value: '10',
-						maxpower: 100,
+						comparator: '>=',
+						value: '20',
+						minpower: 200,
 					},
 				],
-			},
-			{
-				id: 1680,
-				name: 'Whirlwind',
-				path: 'ability_whirlwind',
-				phase: 0,
-				conditions: [],
 			},
 			{
 				id: 1259813,
@@ -607,32 +599,26 @@ const templatePresets = [
 				item: false,
 			},
 			{
-				id: 11585,
-				name: 'Overpower',
-				path: 'ability_meleedamage',
-				phase: 0,
-				conditions: [
-					{
-						resource: 1,
-						comparator: '<=',
-						value: '25',
-						maxpower: 250,
-					},
-				],
-			},
-			{
 				id: 11574,
 				name: 'Rend',
 				path: 'ability_gouge',
 				phase: 0,
-				conditions: [
-					{
-						resource: 1,
-						comparator: '<=',
-						value: '25',
-						maxpower: 250,
-					},
-				],
+				conditions: [],
+				item: false,
+			},
+			{
+				id: 11585,
+				name: 'Overpower',
+				path: 'ability_meleedamage',
+				phase: 0,
+				conditions: [],
+			},
+			{
+				id: 11605,
+				name: 'Slam',
+				path: 'ability_warrior_decisivestrike',
+				phase: 0,
+				conditions: [],
 				item: false,
 			},
 			{
@@ -641,11 +627,12 @@ const templatePresets = [
 				path: 'ability_warrior_savageblow',
 				phase: 0,
 				conditions: [],
+				item: false,
 			},
 			{
-				id: 11605,
-				name: 'Slam',
-				path: 'ability_warrior_decisivestrike',
+				id: 1680,
+				name: 'Whirlwind',
+				path: 'ability_whirlwind',
 				phase: 0,
 				conditions: [],
 				item: false,
@@ -718,6 +705,50 @@ const templatePresets = [
 				phase: 1,
 				conditions: [],
 			},
+			{
+				id: 2,
+				name: 'Prevent lower priority actions',
+				path: 'spell_holy_borrowedtime',
+				phase: 0,
+				conditions: [
+					{
+						resource: 11585,
+						comparator: '<=',
+						value: '2',
+					},
+					{
+						resource: 11605,
+						comparator: '<=',
+						value: '2',
+					},
+					{
+						resource: 1310222,
+						comparator: '<=',
+						value: '2',
+					},
+					{
+						resource: 21553,
+						comparator: '<=',
+						value: '2',
+					},
+				],
+				item: false,
+			},
+			{
+				id: 11567,
+				name: 'Heroic Strike',
+				path: 'ability_rogue_ambush',
+				phase: 0,
+				conditions: [
+					{
+						resource: 1,
+						comparator: '>=',
+						value: '20',
+						minpower: 200,
+					},
+				],
+				item: false,
+			},
 		],
 	},
 	{
@@ -765,6 +796,7 @@ const templatePresets = [
 				path: 'ability_defend',
 				phase: 0,
 				conditions: [],
+				item: false,
 			},
 			{
 				id: 23925,
@@ -793,6 +825,14 @@ const templatePresets = [
 						minpower: 300,
 					},
 				],
+			},
+			{
+				id: 11597,
+				name: 'Sunder Armor',
+				path: 'ability_warrior_sunder',
+				phase: 0,
+				conditions: [],
+				item: false,
 			},
 			{
 				id: 1259813,
@@ -825,18 +865,6 @@ const templatePresets = [
 				phase: 1,
 				conditions: [],
 				item: false,
-			},
-			{
-				id: 11551,
-				name: 'Battle Shout',
-				path: 'ability_warrior_battleshout',
-				phase: 1,
-				conditions: [
-					{
-						resource: 5,
-						precast: true,
-					},
-				],
 			},
 			{
 				id: 2687,
@@ -879,14 +907,6 @@ const templatePresets = [
 						minpower: 300,
 					},
 				],
-			},
-			{
-				id: 11597,
-				name: 'Sunder Armor',
-				path: 'ability_warrior_sunder',
-				phase: 0,
-				conditions: [],
-				item: false,
 			},
 			{
 				id: 11597,

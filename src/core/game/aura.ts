@@ -101,7 +101,7 @@ export class ProcSpell {
 		if (!(this.mask & flag)) return;
 		if (this.extra && !(this.extra & (1 << result))) return;
 		if (!this.extra && 22 & (1 << result)) return; // dont proc anything if attack missed / dodged, unsure if this is right
-		let timer = sim.actionTimers.get(this.spell.id);
+		let timer = sim.actionTimers.get(this.spell.id)?.[0];
 		if (this.cooldown && timer && sim.step - timer < this.cooldown) return false;
 		if (this.chance < 100 && rng10k() >= this.chance * 100) return;
 		if (this.chance == 0) console.log('0 chance proc found ', this);
@@ -117,6 +117,6 @@ export class ProcSpell {
 		}
 
 		this.spell.cast(sim, undefined, target, weapon);
-		if (this.cooldown) sim.actionTimers.set(this.spell.id, sim.step);
+		if (this.cooldown) sim.actionTimers.set(this.spell.id, [sim.step, this.cooldown]);
 	}
 }

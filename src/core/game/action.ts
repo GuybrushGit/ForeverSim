@@ -48,7 +48,7 @@ export class Action {
 		let mod_cost = sim.actions_mods[this.spell.id] ? sim.actions_mods[this.spell.id].cost : 1;
 
 		if (sim.power < this.cost * mod_cost) return false;
-		let timer = sim.actionTimers.get(this.id);
+		let timer = sim.actionTimers.get(this.id)?.[0];
 		if (timer && sim.step - timer < this.cooldown) return false;
 
 		// stackable or weapon damage spells can recast action even if aura already exists
@@ -83,7 +83,7 @@ export class Action {
 		if (this.proc) this.proc.trigger(sim, ProcFlags.PROC_FLAG_SUCCESSFUL_NONE_SPELL_HIT, CombatResult.Normal);
 
 		if (this.gcd) sim.timers.gcd = this.gcd;
-		if (this.cooldown) sim.actionTimers.set(this.id, sim.step);
+		if (this.cooldown) sim.actionTimers.set(this.id, [sim.step, this.cooldown]);
 		if (this.category_cooldown) sim.timers.items = this.category_cooldown;
 	}
 
@@ -91,7 +91,7 @@ export class Action {
 		this.spell.cast(sim, this);
 		if (this.proc) this.proc.trigger(sim, ProcFlags.PROC_FLAG_SUCCESSFUL_NONE_SPELL_HIT, CombatResult.Normal);
 
-		if (this.cooldown) sim.actionTimers.set(this.id, sim.step);
+		if (this.cooldown) sim.actionTimers.set(this.id, [sim.step, this.cooldown]);
 		if (this.category_cooldown) sim.timers.items = this.category_cooldown;
 	}
 
@@ -123,6 +123,7 @@ export class NextSwingAction extends Action {
 		if (sim.queue) return false;
 		let mod_cost = sim.actions_mods[this.spell.id] ? sim.actions_mods[this.spell.id].cost : 1;
 		if (sim.power < this.cost * mod_cost) return false;
+		if (this.conditions.length && !this.testConditions(sim)) return false;
 		return true;
 	}
 	use(sim: Simulation) {
@@ -144,6 +145,7 @@ export class ExecuteAction extends Action {
 		let mod_cost = sim.actions_mods[this.spell.id] ? sim.actions_mods[this.spell.id].cost : 1;
 		if (sim.timers.gcd > 0) return false;
 		if (sim.power < this.cost * mod_cost) return false;
+		if (this.conditions.length && !this.testConditions(sim)) return false;
 		return true;
 	}
 
@@ -174,8 +176,9 @@ export class OverpowerAction extends Action {
 		if (sim.timers.gcd > 0) return false;
 		let mod_cost = sim.actions_mods[this.spell.id] ? sim.actions_mods[this.spell.id].cost : 1;
 		if (sim.power < this.cost * mod_cost) return false;
-		let timer = sim.actionTimers.get(this.id);
+		let timer = sim.actionTimers.get(this.id)?.[0];
 		if (timer && sim.step - timer < this.cooldown) return false;
+		if (this.conditions.length && !this.testConditions(sim)) return false;
 		return true;
 	}
 
@@ -194,7 +197,7 @@ export class OverpowerAction extends Action {
 		this.spell.cast(sim, this);
 
 		sim.timers.gcd = this.gcd;
-		sim.actionTimers.set(this.id, sim.step);
+		sim.actionTimers.set(this.id, [sim.step, this.cooldown]);
 	}
 }
 
@@ -209,8 +212,9 @@ export class RevengeAction extends Action {
 			if (sim.timers.gcd > 0) return false;
 			let mod_cost = sim.actions_mods[this.spell.id] ? sim.actions_mods[this.spell.id].cost : 1;
 			if (sim.power < this.cost * mod_cost) return false;
-			let timer = sim.actionTimers.get(this.id);
+			let timer = sim.actionTimers.get(this.id)?.[0];
 			if (timer && sim.step - timer < this.cooldown) return false;
+			if (this.conditions.length && !this.testConditions(sim)) return false;
 			return true;
 		}
 		return false;
@@ -233,7 +237,7 @@ export class RevengeAction extends Action {
 		this.spell.cast(sim, this);
 
 		sim.timers.gcd = this.gcd;
-		sim.actionTimers.set(this.id, sim.step);
+		sim.actionTimers.set(this.id, [sim.step, this.cooldown]);
 	}
 }
 
@@ -242,6 +246,7 @@ export class BaseStanceAction extends Action {
 		if (this.phase !== undefined && this.phase != sim.current_phase) return false;
 		if (sim.form == sim.player.base_form) return false;
 		if (sim.timers.form > 0) return false;
+		if (this.conditions.length && !this.testConditions(sim)) return false;
 		return true;
 	}
 
@@ -254,7 +259,7 @@ export class HoldAction extends Action {
 	canUse(sim: Simulation) {
 		if (this.phase != sim.current_phase) return false;
 		if (this.conditions.length) return this.testConditions(sim);
-		return false;
+		return true;
 	}
 
 	use(_sim: Simulation) {}
@@ -264,8 +269,9 @@ export class HoldAction extends Action {
 		for (let condition of this.conditions) {
 			if (!condition.resource) continue;
 			let timer = sim.actionTimers.get(Number(condition.resource));
-			if (timer && condition.comparator == '>=' && timer >= Number(condition.value)) valid = true;
-			if (timer && condition.comparator == '<=' && timer <= Number(condition.value)) valid = true;
+			if (timer && timer[0] && condition.comparator == '>=' && timer[0] + timer[1] - sim.step >= Number(condition.value) * 1000) valid = true;
+			if (timer && timer[0] && condition.comparator == '<=' && timer[0] + timer[1] - sim.step <= Number(condition.value) * 1000) valid = true;
+			if (timer && timer[0] == 0 && condition.comparator == '<=') valid = true;
 		}
 		return valid;
 	}
