@@ -538,7 +538,9 @@ export default function ItemGenerator() {
 			let dodgerate = getStat(sparse, 13, budget);
 			let parryrate = getStat(sparse, 14, budget);
 			let blockrate = getStat(sparse, 15, budget);
+			let hasterate = getStat(sparse, 36, budget);
 			let spdmg = getStat(sparse, 42, budget);
+			let spdmg2 = getStat(sparse, 45, budget);
 			let armor = getStat(sparse, 50, budget);
 			let expertiserate = getStat(sparse, 37, budget);
 			let rap = getStat(sparse, 39, budget);
@@ -559,19 +561,52 @@ export default function ItemGenerator() {
 			if (expertiserate) obj.stats.expertise_rate = expertiserate;
 			if (critrate) obj.stats.crit_rate = critrate;
 			if (hitrate) obj.stats.hit_rate = hitrate;
+			if (hasterate) obj.stats.haste_rate = hasterate;
 			if (armor) obj.stats.armor = armor;
 			if (dmgdone) {
 				obj.stats.dmg_done = Array(8).fill(0);
 				obj.stats.dmg_done[SpellSchool.Physical] = dmgdone;
 			}
-			if (spdmg) {
-				obj.stats.dmg_done_mod = Array(8).fill(0);
-				obj.stats.dmg_done_mod[SpellSchool.Arcane] = spdmg;
-				obj.stats.dmg_done_mod[SpellSchool.Fire] = spdmg;
-				obj.stats.dmg_done_mod[SpellSchool.Frost] = spdmg;
-				obj.stats.dmg_done_mod[SpellSchool.Shadow] = spdmg;
-				obj.stats.dmg_done_mod[SpellSchool.Nature] = spdmg;
-				obj.stats.dmg_done_mod[SpellSchool.Holy] = spdmg;
+			if (spdmg || spdmg2) {
+				obj.stats.dmg_done = Array(8).fill(0);
+				obj.stats.dmg_done[SpellSchool.Arcane] = spdmg || spdmg2;
+				obj.stats.dmg_done[SpellSchool.Fire] = spdmg || spdmg2;
+				obj.stats.dmg_done[SpellSchool.Frost] = spdmg || spdmg2;
+				obj.stats.dmg_done[SpellSchool.Shadow] = spdmg || spdmg2;
+				obj.stats.dmg_done[SpellSchool.Nature] = spdmg || spdmg2;
+				obj.stats.dmg_done[SpellSchool.Holy] = spdmg || spdmg2;
+			}
+
+			// wep skill
+			let axe2h = getStat(sparse, 90, budget);
+			let mace2h = getStat(sparse, 91, budget);
+			let sword2h = getStat(sparse, 92, budget);
+			let dagger = getStat(sparse, 96, budget);
+			let fist = getStat(sparse, 98, budget);
+			let sword = getStat(sparse, 103, budget);
+			if (axe2h) {
+				obj.stats.weapon_skill = Array(21).fill(0);
+				obj.stats.weapon_skill[WeaponType.Axe2H] = axe2h;
+			}
+			if (mace2h) {
+				obj.stats.weapon_skill = Array(21).fill(0);
+				obj.stats.weapon_skill[WeaponType.Mace2H] = mace2h;
+			}
+			if (sword2h) {
+				obj.stats.weapon_skill = Array(21).fill(0);
+				obj.stats.weapon_skill[WeaponType.Sword2H] = sword2h;
+			}
+			if (dagger) {
+				obj.stats.weapon_skill = Array(21).fill(0);
+				obj.stats.weapon_skill[WeaponType.Dagger] = dagger;
+			}
+			if (fist) {
+				obj.stats.weapon_skill = Array(21).fill(0);
+				obj.stats.weapon_skill[WeaponType.Unarmed] = fist;
+			}
+			if (sword) {
+				obj.stats.weapon_skill = Array(21).fill(0);
+				obj.stats.weapon_skill[WeaponType.Sword1H] = sword;
 			}
 
 			// resistances

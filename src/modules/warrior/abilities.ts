@@ -455,18 +455,23 @@ export var templateAbilities = [
 	// Sunder Armor
 	{
 		id: 7386,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 7405,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 8380,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 11596,
+		bonus_ap_perc: 2,
 	},
 	{
 		id: 11597,
+		bonus_ap_perc: 2,
 	},
 ] as AbilityObject[];
 

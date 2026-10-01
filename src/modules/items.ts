@@ -348,6 +348,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_31",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 36
       },
       "displayid": "15024"
@@ -447,6 +457,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_13",
       "stats": {
         "spi": 10,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 89
       },
       "displayid": "21313"
@@ -669,6 +689,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_bandana_01",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 36
       },
       "displayid": "15863"
@@ -1098,6 +1128,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_15",
       "stats": {
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 89
       },
       "displayid": "15921"
@@ -1132,6 +1172,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 205
       },
       "displayid": "15307"
@@ -1148,6 +1198,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_banner_01",
       "stats": {
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 97
       },
       "displayid": "18689"
@@ -1686,6 +1746,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_bandana_01",
       "stats": {
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 48
       },
       "displayid": "740009"
@@ -1736,7 +1806,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 10,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -1762,6 +1832,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_bandana_03",
       "stats": {
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 50
       },
       "displayid": "16396"
@@ -1794,6 +1874,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 58
       },
       "displayid": "19000"
@@ -2333,6 +2423,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Spellpower Goggles Xtreme",
       "path": "inv_helmet_47",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 45
       },
       "displayid": "745506"
@@ -2864,7 +2964,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 15,
         "int": 15,
         "armor": 629,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           12,
@@ -2889,7 +2989,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_24",
       "stats": {
         "spi": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           15,
@@ -3126,6 +3226,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_bandana_03",
       "stats": {
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 61
       },
       "displayid": "25230"
@@ -3157,6 +3267,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wizardweave Turban",
       "path": "inv_helmet_63",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "resistance": [
           0,
           0,
@@ -3184,7 +3304,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "spi": 15,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           17,
@@ -4104,6 +4224,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_bandage_11",
       "stats": {
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 121
       },
       "displayid": "25739"
@@ -4599,6 +4729,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Spellpower Goggles Xtreme Plus",
       "path": "inv_helmet_47",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 56
       },
       "displayid": "745507"
@@ -5434,7 +5574,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "int": 24,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           21,
@@ -5556,6 +5696,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 14,
         "int": 25,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 75
       },
       "displayid": "34602"
@@ -5574,6 +5724,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 24,
         "int": 24,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 75
       },
       "displayid": "34624"
@@ -5593,6 +5753,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 17,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 75
       },
       "displayid": "34630"
@@ -5613,6 +5783,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 17,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 555
       },
       "displayid": "34524"
@@ -5632,6 +5812,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 21,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 314
       },
       "displayid": "34693"
@@ -5652,6 +5842,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 16,
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 149
       },
       "displayid": "34639"
@@ -5743,6 +5943,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 25,
         "crit_rate": 28,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33
+        ],
         "armor": 107
       },
       "displayid": "35182"
@@ -5761,7 +5971,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "spi": 12,
         "int": 19,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           13,
@@ -5787,6 +5997,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_crown_01",
       "stats": {
         "sta": 10,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "resistance": [
           0,
           0,
@@ -5895,6 +6115,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 20,
         "int": 21,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "resistance": [
           0,
           0,
@@ -6300,7 +6530,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Acolyte's Chain Helm",
       "stats": {
         "sta": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -6325,6 +6555,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Crusader's Chain Helm",
       "stats": {
         "str": 11,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 176
       },
       "displayid": "712815"
@@ -6388,7 +6628,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Acolyte's Silvered Chain Helm",
       "stats": {
         "sta": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -6413,6 +6653,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Crusader's Silvered Chain Helm",
       "stats": {
         "sta": 9,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 163
       },
       "displayid": "712815"
@@ -6428,6 +6678,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Coif",
       "stats": {
         "str": 14,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 187
       },
       "displayid": "712971"
@@ -6443,6 +6703,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shining Mithril Helm",
       "stats": {
         "str": 14,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 375
       },
       "displayid": "712877"
@@ -6459,6 +6729,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
         "armor": 462
       },
       "displayid": "712932"
@@ -6475,6 +6755,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "defense": 8,
+        "dmg_done": [
+          0,
+          0,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
         "armor": 533
       },
       "displayid": "712935"
@@ -6491,6 +6781,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 12,
         "hit_rate": 20,
+        "dmg_done": [
+          0,
+          0,
+          38,
+          38,
+          38,
+          38,
+          38,
+          38
+        ],
         "armor": 564
       },
       "displayid": "712941"
@@ -6522,6 +6822,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Totemic Leather Hood",
       "stats": {
         "sta": 10,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 76
       },
       "displayid": "714570"
@@ -6553,6 +6863,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Totemic Leather Helm",
       "stats": {
         "sta": 13,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 83
       },
       "displayid": "714567"
@@ -6650,7 +6970,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wisdom's Leather Hood",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -6723,7 +7043,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wisdom's Leather Helm",
       "stats": {
         "sta": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -6749,6 +7069,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 15,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 121
       },
       "displayid": "714568"
@@ -6765,7 +7095,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 14,
         "int": 18,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           25,
@@ -6791,6 +7121,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 10,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 234
       },
       "displayid": "714393"
@@ -6807,6 +7147,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "sta": 13,
+        "dmg_done": [
+          0,
+          0,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ],
         "armor": 249
       },
       "displayid": "714569"
@@ -6823,6 +7173,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 18,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 319
       },
       "displayid": "714357"
@@ -6855,7 +7215,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Pristine Circlet",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -6955,7 +7315,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Filigreed Pristine Circlet",
       "stats": {
         "sta": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -7055,7 +7415,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthen Silk Hood",
       "stats": {
         "spi": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -7080,6 +7440,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ghostweave Hood",
       "stats": {
         "spi": 18,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 63
       },
       "displayid": "744516"
@@ -7095,7 +7465,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Crown",
       "stats": {
         "spi": 18,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -7154,7 +7524,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 17,
         "int": 17,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           12,
@@ -7180,6 +7550,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_25",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 88
       },
       "displayid": "13323"
@@ -7196,6 +7576,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_bandana_01",
       "stats": {
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 47
       },
       "displayid": "28414"
@@ -7602,6 +7992,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_helmet_59",
       "stats": {
         "sta": 12,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 47
       },
       "displayid": "740251"
@@ -8191,6 +8591,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 13,
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
         "armor": 71
       }
     },
@@ -8234,6 +8644,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 14,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 296
       },
       "displayid": "31268"
@@ -8360,6 +8780,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 15,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "armor": 122
       },
       "displayid": "685381"
@@ -8418,6 +8848,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 23,
         "crit_rate": 28,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35
+        ],
         "armor": 107
       },
       "displayid": "36440"
@@ -8688,6 +9128,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 0
       }
     },
@@ -9263,6 +9713,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -9498,6 +9958,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          34,
+          34,
+          34,
+          34,
+          34,
+          34
+        ],
         "armor": 0
       }
     },
@@ -9661,6 +10131,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "spi": 8,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -9986,7 +10466,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -10029,6 +10509,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 0
       }
     },
@@ -10146,6 +10636,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 5,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 0
       }
     },
@@ -10180,6 +10680,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "resistance": [
           0,
           0,
@@ -10299,6 +10809,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       }
     },
@@ -10333,6 +10853,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       }
     },
@@ -10410,6 +10940,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 0
       }
     },
@@ -10513,6 +11053,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 7,
         "crit_rate": 28,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       }
     },
@@ -10527,6 +11077,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Chains of the Lich",
       "path": "inv_belt_18",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -10543,6 +11103,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -10558,6 +11128,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_amulet_07",
       "stats": {
         "spi": 8,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -10873,6 +11453,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       }
     },
@@ -11110,6 +11700,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Frost's Whisper Pendant",
       "path": "inv_jewelry_necklace_16",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "resistance": [
           0,
           0,
@@ -11215,6 +11815,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -11906,6 +12516,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_06",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 26
       },
       "displayid": "5494"
@@ -11922,6 +12542,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_09",
       "stats": {
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 28
       },
       "displayid": "17135"
@@ -12218,6 +12848,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_09",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 30
       },
       "displayid": "17135"
@@ -12499,6 +13139,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_18",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 35
       },
       "displayid": "5762"
@@ -13532,6 +14182,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_25",
       "stats": {
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 45
       },
       "displayid": "4925"
@@ -13564,6 +14224,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_23",
       "stats": {
         "int": 15,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 46
       },
       "displayid": "17703"
@@ -13580,7 +14250,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_25",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -14175,6 +14845,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_02",
       "stats": {
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 33
       },
       "displayid": "9440"
@@ -14305,7 +14985,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_20",
       "stats": {
         "spi": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           15,
@@ -14496,6 +15176,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_21",
       "stats": {
         "int": 15,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 59
       },
       "displayid": "17746"
@@ -14529,7 +15219,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           13,
@@ -15473,6 +16163,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_18",
       "stats": {
         "int": 21,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "resistance": [
           0,
           0,
@@ -15572,7 +16272,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "spi": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -15609,6 +16309,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 116
       },
       "displayid": "13697"
@@ -15642,6 +16352,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_15",
       "stats": {
         "int": 15,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 118
       },
       "displayid": "8387"
@@ -16563,6 +17283,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 96
       },
       "displayid": "27911"
@@ -16772,6 +17502,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ],
         "armor": 64
       },
       "displayid": "36269"
@@ -16806,6 +17546,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_13",
       "stats": {
         "spi": 7,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "resistance": [
           0,
           0,
@@ -17025,7 +17775,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "int": 17,
-        "armor": 185
+        "armor": 185,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
       },
       "displayid": "32740"
     },
@@ -17080,7 +17840,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "int": 17,
-        "armor": 185
+        "armor": 185,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
       },
       "displayid": "32740"
     },
@@ -17316,6 +18086,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "spi": 7,
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 68
       },
       "displayid": "34597"
@@ -17333,6 +18113,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 68
       },
       "displayid": "34623"
@@ -17351,6 +18141,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 12,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 68
       },
       "displayid": "34632"
@@ -17369,6 +18169,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 11,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 507
       },
       "displayid": "34526"
@@ -17388,6 +18198,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "spi": 10,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 285
       },
       "displayid": "34697"
@@ -17408,6 +18228,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 8,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 135
       },
       "displayid": "34643"
@@ -17497,6 +18327,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 9,
         "int": 18,
+        "dmg_done": [
+          0,
+          0,
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
         "armor": 97
       },
       "displayid": "35326"
@@ -17513,6 +18353,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_18",
       "stats": {
         "sta": 18,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "resistance": [
           0,
           0,
@@ -17619,6 +18469,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_14",
       "stats": {
         "sta": 18,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "resistance": [
           0,
           0,
@@ -17694,6 +18554,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_02",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 32
       },
       "displayid": "4904"
@@ -17931,6 +18801,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 141
       },
       "displayid": "9038"
@@ -17946,6 +18826,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Pauldrons",
       "stats": {
         "str": 11,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 172
       },
       "displayid": "712854"
@@ -17961,6 +18851,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shining Mithril Pauldrons",
       "stats": {
         "str": 10,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 327
       },
       "displayid": "712876"
@@ -18011,6 +18911,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "defense": 10,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 374
       },
       "displayid": "712918"
@@ -18027,7 +18937,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -18053,6 +18963,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "sta": 10,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 374
       },
       "displayid": "712917"
@@ -18070,6 +18990,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 373
       },
       "displayid": "712929"
@@ -18140,6 +19070,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 6,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 104
       },
       "displayid": "714501"
@@ -18157,7 +19097,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 7,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -18216,6 +19156,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "spi": 10,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 115
       },
       "displayid": "714566"
@@ -18251,6 +19201,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 6,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 213
       },
       "displayid": "714513"
@@ -18268,6 +19228,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 7,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 213
       },
       "displayid": "714484"
@@ -18285,7 +19255,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 7,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -18311,6 +19281,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 223
       },
       "displayid": "714394"
@@ -18327,6 +19307,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "sta": 12,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 227
       },
       "displayid": "714542"
@@ -18342,7 +19332,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthen Silk Shoulders",
       "stats": {
         "spi": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -18369,7 +19359,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 6,
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -18479,7 +19469,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Mantle",
       "stats": {
         "spi": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -18504,6 +19494,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ghostweave Mantle",
       "stats": {
         "spi": 12,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 57
       },
       "displayid": "748643"
@@ -18519,6 +19519,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Amice of Sorrow",
       "stats": {
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 50
       },
       "displayid": "717912"
@@ -18578,6 +19588,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_08",
       "stats": {
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 68
       },
       "displayid": "14950"
@@ -19196,6 +20216,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shoulder_01",
       "stats": {
         "spi": 11,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 114
       },
       "displayid": "36269"
@@ -19486,7 +20516,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "spi": 18,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -19866,6 +20896,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 40,
         "ranged_ap": 40,
         "crit_rate": 70,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 66
       },
       "displayid": "27231"
@@ -19990,6 +21030,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "int": 12,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
         "armor": 97
       },
       "displayid": "35187"
@@ -20237,6 +21287,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Reinforced Linen Cape",
       "path": "inv_misc_cape_07",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 11
       },
       "displayid": "23105"
@@ -20253,6 +21313,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_10",
       "stats": {
         "spi": 1,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 14
       },
       "displayid": "23144"
@@ -20335,6 +21405,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Mystic Shawl",
       "path": "inv_misc_cape_13",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 13
       },
       "displayid": "23115"
@@ -20399,6 +21479,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_07",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 21
       },
       "displayid": "23040"
@@ -20466,6 +21556,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_14",
       "stats": {
         "spi": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 17
       },
       "displayid": "23093"
@@ -20482,6 +21582,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_02",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 24
       },
       "displayid": "15076"
@@ -20498,6 +21608,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_04",
       "stats": {
         "spi": 6,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "resistance": [
           0,
           0,
@@ -21055,6 +22175,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_11",
       "stats": {
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 16
       },
       "displayid": "23131"
@@ -21103,6 +22233,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_03",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 24
       },
       "displayid": "23033"
@@ -21594,6 +22734,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_16",
       "stats": {
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "resistance": [
           0,
           0,
@@ -21619,6 +22769,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Black Whelp Cloak",
       "path": "inv_misc_monsterscales_03",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
         "armor": 16
       },
       "displayid": "23010"
@@ -21929,6 +23089,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_02",
       "stats": {
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 31
       },
       "displayid": "24297"
@@ -23101,6 +24271,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_10",
       "stats": {
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 34
       },
       "displayid": "25232"
@@ -24276,6 +25456,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_05",
       "stats": {
         "spi": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 21
       },
       "displayid": "28303"
@@ -24958,7 +26148,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -25058,6 +26248,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_16",
       "stats": {
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "resistance": [
           0,
           0,
@@ -25084,6 +26284,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_18",
       "stats": {
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "resistance": [
           0,
           0,
@@ -25111,6 +26321,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 36
       },
       "displayid": "31632"
@@ -25128,7 +26348,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "spi": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -25155,7 +26375,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "spi": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -25182,7 +26402,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "spi": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -25209,7 +26429,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "spi": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -25236,7 +26456,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "spi": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -25263,7 +26483,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "spi": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -25290,7 +26510,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "spi": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -25317,7 +26537,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "spi": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -25416,7 +26636,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "spi": 2,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -25443,7 +26663,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "spi": 2,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -25940,7 +27160,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_06",
       "stats": {
         "sta": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -26263,6 +27483,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Sandstorm Cover",
       "stats": {
         "spi": 8,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 29
       },
       "displayid": "15110"
@@ -26279,7 +27509,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_22",
       "stats": {
         "sta": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -26305,7 +27535,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_22",
       "stats": {
         "sta": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -26348,7 +27578,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_10",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -26432,6 +27662,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 26
       },
       "displayid": "15181"
@@ -26829,7 +28069,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "melee_ap": 1,
         "ranged_ap": 1,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           1,
@@ -26857,7 +28097,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 1,
         "melee_ap": 1,
         "ranged_ap": 1,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           1,
@@ -27306,6 +28546,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_wolf",
       "stats": {
         "str": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 64
       },
       "displayid": "6026"
@@ -27371,6 +28621,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_fur",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 26
       },
       "displayid": "7811"
@@ -27387,6 +28647,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_39",
       "stats": {
         "spi": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 30
       },
       "displayid": "10849"
@@ -28376,6 +29646,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_10",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 77
       },
       "displayid": "1975"
@@ -28409,6 +29689,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_08",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 101
       },
       "displayid": "8414"
@@ -28611,6 +29901,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_05",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 85
       },
       "displayid": "10991"
@@ -28920,6 +30220,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_40",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 22
       },
       "displayid": "10706"
@@ -28936,6 +30246,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_37",
       "stats": {
         "spi": 2,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 22
       },
       "displayid": "10843"
@@ -29646,6 +30966,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_09",
       "stats": {
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 74
       },
       "displayid": "11487"
@@ -29834,6 +31164,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_04",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 48
       },
       "displayid": "13671"
@@ -29866,6 +31206,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_06",
       "stats": {
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 45
       },
       "displayid": "13684"
@@ -30554,6 +31904,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 238
       },
       "displayid": "11598"
@@ -30792,6 +32152,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 24,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 145
       },
       "displayid": "743317"
@@ -31540,6 +32910,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_03",
       "stats": {
         "spi": 12,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 53
       },
       "displayid": "24352"
@@ -31606,7 +32986,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "spi": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -31633,6 +33013,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 14,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "armor": 64
       },
       "displayid": "9575"
@@ -32693,6 +34083,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 322
       },
       "displayid": "4474"
@@ -32899,6 +34299,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_04",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ],
         "armor": 67
       },
       "displayid": "25207"
@@ -33182,7 +34592,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 19,
         "int": 20,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -33208,6 +34618,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_08",
       "stats": {
         "spi": 20,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 71
       },
       "displayid": "11906"
@@ -34714,7 +36134,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_chain_06",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           21,
@@ -34749,7 +36169,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Red Dragonscale Breastplate",
       "path": "inv_chest_chain_06",
       "stats": {
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           19,
@@ -34785,6 +36205,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_chain_04",
       "stats": {
         "int": 28,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "resistance": [
           0,
           0,
@@ -34883,7 +36313,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 25,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -34938,6 +36368,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 28,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 165
       },
       "displayid": "25699"
@@ -35040,6 +36480,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_leather_07",
       "stats": {
         "int": 21,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 158
       },
       "displayid": "25731"
@@ -35739,6 +37189,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 152
       },
       "displayid": "8158"
@@ -36243,6 +37703,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 13,
         "hit_rate": 20,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 91
       },
       "displayid": "11481"
@@ -36421,6 +37891,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 16,
         "spi": 15,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 365
       },
       "displayid": "16391"
@@ -36464,6 +37944,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_45",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
         "armor": 77
       },
       "displayid": "2019"
@@ -36481,6 +37971,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 61
       },
       "displayid": "4270"
@@ -36498,6 +37998,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 22,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 93
       },
       "displayid": "3832"
@@ -36751,6 +38261,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 12,
         "int": 17,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 683
       },
       "displayid": "34519"
@@ -36771,6 +38291,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 16,
         "int": 17,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 386
       },
       "displayid": "34698"
@@ -36791,6 +38321,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 14,
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 184
       },
       "displayid": "34644"
@@ -36971,6 +38511,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_08",
       "stats": {
         "sta": 26,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "resistance": [
           0,
           0,
@@ -37093,6 +38643,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_plate07",
       "stats": {
         "sta": 15,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "resistance": [
           0,
           0,
@@ -37341,6 +38901,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 198
       },
       "displayid": "4412"
@@ -37391,6 +38961,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "defense": 5,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 184
       },
       "displayid": "712824"
@@ -37407,7 +38987,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -37433,6 +39013,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 184
       },
       "displayid": "712763"
@@ -37483,6 +39073,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "defense": 7,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 207
       },
       "displayid": "712824"
@@ -37499,7 +39099,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -37525,6 +39125,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 207
       },
       "displayid": "712763"
@@ -37540,6 +39150,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Cuirass",
       "stats": {
         "str": 11,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 210
       },
       "displayid": "712841"
@@ -37555,6 +39175,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shining Mithril Breastplate",
       "stats": {
         "str": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 436
       },
       "displayid": "712871"
@@ -37572,6 +39202,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 20,
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 579
       },
       "displayid": "740638"
@@ -37588,6 +39228,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 25,
         "defense": 9,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 646
       },
       "displayid": "712933"
@@ -37604,7 +39254,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 33,
         "int": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -37648,6 +39298,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 3,
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 85
       },
       "displayid": "740636"
@@ -37682,6 +39342,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 8,
         "sta": 6,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 97
       },
       "displayid": "714556"
@@ -37786,6 +39456,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 85
       },
       "displayid": "714521"
@@ -37803,7 +39483,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 3,
         "spi": 3,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -37866,6 +39546,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 97
       },
       "displayid": "714527"
@@ -37883,7 +39573,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 6,
         "int": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -37909,6 +39599,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 145
       },
       "displayid": "714544"
@@ -37925,6 +39625,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 14,
         "int": 15,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 307
       },
       "displayid": "714387"
@@ -37941,6 +39651,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "sta": 16,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 317
       },
       "displayid": "714538"
@@ -38084,7 +39804,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 4,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -38194,7 +39914,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Vest",
       "stats": {
         "spi": 17,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -38380,6 +40100,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_05",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 24
       },
       "displayid": "5844"
@@ -38396,6 +40126,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_08",
       "stats": {
         "spi": 5,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 33
       },
       "displayid": "4305"
@@ -38445,6 +40185,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_13",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 55
       },
       "displayid": "28064"
@@ -38478,6 +40228,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_03",
       "stats": {
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 65
       },
       "displayid": "70631"
@@ -38971,6 +40731,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 11,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 150
       },
       "displayid": "743317"
@@ -39702,6 +41472,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 12,
         "int": 25,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "armor": 176
       }
     },
@@ -40308,6 +42088,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_10",
       "stats": {
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 47
       },
       "displayid": "9550"
@@ -40374,6 +42164,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_07",
       "stats": {
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 23
       },
       "displayid": "7794"
@@ -40390,6 +42190,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_18",
       "stats": {
         "sta": 1,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 22
       },
       "displayid": "16925"
@@ -41245,6 +43055,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 104
       },
       "displayid": "16506"
@@ -42322,6 +44142,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 26
       },
       "displayid": "14594"
@@ -43724,6 +45554,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_11",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 62
       },
       "displayid": "7116"
@@ -44442,6 +46282,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_07",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 22
       },
       "displayid": "3655"
@@ -44714,6 +46564,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 1,
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 14
       },
       "displayid": "10939"
@@ -45097,6 +46957,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 7,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 43
       },
       "displayid": "8408"
@@ -45115,6 +46985,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 6,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 37
       },
       "displayid": "8408"
@@ -45133,6 +47013,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 30
       },
       "displayid": "8408"
@@ -45213,6 +47103,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "spi": 9,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 159
       },
       "displayid": "16395"
@@ -45285,6 +47185,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 53
       },
       "displayid": "34207"
@@ -45389,6 +47299,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 14,
         "int": 15,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 58
       },
       "displayid": "35677"
@@ -45406,6 +47326,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 23,
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
         "armor": 58
       },
       "displayid": "35180"
@@ -45422,6 +47352,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_07",
       "stats": {
         "sta": 20,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "resistance": [
           0,
           0,
@@ -45608,6 +47548,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Bracers",
       "stats": {
         "str": 6,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 95
       },
       "displayid": "712851"
@@ -45658,6 +47608,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "defense": 8,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 231
       },
       "displayid": "712895"
@@ -45674,7 +47634,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -45700,6 +47660,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 231
       },
       "displayid": "712894"
@@ -45717,6 +47687,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 11,
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 237
       },
       "displayid": "712928"
@@ -45804,6 +47784,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 63
       },
       "displayid": "714497"
@@ -45821,7 +47811,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 6,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -45847,6 +47837,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 4,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 66
       },
       "displayid": "714547"
@@ -45899,6 +47899,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 131
       },
       "displayid": "714506"
@@ -45916,6 +47926,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 6,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 131
       },
       "displayid": "714480"
@@ -45933,7 +47953,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 6,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -45959,6 +47979,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 130
       },
       "displayid": "714536"
@@ -45975,6 +48005,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 6,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 132
       },
       "displayid": "714390"
@@ -45990,7 +48030,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthen Silk Cuffs",
       "stats": {
         "spi": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -46017,7 +48057,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 5,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -46127,6 +48167,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Runecloth Cuffs",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 33
       },
       "displayid": "715310"
@@ -46142,7 +48192,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Cuffs",
       "stats": {
         "spi": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -46168,6 +48218,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "spi": 6,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 69
       },
       "displayid": "717996"
@@ -46197,6 +48257,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 13,
       "name": "Windsong Bangles",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 10
       },
       "displayid": "736762"
@@ -46229,7 +48299,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_03",
       "stats": {
         "sta": 10,
-        "armor": 183
+        "armor": 183,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
       },
       "displayid": "26103"
     },
@@ -46636,6 +48716,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 21
       },
       "displayid": "22593"
@@ -46863,7 +48953,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Reflective Wristguards",
       "stats": {
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -46922,6 +49012,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_bracer_07",
       "stats": {
         "sta": 9,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 32
       },
       "displayid": "12743"
@@ -47734,6 +49834,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 41
       },
       "displayid": "17646"
@@ -47786,6 +49896,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 241
       },
       "displayid": "34186"
@@ -47804,6 +49924,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 15,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 110
       },
       "displayid": "34187"
@@ -47858,6 +49988,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 5,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 40
       },
       "displayid": "34601"
@@ -47875,6 +50015,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 40
       },
       "displayid": "34621"
@@ -47893,6 +50043,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 8,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 40
       },
       "displayid": "34629"
@@ -47911,6 +50071,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 10,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 295
       },
       "displayid": "34522"
@@ -47929,6 +50099,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 9,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 166
       },
       "displayid": "34691"
@@ -47949,6 +50129,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 5,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 79
       },
       "displayid": "34641"
@@ -48066,7 +50256,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 12,
         "int": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -48425,6 +50615,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 43
       },
       "displayid": "5406"
@@ -48967,6 +51167,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 57
       },
       "displayid": "2362"
@@ -49033,6 +51243,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Heavy Linen Gloves",
       "path": "inv_gauntlets_05",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 12
       },
       "displayid": "2202"
@@ -49049,6 +51269,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 18
       },
       "displayid": "11036"
@@ -49065,6 +51295,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "spi": 7,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 24
       },
       "displayid": "4620"
@@ -49288,6 +51528,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 48
       },
       "displayid": "8449"
@@ -49321,6 +51571,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 66
       },
       "displayid": "8608"
@@ -49788,7 +52048,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_16",
       "stats": {
         "int": 3,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -50382,6 +52642,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 146
       },
       "displayid": "16488"
@@ -50551,7 +52821,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_30",
       "stats": {
         "agi": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           18,
@@ -50848,6 +53118,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_21",
       "stats": {
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 61
       },
       "displayid": "3875"
@@ -51210,6 +53490,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Black Mageweave Gloves",
       "path": "inv_gauntlets_05",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 35
       },
       "displayid": "8307"
@@ -51226,7 +53516,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_17",
       "stats": {
         "int": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -51252,6 +53542,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_19",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 36
       },
       "displayid": "19095"
@@ -51269,6 +53569,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "armor": 40
       },
       "displayid": "9534"
@@ -51777,6 +54087,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_21",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 26
       },
       "displayid": "11985"
@@ -52004,6 +54324,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "armor": 218
       },
       "proc": {
@@ -52131,6 +54461,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 44
       },
       "displayid": "25231"
@@ -52178,6 +54518,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Gloves",
       "path": "inv_gauntlets_21",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "resistance": [
           0,
           0,
@@ -52234,6 +54584,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_05",
       "stats": {
         "spi": 15,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 43
       },
       "displayid": "11097"
@@ -53391,6 +55751,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_31",
       "stats": {
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 88
       },
       "displayid": "25735"
@@ -54384,6 +56754,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_15",
       "stats": {
         "spi": 13,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 39
       },
       "displayid": "13348"
@@ -54419,6 +56799,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 59
       },
       "displayid": "9366"
@@ -54504,7 +56894,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Gloves of the Greatfather",
       "path": "inv_gauntlets_21",
       "stats": {
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           24,
@@ -54597,7 +56987,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 16,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           11,
@@ -54675,7 +57065,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_16",
       "stats": {
         "int": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -54843,7 +57233,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_12",
       "stats": {
         "sta": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -54907,6 +57297,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 12,
         "spi": 12,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 228
       },
       "displayid": "17416"
@@ -55007,6 +57407,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 55
       },
       "displayid": "11842"
@@ -55025,7 +57435,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 5,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           17,
@@ -55051,6 +57461,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_18",
       "stats": {
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 108
       },
       "displayid": "13344"
@@ -55083,6 +57503,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earth Warder's Gloves",
       "path": "inv_gauntlets_24",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 46
       },
       "displayid": "13348"
@@ -55137,6 +57567,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "int": 15,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37
+        ],
         "armor": 82
       },
       "displayid": "34183"
@@ -55182,7 +57622,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 17,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -55212,6 +57652,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 13,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 548
       },
       "displayid": "34235"
@@ -55232,6 +57682,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 13,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 308
       },
       "displayid": "34236"
@@ -55342,6 +57802,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 14,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 53
       },
       "displayid": "34600"
@@ -55360,6 +57830,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 16,
         "int": 13,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 53
       },
       "displayid": "34627"
@@ -55378,6 +57858,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "spi": 12,
         "int": 15,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 53
       },
       "displayid": "34631"
@@ -55397,6 +57887,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 10,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 393
       },
       "displayid": "34523"
@@ -55415,6 +57915,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 12,
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 223
       },
       "displayid": "34695"
@@ -55435,6 +57945,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 10,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 107
       },
       "displayid": "34640"
@@ -55526,6 +58046,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 10,
         "int": 19,
+        "dmg_done": [
+          0,
+          0,
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
         "armor": 82
       },
       "displayid": "740648"
@@ -55544,6 +58074,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 25,
         "int": 17,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 82
       },
       "displayid": "740649"
@@ -55560,6 +58100,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_06",
       "stats": {
         "sta": 22,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "resistance": [
           0,
           0,
@@ -55677,6 +58227,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "armor": 55
       },
       "displayid": "35545"
@@ -55724,6 +58284,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 146
       },
       "displayid": "16488"
@@ -55740,6 +58310,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_29",
       "stats": {
         "str": 11,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 146
       },
       "displayid": "18256"
@@ -55976,6 +58556,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 116
       },
       "displayid": "4413"
@@ -56026,6 +58616,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "defense": 3,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 115
       },
       "displayid": "712964"
@@ -56042,7 +58642,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -56068,6 +58668,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 115
       },
       "displayid": "712966"
@@ -56083,6 +58693,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Gauntlet",
       "stats": {
         "str": 8,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 144
       },
       "displayid": "712969"
@@ -56098,6 +58718,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shining Mithril Gauntlet",
       "stats": {
         "str": 12,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 294
       },
       "displayid": "712970"
@@ -56148,6 +58778,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "defense": 11,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 360
       },
       "displayid": "712900"
@@ -56164,7 +58804,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           12,
@@ -56190,6 +58830,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 9,
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 360
       },
       "displayid": "712899"
@@ -56240,6 +58890,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "defense": 7,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 158
       },
       "displayid": "712905"
@@ -56256,7 +58916,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -56282,6 +58942,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 9,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 158
       },
       "displayid": "712904"
@@ -56299,6 +58969,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "sta": 13,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 322
       },
       "displayid": "712931"
@@ -56381,6 +59061,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 53
       },
       "displayid": "714553"
@@ -56397,6 +59087,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 53
       },
       "displayid": "714524"
@@ -56413,7 +59113,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -56506,6 +59206,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 75
       },
       "displayid": "714490"
@@ -56522,6 +59232,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 75
       },
       "displayid": "714499"
@@ -56538,7 +59258,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -56635,6 +59355,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 6,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 98
       },
       "displayid": "714498"
@@ -56652,7 +59382,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 9,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -56678,6 +59408,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 92
       },
       "displayid": "714548"
@@ -56713,6 +59453,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 6,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 204
       },
       "displayid": "714508"
@@ -56730,6 +59480,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 14,
         "sta": 9,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 204
       },
       "displayid": "714483"
@@ -56747,7 +59507,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 9,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -56773,6 +59533,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 189
       },
       "displayid": "714391"
@@ -56789,7 +59559,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 3,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -56894,7 +59664,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthen Silk Gloves",
       "stats": {
         "spi": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -56920,7 +59690,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -57025,7 +59795,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Gloves",
       "stats": {
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -57052,7 +59822,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 8,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -57428,6 +60198,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_32",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 35
       },
       "displayid": "11303"
@@ -57586,7 +60366,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "int": 27,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -57613,7 +60393,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 23,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -57746,7 +60526,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 15,
         "int": 27,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -57773,7 +60553,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 23,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -58155,7 +60935,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Swarmtender's Gloves",
       "stats": {
         "spi": 20,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -58268,7 +61048,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Broodwatcher's Clenchers",
       "stats": {
         "spi": 20,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -58356,6 +61136,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_gauntlets_26",
       "stats": {
         "str": 13,
+        "weapon_skill": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 93
       },
       "displayid": "740597"
@@ -58633,6 +61436,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Traveled Gloves",
       "stats": {
         "str": 9,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 75
       },
       "displayid": "4768"
@@ -59662,6 +62475,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_17",
       "stats": {
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 56
       },
       "displayid": "7858"
@@ -59795,6 +62618,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_06",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 48
       },
       "displayid": "6049"
@@ -59828,6 +62661,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_03",
       "stats": {
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 56
       },
       "displayid": "8606"
@@ -59901,6 +62744,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_06",
       "stats": {
         "spi": 4,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 29
       },
       "displayid": "4634"
@@ -60922,6 +63775,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_04",
       "stats": {
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 26
       },
       "displayid": "5804"
@@ -60938,7 +63801,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_24",
       "stats": {
         "spi": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -62813,6 +65676,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_15",
       "stats": {
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 37
       },
       "displayid": "25235"
@@ -62876,6 +65749,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_16",
       "stats": {
         "spi": 9,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 38
       },
       "displayid": "10087"
@@ -63928,6 +66811,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_23",
       "stats": {
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 81
       },
       "displayid": "4460"
@@ -64930,6 +67823,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_02",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 25
       },
       "displayid": "9401"
@@ -65029,6 +67932,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 23,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 97
       },
       "displayid": "10433"
@@ -65082,7 +67995,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "int": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           11,
@@ -65210,6 +68123,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "resistance": [
           0,
           0,
@@ -65321,6 +68244,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "resistance": [
           0,
           0,
@@ -65390,7 +68323,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_24",
       "stats": {
         "int": 16,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           21,
@@ -65604,7 +68537,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "crit_rate": 14,
-        "armor": 150
+        "armor": 150,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
       },
       "displayid": "9965"
     },
@@ -65678,7 +68621,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "crit_rate": 14,
-        "armor": 112
+        "armor": 112,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
       },
       "displayid": "9965"
     },
@@ -65695,7 +68648,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 4,
-        "armor": 104
+        "armor": 104,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
       },
       "displayid": "9965"
     },
@@ -65712,7 +68675,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 3,
-        "armor": 87
+        "armor": 87,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
       },
       "displayid": "9965"
     },
@@ -66071,7 +69044,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "int": 6,
         "crit_rate": 14,
-        "armor": 150
+        "armor": 150,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
       },
       "displayid": "9965"
     },
@@ -66088,7 +69071,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 3,
-        "armor": 87
+        "armor": 87,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
       },
       "displayid": "9965"
     },
@@ -66106,7 +69099,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 5,
         "crit_rate": 14,
-        "armor": 112
+        "armor": 112,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
       },
       "displayid": "9965"
     },
@@ -66123,7 +69126,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 4,
-        "armor": 104
+        "armor": 104,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
       },
       "displayid": "9965"
     },
@@ -66667,6 +69680,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 13,
         "sta": 17,
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 287
       },
       "displayid": "34203"
@@ -66740,6 +69763,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 7,
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 51
       },
       "displayid": "34599"
@@ -66757,6 +69790,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 51
       },
       "displayid": "34620"
@@ -66775,6 +69818,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 12,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 51
       },
       "displayid": "34628"
@@ -66793,6 +69846,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 11,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 380
       },
       "displayid": "34520"
@@ -66811,6 +69874,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 11,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 214
       },
       "displayid": "34694"
@@ -66831,6 +69904,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "spi": 8,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 101
       },
       "displayid": "34637"
@@ -66955,6 +70038,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 21,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 74
       },
       "displayid": "739071"
@@ -67023,6 +70116,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_03",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 24
       },
       "displayid": "6121"
@@ -67220,6 +70323,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "defense": 3,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 98
       },
       "displayid": "712826"
@@ -67236,7 +70349,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -67262,6 +70375,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 98
       },
       "displayid": "712816"
@@ -67312,6 +70435,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "defense": 7,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 131
       },
       "displayid": "712910"
@@ -67328,7 +70461,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -67354,6 +70487,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 6,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 131
       },
       "displayid": "712909"
@@ -67404,6 +70547,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 14,
         "defense": 10,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 324
       },
       "displayid": "712910"
@@ -67420,7 +70573,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -67446,6 +70599,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "sta": 13,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 324
       },
       "displayid": "712909"
@@ -67462,6 +70625,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 315
       },
       "displayid": "712927"
@@ -67545,6 +70718,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 45
       },
       "displayid": "714551"
@@ -67561,6 +70744,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 45
       },
       "displayid": "714522"
@@ -67577,7 +70770,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -67639,6 +70832,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 6,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 62
       },
       "displayid": "714476"
@@ -67705,6 +70908,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 88
       },
       "displayid": "714502"
@@ -67721,7 +70934,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -67801,6 +71014,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 4,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 62
       },
       "displayid": "714494"
@@ -67818,7 +71041,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 6,
         "int": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -67844,6 +71067,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 77
       },
       "displayid": "714545"
@@ -67860,6 +71093,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 156
       },
       "displayid": "714388"
@@ -67893,6 +71136,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 184
       },
       "displayid": "714503"
@@ -67909,6 +71162,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "sta": 10,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 184
       },
       "displayid": "714478"
@@ -67925,7 +71188,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -67950,6 +71213,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Supple Scorpid Belt",
       "stats": {
         "sta": 12,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 170
       },
       "displayid": "714530"
@@ -67966,6 +71239,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 3,
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 17
       },
       "displayid": "715236"
@@ -67982,7 +71265,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 3,
         "int": 3,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           2,
@@ -68008,7 +71291,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -68115,7 +71398,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 6,
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -68225,6 +71508,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ghostweave Cord",
       "stats": {
         "spi": 11,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 38
       },
       "displayid": "715311"
@@ -68240,7 +71533,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Cord",
       "stats": {
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -68266,7 +71559,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -68371,6 +71664,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Barkwoven Belt",
       "stats": {
         "spi": 11,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 77
       },
       "displayid": "717969"
@@ -68386,6 +71689,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Elunar Belt",
       "stats": {
         "spi": 11,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 77
       },
       "displayid": "717982"
@@ -68698,6 +72011,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_16",
       "stats": {
         "spi": 9,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 27
       },
       "displayid": "11172"
@@ -69043,7 +72366,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Swarmtender's Cord",
       "stats": {
         "sta": 21,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -69156,7 +72479,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Broodwatcher's Belt",
       "stats": {
         "sta": 21,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -69245,6 +72568,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 202
       },
       "displayid": "26037"
@@ -69261,7 +72594,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_10",
       "stats": {
         "spi": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -69511,6 +72844,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Kurzen Headshrinker's Cinch",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 57
       },
       "displayid": "2985"
@@ -69544,6 +72887,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "melee_ap": 19,
         "ranged_ap": 19,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 245
       },
       "displayid": "8241"
@@ -69573,7 +72926,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "spi": 18,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -70040,6 +73393,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "int": 16,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 53
       },
       "displayid": "5788"
@@ -70208,6 +73571,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "int": 12,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          34,
+          34,
+          34,
+          34,
+          34,
+          34
+        ],
         "armor": 74
       },
       "displayid": "739075"
@@ -71174,6 +74547,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_02",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
         "armor": 60
       },
       "displayid": "9505"
@@ -71206,6 +74589,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_07",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 23
       },
       "displayid": "2656"
@@ -71222,6 +74615,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_01",
       "stats": {
         "spi": 6,
+        "dmg_done": [
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
         "armor": 31
       },
       "displayid": "4617"
@@ -71253,6 +74656,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brown Linen Pants",
       "path": "inv_pants_06",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 16
       },
       "displayid": "1883"
@@ -71615,6 +75028,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_02",
       "stats": {
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 84
       },
       "displayid": "8426"
@@ -72082,6 +75505,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 45
       },
       "displayid": "4310"
@@ -72513,6 +75946,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 226
       },
       "displayid": "12169"
@@ -72546,6 +75989,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_02",
       "stats": {
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 110
       },
       "displayid": "11838"
@@ -73297,6 +76750,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_09",
       "stats": {
         "spi": 14,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 47
       },
       "displayid": "20405"
@@ -73329,6 +76792,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 49
       },
       "displayid": "7520"
@@ -73345,7 +76818,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_13",
       "stats": {
         "spi": 15,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -73388,6 +76861,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_11",
       "stats": {
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 24
       },
       "displayid": "10199"
@@ -73404,6 +76887,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_02",
       "stats": {
         "spi": 5,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 28
       },
       "displayid": "10636"
@@ -73897,6 +77390,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_13",
       "stats": {
         "spi": 1,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 19
       },
       "displayid": "18108"
@@ -74193,6 +77696,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "spi": 20,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 67
       },
       "displayid": "28182"
@@ -74242,6 +77755,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "str": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 24
       },
       "displayid": "8969"
@@ -74523,6 +78046,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_09",
       "stats": {
         "spi": 20,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 64
       },
       "displayid": "25208"
@@ -74600,6 +78133,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Pants",
       "path": "inv_pants_09",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "resistance": [
           0,
           0,
@@ -74671,6 +78214,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wizardweave Leggings",
       "path": "inv_pants_09",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "resistance": [
           0,
           0,
@@ -74698,7 +78251,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "spi": 21,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           11,
@@ -74724,6 +78277,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_01",
       "stats": {
         "spi": 20,
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 65
       },
       "displayid": "10098"
@@ -75742,7 +79305,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_05",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           17,
@@ -75850,7 +79413,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "spi": 25,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -76009,6 +79572,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_02",
       "stats": {
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 134
       },
       "displayid": "8389"
@@ -77137,6 +80710,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "sta": 21,
+        "dmg_done": [
+          0,
+          0,
+          43,
+          43,
+          43,
+          43,
+          43,
+          43
+        ],
         "resistance": [
           0,
           0,
@@ -77164,6 +80747,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 6,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37
+        ],
         "armor": 80
       },
       "displayid": "7939"
@@ -77197,6 +80790,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_mail_15",
       "stats": {
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "resistance": [
           0,
           0,
@@ -77405,7 +81008,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_leather_01",
       "stats": {
         "sta": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -77441,6 +81044,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_06",
       "stats": {
         "sta": 13,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "resistance": [
           0,
           0,
@@ -77467,6 +81080,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_06",
       "stats": {
         "sta": 13,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "resistance": [
           0,
           0,
@@ -77493,7 +81116,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_06",
       "stats": {
         "sta": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -77670,6 +81293,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 10,
         "int": 22,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 81
       },
       "displayid": "34598"
@@ -77687,6 +81320,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 22,
         "int": 21,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 81
       },
       "displayid": "34622"
@@ -77705,6 +81348,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 12,
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 81
       },
       "displayid": "34635"
@@ -77724,6 +81377,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 10,
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 600
       },
       "displayid": "34525"
@@ -77743,6 +81406,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "spi": 16,
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 338
       },
       "displayid": "34696"
@@ -77763,6 +81436,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "spi": 14,
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 160
       },
       "displayid": "34642"
@@ -77853,6 +81536,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 26,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          46,
+          46,
+          46,
+          46,
+          46,
+          46
+        ],
         "armor": 116
       },
       "displayid": "35522"
@@ -77871,6 +81564,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 30,
         "int": 25,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37
+        ],
         "armor": 116
       },
       "displayid": "35184"
@@ -78010,6 +81713,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "sta": 28,
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "resistance": [
           0,
           0,
@@ -78112,7 +81825,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "spi": 9,
         "int": 22,
-        "armor": 262
+        "armor": 262,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
       },
       "displayid": "8389"
     },
@@ -78143,7 +81866,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "spi": 10,
         "int": 19,
-        "armor": 187
+        "armor": 187,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ]
       },
       "displayid": "20405"
     },
@@ -78200,7 +81933,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 22,
         "spi": 9,
         "int": 22,
-        "armor": 262
+        "armor": 262,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
       },
       "displayid": "8389"
     },
@@ -78218,7 +81961,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 23,
         "spi": 10,
         "int": 19,
-        "armor": 187
+        "armor": 187,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ]
       },
       "displayid": "20405"
     },
@@ -78237,6 +81990,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "crit_rate": 14,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 645
       },
       "displayid": "23663"
@@ -78712,6 +82475,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 162
       },
       "displayid": "712958"
@@ -78762,6 +82535,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "defense": 7,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 175
       },
       "displayid": "712825"
@@ -78779,7 +82562,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -78805,6 +82588,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 175
       },
       "displayid": "712814"
@@ -78855,6 +82648,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 11,
         "defense": 8,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 190
       },
       "displayid": "712825"
@@ -78871,7 +82674,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -78897,6 +82700,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 190
       },
       "displayid": "712814"
@@ -78912,6 +82725,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Leggings",
       "stats": {
         "str": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 195
       },
       "displayid": "712843"
@@ -78927,6 +82750,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shining Mithril Pants",
       "stats": {
         "str": 14,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 412
       },
       "displayid": "712973"
@@ -78944,6 +82777,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 20,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 490
       },
       "displayid": "712926"
@@ -78960,6 +82803,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 26,
         "defense": 9,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 574
       },
       "displayid": "712934"
@@ -78976,6 +82829,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 18,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          38,
+          38,
+          38,
+          38,
+          38,
+          38
+        ],
         "armor": 608
       },
       "displayid": "741548"
@@ -78992,7 +82855,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 18,
         "int": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           25,
@@ -79036,6 +82899,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 4,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 82
       },
       "displayid": "714555"
@@ -79070,6 +82943,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 9,
         "sta": 7,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 90
       },
       "displayid": "714554"
@@ -79103,6 +82986,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 18,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          38,
+          38,
+          38,
+          38,
+          38,
+          38
+        ],
         "armor": 163
       },
       "displayid": "714420"
@@ -79156,6 +83049,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 82
       },
       "displayid": "714526"
@@ -79173,7 +83076,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 4,
         "int": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -79254,7 +83157,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 7,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -79280,6 +83183,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "spi": 17,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 136
       },
       "displayid": "714549"
@@ -79296,6 +83209,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "sta": 16,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 252
       },
       "displayid": "744348"
@@ -79312,6 +83235,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "armor": 277
       },
       "displayid": "714392"
@@ -79327,7 +83260,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Red Dragonscale Leggings",
       "stats": {
         "int": 31,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           20,
@@ -79353,6 +83286,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 18,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33
+        ],
         "armor": 343
       },
       "displayid": "714465"
@@ -79370,7 +83313,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 4,
         "int": 6,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -79482,7 +83425,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 5,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -79592,7 +83535,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthen Leggings",
       "stats": {
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -79617,7 +83560,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Leggings",
       "stats": {
         "spi": 16,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           13,
@@ -79704,6 +83647,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 11,
       "name": "Shadowgale Pants",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 18
       },
       "displayid": "736778"
@@ -79750,6 +83703,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_06",
       "stats": {
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 30
       },
       "displayid": "4310"
@@ -79866,6 +83829,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 42
       },
       "displayid": "25280"
@@ -79952,6 +83925,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_13",
       "stats": {
         "spi": 12,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 50
       },
       "displayid": "5874"
@@ -80380,6 +84363,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Rumpled Kilt",
       "stats": {
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 33
       },
       "displayid": "739979"
@@ -80840,7 +84833,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 27,
         "spi": 24,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           13,
@@ -81613,6 +85606,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 47
       },
       "displayid": "5853"
@@ -81662,6 +85665,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 2,
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 22
       },
       "displayid": "5380"
@@ -82137,6 +86150,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_09",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 19
       },
       "displayid": "5840"
@@ -82153,6 +86176,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_09",
       "stats": {
         "spi": 5,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 23
       },
       "displayid": "4615"
@@ -82170,6 +86203,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 29
       },
       "displayid": "4301"
@@ -82186,6 +86229,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_03",
       "stats": {
         "spi": 7,
+        "dmg_done": [
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
         "armor": 28
       },
       "displayid": "4466"
@@ -82202,6 +86255,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "spi": 8,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 31
       },
       "displayid": "4631"
@@ -82302,6 +86365,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 54
       },
       "displayid": "7537"
@@ -82621,6 +86694,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 5,
         "int": 1,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 26
       },
       "displayid": "9173"
@@ -84012,6 +88095,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 41
       },
       "displayid": "21154"
@@ -84044,7 +88137,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -85221,6 +89314,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "spi": 14,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 49
       },
       "displayid": "25233"
@@ -86365,6 +90468,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_07",
       "stats": {
         "spi": 10,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 35
       },
       "displayid": "14660"
@@ -87036,7 +91149,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 13,
         "int": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -87556,6 +91669,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_cloth_03",
       "stats": {
         "sta": 21,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "resistance": [
           0,
           0,
@@ -87599,6 +91722,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 16,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 63
       },
       "displayid": "32156"
@@ -87769,7 +91902,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "int": 8,
-        "armor": 161
+        "armor": 161,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
       },
       "displayid": "2496"
     },
@@ -87839,7 +91982,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 6,
-        "armor": 132
+        "armor": 132,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
       },
       "displayid": "2496"
     },
@@ -87856,7 +92009,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 3,
-        "armor": 102
+        "armor": 102,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
       },
       "displayid": "2496"
     },
@@ -87872,7 +92035,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_cloth_07",
       "stats": {
         "sta": 8,
-        "armor": 84
+        "armor": 84,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
       },
       "displayid": "2496"
     },
@@ -88237,7 +92410,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "int": 8,
-        "armor": 161
+        "armor": 161,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
       },
       "displayid": "2496"
     },
@@ -88254,7 +92437,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 6,
-        "armor": 132
+        "armor": 132,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
       },
       "displayid": "2496"
     },
@@ -88271,7 +92464,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 3,
-        "armor": 102
+        "armor": 102,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
       },
       "displayid": "2496"
     },
@@ -88287,7 +92490,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_cloth_07",
       "stats": {
         "sta": 8,
-        "armor": 84
+        "armor": 84,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
       },
       "displayid": "2496"
     },
@@ -88700,6 +92913,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_05",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 40
       },
       "displayid": "5871"
@@ -88735,7 +92958,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 12,
         "int": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -88762,6 +92985,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 121
       },
       "displayid": "18958"
@@ -88844,6 +93077,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 18,
         "int": 19,
+        "dmg_done": [
+          0,
+          0,
+          34,
+          34,
+          34,
+          34,
+          34,
+          34
+        ],
         "armor": 84
       },
       "displayid": "34195"
@@ -88879,6 +93122,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "resistance": [
           0,
           0,
@@ -88959,6 +93212,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "spi": 10,
         "int": 16,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 63
       },
       "displayid": "34782"
@@ -88976,6 +93239,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 24,
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 63
       },
       "displayid": "34626"
@@ -88994,6 +93267,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 12,
         "spi": 12,
         "int": 13,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 63
       },
       "displayid": "34634"
@@ -89013,6 +93296,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 10,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 470
       },
       "displayid": "34521"
@@ -89032,6 +93325,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 10,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 265
       },
       "displayid": "34692"
@@ -89052,6 +93355,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 10,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 126
       },
       "displayid": "34638"
@@ -89142,6 +93455,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "int": 18,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 89
       },
       "displayid": "35525"
@@ -89489,7 +93812,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Glowing Copper Boots",
       "stats": {
         "int": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -89515,6 +93838,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 125
       },
       "displayid": "4343"
@@ -89565,6 +93898,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 5,
         "defense": 4,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 131
       },
       "displayid": "712849"
@@ -89581,7 +93924,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -89607,6 +93950,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 4,
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 131
       },
       "displayid": "712847"
@@ -89622,6 +93975,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hard Gold Boots",
       "stats": {
         "str": 7,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 146
       },
       "displayid": "712844"
@@ -89637,6 +94000,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Shining Mithril Boots",
       "stats": {
         "str": 9,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 300
       },
       "displayid": "744501"
@@ -89687,6 +94060,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "defense": 9,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 330
       },
       "displayid": "745165"
@@ -89703,7 +94086,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -89729,6 +94112,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 9,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 330
       },
       "displayid": "745164"
@@ -89779,6 +94172,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "defense": 9,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 376
       },
       "displayid": "745157"
@@ -89795,7 +94198,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -89821,6 +94224,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 9,
         "sta": 12,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 376
       },
       "displayid": "745159"
@@ -89838,6 +94251,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 13,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 341
       },
       "displayid": "743475"
@@ -89869,6 +94292,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Strange Copper Boots",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 108
       },
       "displayid": "11408"
@@ -89884,7 +94317,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Black Whelp Slippers",
       "stats": {
         "int": 4,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -89941,6 +94374,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Moonglow Boots",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 52
       },
       "displayid": "714463"
@@ -90007,6 +94450,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 5,
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 61
       },
       "displayid": "714552"
@@ -90023,6 +94476,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 61
       },
       "displayid": "714523"
@@ -90039,7 +94502,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -90064,6 +94527,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Hillman's Leather Boots",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 61
       },
       "displayid": "714419"
@@ -90182,6 +94655,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 103
       },
       "displayid": "714496"
@@ -90198,7 +94681,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -90259,6 +94742,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 5,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 91
       },
       "displayid": "714500"
@@ -90276,7 +94769,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 7,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -90302,6 +94795,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 95
       },
       "displayid": "714546"
@@ -90337,6 +94840,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "spi": 5,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 187
       },
       "displayid": "714505"
@@ -90355,6 +94868,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 11,
         "sta": 7,
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 187
       },
       "displayid": "746246"
@@ -90372,7 +94895,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "spi": 7,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -90398,6 +94921,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 8,
         "sta": 10,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 191
       },
       "displayid": "714535"
@@ -90431,6 +94964,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 214
       },
       "displayid": "714512"
@@ -90447,6 +94990,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 13,
         "sta": 9,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 214
       },
       "displayid": "714485"
@@ -90463,7 +95016,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -90505,6 +95058,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 7,
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 224
       },
       "displayid": "714532"
@@ -90521,6 +95084,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 9,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 224
       },
       "displayid": "714389"
@@ -90537,7 +95110,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 4,
         "int": 3,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -90644,7 +95217,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "spi": 4,
         "int": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -90754,7 +95327,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthen Silk Slippers",
       "stats": {
         "spi": 7,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -90779,7 +95352,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Earthenweave Boots",
       "stats": {
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -90805,7 +95378,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 13,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           11,
@@ -90910,6 +95483,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ghostweave Boots",
       "stats": {
         "spi": 13,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 53
       },
       "displayid": "715312"
@@ -90961,6 +95544,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 17,
         "sta": 9,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 225
       },
       "displayid": "718019"
@@ -91023,6 +95616,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Empyrean Shoes",
       "stats": {
         "spi": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 19
       },
       "displayid": "736665"
@@ -91072,6 +95675,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Boots of the People's Militia",
       "path": "inv_boots_05",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 50
       },
       "displayid": "18145"
@@ -91647,7 +96260,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_fabric_01",
       "stats": {
         "int": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -91689,6 +96302,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_01",
       "stats": {
         "str": 8,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 158
       },
       "displayid": "15669"
@@ -91705,7 +96328,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_plate_08",
       "stats": {
         "str": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -91730,6 +96353,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Venomspew Footpads",
       "stats": {
         "spi": 8,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "resistance": [
           0,
           0,
@@ -91755,7 +96388,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Swarmtender's Footpads",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -91790,6 +96423,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Bileblister Boots",
       "stats": {
         "spi": 8,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "resistance": [
           0,
           0,
@@ -91868,7 +96511,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Broodwatcher's Treaders",
       "stats": {
         "sta": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -91973,7 +96616,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_boots_plate_08",
       "stats": {
         "str": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -92229,6 +96872,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "melee_ap": 12,
         "ranged_ap": 12,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 62
       },
       "displayid": "3715"
@@ -92305,7 +96958,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 14,
         "sta": 21,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           21,
@@ -92762,6 +97415,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 26,
         "sta": 12,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 351
       },
       "displayid": "34208"
@@ -92856,6 +97519,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 20,
         "int": 16,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
         "armor": 89
       },
       "displayid": "35186"
@@ -92985,6 +97658,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_13",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -93088,6 +97771,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_01",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       }
     },
@@ -93535,6 +98228,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_12",
       "stats": {
         "spi": 4,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 0
       }
     },
@@ -93822,6 +98525,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_33",
       "stats": {
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -95125,6 +99838,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "resistance": [
           0,
           0,
@@ -95307,6 +100030,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -95340,7 +100073,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           15,
@@ -95364,6 +100097,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Spell Power",
       "path": "inv_jewelry_ring_38",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33
+        ],
         "armor": 0
       }
     },
@@ -95463,6 +100206,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Blackrock",
       "path": "inv_jewelry_ring_43",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 0
       }
     },
@@ -95480,6 +100233,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 12,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 0
       }
     },
@@ -95664,6 +100427,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       }
     },
@@ -95679,6 +100452,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -95694,6 +100477,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -95709,6 +100502,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -95724,6 +100527,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       }
     },
@@ -95739,6 +100552,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -95754,6 +100577,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -95769,6 +100602,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -95784,6 +100627,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -95816,6 +100669,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -95891,6 +100754,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 6,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -95907,6 +100780,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -96201,6 +101084,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 0
       }
     },
@@ -96217,6 +101110,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -96233,6 +101136,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 0
       }
     },
@@ -96249,6 +101162,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 0
       }
     },
@@ -96265,6 +101188,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 0
       }
     },
@@ -96316,6 +101249,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -96480,6 +101423,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Swarming Thought",
       "path": "inv_jewelry_ring_ahnqiraj_04",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 0
       }
     },
@@ -96497,6 +101450,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 6,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37
+        ],
         "armor": 0
       }
     },
@@ -96513,6 +101476,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 0
       }
     },
@@ -96545,7 +101518,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -96670,6 +101643,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 14,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 0
       }
     },
@@ -96711,6 +101694,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_53naxxramas",
       "stats": {
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
         "armor": 0
       }
     },
@@ -97296,6 +102289,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_08",
       "stats": {
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -97359,6 +102362,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_12",
       "stats": {
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       }
     },
@@ -97374,6 +102387,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_12",
       "stats": {
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -97709,7 +102732,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 8,
         "hit_rate": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -97867,7 +102890,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Sea Giant's Toe Ring",
       "path": "inv_jewelry_ring_02",
       "stats": {
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -97908,7 +102931,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_01",
       "stats": {
         "sta": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -97973,6 +102996,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -98024,7 +103057,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 9,
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -98050,6 +103083,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       }
     },
@@ -98065,7 +103108,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_11",
       "stats": {
         "spi": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -98125,6 +103168,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       }
     },
@@ -98141,7 +103194,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -98202,6 +103255,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -98218,7 +103281,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -98279,6 +103342,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       }
     },
@@ -98295,7 +103368,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           11,
@@ -98356,6 +103429,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ],
         "armor": 0
       }
     },
@@ -98372,7 +103455,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           12,
@@ -98445,6 +103528,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Leafre's Ring of Precise Spell Power",
       "path": "inv_jewelry_ring_38",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
         "armor": 0
       }
     },
@@ -98539,6 +103632,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_02",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       }
     },
@@ -98633,6 +103736,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_14",
       "stats": {
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -98711,6 +103824,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_04",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 0
       }
     },
@@ -98728,6 +103851,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "melee_ap": 8,
         "ranged_ap": 8,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       }
     },
@@ -99355,6 +104488,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "QATest +1000 Spell Dmg Ring",
       "path": "inv_jewelry_ring_38",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
         "armor": 0
       }
     }
@@ -99483,6 +104626,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_13",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -99586,6 +104739,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_01",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       }
     },
@@ -100033,6 +105196,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_12",
       "stats": {
         "spi": 4,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 0
       }
     },
@@ -100320,6 +105493,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_33",
       "stats": {
         "sta": 3,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -101623,6 +106806,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 11,
         "int": 11,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "resistance": [
           0,
           0,
@@ -101805,6 +106998,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -101838,7 +107041,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 9,
         "int": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           15,
@@ -101862,6 +107065,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Spell Power",
       "path": "inv_jewelry_ring_38",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33
+        ],
         "armor": 0
       }
     },
@@ -101961,6 +107174,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Blackrock",
       "path": "inv_jewelry_ring_43",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
         "armor": 0
       }
     },
@@ -101978,6 +107201,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 12,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 0
       }
     },
@@ -102162,6 +107395,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       }
     },
@@ -102177,6 +107420,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -102192,6 +107445,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -102207,6 +107470,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -102222,6 +107495,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       }
     },
@@ -102237,6 +107520,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       }
     },
@@ -102252,6 +107545,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 5,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -102267,6 +107570,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       }
     },
@@ -102282,6 +107595,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_20",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -102314,6 +107637,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_28",
       "stats": {
         "sta": 2,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -102389,6 +107722,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 6,
         "int": 6,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -102405,6 +107748,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -102699,6 +108052,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "int": 7,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 0
       }
     },
@@ -102715,6 +108078,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       }
     },
@@ -102731,6 +108104,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 0
       }
     },
@@ -102747,6 +108130,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 0
       }
     },
@@ -102763,6 +108156,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 9,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 0
       }
     },
@@ -102814,6 +108217,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 9,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -102978,6 +108391,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ring of Swarming Thought",
       "path": "inv_jewelry_ring_ahnqiraj_04",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
         "armor": 0
       }
     },
@@ -102995,6 +108418,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 5,
         "int": 6,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37
+        ],
         "armor": 0
       }
     },
@@ -103011,6 +108444,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
         "armor": 0
       }
     },
@@ -103043,7 +108486,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -103168,6 +108611,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 17,
         "crit_rate": 14,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
         "armor": 0
       }
     },
@@ -103209,6 +108662,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_53naxxramas",
       "stats": {
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
         "armor": 0
       }
     },
@@ -103794,6 +109257,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_08",
       "stats": {
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -103857,6 +109330,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_12",
       "stats": {
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       }
     },
@@ -103872,6 +109355,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_12",
       "stats": {
         "sta": 7,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       }
     },
@@ -104207,7 +109700,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "spi": 8,
         "hit_rate": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           10,
@@ -104365,7 +109858,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Sea Giant's Toe Ring",
       "path": "inv_jewelry_ring_02",
       "stats": {
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -104406,7 +109899,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_01",
       "stats": {
         "sta": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           3,
@@ -104471,6 +109964,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 7,
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       }
     },
@@ -104522,7 +110025,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 9,
         "int": 8,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           4,
@@ -104548,6 +110051,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       }
     },
@@ -104563,7 +110076,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_11",
       "stats": {
         "spi": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -104623,6 +110136,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 6,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       }
     },
@@ -104639,7 +110162,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 10,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           7,
@@ -104700,6 +110223,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -104716,7 +110249,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 11,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -104777,6 +110310,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       }
     },
@@ -104793,7 +110336,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           11,
@@ -104854,6 +110397,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ],
         "armor": 0
       }
     },
@@ -104870,7 +110423,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           12,
@@ -104943,6 +110496,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Leafre's Ring of Precise Spell Power",
       "path": "inv_jewelry_ring_38",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
         "armor": 0
       }
     },
@@ -105037,6 +110600,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_02",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       }
     },
@@ -105131,6 +110704,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_14",
       "stats": {
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 0
       }
     },
@@ -105209,6 +110792,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_04",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "armor": 0
       }
     },
@@ -105226,6 +110819,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 7,
         "melee_ap": 8,
         "ranged_ap": 8,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       }
     },
@@ -105853,6 +111456,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "QATest +1000 Spell Dmg Ring",
       "path": "inv_jewelry_ring_38",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
         "armor": 0
       }
     }
@@ -106942,6 +112555,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_stone_15",
       "stats": {
         "hit_rate": 20,
+        "dmg_done": [
+          0,
+          0,
+          44,
+          44,
+          44,
+          44,
+          44,
+          44
+        ],
         "armor": 0
       }
     },
@@ -107635,6 +113258,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "The Restrained Essence of Sapphiron",
       "path": "inv_trinket_naxxramas06",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
         "armor": 0
       },
       "useSpell": 28779,
@@ -107775,6 +113408,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Infernal Lasso",
       "path": "spell_nature_slow",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       },
       "useSpell": 443265,
@@ -108238,6 +113881,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Weakness Analyzer",
       "path": "inv_misc_blizzcon09_graphicscard",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       },
       "useSpell": 1291101,
@@ -108255,7 +113908,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Serenity Field",
       "path": "inv_misc_enggizmos_36",
       "stats": {
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -109812,6 +115465,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_stone_15",
       "stats": {
         "hit_rate": 20,
+        "dmg_done": [
+          0,
+          0,
+          44,
+          44,
+          44,
+          44,
+          44,
+          44
+        ],
         "armor": 0
       }
     },
@@ -110505,6 +116168,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "The Restrained Essence of Sapphiron",
       "path": "inv_trinket_naxxramas06",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
         "armor": 0
       },
       "useSpell": 28779,
@@ -110645,6 +116318,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Infernal Lasso",
       "path": "spell_nature_slow",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       },
       "useSpell": 443265,
@@ -111108,6 +116791,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Weakness Analyzer",
       "path": "inv_misc_blizzcon09_graphicscard",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
         "armor": 0
       },
       "useSpell": 1291101,
@@ -111125,7 +116818,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Serenity Field",
       "path": "inv_misc_enggizmos_36",
       "stats": {
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -124064,6 +129757,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "melee_ap": 38,
         "ranged_ap": 38,
+        "weapon_skill": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "displayid": "34512"
@@ -125333,6 +131049,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 66.94,
       "stats": {
         "str": 4,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       },
       "displayid": "5199"
@@ -128427,6 +134153,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_01",
       "stats": {
         "crit_rate": 210,
+        "haste_rate": 150,
         "armor": 0
       },
       "displayid": "29097"
@@ -128471,6 +134198,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 100,
         "int": 150,
         "hit_rate": 200,
+        "haste_rate": 300,
         "resistance": [
           0,
           0,
@@ -128564,6 +134292,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_staff_goldfeathered_01",
       "stats": {
         "int": 20,
+        "dmg_done": [
+          0,
+          0,
+          57,
+          57,
+          57,
+          57,
+          57,
+          57
+        ],
         "resistance": [
           0,
           0,
@@ -129380,6 +135118,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shield_09",
       "stats": {
         "spi": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 411,
         "block_amount": 7
       },
@@ -129986,6 +135734,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Ironplate Buckler",
       "path": "inv_shield_10",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 328,
         "block_amount": 5
       },
@@ -135723,6 +141481,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shield_10",
       "stats": {
         "int": 6,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 728,
         "block_amount": 16
       },
@@ -137087,6 +142855,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 10,
         "melee_ap": 38,
         "ranged_ap": 38,
+        "weapon_skill": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "displayid": "34512"
@@ -137254,7 +143045,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "int": 13,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           12,
@@ -138568,6 +144359,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shield_10",
       "stats": {
         "sta": 4,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 711,
         "block_amount": 15
       },
@@ -139458,7 +145259,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Thrash's Trash",
       "stats": {
         "sta": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           14,
@@ -139484,6 +145285,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shield_09",
       "stats": {
         "sta": 10,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 1833,
         "block_amount": 34
       },
@@ -139537,7 +145348,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shield_13",
       "stats": {
         "sta": 12,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -139742,7 +145553,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -139770,7 +145581,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 21,
         "int": 9,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           6,
@@ -139838,7 +145649,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 16,
         "crit_rate": 14,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           8,
@@ -140722,6 +146533,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_01",
       "stats": {
         "crit_rate": 210,
+        "haste_rate": 150,
         "armor": 0
       },
       "displayid": "29097"
@@ -140744,6 +146556,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 100,
         "int": 150,
         "hit_rate": 200,
+        "haste_rate": 300,
         "resistance": [
           0,
           0,
@@ -143022,6 +148835,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_hammer_04",
       "stats": {
         "str": 11,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       },
       "displayid": "15468"
@@ -143041,6 +148864,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_25",
       "stats": {
         "str": 4,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       },
       "displayid": "5105"
@@ -143102,6 +148935,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_axe_17",
       "stats": {
         "str": 11,
+        "dmg_done": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "armor": 0
       },
       "displayid": "8502"
@@ -143198,6 +149041,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_hammer_04",
       "stats": {
         "expertise_rate": 10,
+        "weapon_skill": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "displayid": "2440"
@@ -144380,6 +150246,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_20",
       "stats": {
         "sta": 6,
+        "dmg_done": [
+          0,
+          0,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
         "armor": 0
       },
       "displayid": "16147"
@@ -145211,6 +151087,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 182.74,
       "path": "inv_weapon_halberd_11",
       "stats": {
+        "weapon_skill": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "displayid": "23434"
@@ -146761,6 +152660,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 41,
         "spi": 17,
         "int": 23,
+        "dmg_done": [
+          0,
+          0,
+          71,
+          71,
+          71,
+          71,
+          71,
+          71
+        ],
         "armor": 0
       },
       "displayid": "31764"
@@ -147422,6 +153331,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 28,
         "int": 27,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 0
       },
       "displayid": "36065"
@@ -147442,6 +153361,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 28,
         "int": 27,
+        "dmg_done": [
+          0,
+          0,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27
+        ],
         "armor": 0
       },
       "displayid": "36079"
@@ -148096,6 +154025,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 147.85,
       "stats": {
         "str": 14,
+        "dmg_done": [
+          0,
+          0,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
         "armor": 0
       },
       "displayid": "19302"
@@ -148114,6 +154053,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 204.98,
       "stats": {
         "str": 21,
+        "dmg_done": [
+          0,
+          0,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
         "armor": 0
       },
       "displayid": "29939"
@@ -148153,6 +154102,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 15,
         "sta": 11,
+        "dmg_done": [
+          0,
+          0,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
         "armor": 0
       },
       "displayid": "21159"
@@ -148558,6 +154517,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_sword_42",
       "stats": {
         "str": 12,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       },
       "displayid": "28546"
@@ -149128,6 +155097,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 25,
         "int": 24,
+        "dmg_done": [
+          0,
+          0,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
         "armor": 0
       },
       "displayid": "36079"
@@ -149253,6 +155232,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 15,
         "sta": 25,
         "int": 24,
+        "dmg_done": [
+          0,
+          0,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
         "armor": 0
       },
       "displayid": "36065"
@@ -149453,6 +155442,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_1h_lumberaxe_a_01",
       "stats": {
         "str": 7,
+        "weapon_skill": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "displayid": "739819"
@@ -149698,6 +155710,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "sta": 4,
+        "weapon_skill": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
         "armor": 0
       },
       "displayid": "739780"
@@ -149837,6 +155872,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 18,
         "sta": 27,
+        "dmg_done": [
+          0,
+          0,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
         "armor": 0
       },
       "displayid": "743936"
@@ -151180,6 +157225,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 24,
         "int": 32,
         "hit_rate": 20,
+        "dmg_done": [
+          0,
+          0,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150
+        ],
         "armor": 0
       },
       "useSpell": 28148,
@@ -151202,6 +157257,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 30,
         "int": 29,
         "crit_rate": 28,
+        "dmg_done": [
+          0,
+          0,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150
+        ],
         "armor": 0
       },
       "useSpell": 28148,
@@ -151224,6 +157289,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "spi": 27,
         "int": 28,
+        "dmg_done": [
+          0,
+          0,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120
+        ],
         "armor": 0
       },
       "useSpell": 28148,
@@ -151325,6 +157400,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_13",
       "stats": {
         "spi": 2,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 0
       },
       "displayid": "10895"
@@ -151372,6 +157457,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_13",
       "stats": {
         "int": 5,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
         "armor": 0
       },
       "displayid": "10896"
@@ -151404,6 +157499,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_18",
       "stats": {
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       },
       "displayid": "12213"
@@ -151506,6 +157611,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_17",
       "stats": {
         "int": 8,
+        "dmg_done": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
         "armor": 0
       },
       "displayid": "8864"
@@ -151522,6 +157637,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_29",
       "stats": {
         "spi": 7,
+        "dmg_done": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
         "armor": 0
       },
       "displayid": "8865"
@@ -151587,6 +157712,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_23",
       "stats": {
         "spi": 3,
+        "dmg_done": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
         "armor": 0
       },
       "displayid": "8853"
@@ -151603,6 +157738,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_22",
       "stats": {
         "int": 3,
+        "dmg_done": [
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
         "armor": 0
       },
       "displayid": "10894"
@@ -151637,6 +157782,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 7,
         "int": 2,
+        "dmg_done": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
         "armor": 0
       },
       "displayid": "12716"
@@ -151706,6 +157861,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 8,
         "int": 12,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       },
       "displayid": "17133"
@@ -151755,6 +157920,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_25",
       "stats": {
         "int": 14,
+        "dmg_done": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "armor": 0
       },
       "displayid": "13666"
@@ -151896,6 +158071,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_04",
       "stats": {
         "int": 17,
+        "dmg_done": [
+          0,
+          0,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
         "armor": 0
       },
       "displayid": "21957"
@@ -151927,6 +158112,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Brightcloth Robe",
       "path": "inv_chest_cloth_26",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
         "resistance": [
           0,
           0,
@@ -151968,6 +158163,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Wizardweave Robe",
       "path": "inv_chest_cloth_46",
       "stats": {
+        "dmg_done": [
+          0,
+          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "resistance": [
           0,
           0,
@@ -152010,6 +158215,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_32",
       "stats": {
         "sta": 8,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       },
       "displayid": "24189"
@@ -152027,7 +158242,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 12,
         "int": 25,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           9,
@@ -152054,6 +158269,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "spi": 11,
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       },
       "displayid": "21719"
@@ -152070,6 +158295,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_18",
       "stats": {
         "sta": 35,
+        "dmg_done": [
+          0,
+          0,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
         "resistance": [
           0,
           0,
@@ -152154,7 +158389,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 20,
         "int": 22,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           23,
@@ -152182,6 +158417,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "spi": 9,
         "int": 25,
+        "dmg_done": [
+          0,
+          0,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
         "armor": 0
       },
       "displayid": "34596"
@@ -152200,6 +158445,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 27,
         "int": 22,
         "crit_rate": 14,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       },
       "displayid": "34625"
@@ -152218,6 +158473,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "spi": 12,
         "int": 22,
+        "dmg_done": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
         "armor": 0
       },
       "displayid": "34633"
@@ -152237,6 +158502,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 27,
         "crit_rate": 14,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
         "armor": 0
       },
       "displayid": "35523"
@@ -152256,6 +158531,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 22,
         "crit_rate": 14,
         "hit_rate": 10,
+        "dmg_done": [
+          0,
+          0,
+          51,
+          51,
+          51,
+          51,
+          51,
+          51
+        ],
         "armor": 0
       },
       "displayid": "35185"
@@ -152291,7 +158576,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "spi": 3,
         "int": 5,
-        "dmg_done_mod": [
+        "dmg_done": [
           0,
           0,
           5,
@@ -152332,6 +158617,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_24",
       "stats": {
         "int": 11,
+        "dmg_done": [
+          0,
+          0,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
         "armor": 0
       },
       "displayid": "740090"
@@ -152348,6 +158643,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_chest_cloth_24",
       "stats": {
         "spi": 12,
+        "dmg_done": [
+          0,
+          0,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
         "armor": 0
       },
       "displayid": "740090"
