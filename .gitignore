@@ -10,7 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-src/generators/data/
+src/generators/data/*
+!src/generators/data/gear-planner.js
 *.local
 
 # Editor directories and files
