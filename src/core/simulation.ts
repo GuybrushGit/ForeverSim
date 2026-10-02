@@ -332,6 +332,7 @@ export class Simulation {
 	}
 
 	removePower(amount: number) {
+		if (amount == 0) return;
 		this.power = Math.max(0, this.power - ~~amount);
 		this.addEvent(EventType.PowerChange, ~~amount * -1);
 	}

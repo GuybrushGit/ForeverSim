@@ -64,6 +64,10 @@
 		&.incoming {
 			color: #6e97b8;
 		}
+
+		&.filtered {
+			opacity: 0.5;
+		}
 	}
 
 	.log-time {

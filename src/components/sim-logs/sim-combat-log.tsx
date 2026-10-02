@@ -125,9 +125,9 @@ function SimCombatLog(props: { events: Event[] }) {
 			<div className="sim-combat-log-scroll">
 				{events.map((event, index) => {
 					let obj = getEventString(event);
-					if (filter && !obj.msg.toLocaleLowerCase().includes(filter.toLocaleLowerCase())) return;
+					const isFiltered = Boolean(filter && !obj.msg.toLocaleLowerCase().includes(filter.toLocaleLowerCase()));
 					return (
-						<div key={index} className={clsx('log-row', obj.incoming && 'incoming')} style={{ borderLeft: '2px solid ' + obj.color }}>
+						<div key={index} className={clsx('log-row', obj.incoming && 'incoming', isFiltered && 'filtered')} style={{ borderLeft: '2px solid ' + obj.color }}>
 							<span className="log-time">{(event.step / 1000).toFixed(3).padStart(6, '0')}</span>
 							<span dangerouslySetInnerHTML={{ __html: obj.msg }}></span>
 						</div>
