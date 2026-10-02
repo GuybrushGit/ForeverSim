@@ -13,7 +13,6 @@ import { applyPeriodicAura as applyPeriodicAuraImpl } from './effect-aura-period
 import { applyEffectAuraTarget as applyEffectAuraTargetImpl } from './effect-aura-target';
 import { Dummy } from './dummy';
 import type { Aura } from './aura';
-import { Combat } from './combat';
 
 export class Effect {
 	effectType: EffectType = 0;

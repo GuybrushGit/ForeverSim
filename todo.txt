@@ -1,6 +1,7 @@
 /********************************  TODO LIST  *************************
 
 item sets
+spell power to filters
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
