@@ -370,7 +370,7 @@ export const Combat = {
 				//sim.addPower((weapon.getAverageDamage(sim, 0) / sim.player.rage_conversion) * 75 * 0.75);
 			} else if (result != CombatResult.Miss) {
 				// https://github.com/magey/forever-warrior/issues/3
-				sim.addPower(weapon.speed * weapon.rage_mod * 10 * (result == CombatResult.Crit ? 1.75 : 1));
+				sim.addPower(weapon.speed * weapon.rage_mod * 10 * (result == CombatResult.Crit ? 2 : 1));
 			}
 		}
 	},

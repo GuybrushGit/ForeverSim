@@ -49,16 +49,17 @@ export type BuffsObject = {
 };
 
 export type TalentsObject = {
-	i: number;
-	n: string;
-	s: number[];
-	d: string[];
-	x: number;
-	y: number;
-	c: number;
-	iconname: string;
-	def: number;
-	r?: number[];
+	id: number;
+	name: string;
+	ranks: number[];
+	descriptions: any;
+	col: number;
+	row: number;
+	count: number;
+	icon: string;
+	definition: number;
+	requiredPoints?: number;
+	requires?: number[];
 	enable?: string;
 	aura?: any;
 	values?: number[];

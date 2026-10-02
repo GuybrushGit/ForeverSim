@@ -186,7 +186,7 @@ export class Player {
 		this.addRaceStats();
 		this.addTalents();
 		this.addItems();
-		this.addEnchants(test_slot, test_item);
+		this.addEnchants(data.items, test_slot, test_item);
 		this.addSets();
 		this.addBuffs();
 		if (data.custom) this.addStats(data.custom);
@@ -249,9 +249,11 @@ export class Player {
 			this.passive_auras.push(spell);
 		}
 
+		let race = this.race;
+		if (this.race == Race.Skyborne) race = Race.Human;
 		for (let line of levelstats) {
 			let stats = line.split(',');
-			if (stats[0] == String(this.race) && stats[2] == String(this.level)) {
+			if (stats[0] == String(race) && stats[2] == String(this.level)) {
 				this.base_stats.melee_ap += this.level * 3 - 20;
 				this.base_stats.str += Number(stats[3]);
 				this.base_stats.agi += Number(stats[4]);
@@ -264,27 +266,27 @@ export class Player {
 	addTalents() {
 		for (let tree of this.talents) {
 			for (let tal of tree.t) {
-				let spell = templateSpells[tal.s[tal.c - 1]];
-				if (tal.c && spell) {
+				let spell = templateSpells[tal.ranks[tal.count - 1]];
+				if (tal.count && spell) {
 					this.passive_auras.push(spell);
-					if (!tal.values && tal.c > 0) {
-						this.traits[tal.s[tal.c - 1]] = tal.c;
-						for (let effect of spell.effects) if (effect.triggerSpell) this.traits[effect.triggerSpell] = tal.c;
+					if (!tal.values && tal.count > 0) {
+						this.traits[tal.ranks[tal.count - 1]] = tal.count;
+						for (let effect of spell.effects) if (effect.triggerSpell) this.traits[effect.triggerSpell] = tal.count;
 
 						if (spell.id == SpellIds.ID_WARRIOR_WEAPONMASTER) {
-							this.traits[12281] = tal.c;
-							this.traits[12284] = tal.c;
-							this.traits[12700] = tal.c;
+							this.traits[12281] = tal.count;
+							this.traits[12284] = tal.count;
+							this.traits[12700] = tal.count;
 						}
 
 						if (spell.id == SpellIds.ID_WARRIOR_ENRAGE) {
-							this.traits[SpellIds.ID_WARRIOR_ENRAGEPROC] = tal.c;
+							this.traits[SpellIds.ID_WARRIOR_ENRAGEPROC] = tal.count;
 						}
 						if (spell.id == SpellIds.ID_WARRIOR_IMPZERKRAGE) {
-							this.traits[SpellIds.ID_WARRIOR_ZERKRAGEEFFECT] = tal.c;
+							this.traits[SpellIds.ID_WARRIOR_ZERKRAGEEFFECT] = tal.count;
 						}
 						if (spell.id == SpellIds.ID_WARRIOR_FLURRY) {
-							this.traits[SpellIds.ID_WARRIOR_FLURRYPROC] = tal.c;
+							this.traits[SpellIds.ID_WARRIOR_FLURRYPROC] = tal.count;
 						}
 					}
 				}
@@ -340,8 +342,12 @@ export class Player {
 			this.addStats(this.items[id].stats);
 		}
 	}
-	addEnchants(test_slot?: string, test_item?: any) {
+	addEnchants(items: any, test_slot?: string, test_item?: any) {
 		for (let slot in this.enchants) {
+			let parentSlot = slot.split('_')[0];
+			if (parentSlot == 'shield' || parentSlot == 'held') parentSlot = 'offhand';
+			if (!items[parentSlot]?.some((item: Item) => this.items.includes(item))) continue;
+
 			for (let enchant of this.enchants[slot]) {
 				if (slot == test_slot && enchant.id != test_item.id) continue;
 				if (slot !== test_slot && !enchant.selected) continue;

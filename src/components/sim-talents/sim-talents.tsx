@@ -25,7 +25,7 @@ function SimTalents() {
 
 	let level = getPlayerLevel();
 	let total = 0;
-	const treeTotals = talents.map((tree: TalentsTree) => tree.t.reduce((sum: number, obj: TalentsObject) => sum + obj.c, 0));
+	const treeTotals = talents.map((tree: TalentsTree) => tree.t.reduce((sum: number, obj: TalentsObject) => sum + obj.count, 0));
 	treeTotals.forEach((treeTotal: number) => (total += treeTotal));
 
 	return (

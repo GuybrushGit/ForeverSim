@@ -13,7 +13,7 @@ function SimTalentsIcon(props: {
 }) {
 	return (
 		<div
-			className={clsx('sim-talents-icon', props.count >= props.data.s.length && 'maxed')}
+			className={clsx('sim-talents-icon', props.count >= props.data.ranks.length && 'maxed')}
 			data-count={props.count}
 			onClick={e => {
 				e.preventDefault();
@@ -24,14 +24,14 @@ function SimTalentsIcon(props: {
 				props.handleRightClick(props.data);
 			}}>
 			<SimIcon
-				name={props.data.n}
-				img={props.data.iconname.toLowerCase()}
-				id={props.data.s[Math.max(0, props.data.c - 1)]}
+				name={props.data.name}
+				img={props.data.icon.toLowerCase()}
+				id={props.data.ranks[Math.max(0, props.data.count - 1)]}
 				greyed={props.greyed}
 				definition={props.definition}
 				rank={props.count.toString()}
 				selected={!!props.count}>
-				{props.required && <div className={clsx('arrow', props.required.y < props.data.y - 1 ? 'long' : '')}></div>}
+				{props.required && <div className={clsx('arrow', props.required.row < props.data.row - 1 ? 'long' : '')}></div>}
 			</SimIcon>
 		</div>
 	);

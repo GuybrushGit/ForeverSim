@@ -384,7 +384,7 @@ export default function SpellGenerator() {
 		// talents
 		templateTalents.forEach(tree => {
 			tree.t.forEach(talent => {
-				talent.s.forEach(id => {
+				talent.ranks.forEach(id => {
 					let spell = createSpell(id);
 					if (spell) spells[id] = spell;
 				});

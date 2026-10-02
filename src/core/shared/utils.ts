@@ -33,7 +33,7 @@ export function getBuff(buffs: any, id: number): any {
 export function getTalentByName(talents: TalentsTree[], name: string): any {
 	for (let tree in talents) {
 		for (let tal of talents[tree].t) {
-			if (tal.n == name) return tal;
+			if (tal.name == name) return tal;
 		}
 	}
 }
