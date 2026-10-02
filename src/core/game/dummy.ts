@@ -6,8 +6,6 @@ import { ProcSpell } from './aura';
 import templateSpells from '@modules/spells';
 import type { Player, PlayerStats } from './player';
 import type { Target } from './target';
-import { Combat } from './combat';
-import type { Action } from './action';
 import type { Weapon } from './weapon';
 
 export class Dummy {
