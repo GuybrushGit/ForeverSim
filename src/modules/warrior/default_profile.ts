@@ -1,27 +1,29 @@
 const defaultProfile = {
 	id: 'warrior0',
-	name: 'Default',
+	name: 'Fury',
 	level: 60,
 	class: 'Warrior',
 	classid: 1,
 	talents: {
 		'105927': 1,
 		'105928': 5,
-		'105929': 3,
 		'105930': 1,
-		'105931': 5,
 		'105932': 2,
 		'105933': 5,
-		'105936': 3,
 		'105937': 5,
 		'105939': 5,
+		'105947': 2,
+		'105949': 0,
 		'105950': 3,
 		'105952': 2,
-		'105953': 2,
-		'105954': 3,
+		'105953': 3,
+		'105954': 4,
 		'105956': 3,
-		'105958': 2,
+		'105958': 3,
+		'105974': 2,
 		'105977': 1,
+		'105978': 2,
+		'110857': 2,
 	},
 	settings: {
 		race: '1',
@@ -31,7 +33,7 @@ const defaultProfile = {
 		simulations: '30000',
 		aqbooks: 'no',
 	},
-	buffs: [24932, 9885, 17055, 20906, 20217, 19838, 20048, 10441, 10626, 11198, 9907, 17538, 11405, 17038, 18125, 1293741],
+	buffs: [24932, 9885, 17055, 20906, 20217, 19838, 20048, 10441, 10626, 11198, 11717, 17538, 11405, 17038, 18125, 1293741],
 	items: {
 		mainhand: {
 			'19554': {
@@ -182,7 +184,6 @@ const defaultProfile = {
 		mainhand_tempenchant: {
 			'10612': {
 				id: 10612,
-				path: 'inv_stone_sharpeningstone_05',
 				selected: true,
 			},
 		},
@@ -290,11 +291,12 @@ const defaultProfile = {
 			],
 		},
 		{
-			id: 11585,
-			name: 'Overpower',
-			path: 'ability_meleedamage',
+			id: 18499,
+			name: 'Berserker Rage',
+			path: 'spell_nature_ancestralguardian',
 			phase: 0,
 			conditions: [],
+			item: false,
 		},
 		{
 			id: 23894,
@@ -302,47 +304,21 @@ const defaultProfile = {
 			path: 'spell_nature_bloodlust',
 			phase: 0,
 			conditions: [],
-		},
-		{
-			id: 11567,
-			name: 'Heroic Strike',
-			path: 'ability_rogue_ambush',
-			phase: 0,
-			conditions: [
-				{
-					resource: 1,
-					comparator: '>=',
-					value: '40',
-					minpower: 400,
-				},
-			],
-		},
-		{
-			id: 2,
-			name: 'Prevent lower priority actions',
-			path: 'spell_holy_borrowedtime',
-			phase: 0,
-			conditions: [
-				{
-					resource: 2687,
-					comparator: '<=',
-					value: '2',
-				},
-			],
-		},
-		{
-			id: 2,
-			name: 'Prevent lower priority actions',
-			path: 'spell_holy_borrowedtime',
-			phase: 0,
-			conditions: [
-				{
-					resource: 11585,
-					comparator: '<=',
-					value: '2',
-				},
-			],
 			item: false,
+		},
+		{
+			id: 11585,
+			name: 'Overpower',
+			path: 'ability_meleedamage',
+			phase: 0,
+			conditions: [],
+		},
+		{
+			id: 1680,
+			name: 'Whirlwind',
+			path: 'ability_whirlwind',
+			phase: 0,
+			conditions: [],
 		},
 		{
 			id: 1,
@@ -353,17 +329,10 @@ const defaultProfile = {
 				{
 					resource: 1,
 					comparator: '<=',
-					value: '10',
-					maxpower: 100,
+					value: '20',
+					maxpower: 200,
 				},
 			],
-		},
-		{
-			id: 1680,
-			name: 'Whirlwind',
-			path: 'ability_whirlwind',
-			phase: 0,
-			conditions: [],
 		},
 		{
 			id: 1259813,
