@@ -339,12 +339,9 @@ export default function SpellGenerator() {
 		if (spell.id == 16538) spell.effects[0].basePointsF = 2;
 		if (spell.id == 1289682) spell.effects[0].basePointsF = 4;
 
-		if (spell.id == 23584) spell.effects[1].basePointsF = 20;
-		if (spell.id == 23584) spell.effects[2].basePointsF = 2;
-
-		if (spell.name == 'Shield Slam') spell.classMask = 64;
-		if (spell.name == 'Whirlwind') spell.classMask = 64;
-		if (spell.id == 1310222) spell.classMask = 64;
+		if (spell.name == 'Shield Slam') spell.classMask = 2048;
+		if (spell.name == 'Whirlwind') spell.classMask = 4194304;
+		if (spell.id == 1310222) spell.classMask = 134217728;
 
 		if (spell.name == 'Bloodthirst') spell.effects = spell.effects.slice(0, -1);
 		if (spell.id == 1289682) spell.procMask = 1073741828;
@@ -374,6 +371,8 @@ export default function SpellGenerator() {
 		if (spell.id == 11597) spell.effects[0].basePointsF = -2250;
 
 		if (spell.id == 467498) spell.effects[0].auraType = 133;
+
+		if (spell.id == 23584) spell.effects[1].basePointsF = 2;
 
 		if (spell.effects && spell.effects.length) return spell;
 	}

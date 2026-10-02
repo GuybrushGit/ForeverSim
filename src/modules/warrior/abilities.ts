@@ -25,19 +25,19 @@ export var templateAbilities = [
 	// Bloodthirst
 	{
 		id: 23881,
-		bonus_ap_perc: 35,
+		bonus_ap_perc: 45,
 	},
 	{
 		id: 23892,
-		bonus_ap_perc: 35,
+		bonus_ap_perc: 45,
 	},
 	{
 		id: 23893,
-		bonus_ap_perc: 35,
+		bonus_ap_perc: 45,
 	},
 	{
 		id: 23894,
-		bonus_ap_perc: 35,
+		bonus_ap_perc: 45,
 	},
 
 	// Mortal Strike

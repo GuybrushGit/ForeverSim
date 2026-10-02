@@ -13,6 +13,7 @@ import { applyPeriodicAura as applyPeriodicAuraImpl } from './effect-aura-period
 import { applyEffectAuraTarget as applyEffectAuraTargetImpl } from './effect-aura-target';
 import { Dummy } from './dummy';
 import type { Aura } from './aura';
+import { Combat } from './combat';
 
 export class Effect {
 	effectType: EffectType = 0;
@@ -109,7 +110,7 @@ export class Effect {
 
 				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
 				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) dmg *= 0.4;
-				if (target && !wep.offhand && spell.id == SpellIds.ID_WARRIOR_WHIRLWIND) Dummy.Whirlwind(sim, spell, target, action);
+				if (target && !wep.offhand && spell.id == SpellIds.ID_WARRIOR_WHIRLWIND) Combat.meleeSpellOutgoingOffhand(sim, spell, target, action);
 
 				// missing dmg_taken and dmg_taken_mod
 				// dmg taken before or after crit / armor modifications?
@@ -133,7 +134,6 @@ export class Effect {
 				if (spell.id == SpellIds.ID_WARRIOR_SHIELDSPECPROC) value = 50;
 				if (spell.id == SpellIds.ID_WARRIOR_UNBRIDLEDWRATH) value = 10;
 				if (spell.id == SpellIds.ID_WARRIOR_MASTERDEFENSE) value = 50;
-				if (spell.id == SpellIds.ID_WARRIOR_UNBRIDLEDWRATH && sim.player.mainhand && sim.player.mainhand.twohand) value *= 2;
 
 				if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA) sim.addPower(value, spell);
 				else if (this.miscValue == sim.player.power_type) sim.addPower(value, spell);

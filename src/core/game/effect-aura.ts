@@ -556,7 +556,6 @@ export function applyEffectAura(
 			if (spell.id == SpellIds.ID_WARRIOR_BLOODTHRILLPROC) return;
 			if (sim && spell.id == SpellIds.ID_ITEMS_RESTLESSSTRENGTH) return Dummy.RestlessStrength(sim, spell, remove);
 			if (sim && spell.id == SpellIds.ID_ITEMS_BRITTLEARMOR) return Dummy.BrittleArmor(sim, spell, remove);
-			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDSPEC) return Dummy.DualWieldSpecRage(player, value);
 			if (spell.id == SpellIds.ID_WARRIOR_RAGINGBLOWS) return;
 			if (spell.id == SpellIds.ID_WARRIOR_TOUCHGRAVE) return Dummy.TouchGrave(player, spell);
 			if (spell.id == 11826) return;

@@ -119,8 +119,8 @@ export const useStore = create()(
 				let profileTalents = get().profileList[get().profile].talents;
 				for (let tree of global.templateTalents) {
 					for (let talent of tree.t) {
-						talent.c = 0;
-						if (profileTalents[talent.i]) talent.c = profileTalents[talent.i];
+						talent.count = 0;
+						if (profileTalents[talent.id]) talent.count = profileTalents[talent.id];
 					}
 				}
 				return global.templateTalents;
@@ -132,7 +132,7 @@ export const useStore = create()(
 				trees.forEach((tree: any) => {
 					let count = 0;
 					tree.t.forEach((talent: any) => {
-						if (talents[talent.i]) count += talents[talent.i];
+						if (talents[talent.id]) count += talents[talent.id];
 					});
 					counts.push(count);
 				});

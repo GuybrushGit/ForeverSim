@@ -131,16 +131,8 @@ export class Dummy {
 		sim.timers.dodge = sim.step;
 	}
 
-	static DualWieldSpecRage(player: Player, value: number) {
-		if (player.offhand) player.offhand.rage_mod *= 1 + value / 100;
-	}
-
 	static DualWieldSpecHit(player: Player, value: number) {
 		if (player.offhand) player.offhand.bonushit += value;
-	}
-
-	static Whirlwind(sim: Simulation, spell: Spell, target: Target, action: Action) {
-		if (sim.player.traits[SpellIds.ID_WARRIOR_RAGINGBLOWS] == 1) Combat.meleeSpellOutgoingOffhand(sim, spell, target, action);
 	}
 
 	static Bloodthirst(sim: Simulation) {

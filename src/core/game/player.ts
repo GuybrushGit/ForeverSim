@@ -436,7 +436,7 @@ export class Player {
 					}
 				}
 				let talent = getTalentByName(this.talents, ability.name || spell.name) as any;
-				if (talent && !talent.c) continue;
+				if (talent && !talent.count) continue;
 
 				if (ability.race && ability.race != this.race) continue;
 
@@ -591,8 +591,8 @@ export class Player {
 				if (effect.auraType != AuraType.AddFlatModifier && effect.auraType != AuraType.AddPctModifier) continue;
 				let value = effect.basePointsF || 0;
 				const talent = getTalentByName(this.talents, spell.name) as any;
-				if (talent && talent.c && talent.values) {
-					value = talent.values[talent.c - 1];
+				if (talent && talent.count && talent.values) {
+					value = talent.values[talent.count - 1];
 				}
 				for (let ability of this.abilities) if (ability.id == spell.id) continue spell;
 				this.spell_mods.push({

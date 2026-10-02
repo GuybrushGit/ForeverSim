@@ -18,7 +18,7 @@ function SimRotationAction(props: { action: any; updateActions: any; removeActio
 	const race = getPlayerRace();
 	const talents = getTalents();
 	const talent = getTalentByName(talents, props.action.name) as any;
-	if (talent && !talent.c) disabled = true;
+	if (talent && !talent.count) disabled = true;
 	const abilities = getAbilities();
 	for (let ability of abilities) {
 		if (ability.id == props.action.id && ability.race && ability.race != race) disabled = true;

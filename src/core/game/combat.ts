@@ -198,10 +198,9 @@ export const Combat = {
 	rollMeleeAttackBack(sim: Simulation, weapon: Weapon, target: number) {
 		let tmp = 0;
 		let roll = rng10k();
-		tmp +=
-			sim.player.offhand && !sim.queue
-				? sim.target_stats[target].player_dw_miss_chance[weapon.index] * 100
-				: sim.target_stats[target].player_miss_chance[weapon.index] * 100;
+		tmp += sim.player.offhand
+			? sim.target_stats[target].player_dw_miss_chance[weapon.index] * 100
+			: sim.target_stats[target].player_miss_chance[weapon.index] * 100;
 		if (roll < tmp) return CombatResult.Miss;
 		tmp += sim.target_stats[target].dodge[weapon.index] * 100;
 		if (roll < tmp) return CombatResult.Dodge;
@@ -215,10 +214,9 @@ export const Combat = {
 	rollMeleeAttackFront(sim: Simulation, weapon: Weapon, target: number) {
 		let tmp = 0;
 		let roll = rng10k();
-		tmp +=
-			sim.player.offhand && !sim.queue
-				? sim.target_stats[target].player_dw_miss_chance[weapon.index] * 100
-				: sim.target_stats[target].player_miss_chance[weapon.index] * 100;
+		tmp += sim.player.offhand
+			? sim.target_stats[target].player_dw_miss_chance[weapon.index] * 100
+			: sim.target_stats[target].player_miss_chance[weapon.index] * 100;
 		if (roll < tmp) return CombatResult.Miss;
 		tmp += sim.target_stats[target].dodge[weapon.index] * 100;
 		if (roll < tmp) return CombatResult.Dodge;

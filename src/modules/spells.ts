@@ -392,7 +392,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cost": 250,
     "schoolMask": 1,
     "attributes": 327696,
-    "classMask": 64,
+    "classMask": 4194304,
     "classSet": 4,
     "cooldown": 10000,
     "gcd": true,
@@ -2017,7 +2017,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cost": 25,
     "schoolMask": 1,
     "attributes": 327696,
-    "attributesEx": 138412544,
+    "attributesEx": 134218240,
     "attributesEx3": 1024,
     "classMask": 524288,
     "classSet": 8,
@@ -2051,7 +2051,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cost": 25,
     "schoolMask": 1,
     "attributes": 327696,
-    "attributesEx": 138412544,
+    "attributesEx": 134218240,
     "attributesEx3": 1024,
     "classMask": 524288,
     "classSet": 8,
@@ -2085,7 +2085,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cost": 25,
     "schoolMask": 1,
     "attributes": 327696,
-    "attributesEx": 138412544,
+    "attributesEx": 134218240,
     "attributesEx3": 1024,
     "classMask": 524288,
     "classSet": 8,
@@ -3138,7 +3138,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cost": 25,
     "schoolMask": 1,
     "attributes": 327696,
-    "attributesEx": 138412544,
+    "attributesEx": 134218240,
     "attributesEx3": 1024,
     "classMask": 524288,
     "classSet": 8,
@@ -3172,7 +3172,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cost": 25,
     "schoolMask": 1,
     "attributes": 327696,
-    "attributesEx": 138412544,
+    "attributesEx": 134218240,
     "attributesEx3": 1024,
     "classMask": 524288,
     "classSet": 8,
@@ -4452,32 +4452,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
-  "12299": new Spell({
-    "id": 12299,
-    "name": "Toughness",
-    "schoolMask": 1,
-    "attributes": 464,
-    "path": "spell_holy_devotion",
-    "baseLevel": 1,
-    "effects": [
-      new Effect({
-        "effectType": 6,
-        "auraType": 142,
-        "basePointsF": 2,
-        "amplitude": 1,
-        "miscValue": 1,
-        "target": 1
-      }),
-      new Effect({
-        "effectType": 6,
-        "auraType": 466,
-        "basePointsF": 10,
-        "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
-      })
-    ]
-  }),
   "12301": new Spell({
     "id": 12301,
     "name": "Improved Bloodrage",
@@ -4741,26 +4715,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 5,
         "amplitude": 1,
         "miscValue": 127,
-        "target": 1
-      })
-    ]
-  }),
-  "12329": new Spell({
-    "id": 12329,
-    "name": "Improved Cleave",
-    "schoolMask": 1,
-    "attributes": 464,
-    "classSet": 4,
-    "path": "ability_warrior_cleave",
-    "baseLevel": 1,
-    "effects": [
-      new Effect({
-        "effectType": 6,
-        "auraType": 107,
-        "basePointsF": -10,
-        "amplitude": 1,
-        "miscValue": 14,
-        "classMask": 4194304,
         "target": 1
       })
     ]
@@ -8679,14 +8633,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       }),
       new Effect({
         "effectType": 6,
-        "auraType": 4,
-        "basePointsF": 20,
-        "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
-      }),
-      new Effect({
-        "effectType": 6,
         "auraType": 54,
         "basePointsF": 2,
         "amplitude": 1,
@@ -9061,7 +9007,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "schoolMask": 1,
     "attributes": 327696,
     "attributesEx": 134218240,
-    "classMask": 64,
+    "classMask": 2048,
     "classSet": 4,
     "cooldown": 6000,
     "gcd": true,
@@ -9094,7 +9040,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "schoolMask": 1,
     "attributes": 327696,
     "attributesEx": 134218240,
-    "classMask": 64,
+    "classMask": 2048,
     "classSet": 4,
     "cooldown": 6000,
     "gcd": true,
@@ -9127,7 +9073,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "schoolMask": 1,
     "attributes": 327696,
     "attributesEx": 134218240,
-    "classMask": 64,
+    "classMask": 2048,
     "classSet": 4,
     "cooldown": 6000,
     "gcd": true,
@@ -9160,7 +9106,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "schoolMask": 1,
     "attributes": 327696,
     "attributesEx": 134218240,
-    "classMask": 64,
+    "classMask": 2048,
     "classSet": 4,
     "cooldown": 6000,
     "gcd": true,
@@ -12298,31 +12244,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
-  "1225295": new Spell({
-    "id": 1225295,
-    "name": "Precision",
-    "schoolMask": 1,
-    "attributes": 448,
-    "path": "ability_marksmanship",
-    "effects": [
-      new Effect({
-        "effectType": 6,
-        "auraType": 54,
-        "basePointsF": 1,
-        "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
-      }),
-      new Effect({
-        "effectType": 6,
-        "auraType": 55,
-        "basePointsF": 3,
-        "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
-      })
-    ]
-  }),
   "1225951": new Spell({
     "id": 1225951,
     "name": "Tinker: Teleport",
@@ -13017,7 +12938,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": -10,
         "amplitude": 1,
         "miscValue": 14,
-        "classMask": 710934758,
+        "classMask": 1784679630,
         "target": 1
       }),
       new Effect({
@@ -13025,18 +12946,17 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 108,
         "basePointsF": 10,
         "amplitude": 1,
-        "classMask": 710934758,
+        "classMask": 1784679630,
         "target": 1,
         "miscValue": 8
       }),
       new Effect({
         "effectType": 6,
-        "auraType": 108,
+        "auraType": 4,
         "basePointsF": 10,
         "amplitude": 1,
-        "miscValue": 22,
-        "classMask": 32,
-        "target": 1
+        "target": 1,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 6,
@@ -14477,6 +14397,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "cooldown": 20000,
     "gcd": true,
     "path": "inv_spear_01",
+    "formMask": 65536,
     "baseLevel": 1,
     "effects": [
       new Effect({
@@ -14500,24 +14421,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "miscValue": 0
       })
     ],
-    "classMask": 64
-  }),
-  "1310236": new Spell({
-    "id": 1310236,
-    "name": "Boundless Rage",
-    "schoolMask": 1,
-    "attributes": 464,
-    "path": "ability_warrior_intensifyrage",
-    "effects": [
-      new Effect({
-        "effectType": 6,
-        "auraType": 418,
-        "basePointsF": 100,
-        "amplitude": 1,
-        "miscValue": 1,
-        "target": 1
-      })
-    ]
+    "classMask": 134217728
   }),
   "1310315": new Spell({
     "id": 1310315,

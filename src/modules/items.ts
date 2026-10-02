@@ -11474,7 +11474,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 35,
-      "name": "Souvenier Sea Shell",
+      "name": "Souvenir Sea Shell",
       "path": "inv_jewelry_necklace_10",
       "stats": {
         "sta": 13,
@@ -11589,9 +11589,9 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "name": "Artifact Seeker's Pendant",
       "path": "trade_archaeology_pendant of the aqir",
       "stats": {
-        "agi": 10,
-        "str": 10,
-        "sta": 10,
+        "agi": 8,
+        "str": 9,
+        "sta": 14,
         "armor": 0
       }
     },
@@ -11601,13 +11601,13 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "subclassId": 0,
       "slot": 2,
       "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
+      "quality": 2,
+      "ilvl": 23,
       "name": "Scholarly Pendant",
       "path": "inv_jewelry_necklace_11",
       "stats": {
-        "sta": 6,
-        "spi": 4,
+        "sta": 3,
+        "spi": 2,
         "armor": 0
       }
     },
@@ -11617,13 +11617,13 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "subclassId": 0,
       "slot": 2,
       "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
+      "quality": 2,
+      "ilvl": 23,
       "name": "Erudite's Amulet",
       "path": "inv_jewelry_necklace_01",
       "stats": {
-        "agi": 4,
-        "sta": 6,
+        "agi": 2,
+        "sta": 3,
         "armor": 0
       }
     },
@@ -11818,12 +11818,12 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dmg_done": [
           0,
           0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
         ],
         "armor": 0
       }
@@ -102962,13 +102962,14 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 274978,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 1,
       "quality": 3,
       "ilvl": 1,
       "name": "Leafre's Ring of Great Resistance",
       "path": "inv_jewelry_talisman_01",
+      "displayid": 0,
       "stats": {
         "resistance": [
           0,
@@ -102977,10 +102978,9 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           150,
           150,
           150,
-          150,
+          0,
           150
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -103520,26 +103520,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 276765,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 1,
       "quality": 4,
       "ilvl": 66,
       "name": "Leafre's Ring of Precise Spell Power",
       "path": "inv_jewelry_ring_38",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          100,
-          100,
-          100,
-          100,
-          100,
-          100
-        ],
-        "armor": 0
-      }
+      "displayid": 0,
+      "stats": {}
     },
     {
       "id": 276899,
@@ -103731,11 +103720,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 11,
       "requires": 0,
       "quality": 3,
-      "ilvl": 40,
+      "ilvl": 35,
       "name": "Philanthropist's Ring",
       "path": "inv_jewelry_ring_14",
       "stats": {
-        "int": 6,
+        "int": 5,
         "dmg_done": [
           0,
           0,
@@ -103989,15 +103978,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 285326,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 1,
       "quality": 3,
       "ilvl": 1,
       "name": "Leafre's Ring of Armor Piercing",
-      "stats": {
-        "armor": 0
-      }
+      "path": "inv_11xp_generic_blizzardphoenixring01",
+      "displayid": 0,
+      "stats": {}
     },
     {
       "id": 285330,
@@ -104498,6 +104487,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           1000,
           1000
         ],
+        "armor": 0
+      }
+    },
+    {
+      "id": 281634,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 3,
+      "ilvl": 35,
+      "name": "Field Researcher's Loop",
+      "path": "inv_jewelry_ring_02",
+      "stats": {
+        "agi": 7,
+        "sta": 7,
         "armor": 0
       }
     }
@@ -109930,13 +109935,14 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 274978,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 1,
       "quality": 3,
       "ilvl": 1,
       "name": "Leafre's Ring of Great Resistance",
       "path": "inv_jewelry_talisman_01",
+      "displayid": 0,
       "stats": {
         "resistance": [
           0,
@@ -109945,10 +109951,9 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           150,
           150,
           150,
-          150,
+          0,
           150
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -110488,26 +110493,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 276765,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 1,
       "quality": 4,
       "ilvl": 66,
       "name": "Leafre's Ring of Precise Spell Power",
       "path": "inv_jewelry_ring_38",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          100,
-          100,
-          100,
-          100,
-          100,
-          100
-        ],
-        "armor": 0
-      }
+      "displayid": 0,
+      "stats": {}
     },
     {
       "id": 276899,
@@ -110699,11 +110693,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 11,
       "requires": 0,
       "quality": 3,
-      "ilvl": 40,
+      "ilvl": 35,
       "name": "Philanthropist's Ring",
       "path": "inv_jewelry_ring_14",
       "stats": {
-        "int": 6,
+        "int": 5,
         "dmg_done": [
           0,
           0,
@@ -110957,15 +110951,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 285326,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 1,
       "quality": 3,
       "ilvl": 1,
       "name": "Leafre's Ring of Armor Piercing",
-      "stats": {
-        "armor": 0
-      }
+      "path": "inv_11xp_generic_blizzardphoenixring01",
+      "displayid": 0,
+      "stats": {}
     },
     {
       "id": 285330,
@@ -111466,6 +111460,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           1000,
           1000
         ],
+        "armor": 0
+      }
+    },
+    {
+      "id": 281634,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 3,
+      "ilvl": 35,
+      "name": "Field Researcher's Loop",
+      "path": "inv_jewelry_ring_02",
+      "stats": {
+        "agi": 7,
+        "sta": 7,
         "armor": 0
       }
     }
@@ -113754,11 +113764,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Volunteer's Lucky Seal",
       "path": "inv_misc_rune_08",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -113769,11 +113779,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Enriched Seal",
       "path": "inv_misc_rune_06",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -113799,11 +113809,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Darkspear Voodoo Seal",
       "path": "inv_misc_rune_06",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -113844,11 +113854,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Relentless Raider's Seal",
       "path": "inv_misc_rune_08",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -114343,7 +114353,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 2,
       "ilvl": 50,
-      "name": "Alchemists' Stone",
+      "name": "Alchemist's Stone",
       "path": "inv_misc_orb_02",
       "stats": {
         "spi": 4,
@@ -116664,11 +116674,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Volunteer's Lucky Seal",
       "path": "inv_misc_rune_08",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -116679,11 +116689,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Enriched Seal",
       "path": "inv_misc_rune_06",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -116709,11 +116719,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Darkspear Voodoo Seal",
       "path": "inv_misc_rune_06",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -116754,11 +116764,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 12,
       "requires": 0,
       "quality": 3,
-      "ilvl": 33,
+      "ilvl": 38,
       "name": "Relentless Raider's Seal",
       "path": "inv_misc_rune_08",
       "stats": {
-        "sta": 6,
+        "sta": 7,
         "armor": 0
       }
     },
@@ -117253,7 +117263,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 2,
       "ilvl": 50,
-      "name": "Alchemists' Stone",
+      "name": "Alchemist's Stone",
       "path": "inv_misc_orb_02",
       "stats": {
         "spi": 4,
@@ -145459,13 +145469,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 14,
       "requires": 0,
       "quality": 3,
-      "ilvl": 50,
+      "ilvl": 45,
       "name": "Crest of Elucidation",
       "stats": {
-        "spi": 13,
-        "int": 6,
-        "armor": 1739,
-        "block_amount": 29
+        "spi": 12,
+        "dmg_done": [
+          0,
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "armor": 1580,
+        "block_amount": 24
       },
       "displayid": "20833"
     },
@@ -145886,8 +145905,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 58,
       "name": "Antique Bulwark",
       "stats": {
-        "sta": 16,
-        "defense": 10,
+        "sta": 13,
+        "defense": 8,
         "armor": 1994,
         "block_amount": 36
       },
@@ -155978,8 +155997,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 154.26,
       "path": "inv_mace_42",
       "stats": {
-        "str": 16,
         "sta": 15,
+        "int": 16,
         "armor": 0
       },
       "displayid": "741091"
@@ -159585,13 +159604,13 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "slot": 15,
       "requires": 0,
       "quality": 3,
-      "ilvl": 48,
+      "ilvl": 45,
       "name": "Truthseeker's Bow",
       "speed": 2.8,
-      "mindmg": 49.36,
-      "maxdmg": 91.66,
+      "mindmg": 46.64,
+      "maxdmg": 86.61,
       "stats": {
-        "agi": 8,
+        "agi": 7,
         "sta": 3,
         "armor": 0
       },
