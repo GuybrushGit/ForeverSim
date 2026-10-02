@@ -4464,7 +4464,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 108,
-        "basePointsF": 50,
+        "basePointsF": 25,
         "amplitude": 1,
         "miscValue": 8,
         "classMask": 256,

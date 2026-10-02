@@ -1,4 +1,4 @@
-import { AuraType, CombatResult, EffectType, EventType, Powers, SchoolMask, SpellAttributesEx2, SpellSchool } from '@core/shared/enums';
+import { AuraType, CombatResult, EffectType, EventType, Powers, SchoolMask, SpellAttributesEx2, SpellIds, SpellSchool } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import { type Action } from './action';
 import { rng10k, round } from '@core/shared/utils';
@@ -13,8 +13,11 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, a
 
 	switch (this.auraType) {
 		case AuraType.PeriodicEnergize:
-			if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA) sim.addPower(this.getValue(sim.player, spell, sim, action), spell);
-			else if (this.miscValue == sim.player.power_type) sim.addPower(this.getValue(sim.player, spell, sim, action), spell);
+			let val = this.getValue(sim.player, spell, sim, action);
+			if (spell.id == SpellIds.ID_WARRIOR_BLOODRAGEPROC && sim.player.traits[SpellIds.ID_WARRIOR_BLOODRAGETALENT])
+				val *= 1 + sim.player.traits[SpellIds.ID_WARRIOR_BLOODRAGETALENT] * 0.25;
+			if (!this.miscValue && sim.player.power_type == Powers.POWER_MANA) sim.addPower(val, spell);
+			else if (this.miscValue == sim.player.power_type) sim.addPower(val, spell);
 			return 0;
 		case AuraType.PeriodicDamage:
 		case AuraType.PeriodicLeech:

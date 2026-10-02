@@ -373,6 +373,7 @@ export default function SpellGenerator() {
 		if (spell.id == 467498) spell.effects[0].auraType = 133;
 
 		if (spell.id == 23584) spell.effects[1].basePointsF = 2;
+		if (spell.id == 12301) spell.effects[0].basePointsF = 25;
 
 		if (spell.effects && spell.effects.length) return spell;
 	}
