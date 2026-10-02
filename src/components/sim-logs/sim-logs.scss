@@ -20,4 +20,63 @@
 			margin: 0;
 		}
 	}
+
+	@media (max-width: $tablet-width) {
+		flex-direction: column;
+		height: auto;
+
+		.sim-spell-stats,
+		.sim-aura-uptime,
+		.sim-combat-log {
+			width: 100%;
+			height: auto;
+			border-right: 0;
+			border-bottom: 1px solid $border-color;
+		}
+		// most useful summary first on small screens
+		.sim-spell-stats {
+			order: 1;
+		}
+		.sim-aura-uptime {
+			order: 2;
+		}
+		.sim-combat-log {
+			order: 3;
+		}
+		.sim-spell-stats .sim-spell-stats-wrapper,
+		.sim-aura-uptime .sim-aura-uptime-wrapper {
+			height: auto;
+			overflow: visible;
+		}
+		.sim-combat-log .sim-combat-log-scroll {
+			height: max(400px, 70dvh);
+		}
+	}
+
+	@media (max-width: $mobile-width) {
+		.sim-logging-header {
+			padding: 12px;
+			flex-wrap: wrap;
+			gap: 4px 12px;
+		}
+		.sim-spell-stats .sim-overview-grid,
+		.sim-spell-stats .sim-spell-section,
+		.sim-aura-uptime .sim-aura-uptime-section {
+			padding: 12px;
+		}
+		.sim-spell-stats .stat-value {
+			font-size: 17px;
+		}
+		.sim-spell-stats .spell-head {
+			flex-wrap: wrap;
+			gap: 4px 12px;
+		}
+		.sim-combat-log .log-row {
+			gap: 8px;
+			padding: 6px 12px;
+		}
+		.sim-combat-log .log-time {
+			min-width: 44px;
+		}
+	}
 }

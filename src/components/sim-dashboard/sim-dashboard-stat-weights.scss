@@ -1,4 +1,6 @@
 .sim-dashboard-stat-weights {
+	container-type: inline-size;
+	box-sizing: border-box;
 	width: 100%;
 	min-height: calc(100vh - 80px);
 	padding: 24px 32px;
@@ -124,39 +126,51 @@
 		flex-direction: column;
 		padding: 16px;
 	}
-	@media (max-width: $phablet-width) {
-		padding: 22px 20px 30px;
+	@media (max-width: $mobile-width) {
+		padding: 16px 12px 24px;
+	}
+	// container queries so the layout also adapts when the dashboard column is narrow on desktop
+	@container (max-width: 640px) {
 		.weights-grid {
 			flex-direction: column;
 		}
 		.weights-side {
 			width: 100%;
 			flex-basis: auto;
-			flex-direction: row;
 		}
-		.settings-panel {
-			flex: 1;
+		.panel-buttons {
+			flex-direction: row;
+			flex-wrap: wrap;
+			button {
+				flex: 1 1 100px;
+				justify-content: center;
+			}
+		}
+		.panel-bottom {
+			margin-top: 12px;
 		}
 	}
-	@media (max-width: $mobile-width) {
-		.stat-weights-heading,
+	@container (max-width: 420px) {
 		.weight-list {
-			padding-left: 12px;
-			padding-right: 12px;
+			padding: 4px 12px 8px;
 		}
 		.weight-row {
-			gap: 8px;
+			min-height: 40px;
+			flex-wrap: wrap;
+			gap: 4px 8px;
+			padding: 8px 0;
 		}
 		.weight-label {
-			width: 118px;
-			flex-basis: 118px;
+			width: auto;
+			flex: 1 1 auto;
 			font-size: 12px;
 		}
 		.weight-bar {
-			display: none;
+			order: 1;
+			flex: 1 0 100%;
 		}
-		.weights-side {
-			flex-direction: column;
+		.settings-panel {
+			padding: 12px;
 		}
 	}
 }

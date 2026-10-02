@@ -1,8 +1,6 @@
 /********************************  TODO LIST  *************************
 
-
-add custom gear
-mobile css
+item sets
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard

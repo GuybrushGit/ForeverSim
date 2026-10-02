@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
 const global = globalThis as any;
+const CUSTOM_ITEM_ID_START = 900000000;
 export const useStore = create()(
 	persist(
 		(set, get: any) => ({
@@ -225,6 +226,34 @@ export const useStore = create()(
 					if (set.items.includes(itemId)) return set;
 				}
 			},
+
+			// custom items
+			customItems: {} as Record<string, any[]>,
+			loadCustomItems: () => {
+				let customItems = get().customItems;
+				for (let slot in customItems) {
+					if (!global.templateItems[slot]) global.templateItems[slot] = [];
+					for (let item of customItems[slot]) {
+						if (global.templateItems[slot].some((existing: any) => existing.id === item.id)) continue;
+						global.templateItems[slot].push({ ...item });
+					}
+				}
+			},
+			addCustomItem: (slot: string, item: any) =>
+				set((state: any) => {
+					let ids = Object.values(state.customItems as Record<string, any[]>)
+						.flat()
+						.map((existing: any) => existing.id);
+					let newItem = { ...item, id: Math.max(CUSTOM_ITEM_ID_START, ...ids) + 1, custom: true };
+					if (!global.templateItems[slot]) global.templateItems[slot] = [];
+					global.templateItems[slot].push({ ...newItem });
+					return { customItems: { ...state.customItems, [slot]: [...(state.customItems[slot] || []), newItem] } };
+				}),
+			removeCustomItem: (slot: string, id: number) =>
+				set((state: any) => {
+					if (global.templateItems[slot]) global.templateItems[slot] = global.templateItems[slot].filter((item: any) => item.id !== id);
+					return { customItems: { ...state.customItems, [slot]: (state.customItems[slot] || []).filter((item: any) => item.id !== id) } };
+				}),
 
 			// enchants
 			getEnchants: () => {

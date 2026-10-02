@@ -12,11 +12,13 @@ import defaultProfile from './default_profile';
 import { App } from '../../App';
 import { SimulationWorkers } from '@core/simulation-workers';
 import { ClassMask } from '@core/shared/enums';
+import { useStore } from '@core/shared/store';
 
 export default function ClassicWarrior() {
 	let global = globalThis as any;
 	global.templateBuffs = templateBuffs;
 	global.templateItems = templateItems;
+	useStore.getState().loadCustomItems();
 	global.templateEnchants = templateEnchants;
 	global.templatePresets = templatePresets;
 	global.templateAbilities = templateAbilities;

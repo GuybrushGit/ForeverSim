@@ -74,4 +74,25 @@
 			}
 		}
 	}
+	@media (max-width: $tablet-width) {
+		padding: 12px 8px;
+		box-sizing: border-box;
+		.title {
+			position: static;
+			margin: 0 0 8px 4px;
+			font-size: 16px;
+		}
+		.container {
+			flex-wrap: wrap;
+			height: auto;
+			gap: 2px;
+		}
+		.icon-container:nth-child(4),
+		.icon-container:nth-child(14) {
+			margin-right: 0;
+		}
+		.sim-icon.selected:before {
+			display: none;
+		}
+	}
 }

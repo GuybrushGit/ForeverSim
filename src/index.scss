@@ -47,6 +47,17 @@ h1 {
 	align-items: center;
 }
 
+@media (max-width: $phablet-width) {
+	#root {
+		flex-direction: column;
+	}
+	.section-container {
+		height: calc(100dvh - #{$mobile-topbar-height});
+		// centered content taller than the viewport would be clipped above the scroll area
+		align-items: flex-start;
+	}
+}
+
 button {
 	font-family: $copy-font;
 	font-weight: 600;

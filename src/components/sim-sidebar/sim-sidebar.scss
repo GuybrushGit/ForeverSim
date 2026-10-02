@@ -153,3 +153,77 @@
 		border-color: rgba(211, 163, 78, 0.25);
 	}
 }
+.sim-sidebar-topbar,
+.sim-sidebar-backdrop {
+	display: none;
+}
+
+@media (max-width: $phablet-width) {
+	.sim-sidebar-shell {
+		flex: 0 0 $mobile-topbar-height;
+		width: 100%;
+		height: $mobile-topbar-height;
+		z-index: 30;
+	}
+	.sim-sidebar-topbar {
+		position: relative;
+		z-index: 3;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: $mobile-topbar-height;
+		padding: 0 8px;
+		box-sizing: border-box;
+		background: $background-card;
+		border-bottom: 1px solid $border-color;
+		button {
+			width: 36px;
+			height: 36px;
+			padding: 0;
+			justify-content: center;
+		}
+	}
+	.sim-sidebar-backdrop {
+		position: fixed;
+		inset: $mobile-topbar-height 0 0 0;
+		z-index: 1;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.menu-open .sim-sidebar-backdrop,
+	.stats-open .sim-sidebar-backdrop {
+		display: block;
+	}
+	.sim-sidebar {
+		position: fixed;
+		top: $mobile-topbar-height;
+		left: 0;
+		width: min(280px, 85vw);
+		height: calc(100dvh - #{$mobile-topbar-height});
+		overflow-y: auto;
+		transform: translateX(-100%);
+		visibility: hidden;
+		transition:
+			transform 0.2s ease,
+			visibility 0.2s linear;
+	}
+	.menu-open .sim-sidebar {
+		transform: translateX(0);
+		visibility: visible;
+	}
+	.sim-sidebar-stats-toggle {
+		display: none;
+	}
+	.sim-sidebar-stats-panel {
+		position: fixed;
+		z-index: 2;
+		top: $mobile-topbar-height;
+		left: auto;
+		right: 0;
+		width: min(320px, 100vw);
+		height: calc(100dvh - #{$mobile-topbar-height});
+		box-sizing: border-box;
+		border-left: 1px solid $border-color;
+		border-right: 0;
+		transform: translateX(100%);
+	}
+}

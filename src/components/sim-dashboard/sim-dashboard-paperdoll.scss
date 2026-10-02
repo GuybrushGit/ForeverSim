@@ -48,6 +48,10 @@
 				border-top: 0;
 			}
 		}
+		& > .bottom {
+			justify-content: center;
+			margin: auto 0 -8px;
+		}
 		.sim-tabs {
 			padding: 0;
 		}
@@ -271,6 +275,56 @@
 				border-color: $yellow-copy;
 				color: $yellow-copy;
 			}
+		}
+	}
+	@media (max-width: $mobile-width) {
+		& > div {
+			gap: 6px;
+		}
+		.top-button button {
+			width: min(260px, calc(100vw - 24px));
+		}
+		.center {
+			box-sizing: border-box;
+			width: min(292px, calc(100vw - 128px));
+			height: 380px;
+			padding: 0 8px;
+			& > .bottom {
+				margin-bottom: 8px;
+			}
+		}
+		.sim-icon {
+			width: 40px;
+			height: 40px;
+			&.child {
+				height: 40px;
+				img {
+					width: 38px;
+					height: 38px;
+				}
+			}
+		}
+		.bottom .sim-icon.child {
+			width: 40px;
+			height: 14px;
+			img {
+				width: 38px;
+				height: 38px;
+			}
+		}
+		// keep the acquired toggle inside the icon so it never leaves the screen
+		.left .slot-selected .icon-acquired,
+		.left .slot-selected .child + .icon-acquired,
+		.right .slot-selected .icon-acquired,
+		.right .slot-selected .child + .icon-acquired,
+		.bottom .slot-selected .icon-acquired,
+		.bottom .slot-selected .child + .icon-acquired {
+			left: 5px;
+			top: 5px;
+		}
+		.icon-acquired {
+			width: 14px;
+			height: 14px;
 		}
 	}
 }

@@ -7,6 +7,9 @@
 		&.dashboard {
 			height: calc(100vh - 128px);
 		}
+		@media (max-width: $tablet-width) {
+			height: max(400px, 70dvh);
+		}
 	}
 	.ag-column-first {
 		overflow: visible;
@@ -29,6 +32,9 @@
 		left: 60px;
 		top: -2px;
 		z-index: 1;
+		@media (max-width: $phablet-width) {
+			width: calc(100vw - 90px);
+		}
 	}
 	.buttons {
 		width: 100%;
@@ -62,14 +68,31 @@
 		position: relative;
 		z-index: 5;
 		& > summary {
+			font-family: $copy-font;
 			font-size: 12px;
-			text-align: center;
+			font-weight: 600;
+			letter-spacing: 0.02em;
+			height: 32px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 6px;
+			color: $white-copy;
+			background: transparent;
 			border: 1px solid $border-color;
 			border-radius: $border-radius;
 			white-space: nowrap;
-			padding: 9px 12px;
+			padding: 4px 12px;
 			cursor: pointer;
 			list-style: none;
+			transition: all 0.1s ease-in;
+			&:hover {
+				background: $button-hover;
+				border-color: $border-color-light;
+			}
+		}
+		&[open] > summary {
+			background: $button-highlight;
 		}
 		& > summary::-webkit-details-marker {
 			display: none;
@@ -174,6 +197,16 @@
 					opacity: 0.5;
 				}
 			}
+		}
+	}
+	.item-modal {
+		width: min(520px, 85vw);
+		max-height: 80vh;
+		overflow-y: auto;
+		.item-modal-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 12px;
 		}
 	}
 	.progress-bar {

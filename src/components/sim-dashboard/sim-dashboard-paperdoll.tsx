@@ -28,10 +28,22 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 	}
 	activeSetCounts.sort((a, b) => a.set.id - b.set.id);
 
+	function scrollToDashboardRight() {
+		if (!window.matchMedia('(max-width: 1023px)').matches) return;
+		// wait for the right panel to re-render before scrolling
+		setTimeout(() => document.querySelector('.sim-dashboard-right')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+	}
+
+	function showStatWeights() {
+		props.setStatWeights(true);
+		scrollToDashboardRight();
+	}
+
 	function handleClick(slot: string) {
 		if (slot == 'shirt' || slot == 'tabard') return;
 		props.setStatWeights(false);
 		setSlot(slot);
+		scrollToDashboardRight();
 	}
 
 	function setAcquired(item: any, slot: string, event: any) {
@@ -131,7 +143,7 @@ function SimDashboardPaperdoll(props: { statWeights: boolean; setStatWeights: an
 	return (
 		<div className="sim-dashboard-paperdoll">
 			<div className="top-button">
-				<button className={props.statWeights ? 'selected' : ''} onClick={() => props.setStatWeights(true)}>
+				<button className={props.statWeights ? 'selected' : ''} onClick={showStatWeights}>
 					Stat Weights
 				</button>
 				<SimMenu text="Gear Presets">

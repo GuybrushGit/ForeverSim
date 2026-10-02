@@ -34,4 +34,86 @@
 			font-weight: bold;
 		}
 	}
+	.tree-wrapper {
+		flex: 1 1 0;
+		min-width: 0;
+		display: flex;
+	}
+	.tree-tabs,
+	.remove-toggle {
+		display: none;
+	}
+	// touch devices can't right-click to remove points
+	@media (hover: none), (max-width: $phablet-width) {
+		.remove-toggle {
+			display: flex;
+			&.active {
+				color: $yellow-copy;
+				border-color: $icon-border;
+				background: $button-hover;
+			}
+		}
+		.sim-talents-icon {
+			-webkit-touch-callout: none;
+			user-select: none;
+		}
+	}
+	@media (max-width: $phablet-width) {
+		padding: 28px 0 0;
+		width: min(420px, calc(90vw - 32px));
+		.top {
+			width: 100%;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			button p {
+				font-size: 12px;
+			}
+		}
+		.restrictions {
+			font-size: 12px;
+		}
+		.points {
+			font-size: 12px;
+			padding-right: 0;
+			p {
+				margin: 0;
+			}
+		}
+		.tree-tabs {
+			display: flex;
+			width: 100%;
+			gap: 4px;
+			button {
+				flex: 1 1 0;
+				min-width: 0;
+				justify-content: center;
+				gap: 6px;
+				font-size: 12px;
+				padding: 0 4px;
+				&.active {
+					color: $yellow-copy;
+					border-color: $icon-border;
+				}
+				span {
+					color: $light-grey;
+					font-size: 11px;
+				}
+			}
+		}
+		.tree-wrapper {
+			display: none;
+			&.active {
+				display: flex;
+			}
+		}
+		.sim-talents-tree {
+			padding: 4px 8px;
+			table {
+				margin: 0 auto;
+			}
+			.label {
+				display: none;
+			}
+		}
+	}
 }

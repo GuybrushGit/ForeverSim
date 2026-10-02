@@ -3,7 +3,7 @@ import SimTalentsIcon from './sim-talents-icon';
 import type { TalentsObject } from '@core/shared/types';
 import { useStore } from '@core/shared/store';
 
-function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTotal: number; restrictions: boolean }) {
+function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTotal: number; restrictions: boolean; removeMode?: boolean }) {
 	const store = useStore();
 	const { setTalent, getPlayerLevel } = store;
 
@@ -75,7 +75,7 @@ function SimTalentsTree(props: { label: string; objects: TalentsObject[]; allTot
 									greyed={props.restrictions && (treeTotal < talent.y * 5 || level - 9 - props.allTotal <= 0)}
 									required={talent.r && props.objects[talent.r[0]]}
 									handleRightClick={talentRightClick}
-									handleLeftClick={talentLeftClick}></SimTalentsIcon>
+									handleLeftClick={props.removeMode ? talentRightClick : talentLeftClick}></SimTalentsIcon>
 							</td>
 						);
 				});

@@ -3,10 +3,10 @@ import { useEffect, useState, useCallback, useRef } from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import { AllCommunityModule, ModuleRegistry, themeQuartz, type ColumnState, type GridReadyEvent, type IRowNode } from 'ag-grid-community';
 import { getQualityClass, round } from '@core/shared/utils';
-import { FunnelSimpleIcon, PushPinIcon, XIcon } from '@phosphor-icons/react';
+import { ColumnsIcon, FunnelSimpleIcon, PlusIcon, PushPinIcon, TrashIcon, XIcon } from '@phosphor-icons/react';
 import { useStore } from '@core/shared/store';
 import clsx from 'clsx';
-import { GetArmorType, GetWeaponType, InventoryType, ItemType } from '@core/shared/enums';
+import { ArmorType, GetArmorType, GetWeaponType, InventoryType, ItemType, WeaponType } from '@core/shared/enums';
 import SimModal from '@components/sim-modal/sim-modal';
 
 ModuleRegistry.registerModules([AllCommunityModule]);
@@ -70,6 +70,114 @@ const numericOperators: { value: FilterOperator; label: string }[] = [
 	{ value: 'lessThanOrEqual', label: '<=' },
 ];
 
+type ItemTypeOption = { label: string; classId: number; subclassId: number; inventoryType: number };
+
+const inventorySlots: Record<string, number> = {
+	head: InventoryType.Head,
+	neck: InventoryType.Neck,
+	shoulder: InventoryType.Shoulder,
+	back: InventoryType.Back,
+	chest: InventoryType.Chest,
+	waist: InventoryType.Waist,
+	legs: InventoryType.Legs,
+	feet: InventoryType.Feet,
+	wrists: InventoryType.Wrists,
+	hands: InventoryType.Hands,
+	finger1: InventoryType.Ring,
+	finger2: InventoryType.Ring,
+	trinket1: InventoryType.Trinket,
+	trinket2: InventoryType.Trinket,
+};
+
+const oneHandWeapons = ['Axe1H', 'Mace1H', 'Sword1H', 'Dagger', 'Unarmed'] as const;
+const twoHandWeapons = ['Axe2H', 'Mace2H', 'Sword2H', 'Polearm', 'Staff'] as const;
+
+function weaponOption(type: keyof typeof WeaponType, inventoryType: number): ItemTypeOption {
+	return { label: type, classId: ItemType.Weapon, subclassId: WeaponType[type], inventoryType };
+}
+
+function armorOption(type: keyof typeof ArmorType, inventoryType: number): ItemTypeOption {
+	return { label: type, classId: ItemType.Armor, subclassId: ArmorType[type], inventoryType };
+}
+
+function getItemTypeOptions(slot: string): ItemTypeOption[] {
+	if (slot == 'mainhand') return oneHandWeapons.map(type => weaponOption(type, InventoryType.Onehand));
+	if (slot == 'offhand')
+		return [...oneHandWeapons.map(type => weaponOption(type, InventoryType.Onehand)), armorOption('Shield', InventoryType.Shield)];
+	if (slot == 'twohand') return twoHandWeapons.map(type => weaponOption(type, InventoryType.Twohand));
+	if (slot == 'ranged')
+		return [
+			weaponOption('Bows', InventoryType.Bow),
+			weaponOption('Guns', InventoryType.Ranged),
+			weaponOption('Crossbow', InventoryType.Ranged2),
+			weaponOption('Thrown', InventoryType.Thrown),
+		];
+	const inventoryType = inventorySlots[slot] ?? InventoryType.None;
+	if (['neck', 'finger1', 'finger2', 'trinket1', 'trinket2'].includes(slot)) return [armorOption('Generic', inventoryType)];
+	if (slot == 'back') return [armorOption('Cloth', inventoryType)];
+	return (['Plate', 'Mail', 'Leather', 'Cloth'] as const).map(type => armorOption(type, inventoryType));
+}
+
+const customStatFields = [
+	{ key: 'str', label: 'Strength' },
+	{ key: 'agi', label: 'Agility' },
+	{ key: 'sta', label: 'Stamina' },
+	{ key: 'melee_ap', label: 'Attack power' },
+	{ key: 'hit_rate', label: 'Hit rating' },
+	{ key: 'crit_rate', label: 'Crit rating' },
+	{ key: 'expertise_rate', label: 'Expertise rating' },
+	{ key: 'haste_rate', label: 'Haste rating' },
+	{ key: 'defense', label: 'Defense' },
+	{ key: 'armor', label: 'Armor' },
+];
+
+const qualityOptions = [
+	{ value: 1, label: 'Common' },
+	{ value: 2, label: 'Uncommon' },
+	{ value: 3, label: 'Rare' },
+	{ value: 4, label: 'Epic' },
+	{ value: 5, label: 'Legendary' },
+];
+
+type CustomItemForm = {
+	name: string;
+	ilvl: string;
+	quality: string;
+	type: number;
+	speed: string;
+	mindmg: string;
+	maxdmg: string;
+	stats: Record<string, string>;
+};
+
+const emptyCustomItemForm: CustomItemForm = { name: '', ilvl: '', quality: '4', type: 0, speed: '', mindmg: '', maxdmg: '', stats: {} };
+
+const defaultColumnVisibility: Record<string, boolean> = {
+	'ilvl': true,
+	'name': true,
+	'proc.ppm': false,
+	'stats.str': true,
+	'stats.agi': true,
+	'stats.sta': true,
+	'stats.melee_ap': true,
+	'stats.hit_rate': true,
+	'stats.crit_rate': true,
+	'type': true,
+	'dps': true,
+};
+
+// first matching query wins, so order from narrowest to widest
+const responsiveHiddenColumns = [
+	{ query: '(max-width: 512px)', hidden: ['stats.str', 'stats.agi', 'stats.sta', 'stats.melee_ap', 'stats.hit_rate', 'stats.crit_rate', 'type'] },
+	{ query: '(max-width: 800px)', hidden: ['stats.sta', 'stats.melee_ap', 'type'] },
+	{ query: '(max-width: 1023px)', hidden: ['type'] },
+];
+
+function getResponsiveColumnVisibility() {
+	const hidden = responsiveHiddenColumns.find(breakpoint => window.matchMedia(breakpoint.query).matches)?.hidden ?? [];
+	return Object.fromEntries(Object.entries(defaultColumnVisibility).map(([field, visible]) => [field, visible && !hidden.includes(field)]));
+}
+
 function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	const store = useStore();
 	const {
@@ -87,6 +195,8 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		getBuffs,
 		getAbilities,
 		getPlayerClassId,
+		addCustomItem,
+		removeCustomItem,
 	} = store;
 	const progressBarRef = useRef(null);
 	const spreadsheetTableRef = useRef(null);
@@ -95,19 +205,9 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	const [filterField, setFilterField] = useState<FilterField>('name');
 	const [filterOperator, setFilterOperator] = useState<FilterOperator>('contains');
 	const [filterValue, setFilterValue] = useState('');
-	const [columnVisibility, setColumnVisibility] = useState<Record<string, boolean>>({
-		'ilvl': true,
-		'name': true,
-		'proc.ppm': false,
-		'stats.str': true,
-		'stats.agi': true,
-		'stats.sta': true,
-		'stats.melee_ap': true,
-		'stats.hit_rate': true,
-		'stats.crit_rate': true,
-		'type': true,
-		'dps': true,
-	});
+	const [isItemModalOpen, setIsItemModalOpen] = useState(false);
+	const [itemForm, setItemForm] = useState<CustomItemForm>(emptyCustomItemForm);
+	const [columnVisibility, setColumnVisibility] = useState<Record<string, boolean>>(getResponsiveColumnVisibility);
 	let classid = getPlayerClassId();
 	let items = getItems();
 	let enchants = getEnchants();
@@ -132,12 +232,17 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 							weight={params.data.pinned ? 'fill' : 'regular'}
 							style={{ cursor: 'pointer' }}
 							onClick={() => pinItem(params.data, params.node.id)}></PushPinIcon>
+						{params.data.custom && <TrashIcon style={{ cursor: 'pointer', marginLeft: 4 }} onClick={() => deleteCustomItem(params.data)}></TrashIcon>}
 						<a
-							href={`https://forever.wowhead.com/${slot.indexOf('enchant') == -1 ? 'item' : 'spell'}=${params.data.id}${
-								params.data.rand ? '&rand=' + params.data.rand : ''
-							}`}
+							href={
+								params.data.custom
+									? '#'
+									: `https://forever.wowhead.com/${slot.indexOf('enchant') == -1 ? 'item' : 'spell'}=${params.data.id}${
+											params.data.rand ? '&rand=' + params.data.rand : ''
+										}`
+							}
 							className="wh-tooltip"
-							data-id={params.data.id}
+							data-id={params.data.custom ? undefined : params.data.id}
 							onClick={e => {
 								e.preventDefault();
 								selectItem(params.data);
@@ -229,6 +334,17 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	useEffect(() => {
 		setColDefs(defaultColDef.map((column: any) => (column.field ? { ...column, hide: !columnVisibility[column.field] } : column)));
 	}, [slot]);
+
+	useEffect(() => {
+		const mediaQueries = responsiveHiddenColumns.map(breakpoint => window.matchMedia(breakpoint.query));
+		function handleBreakpointChange() {
+			const next = getResponsiveColumnVisibility();
+			setColumnVisibility(next);
+			setColDefs((current: any[]) => current.map(column => (column.field ? { ...column, hide: !next[column.field] } : column)));
+		}
+		mediaQueries.forEach(query => query.addEventListener('change', handleBreakpointChange));
+		return () => mediaQueries.forEach(query => query.removeEventListener('change', handleBreakpointChange));
+	}, []);
 
 	const myTheme = themeQuartz.withParams({
 		accentColor: '#0086F4',
@@ -385,6 +501,52 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 
 	function removeFilter(id: number) {
 		setFilters(current => current.filter(activeFilter => activeFilter.id !== id));
+	}
+
+	function openItemModal() {
+		setItemForm(emptyCustomItemForm);
+		setIsItemModalOpen(true);
+	}
+
+	function updateItemForm(changes: Partial<CustomItemForm>) {
+		setItemForm(current => ({ ...current, ...changes }));
+	}
+
+	function saveCustomItem() {
+		const name = itemForm.name.trim();
+		const typeOption = getItemTypeOptions(slot)[itemForm.type];
+		if (!name || !typeOption) return;
+
+		const stats: Record<string, number> = {};
+		for (const field of customStatFields) {
+			const value = Number(itemForm.stats[field.key]);
+			if (value) stats[field.key] = value;
+		}
+
+		const item: any = {
+			name,
+			classId: typeOption.classId,
+			subclassId: typeOption.subclassId,
+			slot: typeOption.inventoryType,
+			requires: 0,
+			quality: Number(itemForm.quality),
+			ilvl: Number(itemForm.ilvl) || 0,
+			path: 'inv_misc_questionmark',
+			stats,
+		};
+		if (typeOption.classId == ItemType.Weapon) {
+			item.speed = Number(itemForm.speed) || 0;
+			item.mindmg = Number(itemForm.mindmg) || 0;
+			item.maxdmg = Number(itemForm.maxdmg) || 0;
+		}
+
+		addCustomItem(slot, item);
+		setIsItemModalOpen(false);
+	}
+
+	function deleteCustomItem(item: any) {
+		if (item.selected || item.pinned || item.acquired) setItem(slot, item.id, { id: item.id, selected: false, pinned: false, acquired: false });
+		removeCustomItem(slot, item.id);
 	}
 
 	function formatFilter(filter: TableFilter) {
@@ -613,8 +775,17 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 					<FunnelSimpleIcon size={14} />
 					Add Filter
 				</button>
+				{!slot.includes('enchant') && (
+					<button onClick={openItemModal}>
+						<PlusIcon size={14} />
+						Add Item
+					</button>
+				)}
 				<details className="column-chooser">
-					<summary>Columns</summary>
+					<summary>
+						<ColumnsIcon size={14} />
+						Columns
+					</summary>
 					<div className="column-chooser-menu">
 						{columnOptions.map(column => (
 							<label key={column.field}>
@@ -674,6 +845,79 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 						<button onClick={() => setIsFilterModalOpen(false)}>Cancel</button>
 						<button className="primary" onClick={addFilter} disabled={!filterValue.trim()}>
 							Add Filter
+						</button>
+					</div>
+				</div>
+			</SimModal>
+			<SimModal isOpen={isItemModalOpen} onClose={() => setIsItemModalOpen(false)}>
+				<div className="filter-modal item-modal">
+					<h3>Add Custom Item</h3>
+					<label>
+						Name
+						<input autoFocus value={itemForm.name} onChange={event => updateItemForm({ name: event.currentTarget.value })} />
+					</label>
+					<div className="item-modal-grid">
+						<label>
+							Type
+							<select value={itemForm.type} onChange={event => updateItemForm({ type: Number(event.currentTarget.value) })}>
+								{getItemTypeOptions(slot).map((option, index) => (
+									<option key={option.label} value={index}>
+										{option.label}
+									</option>
+								))}
+							</select>
+						</label>
+						<label>
+							Quality
+							<select value={itemForm.quality} onChange={event => updateItemForm({ quality: event.currentTarget.value })}>
+								{qualityOptions.map(option => (
+									<option key={option.value} value={option.value}>
+										{option.label}
+									</option>
+								))}
+							</select>
+						</label>
+						<label>
+							Item level
+							<input type="number" min={0} value={itemForm.ilvl} onChange={event => updateItemForm({ ilvl: event.currentTarget.value })} />
+						</label>
+						{getItemTypeOptions(slot)[itemForm.type]?.classId == ItemType.Weapon && (
+							<>
+								<label>
+									Speed
+									<input
+										type="number"
+										min={0}
+										step={0.1}
+										value={itemForm.speed}
+										onChange={event => updateItemForm({ speed: event.currentTarget.value })}
+									/>
+								</label>
+								<label>
+									Min damage
+									<input type="number" min={0} value={itemForm.mindmg} onChange={event => updateItemForm({ mindmg: event.currentTarget.value })} />
+								</label>
+								<label>
+									Max damage
+									<input type="number" min={0} value={itemForm.maxdmg} onChange={event => updateItemForm({ maxdmg: event.currentTarget.value })} />
+								</label>
+							</>
+						)}
+						{customStatFields.map(field => (
+							<label key={field.key}>
+								{field.label}
+								<input
+									type="number"
+									value={itemForm.stats[field.key] ?? ''}
+									onChange={event => updateItemForm({ stats: { ...itemForm.stats, [field.key]: event.currentTarget.value } })}
+								/>
+							</label>
+						))}
+					</div>
+					<div className="filter-modal-actions">
+						<button onClick={() => setIsItemModalOpen(false)}>Cancel</button>
+						<button className="primary" onClick={saveCustomItem} disabled={!itemForm.name.trim()}>
+							Add Item
 						</button>
 					</div>
 				</div>

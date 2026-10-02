@@ -41,6 +41,6 @@
 		gap: 8px;
 	}
 	.sim-rotation-action-modal {
-		width: 600px;
+		width: min(600px, calc(90vw - 32px));
 	}
 }

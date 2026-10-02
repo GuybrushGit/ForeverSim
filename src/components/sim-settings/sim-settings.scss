@@ -3,6 +3,7 @@
 	color: $white-copy;
 	width: 100%;
 	height: 100%;
+	box-sizing: border-box;
 	& > div {
 		display: flex;
 		gap: 16px;
@@ -78,4 +79,61 @@
 	padding: 16px;
 	position: relative;
 	gap: 8px !important;
+}
+
+// the rotation column gets too narrow next to the two settings columns
+@media (max-width: 1400px) {
+	.sim-settings {
+		height: auto;
+		& > div {
+			flex-wrap: wrap;
+		}
+		& > div > div {
+			flex: 1 1 320px;
+			min-width: 0;
+		}
+		& > div > .sim-settings-rotation {
+			flex: 1 1 100%;
+		}
+	}
+	.sim-settings-block,
+	.sim-settings-icons {
+		max-width: none;
+		height: auto;
+		flex: 1 1 auto;
+		box-sizing: border-box;
+	}
+	.sim-settings-rotation {
+		width: auto;
+		height: auto;
+		min-height: 0;
+		box-sizing: border-box;
+		.sim-rotation {
+			max-width: none;
+		}
+		[data-rfd-droppable-id='actionsDroppable'] {
+			max-height: none;
+		}
+	}
+}
+
+@media (max-width: $mobile-width) {
+	.sim-settings {
+		padding: 12px;
+		& > div,
+		& > div > div {
+			gap: 12px;
+		}
+		.sim-form-range input[type='range'] {
+			width: 100px;
+		}
+	}
+	.sim-settings-block,
+	.sim-settings-icons,
+	.sim-settings-rotation {
+		padding: 12px;
+	}
+	.sim-settings-block .buttons {
+		flex-wrap: wrap;
+	}
 }

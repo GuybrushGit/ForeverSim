@@ -1,6 +1,6 @@
 import './sim-sidebar.scss';
 import clsx from 'clsx';
-import { SpeedometerIcon, SwordIcon, GearIcon, FadersIcon, ChartBarIcon } from '@phosphor-icons/react';
+import { SpeedometerIcon, SwordIcon, GearIcon, FadersIcon, ChartBarIcon, ListIcon, XIcon } from '@phosphor-icons/react';
 import SimSidebarMeters from './sim-sidebar-meters';
 import { useStore } from '@core/shared/store';
 import SimDashboardStats from '@components/sim-dashboard/sim-dashboard-stats';
@@ -54,10 +54,12 @@ function SimSidebar() {
 	const store = useStore();
 	const { section, setSection } = store;
 	const [statsOpen, setStatsOpen] = useState(false);
+	const [menuOpen, setMenuOpen] = useState(false);
 
 	function clickEvent(option: string) {
 		if (option == 'logs') (globalThis.document.querySelector('.sim-refresh') as HTMLElement)?.click();
 		setSection(option);
+		setMenuOpen(false);
 	}
 
 	function SimSidebarOption(option: { id: string; text: string; icon: any }) {
@@ -71,8 +73,38 @@ function SimSidebar() {
 	}
 
 	return (
-		<div className="sim-sidebar-shell">
-			<div className="sim-sidebar">
+		<div className={clsx('sim-sidebar-shell', menuOpen && 'menu-open', statsOpen && 'stats-open')}>
+			<div className="sim-sidebar-topbar">
+				<button
+					aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+					aria-expanded={menuOpen}
+					aria-controls="sim-sidebar-nav"
+					onClick={() => {
+						setMenuOpen(!menuOpen);
+						setStatsOpen(false);
+					}}>
+					{menuOpen ? <XIcon size={20} /> : <ListIcon size={20} />}
+				</button>
+				<button
+					aria-label={statsOpen ? 'Hide character stats' : 'Show character stats'}
+					aria-expanded={statsOpen}
+					aria-controls="sim-sidebar-stats-panel"
+					className={clsx(statsOpen && 'active')}
+					onClick={() => {
+						setStatsOpen(!statsOpen);
+						setMenuOpen(false);
+					}}>
+					<ChartBarIcon size={20} />
+				</button>
+			</div>
+			<div
+				className="sim-sidebar-backdrop"
+				aria-hidden="true"
+				onClick={() => {
+					setMenuOpen(false);
+					setStatsOpen(false);
+				}}></div>
+			<div className="sim-sidebar" id="sim-sidebar-nav">
 				<p>logo here</p>
 				<hr />
 				<SimSidebarOption id="dashboard" text="Dashboard" icon={SpeedometerIcon}></SimSidebarOption>
