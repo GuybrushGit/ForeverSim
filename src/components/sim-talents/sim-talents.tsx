@@ -77,12 +77,7 @@ function SimTalents() {
 				{talents.map((tree: any, index: number) => {
 					return (
 						<div key={tree.n} className={clsx('tree-wrapper', index == activeTree && 'active')}>
-							<SimTalentsTree
-								label={tree.n}
-								objects={tree.t}
-								allTotal={total}
-								restrictions={restrictions}
-								removeMode={removeMode}></SimTalentsTree>
+							<SimTalentsTree label={tree.n} objects={tree.t} allTotal={total} restrictions={restrictions} removeMode={removeMode}></SimTalentsTree>
 						</div>
 					);
 				})}
