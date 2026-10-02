@@ -110,7 +110,6 @@ export class Effect {
 
 				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
 				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) dmg *= 0.4;
-				if (target && !wep.offhand && spell.id == SpellIds.ID_WARRIOR_WHIRLWIND) Combat.meleeSpellOutgoingOffhand(sim, spell, target, action);
 
 				// missing dmg_taken and dmg_taken_mod
 				// dmg taken before or after crit / armor modifications?

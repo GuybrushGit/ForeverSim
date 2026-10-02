@@ -152,7 +152,7 @@ export const Combat = {
 			dmg += sim.target_stats[target.index].dmg_taken[spell.spellSchool];
 			dmg = dmg * sim.target_stats[target.index].dmg_taken_mod[spell.spellSchool];
 
-			let threat = dmg * sim.final_stats.threat_mod;
+			threat = dmg * sim.final_stats.threat_mod;
 			if (action && action.threat_mod) threat *= action.threat_mod;
 			if (action && action.threat_flat) threat += action.threat_flat;
 		}

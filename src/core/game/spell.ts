@@ -1,4 +1,4 @@
-import { AuraType, ClassFlag, EffectType, SchoolMask, Targets } from '@core/shared/enums';
+import { AuraType, ClassFlag, EffectType, SchoolMask, SpellIds, Targets } from '@core/shared/enums';
 import type { Simulation } from '@core/simulation';
 import type { Action } from './action';
 import type { Effect } from './effect';
@@ -69,6 +69,7 @@ export class Spell {
 	applyEffects(sim: Simulation, target?: Target, action?: Action, weapon?: Weapon): number {
 		let dmg = 0;
 		for (let effect of this.effects) dmg += effect.applyEffect(sim, this, target, action, weapon) || 0;
+
 		// only refresh aura after all effects done
 		if (this.hasAura) {
 			sim.refreshAura(this, target, action, weapon);
@@ -138,6 +139,7 @@ export class Spell {
 			if (this.targetCount > 1) sim.aux[this.id] = 1;
 			for (let i = 0; i < Math.min(this.targetCount, sim.targets.length); i++) {
 				Combat.meleeSpellOutgoing(sim, this, sim.targets[i], action);
+				if (action && action.spell.id == SpellIds.ID_WARRIOR_WHIRLWIND) Combat.meleeSpellOutgoingOffhand(sim, this, sim.targets[i], action);
 			}
 		} else {
 			// Magic spells
