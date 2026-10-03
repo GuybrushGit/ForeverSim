@@ -36,23 +36,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 2620,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 34,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Augural Shroud",
-      "path": "inv_misc_cape_04",
-      "displayid": 15284,
-      "stats": {
-        "sta": 5,
-        "int": 10,
-        "armor": 42
-      }
-    },
-    {
       "id": 2622,
       "classId": 4,
       "subclassId": 1,
@@ -337,32 +320,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "15307"
     },
     {
-      "id": 4322,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 33,
-      "name": "Enchanter's Cowl",
-      "path": "inv_helmet_31",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 36
-      },
-      "displayid": "15024"
-    },
-    {
       "id": 4323,
       "classId": 4,
       "subclassId": 1,
@@ -446,32 +403,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4661"
     },
     {
-      "id": 4543,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "White Drakeskin Cap",
-      "path": "inv_helmet_13",
-      "stats": {
-        "spi": 10,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 89
-      },
-      "displayid": "21313"
-    },
-    {
       "id": 4724,
       "classId": 4,
       "subclassId": 2,
@@ -486,22 +417,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 7,
         "sta": 8,
         "armor": 76
-      }
-    },
-    {
-      "id": 5608,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 39,
-      "quality": 2,
-      "ilvl": 44,
-      "name": "Living Cowl",
-      "path": "inv_helmet_04",
-      "displayid": 15278,
-      "stats": {
-        "sta": 12,
-        "armor": 47
       }
     },
     {
@@ -676,32 +591,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 34
       },
       "displayid": "15283"
-    },
-    {
-      "id": 7050,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 32,
-      "name": "Silk Headband",
-      "path": "inv_misc_bandana_01",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 36
-      },
-      "displayid": "15863"
     },
     {
       "id": 7130,
@@ -1117,32 +1006,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 8174,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Comfortable Leather Hat",
-      "path": "inv_helmet_15",
-      "stats": {
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 89
-      },
-      "displayid": "15921"
-    },
-    {
       "id": 8176,
       "classId": 4,
       "subclassId": 2,
@@ -1158,59 +1021,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 91
       },
       "displayid": "15321"
-    },
-    {
-      "id": 8191,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 46,
-      "name": "Turtle Scale Helm",
-      "path": "inv_helmet_40",
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 205
-      },
-      "displayid": "15307"
-    },
-    {
-      "id": 8201,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 44,
-      "name": "Big Voodoo Mask",
-      "path": "inv_banner_01",
-      "stats": {
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 97
-      },
-      "displayid": "18689"
     },
     {
       "id": 8208,
@@ -1735,32 +1545,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "745672"
     },
     {
-      "id": 10024,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 46,
-      "name": "Black Mageweave Headband",
-      "path": "inv_misc_bandana_01",
-      "stats": {
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 48
-      },
-      "displayid": "740009"
-    },
-    {
       "id": 10025,
       "classId": 4,
       "subclassId": 1,
@@ -1798,15 +1582,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 43,
       "quality": 2,
       "ilvl": 48,
       "name": "Stormcloth Headband",
       "path": "inv_helmet_30",
+      "displayid": 18877,
       "stats": {
-        "spi": 10,
         "int": 10,
-        "dmg_done": [
+        "spi": 10,
+        "armor": 51,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -1815,36 +1601,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 50
-      },
-      "displayid": "18877"
-    },
-    {
-      "id": 10033,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Red Mageweave Headband",
-      "path": "inv_misc_bandana_03",
-      "stats": {
-        "int": 20,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 50
-      },
-      "displayid": "16396"
+        ]
+      }
     },
     {
       "id": 10037,
@@ -1860,33 +1618,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 52
       }
-    },
-    {
-      "id": 10041,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Dreamweave Circlet",
-      "path": "inv_crown_01",
-      "stats": {
-        "spi": 12,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 58
-      },
-      "displayid": "19000"
     },
     {
       "id": 10061,
@@ -2413,31 +2144,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "17900"
     },
     {
-      "id": 10502,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Spellpower Goggles Xtreme",
-      "path": "inv_helmet_47",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 45
-      },
-      "displayid": "745506"
-    },
-    {
       "id": 10503,
       "classId": 4,
       "subclassId": 1,
@@ -2694,22 +2400,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 10782,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 51,
-      "name": "Hakkari Shroud",
-      "path": "inv_helmet_38",
-      "displayid": 17409,
-      "stats": {
-        "sta": 19,
-        "armor": 59
-      }
-    },
-    {
       "id": 10833,
       "classId": 4,
       "subclassId": 3,
@@ -2955,16 +2645,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 4,
       "slot": 1,
-      "requires": 0,
+      "requires": 55,
       "quality": 3,
       "ilvl": 60,
       "name": "Whitesoul Helm",
       "path": "inv_helmet_13",
+      "displayid": 22901,
       "stats": {
-        "spi": 15,
         "int": 15,
+        "spi": 15,
         "armor": 629,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           12,
@@ -2974,22 +2665,23 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12
         ]
-      },
-      "displayid": "22901"
+      }
     },
     {
       "id": 12636,
       "classId": 4,
       "subclassId": 3,
       "slot": 1,
-      "requires": 0,
+      "requires": 56,
       "quality": 3,
       "ilvl": 61,
       "name": "Helm of the Great Chief",
       "path": "inv_helmet_24",
+      "displayid": 15378,
       "stats": {
         "spi": 12,
-        "dmg_done": [
+        "armor": 292,
+        "dmg_done_mod": [
           0,
           0,
           15,
@@ -2998,10 +2690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15,
           15,
           15
-        ],
-        "armor": 292
-      },
-      "displayid": "15378"
+        ]
+      }
     },
     {
       "id": 12640,
@@ -3215,32 +2905,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13866,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Runecloth Headband",
-      "path": "inv_misc_bandana_03",
-      "stats": {
-        "int": 20,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 61
-      },
-      "displayid": "25230"
-    },
-    {
       "id": 14111,
       "classId": 4,
       "subclassId": 1,
@@ -3257,54 +2921,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "15391"
     },
     {
-      "id": 14130,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Wizardweave Turban",
-      "path": "inv_helmet_63",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          18,
-          0,
-          0,
-          0,
-          18
-        ],
-        "armor": 63
-      },
-      "displayid": "24942"
-    },
-    {
       "id": 14140,
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 57,
       "quality": 3,
       "ilvl": 62,
       "name": "Mooncloth Circlet",
       "path": "inv_misc_bandana_01",
+      "displayid": 28414,
       "stats": {
         "sta": 13,
         "spi": 15,
-        "dmg_done": [
+        "armor": 71,
+        "dmg_done_mod": [
           0,
           0,
           17,
@@ -3313,10 +2944,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           17,
           17,
           17
-        ],
-        "armor": 71
-      },
-      "displayid": "28414"
+        ]
+      }
     },
     {
       "id": 14178,
@@ -4213,32 +3842,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "740009"
     },
     {
-      "id": 15094,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Runic Leather Headband",
-      "path": "inv_misc_bandage_11",
-      "stats": {
-        "int": 20,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 121
-      },
-      "displayid": "25739"
-    },
-    {
       "id": 15129,
       "classId": 4,
       "subclassId": 2,
@@ -4719,31 +4322,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 15999,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Spellpower Goggles Xtreme Plus",
-      "path": "inv_helmet_47",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 56
-      },
-      "displayid": "745507"
-    },
-    {
       "id": 16008,
       "classId": 4,
       "subclassId": 1,
@@ -4833,25 +4411,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30374"
     },
     {
-      "id": 16667,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 57,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Coif of Elements",
-      "path": "inv_helmet_04",
-      "displayid": 31117,
-      "stats": {
-        "str": 7,
-        "sta": 13,
-        "int": 23,
-        "spi": 12,
-        "armor": 297
-      }
-    },
-    {
       "id": 16677,
       "classId": 4,
       "subclassId": 3,
@@ -4868,23 +4427,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "spi": 6,
         "armor": 297
-      }
-    },
-    {
-      "id": 16686,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 57,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Magister's Crown",
-      "path": "inv_crown_02",
-      "displayid": 31087,
-      "stats": {
-        "sta": 10,
-        "int": 30,
-        "armor": 71
       }
     },
     {
@@ -4913,24 +4455,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7
         ]
-      }
-    },
-    {
-      "id": 16698,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 57,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Dreadmist Mask",
-      "path": "inv_helmet_29",
-      "displayid": 31263,
-      "stats": {
-        "sta": 15,
-        "int": 23,
-        "spi": 12,
-        "armor": 71
       }
     },
     {
@@ -5062,24 +4586,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 10,
         "crit_rate": 14,
         "armor": 63
-      }
-    },
-    {
-      "id": 17740,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 47,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Soothsayer's Headdress",
-      "path": "inv_helmet_12",
-      "displayid": 23544,
-      "stats": {
-        "sta": 7,
-        "int": 15,
-        "spi": 8,
-        "armor": 122
       }
     },
     {
@@ -5566,15 +5072,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 81,
       "name": "Don Rigoberto's Lost Hat",
       "path": "inv_helmet_51",
+      "displayid": 30670,
       "stats": {
         "sta": 18,
         "int": 24,
-        "dmg_done": [
+        "armor": 100,
+        "dmg_done_mod": [
           0,
           0,
           21,
@@ -5583,10 +5091,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           21,
           21,
           21
-        ],
-        "armor": 99
-      },
-      "displayid": "30670"
+        ]
+      }
     },
     {
       "id": 21669,
@@ -5682,181 +5188,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34649"
     },
     {
-      "id": 22065,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Sorcerer's Crown",
-      "path": "inv_crown_02",
-      "stats": {
-        "sta": 16,
-        "spi": 14,
-        "int": 25,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 75
-      },
-      "displayid": "34602"
-    },
-    {
-      "id": 22074,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Deathmist Mask",
-      "path": "inv_helmet_29",
-      "stats": {
-        "sta": 24,
-        "int": 24,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 75
-      },
-      "displayid": "34624"
-    },
-    {
-      "id": 22080,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Virtuous Crown",
-      "path": "inv_crown_01",
-      "stats": {
-        "sta": 16,
-        "spi": 16,
-        "int": 17,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 75
-      },
-      "displayid": "34630"
-    },
-    {
-      "id": 22091,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Soulforge Helm",
-      "path": "inv_helmet_08",
-      "stats": {
-        "str": 16,
-        "sta": 17,
-        "spi": 12,
-        "int": 17,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 555
-      },
-      "displayid": "34524"
-    },
-    {
-      "id": 22097,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Coif of The Five Thunders",
-      "path": "inv_helmet_04",
-      "stats": {
-        "sta": 22,
-        "spi": 12,
-        "int": 21,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 314
-      },
-      "displayid": "34693"
-    },
-    {
-      "id": 22109,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Feralheart Cowl",
-      "path": "inv_helmet_27",
-      "stats": {
-        "agi": 9,
-        "str": 14,
-        "sta": 17,
-        "spi": 16,
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 149
-      },
-      "displayid": "34639"
-    },
-    {
       "id": 22428,
       "classId": 4,
       "subclassId": 4,
@@ -5929,49 +5260,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "35162"
     },
     {
-      "id": 22506,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Plagueheart Circlet",
-      "path": "inv_crown_01",
-      "stats": {
-        "sta": 28,
-        "int": 25,
-        "crit_rate": 28,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          33,
-          33,
-          33,
-          33,
-          33,
-          33
-        ],
-        "armor": 107
-      },
-      "displayid": "35182"
-    },
-    {
       "id": 22689,
       "classId": 4,
       "subclassId": 2,
       "slot": 1,
-      "requires": 0,
+      "requires": 55,
       "quality": 3,
       "ilvl": 66,
       "name": "Sanctified Leather Helm",
       "path": "inv_helmet_13",
+      "displayid": 35095,
       "stats": {
         "sta": 14,
-        "spi": 12,
         "int": 19,
-        "dmg_done": [
+        "spi": 12,
+        "armor": 149,
+        "dmg_done_mod": [
           0,
           0,
           13,
@@ -5980,46 +5284,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13,
           13,
           13
-        ],
-        "armor": 148
-      },
-      "displayid": "35095"
-    },
-    {
-      "id": 22757,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 70,
-      "name": "Sylvan Crown",
-      "path": "inv_crown_01",
-      "stats": {
-        "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          30,
-          0,
-          0,
-          0
-        ],
-        "armor": 79
-      },
-      "displayid": "35206"
+        ]
+      }
     },
     {
       "id": 22759,
@@ -6101,43 +5367,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 196
       },
       "displayid": "35421"
-    },
-    {
-      "id": 23032,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Glacial Headdress",
-      "path": "inv_helmet_53",
-      "stats": {
-        "sta": 20,
-        "int": 21,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          40,
-          0,
-          0
-        ],
-        "armor": 102
-      },
-      "displayid": "35432"
     },
     {
       "id": 23033,
@@ -6524,13 +5753,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 1,
-      "requires": 0,
+      "requires": 25,
       "quality": 3,
       "ilvl": 30,
       "name": "Acolyte's Chain Helm",
+      "path": "inv_helmet_36",
+      "displayid": 712758,
       "stats": {
         "sta": 11,
-        "dmg_done": [
+        "armor": 177,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -6539,35 +5771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 176
-      },
-      "displayid": "712758"
-    },
-    {
-      "id": 250502,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Crusader's Chain Helm",
-      "stats": {
-        "str": 11,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 176
-      },
-      "displayid": "712815"
+        ]
+      }
     },
     {
       "id": 250528,
@@ -6622,13 +5827,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 1,
-      "requires": 0,
+      "requires": 20,
       "quality": 3,
       "ilvl": 25,
       "name": "Acolyte's Silvered Chain Helm",
+      "path": "inv_helmet_36",
+      "displayid": 712758,
       "stats": {
         "sta": 9,
-        "dmg_done": [
+        "armor": 163,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -6637,163 +5845,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 163
-      },
-      "displayid": "712758"
-    },
-    {
-      "id": 250532,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Crusader's Silvered Chain Helm",
-      "stats": {
-        "sta": 9,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 163
-      },
-      "displayid": "712815"
-    },
-    {
-      "id": 250537,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Hard Gold Coif",
-      "stats": {
-        "str": 14,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 187
-      },
-      "displayid": "712971"
-    },
-    {
-      "id": 250543,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Shining Mithril Helm",
-      "stats": {
-        "str": 14,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 375
-      },
-      "displayid": "712877"
-    },
-    {
-      "id": 250593,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Blessed Plate Helm",
-      "stats": {
-        "str": 11,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "armor": 462
-      },
-      "displayid": "712932"
-    },
-    {
-      "id": 250597,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Enriched Thorium Helm",
-      "stats": {
-        "sta": 21,
-        "defense": 8,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "armor": 533
-      },
-      "displayid": "712935"
-    },
-    {
-      "id": 250599,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 61,
-      "name": "Stalwart Helm",
-      "stats": {
-        "str": 12,
-        "hit_rate": 20,
-        "dmg_done": [
-          0,
-          0,
-          38,
-          38,
-          38,
-          38,
-          38,
-          38
-        ],
-        "armor": 564
-      },
-      "displayid": "712941"
+        ]
+      }
     },
     {
       "id": 252447,
@@ -6812,31 +5865,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "747878"
     },
     {
-      "id": 252448,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Totemic Leather Hood",
-      "stats": {
-        "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 76
-      },
-      "displayid": "714570"
-    },
-    {
       "id": 252455,
       "classId": 4,
       "subclassId": 2,
@@ -6851,31 +5879,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 83
       },
       "displayid": "747879"
-    },
-    {
-      "id": 252456,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Totemic Leather Helm",
-      "stats": {
-        "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 83
-      },
-      "displayid": "714567"
     },
     {
       "id": 252482,
@@ -6964,13 +5967,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 1,
-      "requires": 0,
+      "requires": 20,
       "quality": 3,
       "ilvl": 25,
       "name": "Wisdom's Leather Hood",
+      "path": "inv_helmet_33",
+      "displayid": 714592,
       "stats": {
         "sta": 10,
-        "dmg_done": [
+        "armor": 76,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -6979,10 +5985,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 76
-      },
-      "displayid": "714592"
+        ]
+      }
     },
     {
       "id": 252512,
@@ -7037,13 +6041,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 1,
-      "requires": 0,
+      "requires": 25,
       "quality": 3,
       "ilvl": 30,
       "name": "Wisdom's Leather Helm",
+      "path": "inv_helmet_26",
+      "displayid": 714591,
       "stats": {
         "sta": 13,
-        "dmg_done": [
+        "armor": 84,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -7052,50 +6059,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 83
-      },
-      "displayid": "714591"
-    },
-    {
-      "id": 252555,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Tooled Leather Crown",
-      "stats": {
-        "spi": 15,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 121
-      },
-      "displayid": "714568"
+        ]
+      }
     },
     {
       "id": 252561,
       "classId": 4,
       "subclassId": 2,
       "slot": 1,
-      "requires": 0,
+      "requires": 56,
       "quality": 4,
       "ilvl": 61,
       "name": "Living Crown",
+      "path": "inv_helmet_32",
+      "displayid": 747996,
       "stats": {
+        "int": 18,
         "spi": 14,
-        "int": 18,
-        "dmg_done": [
+        "armor": 152,
+        "dmg_done_mod": [
           0,
           0,
           25,
@@ -7104,88 +6086,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           25,
           25,
           25
-        ],
-        "armor": 152
-      },
-      "displayid": "747996"
-    },
-    {
-      "id": 252581,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 53,
-      "name": "Charged Scorpid Helm",
-      "stats": {
-        "spi": 10,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 234
-      },
-      "displayid": "714393"
-    },
-    {
-      "id": 252597,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Supple Scorpid Helm",
-      "stats": {
-        "str": 11,
-        "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17
-        ],
-        "armor": 249
-      },
-      "displayid": "714569"
-    },
-    {
-      "id": 252604,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 61,
-      "name": "Blue Dragonscale Helm",
-      "stats": {
-        "int": 18,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 319
-      },
-      "displayid": "714357"
+        ]
+      }
     },
     {
       "id": 252605,
@@ -7209,13 +6111,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 20,
       "quality": 3,
       "ilvl": 25,
       "name": "Pristine Circlet",
+      "path": "inv_crown_01",
+      "displayid": 747756,
       "stats": {
         "sta": 10,
-        "dmg_done": [
+        "armor": 35,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -7224,10 +6129,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 34
-      },
-      "displayid": "747756"
+        ]
+      }
     },
     {
       "id": 253951,
@@ -7309,13 +6212,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 25,
       "quality": 3,
       "ilvl": 30,
       "name": "Filigreed Pristine Circlet",
+      "path": "inv_crown_01",
+      "displayid": 747756,
       "stats": {
         "sta": 12,
-        "dmg_done": [
+        "armor": 38,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -7324,10 +6230,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 38
-      },
-      "displayid": "747756"
+        ]
+      }
     },
     {
       "id": 253977,
@@ -7409,13 +6313,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 32,
       "quality": 2,
       "ilvl": 37,
       "name": "Earthen Silk Hood",
+      "path": "inv_helmet_29",
+      "displayid": 744514,
       "stats": {
         "spi": 10,
-        "dmg_done": [
+        "armor": 40,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -7424,48 +6331,24 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 39
-      },
-      "displayid": "744514"
-    },
-    {
-      "id": 254135,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Ghostweave Hood",
-      "stats": {
-        "spi": 18,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 63
-      },
-      "displayid": "744516"
+        ]
+      }
     },
     {
       "id": 254137,
       "classId": 4,
       "subclassId": 1,
       "slot": 1,
-      "requires": 0,
+      "requires": 56,
       "quality": 2,
       "ilvl": 61,
       "name": "Earthenweave Crown",
+      "path": "inv_crown_02",
+      "displayid": 744515,
       "stats": {
         "spi": 18,
-        "dmg_done": [
+        "armor": 64,
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -7474,10 +6357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 63
-      },
-      "displayid": "744515"
+        ]
+      }
     },
     {
       "id": 259846,
@@ -7521,10 +6402,12 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 56,
       "name": "Bad Hat",
       "path": "inv_helmet_50",
+      "displayid": 15907,
       "stats": {
+        "int": 17,
         "spi": 17,
-        "int": 17,
-        "dmg_done": [
+        "armor": 65,
+        "dmg_done_mod": [
           0,
           0,
           12,
@@ -7533,76 +6416,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12,
           12
-        ],
-        "armor": 64
-      },
-      "displayid": "15907"
-    },
-    {
-      "id": 270067,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Wild Headdress",
-      "path": "inv_belt_25",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 88
-      },
-      "displayid": "13323"
-    },
-    {
-      "id": 270093,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Blackwater Cap",
-      "path": "inv_misc_bandana_01",
-      "stats": {
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 47
-      },
-      "displayid": "28414"
-    },
-    {
-      "id": 270099,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 49,
-      "name": "Magister Cowl",
-      "path": "inv_helmet_13",
-      "displayid": 15646,
-      "stats": {
-        "armor": 57
+        ]
       }
     },
     {
@@ -7622,23 +6436,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 12,
         "defense": 7,
         "armor": 126
-      }
-    },
-    {
-      "id": 270123,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Ragnar's Favorite Hat",
-      "path": "inv_helmet_46",
-      "displayid": 27809,
-      "stats": {
-        "sta": 16,
-        "hit_rate": 5,
-        "armor": 128
       }
     },
     {
@@ -7981,32 +6778,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275028,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Twilight Mine Light",
-      "path": "inv_helmet_59",
-      "stats": {
-        "sta": 12,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 47
-      },
-      "displayid": "740251"
-    },
-    {
       "id": 276105,
       "classId": 4,
       "subclassId": 2,
@@ -8304,23 +7075,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "741823"
     },
     {
-      "id": 279930,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 1,
-      "quality": 3,
-      "ilvl": 42,
-      "name": "Saltseer's Helm",
-      "path": "inv_helmet_15",
-      "displayid": 15307,
-      "stats": {
-        "int": 18,
-        "spi": 7,
-        "armor": 103
-      }
-    },
-    {
       "id": 280310,
       "classId": 4,
       "subclassId": 1,
@@ -8533,22 +7287,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 284401,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 24,
-      "quality": 3,
-      "ilvl": 29,
-      "name": "Sorrow's Shroud",
-      "path": "inv_helmet_30",
-      "displayid": 15616,
-      "stats": {
-        "sta": 11,
-        "armor": 38
-      }
-    },
-    {
       "id": 2275,
       "classId": 4,
       "subclassId": 3,
@@ -8579,32 +7317,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13936,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Deprecated Dreadmaster's Shroud",
-      "path": "inv_helmet_30",
-      "stats": {
-        "spi": 13,
-        "int": 20,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "armor": 71
-      }
-    },
-    {
       "id": 16121,
       "classId": 4,
       "subclassId": 1,
@@ -8628,35 +7340,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 37
       },
       "displayid": "15293"
-    },
-    {
-      "id": 18807,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Helm of Latent Power",
-      "path": "inv_helmet_24",
-      "stats": {
-        "sta": 12,
-        "spi": 12,
-        "int": 14,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 296
-      },
-      "displayid": "31268"
     },
     {
       "id": 19743,
@@ -8768,33 +7451,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34606"
     },
     {
-      "id": 22273,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 1,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Moonshadow Hood",
-      "path": "inv_helmet_30",
-      "stats": {
-        "int": 15,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "armor": 122
-      },
-      "displayid": "685381"
-    },
-    {
       "id": 22418,
       "classId": 4,
       "subclassId": 4,
@@ -8832,35 +7488,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 205
       },
       "displayid": "35132"
-    },
-    {
-      "id": 22498,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 1,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Frostfire Circlet",
-      "path": "inv_crown_01",
-      "stats": {
-        "sta": 22,
-        "int": 23,
-        "crit_rate": 28,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          35,
-          35,
-          35,
-          35,
-          35,
-          35
-        ],
-        "armor": 107
-      },
-      "displayid": "36440"
     },
     {
       "id": 22514,
@@ -9113,32 +7740,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 1,
         "sta": 7,
         "spi": 10
-      }
-    },
-    {
-      "id": 11196,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Mindburst Medallion",
-      "path": "inv_jewelry_necklace_07",
-      "stats": {
-        "spi": 5,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 0
       }
     },
     {
@@ -9701,32 +8302,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 15856,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Archlight Talisman",
-      "path": "inv_jewelry_necklace_11",
-      "stats": {
-        "sta": 8,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 16009,
       "classId": 4,
       "subclassId": 0,
@@ -9946,32 +8521,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 18814,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Choker of the Fire Lord",
-      "path": "inv_jewelry_amulet_05",
-      "stats": {
-        "sta": 7,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          34,
-          34,
-          34,
-          34,
-          34,
-          34
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 19095,
       "classId": 4,
       "subclassId": 0,
@@ -10115,32 +8664,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 14,
         "sta": 24,
         "defense": 7,
-        "armor": 0
-      }
-    },
-    {
-      "id": 19426,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Orb of the Darkmoon",
-      "path": "inv_jewelry_necklace_16",
-      "stats": {
-        "sta": 11,
-        "spi": 8,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
         "armor": 0
       }
     },
@@ -10456,17 +8979,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 20685,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -3,
       "slot": 2,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Wavefront Necklace",
       "path": "inv_jewelry_necklace_21",
+      "displayid": 0,
       "stats": {
         "sta": 5,
         "int": 6,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -10475,8 +8999,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -10493,32 +9016,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "melee_ap": 20,
         "ranged_ap": 20,
-        "armor": 0
-      }
-    },
-    {
-      "id": 21504,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Charm of the Shifting Sands",
-      "path": "inv_jewelry_necklace_ahnqiraj_03",
-      "stats": {
-        "sta": 9,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
         "armor": 0
       }
     },
@@ -10623,33 +9120,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 21608,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 81,
-      "name": "Amulet of Vek'nilash",
-      "path": "inv_jewelry_necklace_ahnqiraj_01",
-      "stats": {
-        "sta": 9,
-        "int": 5,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 21664,
       "classId": 4,
       "subclassId": 0,
@@ -10664,42 +9134,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 44,
         "ranged_ap": 44,
         "crit_rate": 14,
-        "armor": 0
-      }
-    },
-    {
-      "id": 21678,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 76,
-      "name": "Necklace of Purity",
-      "path": "inv_jewelry_necklace_ahnqiraj_04",
-      "stats": {
-        "sta": 9,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          20,
-          0,
-          0,
-          0
-        ],
         "armor": 0
       }
     },
@@ -10797,32 +9231,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 22149,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Beads of Ogre Mojo",
-      "path": "inv_jewelry_amulet_05",
-      "stats": {
-        "sta": 7,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 22150,
       "classId": 4,
       "subclassId": 0,
@@ -10837,32 +9245,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 24,
         "ranged_ap": 24,
         "hit_rate": 10,
-        "armor": 0
-      }
-    },
-    {
-      "id": 22657,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Amulet of the Dawn",
-      "path": "inv_jewelry_amulet_04",
-      "stats": {
-        "sta": 13,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
         "armor": 0
       }
     },
@@ -10923,32 +9305,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           24,
           0,
           0
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 22943,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Malice Stone Pendant",
-      "path": "inv_jewelry_necklace_29naxxramas",
-      "stats": {
-        "sta": 9,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
         ],
         "armor": 0
       }
@@ -11036,108 +9392,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 26,
         "ranged_ap": 26,
         "crit_rate": 28,
-        "armor": 0
-      }
-    },
-    {
-      "id": 23057,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 92,
-      "name": "Gem of Trapped Innocents",
-      "path": "inv_jewelry_necklace_29naxxramas",
-      "stats": {
-        "sta": 9,
-        "int": 7,
-        "crit_rate": 28,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 23125,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Chains of the Lich",
-      "path": "inv_belt_18",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 23169,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Scorn's Icy Choker",
-      "path": "inv_jewelry_necklace_03",
-      "stats": {
-        "sta": 5,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 259892,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Feardred's Cleansed Amulet",
-      "path": "inv_jewelry_amulet_07",
-      "stats": {
-        "spi": 8,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
         "armor": 0
       }
     },
@@ -11441,32 +9695,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 274384,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Illegible Dogtags",
-      "path": "inv_jewelry_necklace_21",
-      "stats": {
-        "sta": 5,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 274749,
       "classId": 4,
       "subclassId": 0,
@@ -11690,40 +9918,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 281281,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Frost's Whisper Pendant",
-      "path": "inv_jewelry_necklace_16",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          10,
-          0,
-          0
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 281286,
       "classId": 4,
       "subclassId": 0,
@@ -11799,32 +9993,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_necklace_15",
       "stats": {
         "spi": 10,
-        "armor": 0
-      }
-    },
-    {
-      "id": 281636,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 2,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Museum Keeper's Chain",
-      "path": "trade_archaeology_mithrilnecklace",
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
         "armor": 0
       }
     },
@@ -12354,23 +10522,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "20715"
     },
     {
-      "id": 3748,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 23,
-      "quality": 3,
-      "ilvl": 28,
-      "name": "Feline Mantle",
-      "path": "inv_shoulder_05",
-      "displayid": 10169,
-      "stats": {
-        "agi": 2,
-        "int": 8,
-        "armor": 34
-      }
-    },
-    {
       "id": 3765,
       "classId": 4,
       "subclassId": 3,
@@ -12455,23 +10606,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4869"
     },
     {
-      "id": 4197,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 29,
-      "quality": 3,
-      "ilvl": 36,
-      "name": "Berylline Pads",
-      "path": "inv_shoulder_05",
-      "displayid": 12980,
-      "stats": {
-        "sta": 5,
-        "int": 10,
-        "armor": 39
-      }
-    },
-    {
       "id": 4251,
       "classId": 4,
       "subclassId": 2,
@@ -12503,58 +10637,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 67
       },
       "displayid": "9528"
-    },
-    {
-      "id": 4314,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 22,
-      "name": "Double-Stitched Woolen Shoulders",
-      "path": "inv_shoulder_06",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 26
-      },
-      "displayid": "5494"
-    },
-    {
-      "id": 4315,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 24,
-      "name": "Reinforced Woolen Shoulders",
-      "path": "inv_shoulder_09",
-      "stats": {
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 28
-      },
-      "displayid": "17135"
     },
     {
       "id": 4443,
@@ -12837,32 +10919,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 5274,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 27,
-      "name": "Rose Mantle",
-      "path": "inv_shoulder_09",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 30
-      },
-      "displayid": "17135"
-    },
-    {
       "id": 5404,
       "classId": 4,
       "subclassId": 2,
@@ -13060,22 +11116,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "12782"
     },
     {
-      "id": 6685,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 27,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Death Speaker Mantle",
-      "path": "inv_shoulder_09",
-      "displayid": 11473,
-      "stats": {
-        "int": 11,
-        "armor": 37
-      }
-    },
-    {
       "id": 6697,
       "classId": 4,
       "subclassId": 1,
@@ -13126,32 +11166,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 172
       },
       "displayid": "11697"
-    },
-    {
-      "id": 7057,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 36,
-      "name": "Green Silken Shoulders",
-      "path": "inv_shoulder_18",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 35
-      },
-      "displayid": "5762"
     },
     {
       "id": 7059,
@@ -13395,22 +11409,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": 1068,
       "stats": {
         "armor": 194
-      }
-    },
-    {
-      "id": 7684,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 30,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Bloodmage Mantle",
-      "path": "inv_shoulder_05",
-      "displayid": 10791,
-      "stats": {
-        "int": 9,
-        "armor": 38
       }
     },
     {
@@ -13799,24 +11797,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 9411,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 41,
-      "quality": 3,
-      "ilvl": 46,
-      "name": "Rockshard Pauldrons",
-      "path": "inv_shoulder_02",
-      "displayid": 2953,
-      "stats": {
-        "str": 3,
-        "int": 13,
-        "spi": 6,
-        "armor": 209
-      }
-    },
-    {
       "id": 9476,
       "classId": 4,
       "subclassId": 4,
@@ -13849,23 +11829,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 13,
         "spi": 11,
         "armor": 382
-      }
-    },
-    {
-      "id": 9536,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 20,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Fairywing Mantle",
-      "path": "inv_shoulder_02",
-      "displayid": 18901,
-      "stats": {
-        "sta": 2,
-        "int": 9,
-        "armor": 37
       }
     },
     {
@@ -14171,32 +12134,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 10027,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 46,
-      "name": "Black Mageweave Shoulders",
-      "path": "inv_shoulder_25",
-      "stats": {
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 45
-      },
-      "displayid": "4925"
-    },
-    {
       "id": 10028,
       "classId": 4,
       "subclassId": 1,
@@ -14213,44 +12150,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "12867"
     },
     {
-      "id": 10029,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 47,
-      "name": "Red Mageweave Shoulders",
-      "path": "inv_shoulder_23",
-      "stats": {
-        "int": 15,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 46
-      },
-      "displayid": "17703"
-    },
-    {
       "id": 10038,
       "classId": 4,
       "subclassId": 1,
       "slot": 3,
-      "requires": 0,
+      "requires": 44,
       "quality": 2,
       "ilvl": 49,
       "name": "Stormcloth Shoulders",
       "path": "inv_shoulder_25",
+      "displayid": 11638,
       "stats": {
         "sta": 10,
-        "dmg_done": [
+        "armor": 48,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -14259,10 +12172,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 47
-      },
-      "displayid": "11638"
+        ]
+      }
     },
     {
       "id": 10063,
@@ -14782,24 +12693,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "21196"
     },
     {
-      "id": 11632,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 3,
-      "requires": 47,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Earthslag Shoulders",
-      "path": "inv_shoulder_26",
-      "displayid": 28725,
-      "stats": {
-        "str": 13,
-        "sta": 8,
-        "int": 8,
-        "armor": 410
-      }
-    },
-    {
       "id": 11871,
       "classId": 4,
       "subclassId": 2,
@@ -14832,32 +12725,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 109
       },
       "displayid": "28313"
-    },
-    {
-      "id": 11884,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 33,
-      "name": "Moonlit Amice",
-      "path": "inv_shoulder_02",
-      "stats": {
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 33
-      },
-      "displayid": "9440"
     },
     {
       "id": 11889,
@@ -14978,14 +12845,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 4,
       "slot": 3,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Dawnbringer Shoulders",
       "path": "inv_shoulder_20",
+      "displayid": 25827,
       "stats": {
         "spi": 10,
-        "dmg_done": [
+        "armor": 455,
+        "dmg_done_mod": [
           0,
           0,
           15,
@@ -14994,41 +12863,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15,
           15,
           15
-        ],
-        "armor": 455
-      },
-      "displayid": "25827"
-    },
-    {
-      "id": 12998,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 20,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Magician's Mantle",
-      "path": "inv_shoulder_13",
-      "displayid": 20715,
-      "stats": {
-        "int": 9,
-        "armor": 32
-      }
-    },
-    {
-      "id": 13013,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 51,
-      "quality": 3,
-      "ilvl": 56,
-      "name": "Elder Wizard's Mantle",
-      "path": "inv_shoulder_14",
-      "displayid": 28643,
-      "stats": {
-        "int": 20,
-        "armor": 60
+        ]
       }
     },
     {
@@ -15165,32 +13000,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13867,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Runecloth Shoulders",
-      "path": "inv_shoulder_21",
-      "stats": {
-        "int": 15,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 59
-      },
-      "displayid": "17746"
-    },
-    {
       "id": 14112,
       "classId": 4,
       "subclassId": 1,
@@ -15211,15 +13020,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 3,
-      "requires": 0,
+      "requires": 56,
       "quality": 3,
       "ilvl": 61,
       "name": "Mooncloth Shoulders",
       "path": "inv_shoulder_02",
+      "displayid": 24966,
       "stats": {
         "sta": 9,
         "spi": 11,
-        "dmg_done": [
+        "armor": 65,
+        "dmg_done_mod": [
           0,
           0,
           13,
@@ -15228,10 +13039,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13,
           13,
           13
-        ],
-        "armor": 64
-      },
-      "displayid": "24966"
+        ]
+      }
     },
     {
       "id": 14182,
@@ -16152,42 +13961,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 15049,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Blue Dragonscale Shoulders",
-      "path": "inv_shoulder_18",
-      "stats": {
-        "int": 21,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          6
-        ],
-        "armor": 261
-      },
-      "displayid": "25677"
-    },
-    {
       "id": 15051,
       "classId": 4,
       "subclassId": 3,
@@ -16264,24 +14037,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 3,
-      "requires": 0,
+      "requires": 49,
       "quality": 3,
       "ilvl": 54,
       "name": "Living Shoulders",
       "path": "inv_shoulder_18",
+      "displayid": 11622,
       "stats": {
         "sta": 8,
         "spi": 13,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
+        "armor": 117,
         "resistance": [
           0,
           0,
@@ -16292,36 +14057,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 116
-      },
-      "displayid": "11622"
-    },
-    {
-      "id": 15067,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 54,
-      "name": "Ironfeather Shoulders",
-      "path": "inv_shoulder_06",
-      "stats": {
-        "spi": 8,
-        "int": 20,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 116
-      },
-      "displayid": "13697"
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
     },
     {
       "id": 15081,
@@ -16339,32 +14085,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 245
       },
       "displayid": "25713"
-    },
-    {
-      "id": 15096,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 62,
-      "name": "Runic Leather Shoulders",
-      "path": "inv_shoulder_15",
-      "stats": {
-        "int": 15,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 118
-      },
-      "displayid": "8387"
     },
     {
       "id": 15116,
@@ -17124,23 +14844,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 16689,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 55,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Magister's Mantle",
-      "path": "inv_shoulder_23",
-      "displayid": 30211,
-      "stats": {
-        "sta": 6,
-        "int": 22,
-        "armor": 64
-      }
-    },
-    {
       "id": 16695,
       "classId": 4,
       "subclassId": 1,
@@ -17166,23 +14869,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4
         ]
-      }
-    },
-    {
-      "id": 16701,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 55,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Dreadmist Mantle",
-      "path": "inv_misc_bone_taurenskull_01",
-      "displayid": 29798,
-      "stats": {
-        "sta": 14,
-        "int": 15,
-        "armor": 64
       }
     },
     {
@@ -17269,33 +14955,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 4,
         "armor": 470
       }
-    },
-    {
-      "id": 16739,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Rugwood Mantle",
-      "path": "inv_shoulder_07",
-      "stats": {
-        "spi": 4,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 96
-      },
-      "displayid": "27911"
     },
     {
       "id": 16793,
@@ -17405,38 +15064,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9440"
     },
     {
-      "id": 17695,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 17,
-      "quality": 3,
-      "ilvl": 28,
-      "name": "Chestnut Mantle",
-      "path": "inv_shoulder_09",
-      "displayid": 12713,
-      "stats": {
-        "sta": 4,
-        "armor": 34
-      }
-    },
-    {
-      "id": 17732,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 48,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Rotgrip Mantle",
-      "path": "inv_shoulder_05",
-      "displayid": 16048,
-      "stats": {
-        "int": 18,
-        "armor": 57
-      }
-    },
-    {
       "id": 17779,
       "classId": 4,
       "subclassId": 4,
@@ -17451,24 +15078,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 7,
         "sta": 18,
         "armor": 389
-      }
-    },
-    {
-      "id": 18720,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 58,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Shroud of the Nathrezim",
-      "path": "inv_shoulder_23",
-      "displayid": 9574,
-      "stats": {
-        "int": 16,
-        "spi": 8,
-        "crit_rate": 14,
-        "armor": 67
       }
     },
     {
@@ -17490,33 +15099,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "16458"
     },
     {
-      "id": 19050,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Mantle of the Timbermaw",
-      "path": "inv_shoulder_19",
-      "stats": {
-        "int": 13,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17
-        ],
-        "armor": 64
-      },
-      "displayid": "36269"
-    },
-    {
       "id": 19058,
       "classId": 4,
       "subclassId": 2,
@@ -17533,42 +15115,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 128
       },
       "displayid": "31566"
-    },
-    {
-      "id": 19059,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Argent Shoulders",
-      "path": "inv_shoulder_13",
-      "stats": {
-        "spi": 7,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          5,
-          0
-        ],
-        "armor": 64
-      },
-      "displayid": "31828"
     },
     {
       "id": 19507,
@@ -17763,33 +15309,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8022"
     },
     {
-      "id": 20061,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Highlander's Epaulets",
-      "path": "inv_shoulder_24",
-      "stats": {
-        "sta": 18,
-        "int": 17,
-        "armor": 185,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ]
-      },
-      "displayid": "32740"
-    },
-    {
       "id": 20158,
       "classId": 4,
       "subclassId": 3,
@@ -17826,33 +15345,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 258
       },
       "displayid": "8022"
-    },
-    {
-      "id": 20176,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Defiler's Epaulets",
-      "path": "inv_shoulder_24",
-      "stats": {
-        "sta": 18,
-        "int": 17,
-        "armor": 185,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ]
-      },
-      "displayid": "32740"
     },
     {
       "id": 20184,
@@ -18073,176 +15565,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34651"
     },
     {
-      "id": 22068,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Sorcerer's Mantle",
-      "path": "inv_shoulder_23",
-      "stats": {
-        "sta": 11,
-        "spi": 7,
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 68
-      },
-      "displayid": "34597"
-    },
-    {
-      "id": 22073,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Deathmist Mantle",
-      "path": "inv_misc_bone_taurenskull_01",
-      "stats": {
-        "sta": 16,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 68
-      },
-      "displayid": "34623"
-    },
-    {
-      "id": 22082,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Virtuous Mantle",
-      "path": "inv_shoulder_02",
-      "stats": {
-        "sta": 12,
-        "spi": 12,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 68
-      },
-      "displayid": "34632"
-    },
-    {
-      "id": 22093,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Soulforge Spaulders",
-      "path": "inv_shoulder_10",
-      "stats": {
-        "str": 10,
-        "sta": 11,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 507
-      },
-      "displayid": "34526"
-    },
-    {
-      "id": 22101,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Pauldrons of The Five Thunders",
-      "path": "inv_shoulder_29",
-      "stats": {
-        "str": 10,
-        "sta": 11,
-        "spi": 10,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 285
-      },
-      "displayid": "34697"
-    },
-    {
-      "id": 22112,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Feralheart Spaulders",
-      "path": "inv_shoulder_01",
-      "stats": {
-        "agi": 5,
-        "str": 8,
-        "sta": 9,
-        "spi": 8,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 135
-      },
-      "displayid": "34643"
-    },
-    {
       "id": 22241,
       "classId": 4,
       "subclassId": 2,
@@ -18312,70 +15634,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 186
       },
       "displayid": "35160"
-    },
-    {
-      "id": 22499,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 86,
-      "name": "Frostfire Shoulderpads",
-      "path": "inv_shoulder_25",
-      "stats": {
-        "sta": 17,
-        "spi": 9,
-        "int": 18,
-        "dmg_done": [
-          0,
-          0,
-          36,
-          36,
-          36,
-          36,
-          36,
-          36
-        ],
-        "armor": 97
-      },
-      "displayid": "35326"
-    },
-    {
-      "id": 22758,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 70,
-      "name": "Sylvan Shoulders",
-      "path": "inv_shoulder_18",
-      "stats": {
-        "sta": 18,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          20,
-          0,
-          0,
-          0
-        ],
-        "armor": 73
-      },
-      "displayid": "35209"
     },
     {
       "id": 22940,
@@ -18458,42 +15716,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "35369"
     },
     {
-      "id": 22968,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Glacial Mantle",
-      "path": "inv_shoulder_14",
-      "stats": {
-        "sta": 18,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          33,
-          0,
-          0
-        ],
-        "armor": 94
-      },
-      "displayid": "35369"
-    },
-    {
       "id": 23243,
       "classId": 4,
       "subclassId": 4,
@@ -18541,32 +15763,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_cape_20",
       "displayid": 0,
       "stats": {}
-    },
-    {
-      "id": 215365,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Invoker's Mantle",
-      "path": "inv_shoulder_02",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 32
-      },
-      "displayid": "4904"
     },
     {
       "id": 226858,
@@ -18639,23 +15835,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 27,
         "crit_rate": 14,
         "armor": 552
-      }
-    },
-    {
-      "id": 227808,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Rugged Mantle of the Timbermaw",
-      "path": "inv_shoulder_19",
-      "displayid": 36269,
-      "stats": {
-        "int": 15,
-        "crit_rate": 14,
-        "armor": 75
       }
     },
     {
@@ -18790,82 +15969,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 250486,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 27,
-      "name": "Sterling Silver Shoulders",
-      "stats": {
-        "str": 4,
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 141
-      },
-      "displayid": "9038"
-    },
-    {
-      "id": 250539,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Hard Gold Pauldrons",
-      "stats": {
-        "str": 11,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 172
-      },
-      "displayid": "712854"
-    },
-    {
-      "id": 250541,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Shining Mithril Pauldrons",
-      "stats": {
-        "str": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 327
-      },
-      "displayid": "712876"
-    },
-    {
       "id": 250576,
       "classId": 4,
       "subclassId": 4,
@@ -18900,44 +16003,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712916"
     },
     {
-      "id": 250578,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Warder's Pauldrons",
-      "stats": {
-        "sta": 13,
-        "defense": 10,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 374
-      },
-      "displayid": "712918"
-    },
-    {
       "id": 250579,
       "classId": 4,
       "subclassId": 4,
       "slot": 3,
-      "requires": 0,
+      "requires": 42,
       "quality": 3,
       "ilvl": 47,
       "name": "Prefect's Pauldrons",
+      "path": "inv_shoulder_20",
+      "displayid": 712915,
       "stats": {
         "sta": 8,
         "int": 10,
-        "dmg_done": [
+        "armor": 375,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -18946,63 +16026,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 374
-      },
-      "displayid": "712915"
-    },
-    {
-      "id": 250580,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Justicar's Pauldrons",
-      "stats": {
-        "str": 8,
-        "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 374
-      },
-      "displayid": "712917"
-    },
-    {
-      "id": 250586,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Blessed Plate Pauldrons",
-      "path": "inv_shoulder_10",
-      "stats": {
-        "str": 5,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 373
-      },
-      "displayid": "712929"
+        ]
+      }
     },
     {
       "id": 252534,
@@ -19058,46 +16083,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714580"
     },
     {
-      "id": 252537,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Skycaller's Leather Shoulder",
-      "stats": {
-        "sta": 7,
-        "spi": 6,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 104
-      },
-      "displayid": "714501"
-    },
-    {
       "id": 252538,
       "classId": 4,
       "subclassId": 2,
       "slot": 3,
-      "requires": 0,
+      "requires": 42,
       "quality": 3,
       "ilvl": 47,
       "name": "Mender's Leather Shoulder",
+      "path": "inv_shoulder_17",
+      "displayid": 714455,
       "stats": {
         "sta": 6,
-        "spi": 7,
         "int": 9,
-        "dmg_done": [
+        "spi": 7,
+        "armor": 104,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -19106,10 +16107,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 104
-      },
-      "displayid": "714455"
+        ]
+      }
     },
     {
       "id": 252554,
@@ -19145,32 +16144,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714582"
     },
     {
-      "id": 252558,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Tooled Leather Epaulets",
-      "stats": {
-        "sta": 13,
-        "spi": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 115
-      },
-      "displayid": "714566"
-    },
-    {
       "id": 252566,
       "classId": 4,
       "subclassId": 3,
@@ -19189,73 +16162,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714520"
     },
     {
-      "id": 252567,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Skycaller's Mail Shoulder",
-      "stats": {
-        "sta": 7,
-        "spi": 6,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 213
-      },
-      "displayid": "714513"
-    },
-    {
-      "id": 252568,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Skirmisher's Mail Shoulder",
-      "stats": {
-        "str": 11,
-        "sta": 7,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 213
-      },
-      "displayid": "714484"
-    },
-    {
       "id": 252569,
       "classId": 4,
       "subclassId": 3,
       "slot": 3,
-      "requires": 0,
+      "requires": 42,
       "quality": 3,
       "ilvl": 47,
       "name": "Mender's Mail Shoulder",
+      "path": "inv_shoulder_08",
+      "displayid": 714462,
       "stats": {
         "sta": 6,
-        "spi": 7,
         "int": 9,
-        "dmg_done": [
+        "spi": 7,
+        "armor": 213,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -19264,75 +16186,24 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 213
-      },
-      "displayid": "714462"
-    },
-    {
-      "id": 252583,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 55,
-      "name": "Charged Scorpid Shoulder",
-      "stats": {
-        "spi": 8,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 223
-      },
-      "displayid": "714394"
-    },
-    {
-      "id": 252592,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Supple Scorpid Shoulder",
-      "stats": {
-        "str": 8,
-        "sta": 12,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 227
-      },
-      "displayid": "714542"
+        ]
+      }
     },
     {
       "id": 254033,
       "classId": 4,
       "subclassId": 1,
       "slot": 3,
-      "requires": 0,
+      "requires": 36,
       "quality": 2,
       "ilvl": 41,
       "name": "Earthen Silk Shoulders",
+      "path": "inv_shoulder_25",
+      "displayid": 715300,
       "stats": {
         "spi": 8,
-        "dmg_done": [
+        "armor": 40,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -19341,25 +16212,26 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 40
-      },
-      "displayid": "715300"
+        ]
+      }
     },
     {
       "id": 254049,
       "classId": 4,
       "subclassId": 1,
       "slot": 3,
-      "requires": 0,
+      "requires": 42,
       "quality": 3,
       "ilvl": 47,
       "name": "Nethergeld Shoulders",
+      "path": "inv_shoulder_22",
+      "displayid": 715397,
       "stats": {
         "sta": 8,
-        "spi": 6,
         "int": 8,
-        "dmg_done": [
+        "spi": 6,
+        "armor": 51,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -19368,10 +16240,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 50
-      },
-      "displayid": "715397"
+        ]
+      }
     },
     {
       "id": 254051,
@@ -19463,13 +16333,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 3,
-      "requires": 0,
+      "requires": 52,
       "quality": 2,
       "ilvl": 57,
       "name": "Earthenweave Mantle",
+      "path": "inv_shoulder_05",
+      "displayid": 715308,
       "stats": {
         "spi": 12,
-        "dmg_done": [
+        "armor": 55,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -19478,60 +16351,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 55
-      },
-      "displayid": "715308"
-    },
-    {
-      "id": 254127,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Ghostweave Mantle",
-      "stats": {
-        "spi": 12,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 57
-      },
-      "displayid": "748643"
-    },
-    {
-      "id": 260169,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Amice of Sorrow",
-      "stats": {
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 50
-      },
-      "displayid": "717912"
+        ]
+      }
     },
     {
       "id": 270023,
@@ -19575,32 +16396,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 8,
         "armor": 156
       }
-    },
-    {
-      "id": 270039,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 29,
-      "name": "Raptorclaw Shoulders",
-      "path": "inv_shoulder_08",
-      "stats": {
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 68
-      },
-      "displayid": "14950"
     },
     {
       "id": 270044,
@@ -19724,40 +16519,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "27160"
     },
     {
-      "id": 271953,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Theramore Shoulderpads",
-      "path": "inv_shoulder_02",
-      "displayid": 11318,
-      "stats": {
-        "sta": 15,
-        "int": 27,
-        "armor": 75
-      }
-    },
-    {
-      "id": 271954,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Theramore Shoulders",
-      "path": "inv_shoulder_24",
-      "displayid": 8022,
-      "stats": {
-        "sta": 15,
-        "int": 27,
-        "armor": 148
-      }
-    },
-    {
       "id": 271955,
       "classId": 4,
       "subclassId": 2,
@@ -19836,40 +16597,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 27,
         "crit_rate": 14,
         "armor": 553
-      }
-    },
-    {
-      "id": 272103,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Darkspear Shoulderpads",
-      "path": "inv_shoulder_02",
-      "displayid": 11318,
-      "stats": {
-        "sta": 15,
-        "int": 27,
-        "armor": 75
-      }
-    },
-    {
-      "id": 272104,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Darkspear Shoulders",
-      "path": "inv_shoulder_24",
-      "displayid": 8022,
-      "stats": {
-        "sta": 15,
-        "int": 27,
-        "armor": 148
       }
     },
     {
@@ -20026,40 +16753,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30318"
     },
     {
-      "id": 272957,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Theramore Shoulderguards",
-      "path": "inv_shoulder_14",
-      "displayid": 11327,
-      "stats": {
-        "sta": 12,
-        "int": 27,
-        "armor": 312
-      }
-    },
-    {
-      "id": 272958,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Darkspear Shoulderguards",
-      "path": "inv_shoulder_14",
-      "displayid": 11327,
-      "stats": {
-        "sta": 12,
-        "int": 27,
-        "armor": 312
-      }
-    },
-    {
       "id": 273028,
       "classId": 4,
       "subclassId": 3,
@@ -20171,23 +16864,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 274638,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 42,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Sandfury Pauldrons",
-      "path": "inv_shoulder_19",
-      "displayid": 739062,
-      "stats": {
-        "int": 7,
-        "spi": 11,
-        "armor": 213
-      }
-    },
-    {
       "id": 274751,
       "classId": 4,
       "subclassId": 2,
@@ -20203,32 +16879,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 91
       },
       "displayid": "14205"
-    },
-    {
-      "id": 275666,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 3,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Whitemane's Plateau",
-      "path": "inv_shoulder_01",
-      "stats": {
-        "spi": 11,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 114
-      },
-      "displayid": "36269"
     },
     {
       "id": 275737,
@@ -20508,15 +17158,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 3,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Eternity Pauldrons",
       "path": "inv_shoulder_10",
+      "displayid": 741909,
       "stats": {
         "sta": 21,
         "spi": 18,
-        "dmg_done": [
+        "armor": 312,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -20525,10 +17177,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 311
-      },
-      "displayid": "741909"
+        ]
+      }
     },
     {
       "id": 279839,
@@ -20746,23 +17396,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "747623"
     },
     {
-      "id": 282560,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 3,
-      "requires": 42,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Earth-Infused Rockguards",
-      "path": "inv_shoulder_03",
-      "displayid": 18333,
-      "stats": {
-        "sta": 13,
-        "int": 10,
-        "armor": 213
-      }
-    },
-    {
       "id": 282717,
       "classId": 4,
       "subclassId": 2,
@@ -20883,34 +17516,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 18747,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Item Properties Test",
-      "path": "inv_shoulder_02",
-      "stats": {
-        "melee_ap": 40,
-        "ranged_ap": 40,
-        "crit_rate": 70,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 66
-      },
-      "displayid": "27231"
-    },
-    {
       "id": 20289,
       "classId": 4,
       "subclassId": 4,
@@ -21015,34 +17620,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 186
       },
       "displayid": "35064"
-    },
-    {
-      "id": 22507,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 3,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 86,
-      "name": "Plagueheart Shoulderpads",
-      "path": "inv_shoulder_25",
-      "stats": {
-        "sta": 22,
-        "int": 12,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          36,
-          36,
-          36,
-          36,
-          36,
-          36
-        ],
-        "armor": 97
-      },
-      "displayid": "35187"
     },
     {
       "id": 22515,
@@ -21277,57 +17854,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "23021"
     },
     {
-      "id": 2580,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 12,
-      "name": "Reinforced Linen Cape",
-      "path": "inv_misc_cape_07",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 11
-      },
-      "displayid": "23105"
-    },
-    {
-      "id": 2584,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 16,
-      "name": "Woolen Cape",
-      "path": "inv_misc_cape_10",
-      "stats": {
-        "spi": 1,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 14
-      },
-      "displayid": "23144"
-    },
-    {
       "id": 2805,
       "classId": 4,
       "subclassId": 1,
@@ -21395,31 +17921,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 3449,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Mystic Shawl",
-      "path": "inv_misc_cape_13",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 13
-      },
-      "displayid": "23115"
-    },
-    {
       "id": 3511,
       "classId": 4,
       "subclassId": 1,
@@ -21466,32 +17967,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 15
       },
       "displayid": "23085"
-    },
-    {
-      "id": 3719,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Hillman's Cloak",
-      "path": "inv_misc_cape_07",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 21
-      },
-      "displayid": "23040"
     },
     {
       "id": 3749,
@@ -21543,94 +18018,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 27
       },
       "displayid": "15110"
-    },
-    {
-      "id": 4311,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Heavy Woolen Cloak",
-      "path": "inv_misc_cape_14",
-      "stats": {
-        "spi": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 17
-      },
-      "displayid": "23093"
-    },
-    {
-      "id": 4326,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Long Silken Cloak",
-      "path": "inv_misc_cape_02",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 24
-      },
-      "displayid": "15076"
-    },
-    {
-      "id": 4327,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 40,
-      "name": "Icy Cloak",
-      "path": "inv_misc_cape_04",
-      "stats": {
-        "spi": 6,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          8,
-          0,
-          0
-        ],
-        "armor": 29
-      },
-      "displayid": "15063"
     },
     {
       "id": 4447,
@@ -22164,32 +18551,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 5542,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 19,
-      "name": "Pearl-clasped Cloak",
-      "path": "inv_misc_cape_11",
-      "stats": {
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 16
-      },
-      "displayid": "23131"
-    },
-    {
       "id": 5610,
       "classId": 4,
       "subclassId": 1,
@@ -22220,32 +18581,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 5,
         "armor": 20
       }
-    },
-    {
-      "id": 5965,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Guardian Cloak",
-      "path": "inv_misc_cape_03",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 24
-      },
-      "displayid": "23033"
     },
     {
       "id": 5969,
@@ -22572,22 +18907,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 6632,
-      "classId": 4,
-      "subclassId": -6,
-      "slot": 16,
-      "requires": 16,
-      "quality": 3,
-      "ilvl": 21,
-      "name": "Feyscale Cloak",
-      "path": "inv_misc_cape_02",
-      "displayid": 15065,
-      "stats": {
-        "sta": 5,
-        "armor": 19
-      }
-    },
-    {
       "id": 6667,
       "classId": 4,
       "subclassId": 1,
@@ -22721,67 +19040,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 23
       },
       "displayid": "23092"
-    },
-    {
-      "id": 7056,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 36,
-      "name": "Crimson Silk Cloak",
-      "path": "inv_chest_cloth_16",
-      "stats": {
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          6,
-          0,
-          0,
-          0,
-          0
-        ],
-        "armor": 23
-      },
-      "displayid": "15102"
-    },
-    {
-      "id": 7283,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Black Whelp Cloak",
-      "path": "inv_misc_monsterscales_03",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "armor": 16
-      },
-      "displayid": "23010"
     },
     {
       "id": 7356,
@@ -23076,32 +19334,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 32
       },
       "displayid": "23057"
-    },
-    {
-      "id": 8216,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Big Voodoo Cloak",
-      "path": "inv_misc_cape_02",
-      "stats": {
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 31
-      },
-      "displayid": "24297"
     },
     {
       "id": 8248,
@@ -23979,24 +20211,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "28298"
     },
     {
-      "id": 11623,
-      "classId": 4,
-      "subclassId": -6,
-      "slot": 16,
-      "requires": 47,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Spritecaster Cape",
-      "path": "inv_misc_cape_20",
-      "displayid": 23097,
-      "stats": {
-        "sta": 5,
-        "int": 6,
-        "spi": 6,
-        "armor": 37
-      }
-    },
-    {
       "id": 11858,
       "classId": 4,
       "subclassId": 1,
@@ -24062,22 +20276,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 28
       },
       "displayid": "23033"
-    },
-    {
-      "id": 12465,
-      "classId": 4,
-      "subclassId": -6,
-      "slot": 16,
-      "requires": 48,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Nightfall Drape",
-      "path": "inv_misc_cape_05",
-      "displayid": 22989,
-      "stats": {
-        "sta": 14,
-        "armor": 38
-      }
     },
     {
       "id": 12979,
@@ -24258,32 +20456,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "armor": 93
       }
-    },
-    {
-      "id": 13860,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 53,
-      "name": "Runecloth Cloak",
-      "path": "inv_misc_cape_10",
-      "stats": {
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 34
-      },
-      "displayid": "25232"
     },
     {
       "id": 14044,
@@ -25445,32 +21617,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 15468,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 29,
-      "name": "Windsong Drape",
-      "path": "inv_misc_cape_05",
-      "stats": {
-        "spi": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 21
-      },
-      "displayid": "28303"
-    },
-    {
       "id": 15501,
       "classId": 4,
       "subclassId": -6,
@@ -26138,17 +22284,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 18510,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 57,
       "quality": 4,
       "ilvl": 62,
       "name": "Hide of the Wild",
       "path": "inv_misc_cape_01",
+      "displayid": 29720,
       "stats": {
         "sta": 8,
         "int": 10,
-        "dmg_done": [
+        "armor": 48,
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -26157,10 +22305,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 47
-      },
-      "displayid": "29720"
+        ]
+      }
     },
     {
       "id": 18511,
@@ -26237,118 +22383,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "27197"
     },
     {
-      "id": 19085,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Frostwolf Advisor's Cloak",
-      "path": "inv_misc_cape_16",
-      "stats": {
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0
-        ],
-        "armor": 42
-      },
-      "displayid": "31592"
-    },
-    {
-      "id": 19086,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Stormpike Sage's Cloak",
-      "path": "inv_misc_cape_18",
-      "stats": {
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0
-        ],
-        "armor": 42
-      },
-      "displayid": "15042"
-    },
-    {
-      "id": 19121,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 51,
-      "name": "Deep Woodlands Cloak",
-      "path": "inv_misc_cape_17",
-      "stats": {
-        "sta": 6,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 36
-      },
-      "displayid": "31632"
-    },
-    {
       "id": 19526,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 58,
       "quality": 3,
       "ilvl": 63,
       "name": "Battle Healer's Cloak",
       "path": "inv_misc_cape_18",
+      "displayid": 32066,
       "stats": {
         "sta": 11,
         "spi": 8,
-        "dmg_done": [
+        "armor": 45,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -26357,25 +22406,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 44
-      },
-      "displayid": "32066"
+        ]
+      }
     },
     {
       "id": 19527,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 48,
       "quality": 3,
       "ilvl": 53,
       "name": "Battle Healer's Cloak",
       "path": "inv_misc_cape_18",
+      "displayid": 32069,
       "stats": {
         "sta": 9,
         "spi": 6,
-        "dmg_done": [
+        "armor": 38,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -26384,25 +22433,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 37
-      },
-      "displayid": "32069"
+        ]
+      }
     },
     {
       "id": 19528,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 38,
       "quality": 3,
       "ilvl": 43,
       "name": "Battle Healer's Cloak",
       "path": "inv_misc_cape_18",
+      "displayid": 27974,
       "stats": {
         "sta": 8,
         "spi": 5,
-        "dmg_done": [
+        "armor": 31,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -26411,25 +22460,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 31
-      },
-      "displayid": "27974"
+        ]
+      }
     },
     {
       "id": 19529,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 28,
       "quality": 3,
       "ilvl": 33,
       "name": "Battle Healer's Cloak",
       "path": "inv_misc_cape_18",
+      "displayid": 23071,
       "stats": {
         "sta": 6,
         "spi": 4,
-        "dmg_done": [
+        "armor": 25,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -26438,25 +22487,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 24
-      },
-      "displayid": "23071"
+        ]
+      }
     },
     {
       "id": 19530,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 58,
       "quality": 3,
       "ilvl": 63,
       "name": "Caretaker's Cape",
       "path": "inv_misc_cape_13",
+      "displayid": 32067,
       "stats": {
         "sta": 11,
         "spi": 8,
-        "dmg_done": [
+        "armor": 45,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -26465,25 +22514,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 44
-      },
-      "displayid": "32067"
+        ]
+      }
     },
     {
       "id": 19531,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 48,
       "quality": 3,
       "ilvl": 53,
       "name": "Caretaker's Cape",
       "path": "inv_misc_cape_13",
+      "displayid": 23065,
       "stats": {
         "sta": 9,
         "spi": 6,
-        "dmg_done": [
+        "armor": 38,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -26492,25 +22541,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 37
-      },
-      "displayid": "23065"
+        ]
+      }
     },
     {
       "id": 19532,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 38,
       "quality": 3,
       "ilvl": 43,
       "name": "Caretaker's Cape",
       "path": "inv_misc_cape_13",
+      "displayid": 27960,
       "stats": {
         "sta": 8,
         "spi": 5,
-        "dmg_done": [
+        "armor": 31,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -26519,25 +22568,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 31
-      },
-      "displayid": "27960"
+        ]
+      }
     },
     {
       "id": 19533,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 28,
       "quality": 3,
       "ilvl": 33,
       "name": "Caretaker's Cape",
       "path": "inv_misc_cape_13",
+      "displayid": 23055,
       "stats": {
         "sta": 6,
         "spi": 4,
-        "dmg_done": [
+        "armor": 25,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -26546,10 +22595,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 24
-      },
-      "displayid": "23055"
+        ]
+      }
     },
     {
       "id": 20068,
@@ -26626,17 +22673,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 20427,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 18,
       "quality": 3,
       "ilvl": 23,
       "name": "Battle Healer's Cloak",
       "path": "inv_misc_cape_18",
+      "displayid": 23071,
       "stats": {
         "sta": 4,
         "spi": 2,
-        "dmg_done": [
+        "armor": 20,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -26645,25 +22694,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 20
-      },
-      "displayid": "23071"
+        ]
+      }
     },
     {
       "id": 20428,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 18,
       "quality": 3,
       "ilvl": 23,
       "name": "Caretaker's Cape",
       "path": "inv_misc_cape_13",
+      "displayid": 23055,
       "stats": {
         "sta": 4,
         "spi": 2,
-        "dmg_done": [
+        "armor": 20,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -26672,10 +22721,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 20
-      },
-      "displayid": "23055"
+        ]
+      }
     },
     {
       "id": 21187,
@@ -27132,35 +23179,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 272411,
+      "id": 272413,
       "classId": 4,
       "subclassId": -6,
       "slot": 16,
       "requires": 60,
       "quality": 3,
       "ilvl": 65,
-      "name": "Arcanoweave Cloak",
-      "path": "inv_misc_cape_05",
-      "displayid": 23000,
-      "stats": {
-        "int": 8,
-        "hit_rate": 10,
-        "armor": 46
-      }
-    },
-    {
-      "id": 272413,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
       "name": "Drape of Recovery",
       "path": "inv_misc_cape_06",
+      "displayid": 33531,
       "stats": {
         "sta": 8,
-        "dmg_done": [
+        "armor": 46,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -27169,10 +23201,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 45
-      },
-      "displayid": "33531"
+        ]
+      }
     },
     {
       "id": 272414,
@@ -27415,22 +23445,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "23106"
     },
     {
-      "id": 274149,
-      "classId": 4,
-      "subclassId": -6,
-      "slot": 16,
-      "requires": 25,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Thornweaver Drape",
-      "path": "inv_misc_cape_11",
-      "displayid": 23008,
-      "stats": {
-        "spi": 6,
-        "armor": 24
-      }
-    },
-    {
       "id": 274645,
       "classId": 4,
       "subclassId": -6,
@@ -27473,43 +23487,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "23077"
     },
     {
-      "id": 274752,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Sandstorm Cover",
-      "stats": {
-        "spi": 8,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 29
-      },
-      "displayid": "15110"
-    },
-    {
       "id": 275046,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
       "requires": 0,
       "quality": 2,
       "ilvl": 46,
       "name": "Twilight Overlord Drape",
       "path": "inv_misc_cape_22",
+      "displayid": 23048,
       "stats": {
         "sta": 9,
-        "dmg_done": [
+        "armor": 30,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -27518,24 +23509,24 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 30
-      },
-      "displayid": "23048"
+        ]
+      }
     },
     {
       "id": 275050,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
       "requires": 0,
       "quality": 2,
       "ilvl": 46,
       "name": "Cloak of the Cult",
       "path": "inv_misc_cape_22",
+      "displayid": 23048,
       "stats": {
         "sta": 9,
-        "dmg_done": [
+        "armor": 30,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -27544,10 +23535,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 30
-      },
-      "displayid": "23048"
+        ]
+      }
     },
     {
       "id": 275668,
@@ -27569,25 +23558,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 275711,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
       "requires": 0,
       "quality": 3,
       "ilvl": 61,
       "name": "Chimaera Wing Cape",
       "path": "inv_misc_cape_10",
+      "displayid": 32371,
       "stats": {
         "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
+        "armor": 43,
         "resistance": [
           0,
           0,
@@ -27598,9 +23579,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 43
-      },
-      "displayid": "32371"
+        "dmg_done_mod": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
     },
     {
       "id": 275833,
@@ -27649,32 +23638,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 25
       },
       "displayid": "15068"
-    },
-    {
-      "id": 277206,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 16,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Brilliant Cloak",
-      "stats": {
-        "sta": 5,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 26
-      },
-      "displayid": "15181"
     },
     {
       "id": 277207,
@@ -28058,18 +24021,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 286426,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 7,
       "quality": 2,
       "ilvl": 15,
       "name": "Honorbound Cloak",
       "path": "inv_misc_cape_14",
+      "displayid": 33730,
       "stats": {
         "sta": 1,
         "melee_ap": 1,
-        "ranged_ap": 1,
-        "dmg_done": [
+        "armor": 14,
+        "dmg_done_mod": [
           0,
           0,
           1,
@@ -28078,26 +24042,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           1,
           1,
           1
-        ],
-        "armor": 13
-      },
-      "displayid": "33730"
+        ]
+      }
     },
     {
       "id": 286427,
       "classId": 4,
-      "subclassId": 1,
+      "subclassId": -6,
       "slot": 16,
-      "requires": 0,
+      "requires": 7,
       "quality": 2,
       "ilvl": 15,
       "name": "Cloak of the Honored Guest",
       "path": "inv_misc_cape_16",
+      "displayid": 26228,
       "stats": {
         "sta": 1,
         "melee_ap": 1,
-        "ranged_ap": 1,
-        "dmg_done": [
+        "armor": 14,
+        "dmg_done_mod": [
           0,
           0,
           1,
@@ -28106,10 +24069,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           1,
           1,
           1
-        ],
-        "armor": 13
-      },
-      "displayid": "26228"
+        ]
+      }
     },
     {
       "id": 286744,
@@ -28304,21 +24265,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 1486,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 21,
-      "quality": 3,
-      "ilvl": 26,
-      "name": "Tree Bark Jacket",
-      "path": "inv_shirt_02",
-      "displayid": 8267,
-      "stats": {
-        "armor": 104
-      }
-    },
-    {
       "id": 1489,
       "classId": 4,
       "subclassId": 2,
@@ -28334,22 +24280,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "spi": 8,
         "armor": 94
-      }
-    },
-    {
-      "id": 1561,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 8,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Harvester's Robe",
-      "path": "inv_chest_cloth_13",
-      "displayid": 10895,
-      "stats": {
-        "spi": 2,
-        "armor": 28
       }
     },
     {
@@ -28371,23 +24301,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 1716,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 35,
-      "quality": 3,
-      "ilvl": 40,
-      "name": "Robe of the Magi",
-      "path": "inv_chest_cloth_17",
-      "displayid": 16667,
-      "stats": {
-        "int": 6,
-        "spi": 5,
-        "armor": 58
-      }
-    },
-    {
       "id": 1717,
       "classId": 4,
       "subclassId": 3,
@@ -28401,22 +24314,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "defense": 9,
         "armor": 278
-      }
-    },
-    {
-      "id": 2034,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 20,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Scholarly Robes",
-      "path": "inv_chest_cloth_04",
-      "displayid": 10720,
-      "stats": {
-        "spi": 8,
-        "armor": 39
       }
     },
     {
@@ -28535,32 +24432,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9502"
     },
     {
-      "id": 2311,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 13,
-      "name": "White Leather Jerkin",
-      "path": "inv_chest_wolf",
-      "stats": {
-        "str": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 64
-      },
-      "displayid": "6026"
-    },
-    {
       "id": 2317,
       "classId": 4,
       "subclassId": 2,
@@ -28607,74 +24478,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 19
-      }
-    },
-    {
-      "id": 2578,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 14,
-      "name": "Barbaric Linen Vest",
-      "path": "inv_chest_fur",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 26
-      },
-      "displayid": "7811"
-    },
-    {
-      "id": 2582,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 17,
-      "name": "Green Woolen Vest",
-      "path": "inv_chest_cloth_39",
-      "stats": {
-        "spi": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 30
-      },
-      "displayid": "10849"
-    },
-    {
-      "id": 2585,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 16,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Gray Woolen Robe",
-      "path": "inv_chest_cloth_13",
-      "displayid": 10896,
-      "stats": {
-        "int": 5,
-        "armor": 35
       }
     },
     {
@@ -29232,22 +25035,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "10123"
     },
     {
-      "id": 3461,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 10,
-      "quality": 2,
-      "ilvl": 24,
-      "name": "High Robe of the Adjudicator",
-      "path": "inv_chest_cloth_18",
-      "displayid": 12213,
-      "stats": {
-        "int": 2,
-        "armor": 38
-      }
-    },
-    {
       "id": 3471,
       "classId": 4,
       "subclassId": 3,
@@ -29635,32 +25422,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9511"
     },
     {
-      "id": 4244,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Hillman's Leather Vest",
-      "path": "inv_chest_leather_10",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 77
-      },
-      "displayid": "1975"
-    },
-    {
       "id": 4255,
       "classId": 4,
       "subclassId": 2,
@@ -29676,32 +25437,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 95
       },
       "displayid": "8359"
-    },
-    {
-      "id": 4256,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Guardian Armor",
-      "path": "inv_chest_leather_08",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 101
-      },
-      "displayid": "8414"
     },
     {
       "id": 4324,
@@ -29890,32 +25625,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 5316,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Barkshell Tunic",
-      "path": "inv_shirt_05",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 85
-      },
-      "displayid": "10991"
-    },
-    {
       "id": 5317,
       "classId": 4,
       "subclassId": 2,
@@ -29982,38 +25691,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 106
       },
       "displayid": "10883"
-    },
-    {
-      "id": 5766,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 22,
-      "quality": 2,
-      "ilvl": 27,
-      "name": "Lesser Wizard's Robe",
-      "path": "inv_chest_cloth_17",
-      "displayid": 8864,
-      "stats": {
-        "int": 8,
-        "armor": 41
-      }
-    },
-    {
-      "id": 5770,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 25,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Robes of Arcana",
-      "path": "inv_chest_cloth_29",
-      "displayid": 8865,
-      "stats": {
-        "spi": 7,
-        "armor": 43
-      }
     },
     {
       "id": 5781,
@@ -30209,58 +25886,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 6239,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 12,
-      "name": "Red Linen Vest",
-      "path": "inv_chest_cloth_40",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 22
-      },
-      "displayid": "10706"
-    },
-    {
-      "id": 6240,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 12,
-      "name": "Blue Linen Vest",
-      "path": "inv_chest_cloth_37",
-      "stats": {
-        "spi": 2,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 22
-      },
-      "displayid": "10843"
-    },
-    {
       "id": 6241,
       "classId": 4,
       "subclassId": 1,
@@ -30274,38 +25899,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "int": 1,
         "armor": 19
-      }
-    },
-    {
-      "id": 6242,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 9,
-      "quality": 2,
-      "ilvl": 14,
-      "name": "Blue Linen Robe",
-      "path": "inv_chest_cloth_23",
-      "displayid": 8853,
-      "stats": {
-        "spi": 3,
-        "armor": 26
-      }
-    },
-    {
-      "id": 6243,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 13,
-      "quality": 2,
-      "ilvl": 18,
-      "name": "Green Woolen Robe",
-      "path": "inv_chest_cloth_22",
-      "displayid": 10894,
-      "stats": {
-        "int": 3,
-        "armor": 32
       }
     },
     {
@@ -30323,23 +25916,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 34
-      }
-    },
-    {
-      "id": 6264,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 18,
-      "quality": 2,
-      "ilvl": 23,
-      "name": "Greater Adept's Robe",
-      "path": "inv_chest_cloth_24",
-      "displayid": 12716,
-      "stats": {
-        "int": 2,
-        "spi": 7,
-        "armor": 37
       }
     },
     {
@@ -30955,32 +26531,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 6709,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 18,
-      "name": "Moonglow Vest",
-      "path": "inv_chest_leather_09",
-      "stats": {
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 74
-      },
-      "displayid": "11487"
-    },
-    {
       "id": 6721,
       "classId": 4,
       "subclassId": 3,
@@ -31136,49 +26686,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "2471"
     },
     {
-      "id": 7054,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 33,
-      "quality": 3,
-      "ilvl": 38,
-      "name": "Robe of Power",
-      "path": "inv_chest_cloth_02",
-      "displayid": 17133,
-      "stats": {
-        "int": 12,
-        "spi": 8,
-        "armor": 55
-      }
-    },
-    {
-      "id": 7058,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Crimson Silk Vest",
-      "path": "inv_shirt_04",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 48
-      },
-      "displayid": "13671"
-    },
-    {
       "id": 7063,
       "classId": 4,
       "subclassId": 1,
@@ -31193,32 +26700,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 15,
         "armor": 54
       }
-    },
-    {
-      "id": 7065,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 33,
-      "name": "Green Silk Armor",
-      "path": "inv_chest_cloth_06",
-      "stats": {
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 45
-      },
-      "displayid": "13684"
     },
     {
       "id": 7110,
@@ -31892,49 +27373,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8435"
     },
     {
-      "id": 8189,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Turtle Scale Breastplate",
-      "path": "inv_chest_chain_12",
-      "stats": {
-        "sta": 9,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 238
-      },
-      "displayid": "11598"
-    },
-    {
-      "id": 8200,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 20,
-      "requires": 38,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Big Voodoo Robe",
-      "path": "inv_chest_cloth_25",
-      "displayid": 13666,
-      "stats": {
-        "int": 14,
-        "armor": 117
-      }
-    },
-    {
       "id": 8203,
       "classId": 4,
       "subclassId": 3,
@@ -32140,33 +27578,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 8349,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Feathered Breastplate",
-      "path": "inv_chest_leather_06",
-      "stats": {
-        "spi": 24,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 145
-      },
-      "displayid": "743317"
-    },
-    {
       "id": 8367,
       "classId": 4,
       "subclassId": 3,
@@ -32234,31 +27645,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ]
-      }
-    },
-    {
-      "id": 9434,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 36,
-      "quality": 3,
-      "ilvl": 41,
-      "name": "Elemental Raiment",
-      "path": "inv_chest_leather_03",
-      "displayid": 5350,
-      "stats": {
-        "armor": 59,
-        "resistance": [
-          0,
-          0,
-          0,
-          5,
-          5,
-          5,
-          0,
-          5
         ]
       }
     },
@@ -32899,32 +28285,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 9998,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Black Mageweave Vest",
-      "path": "inv_chest_leather_03",
-      "stats": {
-        "spi": 12,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 53
-      },
-      "displayid": "24352"
-    },
-    {
       "id": 10001,
       "classId": 4,
       "subclassId": 1,
@@ -32978,15 +28338,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 5,
-      "requires": 0,
+      "requires": 40,
       "quality": 2,
       "ilvl": 45,
       "name": "Stormcloth Vest",
       "path": "inv_chest_cloth_08",
+      "displayid": 8161,
       "stats": {
         "sta": 8,
         "spi": 8,
-        "dmg_done": [
+        "armor": 59,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -32995,37 +28357,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 59
-      },
-      "displayid": "8161"
-    },
-    {
-      "id": 10021,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Dreamweave Vest",
-      "path": "inv_chest_cloth_42",
-      "stats": {
-        "spi": 14,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "armor": 64
-      },
-      "displayid": "9575"
+        ]
+      }
     },
     {
       "id": 10042,
@@ -33810,24 +29143,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "16661"
     },
     {
-      "id": 11633,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 5,
-      "requires": 49,
-      "quality": 3,
-      "ilvl": 54,
-      "name": "Spiderfang Carapace",
-      "path": "inv_chest_plate02",
-      "displayid": 21898,
-      "stats": {
-        "str": 14,
-        "sta": 14,
-        "int": 13,
-        "armor": 567
-      }
-    },
-    {
       "id": 11726,
       "classId": 4,
       "subclassId": 3,
@@ -33844,34 +29159,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 18,
         "crit_rate": 21,
         "armor": 369
-      }
-    },
-    {
-      "id": 11747,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 20,
-      "requires": 48,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Flamestrider Robes",
-      "path": "inv_chest_cloth_07",
-      "displayid": 21719,
-      "stats": {
-        "sta": 5,
-        "int": 4,
-        "spi": 16,
-        "armor": 153,
-        "resistance": [
-          0,
-          0,
-          0,
-          10,
-          0,
-          0,
-          0,
-          0
-        ]
       }
     },
     {
@@ -34071,33 +29358,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "13380"
     },
     {
-      "id": 12624,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 54,
-      "name": "Wildthorn Mail",
-      "path": "inv_chest_chain_12",
-      "stats": {
-        "sta": 5,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 322
-      },
-      "displayid": "4474"
-    },
-    {
       "id": 12628,
       "classId": 4,
       "subclassId": 4,
@@ -34288,48 +29548,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13857,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Runecloth Tunic",
-      "path": "inv_chest_cloth_04",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17
-        ],
-        "armor": 67
-      },
-      "displayid": "25207"
-    },
-    {
-      "id": 13858,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 47,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Runecloth Robe",
-      "path": "inv_chest_cloth_04",
-      "displayid": 21957,
-      "stats": {
-        "int": 17,
-        "armor": 68
-      }
-    },
-    {
       "id": 13868,
       "classId": 4,
       "subclassId": 1,
@@ -34423,31 +29641,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 14100,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 49,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Brightcloth Robe",
-      "path": "inv_chest_cloth_26",
-      "displayid": 15820,
-      "stats": {
-        "armor": 70,
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          16,
-          0,
-          0
-        ]
-      }
-    },
-    {
       "id": 14106,
       "classId": 4,
       "subclassId": 1,
@@ -34524,31 +29717,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 14128,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 55,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Wizardweave Robe",
-      "path": "inv_chest_cloth_46",
-      "displayid": 17275,
-      "stats": {
-        "armor": 77,
-        "resistance": [
-          0,
-          0,
-          0,
-          18,
-          0,
-          0,
-          0,
-          18
-        ]
-      }
-    },
-    {
       "id": 14133,
       "classId": 4,
       "subclassId": 1,
@@ -34584,15 +29752,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 5,
-      "requires": 0,
+      "requires": 55,
       "quality": 3,
       "ilvl": 60,
       "name": "Mooncloth Vest",
       "path": "inv_chest_cloth_08",
+      "displayid": 10403,
       "stats": {
-        "spi": 19,
         "int": 20,
-        "dmg_done": [
+        "spi": 19,
+        "armor": 85,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -34601,36 +29771,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 85
-      },
-      "displayid": "10403"
-    },
-    {
-      "id": 14141,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 55,
-      "name": "Ghostweave Vest",
-      "path": "inv_shirt_08",
-      "stats": {
-        "spi": 20,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 71
-      },
-      "displayid": "11906"
+        ]
+      }
     },
     {
       "id": 14150,
@@ -36127,23 +31269,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 5,
-      "requires": 0,
+      "requires": 47,
       "quality": 3,
       "ilvl": 52,
       "name": "Green Dragonscale Breastplate",
       "path": "inv_chest_chain_06",
+      "displayid": 12837,
       "stats": {
         "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
+        "armor": 311,
         "resistance": [
           0,
           0,
@@ -36154,31 +31288,31 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 311
-      },
-      "displayid": "12837"
+        "dmg_done_mod": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ]
+      }
     },
     {
       "id": 15047,
       "classId": 4,
       "subclassId": 3,
       "slot": 5,
-      "requires": 0,
+      "requires": 56,
       "quality": 3,
       "ilvl": 61,
       "name": "Red Dragonscale Breastplate",
       "path": "inv_chest_chain_06",
+      "displayid": 17862,
       "stats": {
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
+        "armor": 360,
         "resistance": [
           0,
           0,
@@ -36189,45 +31323,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 359
-      },
-      "displayid": "17862"
-    },
-    {
-      "id": 15048,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 57,
-      "name": "Blue Dragonscale Breastplate",
-      "path": "inv_chest_chain_04",
-      "stats": {
-        "int": 28,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          8
-        ],
-        "armor": 338
-      },
-      "displayid": "25676"
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ]
+      }
     },
     {
       "id": 15050,
@@ -36305,24 +31411,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 5,
-      "requires": 0,
+      "requires": 55,
       "quality": 3,
       "ilvl": 60,
       "name": "Living Breastplate",
       "path": "inv_chest_plate07",
+      "displayid": 25082,
       "stats": {
         "sta": 10,
         "spi": 25,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
+        "armor": 169,
         "resistance": [
           0,
           0,
@@ -36333,9 +31431,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 169
-      },
-      "displayid": "25082"
+        "dmg_done_mod": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
     },
     {
       "id": 15064,
@@ -36354,33 +31460,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 157
       },
       "displayid": "10883"
-    },
-    {
-      "id": 15066,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Ironfeather Breastplate",
-      "path": "inv_chest_leather_06",
-      "stats": {
-        "spi": 28,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 165
-      },
-      "displayid": "25699"
     },
     {
       "id": 15068,
@@ -36467,32 +31546,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 155
       },
       "displayid": "1080"
-    },
-    {
-      "id": 15090,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 62,
-      "name": "Runic Leather Armor",
-      "path": "inv_chest_leather_07",
-      "stats": {
-        "int": 21,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 158
-      },
-      "displayid": "25731"
     },
     {
       "id": 15118,
@@ -36810,22 +31863,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": 22365,
       "stats": {
         "armor": 165
-      }
-    },
-    {
-      "id": 15455,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 30,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Dustfall Robes",
-      "path": "inv_chest_cloth_32",
-      "displayid": 24189,
-      "stats": {
-        "sta": 8,
-        "armor": 49
       }
     },
     {
@@ -37177,33 +32214,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 15786,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Fernpulse Jerkin",
-      "path": "inv_chest_leather_06",
-      "stats": {
-        "sta": 5,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 152
-      },
-      "displayid": "8158"
-    },
-    {
       "id": 15787,
       "classId": 4,
       "subclassId": 3,
@@ -37298,23 +32308,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30373"
     },
     {
-      "id": 16666,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 58,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Vest of Elements",
-      "path": "inv_chest_chain_11",
-      "displayid": 31416,
-      "stats": {
-        "sta": 13,
-        "int": 20,
-        "armor": 370
-      }
-    },
-    {
       "id": 16674,
       "classId": 4,
       "subclassId": 3,
@@ -37332,24 +32325,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 13,
         "spi": 6,
         "armor": 370
-      }
-    },
-    {
-      "id": 16688,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 58,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Magister's Robes",
-      "path": "inv_chest_cloth_25",
-      "displayid": 29591,
-      "stats": {
-        "sta": 9,
-        "int": 28,
-        "spi": 8,
-        "armor": 89
       }
     },
     {
@@ -37517,22 +32492,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 17775,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 41,
-      "quality": 3,
-      "ilvl": 49,
-      "name": "Acumen Robes",
-      "path": "inv_chest_cloth_49",
-      "displayid": 29950,
-      "stats": {
-        "int": 20,
-        "armor": 70
-      }
-    },
-    {
       "id": 17777,
       "classId": 4,
       "subclassId": 3,
@@ -37663,59 +32622,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 273
       },
       "displayid": "31641"
-    },
-    {
-      "id": 19156,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Flarecore Robe",
-      "path": "inv_chest_cloth_18",
-      "displayid": 16668,
-      "stats": {
-        "sta": 35,
-        "armor": 102,
-        "resistance": [
-          0,
-          0,
-          0,
-          15,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 19682,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Bloodvine Vest",
-      "path": "inv_chest_cloth_07",
-      "stats": {
-        "int": 13,
-        "hit_rate": 20,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 91
-      },
-      "displayid": "11481"
     },
     {
       "id": 19685,
@@ -37878,34 +32784,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "32872"
     },
     {
-      "id": 20479,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Spitfire Breastplate",
-      "path": "inv_chest_leather_02",
-      "stats": {
-        "agi": 16,
-        "spi": 15,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 365
-      },
-      "displayid": "16391"
-    },
-    {
       "id": 20550,
       "classId": 4,
       "subclassId": 4,
@@ -37931,86 +32809,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 656
       },
       "displayid": "32943"
-    },
-    {
-      "id": 20575,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Black Whelp Tunic",
-      "path": "inv_chest_cloth_45",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "armor": 77
-      },
-      "displayid": "2019"
-    },
-    {
-      "id": 20642,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 47,
-      "name": "Antiquated Nobleman's Tunic",
-      "path": "inv_chest_cloth_47",
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 61
-      },
-      "displayid": "4270"
-    },
-    {
-      "id": 21183,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Earthpower Vest",
-      "path": "inv_chest_cloth_06",
-      "stats": {
-        "int": 22,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 93
-      },
-      "displayid": "3832"
     },
     {
       "id": 21311,
@@ -38192,150 +32990,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34645"
     },
     {
-      "id": 22069,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 58,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Sorcerer's Robes",
-      "path": "inv_chest_cloth_25",
-      "displayid": 34596,
-      "stats": {
-        "sta": 14,
-        "int": 25,
-        "spi": 9,
-        "armor": 93
-      }
-    },
-    {
-      "id": 22075,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 58,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Deathmist Robe",
-      "path": "inv_chest_cloth_49",
-      "displayid": 34625,
-      "stats": {
-        "sta": 27,
-        "int": 22,
-        "crit_rate": 14,
-        "armor": 93
-      }
-    },
-    {
-      "id": 22083,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 58,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Virtuous Robe",
-      "path": "inv_chest_cloth_11",
-      "displayid": 34633,
-      "stats": {
-        "sta": 21,
-        "int": 22,
-        "spi": 12,
-        "armor": 93
-      }
-    },
-    {
-      "id": 22089,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 5,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Soulforge Breastplate",
-      "path": "inv_chest_plate03",
-      "stats": {
-        "str": 16,
-        "sta": 17,
-        "spi": 12,
-        "int": 17,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 683
-      },
-      "displayid": "34519"
-    },
-    {
-      "id": 22102,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Vest of The Five Thunders",
-      "path": "inv_chest_chain_11",
-      "stats": {
-        "str": 12,
-        "sta": 17,
-        "spi": 16,
-        "int": 17,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 386
-      },
-      "displayid": "34698"
-    },
-    {
-      "id": 22113,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Feralheart Vest",
-      "path": "inv_chest_plate06",
-      "stats": {
-        "agi": 9,
-        "str": 16,
-        "sta": 17,
-        "spi": 14,
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 184
-      },
-      "displayid": "34644"
-    },
-    {
       "id": 22191,
       "classId": 4,
       "subclassId": 3,
@@ -38444,44 +33098,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "35159"
     },
     {
-      "id": 22496,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 92,
-      "name": "Frostfire Robe",
-      "path": "inv_chest_cloth_43",
-      "displayid": 35523,
-      "stats": {
-        "sta": 21,
-        "int": 27,
-        "hit_rate": 10,
-        "crit_rate": 14,
-        "armor": 138
-      }
-    },
-    {
-      "id": 22504,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 92,
-      "name": "Plagueheart Robe",
-      "path": "inv_chest_cloth_43",
-      "displayid": 35185,
-      "stats": {
-        "sta": 27,
-        "int": 22,
-        "hit_rate": 10,
-        "crit_rate": 14,
-        "armor": 138
-      }
-    },
-    {
       "id": 22512,
       "classId": 4,
       "subclassId": 1,
@@ -38498,42 +33114,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 21,
         "armor": 138
       }
-    },
-    {
-      "id": 22652,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Glacial Vest",
-      "path": "inv_chest_cloth_08",
-      "stats": {
-        "sta": 26,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          40,
-          0,
-          0
-        ],
-        "armor": 121
-      },
-      "displayid": "35302"
     },
     {
       "id": 22661,
@@ -38630,42 +33210,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_shirt_08",
       "displayid": 752126,
       "stats": {}
-    },
-    {
-      "id": 22756,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 70,
-      "name": "Sylvan Vest",
-      "path": "inv_chest_plate07",
-      "stats": {
-        "sta": 15,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          30,
-          0,
-          0,
-          0
-        ],
-        "armor": 98
-      },
-      "displayid": "8388"
     },
     {
       "id": 22872,
@@ -38890,32 +33434,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 250487,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Sterling Silver Breastplate",
-      "stats": {
-        "str": 7,
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 198
-      },
-      "displayid": "4412"
-    },
-    {
       "id": 250488,
       "classId": 4,
       "subclassId": 3,
@@ -38950,44 +33468,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712818"
     },
     {
-      "id": 250490,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Protector's Chain Shirt",
-      "stats": {
-        "sta": 7,
-        "defense": 5,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 184
-      },
-      "displayid": "712824"
-    },
-    {
       "id": 250491,
       "classId": 4,
       "subclassId": 3,
       "slot": 5,
-      "requires": 0,
+      "requires": 15,
       "quality": 3,
       "ilvl": 20,
       "name": "Acolyte's Chain Shirt",
+      "path": "inv_chest_chain_08",
+      "displayid": 712756,
       "stats": {
         "sta": 4,
         "int": 5,
-        "dmg_done": [
+        "armor": 184,
+        "dmg_done_mod": [
           0,
           0,
           5,
@@ -38996,36 +33491,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5,
           5
-        ],
-        "armor": 184
-      },
-      "displayid": "712756"
-    },
-    {
-      "id": 250492,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Crusader's Chain Shirt",
-      "stats": {
-        "str": 4,
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 184
-      },
-      "displayid": "712763"
+        ]
+      }
     },
     {
       "id": 250518,
@@ -39062,44 +33529,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712818"
     },
     {
-      "id": 250520,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Protector's Silvered Chain Shirt",
-      "stats": {
-        "sta": 10,
-        "defense": 7,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 207
-      },
-      "displayid": "712824"
-    },
-    {
       "id": 250521,
       "classId": 4,
       "subclassId": 3,
       "slot": 5,
-      "requires": 0,
+      "requires": 22,
       "quality": 3,
       "ilvl": 27,
       "name": "Acolyte's Silvered Chain Shirt",
+      "path": "inv_chest_chain_08",
+      "displayid": 712756,
       "stats": {
         "sta": 6,
         "int": 7,
-        "dmg_done": [
+        "armor": 208,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -39108,153 +33552,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 207
-      },
-      "displayid": "712756"
-    },
-    {
-      "id": 250522,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Crusader's Silvered Chain Shirt",
-      "stats": {
-        "str": 6,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 207
-      },
-      "displayid": "712763"
-    },
-    {
-      "id": 250533,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 34,
-      "name": "Hard Gold Cuirass",
-      "stats": {
-        "str": 11,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 210
-      },
-      "displayid": "712841"
-    },
-    {
-      "id": 250540,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Shining Mithril Breastplate",
-      "stats": {
-        "str": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 436
-      },
-      "displayid": "712871"
-    },
-    {
-      "id": 250594,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Blessed Plate Chest",
-      "path": "inv_chest_plate03",
-      "stats": {
-        "str": 20,
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 579
-      },
-      "displayid": "740638"
-    },
-    {
-      "id": 250595,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Enriched Thorium Breastplate",
-      "stats": {
-        "sta": 25,
-        "defense": 9,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 646
-      },
-      "displayid": "712933"
+        ]
+      }
     },
     {
       "id": 250601,
       "classId": 4,
       "subclassId": 4,
       "slot": 5,
-      "requires": 0,
+      "requires": 56,
       "quality": 4,
       "ilvl": 61,
       "name": "Breastplate of Salvation",
+      "path": "inv_chest_plate09",
+      "displayid": 740637,
       "stats": {
-        "spi": 33,
         "int": 14,
-        "dmg_done": [
+        "spi": 33,
+        "armor": 695,
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -39263,10 +33579,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 694
-      },
-      "displayid": "740637"
+        ]
+      }
     },
     {
       "id": 252434,
@@ -39286,33 +33600,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714398"
     },
     {
-      "id": 252435,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Totemic Leather Armor",
-      "stats": {
-        "str": 7,
-        "sta": 3,
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 85
-      },
-      "displayid": "740636"
-    },
-    {
       "id": 252450,
       "classId": 4,
       "subclassId": 2,
@@ -39328,33 +33615,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 148
       },
       "displayid": "714404"
-    },
-    {
-      "id": 252451,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Totemic Leather Tunic",
-      "stats": {
-        "str": 8,
-        "sta": 6,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 97
-      },
-      "displayid": "714556"
     },
     {
       "id": 252480,
@@ -39444,46 +33704,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "740635"
     },
     {
-      "id": 252492,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Stormrider's Leather Armor",
-      "stats": {
-        "sta": 3,
-        "spi": 3,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 85
-      },
-      "displayid": "714521"
-    },
-    {
       "id": 252493,
       "classId": 4,
       "subclassId": 2,
       "slot": 5,
-      "requires": 0,
+      "requires": 15,
       "quality": 3,
       "ilvl": 20,
       "name": "Wisdom's Leather Armor",
+      "path": "inv_chest_fur",
+      "displayid": 714583,
       "stats": {
         "sta": 3,
-        "spi": 3,
         "int": 5,
-        "dmg_done": [
+        "spi": 3,
+        "armor": 85,
+        "dmg_done_mod": [
           0,
           0,
           5,
@@ -39492,10 +33728,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5,
           5
-        ],
-        "armor": 85
-      },
-      "displayid": "714583"
+        ]
+      }
     },
     {
       "id": 252508,
@@ -39534,46 +33768,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714563"
     },
     {
-      "id": 252510,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Stormrider's Leather Tunic",
-      "stats": {
-        "sta": 6,
-        "spi": 5,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 97
-      },
-      "displayid": "714527"
-    },
-    {
       "id": 252511,
       "classId": 4,
       "subclassId": 2,
       "slot": 5,
-      "requires": 0,
+      "requires": 22,
       "quality": 3,
       "ilvl": 27,
       "name": "Wisdom's Leather Tunic",
+      "path": "inv_chest_leather_01",
+      "displayid": 714589,
       "stats": {
         "sta": 5,
-        "spi": 6,
         "int": 6,
-        "dmg_done": [
+        "spi": 6,
+        "armor": 98,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -39582,88 +33792,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 97
-      },
-      "displayid": "714589"
-    },
-    {
-      "id": 252552,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Tooled Leather Armor",
-      "stats": {
-        "spi": 11,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 145
-      },
-      "displayid": "714544"
-    },
-    {
-      "id": 252598,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Charged Scorpid Vest",
-      "stats": {
-        "spi": 14,
-        "int": 15,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 307
-      },
-      "displayid": "714387"
-    },
-    {
-      "id": 252599,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Supple Scorpid Vest",
-      "stats": {
-        "str": 15,
-        "sta": 16,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 317
-      },
-      "displayid": "714538"
+        ]
+      }
     },
     {
       "id": 253884,
@@ -39796,15 +33926,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 5,
-      "requires": 0,
+      "requires": 22,
       "quality": 3,
       "ilvl": 27,
       "name": "Pristine Gown",
+      "path": "inv_chest_cloth_32",
+      "displayid": 715246,
       "stats": {
         "sta": 6,
-        "spi": 4,
         "int": 7,
-        "dmg_done": [
+        "spi": 4,
+        "armor": 45,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -39813,10 +33946,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 44
-      },
-      "displayid": "715246"
+        ]
+      }
     },
     {
       "id": 253963,
@@ -39908,13 +34039,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 5,
-      "requires": 0,
+      "requires": 54,
       "quality": 2,
       "ilvl": 59,
       "name": "Earthenweave Vest",
+      "path": "inv_chest_cloth_20",
+      "displayid": 715301,
       "stats": {
         "spi": 17,
-        "dmg_done": [
+        "armor": 76,
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -39923,10 +34057,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 76
-      },
-      "displayid": "715301"
+        ]
+      }
     },
     {
       "id": 257344,
@@ -40089,58 +34221,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "22583"
     },
     {
-      "id": 270000,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 13,
-      "name": "Apprentice Wizard's Gown",
-      "path": "inv_shirt_05",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 24
-      },
-      "displayid": "5844"
-    },
-    {
-      "id": 270022,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Archaeologist's Gown",
-      "path": "inv_shirt_08",
-      "stats": {
-        "spi": 5,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 33
-      },
-      "displayid": "4305"
-    },
-    {
       "id": 270035,
       "classId": 4,
       "subclassId": 1,
@@ -40174,32 +34254,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "11530"
     },
     {
-      "id": 270082,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Ceremonial Gown",
-      "path": "inv_shirt_13",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 55
-      },
-      "displayid": "28064"
-    },
-    {
       "id": 270096,
       "classId": 4,
       "subclassId": 4,
@@ -40215,32 +34269,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 445
       },
       "displayid": "7804"
-    },
-    {
-      "id": 270113,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 50,
-      "name": "Singed Cloth Robe",
-      "path": "inv_shirt_03",
-      "stats": {
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 65
-      },
-      "displayid": "70631"
     },
     {
       "id": 270118,
@@ -40310,22 +34338,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 2,
         "int": 4,
         "armor": 184
-      }
-    },
-    {
-      "id": 271206,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 15,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Leftover Abomination Skin",
-      "path": "inv_chest_cloth_46",
-      "displayid": 743840,
-      "stats": {
-        "spi": 7,
-        "armor": 37
       }
     },
     {
@@ -40643,22 +34655,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "740102"
     },
     {
-      "id": 274941,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Bristle Hills Mystic Robe",
-      "path": "inv_chest_cloth_24",
-      "displayid": 740090,
-      "stats": {
-        "int": 11,
-        "armor": 55
-      }
-    },
-    {
       "id": 274942,
       "classId": 4,
       "subclassId": 2,
@@ -40674,22 +34670,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 115
       },
       "displayid": "8414"
-    },
-    {
-      "id": 274946,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Gnollblood Robe",
-      "path": "inv_chest_cloth_24",
-      "displayid": 740090,
-      "stats": {
-        "spi": 12,
-        "armor": 55
-      }
     },
     {
       "id": 275708,
@@ -40717,33 +34697,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 171
       },
       "displayid": "5477"
-    },
-    {
-      "id": 275832,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Crowfeather Tunic",
-      "path": "inv_chest_leather_06",
-      "stats": {
-        "agi": 11,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 150
-      },
-      "displayid": "743317"
     },
     {
       "id": 276399,
@@ -40966,22 +34919,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 2,
         "armor": 21
-      }
-    },
-    {
-      "id": 277213,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 5,
-      "requires": 20,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Dro'zem's Tunic",
-      "path": "inv_misc_cape_13",
-      "displayid": 745686,
-      "stats": {
-        "int": 9,
-        "armor": 43
       }
     },
     {
@@ -41279,23 +35216,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 282008,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 5,
-      "requires": 42,
-      "quality": 3,
-      "ilvl": 47,
-      "name": "Wyrmak's Cuirass",
-      "path": "inv_chest_plate11",
-      "displayid": 15579,
-      "stats": {
-        "str": 9,
-        "sta": 21,
-        "armor": 499
-      }
-    },
-    {
       "id": 282557,
       "classId": 4,
       "subclassId": 2,
@@ -41457,32 +35377,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 30,
         "armor": 796
-      }
-    },
-    {
-      "id": 13092,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 5,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Deprecated Dragonstalker Tunic",
-      "path": "inv_chest_cloth_05",
-      "stats": {
-        "spi": 12,
-        "int": 25,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "armor": 176
       }
     },
     {
@@ -42077,32 +35971,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9546"
     },
     {
-      "id": 4260,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Guardian Leather Bracers",
-      "path": "inv_bracer_10",
-      "stats": {
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 47
-      },
-      "displayid": "9550"
-    },
-    {
       "id": 4308,
       "classId": 4,
       "subclassId": 1,
@@ -42151,58 +36019,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "armor": 92
       }
-    },
-    {
-      "id": 4545,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Radiant Silver Bracers",
-      "path": "inv_bracer_07",
-      "stats": {
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 23
-      },
-      "displayid": "7794"
-    },
-    {
-      "id": 4744,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Arcane Runed Bracers",
-      "path": "inv_bracer_18",
-      "stats": {
-        "sta": 1,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 22
-      },
-      "displayid": "16925"
     },
     {
       "id": 4745,
@@ -42320,22 +36136,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 46
       },
       "displayid": "4337"
-    },
-    {
-      "id": 5943,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 20,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Rift Bracers",
-      "path": "inv_bracer_03",
-      "displayid": 9378,
-      "stats": {
-        "sta": 4,
-        "armor": 80
-      }
     },
     {
       "id": 6040,
@@ -43043,33 +36843,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 8198,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Turtle Scale Bracers",
-      "path": "inv_bracer_06",
-      "stats": {
-        "sta": 5,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 104
-      },
-      "displayid": "16506"
-    },
-    {
       "id": 8205,
       "classId": 4,
       "subclassId": 3,
@@ -43255,21 +37028,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 4,
         "int": 12,
         "armor": 29
-      }
-    },
-    {
-      "id": 9448,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 29,
-      "quality": 3,
-      "ilvl": 34,
-      "name": "Spidertank Oilrag",
-      "path": "inv_misc_bandage_09",
-      "displayid": 11204,
-      "stats": {
-        "armor": 22
       }
     },
     {
@@ -44128,33 +37886,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 210
       },
       "displayid": "28343"
-    },
-    {
-      "id": 11469,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 47,
-      "name": "Bloodband Bracers",
-      "path": "inv_bracer_13",
-      "stats": {
-        "spi": 3,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 26
-      },
-      "displayid": "14594"
     },
     {
       "id": 11764,
@@ -45543,32 +39274,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "2881"
     },
     {
-      "id": 15092,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 55,
-      "name": "Runic Leather Bracers",
-      "path": "inv_bracer_11",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 62
-      },
-      "displayid": "7116"
-    },
-    {
       "id": 15112,
       "classId": 4,
       "subclassId": 2,
@@ -46271,32 +39976,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "26476"
     },
     {
-      "id": 15864,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Condor Bracers",
-      "path": "inv_bracer_07",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 22
-      },
-      "displayid": "3655"
-    },
-    {
       "id": 16481,
       "classId": 4,
       "subclassId": 4,
@@ -46331,25 +40010,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 322
       },
       "displayid": "30369"
-    },
-    {
-      "id": 16671,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 52,
-      "quality": 3,
-      "ilvl": 57,
-      "name": "Bindings of Elements",
-      "path": "inv_bracer_02",
-      "displayid": 31411,
-      "stats": {
-        "sta": 7,
-        "int": 8,
-        "spi": 10,
-        "hit_rate": 3,
-        "armor": 148
-      }
     },
     {
       "id": 16681,
@@ -46412,24 +40072,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4
         ]
-      }
-    },
-    {
-      "id": 16703,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 52,
-      "quality": 3,
-      "ilvl": 57,
-      "name": "Dreadmist Bracers",
-      "path": "inv_bracer_13",
-      "displayid": 29795,
-      "stats": {
-        "sta": 10,
-        "int": 11,
-        "spi": 5,
-        "armor": 35
       }
     },
     {
@@ -46550,33 +40192,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 97
       },
       "displayid": "23729"
-    },
-    {
-      "id": 16981,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Owlbeard Bracers",
-      "path": "inv_bracer_10",
-      "stats": {
-        "sta": 1,
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 14
-      },
-      "displayid": "10939"
     },
     {
       "id": 17014,
@@ -46944,90 +40559,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "17316"
     },
     {
-      "id": 19595,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Dryad's Wrist Bindings",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 8,
-        "spi": 7,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 43
-      },
-      "displayid": "8408"
-    },
-    {
-      "id": 19596,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Dryad's Wrist Bindings",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 7,
-        "spi": 6,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 37
-      },
-      "displayid": "8408"
-    },
-    {
-      "id": 19597,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 45,
-      "name": "Dryad's Wrist Bindings",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 6,
-        "spi": 5,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 30
-      },
-      "displayid": "8408"
-    },
-    {
       "id": 19687,
       "classId": 4,
       "subclassId": 2,
@@ -47090,34 +40621,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "26793"
     },
     {
-      "id": 20481,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Spitfire Bracers",
-      "path": "inv_bracer_05",
-      "stats": {
-        "agi": 9,
-        "spi": 9,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 159
-      },
-      "displayid": "16395"
-    },
-    {
       "id": 21184,
       "classId": 4,
       "subclassId": 4,
@@ -47171,33 +40674,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 53
       },
       "displayid": "34199"
-    },
-    {
-      "id": 21611,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 81,
-      "name": "Burrower Bracers",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 10,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ],
-        "armor": 53
-      },
-      "displayid": "34207"
     },
     {
       "id": 21618,
@@ -47285,96 +40761,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 110
       },
       "displayid": "35158"
-    },
-    {
-      "id": 22503,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Frostfire Bindings",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 14,
-        "int": 15,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 58
-      },
-      "displayid": "35677"
-    },
-    {
-      "id": 22511,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Plagueheart Bindings",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 23,
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "armor": 58
-      },
-      "displayid": "35180"
-    },
-    {
-      "id": 22655,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Glacial Wrists",
-      "path": "inv_bracer_07",
-      "stats": {
-        "sta": 20,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          20,
-          0,
-          0
-        ],
-        "armor": 53
-      },
-      "displayid": "35283"
     },
     {
       "id": 22665,
@@ -47538,31 +40924,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 250535,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Hard Gold Bracers",
-      "stats": {
-        "str": 6,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 95
-      },
-      "displayid": "712851"
-    },
-    {
       "id": 250581,
       "classId": 4,
       "subclassId": 4,
@@ -47597,44 +40958,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712898"
     },
     {
-      "id": 250583,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Warder's Wristguards",
-      "stats": {
-        "sta": 11,
-        "defense": 8,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 231
-      },
-      "displayid": "712895"
-    },
-    {
       "id": 250584,
       "classId": 4,
       "subclassId": 4,
       "slot": 9,
-      "requires": 0,
+      "requires": 45,
       "quality": 3,
       "ilvl": 50,
       "name": "Prefect's Wristguards",
+      "path": "inv_bracer_21b",
+      "displayid": 712897,
       "stats": {
         "sta": 6,
         "int": 8,
-        "dmg_done": [
+        "armor": 231,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -47643,63 +40981,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 231
-      },
-      "displayid": "712897"
-    },
-    {
-      "id": 250585,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Justicar's Wristguards",
-      "stats": {
-        "str": 6,
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 231
-      },
-      "displayid": "712894"
-    },
-    {
-      "id": 250590,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Blessed Plate Bracers",
-      "path": "inv_bracer_19",
-      "stats": {
-        "str": 11,
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 237
-      },
-      "displayid": "712928"
+        ]
+      }
     },
     {
       "id": 251486,
@@ -47772,46 +41055,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714576"
     },
     {
-      "id": 252542,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Skycaller's Leather Bracers",
-      "stats": {
-        "sta": 6,
-        "spi": 5,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 63
-      },
-      "displayid": "714497"
-    },
-    {
       "id": 252543,
       "classId": 4,
       "subclassId": 2,
       "slot": 9,
-      "requires": 0,
+      "requires": 45,
       "quality": 3,
       "ilvl": 50,
       "name": "Mender's Leather Bracers",
+      "path": "inv_bracer_07",
+      "displayid": 714449,
       "stats": {
         "sta": 5,
-        "spi": 6,
         "int": 7,
-        "dmg_done": [
+        "spi": 6,
+        "armor": 64,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -47820,36 +41079,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 63
-      },
-      "displayid": "714449"
-    },
-    {
-      "id": 252557,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Tooled Leather Bracers",
-      "stats": {
-        "spi": 4,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 66
-      },
-      "displayid": "714547"
+        ]
+      }
     },
     {
       "id": 252559,
@@ -47887,73 +41118,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714517"
     },
     {
-      "id": 252571,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Skycaller's Mail Bracers",
-      "stats": {
-        "sta": 6,
-        "spi": 5,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 131
-      },
-      "displayid": "714506"
-    },
-    {
-      "id": 252572,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Skirmisher's Mail Bracers",
-      "stats": {
-        "str": 9,
-        "sta": 6,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 131
-      },
-      "displayid": "714480"
-    },
-    {
       "id": 252573,
       "classId": 4,
       "subclassId": 3,
       "slot": 9,
-      "requires": 0,
+      "requires": 45,
       "quality": 3,
       "ilvl": 50,
       "name": "Mender's Mail Bracers",
+      "path": "inv_bracer_02",
+      "displayid": 714459,
       "stats": {
         "sta": 5,
-        "spi": 6,
         "int": 7,
-        "dmg_done": [
+        "spi": 6,
+        "armor": 131,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -47962,75 +41142,24 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 131
-      },
-      "displayid": "714459"
-    },
-    {
-      "id": 252582,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 55,
-      "name": "Supple Scorpid Bracers",
-      "stats": {
-        "str": 6,
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 130
-      },
-      "displayid": "714536"
-    },
-    {
-      "id": 252593,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Charged Scorpid Bracers",
-      "stats": {
-        "spi": 6,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 132
-      },
-      "displayid": "714390"
+        ]
+      }
     },
     {
       "id": 254019,
       "classId": 4,
       "subclassId": 1,
       "slot": 9,
-      "requires": 0,
+      "requires": 35,
       "quality": 2,
       "ilvl": 40,
       "name": "Earthen Silk Cuffs",
+      "path": "inv_bracer_09",
+      "displayid": 715297,
       "stats": {
         "spi": 5,
-        "dmg_done": [
+        "armor": 23,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -48039,25 +41168,26 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 23
-      },
-      "displayid": "715297"
+        ]
+      }
     },
     {
       "id": 254061,
       "classId": 4,
       "subclassId": 1,
       "slot": 9,
-      "requires": 0,
+      "requires": 45,
       "quality": 3,
       "ilvl": 50,
       "name": "Nethergeld Cuffs",
+      "path": "inv_bracer_23b",
+      "displayid": 715412,
       "stats": {
         "sta": 7,
-        "spi": 5,
         "int": 7,
-        "dmg_done": [
+        "spi": 5,
+        "armor": 31,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -48066,10 +41196,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 31
-      },
-      "displayid": "715412"
+        ]
+      }
     },
     {
       "id": 254063,
@@ -48157,42 +41285,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "715418"
     },
     {
-      "id": 254123,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Runecloth Cuffs",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 33
-      },
-      "displayid": "715310"
-    },
-    {
       "id": 254131,
       "classId": 4,
       "subclassId": 1,
       "slot": 9,
-      "requires": 0,
+      "requires": 55,
       "quality": 2,
       "ilvl": 60,
       "name": "Earthenweave Cuffs",
+      "path": "inv_bracer_13",
+      "displayid": 715305,
       "stats": {
         "spi": 10,
-        "dmg_done": [
+        "armor": 34,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -48201,36 +41307,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 33
-      },
-      "displayid": "715305"
-    },
-    {
-      "id": 260183,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Sacred Bangle",
-      "stats": {
-        "sta": 12,
-        "spi": 6,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 69
-      },
-      "displayid": "717996"
+        ]
+      }
     },
     {
       "id": 263311,
@@ -48248,30 +41326,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "736764"
     },
     {
-      "id": 263336,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 13,
-      "name": "Windsong Bangles",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 10
-      },
-      "displayid": "736762"
-    },
-    {
       "id": 263338,
       "classId": 4,
       "subclassId": 2,
@@ -48286,32 +41340,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 28
       },
       "displayid": "736763"
-    },
-    {
-      "id": 269501,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Elven Chain Wristguards",
-      "path": "inv_bracer_03",
-      "stats": {
-        "sta": 10,
-        "armor": 183,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ]
-      },
-      "displayid": "26103"
     },
     {
       "id": 270003,
@@ -48651,22 +41679,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "15661"
     },
     {
-      "id": 271096,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 13,
-      "quality": 3,
-      "ilvl": 18,
-      "name": "Aetherwisp Bracers",
-      "path": "inv_bracer_11",
-      "displayid": 7812,
-      "stats": {
-        "sta": 3,
-        "armor": 15
-      }
-    },
-    {
       "id": 271202,
       "classId": 4,
       "subclassId": 2,
@@ -48700,33 +41712,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 8,
         "ranged_ap": 8,
         "armor": 47
-      },
-      "displayid": "22593"
-    },
-    {
-      "id": 271740,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Knife-Polishing Rag",
-      "path": "inv_bracer_10",
-      "stats": {
-        "spi": 7,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 21
       },
       "displayid": "22593"
     },
@@ -48834,22 +41819,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "26664"
     },
     {
-      "id": 273036,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 26,
-      "quality": 3,
-      "ilvl": 31,
-      "name": "Graveweave Bindings",
-      "path": "inv_bracer_10",
-      "displayid": 715413,
-      "stats": {
-        "str": 6,
-        "armor": 21
-      }
-    },
-    {
       "id": 273293,
       "classId": 4,
       "subclassId": 3,
@@ -48947,13 +41916,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 4,
       "slot": 9,
-      "requires": 0,
+      "requires": 40,
       "quality": 2,
       "ilvl": 45,
       "name": "Reflective Wristguards",
+      "path": "inv_bracer_32b",
+      "displayid": 739986,
       "stats": {
         "int": 8,
-        "dmg_done": [
+        "armor": 191,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -48962,10 +41934,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 191
-      },
-      "displayid": "739986"
+        ]
+      }
     },
     {
       "id": 274931,
@@ -48983,48 +41953,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "spi": 6,
         "armor": 49
       }
-    },
-    {
-      "id": 274932,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Coyote Hide Wraps",
-      "path": "inv_bracer_02",
-      "displayid": 17015,
-      "stats": {
-        "sta": 6,
-        "armor": 49
-      }
-    },
-    {
-      "id": 275390,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Shallow Bindings",
-      "path": "inv_bracer_07",
-      "stats": {
-        "sta": 9,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 32
-      },
-      "displayid": "12743"
     },
     {
       "id": 275739,
@@ -49822,33 +42750,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 21186,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 62,
-      "name": "Rockfury Bracers",
-      "path": "inv_bracer_12",
-      "stats": {
-        "sta": 7,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 41
-      },
-      "displayid": "17646"
-    },
-    {
       "id": 21584,
       "classId": 4,
       "subclassId": 3,
@@ -49882,61 +42783,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 430
       },
       "displayid": "34185"
-    },
-    {
-      "id": 21588,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Wristguards of Elemental Fury",
-      "path": "inv_bracer_14",
-      "stats": {
-        "sta": 11,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 241
-      },
-      "displayid": "34186"
-    },
-    {
-      "id": 21594,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Bracers of the Fallen Son",
-      "path": "inv_bracer_11",
-      "stats": {
-        "sta": 10,
-        "int": 15,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 110
-      },
-      "displayid": "34187"
     },
     {
       "id": 22004,
@@ -49973,175 +42819,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 166
       },
       "displayid": "34647"
-    },
-    {
-      "id": 22063,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Sorcerer's Bindings",
-      "path": "inv_jewelry_ring_23",
-      "stats": {
-        "sta": 8,
-        "spi": 5,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 40
-      },
-      "displayid": "34601"
-    },
-    {
-      "id": 22071,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Deathmist Bracers",
-      "path": "inv_bracer_13",
-      "stats": {
-        "sta": 12,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 40
-      },
-      "displayid": "34621"
-    },
-    {
-      "id": 22079,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Virtuous Bracers",
-      "path": "inv_belt_31",
-      "stats": {
-        "sta": 8,
-        "spi": 8,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 40
-      },
-      "displayid": "34629"
-    },
-    {
-      "id": 22088,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Soulforge Bracers",
-      "path": "inv_bracer_14",
-      "stats": {
-        "str": 9,
-        "sta": 10,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 295
-      },
-      "displayid": "34522"
-    },
-    {
-      "id": 22095,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Bindings of The Five Thunders",
-      "path": "inv_bracer_02",
-      "stats": {
-        "sta": 10,
-        "spi": 9,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 166
-      },
-      "displayid": "34691"
-    },
-    {
-      "id": 22108,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 9,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Feralheart Bracers",
-      "path": "inv_bracer_09",
-      "stats": {
-        "agi": 6,
-        "str": 6,
-        "sta": 6,
-        "spi": 5,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 79
-      },
-      "displayid": "34641"
     },
     {
       "id": 22423,
@@ -50243,34 +42920,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "35287"
     },
     {
-      "id": 22667,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 9,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Bracers of Hope",
-      "path": "inv_bracer_12",
-      "stats": {
-        "sta": 10,
-        "spi": 12,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 40
-      },
-      "displayid": "8147"
-    },
-    {
       "id": 22668,
       "classId": 4,
       "subclassId": 2,
@@ -50349,21 +42998,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5
         ]
-      }
-    },
-    {
-      "id": 892,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 17,
-      "quality": 2,
-      "ilvl": 22,
-      "name": "Gnoll Casting Gloves",
-      "path": "inv_gauntlets_04",
-      "displayid": 7816,
-      "stats": {
-        "armor": 22
       }
     },
     {
@@ -50602,32 +43236,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "armor": 99
       }
-    },
-    {
-      "id": 2312,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Fine Leather Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 43
-      },
-      "displayid": "5406"
     },
     {
       "id": 2564,
@@ -51156,32 +43764,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9503"
     },
     {
-      "id": 4247,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 29,
-      "name": "Hillman's Leather Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 57
-      },
-      "displayid": "2362"
-    },
-    {
       "id": 4248,
       "classId": 4,
       "subclassId": 2,
@@ -51231,83 +43813,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 58
       },
       "displayid": "9543"
-    },
-    {
-      "id": 4307,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 10,
-      "name": "Heavy Linen Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 12
-      },
-      "displayid": "2202"
-    },
-    {
-      "id": 4310,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 17,
-      "name": "Heavy Woolen Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 18
-      },
-      "displayid": "11036"
-    },
-    {
-      "id": 4318,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 26,
-      "name": "Gloves of Meditation",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "spi": 7,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 24
-      },
-      "displayid": "4620"
     },
     {
       "id": 4319,
@@ -51517,32 +44022,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8131"
     },
     {
-      "id": 5630,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Windfelt Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 48
-      },
-      "displayid": "8449"
-    },
-    {
       "id": 5822,
       "classId": 4,
       "subclassId": 3,
@@ -51558,48 +44037,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 112
       },
       "displayid": "9082"
-    },
-    {
-      "id": 5966,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 38,
-      "name": "Guardian Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 66
-      },
-      "displayid": "8608"
-    },
-    {
-      "id": 5970,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 18,
-      "quality": 3,
-      "ilvl": 23,
-      "name": "Serpent Gloves",
-      "path": "inv_gauntlets_19",
-      "displayid": 17689,
-      "stats": {
-        "agi": 6,
-        "armor": 25
-      }
     },
     {
       "id": 6393,
@@ -52041,14 +44478,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 25,
       "quality": 2,
       "ilvl": 30,
       "name": "Truefaith Gloves",
       "path": "inv_gauntlets_16",
+      "displayid": 11097,
       "stats": {
         "int": 3,
-        "dmg_done": [
+        "armor": 27,
+        "dmg_done_mod": [
           0,
           0,
           5,
@@ -52057,10 +44496,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5,
           5
-        ],
-        "armor": 26
-      },
-      "displayid": "11097"
+        ]
+      }
     },
     {
       "id": 7064,
@@ -52630,33 +45067,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 8187,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Turtle Scale Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "sta": 7,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 146
-      },
-      "displayid": "16488"
-    },
-    {
       "id": 8204,
       "classId": 4,
       "subclassId": 3,
@@ -52814,14 +45224,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 10,
-      "requires": 0,
+      "requires": 41,
       "quality": 3,
       "ilvl": 46,
       "name": "Gauntlets of the Sea",
       "path": "inv_gauntlets_30",
+      "displayid": 10513,
       "stats": {
         "agi": 7,
-        "dmg_done": [
+        "armor": 85,
+        "dmg_done_mod": [
           0,
           0,
           18,
@@ -52830,12 +45242,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           18,
           18,
           18
-        ],
-        "armor": 85
-      },
-      "useSpell": 10577,
-      "cooldown": 1800000,
-      "displayid": "10513"
+        ]
+      }
     },
     {
       "id": 8347,
@@ -52990,22 +45398,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "17073"
     },
     {
-      "id": 9609,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 20,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Shilly Mitts",
-      "path": "inv_gauntlets_27",
-      "displayid": 18991,
-      "stats": {
-        "spi": 9,
-        "armor": 91
-      }
-    },
-    {
       "id": 9631,
       "classId": 4,
       "subclassId": 2,
@@ -53105,32 +45497,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 40
       },
       "displayid": "11590"
-    },
-    {
-      "id": 9698,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 33,
-      "name": "Gloves of Insight",
-      "path": "inv_gauntlets_21",
-      "stats": {
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 61
-      },
-      "displayid": "3875"
     },
     {
       "id": 9704,
@@ -53480,43 +45846,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 10003,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Black Mageweave Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 35
-      },
-      "displayid": "8307"
-    },
-    {
       "id": 10011,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 39,
       "quality": 2,
       "ilvl": 44,
       "name": "Stormcloth Gloves",
       "path": "inv_gauntlets_17",
+      "displayid": 11303,
       "stats": {
         "int": 12,
-        "dmg_done": [
+        "armor": 36,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -53525,63 +45868,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 36
-      },
-      "displayid": "11303"
-    },
-    {
-      "id": 10018,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Red Mageweave Gloves",
-      "path": "inv_gauntlets_19",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 36
-      },
-      "displayid": "19095"
-    },
-    {
-      "id": 10019,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Dreamweave Gloves",
-      "path": "inv_gauntlets_18",
-      "stats": {
-        "spi": 7,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "armor": 40
-      },
-      "displayid": "9534"
+        ]
+      }
     },
     {
       "id": 10023,
@@ -54076,32 +46364,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "11144"
     },
     {
-      "id": 10654,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Jutebraid Gloves",
-      "path": "inv_gauntlets_21",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 26
-      },
-      "displayid": "11985"
-    },
-    {
       "id": 10765,
       "classId": 4,
       "subclassId": 2,
@@ -54116,21 +46378,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 9,
         "armor": 81
-      }
-    },
-    {
-      "id": 10919,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 14,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Apothecary Gloves",
-      "path": "inv_gauntlets_06",
-      "displayid": 20476,
-      "stats": {
-        "armor": 21
       }
     },
     {
@@ -54312,36 +46559,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "19753"
     },
     {
-      "id": 12632,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Storm Gauntlets",
-      "path": "inv_gauntlets_30",
-      "stats": {
-        "sta": 7,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "armor": 218
-      },
-      "proc": {
-        "spell": 16614
-      },
-      "displayid": "22897"
-    },
-    {
       "id": 12639,
       "classId": 4,
       "subclassId": 4,
@@ -54449,33 +46666,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13863,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 55,
-      "name": "Runecloth Gloves",
-      "path": "inv_gauntlets_25",
-      "stats": {
-        "spi": 9,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 44
-      },
-      "displayid": "25231"
-    },
-    {
       "id": 13870,
       "classId": 4,
       "subclassId": 1,
@@ -54508,41 +46698,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "7523"
     },
     {
-      "id": 14101,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Brightcloth Gloves",
-      "path": "inv_gauntlets_21",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          12,
-          12,
-          0
-        ],
-        "armor": 43
-      },
-      "displayid": "3218"
-    },
-    {
       "id": 14117,
       "classId": 4,
       "subclassId": 1,
@@ -54571,32 +46726,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 21
       }
-    },
-    {
-      "id": 14142,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Ghostweave Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "spi": 15,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 43
-      },
-      "displayid": "11097"
     },
     {
       "id": 14162,
@@ -55740,32 +47869,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "2375"
     },
     {
-      "id": 15091,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Runic Leather Gauntlets",
-      "path": "inv_gauntlets_31",
-      "stats": {
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 88
-      },
-      "displayid": "25735"
-    },
-    {
       "id": 15115,
       "classId": 4,
       "subclassId": 2,
@@ -56555,25 +48658,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30371"
     },
     {
-      "id": 16672,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Gauntlets of Elements",
-      "path": "inv_gauntlets_11",
-      "displayid": 31414,
-      "stats": {
-        "sta": 4,
-        "int": 10,
-        "spi": 16,
-        "hit_rate": 9,
-        "armor": 218
-      }
-    },
-    {
       "id": 16676,
       "classId": 4,
       "subclassId": 3,
@@ -56590,24 +48674,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "spi": 10,
         "armor": 218
-      }
-    },
-    {
-      "id": 16684,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Magister's Gloves",
-      "path": "inv_gauntlets_17",
-      "displayid": 29593,
-      "stats": {
-        "sta": 8,
-        "int": 14,
-        "spi": 14,
-        "armor": 52
       }
     },
     {
@@ -56743,32 +48809,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 16738,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Witherseed Gloves",
-      "path": "inv_gauntlets_15",
-      "stats": {
-        "spi": 13,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 39
-      },
-      "displayid": "13348"
-    },
-    {
       "id": 16740,
       "classId": 4,
       "subclassId": 1,
@@ -56785,33 +48825,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 27
       },
       "displayid": "11985"
-    },
-    {
-      "id": 16741,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 31,
-      "name": "Oilrag Handwraps",
-      "path": "inv_gauntlets_12",
-      "stats": {
-        "sta": 2,
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 59
-      },
-      "displayid": "9366"
     },
     {
       "id": 16873,
@@ -56888,13 +48901,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 10,
-      "requires": 0,
+      "requires": 33,
       "quality": 2,
       "ilvl": 38,
       "name": "Gloves of the Greatfather",
       "path": "inv_gauntlets_21",
+      "displayid": 3515,
       "stats": {
-        "dmg_done": [
+        "armor": 66,
+        "dmg_done_mod": [
           0,
           0,
           24,
@@ -56903,10 +48918,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           24,
           24,
           24
-        ],
-        "armor": 66
-      },
-      "displayid": "3515"
+        ]
+      }
     },
     {
       "id": 17770,
@@ -56979,15 +48992,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 57,
       "quality": 3,
       "ilvl": 62,
       "name": "Mooncloth Gloves",
       "path": "inv_gauntlets_17",
+      "displayid": 25045,
       "stats": {
         "sta": 9,
         "int": 16,
-        "dmg_done": [
+        "armor": 55,
+        "dmg_done_mod": [
           0,
           0,
           11,
@@ -56996,10 +49011,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11,
           11,
           11
-        ],
-        "armor": 54
-      },
-      "displayid": "25045"
+        ]
+      }
     },
     {
       "id": 18722,
@@ -57058,14 +49071,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 46,
       "quality": 2,
       "ilvl": 50,
       "name": "Greenleaf Handwraps",
       "path": "inv_gauntlets_16",
+      "displayid": 16633,
       "stats": {
         "int": 11,
-        "dmg_done": [
+        "armor": 41,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -57074,10 +49089,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 40
-      },
-      "displayid": "16633"
+        ]
+      }
     },
     {
       "id": 19119,
@@ -57226,23 +49239,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 10,
-      "requires": 0,
+      "requires": 51,
       "quality": 3,
       "ilvl": 56,
       "name": "Green Dragonscale Gauntlets",
       "path": "inv_gauntlets_12",
+      "displayid": 32762,
       "stats": {
         "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
+        "armor": 208,
         "resistance": [
           0,
           0,
@@ -57253,9 +49258,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 208
-      },
-      "displayid": "32762"
+        "dmg_done_mod": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      }
     },
     {
       "id": 20477,
@@ -57282,34 +49295,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 228
       },
       "displayid": "26798"
-    },
-    {
-      "id": 20480,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Spitfire Gauntlets",
-      "path": "inv_gauntlets_11",
-      "stats": {
-        "agi": 12,
-        "spi": 12,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 228
-      },
-      "displayid": "17416"
     },
     {
       "id": 20549,
@@ -57395,47 +49380,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4422"
     },
     {
-      "id": 20716,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Sandworm Skin Gloves",
-      "path": "inv_gauntlets_17",
-      "stats": {
-        "sta": 8,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 55
-      },
-      "displayid": "11842"
-    },
-    {
       "id": 20717,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 58,
       "quality": 3,
       "ilvl": 63,
       "name": "Desert Bloom Gloves",
       "path": "inv_gauntlets_17",
+      "displayid": 11842,
       "stats": {
         "sta": 5,
-        "spi": 5,
         "int": 5,
-        "dmg_done": [
+        "spi": 5,
+        "armor": 56,
+        "dmg_done_mod": [
           0,
           0,
           17,
@@ -57444,36 +49404,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           17,
           17,
           17
-        ],
-        "armor": 55
-      },
-      "displayid": "11842"
-    },
-    {
-      "id": 21178,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Gloves of Earthen Power",
-      "path": "inv_gauntlets_18",
-      "stats": {
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 108
-      },
-      "displayid": "13344"
+        ]
+      }
     },
     {
       "id": 21278,
@@ -57491,31 +49423,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 108
       },
       "displayid": "3839"
-    },
-    {
-      "id": 21318,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Earth Warder's Gloves",
-      "path": "inv_gauntlets_24",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 46
-      },
-      "displayid": "13348"
     },
     {
       "id": 21319,
@@ -57554,34 +49461,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34165"
     },
     {
-      "id": 21585,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Dark Storm Gauntlets",
-      "path": "inv_gauntlets_17",
-      "stats": {
-        "sta": 19,
-        "int": 15,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          37,
-          37,
-          37,
-          37,
-          37,
-          37
-        ],
-        "armor": 82
-      },
-      "displayid": "34183"
-    },
-    {
       "id": 21605,
       "classId": 4,
       "subclassId": 2,
@@ -57614,15 +49493,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 78,
       "name": "Gloves of the Messiah",
       "path": "inv_gauntlets_17",
+      "displayid": 34229,
       "stats": {
         "sta": 13,
         "int": 17,
-        "dmg_done": [
+        "armor": 74,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -57631,70 +49512,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 74
-      },
-      "displayid": "34229"
-    },
-    {
-      "id": 21623,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Gauntlets of the Righteous Champion",
-      "path": "inv_gauntlets_26",
-      "stats": {
-        "str": 15,
-        "sta": 17,
-        "spi": 10,
-        "int": 13,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 548
-      },
-      "displayid": "34235"
-    },
-    {
-      "id": 21624,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Gauntlets of Kalimdor",
-      "path": "inv_gauntlets_26",
-      "stats": {
-        "str": 14,
-        "sta": 15,
-        "spi": 10,
-        "int": 13,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 308
-      },
-      "displayid": "34236"
+        ]
+      }
     },
     {
       "id": 21672,
@@ -57788,178 +49607,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34650"
     },
     {
-      "id": 22066,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Sorcerer's Gloves",
-      "path": "inv_gauntlets_17",
-      "stats": {
-        "sta": 12,
-        "spi": 10,
-        "int": 14,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 53
-      },
-      "displayid": "34600"
-    },
-    {
-      "id": 22077,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Deathmist Wraps",
-      "path": "inv_gauntlets_32",
-      "stats": {
-        "sta": 16,
-        "int": 13,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 53
-      },
-      "displayid": "34627"
-    },
-    {
-      "id": 22081,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Virtuous Gloves",
-      "path": "inv_gauntlets_14",
-      "stats": {
-        "sta": 14,
-        "spi": 12,
-        "int": 15,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 53
-      },
-      "displayid": "34631"
-    },
-    {
-      "id": 22090,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Soulforge Gauntlets",
-      "path": "inv_gauntlets_19",
-      "stats": {
-        "str": 9,
-        "sta": 10,
-        "int": 10,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 393
-      },
-      "displayid": "34523"
-    },
-    {
-      "id": 22099,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Gauntlets of The Five Thunders",
-      "path": "inv_gauntlets_11",
-      "stats": {
-        "str": 9,
-        "sta": 12,
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 223
-      },
-      "displayid": "34695"
-    },
-    {
-      "id": 22110,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Feralheart Gloves",
-      "path": "inv_gauntlets_17",
-      "stats": {
-        "agi": 9,
-        "str": 10,
-        "sta": 10,
-        "spi": 10,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 107
-      },
-      "displayid": "34640"
-    },
-    {
       "id": 22194,
       "classId": 4,
       "subclassId": 3,
@@ -58031,98 +49678,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 158
       },
       "displayid": "744869"
-    },
-    {
-      "id": 22501,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Frostfire Gloves",
-      "path": "inv_gauntlets_17",
-      "stats": {
-        "sta": 17,
-        "spi": 10,
-        "int": 19,
-        "dmg_done": [
-          0,
-          0,
-          36,
-          36,
-          36,
-          36,
-          36,
-          36
-        ],
-        "armor": 82
-      },
-      "displayid": "740648"
-    },
-    {
-      "id": 22509,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Plagueheart Gloves",
-      "path": "inv_gauntlets_17",
-      "stats": {
-        "sta": 25,
-        "int": 17,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 82
-      },
-      "displayid": "740649"
-    },
-    {
-      "id": 22654,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Glacial Gloves",
-      "path": "inv_gauntlets_06",
-      "stats": {
-        "sta": 22,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          30,
-          0,
-          0
-        ],
-        "armor": 75
-      },
-      "displayid": "35286"
     },
     {
       "id": 22662,
@@ -58215,33 +49770,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "35542"
     },
     {
-      "id": 23084,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Gloves of Undead Cleansing",
-      "path": "inv_gauntlets_16",
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "armor": 55
-      },
-      "displayid": "35545"
-    },
-    {
       "id": 23286,
       "classId": 4,
       "subclassId": 4,
@@ -58270,59 +49798,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_desecrated_clothglove",
       "displayid": 0,
       "stats": {}
-    },
-    {
-      "id": 217270,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Turtle Scale Gloves",
-      "path": "inv_gauntlets_05",
-      "stats": {
-        "sta": 7,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 146
-      },
-      "displayid": "16488"
-    },
-    {
-      "id": 217273,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Golden Scale Gauntlets",
-      "path": "inv_gauntlets_29",
-      "stats": {
-        "str": 11,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 146
-      },
-      "displayid": "18256"
     },
     {
       "id": 226861,
@@ -58545,32 +50020,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 250485,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 26,
-      "name": "Sterling Silver Gauntlet",
-      "stats": {
-        "str": 4,
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 116
-      },
-      "displayid": "4413"
-    },
-    {
       "id": 250508,
       "classId": 4,
       "subclassId": 3,
@@ -58605,44 +50054,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712967"
     },
     {
-      "id": 250510,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Protector's Gloves",
-      "stats": {
-        "sta": 5,
-        "defense": 3,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 115
-      },
-      "displayid": "712964"
-    },
-    {
       "id": 250511,
       "classId": 4,
       "subclassId": 3,
       "slot": 10,
-      "requires": 0,
+      "requires": 15,
       "quality": 3,
       "ilvl": 20,
       "name": "Acolyte's Gloves",
+      "path": "inv_gauntlets_11",
+      "displayid": 712965,
       "stats": {
         "sta": 3,
         "int": 5,
-        "dmg_done": [
+        "armor": 115,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -58651,86 +50077,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 115
-      },
-      "displayid": "712965"
-    },
-    {
-      "id": 250512,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Crusader's Gloves",
-      "stats": {
-        "str": 3,
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 115
-      },
-      "displayid": "712966"
-    },
-    {
-      "id": 250538,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Hard Gold Gauntlet",
-      "stats": {
-        "str": 8,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 144
-      },
-      "displayid": "712969"
-    },
-    {
-      "id": 250545,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 49,
-      "name": "Shining Mithril Gauntlet",
-      "stats": {
-        "str": 12,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 294
-      },
-      "displayid": "712970"
+        ]
+      }
     },
     {
       "id": 250551,
@@ -58767,44 +50115,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712903"
     },
     {
-      "id": 250553,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Warder's Gloves",
-      "stats": {
-        "sta": 16,
-        "defense": 11,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 360
-      },
-      "displayid": "712900"
-    },
-    {
       "id": 250554,
       "classId": 4,
       "subclassId": 4,
       "slot": 10,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Prefect's Gloves",
+      "path": "inv_gauntlets_26",
+      "displayid": 712902,
       "stats": {
         "sta": 9,
         "int": 11,
-        "dmg_done": [
+        "armor": 361,
+        "dmg_done_mod": [
           0,
           0,
           12,
@@ -58813,36 +50138,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12,
           12
-        ],
-        "armor": 360
-      },
-      "displayid": "712902"
-    },
-    {
-      "id": 250555,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Justicar's Gloves",
-      "stats": {
-        "str": 9,
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 360
-      },
-      "displayid": "712899"
+        ]
+      }
     },
     {
       "id": 250566,
@@ -58879,44 +50176,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712908"
     },
     {
-      "id": 250568,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 40,
-      "name": "Warder's Gauntlet",
-      "stats": {
-        "sta": 10,
-        "defense": 7,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 158
-      },
-      "displayid": "712905"
-    },
-    {
       "id": 250569,
       "classId": 4,
       "subclassId": 3,
       "slot": 10,
-      "requires": 0,
+      "requires": 35,
       "quality": 3,
       "ilvl": 40,
       "name": "Prefect's Gauntlet",
+      "path": "inv_gauntlets_26",
+      "displayid": 712907,
       "stats": {
         "sta": 9,
         "int": 7,
-        "dmg_done": [
+        "armor": 159,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -58925,63 +50199,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 158
-      },
-      "displayid": "712907"
-    },
-    {
-      "id": 250570,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 40,
-      "name": "Justicar's Gauntlet",
-      "stats": {
-        "str": 7,
-        "sta": 9,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 158
-      },
-      "displayid": "712904"
-    },
-    {
-      "id": 250588,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Blessed Plate Gauntlet",
-      "path": "inv_gauntlets_29",
-      "stats": {
-        "str": 5,
-        "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 322
-      },
-      "displayid": "712931"
+        ]
+      }
     },
     {
       "id": 250589,
@@ -59050,70 +50269,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714401"
     },
     {
-      "id": 252497,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Totemic Leather Gloves",
-      "stats": {
-        "str": 4,
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 53
-      },
-      "displayid": "714553"
-    },
-    {
-      "id": 252498,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Stormrider's Leather Gloves",
-      "stats": {
-        "sta": 3,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 53
-      },
-      "displayid": "714524"
-    },
-    {
       "id": 252499,
       "classId": 4,
       "subclassId": 2,
       "slot": 10,
-      "requires": 0,
+      "requires": 15,
       "quality": 3,
       "ilvl": 20,
       "name": "Wisdom's Leather Gloves",
+      "path": "inv_gauntlets_60",
+      "displayid": 714587,
       "stats": {
         "sta": 3,
         "int": 4,
-        "dmg_done": [
+        "armor": 53,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -59122,10 +50292,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 53
-      },
-      "displayid": "714587"
+        ]
+      }
     },
     {
       "id": 252524,
@@ -59195,70 +50363,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714578"
     },
     {
-      "id": 252528,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 40,
-      "name": "Skirmisher's Leather Gloves",
-      "stats": {
-        "str": 10,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 75
-      },
-      "displayid": "714490"
-    },
-    {
-      "id": 252529,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 40,
-      "name": "Skycaller's Leather Gloves",
-      "stats": {
-        "sta": 7,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 75
-      },
-      "displayid": "714499"
-    },
-    {
       "id": 252530,
       "classId": 4,
       "subclassId": 2,
       "slot": 10,
-      "requires": 0,
+      "requires": 35,
       "quality": 3,
       "ilvl": 40,
       "name": "Mender's Leather Gloves",
+      "path": "inv_gauntlets_20",
+      "displayid": 714451,
       "stats": {
         "sta": 7,
         "int": 9,
-        "dmg_done": [
+        "armor": 76,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -59267,10 +50386,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 75
-      },
-      "displayid": "714451"
+        ]
+      }
     },
     {
       "id": 252546,
@@ -59343,46 +50460,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714577"
     },
     {
-      "id": 252550,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Skycaller's Leather Gauntlets",
-      "stats": {
-        "sta": 9,
-        "spi": 6,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 98
-      },
-      "displayid": "714498"
-    },
-    {
       "id": 252551,
       "classId": 4,
       "subclassId": 2,
       "slot": 10,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Mender's Leather Gauntlets",
+      "path": "inv_gauntlets_29",
+      "displayid": 714450,
       "stats": {
         "sta": 6,
-        "spi": 9,
         "int": 9,
-        "dmg_done": [
+        "spi": 9,
+        "armor": 99,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -59391,36 +50484,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 98
-      },
-      "displayid": "714450"
-    },
-    {
-      "id": 252553,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Tooled Leather Gauntlets",
-      "stats": {
-        "spi": 8,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 92
-      },
-      "displayid": "714548"
+        ]
+      }
     },
     {
       "id": 252584,
@@ -59441,73 +50506,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714518"
     },
     {
-      "id": 252585,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Skycaller's Mail Gauntlets",
-      "stats": {
-        "sta": 9,
-        "spi": 6,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 204
-      },
-      "displayid": "714508"
-    },
-    {
-      "id": 252586,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Skirmisher's Mail Gauntlets",
-      "stats": {
-        "str": 14,
-        "sta": 9,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 204
-      },
-      "displayid": "714483"
-    },
-    {
       "id": 252587,
       "classId": 4,
       "subclassId": 3,
       "slot": 10,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Mender's Mail Gauntlets",
+      "path": "inv_gauntlets_25",
+      "displayid": 714460,
       "stats": {
         "sta": 6,
-        "spi": 9,
         "int": 9,
-        "dmg_done": [
+        "spi": 9,
+        "armor": 205,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -59516,50 +50530,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 204
-      },
-      "displayid": "714460"
-    },
-    {
-      "id": 252596,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Charged Scorpid Gauntlets",
-      "stats": {
-        "spi": 8,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 189
-      },
-      "displayid": "714391"
+        ]
+      }
     },
     {
       "id": 253913,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 15,
       "quality": 3,
       "ilvl": 20,
       "name": "Pristine Gloves",
+      "path": "inv_gauntlets_16",
+      "displayid": 715240,
       "stats": {
         "sta": 4,
         "int": 3,
-        "dmg_done": [
+        "armor": 23,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -59568,10 +50557,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 23
-      },
-      "displayid": "715240"
+        ]
+      }
     },
     {
       "id": 253915,
@@ -59658,13 +50645,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 34,
       "quality": 2,
       "ilvl": 39,
       "name": "Earthen Silk Gloves",
+      "path": "inv_gauntlets_24",
+      "displayid": 715295,
       "stats": {
         "spi": 8,
-        "dmg_done": [
+        "armor": 32,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -59673,24 +50663,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 32
-      },
-      "displayid": "715295"
+        ]
+      }
     },
     {
       "id": 254021,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 35,
       "quality": 3,
       "ilvl": 40,
       "name": "Gilded Handwraps",
+      "path": "inv_gauntlets_29",
+      "displayid": 715315,
       "stats": {
         "sta": 9,
         "int": 7,
-        "dmg_done": [
+        "armor": 36,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -59699,10 +50690,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 36
-      },
-      "displayid": "715315"
+        ]
+      }
     },
     {
       "id": 254023,
@@ -59789,13 +50778,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 47,
       "quality": 2,
       "ilvl": 52,
       "name": "Earthenweave Gloves",
+      "path": "inv_gauntlets_21",
+      "displayid": 715306,
       "stats": {
         "spi": 11,
-        "dmg_done": [
+        "armor": 42,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -59804,25 +50796,26 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 42
-      },
-      "displayid": "715306"
+        ]
+      }
     },
     {
       "id": 254095,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Gilded Gloves",
+      "path": "inv_gauntlets_11",
+      "displayid": 715319,
       "stats": {
         "sta": 9,
-        "spi": 8,
         "int": 10,
-        "dmg_done": [
+        "spi": 8,
+        "armor": 49,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -59831,10 +50824,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 49
-      },
-      "displayid": "715319"
+        ]
+      }
     },
     {
       "id": 254097,
@@ -60059,22 +51050,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 270029,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 22,
-      "quality": 3,
-      "ilvl": 28,
-      "name": "Town Clerk's Mittens",
-      "path": "inv_gauntlets_27",
-      "displayid": 27753,
-      "stats": {
-        "int": 11,
-        "armor": 29
-      }
-    },
-    {
       "id": 270030,
       "classId": 4,
       "subclassId": 1,
@@ -60185,32 +51160,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 28,
         "armor": 164
       }
-    },
-    {
-      "id": 270086,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Oversized Ogre's Mittens",
-      "path": "inv_gauntlets_32",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 35
-      },
-      "displayid": "11303"
     },
     {
       "id": 270089,
@@ -60358,15 +51307,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Theramore Handwraps",
       "path": "inv_gauntlets_22",
+      "displayid": 17057,
       "stats": {
         "sta": 15,
         "int": 27,
-        "dmg_done": [
+        "armor": 63,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -60375,25 +51326,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 62
-      },
-      "displayid": "17057"
+        ]
+      }
     },
     {
       "id": 271946,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 50,
       "quality": 4,
       "ilvl": 55,
       "name": "Theramore Handwraps",
       "path": "inv_gauntlets_22",
+      "displayid": 17057,
       "stats": {
         "sta": 12,
         "int": 23,
-        "dmg_done": [
+        "armor": 54,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -60402,10 +51353,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 53
-      },
-      "displayid": "17057"
+        ]
+      }
     },
     {
       "id": 271948,
@@ -60441,40 +51390,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 12,
         "armor": 108
-      }
-    },
-    {
-      "id": 271950,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Theramore Handguards",
-      "path": "inv_gauntlets_11",
-      "displayid": 34901,
-      "stats": {
-        "sta": 15,
-        "int": 21,
-        "armor": 360
-      }
-    },
-    {
-      "id": 271951,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 50,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Theramore Handguards",
-      "path": "inv_gauntlets_11",
-      "displayid": 34901,
-      "stats": {
-        "sta": 12,
-        "int": 17,
-        "armor": 303
       }
     },
     {
@@ -60518,15 +51433,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Raider Handwraps",
       "path": "inv_gauntlets_22",
+      "displayid": 17057,
       "stats": {
         "sta": 15,
         "int": 27,
-        "dmg_done": [
+        "armor": 63,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -60535,25 +51452,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 62
-      },
-      "displayid": "17057"
+        ]
+      }
     },
     {
       "id": 272098,
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 50,
       "quality": 4,
       "ilvl": 55,
       "name": "Raider Handwraps",
       "path": "inv_gauntlets_22",
+      "displayid": 17057,
       "stats": {
         "sta": 12,
         "int": 23,
-        "dmg_done": [
+        "armor": 54,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -60562,10 +51479,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 53
-      },
-      "displayid": "17057"
+        ]
+      }
     },
     {
       "id": 272099,
@@ -60601,40 +51516,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 12,
         "armor": 108
-      }
-    },
-    {
-      "id": 272101,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Raider Handguards",
-      "path": "inv_gauntlets_11",
-      "displayid": 34901,
-      "stats": {
-        "sta": 15,
-        "int": 21,
-        "armor": 360
-      }
-    },
-    {
-      "id": 272102,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 10,
-      "requires": 50,
-      "quality": 4,
-      "ilvl": 55,
-      "name": "Raider Handguards",
-      "path": "inv_gauntlets_11",
-      "displayid": 34901,
-      "stats": {
-        "sta": 12,
-        "int": 17,
-        "armor": 303
       }
     },
     {
@@ -60883,22 +51764,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "740110"
     },
     {
-      "id": 275021,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 44,
-      "name": "Prisoner Handwraps",
-      "path": "inv_gauntlets_21",
-      "displayid": 9019,
-      "stats": {
-        "spi": 12,
-        "armor": 40
-      }
-    },
-    {
       "id": 275604,
       "classId": 4,
       "subclassId": 1,
@@ -60929,22 +51794,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 10,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Swarmtender's Gloves",
+      "path": "inv_gauntlets_17",
+      "displayid": 740572,
       "stats": {
         "spi": 20,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
+        "armor": 52,
         "resistance": [
           0,
           0,
@@ -60955,9 +51813,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 51
-      },
-      "displayid": "740572"
+        "dmg_done_mod": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
     },
     {
       "id": 275610,
@@ -61042,22 +51908,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 10,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Broodwatcher's Clenchers",
+      "path": "inv_gauntlets_13",
+      "displayid": 740601,
       "stats": {
         "spi": 20,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
+        "armor": 215,
         "resistance": [
           0,
           0,
@@ -61068,9 +51927,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 214
-      },
-      "displayid": "740601"
+        "dmg_done_mod": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
     },
     {
       "id": 275622,
@@ -61426,31 +52293,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "2609"
     },
     {
-      "id": 277223,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 10,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Traveled Gloves",
-      "stats": {
-        "str": 9,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 75
-      },
-      "displayid": "4768"
-    },
-    {
       "id": 277231,
       "classId": 4,
       "subclassId": 3,
@@ -61726,22 +52568,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 27
       },
       "displayid": "747626"
-    },
-    {
-      "id": 282012,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 10,
-      "requires": 49,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Corsepickers",
-      "path": "inv_gauntlets_23",
-      "displayid": 8307,
-      "stats": {
-        "spi": 12,
-        "armor": 44
-      }
     },
     {
       "id": 282636,
@@ -62464,32 +53290,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9024"
     },
     {
-      "id": 3753,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 34,
-      "name": "Shepherd's Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 56
-      },
-      "displayid": "7858"
-    },
-    {
       "id": 3758,
       "classId": 4,
       "subclassId": 3,
@@ -62607,32 +53407,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4591"
     },
     {
-      "id": 4250,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Hillman's Belt",
-      "path": "inv_belt_06",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 48
-      },
-      "displayid": "6049"
-    },
-    {
       "id": 4257,
       "classId": 4,
       "subclassId": 2,
@@ -62648,32 +53422,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 54
       },
       "displayid": "8350"
-    },
-    {
-      "id": 4258,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 34,
-      "name": "Guardian Belt",
-      "path": "inv_belt_03",
-      "stats": {
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 56
-      },
-      "displayid": "8606"
     },
     {
       "id": 4262,
@@ -62731,32 +53479,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "useSpell": 9774,
       "cooldown": 1800000,
       "displayid": "5764"
-    },
-    {
-      "id": 4329,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Star Belt",
-      "path": "inv_belt_06",
-      "stats": {
-        "spi": 4,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 29
-      },
-      "displayid": "4634"
     },
     {
       "id": 4436,
@@ -63246,23 +53968,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 6319,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 21,
-      "quality": 3,
-      "ilvl": 26,
-      "name": "Girdle of the Blindwatcher",
-      "path": "inv_belt_03",
-      "displayid": 7761,
-      "stats": {
-        "sta": 5,
-        "int": 3,
-        "armor": 54
-      }
-    },
-    {
       "id": 6379,
       "classId": 4,
       "subclassId": 2,
@@ -63294,24 +53999,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 4,
         "sta": 4,
         "armor": 46
-      }
-    },
-    {
-      "id": 6392,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 23,
-      "quality": 3,
-      "ilvl": 28,
-      "name": "Belt of Arugal",
-      "path": "inv_belt_10",
-      "displayid": 11172,
-      "stats": {
-        "agi": 2,
-        "int": 3,
-        "spi": 5,
-        "armor": 26
       }
     },
     {
@@ -63690,22 +54377,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9045"
     },
     {
-      "id": 6908,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 22,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Ghamoo-ra's Bind",
-      "path": "inv_belt_24",
-      "displayid": 9401,
-      "stats": {
-        "sta": 7,
-        "armor": 25
-      }
-    },
-    {
       "id": 6911,
       "classId": 4,
       "subclassId": 2,
@@ -63732,22 +54403,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 7000,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 20,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Heartwood Girdle",
-      "path": "inv_belt_04",
-      "displayid": 6049,
-      "stats": {
-        "sta": 7,
-        "armor": 55
-      }
-    },
-    {
       "id": 7052,
       "classId": 4,
       "subclassId": 1,
@@ -63764,44 +54419,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "7700"
     },
     {
-      "id": 7055,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Crimson Silk Belt",
-      "path": "inv_belt_04",
-      "stats": {
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 26
-      },
-      "displayid": "5804"
-    },
-    {
       "id": 7061,
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 34,
       "quality": 2,
       "ilvl": 39,
       "name": "Earthen Silk Belt",
       "path": "inv_belt_24",
+      "displayid": 4905,
       "stats": {
         "spi": 8,
-        "dmg_done": [
+        "armor": 29,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -63810,10 +54441,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 28
-      },
-      "displayid": "4905"
+        ]
+      }
     },
     {
       "id": 7107,
@@ -65241,22 +55870,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8401"
     },
     {
-      "id": 10771,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 36,
-      "quality": 3,
-      "ilvl": 41,
-      "name": "Deathmage Sash",
-      "path": "inv_belt_24",
-      "displayid": 13389,
-      "stats": {
-        "int": 15,
-        "armor": 33
-      }
-    },
-    {
       "id": 10820,
       "classId": 4,
       "subclassId": 1,
@@ -65665,32 +56278,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13856,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Runecloth Belt",
-      "path": "inv_belt_15",
-      "stats": {
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 37
-      },
-      "displayid": "25235"
-    },
-    {
       "id": 14025,
       "classId": 4,
       "subclassId": 1,
@@ -65736,32 +56323,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 18
       }
-    },
-    {
-      "id": 14143,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 53,
-      "name": "Ghostweave Belt",
-      "path": "inv_belt_16",
-      "stats": {
-        "spi": 9,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 38
-      },
-      "displayid": "10087"
     },
     {
       "id": 14164,
@@ -66800,32 +57361,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8151"
     },
     {
-      "id": 15093,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Runic Leather Belt",
-      "path": "inv_belt_23",
-      "stats": {
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 81
-      },
-      "displayid": "4460"
-    },
-    {
       "id": 15110,
       "classId": 4,
       "subclassId": 2,
@@ -67663,23 +58198,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 16685,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 53,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Magister's Belt",
-      "path": "inv_belt_08",
-      "displayid": 29596,
-      "stats": {
-        "sta": 6,
-        "int": 21,
-        "armor": 46
-      }
-    },
-    {
       "id": 16696,
       "classId": 4,
       "subclassId": 1,
@@ -67705,24 +58223,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4
         ]
-      }
-    },
-    {
-      "id": 16702,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 53,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Dreadmist Belt",
-      "path": "inv_belt_12",
-      "displayid": 29793,
-      "stats": {
-        "sta": 10,
-        "int": 14,
-        "spi": 9,
-        "armor": 46
       }
     },
     {
@@ -67773,25 +58273,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 16723,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 6,
-      "requires": 53,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Lightforge Belt",
-      "path": "inv_belt_11",
-      "displayid": 29966,
-      "stats": {
-        "str": 10,
-        "sta": 9,
-        "int": 15,
-        "hit_rate": 5,
-        "armor": 341
-      }
-    },
-    {
       "id": 16736,
       "classId": 4,
       "subclassId": 4,
@@ -67810,32 +58291,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "defense": 6,
         "armor": 341
       }
-    },
-    {
-      "id": 16975,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Warsong Sash",
-      "path": "inv_belt_02",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 25
-      },
-      "displayid": "9401"
     },
     {
       "id": 16987,
@@ -67886,23 +58341,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "13135"
     },
     {
-      "id": 17755,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 45,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Satyrmane Sash",
-      "path": "inv_belt_24",
-      "displayid": 10875,
-      "stats": {
-        "sta": 7,
-        "int": 10,
-        "armor": 40
-      }
-    },
-    {
       "id": 17778,
       "classId": 4,
       "subclassId": 2,
@@ -67918,33 +58356,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 12,
         "armor": 81
       }
-    },
-    {
-      "id": 18504,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 62,
-      "name": "Girdle of Insight",
-      "path": "inv_belt_26",
-      "stats": {
-        "sta": 9,
-        "int": 23,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 97
-      },
-      "displayid": "10433"
     },
     {
       "id": 19043,
@@ -67987,15 +58398,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Wisdom of the Timbermaw",
       "path": "inv_belt_09",
+      "displayid": 9398,
       "stats": {
-        "spi": 9,
         "int": 14,
-        "dmg_done": [
+        "spi": 9,
+        "armor": 46,
+        "dmg_done_mod": [
           0,
           0,
           11,
@@ -68004,10 +58417,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11,
           11,
           11
-        ],
-        "armor": 46
-      },
-      "displayid": "9398"
+        ]
+      }
     },
     {
       "id": 19051,
@@ -68111,43 +58522,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "10433"
     },
     {
-      "id": 19090,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Frostwolf Cloth Belt",
-      "path": "inv_belt_04",
-      "stats": {
-        "sta": 11,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0
-        ],
-        "armor": 47
-      },
-      "displayid": "6062"
-    },
-    {
       "id": 19091,
       "classId": 4,
       "subclassId": 4,
@@ -68232,43 +58606,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "5583"
     },
     {
-      "id": 19094,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Stormpike Cloth Girdle",
-      "path": "inv_belt_04",
-      "stats": {
-        "sta": 11,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0
-        ],
-        "armor": 47
-      },
-      "displayid": "7519"
-    },
-    {
       "id": 19125,
       "classId": 4,
       "subclassId": 3,
@@ -68316,23 +58653,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 6,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 70,
       "name": "Corehound Belt",
       "path": "inv_belt_24",
+      "displayid": 31681,
       "stats": {
         "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
+        "armor": 118,
         "resistance": [
           0,
           0,
@@ -68343,9 +58672,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 118
-      },
-      "displayid": "31681"
+        "dmg_done_mod": [
+          0,
+          0,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ]
+      }
     },
     {
       "id": 19163,
@@ -68524,34 +58861,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9965"
     },
     {
-      "id": 20047,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Highlander's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 7,
-        "int": 6,
-        "crit_rate": 14,
-        "armor": 150,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ]
-      },
-      "displayid": "9965"
-    },
-    {
       "id": 20088,
       "classId": 4,
       "subclassId": 3,
@@ -68606,88 +58915,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 60
       },
       "displayid": "2970"
-    },
-    {
-      "id": 20097,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Highlander's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 6,
-        "int": 5,
-        "crit_rate": 14,
-        "armor": 112,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ]
-      },
-      "displayid": "9965"
-    },
-    {
-      "id": 20098,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Highlander's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 4,
-        "int": 4,
-        "armor": 104,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ]
-      },
-      "displayid": "9965"
-    },
-    {
-      "id": 20099,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Highlander's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 4,
-        "int": 3,
-        "armor": 87,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ]
-      },
-      "displayid": "9965"
     },
     {
       "id": 20103,
@@ -69029,116 +59256,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 149
       },
       "displayid": "2970"
-    },
-    {
-      "id": 20163,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Defiler's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 7,
-        "int": 6,
-        "crit_rate": 14,
-        "armor": 150,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ]
-      },
-      "displayid": "9965"
-    },
-    {
-      "id": 20164,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Defiler's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 4,
-        "int": 3,
-        "armor": 87,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ]
-      },
-      "displayid": "9965"
-    },
-    {
-      "id": 20165,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Defiler's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 6,
-        "int": 5,
-        "crit_rate": 14,
-        "armor": 112,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ]
-      },
-      "displayid": "9965"
-    },
-    {
-      "id": 20166,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Defiler's Cloth Girdle",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 4,
-        "int": 4,
-        "armor": 104,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ]
-      },
-      "displayid": "9965"
     },
     {
       "id": 20171,
@@ -69666,35 +59783,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34202"
     },
     {
-      "id": 21607,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 81,
-      "name": "Grasp of the Fallen Emperor",
-      "path": "inv_belt_32",
-      "stats": {
-        "agi": 12,
-        "str": 13,
-        "sta": 17,
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 287
-      },
-      "displayid": "34203"
-    },
-    {
       "id": 21609,
       "classId": 4,
       "subclassId": 2,
@@ -69750,175 +59838,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34646"
     },
     {
-      "id": 22062,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Sorcerer's Belt",
-      "path": "inv_belt_08",
-      "stats": {
-        "sta": 12,
-        "spi": 7,
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 51
-      },
-      "displayid": "34599"
-    },
-    {
-      "id": 22070,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Deathmist Belt",
-      "path": "inv_belt_12",
-      "stats": {
-        "sta": 16,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 51
-      },
-      "displayid": "34620"
-    },
-    {
-      "id": 22078,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Virtuous Belt",
-      "path": "inv_belt_10",
-      "stats": {
-        "sta": 12,
-        "spi": 12,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 51
-      },
-      "displayid": "34628"
-    },
-    {
-      "id": 22086,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Soulforge Belt",
-      "path": "inv_belt_11",
-      "stats": {
-        "str": 10,
-        "sta": 11,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 380
-      },
-      "displayid": "34520"
-    },
-    {
-      "id": 22098,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Cord of The Five Thunders",
-      "path": "inv_belt_16",
-      "stats": {
-        "str": 10,
-        "sta": 11,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 214
-      },
-      "displayid": "34694"
-    },
-    {
-      "id": 22106,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Feralheart Belt",
-      "path": "inv_belt_15",
-      "stats": {
-        "agi": 7,
-        "str": 6,
-        "sta": 9,
-        "spi": 8,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 101
-      },
-      "displayid": "34637"
-    },
-    {
       "id": 22195,
       "classId": 4,
       "subclassId": 3,
@@ -69951,25 +59870,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 397
       },
       "displayid": "23364"
-    },
-    {
-      "id": 22242,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 51,
-      "quality": 3,
-      "ilvl": 56,
-      "name": "Verek's Leash",
-      "path": "inv_belt_18",
-      "displayid": 12983,
-      "stats": {
-        "agi": 7,
-        "str": 8,
-        "sta": 8,
-        "int": 8,
-        "armor": 187
-      }
     },
     {
       "id": 22431,
@@ -70024,35 +59924,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "739072"
     },
     {
-      "id": 22502,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Frostfire Belt",
-      "path": "inv_belt_03",
-      "stats": {
-        "sta": 19,
-        "spi": 10,
-        "int": 21,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ],
-        "armor": 74
-      },
-      "displayid": "739071"
-    },
-    {
       "id": 22743,
       "classId": 4,
       "subclassId": 5,
@@ -70103,32 +59974,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_belt_04",
       "displayid": 0,
       "stats": {}
-    },
-    {
-      "id": 215366,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Invoker's Cord",
-      "path": "inv_belt_03",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 24
-      },
-      "displayid": "6121"
     },
     {
       "id": 226864,
@@ -70221,23 +60066,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 228190,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Knowledge of the Timbermaw",
-      "path": "inv_belt_09",
-      "displayid": 9398,
-      "stats": {
-        "int": 22,
-        "hit_rate": 10,
-        "armor": 56
-      }
-    },
-    {
       "id": 239513,
       "classId": 4,
       "subclassId": 4,
@@ -70312,44 +60140,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712820"
     },
     {
-      "id": 250515,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 17,
-      "name": "Protector's Chain Belt",
-      "stats": {
-        "sta": 4,
-        "defense": 3,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 98
-      },
-      "displayid": "712826"
-    },
-    {
       "id": 250516,
       "classId": 4,
       "subclassId": 3,
       "slot": 6,
-      "requires": 0,
+      "requires": 12,
       "quality": 3,
       "ilvl": 17,
       "name": "Acolyte's Chain Belt",
+      "path": "inv_belt_23",
+      "displayid": 712759,
       "stats": {
         "sta": 3,
         "int": 4,
-        "dmg_done": [
+        "armor": 98,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -70358,36 +60163,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 98
-      },
-      "displayid": "712759"
-    },
-    {
-      "id": 250517,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 17,
-      "name": "Crusader's Chain Belt",
-      "stats": {
-        "str": 3,
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 98
-      },
-      "displayid": "712816"
+        ]
+      }
     },
     {
       "id": 250556,
@@ -70424,44 +60201,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712913"
     },
     {
-      "id": 250558,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Warder's Belt",
-      "stats": {
-        "sta": 10,
-        "defense": 7,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 131
-      },
-      "displayid": "712910"
-    },
-    {
       "id": 250559,
       "classId": 4,
       "subclassId": 3,
       "slot": 6,
-      "requires": 0,
+      "requires": 30,
       "quality": 3,
       "ilvl": 35,
       "name": "Prefect's Belt",
+      "path": "inv_belt_08",
+      "displayid": 712912,
       "stats": {
         "sta": 6,
         "int": 7,
-        "dmg_done": [
+        "armor": 132,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -70470,36 +60224,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 131
-      },
-      "displayid": "712912"
-    },
-    {
-      "id": 250560,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Justicar's Belt",
-      "stats": {
-        "str": 6,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 131
-      },
-      "displayid": "712909"
+        ]
+      }
     },
     {
       "id": 250571,
@@ -70536,44 +60262,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712913"
     },
     {
-      "id": 250573,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Warder's Waistguard",
-      "stats": {
-        "sta": 14,
-        "defense": 10,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 324
-      },
-      "displayid": "712910"
-    },
-    {
       "id": 250574,
       "classId": 4,
       "subclassId": 4,
       "slot": 6,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Prefect's Waistguard",
+      "path": "inv_belt_08",
+      "displayid": 712912,
       "stats": {
         "sta": 13,
         "int": 10,
-        "dmg_done": [
+        "armor": 324,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -70582,62 +60285,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 324
-      },
-      "displayid": "712912"
-    },
-    {
-      "id": 250575,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Justicar's Waistguard",
-      "stats": {
-        "str": 10,
-        "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 324
-      },
-      "displayid": "712909"
-    },
-    {
-      "id": 250592,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Blessed Plate Belt",
-      "stats": {
-        "str": 15,
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 315
-      },
-      "displayid": "712927"
+        ]
+      }
     },
     {
       "id": 251962,
@@ -70707,70 +60356,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714399"
     },
     {
-      "id": 252431,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 17,
-      "name": "Totemic Leather Belt",
-      "stats": {
-        "str": 4,
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 45
-      },
-      "displayid": "714551"
-    },
-    {
-      "id": 252432,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 17,
-      "name": "Stormrider's Leather Belt",
-      "stats": {
-        "sta": 3,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 45
-      },
-      "displayid": "714522"
-    },
-    {
       "id": 252433,
       "classId": 4,
       "subclassId": 2,
       "slot": 6,
-      "requires": 0,
+      "requires": 12,
       "quality": 3,
       "ilvl": 17,
       "name": "Wisdom's Leather Belt",
+      "path": "inv_belt_06",
+      "displayid": 714584,
       "stats": {
         "sta": 3,
         "int": 4,
-        "dmg_done": [
+        "armor": 45,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -70779,10 +60379,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 45
-      },
-      "displayid": "714584"
+        ]
+      }
     },
     {
       "id": 252459,
@@ -70818,33 +60416,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 100
       },
       "displayid": "714574"
-    },
-    {
-      "id": 252461,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Skirmisher's Leather Belt",
-      "stats": {
-        "str": 9,
-        "sta": 6,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 62
-      },
-      "displayid": "714476"
     },
     {
       "id": 252473,
@@ -70897,44 +60468,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714574"
     },
     {
-      "id": 252476,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Skycaller's Leather Waistguard",
-      "stats": {
-        "sta": 10,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 88
-      },
-      "displayid": "714502"
-    },
-    {
       "id": 252477,
       "classId": 4,
       "subclassId": 2,
       "slot": 6,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Mender's Leather Waistguard",
+      "path": "inv_belt_16",
+      "displayid": 714456,
       "stats": {
         "sta": 10,
         "int": 12,
-        "dmg_done": [
+        "armor": 89,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -70943,10 +60491,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 88
-      },
-      "displayid": "714456"
+        ]
+      }
     },
     {
       "id": 252481,
@@ -71002,46 +60548,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714514"
     },
     {
-      "id": 252522,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Skycaller's Leather Belt",
-      "stats": {
-        "sta": 6,
-        "spi": 4,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 62
-      },
-      "displayid": "714494"
-    },
-    {
       "id": 252523,
       "classId": 4,
       "subclassId": 2,
       "slot": 6,
-      "requires": 0,
+      "requires": 30,
       "quality": 3,
       "ilvl": 35,
       "name": "Mender's Leather Belt",
+      "path": "inv_belt_26",
+      "displayid": 714448,
       "stats": {
         "sta": 4,
-        "spi": 6,
         "int": 6,
-        "dmg_done": [
+        "spi": 6,
+        "armor": 63,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -71050,62 +60572,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 62
-      },
-      "displayid": "714448"
-    },
-    {
-      "id": 252544,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Tooled Leather Belt",
-      "stats": {
-        "spi": 8,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 77
-      },
-      "displayid": "714545"
-    },
-    {
-      "id": 252575,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Charged Scorpid Belt",
-      "stats": {
-        "spi": 8,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 156
-      },
-      "displayid": "714388"
+        ]
+      }
     },
     {
       "id": 252588,
@@ -71125,70 +60593,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714516"
     },
     {
-      "id": 252589,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Skycaller's Mail Belt",
-      "stats": {
-        "sta": 10,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 184
-      },
-      "displayid": "714503"
-    },
-    {
-      "id": 252590,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Skirmisher's Mail Belt",
-      "stats": {
-        "str": 14,
-        "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 184
-      },
-      "displayid": "714478"
-    },
-    {
       "id": 252591,
       "classId": 4,
       "subclassId": 3,
       "slot": 6,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Mender's Mail Belt",
+      "path": "inv_belt_37c",
+      "displayid": 714457,
       "stats": {
         "sta": 10,
         "int": 12,
-        "dmg_done": [
+        "armor": 184,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -71197,75 +60616,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 184
-      },
-      "displayid": "714457"
-    },
-    {
-      "id": 252595,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Supple Scorpid Belt",
-      "stats": {
-        "sta": 12,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 170
-      },
-      "displayid": "714530"
-    },
-    {
-      "id": 253885,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 15,
-      "name": "Novice Arcanist's Sash",
-      "stats": {
-        "sta": 3,
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 17
-      },
-      "displayid": "715236"
+        ]
+      }
     },
     {
       "id": 253887,
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 10,
       "quality": 3,
       "ilvl": 15,
       "name": "Novice Ardent's Sash",
+      "path": "inv_belt_43",
+      "displayid": 715237,
       "stats": {
-        "spi": 3,
         "int": 3,
-        "dmg_done": [
+        "spi": 3,
+        "armor": 17,
+        "dmg_done_mod": [
           0,
           0,
           2,
@@ -71274,24 +60643,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           2,
           2,
           2
-        ],
-        "armor": 17
-      },
-      "displayid": "715237"
+        ]
+      }
     },
     {
       "id": 253925,
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 17,
       "quality": 3,
       "ilvl": 22,
       "name": "Pristine Sash",
+      "path": "inv_belt_43",
+      "displayid": 715247,
       "stats": {
         "sta": 5,
         "int": 4,
-        "dmg_done": [
+        "armor": 22,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -71300,10 +60670,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 22
-      },
-      "displayid": "715247"
+        ]
+      }
     },
     {
       "id": 253927,
@@ -71390,15 +60758,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 40,
       "quality": 3,
       "ilvl": 45,
       "name": "Gilded Cord",
+      "path": "inv_belt_08",
+      "displayid": 715317,
       "stats": {
         "sta": 8,
-        "spi": 6,
         "int": 8,
-        "dmg_done": [
+        "spi": 6,
+        "armor": 37,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -71407,10 +60778,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 36
-      },
-      "displayid": "715317"
+        ]
+      }
     },
     {
       "id": 254039,
@@ -71498,42 +60867,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "715383"
     },
     {
-      "id": 254073,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Ghostweave Cord",
-      "stats": {
-        "spi": 11,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 38
-      },
-      "displayid": "715311"
-    },
-    {
       "id": 254077,
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 47,
       "quality": 2,
       "ilvl": 52,
       "name": "Earthenweave Cord",
+      "path": "inv_belt_39c",
+      "displayid": 715303,
       "stats": {
         "spi": 11,
-        "dmg_done": [
+        "armor": 38,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -71542,24 +60889,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 38
-      },
-      "displayid": "715303"
+        ]
+      }
     },
     {
       "id": 254081,
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 47,
       "quality": 3,
       "ilvl": 52,
       "name": "Gilded Waistcord",
+      "path": "inv_belt_07",
+      "displayid": 715318,
       "stats": {
         "sta": 12,
         "int": 9,
-        "dmg_done": [
+        "armor": 42,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -71568,10 +60916,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 41
-      },
-      "displayid": "715318"
+        ]
+      }
     },
     {
       "id": 254083,
@@ -71652,56 +60998,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 41
       },
       "displayid": "715385"
-    },
-    {
-      "id": 260179,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Barkwoven Belt",
-      "stats": {
-        "spi": 11,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 77
-      },
-      "displayid": "717969"
-    },
-    {
-      "id": 260182,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Elunar Belt",
-      "stats": {
-        "spi": 11,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 77
-      },
-      "displayid": "717982"
     },
     {
       "id": 260184,
@@ -71998,32 +61294,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "dodge_rate": 8,
         "armor": 128
       }
-    },
-    {
-      "id": 271769,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Daewyn's Girdle",
-      "path": "inv_belt_16",
-      "stats": {
-        "spi": 9,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 27
-      },
-      "displayid": "11172"
     },
     {
       "id": 272187,
@@ -72360,22 +61630,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 6,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Swarmtender's Cord",
+      "path": "inv_belt_03",
+      "displayid": 740573,
       "stats": {
         "sta": 21,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
+        "armor": 46,
         "resistance": [
           0,
           0,
@@ -72386,9 +61649,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 46
-      },
-      "displayid": "740573"
+        "dmg_done_mod": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
     },
     {
       "id": 275611,
@@ -72473,22 +61744,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 6,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Broodwatcher's Belt",
+      "path": "inv_belt_18",
+      "displayid": 740602,
       "stats": {
         "sta": 21,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
+        "armor": 193,
         "resistance": [
           0,
           0,
@@ -72499,9 +61763,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 193
-      },
-      "displayid": "740602"
+        "dmg_done_mod": [
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
     },
     {
       "id": 275623,
@@ -72556,33 +61828,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "740609"
     },
     {
-      "id": 275741,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 6,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Ketharas' Linked Belt",
-      "path": "inv_belt_17",
-      "stats": {
-        "sta": 10,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 202
-      },
-      "displayid": "26037"
-    },
-    {
       "id": 275827,
       "classId": 4,
       "subclassId": 1,
@@ -72592,18 +61837,10 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 58,
       "name": "Wool-Stitched Waistband",
       "path": "inv_belt_10",
+      "displayid": 15837,
       "stats": {
         "spi": 10,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
+        "armor": 42,
         "resistance": [
           0,
           0,
@@ -72614,9 +61851,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 42
-      },
-      "displayid": "15837"
+        "dmg_done_mod": [
+          0,
+          0,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
     },
     {
       "id": 276724,
@@ -72834,31 +62079,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4102"
     },
     {
-      "id": 277224,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Kurzen Headshrinker's Cinch",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 57
-      },
-      "displayid": "2985"
-    },
-    {
       "id": 277232,
       "classId": 4,
       "subclassId": 3,
@@ -72874,32 +62094,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 119
       },
       "displayid": "5670"
-    },
-    {
-      "id": 277240,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 6,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Gilded Plate Belt",
-      "stats": {
-        "melee_ap": 19,
-        "ranged_ap": 19,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 245
-      },
-      "displayid": "8241"
     },
     {
       "id": 279174,
@@ -72919,14 +62113,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 6,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Elderwild Waistcord",
+      "path": "inv_belt_leather_raiddruidhyjalc60_d_01",
+      "displayid": 741866,
       "stats": {
         "sta": 21,
         "spi": 18,
-        "dmg_done": [
+        "armor": 111,
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -72935,10 +62132,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 111
-      },
-      "displayid": "741866"
+        ]
+      }
     },
     {
       "id": 279267,
@@ -73173,23 +62368,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "747627"
     },
     {
-      "id": 282074,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 51,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Ogre Sorcerer Belt",
-      "path": "inv_belt_10",
-      "displayid": 25306,
-      "stats": {
-        "str": 5,
-        "int": 13,
-        "armor": 41
-      }
-    },
-    {
       "id": 283460,
       "classId": 4,
       "subclassId": 2,
@@ -73380,34 +62558,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 18405,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 62,
-      "name": "Belt of the Archmage",
-      "path": "inv_belt_31",
-      "stats": {
-        "sta": 10,
-        "int": 16,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 53
-      },
-      "displayid": "5788"
-    },
-    {
       "id": 20292,
       "classId": 4,
       "subclassId": 4,
@@ -73558,34 +62708,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "739073"
     },
     {
-      "id": 22510,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 6,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Plagueheart Belt",
-      "path": "inv_belt_03",
-      "stats": {
-        "sta": 23,
-        "int": 12,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          34,
-          34,
-          34,
-          34,
-          34,
-          34
-        ],
-        "armor": 74
-      },
-      "displayid": "739075"
-    },
-    {
       "id": 22518,
       "classId": 4,
       "subclassId": 1,
@@ -73674,22 +62796,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 26
       },
       "displayid": "16844"
-    },
-    {
-      "id": 1929,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 13,
-      "quality": 2,
-      "ilvl": 18,
-      "name": "Silk-threaded Trousers",
-      "path": "inv_pants_02",
-      "displayid": 8420,
-      "stats": {
-        "agi": 5,
-        "armor": 31
-      }
     },
     {
       "id": 1934,
@@ -74536,32 +63642,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4439"
     },
     {
-      "id": 4242,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Embossed Leather Pants",
-      "path": "inv_pants_02",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "armor": 60
-      },
-      "displayid": "9505"
-    },
-    {
       "id": 4261,
       "classId": 4,
       "subclassId": 1,
@@ -74578,58 +63658,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "16794"
     },
     {
-      "id": 4309,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 14,
-      "name": "Handstitched Linen Britches",
-      "path": "inv_pants_07",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 23
-      },
-      "displayid": "2656"
-    },
-    {
-      "id": 4316,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 22,
-      "name": "Heavy Woolen Pants",
-      "path": "inv_pants_01",
-      "stats": {
-        "spi": 6,
-        "dmg_done": [
-          0,
-          0,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "armor": 31
-      },
-      "displayid": "4617"
-    },
-    {
       "id": 4317,
       "classId": 4,
       "subclassId": 1,
@@ -74644,31 +63672,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 33
       },
       "displayid": "4619"
-    },
-    {
-      "id": 4343,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 10,
-      "name": "Brown Linen Pants",
-      "path": "inv_pants_06",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 16
-      },
-      "displayid": "1883"
     },
     {
       "id": 4434,
@@ -75015,32 +64018,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 72
       },
       "displayid": "9018"
-    },
-    {
-      "id": 5962,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 32,
-      "name": "Guardian Pants",
-      "path": "inv_pants_02",
-      "stats": {
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 84
-      },
-      "displayid": "8426"
     },
     {
       "id": 5963,
@@ -75429,38 +64406,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8193"
     },
     {
-      "id": 6903,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 23,
-      "quality": 3,
-      "ilvl": 28,
-      "name": "Gaze Dreamer Pants",
-      "path": "inv_pants_02",
-      "displayid": 7587,
-      "stats": {
-        "spi": 9,
-        "armor": 40
-      }
-    },
-    {
-      "id": 6910,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 24,
-      "quality": 3,
-      "ilvl": 29,
-      "name": "Leech Pants",
-      "path": "inv_pants_14",
-      "displayid": 7767,
-      "stats": {
-        "sta": 5,
-        "armor": 41
-      }
-    },
-    {
       "id": 6973,
       "classId": 4,
       "subclassId": 3,
@@ -75492,32 +64437,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 36
       },
       "displayid": "12360"
-    },
-    {
-      "id": 7062,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Crimson Silk Pantaloons",
-      "path": "inv_pants_06",
-      "stats": {
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 45
-      },
-      "displayid": "4310"
     },
     {
       "id": 7132,
@@ -75934,33 +64853,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 8185,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 47,
-      "name": "Turtle Scale Leggings",
-      "path": "inv_pants_02",
-      "stats": {
-        "sta": 11,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 226
-      },
-      "displayid": "12169"
-    },
-    {
       "id": 8193,
       "classId": 4,
       "subclassId": 2,
@@ -75976,32 +64868,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 108
       },
       "displayid": "5469"
-    },
-    {
-      "id": 8202,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 47,
-      "name": "Big Voodoo Pants",
-      "path": "inv_pants_02",
-      "stats": {
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 110
-      },
-      "displayid": "11838"
     },
     {
       "id": 8206,
@@ -76739,32 +65605,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 9999,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 41,
-      "name": "Black Mageweave Leggings",
-      "path": "inv_pants_09",
-      "stats": {
-        "spi": 14,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 47
-      },
-      "displayid": "20405"
-    },
-    {
       "id": 10002,
       "classId": 4,
       "subclassId": 1,
@@ -76781,44 +65621,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "8236"
     },
     {
-      "id": 10009,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Red Mageweave Pants",
-      "path": "inv_pants_06",
-      "stats": {
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 49
-      },
-      "displayid": "7520"
-    },
-    {
       "id": 10010,
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 39,
       "quality": 2,
       "ilvl": 44,
       "name": "Stormcloth Pants",
       "path": "inv_pants_13",
+      "displayid": 5874,
       "stats": {
         "spi": 15,
-        "dmg_done": [
+        "armor": 51,
+        "dmg_done_mod": [
           0,
           0,
           5,
@@ -76827,10 +65643,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5,
           5
-        ],
-        "armor": 50
-      },
-      "displayid": "5874"
+        ]
+      }
     },
     {
       "id": 10043,
@@ -76848,58 +65662,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 38
       },
       "displayid": "20209"
-    },
-    {
-      "id": 10047,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Simple Kilt",
-      "path": "inv_pants_11",
-      "stats": {
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 24
-      },
-      "displayid": "10199"
-    },
-    {
-      "id": 10048,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 19,
-      "name": "Colorful Kilt",
-      "path": "inv_pants_02",
-      "stats": {
-        "spi": 5,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 28
-      },
-      "displayid": "10636"
     },
     {
       "id": 10064,
@@ -77379,32 +66141,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4346"
     },
     {
-      "id": 10549,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 12,
-      "name": "Rancher's Trousers",
-      "path": "inv_pants_13",
-      "stats": {
-        "spi": 1,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 19
-      },
-      "displayid": "18108"
-    },
-    {
       "id": 10554,
       "classId": 4,
       "subclassId": 1,
@@ -77552,24 +66288,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 11823,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Luminary Kilt",
-      "path": "inv_pants_13",
-      "displayid": 25544,
-      "stats": {
-        "sta": 8,
-        "int": 20,
-        "spi": 8,
-        "armor": 147
-      }
-    },
-    {
       "id": 11841,
       "classId": 4,
       "subclassId": 1,
@@ -77685,32 +66403,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "24545"
     },
     {
-      "id": 12107,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Whispersilk Leggings",
-      "path": "inv_pants_06",
-      "stats": {
-        "spi": 20,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 67
-      },
-      "displayid": "28182"
-    },
-    {
       "id": 12255,
       "classId": 4,
       "subclassId": 1,
@@ -77742,32 +66434,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 55
       },
       "displayid": "7520"
-    },
-    {
-      "id": 12295,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Leggings of the People's Militia",
-      "path": "inv_pants_06",
-      "stats": {
-        "str": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 24
-      },
-      "displayid": "8969"
     },
     {
       "id": 12414,
@@ -78035,32 +66701,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13865,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Runecloth Pants",
-      "path": "inv_pants_09",
-      "stats": {
-        "spi": 20,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 64
-      },
-      "displayid": "25208"
-    },
-    {
       "id": 13871,
       "classId": 4,
       "subclassId": 1,
@@ -78123,41 +66763,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 14104,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Brightcloth Pants",
-      "path": "inv_pants_09",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          17,
-          17,
-          0
-        ],
-        "armor": 65
-      },
-      "displayid": "12341"
-    },
-    {
       "id": 14107,
       "classId": 4,
       "subclassId": 1,
@@ -78204,54 +66809,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 14132,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 55,
-      "name": "Wizardweave Leggings",
-      "path": "inv_pants_09",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          16,
-          0,
-          0,
-          0,
-          16
-        ],
-        "armor": 62
-      },
-      "displayid": "8420"
-    },
-    {
       "id": 14137,
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Mooncloth Leggings",
       "path": "inv_pants_13",
+      "displayid": 2318,
       "stats": {
         "sta": 12,
         "spi": 21,
-        "dmg_done": [
+        "armor": 72,
+        "dmg_done_mod": [
           0,
           0,
           11,
@@ -78260,36 +66832,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11,
           11,
           11
-        ],
-        "armor": 72
-      },
-      "displayid": "2318"
-    },
-    {
-      "id": 14144,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Ghostweave Pants",
-      "path": "inv_pants_01",
-      "stats": {
-        "spi": 20,
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 65
-      },
-      "displayid": "10098"
+        ]
+      }
     },
     {
       "id": 14165,
@@ -79298,23 +67842,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 7,
-      "requires": 0,
+      "requires": 49,
       "quality": 3,
       "ilvl": 54,
       "name": "Green Dragonscale Leggings",
       "path": "inv_pants_05",
+      "displayid": 12840,
       "stats": {
         "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17
-        ],
+        "armor": 282,
         "resistance": [
           0,
           0,
@@ -79325,9 +67861,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 281
-      },
-      "displayid": "12840"
+        "dmg_done_mod": [
+          0,
+          0,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ]
+      }
     },
     {
       "id": 15052,
@@ -79405,24 +67949,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 7,
-      "requires": 0,
+      "requires": 52,
       "quality": 3,
       "ilvl": 57,
       "name": "Living Leggings",
       "path": "inv_pants_05",
+      "displayid": 8345,
       "stats": {
         "sta": 8,
         "spi": 25,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
+        "armor": 142,
         "resistance": [
           0,
           0,
@@ -79433,9 +67969,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 142
-      },
-      "displayid": "8345"
+        "dmg_done_mod": [
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
     },
     {
       "id": 15062,
@@ -79559,32 +68103,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 131
       },
       "displayid": "1512"
-    },
-    {
-      "id": 15095,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Runic Leather Pants",
-      "path": "inv_pants_02",
-      "stats": {
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 134
-      },
-      "displayid": "8389"
     },
     {
       "id": 15117,
@@ -80432,24 +68950,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30375"
     },
     {
-      "id": 16668,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 56,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Kilt of Elements",
-      "path": "inv_pants_03",
-      "displayid": 31415,
-      "stats": {
-        "sta": 7,
-        "int": 15,
-        "spi": 20,
-        "armor": 315
-      }
-    },
-    {
       "id": 16678,
       "classId": 4,
       "subclassId": 3,
@@ -80467,25 +68967,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "spi": 12,
         "armor": 315
-      }
-    },
-    {
-      "id": 16687,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 56,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Magister's Leggings",
-      "path": "inv_pants_06",
-      "displayid": 7939,
-      "stats": {
-        "sta": 12,
-        "int": 15,
-        "spi": 21,
-        "hit_rate": 9,
-        "armor": 76
       }
     },
     {
@@ -80514,24 +68995,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8
         ]
-      }
-    },
-    {
-      "id": 16699,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 56,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Dreadmist Leggings",
-      "path": "inv_pants_08",
-      "displayid": 29797,
-      "stats": {
-        "sta": 15,
-        "int": 14,
-        "spi": 21,
-        "armor": 76
       }
     },
     {
@@ -80699,69 +69162,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "14875"
     },
     {
-      "id": 19165,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Flarecore Leggings",
-      "path": "inv_pants_06",
-      "stats": {
-        "sta": 21,
-        "dmg_done": [
-          0,
-          0,
-          43,
-          43,
-          43,
-          43,
-          43,
-          43
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          16,
-          0,
-          0,
-          0,
-          0
-        ],
-        "armor": 93
-      },
-      "displayid": "31685"
-    },
-    {
-      "id": 19683,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Bloodvine Leggings",
-      "path": "inv_pants_cloth_14",
-      "stats": {
-        "int": 6,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          37,
-          37,
-          37,
-          37,
-          37,
-          37
-        ],
-        "armor": 80
-      },
-      "displayid": "7939"
-    },
-    {
       "id": 19694,
       "classId": 4,
       "subclassId": 4,
@@ -80777,42 +69177,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 721
       },
       "displayid": "25550"
-    },
-    {
-      "id": 20295,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Blue Dragonscale Leggings",
-      "path": "inv_pants_mail_15",
-      "stats": {
-        "int": 20,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          12
-        ],
-        "armor": 310
-      },
-      "displayid": "28447"
     },
     {
       "id": 20538,
@@ -81001,14 +69365,26 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 7,
-      "requires": 0,
+      "requires": 58,
       "quality": 3,
       "ilvl": 63,
       "name": "Cenarion Reservist's Leggings",
       "path": "inv_pants_leather_01",
+      "displayid": 4388,
       "stats": {
         "sta": 13,
-        "dmg_done": [
+        "armor": 154,
+        "resistance": [
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -81017,115 +69393,23 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          25,
-          0,
-          0,
-          0
-        ],
-        "armor": 154
-      },
-      "displayid": "4388"
-    },
-    {
-      "id": 20705,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Cenarion Reservist's Pants",
-      "path": "inv_pants_cloth_06",
-      "stats": {
-        "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          25,
-          0,
-          0,
-          0
-        ],
-        "armor": 78
-      },
-      "displayid": "27598"
-    },
-    {
-      "id": 20706,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Cenarion Reservist's Pants",
-      "path": "inv_pants_cloth_06",
-      "stats": {
-        "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          25,
-          0,
-          0,
-          0
-        ],
-        "armor": 78
-      },
-      "displayid": "27598"
+        ]
+      }
     },
     {
       "id": 20707,
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 58,
       "quality": 3,
       "ilvl": 63,
       "name": "Cenarion Reservist's Pants",
       "path": "inv_pants_cloth_06",
+      "displayid": 27598,
       "stats": {
         "sta": 13,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
+        "armor": 78,
         "resistance": [
           0,
           0,
@@ -81136,9 +69420,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 78
-      },
-      "displayid": "27598"
+        "dmg_done_mod": [
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
     },
     {
       "id": 21316,
@@ -81280,177 +69572,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34652"
     },
     {
-      "id": 22067,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Sorcerer's Leggings",
-      "path": "inv_pants_06",
-      "stats": {
-        "sta": 17,
-        "spi": 10,
-        "int": 22,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 81
-      },
-      "displayid": "34598"
-    },
-    {
-      "id": 22072,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Deathmist Leggings",
-      "path": "inv_pants_08",
-      "stats": {
-        "sta": 22,
-        "int": 21,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 81
-      },
-      "displayid": "34622"
-    },
-    {
-      "id": 22085,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Virtuous Skirt",
-      "path": "inv_pants_08",
-      "stats": {
-        "sta": 13,
-        "spi": 12,
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 81
-      },
-      "displayid": "34635"
-    },
-    {
-      "id": 22092,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Soulforge Legplates",
-      "path": "inv_pants_04",
-      "stats": {
-        "str": 16,
-        "sta": 17,
-        "spi": 10,
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 600
-      },
-      "displayid": "34525"
-    },
-    {
-      "id": 22100,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Kilt of The Five Thunders",
-      "path": "inv_pants_03",
-      "stats": {
-        "str": 10,
-        "sta": 17,
-        "spi": 16,
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 338
-      },
-      "displayid": "34696"
-    },
-    {
-      "id": 22111,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 66,
-      "name": "Feralheart Kilt",
-      "path": "inv_pants_08",
-      "stats": {
-        "agi": 12,
-        "str": 14,
-        "sta": 14,
-        "spi": 14,
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 160
-      },
-      "displayid": "34642"
-    },
-    {
       "id": 22385,
       "classId": 4,
       "subclassId": 4,
@@ -81520,63 +69641,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 221
       },
       "displayid": "35161"
-    },
-    {
-      "id": 22497,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Frostfire Leggings",
-      "path": "inv_pants_cloth_05",
-      "stats": {
-        "sta": 25,
-        "spi": 10,
-        "int": 26,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          46,
-          46,
-          46,
-          46,
-          46,
-          46
-        ],
-        "armor": 116
-      },
-      "displayid": "35522"
-    },
-    {
-      "id": 22505,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Plagueheart Leggings",
-      "path": "inv_pants_cloth_05",
-      "stats": {
-        "sta": 30,
-        "int": 25,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          37,
-          37,
-          37,
-          37,
-          37,
-          37
-        ],
-        "armor": 116
-      },
-      "displayid": "35184"
     },
     {
       "id": 22651,
@@ -81702,42 +69766,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "35278"
     },
     {
-      "id": 22700,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Glacial Leggings",
-      "path": "inv_pants_06",
-      "stats": {
-        "sta": 28,
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          40,
-          0,
-          0
-        ],
-        "armor": 106
-      },
-      "displayid": "35282"
-    },
-    {
       "id": 22701,
       "classId": 4,
       "subclassId": 2,
@@ -81810,36 +69838,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "3833"
     },
     {
-      "id": 22741,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Outrider's Lizardhide Pants",
-      "path": "inv_pants_06",
-      "stats": {
-        "agi": 10,
-        "str": 22,
-        "sta": 22,
-        "spi": 9,
-        "int": 22,
-        "armor": 262,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ]
-      },
-      "displayid": "8389"
-    },
-    {
       "id": 22745,
       "classId": 4,
       "subclassId": 5,
@@ -81851,34 +69849,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_pants_cloth_02",
       "displayid": 2185,
       "stats": {}
-    },
-    {
-      "id": 22747,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Outrider's Silk Leggings",
-      "path": "inv_pants_cloth_05",
-      "stats": {
-        "sta": 23,
-        "spi": 10,
-        "int": 19,
-        "armor": 187,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ]
-      },
-      "displayid": "20405"
     },
     {
       "id": 22748,
@@ -81918,93 +69888,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "3833"
     },
     {
-      "id": 22750,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Sentinel's Lizardhide Pants",
-      "path": "inv_pants_06",
-      "stats": {
-        "agi": 10,
-        "str": 22,
-        "sta": 22,
-        "spi": 9,
-        "int": 22,
-        "armor": 262,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ]
-      },
-      "displayid": "8389"
-    },
-    {
-      "id": 22752,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Sentinel's Silk Leggings",
-      "path": "inv_pants_cloth_05",
-      "stats": {
-        "sta": 23,
-        "spi": 10,
-        "int": 19,
-        "armor": 187,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ]
-      },
-      "displayid": "20405"
-    },
-    {
-      "id": 22753,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Sentinel's Lamellar Legguards",
-      "path": "inv_pants_plate_15",
-      "stats": {
-        "str": 21,
-        "sta": 21,
-        "crit_rate": 14,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 645
-      },
-      "displayid": "23663"
-    },
-    {
       "id": 22873,
       "classId": 4,
       "subclassId": 4,
@@ -82021,23 +69904,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 618
       },
       "displayid": "27275"
-    },
-    {
-      "id": 23173,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 20,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Abomination Skin Leggings",
-      "path": "inv_pants_06",
-      "displayid": 28648,
-      "stats": {
-        "sta": 7,
-        "int": 8,
-        "armor": 37
-      }
     },
     {
       "id": 23301,
@@ -82220,42 +70086,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 237815,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Sentinel's Silk Leggings",
-      "path": "inv_pants_cloth_05",
-      "displayid": 20405,
-      "stats": {
-        "sta": 39,
-        "int": 10,
-        "crit_rate": 28,
-        "armor": 204
-      }
-    },
-    {
-      "id": 237817,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Sentinel's Lizardhide Pants",
-      "path": "inv_pants_06",
-      "displayid": 8389,
-      "stats": {
-        "sta": 39,
-        "int": 10,
-        "crit_rate": 28,
-        "armor": 301
-      }
-    },
-    {
       "id": 237818,
       "classId": 4,
       "subclassId": 2,
@@ -82290,42 +70120,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "hit_rate": 10,
         "crit_rate": 28,
         "armor": 432
-      }
-    },
-    {
-      "id": 237820,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Outrider's Silk Leggings",
-      "path": "inv_pants_cloth_05",
-      "displayid": 20405,
-      "stats": {
-        "sta": 39,
-        "int": 10,
-        "crit_rate": 28,
-        "armor": 204
-      }
-    },
-    {
-      "id": 237821,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Outrider's Lizardhide Pants",
-      "path": "inv_pants_06",
-      "displayid": 8389,
-      "stats": {
-        "sta": 39,
-        "int": 10,
-        "crit_rate": 28,
-        "armor": 301
       }
     },
     {
@@ -82464,32 +70258,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 250484,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 26,
-      "name": "Sterling Silver Leggings",
-      "stats": {
-        "str": 3,
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 162
-      },
-      "displayid": "712958"
-    },
-    {
       "id": 250493,
       "classId": 4,
       "subclassId": 3,
@@ -82524,45 +70292,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712819"
     },
     {
-      "id": 250495,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Protector's Chain Leggings",
-      "stats": {
-        "sta": 9,
-        "defense": 7,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 175
-      },
-      "displayid": "712825"
-    },
-    {
       "id": 250496,
       "classId": 4,
       "subclassId": 3,
       "slot": 7,
-      "requires": 0,
+      "requires": 20,
       "quality": 3,
       "ilvl": 25,
       "name": "Acolyte's Chain Leggings",
       "path": "inv_pants_mail_17",
+      "displayid": 712757,
       "stats": {
         "sta": 5,
         "int": 7,
-        "dmg_done": [
+        "armor": 176,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -82571,36 +70315,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 175
-      },
-      "displayid": "712757"
-    },
-    {
-      "id": 250497,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Crusader's Chain Leggings",
-      "stats": {
-        "str": 5,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 175
-      },
-      "displayid": "712814"
+        ]
+      }
     },
     {
       "id": 250523,
@@ -82637,44 +70353,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712819"
     },
     {
-      "id": 250525,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Protector's Silvered Chain Leggings",
-      "stats": {
-        "sta": 11,
-        "defense": 8,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 190
-      },
-      "displayid": "712825"
-    },
-    {
       "id": 250526,
       "classId": 4,
       "subclassId": 3,
       "slot": 7,
-      "requires": 0,
+      "requires": 25,
       "quality": 3,
       "ilvl": 30,
       "name": "Acolyte's Silvered Chain Leggings",
+      "path": "inv_pants_mail_10",
+      "displayid": 712757,
       "stats": {
         "sta": 7,
         "int": 8,
-        "dmg_done": [
+        "armor": 191,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -82683,179 +70376,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 190
-      },
-      "displayid": "712757"
-    },
-    {
-      "id": 250527,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Crusader's Silvered Chain Leggings",
-      "stats": {
-        "str": 7,
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 190
-      },
-      "displayid": "712814"
-    },
-    {
-      "id": 250536,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 38,
-      "name": "Hard Gold Leggings",
-      "stats": {
-        "str": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 195
-      },
-      "displayid": "712843"
-    },
-    {
-      "id": 250544,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 49,
-      "name": "Shining Mithril Pants",
-      "stats": {
-        "str": 14,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 412
-      },
-      "displayid": "712973"
-    },
-    {
-      "id": 250591,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Blessed Plate Leggings",
-      "path": "inv_pants_plate_04",
-      "stats": {
-        "str": 7,
-        "sta": 20,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 490
-      },
-      "displayid": "712926"
-    },
-    {
-      "id": 250596,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Enriched Thorium Leggings",
-      "stats": {
-        "sta": 26,
-        "defense": 9,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 574
-      },
-      "displayid": "712934"
-    },
-    {
-      "id": 250598,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 61,
-      "name": "Champion's Legplates",
-      "stats": {
-        "str": 18,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          38,
-          38,
-          38,
-          38,
-          38,
-          38
-        ],
-        "armor": 608
-      },
-      "displayid": "741548"
+        ]
+      }
     },
     {
       "id": 250600,
       "classId": 4,
       "subclassId": 4,
       "slot": 7,
-      "requires": 0,
+      "requires": 56,
       "quality": 4,
       "ilvl": 61,
       "name": "Martyr's Legplates",
+      "path": "inv_pants_plate_21",
+      "displayid": 712945,
       "stats": {
-        "spi": 18,
         "int": 14,
-        "dmg_done": [
+        "spi": 18,
+        "armor": 608,
+        "dmg_done_mod": [
           0,
           0,
           25,
@@ -82864,10 +70403,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           25,
           25,
           25
-        ],
-        "armor": 608
-      },
-      "displayid": "712945"
+        ]
+      }
     },
     {
       "id": 252445,
@@ -82887,33 +70424,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714403"
     },
     {
-      "id": 252446,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Totemic Leather Pants",
-      "stats": {
-        "str": 9,
-        "sta": 4,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 82
-      },
-      "displayid": "714555"
-    },
-    {
       "id": 252457,
       "classId": 4,
       "subclassId": 2,
@@ -82931,33 +70441,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714402"
     },
     {
-      "id": 252458,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Totemic Leather Leggings",
-      "stats": {
-        "str": 9,
-        "sta": 7,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 90
-      },
-      "displayid": "714554"
-    },
-    {
       "id": 252478,
       "classId": 4,
       "subclassId": 2,
@@ -82973,32 +70456,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 127
       },
       "displayid": "746819"
-    },
-    {
-      "id": 252486,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 61,
-      "name": "Ironfeather Leggings",
-      "stats": {
-        "int": 18,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          38,
-          38,
-          38,
-          38,
-          38,
-          38
-        ],
-        "armor": 163
-      },
-      "displayid": "714420"
     },
     {
       "id": 252500,
@@ -83037,46 +70494,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714562"
     },
     {
-      "id": 252502,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Stormrider's Leather Pants",
-      "stats": {
-        "sta": 4,
-        "spi": 4,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 82
-      },
-      "displayid": "714526"
-    },
-    {
       "id": 252503,
       "classId": 4,
       "subclassId": 2,
       "slot": 7,
-      "requires": 0,
+      "requires": 20,
       "quality": 3,
       "ilvl": 25,
       "name": "Wisdom's Leather Pants",
+      "path": "inv_pants_06",
+      "displayid": 714588,
       "stats": {
         "sta": 4,
-        "spi": 4,
         "int": 6,
-        "dmg_done": [
+        "spi": 4,
+        "armor": 82,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -83085,10 +70518,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 82
-      },
-      "displayid": "714588"
+        ]
+      }
     },
     {
       "id": 252516,
@@ -83149,15 +70580,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 7,
-      "requires": 0,
+      "requires": 25,
       "quality": 3,
       "ilvl": 30,
       "name": "Wisdom's Leather Leggings",
+      "path": "inv_pants_02",
+      "displayid": 714590,
       "stats": {
         "sta": 6,
-        "spi": 7,
         "int": 7,
-        "dmg_done": [
+        "spi": 7,
+        "armor": 90,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -83166,101 +70600,24 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 90
-      },
-      "displayid": "714590"
-    },
-    {
-      "id": 252560,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Tooled Leather Pants",
-      "stats": {
-        "sta": 7,
-        "spi": 17,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 136
-      },
-      "displayid": "714549"
-    },
-    {
-      "id": 252580,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 53,
-      "name": "Supple Scorpid Leggings",
-      "stats": {
-        "str": 10,
-        "sta": 16,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 252
-      },
-      "displayid": "744348"
-    },
-    {
-      "id": 252600,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 59,
-      "name": "Charged Scorpid Leggings",
-      "stats": {
-        "spi": 9,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "armor": 277
-      },
-      "displayid": "714392"
+        ]
+      }
     },
     {
       "id": 252603,
       "classId": 4,
       "subclassId": 3,
       "slot": 7,
-      "requires": 0,
+      "requires": 56,
       "quality": 4,
       "ilvl": 61,
       "name": "Red Dragonscale Leggings",
+      "path": "inv_pants_mail_09",
+      "displayid": 714475,
       "stats": {
-        "int": 31,
-        "dmg_done": [
+        "int": 32,
+        "armor": 344,
+        "dmg_done_mod": [
           0,
           0,
           20,
@@ -83269,51 +70626,26 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           20,
           20,
           20
-        ],
-        "armor": 343
-      },
-      "displayid": "714475"
-    },
-    {
-      "id": 252606,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 7,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 61,
-      "name": "Pristine Scorpid Leggings",
-      "stats": {
-        "str": 18,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          33,
-          33,
-          33,
-          33,
-          33,
-          33
-        ],
-        "armor": 343
-      },
-      "displayid": "714465"
+        ]
+      }
     },
     {
       "id": 253937,
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 20,
       "quality": 3,
       "ilvl": 25,
       "name": "Filigreed Pristine Leggings",
+      "path": "inv_pants_01",
+      "displayid": 715248,
       "stats": {
         "sta": 5,
-        "spi": 4,
         "int": 6,
-        "dmg_done": [
+        "spi": 4,
+        "armor": 37,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -83322,10 +70654,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 37
-      },
-      "displayid": "715248"
+        ]
+      }
     },
     {
       "id": 253939,
@@ -83417,15 +70747,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 25,
       "quality": 3,
       "ilvl": 30,
       "name": "Pristine Leggings",
+      "path": "inv_pants_01",
+      "displayid": 715248,
       "stats": {
         "sta": 7,
-        "spi": 5,
         "int": 7,
-        "dmg_done": [
+        "spi": 5,
+        "armor": 41,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -83434,10 +70767,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 41
-      },
-      "displayid": "715248"
+        ]
+      }
     },
     {
       "id": 253989,
@@ -83529,13 +70860,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 30,
       "quality": 2,
       "ilvl": 35,
       "name": "Earthen Leggings",
+      "path": "inv_pants_09",
+      "displayid": 715294,
       "stats": {
         "spi": 11,
-        "dmg_done": [
+        "armor": 41,
+        "dmg_done_mod": [
           0,
           0,
           5,
@@ -83544,23 +70878,24 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5,
           5
-        ],
-        "armor": 40
-      },
-      "displayid": "715294"
+        ]
+      }
     },
     {
       "id": 254125,
       "classId": 4,
       "subclassId": 1,
       "slot": 7,
-      "requires": 0,
+      "requires": 53,
       "quality": 2,
       "ilvl": 58,
       "name": "Earthenweave Leggings",
+      "path": "inv_pants_06",
+      "displayid": 715304,
       "stats": {
         "spi": 16,
-        "dmg_done": [
+        "armor": 66,
+        "dmg_done_mod": [
           0,
           0,
           13,
@@ -83569,10 +70904,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13,
           13,
           13
-        ],
-        "armor": 65
-      },
-      "displayid": "715304"
+        ]
+      }
     },
     {
       "id": 257342,
@@ -83638,30 +70971,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 263307,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 11,
-      "name": "Shadowgale Pants",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 18
-      },
-      "displayid": "736778"
-    },
-    {
       "id": 263330,
       "classId": 4,
       "subclassId": 2,
@@ -83692,32 +71001,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "736777"
     },
     {
-      "id": 270011,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Embroidered Leggings",
-      "path": "inv_pants_06",
-      "stats": {
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 30
-      },
-      "displayid": "4310"
-    },
-    {
       "id": 270014,
       "classId": 4,
       "subclassId": 2,
@@ -83733,22 +71016,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 67
       },
       "displayid": "15673"
-    },
-    {
-      "id": 270016,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 15,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Dreamer's Leggings",
-      "path": "inv_pants_06",
-      "displayid": 15673,
-      "stats": {
-        "int": 11,
-        "armor": 78
-      }
     },
     {
       "id": 270020,
@@ -83768,38 +71035,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "2018"
     },
     {
-      "id": 270031,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 18,
-      "quality": 3,
-      "ilvl": 29,
-      "name": "Dark Ritual Leggings",
-      "path": "inv_pants_02",
-      "displayid": 691,
-      "stats": {
-        "sta": 9,
-        "armor": 88
-      }
-    },
-    {
-      "id": 270036,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 29,
-      "name": "Magistrate's Pantaloons",
-      "path": "inv_pants_14",
-      "displayid": 27755,
-      "stats": {
-        "int": 14,
-        "armor": 41
-      }
-    },
-    {
       "id": 270037,
       "classId": 4,
       "subclassId": 2,
@@ -83815,33 +71050,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 79
       },
       "displayid": "691"
-    },
-    {
-      "id": 270056,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Stromgarde Librarian Leggings",
-      "path": "inv_pants_07",
-      "stats": {
-        "sta": 6,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 42
-      },
-      "displayid": "25280"
     },
     {
       "id": 270057,
@@ -83912,32 +71120,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 100
       },
       "displayid": "6865"
-    },
-    {
-      "id": 270090,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 44,
-      "name": "Beggar's Leggings",
-      "path": "inv_pants_13",
-      "stats": {
-        "spi": 12,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 50
-      },
-      "displayid": "5874"
     },
     {
       "id": 270097,
@@ -84336,48 +71518,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 274657,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 43,
-      "quality": 3,
-      "ilvl": 48,
-      "name": "Hydra Leather Legs",
-      "path": "inv_pants_13",
-      "displayid": 22426,
-      "stats": {
-        "sta": 11,
-        "spi": 12,
-        "armor": 124
-      }
-    },
-    {
-      "id": 274741,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Rumpled Kilt",
-      "stats": {
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 33
-      },
-      "displayid": "739979"
-    },
-    {
       "id": 274939,
       "classId": 4,
       "subclassId": 3,
@@ -84452,31 +71592,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ]
-      }
-    },
-    {
-      "id": 275721,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Rocketeer Leggings",
-      "path": "inv_pants_12",
-      "displayid": 5479,
-      "stats": {
-        "armor": 131,
-        "resistance": [
-          0,
-          0,
-          0,
-          12,
-          0,
-          0,
-          0,
-          0
         ]
       }
     },
@@ -84825,15 +71940,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 2,
       "slot": 7,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Elderwild Pants",
       "path": "inv_pants_cloth_08",
+      "displayid": 741864,
       "stats": {
         "sta": 27,
         "spi": 24,
-        "dmg_done": [
+        "armor": 173,
+        "dmg_done_mod": [
           0,
           0,
           13,
@@ -84842,10 +71959,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           13,
           13,
           13
-        ],
-        "armor": 172
-      },
-      "displayid": "741864"
+        ]
+      }
     },
     {
       "id": 279265,
@@ -85130,23 +72245,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 284261,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 7,
-      "requires": 56,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Magically Fortified Legguards",
-      "path": "inv_pants_08",
-      "displayid": 11079,
-      "stats": {
-        "sta": 27,
-        "defense": 6,
-        "armor": 557
-      }
-    },
-    {
       "id": 284272,
       "classId": 4,
       "subclassId": 2,
@@ -85185,23 +72283,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "armor": 113
-      }
-    },
-    {
-      "id": 285338,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 7,
-      "requires": 24,
-      "quality": 3,
-      "ilvl": 29,
-      "name": "Kodohide Legguards",
-      "path": "inv_pants_12",
-      "displayid": 13331,
-      "stats": {
-        "str": 4,
-        "int": 11,
-        "armor": 88
       }
     },
     {
@@ -85595,32 +72676,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "9512"
     },
     {
-      "id": 2309,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Embossed Leather Boots",
-      "path": "inv_boots_05",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 47
-      },
-      "displayid": "5853"
-    },
-    {
       "id": 2315,
       "classId": 4,
       "subclassId": 2,
@@ -85651,33 +72706,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 16
       },
       "displayid": "15682"
-    },
-    {
-      "id": 2583,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 19,
-      "name": "Woolen Boots",
-      "path": "inv_boots_09",
-      "stats": {
-        "spi": 2,
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 22
-      },
-      "displayid": "5380"
     },
     {
       "id": 2910,
@@ -86139,137 +73167,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "740250"
     },
     {
-      "id": 4312,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 16,
-      "name": "Soft-soled Linen Boots",
-      "path": "inv_boots_09",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 19
-      },
-      "displayid": "5840"
-    },
-    {
-      "id": 4313,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Red Woolen Boots",
-      "path": "inv_boots_09",
-      "stats": {
-        "spi": 5,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 23
-      },
-      "displayid": "4615"
-    },
-    {
-      "id": 4320,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 25,
-      "name": "Spidersilk Boots",
-      "path": "inv_boots_05",
-      "stats": {
-        "sta": 4,
-        "int": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 29
-      },
-      "displayid": "4301"
-    },
-    {
-      "id": 4321,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 28,
-      "name": "Spider Silk Slippers",
-      "path": "inv_boots_03",
-      "stats": {
-        "spi": 7,
-        "dmg_done": [
-          0,
-          0,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "armor": 28
-      },
-      "displayid": "4466"
-    },
-    {
-      "id": 4325,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Boots of the Enchanter",
-      "path": "inv_boots_05",
-      "stats": {
-        "spi": 8,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 31
-      },
-      "displayid": "4631"
-    },
-    {
       "id": 4464,
       "classId": 4,
       "subclassId": 3,
@@ -86351,33 +73248,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 51
       },
       "displayid": "4487"
-    },
-    {
-      "id": 5311,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Buckled Boots",
-      "path": "inv_boots_03",
-      "stats": {
-        "sta": 4,
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 54
-      },
-      "displayid": "7537"
     },
     {
       "id": 5320,
@@ -86680,33 +73550,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 25
       },
       "displayid": "11999"
-    },
-    {
-      "id": 6482,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 24,
-      "name": "Firewalker Boots",
-      "path": "inv_boots_05",
-      "stats": {
-        "spi": 5,
-        "int": 1,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 26
-      },
-      "displayid": "9173"
     },
     {
       "id": 6537,
@@ -87587,33 +74430,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 9454,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 27,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Acidic Walkers",
-      "path": "inv_boots_05",
-      "displayid": 4623,
-      "stats": {
-        "int": 8,
-        "spi": 4,
-        "armor": 34,
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
       "id": 9510,
       "classId": 4,
       "subclassId": 3,
@@ -88084,32 +74900,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 10026,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 46,
-      "name": "Black Mageweave Boots",
-      "path": "inv_boots_05",
-      "stats": {
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 41
-      },
-      "displayid": "21154"
-    },
-    {
       "id": 10031,
       "classId": 4,
       "subclassId": 1,
@@ -88130,14 +74920,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 45,
       "quality": 2,
       "ilvl": 50,
       "name": "Stormcloth Boots",
       "path": "inv_boots_05",
+      "displayid": 5875,
       "stats": {
         "sta": 10,
-        "dmg_done": [
+        "armor": 45,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -88146,10 +74938,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 44
-      },
-      "displayid": "5875"
+        ]
+      }
     },
     {
       "id": 10044,
@@ -88858,23 +75648,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 11822,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Omnicast Boots",
-      "path": "inv_boots_05",
-      "displayid": 28660,
-      "stats": {
-        "sta": 8,
-        "int": 12,
-        "armor": 58
-      }
-    },
-    {
       "id": 11853,
       "classId": 4,
       "subclassId": 2,
@@ -89214,24 +75987,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 13101,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Wolfrunner Shoes",
-      "path": "inv_boots_05",
-      "displayid": 28597,
-      "stats": {
-        "sta": 11,
-        "int": 11,
-        "spi": 11,
-        "armor": 58
-      }
-    },
-    {
       "id": 13111,
       "classId": 4,
       "subclassId": 2,
@@ -89301,32 +76056,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "int": 10,
         "armor": 240
       }
-    },
-    {
-      "id": 13864,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 56,
-      "name": "Runecloth Boots",
-      "path": "inv_boots_05",
-      "stats": {
-        "spi": 14,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 49
-      },
-      "displayid": "25233"
     },
     {
       "id": 14108,
@@ -90457,32 +77186,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "5480"
     },
     {
-      "id": 15104,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Wingborne Boots",
-      "path": "inv_boots_07",
-      "stats": {
-        "spi": 10,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 35
-      },
-      "displayid": "14660"
-    },
-    {
       "id": 15111,
       "classId": 4,
       "subclassId": 2,
@@ -91141,15 +77844,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 51,
       "quality": 3,
       "ilvl": 56,
       "name": "Mooncloth Boots",
       "path": "inv_boots_05",
+      "displayid": 9675,
       "stats": {
-        "spi": 13,
         "int": 14,
-        "dmg_done": [
+        "spi": 13,
+        "armor": 55,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -91158,10 +77863,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 54
-      },
-      "displayid": "9675"
+        ]
+      }
     },
     {
       "id": 16405,
@@ -91238,23 +77941,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30370"
     },
     {
-      "id": 16670,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Boots of Elements",
-      "path": "inv_boots_wolf",
-      "displayid": 31412,
-      "stats": {
-        "agi": 9,
-        "spi": 17,
-        "armor": 240
-      }
-    },
-    {
       "id": 16675,
       "classId": 4,
       "subclassId": 3,
@@ -91270,24 +77956,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 9,
         "int": 3,
         "armor": 240
-      }
-    },
-    {
-      "id": 16682,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Magister's Boots",
-      "path": "inv_boots_02",
-      "displayid": 29594,
-      "stats": {
-        "sta": 7,
-        "int": 14,
-        "spi": 14,
-        "armor": 58
       }
     },
     {
@@ -91316,24 +77984,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4
         ]
-      }
-    },
-    {
-      "id": 16704,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Dreadmist Sandals",
-      "path": "inv_boots_05",
-      "displayid": 29799,
-      "stats": {
-        "sta": 17,
-        "int": 7,
-        "spi": 10,
-        "armor": 58
       }
     },
     {
@@ -91658,42 +78308,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "31552"
     },
     {
-      "id": 19056,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Argent Boots",
-      "path": "inv_boots_cloth_03",
-      "stats": {
-        "sta": 21,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          4,
-          0
-        ],
-        "armor": 56
-      },
-      "displayid": "31557"
-    },
-    {
       "id": 19509,
       "classId": 4,
       "subclassId": 3,
@@ -91708,33 +78322,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 14,
         "armor": 270
       }
-    },
-    {
-      "id": 19684,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Bloodvine Boots",
-      "path": "inv_boots_cloth_02",
-      "stats": {
-        "int": 16,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 63
-      },
-      "displayid": "32156"
     },
     {
       "id": 19969,
@@ -91890,33 +78477,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "32641"
     },
     {
-      "id": 20054,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Highlander's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 16,
-        "int": 8,
-        "armor": 161,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ]
-      },
-      "displayid": "2496"
-    },
-    {
       "id": 20091,
       "classId": 4,
       "subclassId": 3,
@@ -91968,86 +78528,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 74
       },
       "displayid": "23354"
-    },
-    {
-      "id": 20094,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Highlander's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 13,
-        "int": 6,
-        "armor": 132,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ]
-      },
-      "displayid": "2496"
-    },
-    {
-      "id": 20095,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Highlander's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 10,
-        "int": 3,
-        "armor": 102,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ]
-      },
-      "displayid": "2496"
-    },
-    {
-      "id": 20096,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Highlander's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 8,
-        "armor": 84,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ]
-      },
-      "displayid": "2496"
     },
     {
       "id": 20100,
@@ -92396,113 +78876,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 74
       },
       "displayid": "23354"
-    },
-    {
-      "id": 20159,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Defiler's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 16,
-        "int": 8,
-        "armor": 161,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ]
-      },
-      "displayid": "2496"
-    },
-    {
-      "id": 20160,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Defiler's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 13,
-        "int": 6,
-        "armor": 132,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ]
-      },
-      "displayid": "2496"
-    },
-    {
-      "id": 20161,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Defiler's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 10,
-        "int": 3,
-        "armor": 102,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ]
-      },
-      "displayid": "2496"
-    },
-    {
-      "id": 20162,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Defiler's Cloth Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 8,
-        "armor": 84,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ]
-      },
-      "displayid": "2496"
     },
     {
       "id": 20167,
@@ -92902,32 +79275,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "5871"
     },
     {
-      "id": 20641,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Southsea Mojo Boots",
-      "path": "inv_boots_05",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 40
-      },
-      "displayid": "5871"
-    },
-    {
       "id": 20710,
       "classId": 4,
       "subclassId": 4,
@@ -92949,16 +79296,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 4,
       "slot": 8,
-      "requires": 0,
+      "requires": 58,
       "quality": 3,
       "ilvl": 63,
       "name": "Crystal Lined Greaves",
       "path": "inv_boots_plate_02",
+      "displayid": 24782,
       "stats": {
         "str": 12,
         "sta": 12,
         "int": 12,
-        "dmg_done": [
+        "armor": 452,
+        "dmg_done_mod": [
           0,
           0,
           5,
@@ -92967,37 +79316,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           5,
           5,
           5
-        ],
-        "armor": 451
-      },
-      "displayid": "24782"
-    },
-    {
-      "id": 20714,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Sandstorm Boots",
-      "path": "inv_boots_08",
-      "stats": {
-        "sta": 12,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 121
-      },
-      "displayid": "18958"
+        ]
+      }
     },
     {
       "id": 20715,
@@ -93065,33 +79385,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "28627"
     },
     {
-      "id": 21600,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 81,
-      "name": "Boots of Epiphany",
-      "path": "inv_boots_cloth_05",
-      "stats": {
-        "sta": 18,
-        "int": 19,
-        "dmg_done": [
-          0,
-          0,
-          34,
-          34,
-          34,
-          34,
-          34,
-          34
-        ],
-        "armor": 84
-      },
-      "displayid": "34195"
-    },
-    {
       "id": 21645,
       "classId": 4,
       "subclassId": 2,
@@ -93108,43 +79401,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 216
       },
       "displayid": "34259"
-    },
-    {
-      "id": 21648,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 76,
-      "name": "Recomposed Boots",
-      "path": "inv_boots_cloth_07",
-      "stats": {
-        "sta": 21,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          20,
-          0,
-          0,
-          0
-        ],
-        "armor": 79
-      },
-      "displayid": "25281"
     },
     {
       "id": 21995,
@@ -93199,195 +79455,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34648"
     },
     {
-      "id": 22064,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Sorcerer's Boots",
-      "path": "inv_boots_02",
-      "stats": {
-        "sta": 14,
-        "spi": 10,
-        "int": 16,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 63
-      },
-      "displayid": "34782"
-    },
-    {
-      "id": 22076,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Deathmist Sandals",
-      "path": "inv_boots_05",
-      "stats": {
-        "sta": 24,
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 63
-      },
-      "displayid": "34626"
-    },
-    {
-      "id": 22084,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Virtuous Sandals",
-      "path": "inv_boots_05",
-      "stats": {
-        "sta": 12,
-        "spi": 12,
-        "int": 13,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 63
-      },
-      "displayid": "34634"
-    },
-    {
-      "id": 22087,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Soulforge Boots",
-      "path": "inv_boots_plate_03",
-      "stats": {
-        "str": 12,
-        "sta": 13,
-        "spi": 10,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 470
-      },
-      "displayid": "34521"
-    },
-    {
-      "id": 22096,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Boots of The Five Thunders",
-      "path": "inv_boots_wolf",
-      "stats": {
-        "str": 12,
-        "sta": 13,
-        "spi": 10,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 265
-      },
-      "displayid": "34692"
-    },
-    {
-      "id": 22107,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Feralheart Boots",
-      "path": "inv_boots_08",
-      "stats": {
-        "agi": 7,
-        "str": 12,
-        "sta": 13,
-        "spi": 10,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 126
-      },
-      "displayid": "34638"
-    },
-    {
-      "id": 22240,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 48,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Greaves of Withering Despair",
-      "path": "inv_boots_chain_04",
-      "displayid": 30557,
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "hit_rate": 10,
-        "armor": 218
-      }
-    },
-    {
       "id": 22430,
       "classId": 4,
       "subclassId": 4,
@@ -93439,35 +79506,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 170
       },
       "displayid": "35173"
-    },
-    {
-      "id": 22500,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 86,
-      "name": "Frostfire Sandals",
-      "path": "inv_boots_fabric_01",
-      "stats": {
-        "sta": 17,
-        "spi": 10,
-        "int": 18,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ],
-        "armor": 89
-      },
-      "displayid": "35525"
     },
     {
       "id": 22516,
@@ -93806,13 +79844,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 8,
-      "requires": 0,
+      "requires": 10,
       "quality": 3,
       "ilvl": 15,
       "name": "Glowing Copper Boots",
+      "path": "inv_boots_01",
+      "displayid": 4343,
       "stats": {
         "int": 4,
-        "dmg_done": [
+        "armor": 109,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -93821,36 +79862,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 108
-      },
-      "displayid": "4343"
-    },
-    {
-      "id": 250483,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Sterling Silver Boots",
-      "stats": {
-        "str": 3,
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 125
-      },
-      "displayid": "4343"
+        ]
+      }
     },
     {
       "id": 250503,
@@ -93887,44 +79900,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712848"
     },
     {
-      "id": 250505,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Protector's Boots",
-      "stats": {
-        "sta": 5,
-        "defense": 4,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 131
-      },
-      "displayid": "712849"
-    },
-    {
       "id": 250506,
       "classId": 4,
       "subclassId": 3,
       "slot": 8,
-      "requires": 0,
+      "requires": 17,
       "quality": 3,
       "ilvl": 22,
       "name": "Acolyte's Boots",
+      "path": "inv_boots_chain_02",
+      "displayid": 712845,
       "stats": {
         "sta": 4,
         "int": 5,
-        "dmg_done": [
+        "armor": 131,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -93933,86 +79923,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 131
-      },
-      "displayid": "712845"
-    },
-    {
-      "id": 250507,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Crusader's Boots",
-      "stats": {
-        "str": 4,
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 131
-      },
-      "displayid": "712847"
-    },
-    {
-      "id": 250534,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Hard Gold Boots",
-      "stats": {
-        "str": 7,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 146
-      },
-      "displayid": "712844"
-    },
-    {
-      "id": 250542,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 45,
-      "name": "Shining Mithril Boots",
-      "stats": {
-        "str": 9,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 300
-      },
-      "displayid": "744501"
+        ]
+      }
     },
     {
       "id": 250546,
@@ -94049,44 +79961,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "745168"
     },
     {
-      "id": 250548,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Warder's Boots",
-      "stats": {
-        "sta": 13,
-        "defense": 9,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 330
-      },
-      "displayid": "745165"
-    },
-    {
       "id": 250549,
       "classId": 4,
       "subclassId": 4,
       "slot": 8,
-      "requires": 0,
+      "requires": 40,
       "quality": 3,
       "ilvl": 45,
       "name": "Prefect's Boots",
+      "path": "inv_boots_plate_19v3",
+      "displayid": 745167,
       "stats": {
         "sta": 7,
         "int": 9,
-        "dmg_done": [
+        "armor": 330,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -94095,36 +79984,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 330
-      },
-      "displayid": "745167"
-    },
-    {
-      "id": 250550,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Justicar's Boots",
-      "stats": {
-        "str": 7,
-        "sta": 9,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 330
-      },
-      "displayid": "745164"
+        ]
+      }
     },
     {
       "id": 250561,
@@ -94161,44 +80022,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "745162"
     },
     {
-      "id": 250563,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Warder's Sabatons",
-      "stats": {
-        "sta": 13,
-        "defense": 9,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 376
-      },
-      "displayid": "745157"
-    },
-    {
       "id": 250564,
       "classId": 4,
       "subclassId": 4,
       "slot": 8,
-      "requires": 0,
+      "requires": 47,
       "quality": 3,
       "ilvl": 52,
       "name": "Prefect's Sabatons",
+      "path": "inv_boots_plate_19v3",
+      "displayid": 745161,
       "stats": {
         "sta": 12,
         "int": 9,
-        "dmg_done": [
+        "armor": 376,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -94207,63 +80045,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 376
-      },
-      "displayid": "745161"
-    },
-    {
-      "id": 250565,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Justicar's Sabatons",
-      "stats": {
-        "str": 9,
-        "sta": 12,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 376
-      },
-      "displayid": "745159"
-    },
-    {
-      "id": 250587,
-      "classId": 4,
-      "subclassId": 4,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Blessed Plate Boots",
-      "path": "inv_boots_plate_03",
-      "stats": {
-        "str": 13,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 341
-      },
-      "displayid": "743475"
+        ]
+      }
     },
     {
       "id": 250620,
@@ -94282,42 +80065,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "712956"
     },
     {
-      "id": 250621,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 15,
-      "name": "Strange Copper Boots",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 108
-      },
-      "displayid": "11408"
-    },
-    {
       "id": 252424,
       "classId": 4,
       "subclassId": 2,
       "slot": 8,
-      "requires": 0,
+      "requires": 10,
       "quality": 3,
       "ilvl": 15,
       "name": "Black Whelp Slippers",
+      "path": "inv_boots_leather_05red",
+      "displayid": 714356,
       "stats": {
         "int": 4,
-        "dmg_done": [
+        "armor": 53,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -94326,10 +80087,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 52
-      },
-      "displayid": "714356"
+        ]
+      }
     },
     {
       "id": 252425,
@@ -94362,31 +80121,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 52
       },
       "displayid": "745803"
-    },
-    {
-      "id": 252427,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 15,
-      "name": "Moonglow Boots",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 52
-      },
-      "displayid": "714463"
     },
     {
       "id": 252439,
@@ -94439,70 +80173,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714400"
     },
     {
-      "id": 252442,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Totemic Leather Boots",
-      "stats": {
-        "str": 5,
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 61
-      },
-      "displayid": "714552"
-    },
-    {
-      "id": 252443,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Stormrider's Leather Boots",
-      "stats": {
-        "sta": 4,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 61
-      },
-      "displayid": "714523"
-    },
-    {
       "id": 252444,
       "classId": 4,
       "subclassId": 2,
       "slot": 8,
-      "requires": 0,
+      "requires": 17,
       "quality": 3,
       "ilvl": 22,
       "name": "Wisdom's Leather Boots",
+      "path": "inv_boots_chain_03",
+      "displayid": 714585,
       "stats": {
         "sta": 4,
         "int": 5,
-        "dmg_done": [
+        "armor": 61,
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -94511,35 +80196,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 61
-      },
-      "displayid": "714585"
-    },
-    {
-      "id": 252449,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 27,
-      "name": "Hillman's Leather Boots",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 61
-      },
-      "displayid": "714419"
+        ]
+      }
     },
     {
       "id": 252465,
@@ -94644,44 +80302,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714575"
     },
     {
-      "id": 252471,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Skycaller's Leather Boots",
-      "stats": {
-        "sta": 9,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 103
-      },
-      "displayid": "714496"
-    },
-    {
       "id": 252472,
       "classId": 4,
       "subclassId": 2,
       "slot": 8,
-      "requires": 0,
+      "requires": 47,
       "quality": 3,
       "ilvl": 52,
       "name": "Mender's Leather Boots",
+      "path": "inv_boots_cloth_03",
+      "displayid": 714447,
       "stats": {
         "sta": 9,
         "int": 11,
-        "dmg_done": [
+        "armor": 104,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -94690,10 +80325,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 103
-      },
-      "displayid": "714447"
+        ]
+      }
     },
     {
       "id": 252479,
@@ -94730,46 +80363,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714491"
     },
     {
-      "id": 252532,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Skycaller's Leather Shoes",
-      "stats": {
-        "sta": 7,
-        "spi": 5,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 91
-      },
-      "displayid": "714500"
-    },
-    {
       "id": 252533,
       "classId": 4,
       "subclassId": 2,
       "slot": 8,
-      "requires": 0,
+      "requires": 40,
       "quality": 3,
       "ilvl": 45,
       "name": "Mender's Leather Shoes",
+      "path": "inv_boots_cloth_14",
+      "displayid": 714452,
       "stats": {
         "sta": 5,
-        "spi": 7,
         "int": 7,
-        "dmg_done": [
+        "spi": 7,
+        "armor": 92,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -94778,36 +80387,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 91
-      },
-      "displayid": "714452"
-    },
-    {
-      "id": 252545,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 53,
-      "name": "Tooled Leather Boots",
-      "stats": {
-        "spi": 8,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 95
-      },
-      "displayid": "714546"
+        ]
+      }
     },
     {
       "id": 252562,
@@ -94828,74 +80409,22 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714505"
     },
     {
-      "id": 252563,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Skycaller's Mail Boots",
-      "stats": {
-        "sta": 7,
-        "spi": 5,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 187
-      },
-      "displayid": "714505"
-    },
-    {
-      "id": 252564,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Skirmisher's Mail Boots",
-      "path": "inv_boots_chain_04",
-      "stats": {
-        "str": 11,
-        "sta": 7,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 187
-      },
-      "displayid": "746246"
-    },
-    {
       "id": 252565,
       "classId": 4,
       "subclassId": 3,
       "slot": 8,
-      "requires": 0,
+      "requires": 40,
       "quality": 3,
       "ilvl": 45,
       "name": "Mender's Mail Boots",
+      "path": "inv_boots_chain_05",
+      "displayid": 745811,
       "stats": {
         "sta": 5,
-        "spi": 7,
         "int": 7,
-        "dmg_done": [
+        "spi": 7,
+        "armor": 188,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -94904,36 +80433,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 187
-      },
-      "displayid": "745811"
-    },
-    {
-      "id": 252574,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Supple Scorpid Boots",
-      "stats": {
-        "str": 8,
-        "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 191
-      },
-      "displayid": "714535"
+        ]
+      }
     },
     {
       "id": 252576,
@@ -94953,70 +80454,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714512"
     },
     {
-      "id": 252577,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Skycaller's Mail Sabatons",
-      "stats": {
-        "sta": 9,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 214
-      },
-      "displayid": "714512"
-    },
-    {
-      "id": 252578,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 52,
-      "name": "Skirmisher's Mail Sabatons",
-      "stats": {
-        "str": 13,
-        "sta": 9,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 214
-      },
-      "displayid": "714485"
-    },
-    {
       "id": 252579,
       "classId": 4,
       "subclassId": 3,
       "slot": 8,
-      "requires": 0,
+      "requires": 47,
       "quality": 3,
       "ilvl": 52,
       "name": "Mender's Mail Sabatons",
+      "path": "inv_boots_chain_02",
+      "displayid": 746836,
       "stats": {
         "sta": 9,
         "int": 11,
-        "dmg_done": [
+        "armor": 214,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -95025,10 +80477,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 214
-      },
-      "displayid": "746836"
+        ]
+      }
     },
     {
       "id": 252594,
@@ -95047,70 +80497,21 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "714418"
     },
     {
-      "id": 252601,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Supple Scorpid Sabatons",
-      "stats": {
-        "str": 7,
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 224
-      },
-      "displayid": "714532"
-    },
-    {
-      "id": 252602,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 61,
-      "name": "Charged Scorpid Boots",
-      "stats": {
-        "spi": 9,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 224
-      },
-      "displayid": "714389"
-    },
-    {
       "id": 253889,
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 12,
       "quality": 3,
       "ilvl": 17,
       "name": "Pristine Boots",
+      "path": "inv_boots_cloth_03",
+      "displayid": 747019,
       "stats": {
         "sta": 4,
         "int": 3,
-        "dmg_done": [
+        "armor": 23,
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -95119,10 +80520,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 22
-      },
-      "displayid": "747019"
+        ]
+      }
     },
     {
       "id": 253891,
@@ -95209,15 +80608,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 30,
       "quality": 3,
       "ilvl": 35,
       "name": "Gilded Slippers",
+      "path": "inv_boots_cloth_08",
+      "displayid": 715316,
       "stats": {
         "sta": 6,
-        "spi": 4,
         "int": 7,
-        "dmg_done": [
+        "spi": 4,
+        "armor": 35,
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -95226,10 +80628,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 35
-      },
-      "displayid": "715316"
+        ]
+      }
     },
     {
       "id": 254003,
@@ -95317,42 +80717,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "715379"
     },
     {
-      "id": 254013,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 36,
-      "name": "Earthen Silk Slippers",
-      "stats": {
-        "spi": 7,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 32
-      },
-      "displayid": "715298"
-    },
-    {
       "id": 254093,
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 49,
       "quality": 2,
       "ilvl": 54,
       "name": "Earthenweave Boots",
+      "path": "inv_boots_07",
+      "displayid": 715307,
       "stats": {
         "spi": 11,
-        "dmg_done": [
+        "armor": 48,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -95361,24 +80739,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 48
-      },
-      "displayid": "715307"
+        ]
+      }
     },
     {
       "id": 254107,
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 50,
       "quality": 3,
       "ilvl": 55,
       "name": "Gilded Sandals",
+      "path": "inv_boots_cloth_06",
+      "displayid": 715320,
       "stats": {
         "sta": 13,
         "int": 9,
-        "dmg_done": [
+        "armor": 54,
+        "dmg_done_mod": [
           0,
           0,
           11,
@@ -95387,10 +80766,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11,
           11,
           11
-        ],
-        "armor": 53
-      },
-      "displayid": "715320"
+        ]
+      }
     },
     {
       "id": 254109,
@@ -95473,31 +80850,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "715380"
     },
     {
-      "id": 254129,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Ghostweave Boots",
-      "stats": {
-        "spi": 13,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 53
-      },
-      "displayid": "715312"
-    },
-    {
       "id": 259890,
       "classId": 4,
       "subclassId": 1,
@@ -95531,32 +80883,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 94
       },
       "displayid": "717891"
-    },
-    {
-      "id": 260185,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Hippogryph Hide Boots",
-      "stats": {
-        "str": 17,
-        "sta": 9,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 225
-      },
-      "displayid": "718019"
     },
     {
       "id": 263308,
@@ -95606,31 +80932,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "736677"
     },
     {
-      "id": 263406,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Empyrean Shoes",
-      "stats": {
-        "spi": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 19
-      },
-      "displayid": "736665"
-    },
-    {
       "id": 269503,
       "classId": 4,
       "subclassId": 2,
@@ -95663,31 +80964,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 3,
         "armor": 48
       }
-    },
-    {
-      "id": 270006,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 17,
-      "name": "Boots of the People's Militia",
-      "path": "inv_boots_05",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 50
-      },
-      "displayid": "18145"
     },
     {
       "id": 270009,
@@ -96258,9 +81534,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 58,
       "name": "Tattered Sandals",
       "path": "inv_boots_fabric_01",
+      "displayid": 10295,
       "stats": {
         "int": 14,
-        "dmg_done": [
+        "armor": 52,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -96269,10 +81547,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 51
-      },
-      "displayid": "10295"
+        ]
+      }
     },
     {
       "id": 274747,
@@ -96291,32 +81567,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "739926"
     },
     {
-      "id": 274916,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Verger Greaves",
-      "path": "inv_boots_01",
-      "stats": {
-        "str": 8,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 158
-      },
-      "displayid": "15669"
-    },
-    {
       "id": 275438,
       "classId": 4,
       "subclassId": 4,
@@ -96326,9 +81576,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 58,
       "name": "Greaves of Mourning",
       "path": "inv_boots_plate_08",
+      "displayid": 740459,
       "stats": {
         "str": 13,
-        "dmg_done": [
+        "armor": 379,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -96337,67 +81589,23 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 379
-      },
-      "displayid": "740459"
-    },
-    {
-      "id": 275606,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Venomspew Footpads",
-      "stats": {
-        "spi": 8,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          8,
-          0,
-          0,
-          0
-        ],
-        "armor": 56
-      },
-      "displayid": "746830"
+        ]
+      }
     },
     {
       "id": 275609,
       "classId": 4,
       "subclassId": 1,
       "slot": 8,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Swarmtender's Footpads",
+      "path": "inv_boots_cloth_01",
+      "displayid": 746829,
       "stats": {
         "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
+        "armor": 57,
         "resistance": [
           0,
           0,
@@ -96408,44 +81616,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 56
-      },
-      "displayid": "746829"
-    },
-    {
-      "id": 275612,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 58,
-      "name": "Bileblister Boots",
-      "stats": {
-        "spi": 8,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          8,
-          0,
-          0,
-          0
-        ],
-        "armor": 113
-      },
-      "displayid": "740593"
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      }
     },
     {
       "id": 275615,
@@ -96505,22 +81686,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 3,
       "slot": 8,
-      "requires": 0,
+      "requires": 53,
       "quality": 3,
       "ilvl": 58,
       "name": "Broodwatcher's Treaders",
+      "path": "inv_boots_chain_12",
+      "displayid": 740603,
       "stats": {
         "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
+        "armor": 236,
         "resistance": [
           0,
           0,
@@ -96531,9 +81705,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           0,
           0
         ],
-        "armor": 236
-      },
-      "displayid": "740603"
+        "dmg_done_mod": [
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      }
     },
     {
       "id": 275624,
@@ -96614,9 +81796,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 58,
       "name": "Plaguecrusher Greaves",
       "path": "inv_boots_plate_08",
+      "displayid": 740459,
       "stats": {
         "str": 13,
-        "dmg_done": [
+        "armor": 379,
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -96625,10 +81809,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 379
-      },
-      "displayid": "740459"
+        ]
+      }
     },
     {
       "id": 276541,
@@ -96861,32 +82043,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "4631"
     },
     {
-      "id": 277226,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 8,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 28,
-      "name": "Disjointed Shoes",
-      "stats": {
-        "melee_ap": 12,
-        "ranged_ap": 12,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 62
-      },
-      "displayid": "3715"
-    },
-    {
       "id": 277234,
       "classId": 4,
       "subclassId": 3,
@@ -96950,15 +82106,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 4,
       "slot": 8,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Depleted Thorium Sabatons",
       "path": "inv_boots_plate_02",
+      "displayid": 741998,
       "stats": {
         "str": 14,
         "sta": 21,
-        "dmg_done": [
+        "armor": 507,
+        "dmg_done_mod": [
           0,
           0,
           21,
@@ -96967,10 +82125,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           21,
           21,
           21
-        ],
-        "armor": 507
-      },
-      "displayid": "741998"
+        ]
+      }
     },
     {
       "id": 279268,
@@ -97308,22 +82464,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 285345,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 16,
-      "quality": 3,
-      "ilvl": 21,
-      "name": "Feather Padded Treads",
-      "path": "inv_boots_05",
-      "displayid": 11146,
-      "stats": {
-        "sta": 6,
-        "armor": 26
-      }
-    },
-    {
       "id": 286751,
       "classId": 4,
       "subclassId": 1,
@@ -97402,34 +82542,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "29594"
     },
     {
-      "id": 21612,
-      "classId": 4,
-      "subclassId": 3,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 81,
-      "name": "Wormscale Stompers",
-      "path": "inv_boots_chain_08",
-      "stats": {
-        "agi": 26,
-        "sta": 12,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 351
-      },
-      "displayid": "34208"
-    },
-    {
       "id": 21613,
       "classId": 4,
       "subclassId": 2,
@@ -97504,34 +82616,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 170
       },
       "displayid": "36351"
-    },
-    {
-      "id": 22508,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 8,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 86,
-      "name": "Plagueheart Sandals",
-      "path": "inv_boots_fabric_01",
-      "stats": {
-        "sta": 20,
-        "int": 16,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          32,
-          32,
-          32,
-          32,
-          32,
-          32
-        ],
-        "armor": 89
-      },
-      "displayid": "35186"
     }
   ],
   "finger1": [
@@ -97647,31 +82731,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 1449,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 24,
-      "name": "Minor Channeling Ring",
-      "path": "inv_jewelry_ring_13",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 1462,
       "classId": 4,
       "subclassId": 0,
@@ -97757,31 +82816,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 3
-      }
-    },
-    {
-      "id": 2043,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Ring of Forlorn Spirits",
-      "path": "inv_jewelry_ring_01",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
       }
     },
     {
@@ -98217,31 +83251,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 6669,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Sacred Band",
-      "path": "inv_jewelry_ring_12",
-      "stats": {
-        "spi": 4,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 6678,
       "classId": 4,
       "subclassId": 0,
@@ -98366,19 +83375,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 3
       }
-    },
-    {
-      "id": 7553,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 43,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Band of the Unicorn",
-      "path": "inv_jewelry_ring_11",
-      "displayid": 0,
-      "stats": {}
     },
     {
       "id": 7686,
@@ -98511,31 +83507,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 4
-      }
-    },
-    {
-      "id": 9622,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Reedknot Ring",
-      "path": "inv_belt_33",
-      "stats": {
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
       }
     },
     {
@@ -99825,43 +84796,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 18403,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Dragonslayer's Signet",
-      "path": "inv_jewelry_ring_27",
-      "stats": {
-        "sta": 11,
-        "int": 11,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          6,
-          0,
-          0,
-          0,
-          0
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 18543,
       "classId": 4,
       "subclassId": 0,
@@ -100018,32 +84952,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 19109,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Deep Rooted Ring",
-      "path": "inv_jewelry_ring_35",
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 19138,
       "classId": 4,
       "subclassId": 0,
@@ -100063,17 +84971,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 19140,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 71,
       "name": "Cauterizing Band",
       "path": "inv_jewelry_ring_39",
+      "displayid": 0,
       "stats": {
         "sta": 9,
         "int": 12,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           15,
@@ -100082,32 +84991,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15,
           15,
           15
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19147,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Ring of Spell Power",
-      "path": "inv_jewelry_ring_38",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          33,
-          33,
-          33,
-          33,
-          33,
-          33
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -100192,57 +85076,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 48,
         "ranged_ap": 48,
         "hit_rate": 10,
-        "armor": 0
-      }
-    },
-    {
-      "id": 19397,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Ring of Blackrock",
-      "path": "inv_jewelry_ring_43",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19403,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Band of Forced Concentration",
-      "path": "inv_jewelry_ring_34",
-      "stats": {
-        "sta": 9,
-        "int": 12,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
         "armor": 0
       }
     },
@@ -100416,231 +85249,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 19518,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19519,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19520,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19521,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19522,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19523,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19524,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19525,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 20426,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 23,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 20429,
       "classId": 4,
       "subclassId": 0,
@@ -100654,31 +85262,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 4,
         "sta": 2,
-        "armor": 0
-      }
-    },
-    {
-      "id": 20431,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 23,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
         "armor": 0
       }
     },
@@ -100737,59 +85320,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 21,
         "sta": 16,
-        "armor": 0
-      }
-    },
-    {
-      "id": 20632,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 71,
-      "name": "Mindtear Band",
-      "path": "inv_jewelry_ring_04",
-      "stats": {
-        "sta": 6,
-        "int": 6,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 20682,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Elemental Focus Band",
-      "path": "inv_jewelry_ring_23",
-      "stats": {
-        "sta": 8,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
         "armor": 0
       }
     },
@@ -101072,136 +85602,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 21206,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 6,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21207,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 7,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21208,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21209,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21210,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 8,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 21393,
       "classId": 4,
       "subclassId": 0,
@@ -101233,32 +85633,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "hit_rate": 10,
-        "armor": 0
-      }
-    },
-    {
-      "id": 21483,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 73,
-      "name": "Ring of the Desert Winds",
-      "path": "inv_jewelry_ring_ahnqiraj_05",
-      "stats": {
-        "int": 9,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
         "armor": 0
       }
     },
@@ -101413,83 +85787,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 21707,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 73,
-      "name": "Ring of Swarming Thought",
-      "path": "inv_jewelry_ring_ahnqiraj_04",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21709,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Ring of the Fallen God",
-      "path": "inv_jewelry_ring_ahnqiraj_02",
-      "stats": {
-        "sta": 5,
-        "int": 6,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          37,
-          37,
-          37,
-          37,
-          37,
-          37
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21836,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 71,
-      "name": "Ritssyn's Ring of Chaos",
-      "path": "inv_jewelry_ring_34",
-      "stats": {
-        "sta": 6,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 22680,
       "classId": 4,
       "subclassId": 0,
@@ -101508,17 +85805,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 22681,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 55,
       "quality": 3,
       "ilvl": 66,
       "name": "Band of Piety",
       "path": "inv_jewelry_ring_33",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "int": 10,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -101527,8 +85825,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -101630,33 +85927,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 23025,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 85,
-      "name": "Seal of the Damned",
-      "path": "inv_jewelry_ring_48naxxramas",
-      "stats": {
-        "sta": 17,
-        "crit_rate": 14,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 23028,
       "classId": 4,
       "subclassId": 0,
@@ -101678,31 +85948,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           20,
           0,
           0
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 23031,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Band of the Inevitable",
-      "path": "inv_jewelry_ring_53naxxramas",
-      "stats": {
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          36,
-          36,
-          36,
-          36,
-          36,
-          36
         ],
         "armor": 0
       }
@@ -101775,23 +86020,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 234016,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 6,
-        "int": 7,
-        "hit_rate": 10
-      }
-    },
-    {
       "id": 234017,
       "classId": 4,
       "subclassId": -2,
@@ -101823,39 +86051,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 18,
         "defense": 5
-      }
-    },
-    {
-      "id": 234019,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 6,
-        "int": 7
-      }
-    },
-    {
-      "id": 234020,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 7,
-        "int": 8,
-        "hit_rate": 10
       }
     },
     {
@@ -101893,55 +86088,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 234023,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 7,
-        "int": 8
-      }
-    },
-    {
-      "id": 234024,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "hit_rate": 10
-      }
-    },
-    {
-      "id": 234025,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8
-      }
-    },
-    {
       "id": 234026,
       "classId": 4,
       "subclassId": -2,
@@ -101976,39 +86122,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 234028,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "hit_rate": 10
-      }
-    },
-    {
-      "id": 234029,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8
-      }
-    },
-    {
       "id": 234030,
       "classId": 4,
       "subclassId": -2,
@@ -102040,39 +86153,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 22,
         "defense": 6
-      }
-    },
-    {
-      "id": 234032,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 9,
-        "hit_rate": 10
-      }
-    },
-    {
-      "id": 234033,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 9
       }
     },
     {
@@ -102278,31 +86358,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 270051,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Ladimore Heirloom Ring",
-      "path": "inv_jewelry_ring_08",
-      "stats": {
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 270052,
       "classId": 4,
       "subclassId": 0,
@@ -102332,71 +86387,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 6,
         "str": 4,
-        "armor": 0
-      }
-    },
-    {
-      "id": 270081,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 44,
-      "name": "Purified Ring",
-      "path": "inv_jewelry_ring_01",
-      "displayid": 0,
-      "stats": {
-        "int": 12
-      }
-    },
-    {
-      "id": 270109,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 50,
-      "name": "Smotts' Pinky Ring",
-      "path": "inv_jewelry_ring_12",
-      "stats": {
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 271670,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Curl of Life",
-      "path": "inv_jewelry_ring_12",
-      "stats": {
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
         "armor": 0
       }
     },
@@ -102721,18 +86711,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 272407,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 65,
       "name": "Blessed Band of Light",
       "path": "inv_jewelry_ring_60",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 8,
         "hit_rate": 10,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -102741,8 +86732,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -102794,21 +86784,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 20,
         "ranged_ap": 20,
         "armor": 0
-      }
-    },
-    {
-      "id": 273806,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 21,
-      "quality": 3,
-      "ilvl": 26,
-      "name": "Dark Horde Band",
-      "path": "inv_jewelry_ring_15",
-      "displayid": 0,
-      "stats": {
-        "sta": 6
       }
     },
     {
@@ -102882,15 +86857,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 274746,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 30,
       "quality": 2,
       "ilvl": 35,
       "name": "Sea Giant's Toe Ring",
       "path": "inv_jewelry_ring_02",
+      "displayid": 0,
       "stats": {
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -102899,8 +86875,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -102922,16 +86897,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 274915,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
       "requires": 0,
       "quality": 2,
       "ilvl": 40,
       "name": "Sacristan Band",
       "path": "inv_jewelry_ring_01",
+      "displayid": 0,
       "stats": {
         "sta": 8,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -102940,8 +86916,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -102984,32 +86959,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275043,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Bloodmaster's Ring",
-      "path": "inv_jewelry_ring_25",
-      "stats": {
-        "sta": 7,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275044,
       "classId": 4,
       "subclassId": 0,
@@ -103047,17 +86996,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 275685,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
       "requires": 0,
       "quality": 2,
       "ilvl": 58,
       "name": "Stormwind Intelligence Seal",
       "path": "inv_jewelry_ring_26",
+      "displayid": 0,
       "stats": {
         "agi": 9,
         "int": 8,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -103066,49 +87016,23 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 275738,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Jereman Band",
-      "path": "inv_jewelry_ring_16",
-      "stats": {
-        "spi": 7,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 0
+        ]
       }
     },
     {
       "id": 275740,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
       "requires": 0,
       "quality": 3,
       "ilvl": 61,
       "name": "Ring of Nature's Cycles",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "spi": 14,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -103117,8 +87041,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -103156,45 +87079,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275969,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 6,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275970,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 63,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 10,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -103203,8 +87101,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -103243,45 +87140,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275973,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 68,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 8,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275974,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 68,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 11,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -103290,8 +87162,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -103330,45 +87201,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275977,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 10,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275979,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 60,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 13,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           11,
@@ -103377,8 +87223,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11,
           11,
           11
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -103417,45 +87262,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275982,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 12,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275983,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 14,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           12,
@@ -103464,8 +87284,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12,
           12
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -103516,19 +87335,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "block_amount": 15,
         "armor": 0
       }
-    },
-    {
-      "id": 276765,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 1,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Leafre's Ring of Precise Spell Power",
-      "path": "inv_jewelry_ring_38",
-      "displayid": 0,
-      "stats": {}
     },
     {
       "id": 276899,
@@ -103606,31 +87412,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "sta": 6,
-        "armor": 0
-      }
-    },
-    {
-      "id": 278019,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Apology Ring",
-      "path": "inv_jewelry_ring_02",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
         "armor": 0
       }
     },
@@ -103714,31 +87495,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 281635,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Philanthropist's Ring",
-      "path": "inv_jewelry_ring_14",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 281673,
       "classId": 4,
       "subclassId": 0,
@@ -103798,58 +87554,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 12,
         "spi": 3,
-        "armor": 0
-      }
-    },
-    {
-      "id": 282080,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Flame Seared Signet",
-      "path": "inv_jewelry_ring_04",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 282283,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Malignant Root",
-      "path": "spell_nature_thorns_iron",
-      "stats": {
-        "sta": 7,
-        "melee_ap": 8,
-        "ranged_ap": 8,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
         "armor": 0
       }
     },
@@ -104002,21 +87706,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 6,
         "spi": 2
-      }
-    },
-    {
-      "id": 286535,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 16,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Sludge-Stained Band",
-      "path": "inv_jewelry_ring_12",
-      "displayid": 0,
-      "stats": {
-        "spi": 3
       }
     },
     {
@@ -104463,30 +88152,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_26",
       "stats": {
         "defense": 80,
-        "armor": 0
-      }
-    },
-    {
-      "id": 24358,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 6,
-      "name": "QATest +1000 Spell Dmg Ring",
-      "path": "inv_jewelry_ring_38",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          1000,
-          1000,
-          1000,
-          1000,
-          1000,
-          1000
-        ],
         "armor": 0
       }
     },
@@ -104620,31 +88285,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 1449,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 24,
-      "name": "Minor Channeling Ring",
-      "path": "inv_jewelry_ring_13",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 1462,
       "classId": 4,
       "subclassId": 0,
@@ -104730,31 +88370,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 8,
         "int": 3
-      }
-    },
-    {
-      "id": 2043,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Ring of Forlorn Spirits",
-      "path": "inv_jewelry_ring_01",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
       }
     },
     {
@@ -105190,31 +88805,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 6669,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 25,
-      "name": "Sacred Band",
-      "path": "inv_jewelry_ring_12",
-      "stats": {
-        "spi": 4,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 6678,
       "classId": 4,
       "subclassId": 0,
@@ -105339,19 +88929,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 9,
         "str": 3
       }
-    },
-    {
-      "id": 7553,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 43,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Band of the Unicorn",
-      "path": "inv_jewelry_ring_11",
-      "displayid": 0,
-      "stats": {}
     },
     {
       "id": 7686,
@@ -105484,31 +89061,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 10,
         "spi": 4
-      }
-    },
-    {
-      "id": 9622,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Reedknot Ring",
-      "path": "inv_belt_33",
-      "stats": {
-        "sta": 3,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
       }
     },
     {
@@ -106798,43 +90350,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 18403,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Dragonslayer's Signet",
-      "path": "inv_jewelry_ring_27",
-      "stats": {
-        "sta": 11,
-        "int": 11,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          6,
-          0,
-          0,
-          0,
-          0
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 18543,
       "classId": 4,
       "subclassId": 0,
@@ -106991,32 +90506,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 19109,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Deep Rooted Ring",
-      "path": "inv_jewelry_ring_35",
-      "stats": {
-        "sta": 10,
-        "int": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 19138,
       "classId": 4,
       "subclassId": 0,
@@ -107036,17 +90525,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 19140,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 71,
       "name": "Cauterizing Band",
       "path": "inv_jewelry_ring_39",
+      "displayid": 0,
       "stats": {
         "sta": 9,
         "int": 12,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           15,
@@ -107055,32 +90545,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           15,
           15,
           15
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19147,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Ring of Spell Power",
-      "path": "inv_jewelry_ring_38",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          33,
-          33,
-          33,
-          33,
-          33,
-          33
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -107165,57 +90630,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 48,
         "ranged_ap": 48,
         "hit_rate": 10,
-        "armor": 0
-      }
-    },
-    {
-      "id": 19397,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Ring of Blackrock",
-      "path": "inv_jewelry_ring_43",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          19,
-          19,
-          19,
-          19,
-          19,
-          19
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19403,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Band of Forced Concentration",
-      "path": "inv_jewelry_ring_34",
-      "stats": {
-        "sta": 9,
-        "int": 12,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
         "armor": 0
       }
     },
@@ -107389,231 +90803,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 19518,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19519,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19520,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19521,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19522,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19523,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 53,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19524,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 43,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 5,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 19525,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 20426,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 23,
-      "name": "Advisor's Ring",
-      "path": "inv_jewelry_ring_20",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 20429,
       "classId": 4,
       "subclassId": 0,
@@ -107627,31 +90816,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "agi": 4,
         "str": 4,
         "sta": 2,
-        "armor": 0
-      }
-    },
-    {
-      "id": 20431,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 23,
-      "name": "Lorekeeper's Ring",
-      "path": "inv_jewelry_ring_28",
-      "stats": {
-        "sta": 2,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
         "armor": 0
       }
     },
@@ -107710,59 +90874,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 21,
         "sta": 16,
-        "armor": 0
-      }
-    },
-    {
-      "id": 20632,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 71,
-      "name": "Mindtear Band",
-      "path": "inv_jewelry_ring_04",
-      "stats": {
-        "sta": 6,
-        "int": 6,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 20682,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Elemental Focus Band",
-      "path": "inv_jewelry_ring_23",
-      "stats": {
-        "sta": 8,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
         "armor": 0
       }
     },
@@ -108045,136 +91156,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 21206,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 6,
-        "int": 7,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21207,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 7,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21208,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21209,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21210,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "stats": {
-        "sta": 8,
-        "int": 9,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 21393,
       "classId": 4,
       "subclassId": 0,
@@ -108206,32 +91187,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 30,
         "ranged_ap": 30,
         "hit_rate": 10,
-        "armor": 0
-      }
-    },
-    {
-      "id": 21483,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 73,
-      "name": "Ring of the Desert Winds",
-      "path": "inv_jewelry_ring_ahnqiraj_05",
-      "stats": {
-        "int": 9,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
         "armor": 0
       }
     },
@@ -108386,83 +91341,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 21707,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 73,
-      "name": "Ring of Swarming Thought",
-      "path": "inv_jewelry_ring_ahnqiraj_04",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          26,
-          26,
-          26,
-          26,
-          26,
-          26
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21709,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 88,
-      "name": "Ring of the Fallen God",
-      "path": "inv_jewelry_ring_ahnqiraj_02",
-      "stats": {
-        "sta": 5,
-        "int": 6,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          37,
-          37,
-          37,
-          37,
-          37,
-          37
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 21836,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 71,
-      "name": "Ritssyn's Ring of Chaos",
-      "path": "inv_jewelry_ring_34",
-      "stats": {
-        "sta": 6,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          25,
-          25,
-          25,
-          25,
-          25,
-          25
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 22680,
       "classId": 4,
       "subclassId": 0,
@@ -108481,17 +91359,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 22681,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 55,
       "quality": 3,
       "ilvl": 66,
       "name": "Band of Piety",
       "path": "inv_jewelry_ring_33",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "int": 10,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -108500,8 +91379,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -108603,33 +91481,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 23025,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 85,
-      "name": "Seal of the Damned",
-      "path": "inv_jewelry_ring_48naxxramas",
-      "stats": {
-        "sta": 17,
-        "crit_rate": 14,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 23028,
       "classId": 4,
       "subclassId": 0,
@@ -108651,31 +91502,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           20,
           0,
           0
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 23031,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Band of the Inevitable",
-      "path": "inv_jewelry_ring_53naxxramas",
-      "stats": {
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          36,
-          36,
-          36,
-          36,
-          36,
-          36
         ],
         "armor": 0
       }
@@ -108748,23 +91574,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 234016,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 6,
-        "int": 7,
-        "hit_rate": 10
-      }
-    },
-    {
       "id": 234017,
       "classId": 4,
       "subclassId": -2,
@@ -108796,39 +91605,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 10,
         "sta": 18,
         "defense": 5
-      }
-    },
-    {
-      "id": 234019,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 6,
-        "int": 7
-      }
-    },
-    {
-      "id": 234020,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 7,
-        "int": 8,
-        "hit_rate": 10
       }
     },
     {
@@ -108866,55 +91642,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 234023,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 7,
-        "int": 8
-      }
-    },
-    {
-      "id": 234024,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "hit_rate": 10
-      }
-    },
-    {
-      "id": 234025,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 70,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8
-      }
-    },
-    {
       "id": 234026,
       "classId": 4,
       "subclassId": -2,
@@ -108949,39 +91676,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 234028,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8,
-        "hit_rate": 10
-      }
-    },
-    {
-      "id": 234029,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 75,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 8
-      }
-    },
-    {
       "id": 234030,
       "classId": 4,
       "subclassId": -2,
@@ -109013,39 +91707,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 12,
         "sta": 22,
         "defense": 6
-      }
-    },
-    {
-      "id": 234032,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 9,
-        "hit_rate": 10
-      }
-    },
-    {
-      "id": 234033,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Signet Ring of the Bronze Dragonflight",
-      "path": "inv_jewelry_ring_40",
-      "displayid": 0,
-      "stats": {
-        "sta": 8,
-        "int": 9
       }
     },
     {
@@ -109251,31 +91912,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 270051,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Ladimore Heirloom Ring",
-      "path": "inv_jewelry_ring_08",
-      "stats": {
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 270052,
       "classId": 4,
       "subclassId": 0,
@@ -109305,71 +91941,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 6,
         "str": 4,
-        "armor": 0
-      }
-    },
-    {
-      "id": 270081,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 44,
-      "name": "Purified Ring",
-      "path": "inv_jewelry_ring_01",
-      "displayid": 0,
-      "stats": {
-        "int": 12
-      }
-    },
-    {
-      "id": 270109,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 50,
-      "name": "Smotts' Pinky Ring",
-      "path": "inv_jewelry_ring_12",
-      "stats": {
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 271670,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 33,
-      "name": "Curl of Life",
-      "path": "inv_jewelry_ring_12",
-      "stats": {
-        "sta": 7,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
         "armor": 0
       }
     },
@@ -109694,18 +92265,19 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 272407,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 65,
       "name": "Blessed Band of Light",
       "path": "inv_jewelry_ring_60",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 8,
         "hit_rate": 10,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           10,
@@ -109714,8 +92286,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           10,
           10,
           10
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -109767,21 +92338,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "melee_ap": 20,
         "ranged_ap": 20,
         "armor": 0
-      }
-    },
-    {
-      "id": 273806,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 21,
-      "quality": 3,
-      "ilvl": 26,
-      "name": "Dark Horde Band",
-      "path": "inv_jewelry_ring_15",
-      "displayid": 0,
-      "stats": {
-        "sta": 6
       }
     },
     {
@@ -109855,15 +92411,16 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 274746,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 30,
       "quality": 2,
       "ilvl": 35,
       "name": "Sea Giant's Toe Ring",
       "path": "inv_jewelry_ring_02",
+      "displayid": 0,
       "stats": {
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -109872,8 +92429,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -109895,16 +92451,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 274915,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
       "requires": 0,
       "quality": 2,
       "ilvl": 40,
       "name": "Sacristan Band",
       "path": "inv_jewelry_ring_01",
+      "displayid": 0,
       "stats": {
         "sta": 8,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           3,
@@ -109913,8 +92470,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           3,
           3,
           3
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -109957,32 +92513,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275043,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 45,
-      "name": "Bloodmaster's Ring",
-      "path": "inv_jewelry_ring_25",
-      "stats": {
-        "sta": 7,
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275044,
       "classId": 4,
       "subclassId": 0,
@@ -110020,17 +92550,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
     {
       "id": 275685,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
       "requires": 0,
       "quality": 2,
       "ilvl": 58,
       "name": "Stormwind Intelligence Seal",
       "path": "inv_jewelry_ring_26",
+      "displayid": 0,
       "stats": {
         "agi": 9,
         "int": 8,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           4,
@@ -110039,49 +92570,23 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           4,
           4,
           4
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 275738,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Jereman Band",
-      "path": "inv_jewelry_ring_16",
-      "stats": {
-        "spi": 7,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 0
+        ]
       }
     },
     {
       "id": 275740,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
       "requires": 0,
       "quality": 3,
       "ilvl": 61,
       "name": "Ring of Nature's Cycles",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "spi": 14,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -110090,8 +92595,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -110129,45 +92633,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275969,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 6,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275970,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 63,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 10,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           7,
@@ -110176,8 +92655,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           7,
           7,
           7
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -110216,45 +92694,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275973,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 68,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 8,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275974,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 68,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 11,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           9,
@@ -110263,8 +92716,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           9,
           9,
           9
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -110303,45 +92755,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275977,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 10,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275979,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 60,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 13,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           11,
@@ -110350,8 +92777,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           11,
           11,
           11
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -110390,45 +92816,20 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 275982,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Brilliant Watcher's Signet",
-      "path": "inv_jewelry_ring_09",
-      "stats": {
-        "sta": 12,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 275983,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -2,
       "slot": 11,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Vigilant Watcher's Signet",
       "path": "inv_jewelry_ring_11",
+      "displayid": 0,
       "stats": {
         "sta": 10,
         "spi": 14,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           12,
@@ -110437,8 +92838,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12,
           12
-        ],
-        "armor": 0
+        ]
       }
     },
     {
@@ -110489,19 +92889,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "block_amount": 15,
         "armor": 0
       }
-    },
-    {
-      "id": 276765,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 1,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Leafre's Ring of Precise Spell Power",
-      "path": "inv_jewelry_ring_38",
-      "displayid": 0,
-      "stats": {}
     },
     {
       "id": 276899,
@@ -110579,31 +92966,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 3,
         "sta": 6,
-        "armor": 0
-      }
-    },
-    {
-      "id": 278019,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Apology Ring",
-      "path": "inv_jewelry_ring_02",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
         "armor": 0
       }
     },
@@ -110687,31 +93049,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       }
     },
     {
-      "id": 281635,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 35,
-      "name": "Philanthropist's Ring",
-      "path": "inv_jewelry_ring_14",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 281673,
       "classId": 4,
       "subclassId": 0,
@@ -110771,58 +93108,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "str": 3,
         "sta": 12,
         "spi": 3,
-        "armor": 0
-      }
-    },
-    {
-      "id": 282080,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 57,
-      "name": "Flame Seared Signet",
-      "path": "inv_jewelry_ring_04",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
-        "armor": 0
-      }
-    },
-    {
-      "id": 282283,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Malignant Root",
-      "path": "spell_nature_thorns_iron",
-      "stats": {
-        "sta": 7,
-        "melee_ap": 8,
-        "ranged_ap": 8,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
         "armor": 0
       }
     },
@@ -110975,21 +93260,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 6,
         "spi": 2
-      }
-    },
-    {
-      "id": 286535,
-      "classId": 4,
-      "subclassId": -2,
-      "slot": 11,
-      "requires": 16,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Sludge-Stained Band",
-      "path": "inv_jewelry_ring_12",
-      "displayid": 0,
-      "stats": {
-        "spi": 3
       }
     },
     {
@@ -111436,30 +93706,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_jewelry_ring_26",
       "stats": {
         "defense": 80,
-        "armor": 0
-      }
-    },
-    {
-      "id": 24358,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 11,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 6,
-      "name": "QATest +1000 Spell Dmg Ring",
-      "path": "inv_jewelry_ring_38",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          1000,
-          1000,
-          1000,
-          1000,
-          1000,
-          1000
-        ],
         "armor": 0
       }
     },
@@ -112554,31 +94800,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "cooldown": 300000
     },
     {
-      "id": 19379,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Neltharion's Tear",
-      "path": "inv_stone_15",
-      "stats": {
-        "hit_rate": 20,
-        "dmg_done": [
-          0,
-          0,
-          44,
-          44,
-          44,
-          44,
-          44,
-          44
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 19395,
       "classId": 4,
       "subclassId": 0,
@@ -113258,33 +95479,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "cooldown": 120000
     },
     {
-      "id": 23046,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 90,
-      "name": "The Restrained Essence of Sapphiron",
-      "path": "inv_trinket_naxxramas06",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          40,
-          40,
-          40,
-          40,
-          40,
-          40
-        ],
-        "armor": 0
-      },
-      "useSpell": 28779,
-      "cooldown": 120000,
-      "category_cooldown": 20000
-    },
-    {
       "id": 23047,
       "classId": 4,
       "subclassId": 0,
@@ -113406,33 +95600,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "useSpell": 5579,
       "cooldown": 300000
-    },
-    {
-      "id": 219345,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Infernal Lasso",
-      "path": "spell_nature_slow",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
-      },
-      "useSpell": 443265,
-      "cooldown": 300000,
-      "category_cooldown": 12000
     },
     {
       "id": 231877,
@@ -113681,21 +95848,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "cooldown": 300000
     },
     {
-      "id": 270225,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Jewel of the Guard Captain",
-      "path": "inv_qiraj_jewelglyphed",
-      "stats": {
-        "crit_rate": 7,
-        "armor": 0
-      }
-    },
-    {
       "id": 270226,
       "classId": 4,
       "subclassId": 0,
@@ -113724,21 +95876,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_coin_09",
       "stats": {
         "hit_rate": 7,
-        "armor": 0
-      }
-    },
-    {
-      "id": 270276,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Cleansed Vilebranch Icon",
-      "path": "inv_misc_coin_08",
-      "stats": {
-        "crit_rate": 7,
         "armor": 0
       }
     },
@@ -113881,44 +96018,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "category_cooldown": 15000
     },
     {
-      "id": 272438,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Weakness Analyzer",
-      "path": "inv_misc_blizzcon09_graphicscard",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      },
-      "useSpell": 1291101,
-      "cooldown": 90000,
-      "category_cooldown": 20000
-    },
-    {
       "id": 272439,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -4,
       "slot": 12,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 65,
       "name": "Serenity Field",
       "path": "inv_misc_enggizmos_36",
+      "displayid": 0,
       "stats": {
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -113927,12 +96038,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 0
-      },
-      "useSpell": 1291103,
-      "cooldown": 90000,
-      "category_cooldown": 15000
+        ]
+      }
     },
     {
       "id": 272440,
@@ -114386,6 +96493,36 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_armorkit_18",
       "stats": {
         "spi": 10,
+        "armor": 0
+      }
+    },
+    {
+      "id": 270225,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 12,
+      "requires": 0,
+      "quality": 2,
+      "ilvl": 51,
+      "name": "Jewel of the Guard Captain",
+      "path": "inv_qiraj_jewelglyphed",
+      "stats": {
+        "crit_rate": 7,
+        "armor": 0
+      }
+    },
+    {
+      "id": 270276,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 12,
+      "requires": 0,
+      "quality": 2,
+      "ilvl": 51,
+      "name": "Cleansed Vilebranch Icon",
+      "path": "inv_misc_coin_08",
+      "stats": {
+        "crit_rate": 7,
         "armor": 0
       }
     }
@@ -115464,31 +97601,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "cooldown": 300000
     },
     {
-      "id": 19379,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 83,
-      "name": "Neltharion's Tear",
-      "path": "inv_stone_15",
-      "stats": {
-        "hit_rate": 20,
-        "dmg_done": [
-          0,
-          0,
-          44,
-          44,
-          44,
-          44,
-          44,
-          44
-        ],
-        "armor": 0
-      }
-    },
-    {
       "id": 19395,
       "classId": 4,
       "subclassId": 0,
@@ -116168,33 +98280,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "cooldown": 120000
     },
     {
-      "id": 23046,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 90,
-      "name": "The Restrained Essence of Sapphiron",
-      "path": "inv_trinket_naxxramas06",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          40,
-          40,
-          40,
-          40,
-          40,
-          40
-        ],
-        "armor": 0
-      },
-      "useSpell": 28779,
-      "cooldown": 120000,
-      "category_cooldown": 20000
-    },
-    {
       "id": 23047,
       "classId": 4,
       "subclassId": 0,
@@ -116316,33 +98401,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "useSpell": 5579,
       "cooldown": 300000
-    },
-    {
-      "id": 219345,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 50,
-      "name": "Infernal Lasso",
-      "path": "spell_nature_slow",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
-      },
-      "useSpell": 443265,
-      "cooldown": 300000,
-      "category_cooldown": 12000
     },
     {
       "id": 231877,
@@ -116591,21 +98649,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "cooldown": 300000
     },
     {
-      "id": 270225,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Jewel of the Guard Captain",
-      "path": "inv_qiraj_jewelglyphed",
-      "stats": {
-        "crit_rate": 7,
-        "armor": 0
-      }
-    },
-    {
       "id": 270226,
       "classId": 4,
       "subclassId": 0,
@@ -116634,21 +98677,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_coin_09",
       "stats": {
         "hit_rate": 7,
-        "armor": 0
-      }
-    },
-    {
-      "id": 270276,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 51,
-      "name": "Cleansed Vilebranch Icon",
-      "path": "inv_misc_coin_08",
-      "stats": {
-        "crit_rate": 7,
         "armor": 0
       }
     },
@@ -116791,44 +98819,18 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "category_cooldown": 15000
     },
     {
-      "id": 272438,
-      "classId": 4,
-      "subclassId": 0,
-      "slot": 12,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Weakness Analyzer",
-      "path": "inv_misc_blizzcon09_graphicscard",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "armor": 0
-      },
-      "useSpell": 1291101,
-      "cooldown": 90000,
-      "category_cooldown": 20000
-    },
-    {
       "id": 272439,
       "classId": 4,
-      "subclassId": 0,
+      "subclassId": -4,
       "slot": 12,
-      "requires": 0,
+      "requires": 60,
       "quality": 3,
       "ilvl": 65,
       "name": "Serenity Field",
       "path": "inv_misc_enggizmos_36",
+      "displayid": 0,
       "stats": {
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -116837,12 +98839,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 0
-      },
-      "useSpell": 1291103,
-      "cooldown": 90000,
-      "category_cooldown": 15000
+        ]
+      }
     },
     {
       "id": 272440,
@@ -117296,6 +99294,36 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "path": "inv_misc_armorkit_18",
       "stats": {
         "spi": 10,
+        "armor": 0
+      }
+    },
+    {
+      "id": 270225,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 12,
+      "requires": 0,
+      "quality": 2,
+      "ilvl": 51,
+      "name": "Jewel of the Guard Captain",
+      "path": "inv_qiraj_jewelglyphed",
+      "stats": {
+        "crit_rate": 7,
+        "armor": 0
+      }
+    },
+    {
+      "id": 270276,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 12,
+      "requires": 0,
+      "quality": 2,
+      "ilvl": 51,
+      "name": "Cleansed Vilebranch Icon",
+      "path": "inv_misc_coin_08",
+      "stats": {
+        "crit_rate": 7,
         "armor": 0
       }
     }
@@ -117797,24 +99825,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 40
     },
     {
-      "id": 4547,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 35,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Gnomish Zapper",
-      "path": "inv_wand_02",
-      "displayid": 21016,
-      "stats": {
-        "sta": 4
-      },
-      "speed": 1.3,
-      "mindmg": 29,
-      "maxdmg": 56
-    },
-    {
       "id": 4576,
       "classId": 2,
       "subclassId": 2,
@@ -117883,33 +99893,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 19
     },
     {
-      "id": 5198,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 17,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Cookie's Stirring Rod",
-      "path": "inv_staff_02",
-      "displayid": 21011,
-      "stats": {
-        "resistance": [
-          0,
-          0,
-          0,
-          3,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "speed": 1.3,
-      "mindmg": 20,
-      "maxdmg": 38
-    },
-    {
       "id": 5207,
       "classId": 2,
       "subclassId": 19,
@@ -117958,22 +99941,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 49
     },
     {
-      "id": 5214,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 27,
-      "quality": 2,
-      "ilvl": 32,
-      "name": "Wand of Eventide",
-      "path": "inv_wand_01",
-      "displayid": 21020,
-      "stats": {},
-      "speed": 1.3,
-      "mindmg": 23,
-      "maxdmg": 44
-    },
-    {
       "id": 5215,
       "classId": 2,
       "subclassId": 19,
@@ -118006,22 +99973,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 70
     },
     {
-      "id": 5240,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 15,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Torchlight Wand",
-      "path": "inv_staff_02",
-      "displayid": 6101,
-      "stats": {},
-      "speed": 1.3,
-      "mindmg": 14,
-      "maxdmg": 27
-    },
-    {
       "id": 5241,
       "classId": 2,
       "subclassId": 19,
@@ -118038,22 +99989,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.8,
       "mindmg": 17,
       "maxdmg": 32
-    },
-    {
-      "id": 5242,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 9,
-      "quality": 2,
-      "ilvl": 16,
-      "name": "Cinder Wand",
-      "path": "inv_staff_02",
-      "displayid": 6093,
-      "stats": {},
-      "speed": 1.4,
-      "mindmg": 11,
-      "maxdmg": 22
     },
     {
       "id": 5243,
@@ -118091,24 +100026,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 38
     },
     {
-      "id": 5246,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 22,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Excavation Rod",
-      "path": "inv_staff_02",
-      "displayid": 6093,
-      "stats": {
-        "sta": 2
-      },
-      "speed": 1.9,
-      "mindmg": 32,
-      "maxdmg": 60
-    },
-    {
       "id": 5247,
       "classId": 2,
       "subclassId": 19,
@@ -118144,40 +100061,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       },
       "speed": 1.3,
       "mindmg": 27,
-      "maxdmg": 52
-    },
-    {
-      "id": 5249,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 30,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Burning Sliver",
-      "path": "inv_wand_11",
-      "displayid": 20793,
-      "stats": {},
-      "speed": 1.3,
-      "mindmg": 29,
-      "maxdmg": 56
-    },
-    {
-      "id": 5250,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 19,
-      "quality": 2,
-      "ilvl": 28,
-      "name": "Charred Wand",
-      "path": "inv_staff_02",
-      "displayid": 6138,
-      "stats": {
-        "int": 2
-      },
-      "speed": 1.8,
-      "mindmg": 28,
       "maxdmg": 52
     },
     {
@@ -118273,24 +100156,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 14
     },
     {
-      "id": 5356,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 10,
-      "quality": 2,
-      "ilvl": 27,
-      "name": "Branding Rod",
-      "path": "inv_spear_01",
-      "displayid": 20834,
-      "stats": {
-        "int": 2
-      },
-      "speed": 1.6,
-      "mindmg": 24,
-      "maxdmg": 45
-    },
-    {
       "id": 5604,
       "classId": 2,
       "subclassId": 19,
@@ -118328,24 +100193,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 43
     },
     {
-      "id": 5818,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 25,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Moonbeam Wand",
-      "path": "inv_wand_11",
-      "displayid": 21026,
-      "stats": {
-        "int": 2
-      },
-      "speed": 1.8,
-      "mindmg": 30,
-      "maxdmg": 57
-    },
-    {
       "id": 6315,
       "classId": 2,
       "subclassId": 18,
@@ -118380,22 +100227,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 38
     },
     {
-      "id": 6677,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 17,
-      "quality": 2,
-      "ilvl": 26,
-      "name": "Spellcrafter Wand",
-      "path": "inv_wand_05",
-      "displayid": 21018,
-      "stats": {},
-      "speed": 1.7,
-      "mindmg": 24,
-      "maxdmg": 45
-    },
-    {
       "id": 6696,
       "classId": 2,
       "subclassId": 2,
@@ -118412,24 +100243,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.7,
       "mindmg": 20,
       "maxdmg": 38
-    },
-    {
-      "id": 6729,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 28,
-      "quality": 2,
-      "ilvl": 38,
-      "name": "Fizzle's Zippy Lighter",
-      "path": "inv_wand_11",
-      "displayid": 20821,
-      "stats": {
-        "int": 3
-      },
-      "speed": 1.5,
-      "mindmg": 32,
-      "maxdmg": 61
     },
     {
       "id": 6739,
@@ -118508,24 +100321,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 57
     },
     {
-      "id": 7607,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 15,
-      "quality": 3,
-      "ilvl": 22,
-      "name": "Sable Wand",
-      "path": "inv_staff_02",
-      "displayid": 20920,
-      "stats": {
-        "spi": 3
-      },
-      "speed": 1.8,
-      "mindmg": 28,
-      "maxdmg": 52
-    },
-    {
       "id": 7708,
       "classId": 2,
       "subclassId": 19,
@@ -118551,22 +100346,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.4,
       "mindmg": 32,
       "maxdmg": 61
-    },
-    {
-      "id": 8071,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 15,
-      "quality": 3,
-      "ilvl": 23,
-      "name": "Sizzle Stick",
-      "path": "inv_staff_02",
-      "displayid": 6093,
-      "stats": {},
-      "speed": 1.7,
-      "mindmg": 27,
-      "maxdmg": 52
     },
     {
       "id": 8180,
@@ -118728,38 +100507,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.4,
       "mindmg": 36,
       "maxdmg": 68
-    },
-    {
-      "id": 11287,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 5,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Lesser Magic Wand",
-      "path": "inv_staff_02",
-      "displayid": 21096,
-      "stats": {},
-      "speed": 1.5,
-      "mindmg": 12,
-      "maxdmg": 22
-    },
-    {
-      "id": 11288,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 13,
-      "quality": 2,
-      "ilvl": 23,
-      "name": "Greater Magic Wand",
-      "path": "inv_staff_07",
-      "displayid": 21096,
-      "stats": {},
-      "speed": 1.8,
-      "mindmg": 22,
-      "maxdmg": 41
     },
     {
       "id": 11289,
@@ -118930,40 +100677,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.8,
       "mindmg": 66,
       "maxdmg": 123
-    },
-    {
-      "id": 11860,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 43,
-      "quality": 2,
-      "ilvl": 46,
-      "name": "Charged Lightning Rod",
-      "path": "inv_wand_08",
-      "displayid": 28108,
-      "stats": {
-        "int": 4
-      },
-      "speed": 1.5,
-      "mindmg": 39,
-      "maxdmg": 73
-    },
-    {
-      "id": 12296,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 9,
-      "quality": 2,
-      "ilvl": 17,
-      "name": "Spark of the People's Militia",
-      "path": "inv_staff_02",
-      "displayid": 28248,
-      "stats": {},
-      "speed": 1.8,
-      "mindmg": 16,
-      "maxdmg": 30
     },
     {
       "id": 12651,
@@ -119195,22 +100908,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 3.1,
       "mindmg": 71,
       "maxdmg": 108
-    },
-    {
-      "id": 13062,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 22,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "Thunderwood",
-      "path": "inv_staff_02",
-      "displayid": 21025,
-      "stats": {},
-      "speed": 1.9,
-      "mindmg": 36,
-      "maxdmg": 67
     },
     {
       "id": 13063,
@@ -119776,24 +101473,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "20732"
     },
     {
-      "id": 15692,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 32,
-      "quality": 2,
-      "ilvl": 38,
-      "name": "Kodo Brander",
-      "path": "inv_wand_07",
-      "displayid": 26412,
-      "stats": {
-        "sta": 3
-      },
-      "speed": 1.9,
-      "mindmg": 41,
-      "maxdmg": 77
-    },
-    {
       "id": 15995,
       "classId": 2,
       "subclassId": 3,
@@ -120057,34 +101736,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 2.5,
       "mindmg": 48,
       "maxdmg": 89
-    },
-    {
-      "id": 17745,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 46,
-      "quality": 3,
-      "ilvl": 51,
-      "name": "Noxious Shooter",
-      "path": "inv_wand_04",
-      "displayid": 29924,
-      "stats": {
-        "sta": 5,
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0,
-          0
-        ]
-      },
-      "speed": 1.6,
-      "mindmg": 56,
-      "maxdmg": 104
     },
     {
       "id": 17753,
@@ -120653,22 +102304,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 46
     },
     {
-      "id": 217287,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 30,
-      "quality": 2,
-      "ilvl": 35,
-      "name": "Greater Mystic Wand",
-      "path": "inv_wand_07",
-      "displayid": 21101,
-      "stats": {},
-      "speed": 2,
-      "mindmg": 40,
-      "maxdmg": 76
-    },
-    {
       "id": 217314,
       "classId": 2,
       "subclassId": 3,
@@ -120819,88 +102454,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 191
     },
     {
-      "id": 249144,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 37,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Twisted Nether Wand",
-      "path": "inv_wand_03",
-      "displayid": 21027,
-      "stats": {},
-      "speed": 1.5,
-      "mindmg": 35,
-      "maxdmg": 67
-    },
-    {
-      "id": 249232,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 49,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Lesser Eternal Wand",
-      "path": "inv_wand_05",
-      "displayid": 25076,
-      "stats": {},
-      "speed": 2,
-      "mindmg": 64,
-      "maxdmg": 119
-    },
-    {
-      "id": 249234,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 43,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Dreambough Wand",
-      "path": "inv_wand_04",
-      "displayid": 18346,
-      "stats": {},
-      "speed": 1.8,
-      "mindmg": 49,
-      "maxdmg": 92
-    },
-    {
-      "id": 249237,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 55,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Greater Eternal Wand",
-      "path": "inv_wand_14",
-      "displayid": 15238,
-      "stats": {},
-      "speed": 1.5,
-      "mindmg": 56,
-      "maxdmg": 104
-    },
-    {
-      "id": 249385,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 55,
-      "quality": 3,
-      "ilvl": 60,
-      "name": "Brilliant Wand",
-      "path": "inv_wand_07",
-      "displayid": 26412,
-      "stats": {
-        "int": 7
-      },
-      "speed": 1.2,
-      "mindmg": 50,
-      "maxdmg": 93
-    },
-    {
       "id": 259891,
       "classId": 2,
       "subclassId": 3,
@@ -120953,22 +102506,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "8095"
-    },
-    {
-      "id": 270084,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Master Hunter's Wand",
-      "path": "inv_wand_03",
-      "displayid": 21027,
-      "stats": {},
-      "speed": 1.5,
-      "mindmg": 36,
-      "maxdmg": 68
     },
     {
       "id": 270107,
@@ -121202,22 +102739,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 60
     },
     {
-      "id": 274655,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 43,
-      "quality": 3,
-      "ilvl": 48,
-      "name": "Peacekeeper Wand",
-      "path": "inv_wand_14",
-      "displayid": 739076,
-      "stats": {},
-      "speed": 1.9,
-      "mindmg": 60,
-      "maxdmg": 113
-    },
-    {
       "id": 274748,
       "classId": 2,
       "subclassId": 3,
@@ -121324,22 +102845,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 2.8,
       "mindmg": 53,
       "maxdmg": 100
-    },
-    {
-      "id": 275837,
-      "classId": 2,
-      "subclassId": 19,
-      "slot": 26,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 58,
-      "name": "Felflick's Fire Flicker",
-      "path": "inv_wand_11",
-      "displayid": 740808,
-      "stats": {},
-      "speed": 2.4,
-      "mindmg": 86,
-      "maxdmg": 160
     },
     {
       "id": 276332,
@@ -131046,34 +112551,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "21715"
     },
     {
-      "id": 250606,
-      "classId": 2,
-      "subclassId": 4,
-      "slot": 21,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 38,
-      "name": "Iron Morningstar",
-      "speed": 2.5,
-      "mindmg": 36.05,
-      "maxdmg": 66.94,
-      "stats": {
-        "str": 4,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      },
-      "displayid": "5199"
-    },
-    {
       "id": 250607,
       "classId": 2,
       "subclassId": 15,
@@ -133900,24 +115377,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 66
     },
     {
-      "id": 285212,
-      "classId": 2,
-      "subclassId": 4,
-      "slot": 13,
-      "requires": 24,
-      "quality": 2,
-      "ilvl": 29,
-      "name": "Foulmountain Family Hammer",
-      "path": "inv_hammer_12",
-      "displayid": 23255,
-      "stats": {
-        "sta": 2
-      },
-      "speed": 2.2,
-      "mindmg": 23,
-      "maxdmg": 44
-    },
-    {
       "id": 285236,
       "classId": 2,
       "subclassId": 15,
@@ -134286,45 +115745,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "30935"
-    },
-    {
-      "id": 18800,
-      "classId": 2,
-      "subclassId": 4,
-      "slot": 21,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 67,
-      "name": "TEST 1H Amberseal Keeper",
-      "speed": 2.5,
-      "mindmg": 85.73,
-      "maxdmg": 159.21,
-      "path": "inv_staff_goldfeathered_01",
-      "stats": {
-        "int": 20,
-        "dmg_done": [
-          0,
-          0,
-          57,
-          57,
-          57,
-          57,
-          57,
-          57
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      },
-      "displayid": "31258"
     },
     {
       "id": 19313,
@@ -135117,33 +116537,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "21551"
     },
     {
-      "id": 1557,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 20,
-      "name": "Buckler of the Seas",
-      "path": "inv_shield_09",
-      "stats": {
-        "spi": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 411,
-        "block_amount": 7
-      },
-      "displayid": "18456"
-    },
-    {
       "id": 1608,
       "classId": 2,
       "subclassId": 4,
@@ -135732,32 +117125,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.7,
       "mindmg": 21,
       "maxdmg": 39
-    },
-    {
-      "id": 3160,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Ironplate Buckler",
-      "path": "inv_shield_10",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 328,
-        "block_amount": 5
-      },
-      "displayid": "2324"
     },
     {
       "id": 3184,
@@ -137408,31 +118775,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": 26014,
       "stats": {
         "armor": 561
-      }
-    },
-    {
-      "id": 6630,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 19,
-      "quality": 3,
-      "ilvl": 24,
-      "name": "Seedcloud Buckler",
-      "path": "inv_shield_10",
-      "displayid": 2210,
-      "stats": {
-        "armor": 547,
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          5,
-          0,
-          0,
-          0
-        ]
       }
     },
     {
@@ -141480,33 +122822,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "26545"
     },
     {
-      "id": 15865,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 39,
-      "name": "Anchorhold Buckler",
-      "path": "inv_shield_10",
-      "stats": {
-        "int": 6,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 728,
-        "block_amount": 16
-      },
-      "displayid": "26548"
-    },
-    {
       "id": 15887,
       "classId": 4,
       "subclassId": 6,
@@ -143047,15 +124362,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 6,
       "slot": 14,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 81,
       "name": "Wormscale Blocker",
       "path": "inv_shield_24",
+      "displayid": 34206,
       "stats": {
         "sta": 10,
         "int": 13,
-        "dmg_done": [
+        "armor": 3035,
+        "dmg_done_mod": [
           0,
           0,
           12,
@@ -143064,11 +124381,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           12,
           12,
           12
-        ],
-        "armor": 3035,
-        "block_amount": 57
-      },
-      "displayid": "34206"
+        ]
+      }
     },
     {
       "id": 21650,
@@ -143661,40 +124975,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "str": 10,
         "sta": 35,
-        "armor": 3000
-      }
-    },
-    {
-      "id": 235473,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Grand Marshal's Barricade",
-      "path": "inv_shield_05",
-      "displayid": 31733,
-      "stats": {
-        "sta": 26,
-        "int": 10,
-        "armor": 3000
-      }
-    },
-    {
-      "id": 235474,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "High Warlord's Barricade",
-      "path": "inv_shield_19",
-      "displayid": 31746,
-      "stats": {
-        "sta": 26,
-        "int": 10,
         "armor": 3000
       }
     },
@@ -144358,33 +125638,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "5212"
     },
     {
-      "id": 270065,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 38,
-      "name": "Farseer's Forgotten Shield",
-      "path": "inv_shield_10",
-      "stats": {
-        "sta": 4,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 711,
-        "block_amount": 15
-      },
-      "displayid": "4403"
-    },
-    {
       "id": 270092,
       "classId": 2,
       "subclassId": 7,
@@ -144880,22 +126133,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "36066"
     },
     {
-      "id": 273811,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 25,
-      "quality": 3,
-      "ilvl": 30,
-      "name": "Repurposed Rack",
-      "path": "inv_shield_11",
-      "displayid": 26322,
-      "stats": {
-        "str": 6,
-        "armor": 661
-      }
-    },
-    {
       "id": 274043,
       "classId": 4,
       "subclassId": 6,
@@ -145028,21 +126265,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 2.8,
       "mindmg": 65,
       "maxdmg": 122
-    },
-    {
-      "id": 274652,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 43,
-      "quality": 3,
-      "ilvl": 48,
-      "name": "Wall of Water",
-      "path": "inv_shield_16",
-      "displayid": 28026,
-      "stats": {
-        "armor": 1676
-      }
     },
     {
       "id": 274753,
@@ -145263,13 +126485,15 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 0,
       "slot": 14,
-      "requires": 0,
+      "requires": 40,
       "quality": 3,
       "ilvl": 45,
       "name": "Thrash's Trash",
+      "path": "inv_shield_02",
+      "displayid": 741398,
       "stats": {
         "sta": 5,
-        "dmg_done": [
+        "dmg_done_mod": [
           0,
           0,
           14,
@@ -145278,37 +126502,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           14,
           14,
           14
-        ],
-        "armor": 1580
-      },
-      "displayid": "741398"
-    },
-    {
-      "id": 276334,
-      "classId": 4,
-      "subclassId": 6,
-      "slot": 14,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Hand-Hewn Buckler",
-      "path": "inv_shield_09",
-      "stats": {
-        "sta": 10,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 1833,
-        "block_amount": 34
-      },
-      "displayid": "741467"
+        ]
+      }
     },
     {
       "id": 276338,
@@ -145356,9 +126551,11 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "ilvl": 55,
       "name": "Sunderbark Vigil",
       "path": "inv_shield_13",
+      "displayid": 739865,
       "stats": {
         "sta": 12,
-        "dmg_done": [
+        "armor": 1898,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -145367,11 +126564,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 1898,
-        "block_amount": 34
-      },
-      "displayid": "739865"
+        ]
+      }
     },
     {
       "id": 276889,
@@ -145467,26 +126661,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 6,
       "slot": 14,
-      "requires": 0,
+      "requires": 40,
       "quality": 3,
-      "ilvl": 45,
+      "ilvl": 50,
       "name": "Crest of Elucidation",
+      "path": "spell_holy_powerwordshield",
+      "displayid": 20833,
       "stats": {
-        "spi": 12,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 1580,
-        "block_amount": 24
-      },
-      "displayid": "20833"
+        "int": 6,
+        "spi": 13,
+        "armor": 1739
+      }
     },
     {
       "id": 277515,
@@ -145564,15 +126749,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 6,
       "slot": 14,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Premier Grand Marshal's Barricade",
       "path": "inv_shield_05",
+      "displayid": 31733,
       "stats": {
         "sta": 21,
         "int": 9,
-        "dmg_done": [
+        "armor": 2468,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -145581,26 +126768,25 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 2468,
-        "block_amount": 44
-      },
-      "displayid": "31733"
+        ]
+      }
     },
     {
       "id": 278469,
       "classId": 4,
       "subclassId": 6,
       "slot": 14,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Premier High Warlord's Barricade",
       "path": "inv_shield_19",
+      "displayid": 31746,
       "stats": {
         "sta": 21,
         "int": 9,
-        "dmg_done": [
+        "armor": 2468,
+        "dmg_done_mod": [
           0,
           0,
           6,
@@ -145609,11 +126795,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           6,
           6,
           6
-        ],
-        "armor": 2468,
-        "block_amount": 44
-      },
-      "displayid": "31746"
+        ]
+      }
     },
     {
       "id": 279259,
@@ -145661,14 +126844,17 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "classId": 4,
       "subclassId": 6,
       "slot": 14,
-      "requires": 0,
+      "requires": 60,
       "quality": 4,
       "ilvl": 65,
       "name": "Evergreen Shield",
+      "path": "inv_shield_1h_raidhyjalc60_d_01",
+      "displayid": 743963,
       "stats": {
         "sta": 16,
         "crit_rate": 14,
-        "dmg_done": [
+        "armor": 2468,
+        "dmg_done_mod": [
           0,
           0,
           8,
@@ -145677,11 +126863,8 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
           8,
           8,
           8
-        ],
-        "armor": 2468,
-        "block_amount": 44
-      },
-      "displayid": "743963"
+        ]
+      }
     },
     {
       "id": 279392,
@@ -146278,24 +127461,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 1.8,
       "mindmg": 35,
       "maxdmg": 66
-    },
-    {
-      "id": 285212,
-      "classId": 2,
-      "subclassId": 4,
-      "slot": 13,
-      "requires": 24,
-      "quality": 2,
-      "ilvl": 29,
-      "name": "Foulmountain Family Hammer",
-      "path": "inv_hammer_12",
-      "displayid": 23255,
-      "stats": {
-        "sta": 2
-      },
-      "speed": 2.2,
-      "mindmg": 23,
-      "maxdmg": 44
     },
     {
       "id": 285236,
@@ -148840,64 +130005,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "2775"
     },
     {
-      "id": 3852,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 34,
-      "name": "Golden Iron Destroyer",
-      "speed": 3.3,
-      "mindmg": 60.93,
-      "maxdmg": 91.4,
-      "path": "inv_hammer_04",
-      "stats": {
-        "str": 11,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 0
-      },
-      "displayid": "15468"
-    },
-    {
-      "id": 3853,
-      "classId": 2,
-      "subclassId": 8,
-      "slot": 17,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 36,
-      "name": "Moonsteel Broadsword",
-      "speed": 3.5,
-      "mindmg": 69.24,
-      "maxdmg": 103.87,
-      "path": "inv_sword_25",
-      "stats": {
-        "str": 4,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      },
-      "displayid": "5105"
-    },
-    {
       "id": 3854,
       "classId": 2,
       "subclassId": 8,
@@ -148938,35 +130045,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "782"
-    },
-    {
-      "id": 3856,
-      "classId": 2,
-      "subclassId": 1,
-      "slot": 17,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 40,
-      "name": "Shadow Crescent Axe",
-      "speed": 3.3,
-      "mindmg": 76.58,
-      "maxdmg": 114.87,
-      "path": "inv_axe_17",
-      "stats": {
-        "str": 11,
-        "dmg_done": [
-          0,
-          0,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10
-        ],
-        "armor": 0
-      },
-      "displayid": "8502"
     },
     {
       "id": 3902,
@@ -149332,24 +130410,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 3.4,
       "mindmg": 39,
       "maxdmg": 59
-    },
-    {
-      "id": 5187,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 16,
-      "quality": 3,
-      "ilvl": 21,
-      "name": "Rhahk'Zor's Hammer",
-      "path": "inv_hammer_09",
-      "displayid": 3502,
-      "stats": {
-        "sta": 8
-      },
-      "speed": 3.2,
-      "mindmg": 47,
-      "maxdmg": 71
     },
     {
       "id": 5194,
@@ -150251,35 +131311,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "16146"
     },
     {
-      "id": 7957,
-      "classId": 2,
-      "subclassId": 8,
-      "slot": 17,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 26,
-      "name": "Bronze Greatsword",
-      "speed": 3.4,
-      "mindmg": 47.87,
-      "maxdmg": 71.81,
-      "path": "inv_sword_20",
-      "stats": {
-        "sta": 6,
-        "dmg_done": [
-          0,
-          0,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "armor": 0
-      },
-      "displayid": "16147"
-    },
-    {
       "id": 7958,
       "classId": 2,
       "subclassId": 1,
@@ -150597,24 +131628,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "20432"
-    },
-    {
-      "id": 9604,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 25,
-      "quality": 3,
-      "ilvl": 32,
-      "name": "Mechanic's Pipehammer",
-      "path": "inv_mace_04",
-      "displayid": 18531,
-      "stats": {
-        "int": 5
-      },
-      "speed": 2.8,
-      "mindmg": 59,
-      "maxdmg": 90
     },
     {
       "id": 9678,
@@ -152663,37 +133676,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "31766"
     },
     {
-      "id": 18873,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Grand Marshal's Stave",
-      "speed": 3,
-      "mindmg": 185.99,
-      "maxdmg": 278.99,
-      "path": "inv_staff_14",
-      "stats": {
-        "sta": 41,
-        "spi": 17,
-        "int": 23,
-        "dmg_done": [
-          0,
-          0,
-          71,
-          71,
-          71,
-          71,
-          71,
-          71
-        ],
-        "armor": 0
-      },
-      "displayid": "31764"
-    },
-    {
       "id": 18874,
       "classId": 2,
       "subclassId": 10,
@@ -152786,24 +133768,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "sta": 25,
         "int": 16
-      },
-      "speed": 3.1,
-      "mindmg": 102,
-      "maxdmg": 154
-    },
-    {
-      "id": 19102,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 60,
-      "quality": 3,
-      "ilvl": 65,
-      "name": "Crackling Staff",
-      "path": "inv_staff_20",
-      "displayid": 31610,
-      "stats": {
-        "int": 25
       },
       "speed": 3.1,
       "mindmg": 102,
@@ -153256,24 +134220,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "33435"
     },
     {
-      "id": 21188,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Fist of Cenarius",
-      "path": "inv_hammer_23",
-      "displayid": 33533,
-      "stats": {
-        "crit_rate": 28
-      },
-      "speed": 3.5,
-      "mindmg": 175,
-      "maxdmg": 263
-    },
-    {
       "id": 21273,
       "classId": 2,
       "subclassId": 10,
@@ -153333,66 +134279,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "25366"
-    },
-    {
-      "id": 23455,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "Grand Marshal's Demolisher",
-      "speed": 3.8,
-      "mindmg": 235.59,
-      "maxdmg": 353.38,
-      "path": "inv_hammer_23",
-      "stats": {
-        "sta": 28,
-        "int": 27,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 0
-      },
-      "displayid": "36065"
-    },
-    {
-      "id": 23465,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 78,
-      "name": "High Warlord's Destroyer",
-      "speed": 3.8,
-      "mindmg": 235.59,
-      "maxdmg": 353.38,
-      "path": "inv_mace_09",
-      "stats": {
-        "sta": 28,
-        "int": 27,
-        "dmg_done": [
-          0,
-          0,
-          27,
-          27,
-          27,
-          27,
-          27,
-          27
-        ],
-        "armor": 0
-      },
-      "displayid": "36079"
     },
     {
       "id": 208222,
@@ -153574,27 +134460,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 376
     },
     {
-      "id": 234546,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "High Warlord's Destroyer",
-      "path": "inv_mace_09",
-      "displayid": 36079,
-      "stats": {
-        "str": 27,
-        "sta": 42,
-        "int": 20,
-        "crit_rate": 14
-      },
-      "speed": 3.9,
-      "mindmg": 250,
-      "maxdmg": 376
-    },
-    {
       "id": 234547,
       "classId": 2,
       "subclassId": 6,
@@ -153633,26 +134498,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 3.4,
       "mindmg": 218,
       "maxdmg": 328
-    },
-    {
-      "id": 234549,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "High Warlord's War Staff",
-      "path": "inv_misc_bone_elfskull_01",
-      "displayid": 31765,
-      "stats": {
-        "sta": 51,
-        "int": 23,
-        "crit_rate": 28
-      },
-      "speed": 3,
-      "mindmg": 131,
-      "maxdmg": 228
     },
     {
       "id": 234565,
@@ -153715,27 +134560,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 376
     },
     {
-      "id": 234568,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Grand Marshal's Demolisher",
-      "path": "inv_hammer_23",
-      "displayid": 36065,
-      "stats": {
-        "str": 27,
-        "sta": 42,
-        "int": 20,
-        "crit_rate": 14
-      },
-      "speed": 3.9,
-      "mindmg": 250,
-      "maxdmg": 376
-    },
-    {
       "id": 234569,
       "classId": 2,
       "subclassId": 6,
@@ -153774,26 +134598,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 3.4,
       "mindmg": 218,
       "maxdmg": 328
-    },
-    {
-      "id": 234571,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 60,
-      "quality": 4,
-      "ilvl": 80,
-      "name": "Grand Marshal's Stave",
-      "path": "inv_staff_14",
-      "displayid": 31764,
-      "stats": {
-        "sta": 51,
-        "int": 23,
-        "crit_rate": 28
-      },
-      "speed": 3,
-      "mindmg": 131,
-      "maxdmg": 228
     },
     {
       "id": 236759,
@@ -154031,62 +134835,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "26585"
     },
     {
-      "id": 250612,
-      "classId": 2,
-      "subclassId": 1,
-      "slot": 17,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 48,
-      "name": "Charged Mithril Battleaxe",
-      "speed": 3.3,
-      "mindmg": 98.57,
-      "maxdmg": 147.85,
-      "stats": {
-        "str": 14,
-        "dmg_done": [
-          0,
-          0,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "armor": 0
-      },
-      "displayid": "19302"
-    },
-    {
-      "id": 250613,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 55,
-      "name": "Thorium Greatmace",
-      "speed": 3.6,
-      "mindmg": 136.65,
-      "maxdmg": 204.98,
-      "stats": {
-        "str": 21,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "armor": 0
-      },
-      "displayid": "29939"
-    },
-    {
       "id": 250615,
       "classId": 2,
       "subclassId": 6,
@@ -154105,35 +134853,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "745938"
-    },
-    {
-      "id": 250617,
-      "classId": 2,
-      "subclassId": 1,
-      "slot": 17,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 63,
-      "name": "Stormcarver",
-      "speed": 3.6,
-      "mindmg": 155.36,
-      "maxdmg": 233.04,
-      "stats": {
-        "str": 15,
-        "sta": 11,
-        "dmg_done": [
-          0,
-          0,
-          32,
-          32,
-          32,
-          32,
-          32,
-          32
-        ],
-        "armor": 0
-      },
-      "displayid": "21159"
     },
     {
       "id": 250619,
@@ -154520,35 +135239,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 2.4,
       "mindmg": 71,
       "maxdmg": 108
-    },
-    {
-      "id": 270085,
-      "classId": 2,
-      "subclassId": 8,
-      "slot": 17,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Master Hunter's Spellsword",
-      "speed": 2.4,
-      "mindmg": 62.53,
-      "maxdmg": 93.8,
-      "path": "inv_sword_42",
-      "stats": {
-        "str": 12,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      },
-      "displayid": "28546"
     },
     {
       "id": 270108,
@@ -155100,37 +135790,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "31998"
     },
     {
-      "id": 272682,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Premier High Warlord's Destroyer",
-      "speed": 3.8,
-      "mindmg": 187.09,
-      "maxdmg": 280.64,
-      "path": "inv_mace_09",
-      "stats": {
-        "str": 15,
-        "sta": 25,
-        "int": 24,
-        "dmg_done": [
-          0,
-          0,
-          24,
-          24,
-          24,
-          24,
-          24,
-          24
-        ],
-        "armor": 0
-      },
-      "displayid": "36079"
-    },
-    {
       "id": 272840,
       "classId": 2,
       "subclassId": 1,
@@ -155235,37 +135894,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "31996"
     },
     {
-      "id": 272858,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Premier Grand Marshal's Demolisher",
-      "speed": 3.8,
-      "mindmg": 187.09,
-      "maxdmg": 280.64,
-      "path": "inv_hammer_23",
-      "stats": {
-        "str": 15,
-        "sta": 25,
-        "int": 24,
-        "dmg_done": [
-          0,
-          0,
-          24,
-          24,
-          24,
-          24,
-          24,
-          24
-        ],
-        "armor": 0
-      },
-      "displayid": "36065"
-    },
-    {
       "id": 273046,
       "classId": 2,
       "subclassId": 1,
@@ -155315,22 +135943,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 2,
       "mindmg": 36,
       "maxdmg": 55
-    },
-    {
-      "id": 273841,
-      "classId": 2,
-      "subclassId": 5,
-      "slot": 17,
-      "requires": 23,
-      "quality": 3,
-      "ilvl": 28,
-      "name": "Twilight Maul",
-      "path": "inv_hammer_09",
-      "displayid": 2775,
-      "stats": {},
-      "speed": 3.3,
-      "mindmg": 60,
-      "maxdmg": 91
     },
     {
       "id": 274158,
@@ -155877,35 +136489,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "743215"
     },
     {
-      "id": 279260,
-      "classId": 2,
-      "subclassId": 1,
-      "slot": 17,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 65,
-      "name": "Forest Defender's Axe",
-      "speed": 3.3,
-      "mindmg": 162.47,
-      "maxdmg": 243.71,
-      "stats": {
-        "str": 18,
-        "sta": 27,
-        "dmg_done": [
-          0,
-          0,
-          28,
-          28,
-          28,
-          28,
-          28,
-          28
-        ],
-        "armor": 0
-      },
-      "displayid": "743936"
-    },
-    {
       "id": 279841,
       "classId": 2,
       "subclassId": 5,
@@ -156324,35 +136907,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "maxdmg": 24
     },
     {
-      "id": 284257,
-      "classId": 2,
-      "subclassId": 1,
-      "slot": 17,
-      "requires": 54,
-      "quality": 3,
-      "ilvl": 59,
-      "name": "Icesworn Decapitator",
-      "path": "inv_axe_69",
-      "displayid": 21159,
-      "stats": {
-        "str": 17,
-        "sta": 18,
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          10,
-          0,
-          0
-        ]
-      },
-      "speed": 3.6,
-      "mindmg": 145,
-      "maxdmg": 219
-    },
-    {
       "id": 284286,
       "classId": 2,
       "subclassId": 1,
@@ -156494,25 +137048,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "speed": 2.5,
       "mindmg": 32,
       "maxdmg": 49
-    },
-    {
-      "id": 286540,
-      "classId": 2,
-      "subclassId": 8,
-      "slot": 17,
-      "requires": 22,
-      "quality": 3,
-      "ilvl": 27,
-      "name": "The Skyblade",
-      "path": "inv_sword_20",
-      "displayid": 752759,
-      "stats": {
-        "str": 10,
-        "sta": 8
-      },
-      "speed": 3.6,
-      "mindmg": 56,
-      "maxdmg": 105
     },
     {
       "id": 286742,
@@ -157227,103 +137762,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "34891"
     },
     {
-      "id": 22589,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 0,
-      "quality": 5,
-      "ilvl": 90,
-      "name": "Atiesh Greatstaff of the Guardian",
-      "speed": 2.9,
-      "mindmg": 225.3,
-      "maxdmg": 337.95,
-      "path": "inv_staff_medivh",
-      "stats": {
-        "sta": 31,
-        "spi": 24,
-        "int": 32,
-        "hit_rate": 20,
-        "dmg_done": [
-          0,
-          0,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "armor": 0
-      },
-      "useSpell": 28148,
-      "displayid": "35632"
-    },
-    {
-      "id": 22630,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 0,
-      "quality": 5,
-      "ilvl": 90,
-      "name": "Atiesh Greatstaff of the Guardian",
-      "speed": 2.9,
-      "mindmg": 225.3,
-      "maxdmg": 337.95,
-      "path": "inv_staff_medivh",
-      "stats": {
-        "sta": 30,
-        "int": 29,
-        "crit_rate": 28,
-        "dmg_done": [
-          0,
-          0,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "armor": 0
-      },
-      "useSpell": 28148,
-      "displayid": "35631"
-    },
-    {
-      "id": 22631,
-      "classId": 2,
-      "subclassId": 10,
-      "slot": 17,
-      "requires": 0,
-      "quality": 5,
-      "ilvl": 90,
-      "name": "Atiesh Greatstaff of the Guardian",
-      "speed": 2.9,
-      "mindmg": 225.3,
-      "maxdmg": 337.95,
-      "path": "inv_staff_medivh",
-      "stats": {
-        "sta": 28,
-        "spi": 27,
-        "int": 28,
-        "dmg_done": [
-          0,
-          0,
-          120,
-          120,
-          120,
-          120,
-          120,
-          120
-        ],
-        "armor": 0
-      },
-      "useSpell": 28148,
-      "displayid": "35634"
-    },
-    {
       "id": 22632,
       "classId": 2,
       "subclassId": 10,
@@ -157408,32 +137846,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
   ],
   "robe": [
     {
-      "id": 1561,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 15,
-      "name": "Harvester's Robe",
-      "path": "inv_chest_cloth_13",
-      "stats": {
-        "spi": 2,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 0
-      },
-      "displayid": "10895"
-    },
-    {
       "id": 2231,
       "classId": 4,
       "subclassId": 1,
@@ -157465,32 +137877,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "10621"
     },
     {
-      "id": 2585,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 21,
-      "name": "Gray Woolen Robe",
-      "path": "inv_chest_cloth_13",
-      "stats": {
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "armor": 0
-      },
-      "displayid": "10896"
-    },
-    {
       "id": 3161,
       "classId": 4,
       "subclassId": 1,
@@ -157505,32 +137891,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "16696"
-    },
-    {
-      "id": 3461,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 24,
-      "name": "High Robe of the Adjudicator",
-      "path": "inv_chest_cloth_18",
-      "stats": {
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
-      },
-      "displayid": "12213"
     },
     {
       "id": 3555,
@@ -157619,58 +137979,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "16673"
     },
     {
-      "id": 5766,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 27,
-      "name": "Lesser Wizard's Robe",
-      "path": "inv_chest_cloth_17",
-      "stats": {
-        "int": 8,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      },
-      "displayid": "8864"
-    },
-    {
-      "id": 5770,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 30,
-      "name": "Robes of Arcana",
-      "path": "inv_chest_cloth_29",
-      "stats": {
-        "spi": 7,
-        "dmg_done": [
-          0,
-          0,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "armor": 0
-      },
-      "displayid": "8865"
-    },
-    {
       "id": 5812,
       "classId": 4,
       "subclassId": 1,
@@ -157720,58 +138028,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "17123"
     },
     {
-      "id": 6242,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 14,
-      "name": "Blue Linen Robe",
-      "path": "inv_chest_cloth_23",
-      "stats": {
-        "spi": 3,
-        "dmg_done": [
-          0,
-          0,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "armor": 0
-      },
-      "displayid": "8853"
-    },
-    {
-      "id": 6243,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 18,
-      "name": "Green Woolen Robe",
-      "path": "inv_chest_cloth_22",
-      "stats": {
-        "int": 3,
-        "dmg_done": [
-          0,
-          0,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
-        ],
-        "armor": 0
-      },
-      "displayid": "10894"
-    },
-    {
       "id": 6263,
       "classId": 4,
       "subclassId": 1,
@@ -157787,33 +138043,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "11037"
-    },
-    {
-      "id": 6264,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 23,
-      "name": "Greater Adept's Robe",
-      "path": "inv_chest_cloth_24",
-      "stats": {
-        "spi": 7,
-        "int": 2,
-        "dmg_done": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "armor": 0
-      },
-      "displayid": "12716"
     },
     {
       "id": 6503,
@@ -157868,33 +138097,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "13077"
     },
     {
-      "id": 7054,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 38,
-      "name": "Robe of Power",
-      "path": "inv_chest_cloth_02",
-      "stats": {
-        "spi": 8,
-        "int": 12,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      },
-      "displayid": "17133"
-    },
-    {
       "id": 7063,
       "classId": 4,
       "subclassId": 1,
@@ -157926,32 +138128,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "16523"
-    },
-    {
-      "id": 8200,
-      "classId": 4,
-      "subclassId": 2,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 43,
-      "name": "Big Voodoo Robe",
-      "path": "inv_chest_cloth_25",
-      "stats": {
-        "int": 14,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      },
-      "displayid": "13666"
     },
     {
       "id": 9598,
@@ -158079,32 +138255,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "23604"
     },
     {
-      "id": 13858,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 52,
-      "name": "Runecloth Robe",
-      "path": "inv_chest_cloth_04",
-      "stats": {
-        "int": 17,
-        "dmg_done": [
-          0,
-          0,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
-        ],
-        "armor": 0
-      },
-      "displayid": "21957"
-    },
-    {
       "id": 13868,
       "classId": 4,
       "subclassId": 1,
@@ -158119,41 +138269,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "24612"
-    },
-    {
-      "id": 14100,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 54,
-      "name": "Brightcloth Robe",
-      "path": "inv_chest_cloth_26",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          16,
-          16,
-          0
-        ],
-        "armor": 0
-      },
-      "displayid": "15820"
     },
     {
       "id": 14106,
@@ -158172,41 +138287,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "24932"
     },
     {
-      "id": 14128,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 60,
-      "name": "Wizardweave Robe",
-      "path": "inv_chest_cloth_46",
-      "stats": {
-        "dmg_done": [
-          0,
-          0,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          18,
-          0,
-          0,
-          0,
-          18
-        ],
-        "armor": 0
-      },
-      "displayid": "17275"
-    },
-    {
       "id": 14136,
       "classId": 4,
       "subclassId": 1,
@@ -158221,122 +138301,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "24612"
-    },
-    {
-      "id": 15455,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 37,
-      "name": "Dustfall Robes",
-      "path": "inv_chest_cloth_32",
-      "stats": {
-        "sta": 8,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 0
-      },
-      "displayid": "24189"
-    },
-    {
-      "id": 18486,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 61,
-      "name": "Mooncloth Robe",
-      "path": "inv_chest_cloth_04",
-      "stats": {
-        "sta": 12,
-        "int": 25,
-        "dmg_done": [
-          0,
-          0,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
-        ],
-        "armor": 0
-      },
-      "displayid": "30823"
-    },
-    {
-      "id": 19129,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 49,
-      "name": "Everglowing Robe",
-      "path": "inv_chest_cloth_16",
-      "stats": {
-        "spi": 11,
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 0
-      },
-      "displayid": "21719"
-    },
-    {
-      "id": 19156,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 66,
-      "name": "Flarecore Robe",
-      "path": "inv_chest_cloth_18",
-      "stats": {
-        "sta": 35,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "resistance": [
-          0,
-          0,
-          0,
-          15,
-          0,
-          0,
-          0,
-          0
-        ],
-        "armor": 0
-      },
-      "displayid": "16668"
     },
     {
       "id": 20360,
@@ -158396,175 +138360,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "30868"
     },
     {
-      "id": 21663,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 77,
-      "name": "Robes of the Guardian Saint",
-      "path": "inv_chest_cloth_23",
-      "stats": {
-        "sta": 20,
-        "int": 22,
-        "dmg_done": [
-          0,
-          0,
-          23,
-          23,
-          23,
-          23,
-          23,
-          23
-        ],
-        "armor": 0
-      },
-      "displayid": "29242"
-    },
-    {
-      "id": 22069,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Sorcerer's Robes",
-      "path": "inv_chest_cloth_25",
-      "stats": {
-        "sta": 14,
-        "spi": 9,
-        "int": 25,
-        "dmg_done": [
-          0,
-          0,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
-        ],
-        "armor": 0
-      },
-      "displayid": "34596"
-    },
-    {
-      "id": 22075,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Deathmist Robe",
-      "path": "inv_chest_cloth_49",
-      "stats": {
-        "sta": 27,
-        "int": 22,
-        "crit_rate": 14,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      },
-      "displayid": "34625"
-    },
-    {
-      "id": 22083,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 60,
-      "name": "Virtuous Robe",
-      "path": "inv_chest_cloth_11",
-      "stats": {
-        "sta": 21,
-        "spi": 12,
-        "int": 22,
-        "dmg_done": [
-          0,
-          0,
-          14,
-          14,
-          14,
-          14,
-          14,
-          14
-        ],
-        "armor": 0
-      },
-      "displayid": "34633"
-    },
-    {
-      "id": 22496,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 92,
-      "name": "Frostfire Robe",
-      "path": "inv_chest_cloth_43",
-      "stats": {
-        "sta": 21,
-        "int": 27,
-        "crit_rate": 14,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          47,
-          47,
-          47,
-          47,
-          47,
-          47
-        ],
-        "armor": 0
-      },
-      "displayid": "35523"
-    },
-    {
-      "id": 22504,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 4,
-      "ilvl": 92,
-      "name": "Plagueheart Robe",
-      "path": "inv_chest_cloth_43",
-      "stats": {
-        "sta": 27,
-        "int": 22,
-        "crit_rate": 14,
-        "hit_rate": 10,
-        "dmg_done": [
-          0,
-          0,
-          51,
-          51,
-          51,
-          51,
-          51,
-          51
-        ],
-        "armor": 0
-      },
-      "displayid": "35185"
-    },
-    {
       "id": 22512,
       "classId": 4,
       "subclassId": 1,
@@ -158583,33 +138378,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "displayid": "36354"
     },
     {
-      "id": 253901,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 3,
-      "ilvl": 20,
-      "name": "Filigreed Pristine Gown",
-      "stats": {
-        "sta": 4,
-        "spi": 3,
-        "int": 5,
-        "dmg_done": [
-          0,
-          0,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "armor": 0
-      },
-      "displayid": "715246"
-    },
-    {
       "id": 263332,
       "classId": 4,
       "subclassId": 1,
@@ -158623,58 +138391,6 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "737475"
-    },
-    {
-      "id": 274941,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Bristle Hills Mystic Robe",
-      "path": "inv_chest_cloth_24",
-      "stats": {
-        "int": 11,
-        "dmg_done": [
-          0,
-          0,
-          13,
-          13,
-          13,
-          13,
-          13,
-          13
-        ],
-        "armor": 0
-      },
-      "displayid": "740090"
-    },
-    {
-      "id": 274946,
-      "classId": 4,
-      "subclassId": 1,
-      "slot": 20,
-      "requires": 0,
-      "quality": 2,
-      "ilvl": 42,
-      "name": "Gnollblood Robe",
-      "path": "inv_chest_cloth_24",
-      "stats": {
-        "spi": 12,
-        "dmg_done": [
-          0,
-          0,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "armor": 0
-      },
-      "displayid": "740090"
     },
     {
       "id": 279266,

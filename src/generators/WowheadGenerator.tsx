@@ -134,6 +134,7 @@ function toItemStats(wowheadStats: WowheadItem['stats']): Stats {
 		exprtng: 'expertise_rate',
 		defrtng: 'defense',
 		hastertng: 'haste_rate',
+		splpwr: 'dmg_done',
 	};
 
 	for (const [wowheadStat, simStat] of Object.entries(statFields)) {
@@ -227,6 +228,7 @@ export default function WowheadGenerator() {
 				if (speed) item.speed = speed;
 				if (mindmg) item.mindmg = mindmg;
 				if (maxdmg) item.maxdmg = maxdmg;
+				if (item.stats && item.stats.dmg_done) continue;
 				for (const slot of slots) newGear[slot].push(item);
 			}
 

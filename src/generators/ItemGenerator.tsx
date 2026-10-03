@@ -714,6 +714,7 @@ export default function ItemGenerator() {
 			if (obj.id == 867) obj.stats.melee_ap = 20;
 			if (obj.id == 12548) obj.requires = 51;
 
+			if (obj.stats.dmg_done && obj.stats.dmg_done[SpellSchool.Arcane] > 0) continue;
 			if (forceExclude(obj)) continue;
 			if (!forceInclude(obj) && !obj.proc && !obj.useSpell && Object.keys(obj.stats).length === 0) continue;
 

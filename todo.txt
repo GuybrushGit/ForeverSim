@@ -1,7 +1,6 @@
 /********************************  TODO LIST  *************************
 
 item sets
-spell power to filters
 mobile bottom bar
 mobile padding
 
