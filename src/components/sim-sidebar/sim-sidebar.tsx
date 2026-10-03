@@ -85,6 +85,7 @@ function SimSidebar() {
 					}}>
 					{menuOpen ? <XIcon size={20} /> : <ListIcon size={20} />}
 				</button>
+				<SimSidebarMeters></SimSidebarMeters>
 				<button
 					aria-label={statsOpen ? 'Hide character stats' : 'Show character stats'}
 					aria-expanded={statsOpen}
@@ -111,7 +112,6 @@ function SimSidebar() {
 				<SimSidebarOption id="spreadsheet" text="Spreadsheet" icon={SwordIcon}></SimSidebarOption>
 				<SimSidebarOption id="settings" text="Settings" icon={GearIcon}></SimSidebarOption>
 				<SimSidebarOption id="logs" text="Logs & Stats" icon={FadersIcon}></SimSidebarOption>
-				<SimSidebarMeters></SimSidebarMeters>
 			</div>
 			<button
 				className="sim-sidebar-stats-toggle"

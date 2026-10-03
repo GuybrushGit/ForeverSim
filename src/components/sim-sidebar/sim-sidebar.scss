@@ -14,7 +14,7 @@
 	padding: 16px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	gap: 4px;
 	box-sizing: border-box;
 	.sim-menu {
@@ -157,6 +157,23 @@
 .sim-sidebar-backdrop {
 	display: none;
 }
+.sim-sidebar-topbar {
+	position: absolute;
+	inset: 0;
+	z-index: 3;
+	display: block;
+	pointer-events: none;
+	> button {
+		display: none;
+	}
+	.sim-sidebar-meters {
+		position: absolute;
+		right: 16px;
+		bottom: 16px;
+		left: 16px;
+		pointer-events: auto;
+	}
+}
 
 @media (max-width: $phablet-width) {
 	.sim-sidebar-shell {
@@ -167,25 +184,79 @@
 	}
 	.sim-sidebar-topbar {
 		position: relative;
+		inset: auto;
 		z-index: 3;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		gap: 8px;
 		height: $mobile-topbar-height;
 		padding: 0 8px;
 		box-sizing: border-box;
 		background: $background-card;
-		border-bottom: 1px solid $border-color;
-		button {
+		border-top: 1px solid $border-color;
+		pointer-events: auto;
+		> button {
 			width: 36px;
 			height: 36px;
 			padding: 0;
 			justify-content: center;
+			display: flex;
+		}
+		.sim-sidebar-meters {
+			position: static;
+			display: flex;
+			align-items: center;
+			flex: 1;
+			flex-wrap: nowrap;
+			gap: 8px;
+			min-width: 0;
+			margin: 0;
+			text-align: center;
+			> div {
+				width: auto;
+				flex: 0 1 auto;
+				display: flex;
+				flex-direction: column;
+				gap: 0;
+				&:has(p:empty) {
+					display: none;
+				}
+			}
+			.dps .value,
+			.tps .value {
+				font-size: 17px;
+				line-height: 1;
+				-webkit-text-stroke: 0;
+				text-shadow: none;
+			}
+			.dps .value {
+				color: $light-blue;
+			}
+			.tps .value {
+				color: rgb(202, 56, 37);
+			}
+			.label {
+				top: 0;
+				font-size: 9px;
+				line-height: 1;
+			}
+			.time,
+			.tmi,
+			.dtps {
+				display: none;
+			}
+			> button {
+				flex: 0 0 auto;
+				width: auto;
+				height: 36px;
+				margin: 0 0 0 auto;
+				padding: 0 10px;
+			}
 		}
 	}
 	.sim-sidebar-backdrop {
 		position: fixed;
-		inset: $mobile-topbar-height 0 0 0;
+		inset: 0 0 $mobile-topbar-height 0;
 		z-index: 1;
 		background: rgba(0, 0, 0, 0.5);
 	}
@@ -195,11 +266,12 @@
 	}
 	.sim-sidebar {
 		position: fixed;
-		top: $mobile-topbar-height;
+		top: 0;
+		bottom: $mobile-topbar-height;
 		left: 0;
 		width: min(280px, 85vw);
-		height: calc(100dvh - #{$mobile-topbar-height});
 		overflow-y: auto;
+		justify-content: flex-start;
 		transform: translateX(-100%);
 		visibility: hidden;
 		transition:
@@ -216,11 +288,11 @@
 	.sim-sidebar-stats-panel {
 		position: fixed;
 		z-index: 2;
-		top: $mobile-topbar-height;
+		top: 0;
+		bottom: $mobile-topbar-height;
 		left: auto;
 		right: 0;
 		width: min(320px, 100vw);
-		height: calc(100dvh - #{$mobile-topbar-height});
 		box-sizing: border-box;
 		border-left: 1px solid $border-color;
 		border-right: 0;

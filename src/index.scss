@@ -49,10 +49,11 @@ h1 {
 
 @media (max-width: $phablet-width) {
 	#root {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 	.section-container {
 		height: calc(100dvh - #{$mobile-topbar-height});
+		padding-inline: 5%;
 		// centered content taller than the viewport would be clipped above the scroll area
 		align-items: flex-start;
 	}
