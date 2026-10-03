@@ -35,6 +35,23 @@ export const useStore = create()(
 				set((state: any) => ({
 					profileList: { ...state.profileList, [profile.id]: profile },
 				})),
+			spreadsheetDps: {} as Record<string, Record<string, Record<string, number>>>,
+			setSpreadsheetDps: (slot: string, values: Record<string, number>) =>
+				set((state: any) => {
+					const profile = state.profile;
+					return {
+						spreadsheetDps: {
+							...state.spreadsheetDps,
+							[profile]: {
+								...state.spreadsheetDps[profile],
+								[slot]: {
+									...state.spreadsheetDps[profile]?.[slot],
+									...values,
+								},
+							},
+						},
+					};
+				}),
 
 			// settings
 			getPlayerRace: () => {
@@ -157,11 +174,14 @@ export const useStore = create()(
 			getItems: () => {
 				if (!get().profile) return global.templateItems;
 				let profileItems = get().profileList[get().profile].items;
+				let spreadsheetDps = get().spreadsheetDps[get().profile] ?? {};
 				for (let slot in global.templateItems) {
 					for (let item of global.templateItems[slot]) {
 						delete item.selected;
 						delete item.pinned;
 						delete item.acquired;
+						delete item.dps;
+						if (spreadsheetDps[slot]?.[item.id] !== undefined) item.dps = spreadsheetDps[slot][item.id];
 						if (profileItems[slot]) {
 							for (let j in profileItems[slot]) {
 								if (j == item.id.toString() && (!item.rand || item.rand == profileItems[slot][j].rand)) {
@@ -259,11 +279,14 @@ export const useStore = create()(
 			getEnchants: () => {
 				if (!get().profile) return global.templateEnchants;
 				let profileEnchants = get().profileList[get().profile].enchants;
+				let spreadsheetDps = get().spreadsheetDps[get().profile] ?? {};
 				for (let slot in global.templateEnchants) {
 					for (let item of global.templateEnchants[slot]) {
 						delete item.selected;
 						delete item.pinned;
 						delete item.acquired;
+						delete item.dps;
+						if (spreadsheetDps[slot]?.[item.id] !== undefined) item.dps = spreadsheetDps[slot][item.id];
 						if (profileEnchants[slot]) {
 							for (let j in profileEnchants[slot]) {
 								if (j == item.id.toString() && (!item.rand || item.rand == profileEnchants[slot][j].rand)) {

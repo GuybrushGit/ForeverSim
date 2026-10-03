@@ -6,7 +6,7 @@ import { getQualityClass, round } from '@core/shared/utils';
 import { ColumnsIcon, FunnelSimpleIcon, PlusIcon, PushPinIcon, TrashIcon, XIcon } from '@phosphor-icons/react';
 import { useStore } from '@core/shared/store';
 import clsx from 'clsx';
-import { ArmorType, GetArmorType, GetWeaponType, InventoryType, ItemType, WeaponType } from '@core/shared/enums';
+import { ArmorType, GetArmorType, GetWeaponType, InventoryType, ItemType, WeaponType, WorkerEvent } from '@core/shared/enums';
 import SimModal from '@components/sim-modal/sim-modal';
 
 ModuleRegistry.registerModules([AllCommunityModule]);
@@ -188,6 +188,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		clearSlot,
 		setEnchant,
 		setItem,
+		setSpreadsheetDps,
 		getSettings,
 		getSetting,
 		getActions,
@@ -200,6 +201,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	} = store;
 	const progressBarRef = useRef(null);
 	const spreadsheetTableRef = useRef(null);
+	const savedDps = useRef<Record<string, number>>({});
 	const [filters, setFilters] = useState<TableFilter[]>(() => ((globalThis as any).templateFilters ?? []) as TableFilter[]);
 	const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
 	const [filterField, setFilterField] = useState<FilterField>('name');
@@ -668,18 +670,30 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 		});
 	}
 
-	function update(states: any[]) {
+	function update(states: any[], persistDps = false) {
 		let list = slot.includes('enchant') ? enchants[slot] : items[slot];
+		const dpsById: Record<string, number> = {};
 		for (let item of list) {
 			for (let state of states) {
 				if (item.id == state.test_itemId) {
 					const rowNode = global.gridApi!.getRowNode(item.id.toString());
 					if (rowNode) {
-						rowNode.setDataValue('dps', round(state.dmg / state.duration));
+						const dps = round(state.dmg / state.duration);
+						rowNode.setDataValue('dps', dps);
+						if (persistDps || state.event === WorkerEvent.Finished) dpsById[item.id] = dps;
 					}
 				}
 			}
 		}
+		const changedDps: Record<string, number> = {};
+		for (const [id, dps] of Object.entries(dpsById)) {
+			const key = `${store.profile}:${slot}:${id}`;
+			if (savedDps.current[key] !== dps) {
+				changedDps[id] = dps;
+				savedDps.current[key] = dps;
+			}
+		}
+		if (Object.keys(changedDps).length > 0) setSpreadsheetDps(slot, changedDps);
 	}
 
 	function updateProgressBar() {
@@ -702,7 +716,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	}
 
 	function finish_all(states: any[]) {
-		update(states);
+		update(states, true);
 		global.gridApi.applyColumnState({ state: defaultSortModel });
 		global.gridApi!.resetColumnState();
 		applyColumnVisibility();
@@ -738,7 +752,7 @@ function SimSpreadsheetTable(props: { dashboard: boolean }) {
 	}
 
 	function finish_pinned(states: any[]) {
-		update(states);
+		update(states, true);
 		clearInterval(updateInterval);
 		hideProgressBar();
 		global.gridApi.applyColumnState({ state: defaultSortModel });

@@ -2,6 +2,8 @@
 
 item sets
 spell power to filters
+mobile bottom bar
+mobile padding
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
@@ -20,9 +22,11 @@ Maybe do this later:
 
 
 Check this someday:
+  Tclap adds 2.5% of ap?
   Rend adds 2% of ap?
   Revenge adds 25% ap ?
   sunder armor ap ?
   skyborn real stats
+  check execute rage refunds
 
  */

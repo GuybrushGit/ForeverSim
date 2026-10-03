@@ -89,6 +89,7 @@ function SimDashboardProfiles() {
 	function addProfile() {
 		let maxid = 0;
 		for (let i in profileList) {
+			if (i.indexOf('-shared-') > -1) continue;
 			maxid = Math.max(maxid, Number(i.replace(/^\D+/g, '')));
 		}
 		let newname = route + (maxid + 1);

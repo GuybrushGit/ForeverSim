@@ -118,7 +118,7 @@ export function getGlanceChance(player: Player, weapon: Weapon, target: Target) 
 export function getMissChance(player: Player, weapon: Weapon, target: Target) {
 	let diff = target.base_stats.defense - player.base_stats.weapon_skill[weapon.type];
 	let miss = 5 + (diff > 10 ? diff * 0.2 : diff * 0.1);
-	miss -= diff > 10 ? player.base_stats.hit[SpellSchool.Physical] - 1 : player.base_stats.hit[SpellSchool.Physical];
+	miss -= player.base_stats.hit[SpellSchool.Physical];
 	miss -= weapon.bonushit;
 	return Math.max(0, round(miss));
 }
@@ -127,7 +127,7 @@ export function getDWMissChance(player: Player, weapon: Weapon, target: Target) 
 	let diff = target.base_stats.defense - player.base_stats.weapon_skill[weapon.type];
 	let miss = 5 + (diff > 10 ? diff * 0.2 : diff * 0.1);
 	miss = miss * 0.8 + 20;
-	miss -= diff > 10 ? player.base_stats.hit[SpellSchool.Physical] - 1 : player.base_stats.hit[SpellSchool.Physical];
+	miss -= player.base_stats.hit[SpellSchool.Physical];
 	miss -= weapon.bonushit;
 	return Math.max(0, round(miss));
 }

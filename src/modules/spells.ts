@@ -8619,8 +8619,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "attributes": 448,
     "attributesEx3": 16777216,
     "classSet": 4,
-    "procChance": 100,
-    "procMask": 8388612,
     "path": "ability_dualwield",
     "effects": [
       new Effect({
@@ -14387,7 +14385,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 1310222,
     "name": "Spearing Strike",
     "itemClass": 2,
-    "itemSubclassMask": 1378,
+    "itemSubclassMask": 173555,
     "cost": 150,
     "schoolMask": 1,
     "attributes": 327696,
@@ -14396,6 +14394,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "classSet": 4,
     "cooldown": 20000,
     "gcd": true,
+    "procChance": 101,
     "path": "inv_spear_01",
     "formMask": 65536,
     "baseLevel": 1,

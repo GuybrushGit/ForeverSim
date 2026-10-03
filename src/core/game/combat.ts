@@ -360,12 +360,12 @@ export const Combat = {
 				action.spell.attributesEx & SpellAttributesEx.SPELL_ATTR_EX_DISCOUNT_POWER_ON_MISS &&
 				(result == CombatResult.Miss || result == CombatResult.Dodge || result == CombatResult.Parry)
 			) {
-				if (action instanceof ExecuteAction) sim.addPower((action.cost + sim.aux[action.id]) * 0.8);
+				if (action instanceof ExecuteAction) sim.addPower((action.cost + sim.aux[action.id]) * 0.84);
 				else sim.addPower(action.cost * 0.8);
 			}
 		} else {
 			if (result == CombatResult.Dodge || result == CombatResult.Parry) {
-				//sim.addPower((weapon.getAverageDamage(sim, 0) / sim.player.rage_conversion) * 75 * 0.75);
+				// sim.addPower((weapon.getAverageDamage(sim, 0) / sim.player.rage_conversion) * 75 * 0.75);
 			} else if (result != CombatResult.Miss) {
 				// https://github.com/magey/forever-warrior/issues/3
 				sim.addPower(weapon.speed * weapon.rage_mod * 10 * (result == CombatResult.Crit ? 2 : 1));

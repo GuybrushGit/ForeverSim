@@ -165,39 +165,10 @@ const templatePresets = [
 		type: 'items',
 		name: 'Test Preset',
 		value: {
-			mainhand: {
-				'19554': {
-					id: 19554,
-					path: 'inv_sword_27',
-					selected: true,
-				},
-			},
-			offhand: {
-				'19554': {
-					id: 19554,
-					path: 'inv_sword_27',
-					selected: true,
-				},
-			},
-			head: {
-				'21999': {
-					id: 21999,
-					path: 'inv_helmet_02',
-					selected: true,
-				},
-			},
-			shoulder: {
-				'22001': {
-					id: 22001,
-					path: 'inv_shoulder_30',
-					selected: true,
-				},
-			},
-			twohand: {},
-			hands: {
-				'21998': {
-					id: 21998,
-					path: 'inv_gauntlets_26',
+			back: {
+				'13340': {
+					id: 13340,
+					path: 'inv_misc_cape_20',
 					selected: true,
 				},
 			},
@@ -208,24 +179,17 @@ const templatePresets = [
 					selected: true,
 				},
 			},
+			head: {
+				'12640': {
+					id: 12640,
+					path: 'inv_helmet_36',
+					selected: true,
+				},
+			},
 			legs: {
-				'22000': {
-					id: 22000,
+				'22385': {
+					id: 22385,
 					path: 'inv_pants_04',
-					selected: true,
-				},
-			},
-			back: {
-				'18461': {
-					id: 18461,
-					path: 'inv_misc_cape_07',
-					selected: true,
-				},
-			},
-			chest: {
-				'21997': {
-					id: 21997,
-					path: 'inv_chest_plate03',
 					selected: true,
 				},
 			},
@@ -236,24 +200,38 @@ const templatePresets = [
 					selected: true,
 				},
 			},
-			trinket1: {
-				'272437': {
-					id: 272437,
-					path: 'inv_engineering_90_lightningbox',
+			chest: {
+				'11726': {
+					id: 11726,
+					path: 'inv_chest_chain_15',
 					selected: true,
 				},
 			},
-			wrists: {
-				'21996': {
-					id: 21996,
-					path: 'inv_bracer_18',
+			hands: {
+				'21998': {
+					id: 21998,
+					path: 'inv_gauntlets_26',
 					selected: true,
 				},
 			},
 			waist: {
-				'21994': {
-					id: 21994,
-					path: 'inv_belt_34',
+				'13142': {
+					id: 13142,
+					path: 'inv_belt_33',
+					selected: true,
+				},
+			},
+			ranged: {
+				'19107': {
+					id: 19107,
+					path: 'inv_weapon_crossbow_07',
+					selected: true,
+				},
+			},
+			wrists: {
+				'13400': {
+					id: 13400,
+					path: 'inv_bracer_17',
 					selected: true,
 				},
 			},
@@ -265,9 +243,38 @@ const templatePresets = [
 				},
 			},
 			finger2: {
-				'18821': {
-					id: 18821,
-					path: 'inv_jewelry_ring_07',
+				'275972': {
+					id: 275972,
+					path: 'inv_jewelry_ring_25',
+					selected: true,
+				},
+			},
+			offhand: {
+				'19554': {
+					id: 19554,
+					path: 'inv_sword_27',
+					selected: true,
+				},
+			},
+			twohand: {},
+			mainhand: {
+				'19554': {
+					id: 19554,
+					path: 'inv_sword_27',
+					selected: true,
+				},
+			},
+			shoulder: {
+				'277117': {
+					id: 277117,
+					path: 'inv_shoulder_02',
+					selected: true,
+				},
+			},
+			trinket1: {
+				'272437': {
+					id: 272437,
+					path: 'inv_engineering_90_lightningbox',
 					selected: true,
 				},
 			},
@@ -278,52 +285,9 @@ const templatePresets = [
 					selected: true,
 				},
 			},
-			ranged: {
-				'19107': {
-					id: 19107,
-					path: 'inv_weapon_crossbow_07',
-					selected: true,
-				},
-			},
-			offhand_enchant: {
-				'20034': {
-					id: 20034,
-					selected: true,
-				},
-			},
-			hands_enchant: {
-				'1248640': {
-					id: 1248640,
-					selected: true,
-				},
-			},
-			offhand_tempenchant: {
-				'22756': {
-					id: 22756,
-					selected: true,
-				},
-			},
-			mainhand_enchant: {
-				'20034': {
-					id: 20034,
-					selected: true,
-				},
-			},
-			mainhand_tempenchant: {
-				'10612': {
-					id: 10612,
-					selected: true,
-				},
-			},
-			waist_enchant: {
-				'1226211': {
-					id: 1226211,
-					selected: true,
-				},
-			},
-			legs_enchant: {
-				'468373': {
-					id: 468373,
+			back_enchant: {
+				'1219587': {
+					id: 1219587,
 					selected: true,
 				},
 			},
@@ -333,27 +297,15 @@ const templatePresets = [
 					selected: true,
 				},
 			},
-			wrists_enchant: {
-				'20010': {
-					id: 20010,
+			head_enchant: {
+				'468373': {
+					id: 468373,
 					selected: true,
 				},
 			},
-			chest_enchant: {
-				'20025': {
-					id: 20025,
-					selected: true,
-				},
-			},
-			back_enchant: {
-				'1219587': {
-					id: 1219587,
-					selected: true,
-				},
-			},
-			shoulder_enchant: {
-				'24422': {
-					id: 24422,
+			legs_enchant: {
+				'468373': {
+					id: 468373,
 					selected: true,
 				},
 			},
@@ -363,9 +315,57 @@ const templatePresets = [
 					selected: true,
 				},
 			},
-			head_enchant: {
-				'468373': {
-					id: 468373,
+			chest_enchant: {
+				'20025': {
+					id: 20025,
+					selected: true,
+				},
+			},
+			hands_enchant: {
+				'1248640': {
+					id: 1248640,
+					selected: true,
+				},
+			},
+			waist_enchant: {
+				'1226211': {
+					id: 1226211,
+					selected: true,
+				},
+			},
+			wrists_enchant: {
+				'20010': {
+					id: 20010,
+					selected: true,
+				},
+			},
+			offhand_enchant: {
+				'20034': {
+					id: 20034,
+					selected: true,
+				},
+			},
+			mainhand_enchant: {
+				'20034': {
+					id: 20034,
+					selected: true,
+				},
+			},
+			shoulder_enchant: {
+				'24422': {
+					id: 24422,
+					selected: true,
+				},
+			},
+			offhand_tempenchant: {
+				'22756': {
+					id: 22756,
+					selected: true,
+				},
+			},
+			mainhand_tempenchant: {
+				'10612': {
+					id: 10612,
 					selected: true,
 				},
 			},
@@ -384,9 +384,9 @@ const templatePresets = [
 				conditions: [
 					{
 						value: '80',
-						maxpower: 800,
 						resource: 1,
 						comparator: '<=',
+						maxpower: 800,
 					},
 				],
 			},
@@ -398,9 +398,9 @@ const templatePresets = [
 				conditions: [
 					{
 						value: '70',
-						maxpower: 700,
 						resource: 1,
 						comparator: '<=',
+						maxpower: 700,
 					},
 				],
 			},
@@ -430,9 +430,9 @@ const templatePresets = [
 					},
 					{
 						value: '20',
-						maxpower: 200,
 						resource: 1,
 						comparator: '<=',
+						maxpower: 200,
 					},
 				],
 			},
@@ -472,27 +472,6 @@ const templatePresets = [
 				conditions: [],
 			},
 			{
-				id: 11574,
-				item: false,
-				name: 'Rend',
-				path: 'ability_gouge',
-				phase: 0,
-				conditions: [
-					{
-						value: '21',
-						resource: 2,
-						comparator: '>=',
-						mintimeleft: 21000,
-					},
-					{
-						value: '25',
-						maxpower: 250,
-						resource: 1,
-						comparator: '<=',
-					},
-				],
-			},
-			{
 				id: 1,
 				name: 'Return to base stance',
 				path: 'spell_nature_enchantarmor',
@@ -500,19 +479,26 @@ const templatePresets = [
 				conditions: [
 					{
 						value: '25',
-						maxpower: 250,
 						resource: 1,
 						comparator: '<=',
+						maxpower: 250,
 					},
 				],
 			},
 			{
-				id: 1310222,
-				item: false,
-				name: 'Spearing Strike',
-				path: 'inv_spear_01',
+				id: 11581,
+				name: 'Thunder Clap',
+				path: 'spell_nature_thunderclap',
 				phase: 0,
-				conditions: [],
+				conditions: [
+					{
+						resource: 1,
+						comparator: '>=',
+						value: '15',
+						minpower: 150,
+					},
+				],
+				item: false,
 			},
 			{
 				id: 1259813,
@@ -554,9 +540,9 @@ const templatePresets = [
 				conditions: [
 					{
 						value: '70',
-						maxpower: 700,
 						resource: 1,
 						comparator: '<=',
+						maxpower: 700,
 					},
 				],
 			},
@@ -574,9 +560,9 @@ const templatePresets = [
 					},
 					{
 						value: '20',
-						maxpower: 200,
 						resource: 1,
 						comparator: '<=',
+						maxpower: 200,
 					},
 				],
 			},
@@ -602,12 +588,19 @@ const templatePresets = [
 				conditions: [],
 			},
 			{
-				id: 7373,
-				item: false,
-				name: 'Hamstring',
-				path: 'ability_shockwave',
+				id: 11574,
+				name: 'Rend',
+				path: 'ability_gouge',
 				phase: 0,
-				conditions: [],
+				conditions: [
+					{
+						resource: 1,
+						comparator: '>=',
+						value: '25',
+						minpower: 250,
+					},
+				],
+				item: false,
 			},
 		],
 	},
