@@ -25,5 +25,6 @@ Check this someday:
   sunder armor ap ?
   skyborn real stats
   check execute rage refunds
+  ModCritAllPct added to all or wep specific?
 
  */

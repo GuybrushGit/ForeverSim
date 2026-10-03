@@ -126,7 +126,37 @@ export function applyEffectAura(
 				sim.addEvent(EventType.HealthChange, sim.final_stats.health);
 			}
 			break;
-		case AuraType.ModCritPct:
+		case AuraType.ModCritAllPct:
+			let valid = false;
+			if (spell.itemClass) {
+				// weapon specific but crit added to all
+				if (player.mainhand && spell.itemClass == player.mainhand.class)
+					if (!spell.itemSubclassMask || (1 << player.mainhand.type) & spell.itemSubclassMask) valid = true;
+				if (player.offhand && spell.itemClass == player.offhand.class)
+					if (!spell.itemSubclassMask || (1 << player.offhand.type) & spell.itemSubclassMask) valid = true;
+			} else {
+				// unit specific
+				valid = true;
+			}
+			if (valid) {
+				stats.crit[SpellSchool.Physical] += value * (remove ? -1 : 1);
+				stats.crit[SpellSchool.Arcane] += value * (remove ? -1 : 1);
+				stats.crit[SpellSchool.Fire] += value * (remove ? -1 : 1);
+				stats.crit[SpellSchool.Frost] += value * (remove ? -1 : 1);
+				stats.crit[SpellSchool.Nature] += value * (remove ? -1 : 1);
+				stats.crit[SpellSchool.Shadow] += value * (remove ? -1 : 1);
+				stats.crit[SpellSchool.Holy] += value * (remove ? -1 : 1);
+				if (sim) {
+					sim.final_stats.crit[SpellSchool.Arcane] = getSpellCritChance(sim, SpellSchool.Arcane);
+					sim.final_stats.crit[SpellSchool.Fire] = getSpellCritChance(sim, SpellSchool.Fire);
+					sim.final_stats.crit[SpellSchool.Frost] = getSpellCritChance(sim, SpellSchool.Frost);
+					sim.final_stats.crit[SpellSchool.Nature] = getSpellCritChance(sim, SpellSchool.Nature);
+					sim.final_stats.crit[SpellSchool.Shadow] = getSpellCritChance(sim, SpellSchool.Shadow);
+					sim.final_stats.crit[SpellSchool.Holy] = getSpellCritChance(sim, SpellSchool.Holy);
+					for (let target of sim.targets) sim.target_stats[target.index].player_crit = getCritChance(sim, target);
+				}
+			}
+			break;
 		case AuraType.ModWeaponCritPercent:
 			if (spell.itemClass) {
 				// weapon specific
