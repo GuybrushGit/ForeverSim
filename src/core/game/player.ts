@@ -18,7 +18,6 @@ import {
 	SpellModOp,
 	SpellSchool,
 	SpellType,
-	Targets,
 } from '@core/shared/enums';
 import { Weapon } from './weapon';
 import { Spell } from './spell';
@@ -613,7 +612,7 @@ export class Player {
 			for (let i of this.spell_mods) if (spell.classMask && i.mask & spell.classMask) mods.push(i);
 
 			for (let effect of spell.effects) {
-				if (effect.target == Targets.TARGET_UNIT_TARGET_ENEMY || effect.target == Targets.TARGET_ALL_ENEMY_IN_AREA) continue;
+				if (effect.targetsEnemy) continue;
 				effect.applyEffectAura(this, this.base_stats, spell, undefined, false, undefined, mods, undefined);
 			}
 		}

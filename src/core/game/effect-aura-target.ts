@@ -68,6 +68,12 @@ export function applyEffectAuraTarget(
 			if (this.miscValue & SchoolMask.Shadow) stats.dmg_taken[SpellSchool.Shadow] += value;
 			if (this.miscValue & SchoolMask.Holy) stats.dmg_taken[SpellSchool.Holy] += value;
 			break;
+		case AuraType.ModMeleeHaste:
+		case AuraType.ModMeleeHaste2:
+		case AuraType.ModMeleeHasteRacial:
+			if (remove) stats.haste /= 1 + (this.basePointsF || 0) / 100;
+			else stats.haste *= 1 + (this.basePointsF || 0) / 100;
+			break;
 		case AuraType.DummyAura:
 			if (!sim) return;
 			if (spell.name == 'Deep Wounds') Dummy.DeepWounds(sim, spell, weapon, target, this.basePointsF);

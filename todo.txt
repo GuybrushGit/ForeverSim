@@ -2,6 +2,7 @@
 
 item sets
 fix up mobile
+targets 22
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard

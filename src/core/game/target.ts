@@ -13,7 +13,7 @@ import {
 	getTargetSpellBinaryResist,
 	getTargetSpellMiss,
 } from '@core/shared/formulas';
-import { SpellSchool, Targets } from '@core/shared/enums';
+import { SpellSchool } from '@core/shared/enums';
 import type { SpellModifier } from '@core/shared/types';
 
 export function getTargetArray(data: any, player: Player) {
@@ -33,6 +33,7 @@ export class TargetStats {
 	dmg_taken_mod: number[] = Array(8).fill(1);
 	resistance: number[] = Array(8).fill(0);
 	weapon_skill: number[] = Array(21).fill(0);
+	haste: number = 1;
 
 	parry: number = 0;
 	dodge: number[] = Array(2).fill(0); // depends on weapon
@@ -139,7 +140,7 @@ export class Target {
 			for (let ability of player.abilities) if (ability.id == spell.id && spell.name != 'Sunder Armor') continue spell;
 
 			for (let effect of spell.effects) {
-				if (effect.target != Targets.TARGET_UNIT_TARGET_ENEMY && effect.target != Targets.TARGET_ALL_ENEMY_IN_AREA) continue;
+				if (!effect.targetsEnemy) continue;
 				effect.applyEffectAuraTarget(player, this.base_stats, spell, undefined, undefined, undefined, false, undefined, mods);
 			}
 		}

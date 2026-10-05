@@ -197,7 +197,7 @@ export class Simulation {
 				for (let i = 0; i < timers.targets.length; i++) {
 					if (timers.targets[i] <= 0) {
 						Combat.meleeAttackIncoming(this, this.targets[i]);
-						timers.targets[i] = this.targets[i].speed;
+						timers.targets[i] = ~~(this.targets[i].speed / this.target_stats[i].haste);
 					}
 				}
 			}
@@ -290,7 +290,7 @@ export class Simulation {
 				for (let i = 0; i < timers.targets.length; i++) {
 					if (timers.targets[i] <= 0) {
 						Combat.meleeAttackIncoming(this, this.targets[i]);
-						timers.targets[i] = this.targets[i].speed;
+						timers.targets[i] = ~~(this.targets[i].speed / this.target_stats[i].haste);
 					}
 				}
 			}

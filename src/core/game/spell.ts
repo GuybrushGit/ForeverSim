@@ -80,8 +80,7 @@ export class Spell {
 
 	removeAuraEffects(sim: Simulation, target?: Target, action?: Action, charges?: number) {
 		for (let effect of this.effects) {
-			if (effect.target != Targets.TARGET_UNIT_TARGET_ENEMY && effect.target != Targets.TARGET_ALL_ENEMY_IN_AREA)
-				effect.applyEffectAura(sim.player, sim.aura_stats, this, sim, true, action, undefined, charges);
+			if (!effect.targetsEnemy) effect.applyEffectAura(sim.player, sim.aura_stats, this, sim, true, action, undefined, charges);
 			else if (target) effect.applyEffectAuraTarget(sim.player, sim.target_stats[target.index], this, undefined, target, sim, true, action);
 		}
 	}

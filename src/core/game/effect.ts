@@ -29,9 +29,14 @@ export class Effect {
 	target?: number;
 	targetCount?: number;
 	amplitude?: number;
+	targetsEnemy: boolean = false;
 
 	constructor(obj: any) {
 		obj && Object.assign(this, obj);
+		this.targetsEnemy =
+			this.target == Targets.TARGET_UNIT_TARGET_ENEMY ||
+			this.target == Targets.TARGET_ALL_ENEMY_IN_AREA ||
+			this.target == Targets.TARGET_CASTER_COORDINATES;
 	}
 
 	getValue(player: Player, spell: Spell, sim?: Simulation, action?: Action, mods?: SpellModifier[]) {
@@ -64,8 +69,7 @@ export class Effect {
 			case EffectType.ApplyAreaAuraParty: {
 				let aura = sim.getAura(spell.id, target, weapon);
 				if (!aura || !aura.timer || (spell.maxStacks && aura.charges < spell.maxStacks) || aura.stackableDot) {
-					if (spell.selfTarget || (this.target != Targets.TARGET_UNIT_TARGET_ENEMY && this.target != Targets.TARGET_ALL_ENEMY_IN_AREA))
-						this.applyEffectAura(sim.player, sim.aura_stats, spell, sim, false, action);
+					if (spell.selfTarget || !this.targetsEnemy) this.applyEffectAura(sim.player, sim.aura_stats, spell, sim, false, action);
 					else if (target) this.applyEffectAuraTarget(sim.player, sim.target_stats[target.index], spell, weapon, target, sim, false, action);
 				}
 				break;

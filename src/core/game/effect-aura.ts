@@ -93,18 +93,18 @@ export function applyEffectAura(
 		case AuraType.ModMeleeHaste:
 		case AuraType.ModMeleeHaste2:
 		case AuraType.ModMeleeHasteRacial:
-			if (remove) stats.haste[SpellType.Melee] /= 1 + value / 100;
-			else stats.haste[SpellType.Melee] *= 1 + value / 100;
+			if (remove) stats.haste[SpellType.Melee] /= 1 + (this.basePointsF || 0) / 100;
+			else stats.haste[SpellType.Melee] *= 1 + (this.basePointsF || 0) / 100;
 			if (sim) sim.final_stats.haste[SpellType.Melee] = player.base_stats.haste[SpellType.Melee] * sim.aura_stats.haste[SpellType.Melee];
 			break;
 		case AuraType.ModRangedHaste:
-			if (remove) stats.haste[SpellType.Ranged] /= 1 + value / 100;
-			else stats.haste[SpellType.Ranged] *= 1 + value / 100;
+			if (remove) stats.haste[SpellType.Ranged] /= 1 + (this.basePointsF || 0) / 100;
+			else stats.haste[SpellType.Ranged] *= 1 + (this.basePointsF || 0) / 100;
 			if (sim) sim.final_stats.haste[SpellType.Ranged] = player.base_stats.haste[SpellType.Ranged] * sim.aura_stats.haste[SpellType.Ranged];
 			break;
 		case AuraType.CastingSpeedNotStack:
-			if (remove) stats.haste[SpellType.Magic] /= 1 + value / 100;
-			else stats.haste[SpellType.Magic] *= 1 + value / 100;
+			if (remove) stats.haste[SpellType.Magic] /= 1 + (this.basePointsF || 0) / 100;
+			else stats.haste[SpellType.Magic] *= 1 + (this.basePointsF || 0) / 100;
 			if (sim) sim.final_stats.haste[SpellType.Magic] = player.base_stats.haste[SpellType.Magic] * sim.aura_stats.haste[SpellType.Magic];
 			break;
 		case AuraType.ModIncreaseSpellPowerPct:
