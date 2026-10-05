@@ -8,7 +8,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			'/modelviewer': {
-				target: 'https://wow.zamimg.com',
+				target: 'http://82.154.140.35',
 				changeOrigin: true,
 				secure: true,
 			},
