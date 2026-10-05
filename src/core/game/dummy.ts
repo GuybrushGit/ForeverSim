@@ -133,6 +133,10 @@ export class Dummy {
 		if (player.offhand) player.offhand.bonushit += value;
 	}
 
+	static DualWieldSpecRage(player: Player, value: number) {
+		if (player.offhand) player.offhand.rage_mod *= 1 + value / 100;
+	}
+
 	static Bloodthirst(sim: Simulation) {
 		return round((35 * sim.final_stats.melee_ap) / 100);
 	}
