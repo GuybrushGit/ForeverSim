@@ -59,16 +59,16 @@ export class Weapon {
 	}
 
 	getAverageDamage(sim: Simulation, target: number) {
-		let dmg = (this.mindmg + this.bonusdmg + this.maxdmg + this.bonusdmg) / 2 + sim.final_stats.dmg_done[SpellSchool.Physical];
+		let dmg =
+			(this.mindmg + this.bonusdmg + this.maxdmg + this.bonusdmg) / 2 +
+			(sim.final_stats.melee_ap / 14) * this.normSpeed +
+			sim.final_stats.dmg_done[SpellSchool.Physical];
 		dmg = dmg * this.dmgmod * sim.final_stats.dmg_done_mod[SpellSchool.Physical];
 		return dmg * (1 - (this.offhand ? sim.target_stats[target].armor_reduction_oh : sim.target_stats[target].armor_reduction_mh));
 	}
 
 	getDeepWoundsDamage(sim: Simulation) {
-		let dmg =
-			(this.mindmg + this.bonusdmg + this.maxdmg + this.bonusdmg) / 2 +
-			(sim.final_stats.melee_ap / 14) * this.speed +
-			sim.final_stats.dmg_done[SpellSchool.Physical];
+		let dmg = (this.mindmg + this.bonusdmg + this.maxdmg + this.bonusdmg) / 2 + sim.final_stats.dmg_done[SpellSchool.Physical];
 		return dmg * this.dmgmod * sim.final_stats.dmg_done_mod[SpellSchool.Physical];
 	}
 
