@@ -57,7 +57,7 @@ function SimDashboardModel() {
 		let cancelled = false;
 		setModelError(false);
 		container.replaceChildren();
-		(globalThis as any).CONTENT_PATH = '/modelviewer/classicplus/';
+		(globalThis as any).CONTENT_PATH = 'https://guybrush-forever-sim.onrender.com/modelviewer/classicplus/';
 
 		generateClassicModel(0.65, '#sim-paperdoll-model', { race: Number(playerRace) || 1, gender: 1, items: modelItems }, 'classic')
 			.then(model => {
