@@ -374,6 +374,7 @@ export default function SpellGenerator() {
 
 		if (spell.id == 23584) spell.effects[1].basePointsF = 2;
 		if (spell.id == 12301) spell.effects[0].basePointsF = 25;
+		if (spell.id == 1323963) spell.effects[0].basePointsF = 3;
 
 		if (spell.effects && spell.effects.length) return spell;
 	}
@@ -436,7 +437,7 @@ export default function SpellGenerator() {
 		}
 
 		// racials
-		let racials = [13705, 20597, 20598, 20575, 1259721, 1259799, 20582, 20550, 20557, 20554, 1260189, 1259813, 20591, 1259710, 1259707];
+		let racials = [13705, 1259802, 20597, 20598, 20575, 1259721, 1259799, 20582, 20550, 20557, 20554, 1260189, 1259813, 20591, 1259710, 1259707];
 
 		for (let racial of racials) {
 			let spell = createSpell(racial);

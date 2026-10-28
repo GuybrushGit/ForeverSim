@@ -129,8 +129,8 @@ export class Dummy {
 		sim.timers.dodge = sim.step;
 	}
 
-	static DualWieldSpecHit(player: Player, value: number) {
-		if (player.offhand) player.offhand.bonushit += value;
+	static DualWieldHit(player: Player, value: number) {
+		if (player.offhand) player.offhand.bonushit += value + 1;
 	}
 
 	static DualWieldSpecRage(player: Player, value: number) {

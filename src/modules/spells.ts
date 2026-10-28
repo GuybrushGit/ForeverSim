@@ -15069,7 +15069,7 @@ const templateSpells = {
 			new Effect({
 				effectType: 6,
 				auraType: 54,
-				basePointsF: 10,
+				basePointsF: 3,
 				amplitude: 1,
 				target: 1,
 				miscValue: 0,

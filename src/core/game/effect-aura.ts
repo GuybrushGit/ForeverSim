@@ -85,7 +85,7 @@ export function applyEffectAura(
 			stats.expertise += value * (remove ? -1 : 1);
 			break;
 		case AuraType.ModHitChance:
-			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDSPEC) return Dummy.DualWieldSpecHit(player, value);
+			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDHIT) return Dummy.DualWieldHit(player, value);
 
 			stats.hit[SpellSchool.Physical] += value * (remove ? -1 : 1);
 			if (sim) sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];

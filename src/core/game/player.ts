@@ -239,7 +239,7 @@ export class Player {
 		racials[Race.Tauren] = [20550];
 		racials[Race.Troll] = [20557, 20554];
 		racials[Race.Undead] = [1260189];
-		racials[Race.Gnome] = [1259813];
+		racials[Race.Gnome] = [1259813, 1259802];
 		racials[Race.Skyborne] = [1259710, 1259707];
 
 		for (let id of racials[this.race]) {
