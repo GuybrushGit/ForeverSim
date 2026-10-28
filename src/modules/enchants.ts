@@ -113,11 +113,11 @@ const templateEnchants = {
       "name": "Enchant Chest - Minor Stats",
       "enchant": 847,
       "stats": {
-        "str": 2,
-        "agi": 2,
-        "sta": 2,
-        "int": 2,
-        "spi": 2
+        "str": 1,
+        "agi": 1,
+        "sta": 1,
+        "int": 1,
+        "spi": 1
       }
     },
     {
@@ -436,23 +436,6 @@ const templateEnchants = {
           0,
           0,
           14,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15391,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1504,
-      "stats": {
-        "resistance": [
-          0,
-          125,
-          0,
-          0,
           0,
           0,
           0,
@@ -1935,11 +1918,43 @@ const templateEnchants = {
       }
     },
     {
+      "id": 1295720,
+      "name": "Imbue Lesser Flame",
+      "enchant": 8700,
+      "stats": {}
+    },
+    {
       "id": 1296225,
       "name": "Imbue Chillknife",
       "enchant": 8698,
       "procSpell": 1296223,
       "procPPM": 1
+    },
+    {
+      "id": 1302219,
+      "name": "Imbue Baleflame",
+      "enchant": 8706,
+      "stats": {}
+    },
+    {
+      "id": 1302305,
+      "name": "Imbue Balefrost",
+      "enchant": 8714,
+      "stats": {}
+    },
+    {
+      "id": 1302306,
+      "name": "Imbue Accuracy",
+      "enchant": 8711,
+      "stats": {}
+    },
+    {
+      "id": 1302310,
+      "name": "Imbue Precision",
+      "enchant": 8718,
+      "stats": {
+        "crit_rate": 14
+      }
     },
     {
       "id": 8515,
@@ -2380,11 +2395,43 @@ const templateEnchants = {
       }
     },
     {
+      "id": 1295720,
+      "name": "Imbue Lesser Flame",
+      "enchant": 8700,
+      "stats": {}
+    },
+    {
       "id": 1296225,
       "name": "Imbue Chillknife",
       "enchant": 8698,
       "procSpell": 1296223,
       "procPPM": 1
+    },
+    {
+      "id": 1302219,
+      "name": "Imbue Baleflame",
+      "enchant": 8706,
+      "stats": {}
+    },
+    {
+      "id": 1302305,
+      "name": "Imbue Balefrost",
+      "enchant": 8714,
+      "stats": {}
+    },
+    {
+      "id": 1302306,
+      "name": "Imbue Accuracy",
+      "enchant": 8711,
+      "stats": {}
+    },
+    {
+      "id": 1302310,
+      "name": "Imbue Precision",
+      "enchant": 8718,
+      "stats": {
+        "crit_rate": 14
+      }
     },
     {
       "id": 8515,
@@ -3178,9 +3225,9 @@ const templateEnchants = {
     {
       "id": 13622,
       "name": "Enchant Bracer - Lesser Intellect",
-      "enchant": 723,
+      "enchant": 8734,
       "stats": {
-        "int": 5
+        "int": 3
       }
     },
     {
@@ -3486,6 +3533,14 @@ const templateEnchants = {
       }
     },
     {
+      "id": 13419,
+      "name": "Enchant Cloak - Minor Agility",
+      "enchant": 247,
+      "stats": {
+        "agi": 3
+      }
+    },
+    {
       "id": 13421,
       "name": "Enchant Cloak - Lesser Protection",
       "enchant": 744,
@@ -3722,23 +3777,6 @@ const templateEnchants = {
           0,
           0,
           20,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "id": 15391,
-      "name": "Lesser Arcane Amalgamation",
-      "enchant": 1504,
-      "stats": {
-        "resistance": [
-          0,
-          125,
-          0,
-          0,
           0,
           0,
           0,
@@ -4354,17 +4392,7 @@ const templateEnchants = {
       "name": "Fortitude of the Scourge",
       "enchant": 2716,
       "stats": {
-        "sta": 16,
-        "resistance": [
-          0,
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
+        "sta": 16
       }
     },
     {

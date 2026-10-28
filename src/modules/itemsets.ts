@@ -1,5 +1,64 @@
 import type { ItemSet } from '@core/shared/types';const templateSets = [
   {
+    "id": 1,
+    "name": "The Gladiator",
+    "items": [
+      11729,
+      11726,
+      11728,
+      11731,
+      11730,
+      277117
+    ],
+    "sets": [
+      {
+        "count": 4,
+        "spell": 1301123
+      },
+      {
+        "count": 3,
+        "spell": 9331
+      },
+      {
+        "count": 2,
+        "spell": 1301126
+      },
+      {
+        "count": 5,
+        "spell": 1314795
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Deathbone Guardian",
+    "items": [
+      14624,
+      14622,
+      14620,
+      14623,
+      14621
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 7516
+      },
+      {
+        "count": 4,
+        "spell": 18676
+      },
+      {
+        "count": 5,
+        "spell": 1213289
+      },
+      {
+        "count": 3,
+        "spell": 1299743
+      }
+    ]
+  },
+  {
     "id": 141,
     "name": "Volcanic Armor",
     "items": [
@@ -53,16 +112,422 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     ]
   },
   {
-    "id": 144,
-    "name": "Ironfeather Armor",
+    "id": 161,
+    "name": "Defias Leather",
     "items": [
-      15066,
-      15067
+      10399,
+      10403,
+      10402,
+      10401,
+      10400
     ],
     "sets": [
       {
         "count": 2,
-        "spell": 14799
+        "spell": 14707
+      },
+      {
+        "count": 3,
+        "spell": 1292025
+      },
+      {
+        "count": 5,
+        "spell": 7534
+      },
+      {
+        "count": 4,
+        "spell": 1292028
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Embrace of the Viper",
+    "items": [
+      10412,
+      10411,
+      10413,
+      10410,
+      6473
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 9106
+      },
+      {
+        "count": 3,
+        "spell": 9140
+      },
+      {
+        "count": 4,
+        "spell": 1291796
+      },
+      {
+        "count": 5,
+        "spell": 1291807
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Chain of the Scarlet Crusade",
+    "items": [
+      10329,
+      10332,
+      10328,
+      10331,
+      10330,
+      10333
+    ],
+    "sets": [
+      {
+        "count": 5,
+        "spell": 432639
+      },
+      {
+        "count": 3,
+        "spell": 18074
+      },
+      {
+        "count": 2,
+        "spell": 14673
+      },
+      {
+        "count": 6,
+        "spell": 1293670
+      },
+      {
+        "count": 4,
+        "spell": 1293674
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Magister's Regalia",
+    "items": [
+      16685,
+      16683,
+      16686,
+      16684,
+      16687,
+      16689,
+      16688,
+      16682
+    ],
+    "sets": [
+      {
+        "count": 4,
+        "spell": 27867
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 9346
+      },
+      {
+        "count": 5,
+        "spell": 450527
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Vestments of the Devout",
+    "items": [
+      16696,
+      16691,
+      16697,
+      16693,
+      16692,
+      16695,
+      16694,
+      16690
+    ],
+    "sets": [
+      {
+        "count": 4,
+        "spell": 27778
+      },
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 5,
+        "spell": 450576
+      },
+      {
+        "count": 3,
+        "spell": 9346
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Dreadmist Raiment",
+    "items": [
+      16702,
+      16703,
+      16699,
+      16701,
+      16700,
+      16704,
+      16698,
+      16705
+    ],
+    "sets": [
+      {
+        "count": 4,
+        "spell": 27780
+      },
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 9346
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 5,
+        "spell": 450585
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Shadowcraft Armor",
+    "items": [
+      16713,
+      16711,
+      16710,
+      16721,
+      16708,
+      16709,
+      16712,
+      16707
+    ],
+    "sets": [
+      {
+        "count": 5,
+        "spell": 27787
+      },
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 9336
+      },
+      {
+        "count": 6,
+        "spell": 21347
+      },
+      {
+        "count": 4,
+        "spell": 1302698
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Wildheart Raiment",
+    "items": [
+      16716,
+      16715,
+      16714,
+      16720,
+      16706,
+      16718,
+      16719,
+      16717
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 9346
+      },
+      {
+        "count": 3,
+        "spell": 9336
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 4,
+        "spell": 1302708
+      },
+      {
+        "count": 5,
+        "spell": 450608
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Beaststalker Armor",
+    "items": [
+      16680,
+      16675,
+      16681,
+      16677,
+      16674,
+      16678,
+      16679,
+      16676
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 9336
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 5,
+        "spell": 450577
+      },
+      {
+        "count": 4,
+        "spell": 1302712
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "The Elements",
+    "items": [
+      16673,
+      16670,
+      16671,
+      16667,
+      16672,
+      16668,
+      16669,
+      16666
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 9346
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 5,
+        "spell": 450626
+      },
+      {
+        "count": 4,
+        "spell": 1302718
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Lightforge Armor",
+    "items": [
+      16723,
+      16725,
+      16722,
+      16726,
+      16724,
+      16728,
+      16729,
+      16727
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 6,
+        "spell": 18378
+      },
+      {
+        "count": 4,
+        "spell": 1302716
+      },
+      {
+        "count": 5,
+        "spell": 450625
+      },
+      {
+        "count": 3,
+        "spell": 9346
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Battlegear of Valor",
+    "items": [
+      16736,
+      16734,
+      16735,
+      16730,
+      16737,
+      16731,
+      16732,
+      16733
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 18679
+      },
+      {
+        "count": 3,
+        "spell": 13198
+      },
+      {
+        "count": 6,
+        "spell": 21347
+      },
+      {
+        "count": 5,
+        "spell": 450587
+      },
+      {
+        "count": 4,
+        "spell": 1302721
       }
     ]
   },
@@ -203,21 +668,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       {
         "count": 6,
         "spell": 14049
-      }
-    ]
-  },
-  {
-    "id": 421,
-    "name": "Bloodvine Garb",
-    "items": [
-      19682,
-      19683,
-      19684
-    ],
-    "sets": [
-      {
-        "count": 3,
-        "spell": 18382
       }
     ]
   },
@@ -399,25 +849,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     ]
   },
   {
-    "id": 473,
-    "name": "The Highlander's Intent",
-    "items": [
-      20054,
-      20047,
-      20061
-    ],
-    "sets": [
-      {
-        "count": 2,
-        "spell": 7503
-      },
-      {
-        "count": 3,
-        "spell": 18384
-      }
-    ]
-  },
-  {
     "id": 474,
     "name": "Vindicator's Battlegear",
     "items": [
@@ -477,25 +908,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       {
         "count": 3,
         "spell": 7597
-      }
-    ]
-  },
-  {
-    "id": 485,
-    "name": "The Defiler's Intent",
-    "items": [
-      20176,
-      20159,
-      20163
-    ],
-    "sets": [
-      {
-        "count": 2,
-        "spell": 7503
-      },
-      {
-        "count": 3,
-        "spell": 18384
       }
     ]
   },
@@ -591,25 +1003,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       {
         "count": 3,
         "spell": 21894
-      }
-    ]
-  },
-  {
-    "id": 491,
-    "name": "Blue Dragon Mail",
-    "items": [
-      15048,
-      20295,
-      15049
-    ],
-    "sets": [
-      {
-        "count": 2,
-        "spell": 18675
-      },
-      {
-        "count": 3,
-        "spell": 14127
       }
     ]
   },
@@ -729,74 +1122,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     ]
   },
   {
-    "id": 513,
-    "name": "Feralheart Raiment",
-    "items": [
-      22106,
-      22107,
-      22108,
-      22109,
-      22110,
-      22111,
-      22112,
-      22113
-    ],
-    "sets": [
-      {
-        "count": 6,
-        "spell": 9344
-      },
-      {
-        "count": 6,
-        "spell": 9334
-      },
-      {
-        "count": 2,
-        "spell": 18679
-      },
-      {
-        "count": 4,
-        "spell": 27781
-      },
-      {
-        "count": 8,
-        "spell": 14803
-      }
-    ]
-  },
-  {
-    "id": 514,
-    "name": "Vestments of the Virtuous",
-    "items": [
-      22078,
-      22079,
-      22080,
-      22081,
-      22082,
-      22083,
-      22084,
-      22085
-    ],
-    "sets": [
-      {
-        "count": 6,
-        "spell": 14047
-      },
-      {
-        "count": 2,
-        "spell": 18679
-      },
-      {
-        "count": 4,
-        "spell": 27778
-      },
-      {
-        "count": 8,
-        "spell": 14803
-      }
-    ]
-  },
-  {
     "id": 515,
     "name": "Beastmaster Armor",
     "items": [
@@ -821,134 +1146,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       {
         "count": 4,
         "spell": 27785
-      },
-      {
-        "count": 8,
-        "spell": 14803
-      }
-    ]
-  },
-  {
-    "id": 516,
-    "name": "Soulforge Armor",
-    "items": [
-      22086,
-      22087,
-      22088,
-      22089,
-      22090,
-      22091,
-      22092,
-      22093
-    ],
-    "sets": [
-      {
-        "count": 6,
-        "spell": 14049
-      },
-      {
-        "count": 2,
-        "spell": 18679
-      },
-      {
-        "count": 4,
-        "spell": 27498
-      },
-      {
-        "count": 8,
-        "spell": 14803
-      }
-    ]
-  },
-  {
-    "id": 517,
-    "name": "Sorcerer's Regalia",
-    "items": [
-      22062,
-      22063,
-      22064,
-      22065,
-      22066,
-      22067,
-      22068,
-      22069
-    ],
-    "sets": [
-      {
-        "count": 8,
-        "spell": 14803
-      },
-      {
-        "count": 4,
-        "spell": 27867
-      },
-      {
-        "count": 2,
-        "spell": 18679
-      },
-      {
-        "count": 6,
-        "spell": 14047
-      }
-    ]
-  },
-  {
-    "id": 518,
-    "name": "Deathmist Raiment",
-    "items": [
-      22070,
-      22071,
-      22072,
-      22073,
-      22074,
-      22075,
-      22076,
-      22077
-    ],
-    "sets": [
-      {
-        "count": 6,
-        "spell": 14047
-      },
-      {
-        "count": 2,
-        "spell": 18679
-      },
-      {
-        "count": 4,
-        "spell": 27780
-      },
-      {
-        "count": 8,
-        "spell": 14803
-      }
-    ]
-  },
-  {
-    "id": 519,
-    "name": "The Five Thunders",
-    "items": [
-      22095,
-      22096,
-      22097,
-      22098,
-      22099,
-      22100,
-      22101,
-      22102
-    ],
-    "sets": [
-      {
-        "count": 6,
-        "spell": 14047
-      },
-      {
-        "count": 2,
-        "spell": 18679
-      },
-      {
-        "count": 4,
-        "spell": 27774
       },
       {
         "count": 8,
@@ -1089,39 +1286,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     ]
   },
   {
-    "id": 526,
-    "name": "Frostfire Regalia",
-    "items": [
-      22502,
-      22503,
-      22498,
-      22501,
-      22497,
-      22496,
-      22500,
-      22499,
-      23062
-    ],
-    "sets": [
-      {
-        "count": 6,
-        "spell": 28771
-      },
-      {
-        "count": 2,
-        "spell": 28763
-      },
-      {
-        "count": 8,
-        "spell": 28761
-      },
-      {
-        "count": 4,
-        "spell": 28764
-      }
-    ]
-  },
-  {
     "id": 527,
     "name": "The Earthshatterer",
     "items": [
@@ -1184,39 +1348,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       {
         "count": 4,
         "spell": 28774
-      }
-    ]
-  },
-  {
-    "id": 529,
-    "name": "Plagueheart Raiment",
-    "items": [
-      22510,
-      22511,
-      22506,
-      22509,
-      22505,
-      22504,
-      22508,
-      22507,
-      23063
-    ],
-    "sets": [
-      {
-        "count": 4,
-        "spell": 28829
-      },
-      {
-        "count": 8,
-        "spell": 28830
-      },
-      {
-        "count": 2,
-        "spell": 28831
-      },
-      {
-        "count": 6,
-        "spell": 28746
       }
     ]
   },
@@ -1290,21 +1421,6 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
       23088,
       23082,
       23092
-    ],
-    "sets": [
-      {
-        "count": 3,
-        "spell": 29068
-      }
-    ]
-  },
-  {
-    "id": 536,
-    "name": "Regalia of Undead Cleansing",
-    "items": [
-      23091,
-      23084,
-      23085
     ],
     "sets": [
       {
