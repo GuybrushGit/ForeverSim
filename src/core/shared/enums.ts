@@ -338,6 +338,7 @@ export const AuraType = Object.freeze({
 	ModAttackPowerPct: 166,
 	ModRangedAttackPowerPct: 167,
 	ModDamageDoneVersus: 168,
+	ModIntellectPercent: 178,
 	ModExpertise: 240,
 	ModArmorPenetrationPct: 280,
 	ModCritAllPct: 290,

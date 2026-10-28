@@ -12858,6 +12858,23 @@ const templateSpells = {
 			}),
 		],
 	}),
+	'1259802': new Spell({
+		id: 1259802,
+		name: 'Expansive Mind',
+		schoolMask: 1,
+		attributes: 80,
+		path: 'inv_enchant_essenceeternallarge',
+		effects: [
+			new Effect({
+				effectType: 6,
+				auraType: 178,
+				basePointsF: 5,
+				amplitude: 1,
+				miscValue: 1,
+				target: 1,
+			}),
+		],
+	}),
 	'1259813': new Spell({
 		id: 1259813,
 		name: 'Eureka!',

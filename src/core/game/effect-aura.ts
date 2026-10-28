@@ -461,6 +461,16 @@ export function applyEffectAura(
 			}
 			if (sim) sim.updateFinalStats();
 			break;
+		case AuraType.ModIntellectPercent:
+			if (this.miscValue == 1) {
+				if (remove) player.power_max /= 1 + value / 100;
+				else player.power_max *= 1 + value / 100;
+			} else {
+				if (remove) stats.stat_mod[BaseStats.STAT_INTELLECT] /= 1 + value / 100;
+				else stats.stat_mod[BaseStats.STAT_INTELLECT] *= 1 + value / 100;
+				if (sim) sim.updateFinalStats();
+			}
+			break;
 		case AuraType.ModThreat:
 			if (remove) stats.threat_mod /= 1 + value / 100;
 			else stats.threat_mod *= 1 + value / 100;
