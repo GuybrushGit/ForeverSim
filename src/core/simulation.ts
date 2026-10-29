@@ -283,7 +283,7 @@ export class Simulation {
 		sim.addEvent(EventType.SpellStartCasting, 0, 0, CombatResult.Normal, spell);
 
 		let timers = this.timers;
-		while (this.step < finalstep) {
+		while (this.step < finalstep && this.step < this.duration) {
 			// Enemy Attacks
 			if (this.encounter.position == EncounterPosition.Front) {
 				for (let i = 0; i < timers.targets.length; i++) {
@@ -295,7 +295,7 @@ export class Simulation {
 			}
 
 			let increment = this.getStepIncrement();
-			if (increment > finalstep - this.step) increment = finalstep - this.step;
+			increment = Math.min(increment, finalstep - this.step, this.duration - this.step);
 			this.step += increment;
 			timers.gcd -= increment;
 			timers.mainhand -= increment;
@@ -309,13 +309,14 @@ export class Simulation {
 			this.regenPower();
 		}
 
-		// reset swing timers when done casting
-		if (!(spell.attributesEx2 & SpellAttributesEx2.SPELL_ATTR_DO_NOT_RESET_COMBAT_TIMERS)) {
+		let completedInTime = this.step >= finalstep && this.step <= this.duration;
+		// Reset swing timers only for a cast that completed before the encounter ended.
+		if (completedInTime && !(spell.attributesEx2 & SpellAttributesEx2.SPELL_ATTR_DO_NOT_RESET_COMBAT_TIMERS)) {
 			if (this.player.mainhand) timers.mainhand = this.player.mainhand.use(this.final_stats.haste[SpellType.Melee]);
 			if (this.player.offhand) timers.offhand = this.player.offhand.use(this.final_stats.haste[SpellType.Melee]);
 		}
 
-		return this.step <= this.duration;
+		return completedInTime;
 	}
 
 	addPower(amount: number, spell?: Spell) {

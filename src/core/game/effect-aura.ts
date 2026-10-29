@@ -88,7 +88,10 @@ export function applyEffectAura(
 			if (spell.id == SpellIds.ID_WARRIOR_DUALWIELDHIT) return Dummy.DualWieldHit(player, value);
 
 			stats.hit[SpellSchool.Physical] += value * (remove ? -1 : 1);
-			if (sim) sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];
+			if (sim) {
+				sim.final_stats.hit[SpellSchool.Physical] = sim.player.base_stats.hit[SpellSchool.Physical] + sim.aura_stats.hit[SpellSchool.Physical];
+				sim.updateFinalStats();
+			}
 			break;
 		case AuraType.ModMeleeHaste:
 		case AuraType.ModMeleeHaste2:

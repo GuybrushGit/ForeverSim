@@ -51,9 +51,9 @@ export function applyPeriodicAura(this: Effect, sim: Simulation, spell: Spell, a
 						}
 					}
 				}
-				if (modifier > 1) result = CombatResult.Resist;
+				if (modifier < 1) result = CombatResult.Resist;
 				if (rng10k() < sim.final_stats.crit[spell.spellSchool] * 100) {
-					result = modifier > 1 ? CombatResult.ResistCrit : CombatResult.Crit;
+					result = modifier < 1 ? CombatResult.ResistCrit : CombatResult.Crit;
 					modifier *= 1.5;
 				}
 				// missing coefficient

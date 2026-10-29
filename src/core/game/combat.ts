@@ -38,8 +38,10 @@ export const Combat = {
 		if (result == CombatResult.Block) dmg = Math.max(0, dmg - sim.target_stats[target.index].block_amount);
 
 		// before or after modifiers??
-		dmg += sim.target_stats[target.index].dmg_taken[SpellSchool.Physical];
-		dmg = dmg * sim.target_stats[target.index].dmg_taken_mod[SpellSchool.Physical];
+		if (dmg > 0) {
+			dmg += sim.target_stats[target.index].dmg_taken[SpellSchool.Physical];
+			dmg = dmg * sim.target_stats[target.index].dmg_taken_mod[SpellSchool.Physical];
+		}
 
 		dmg = round(dmg);
 
@@ -143,7 +145,7 @@ export const Combat = {
 			if (result == CombatResult.Crit || result == CombatResult.BlockCrit) dmg *= 1 + 1 * (action ? action.critdmgmod : 1);
 
 			// armor damage reduction
-			if (spell.schoolMask & SchoolMask.Physical) dmg = dmg * (1 - sim.target_stats[target.index].armor_reduction_mh);
+			if (spell.schoolMask & SchoolMask.Physical) dmg = dmg * (1 - sim.target_stats[target.index].armor_reduction_oh);
 
 			// Block comes after armor
 			if (result == CombatResult.Block || result == CombatResult.BlockCrit) dmg = Math.max(0, dmg - sim.target_stats[target.index].block_amount);
