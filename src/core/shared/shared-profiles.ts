@@ -2,7 +2,7 @@ import { supabase } from './supabase';
 import type { Profile } from './types';
 
 const shareCodeAlphabet = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-const shareLinkLifetimeMs = 10 * 24 * 60 * 60 * 1000;
+const shareLinkLifetimeMs = 150 * 24 * 60 * 60 * 1000;
 
 function createShareCode(length = 10) {
 	const randomValues = new Uint32Array(length);
