@@ -119,7 +119,6 @@ export class Simulation {
 		this.final_stats.health = (this.player.base_stats.health + this.aura_stats.health + this.final_stats.sta * 10) * this.final_stats.health_mod;
 		this.addEvent(EventType.HealthChange, this.final_stats.health);
 		this.final_stats.melee_ap_mod = this.player.base_stats.melee_ap_mod * this.aura_stats.melee_ap_mod;
-		this.final_stats.melee_ap_mod = this.player.base_stats.melee_ap_mod * this.aura_stats.melee_ap_mod;
 		this.final_stats.melee_ap =
 			(this.player.base_stats.melee_ap + this.aura_stats.melee_ap + this.final_stats.str * this.player.ap_per_str) * this.final_stats.melee_ap_mod;
 		this.final_stats.ranged_ap =
@@ -408,8 +407,9 @@ export class Simulation {
 		// 1sec bucket
 		let window_size = 6;
 		let duration_secs = Math.ceil(this.duration / 1000);
+		if (!duration_secs) throw new RangeError('Cannot calculate TMI for a zero-duration simulation.');
 		let d = Array(duration_secs).fill(0);
-		let ma = Array(duration_secs - 5).fill(0);
+		let ma = Array(duration_secs).fill(0);
 
 		// D(i) == normalized array damage / health
 		let currenthp = this.final_stats.health;
@@ -419,21 +419,20 @@ export class Simulation {
 			d[Math.floor(event.step / 1000)] += (event.value || 0) / currenthp;
 		}
 
-		// MA(i) = sum with j=1 to T/Δt of D(i+j-1)
+		// Zero-pad the tail so the moving-average array has one entry per damage bucket.
 		for (let i = 0; i < ma.length; i++) {
 			for (let j = 0; j < window_size; j++) {
-				ma[i] += d[i + j];
+				if (i + j < d.length) ma[i] += d[i + j];
 			}
 		}
 
-		// TMI = 10^4ln(N0/N * sum with i = 1 to N of e^10*MA(i))
-		// N = (L - T) / Δt      (60 - 6) / 1
-		// N0 = 450 / Δt
+		// TMI = 10^4 * ln(N0/N * sum with i = 1 to N of e^(10*MA(i)))
+		// N = L / Δt and N0 = 450 / Δt for the zero-padded form.
 		let sum = 0;
 		for (let i = 0; i < ma.length; i++) {
 			sum += Math.exp(10 * ma[i]);
 		}
-		let tmi = 10 ^ (4 * Math.log((450 / (duration_secs - window_size)) * sum));
-		return tmi;
+		let tmi = Math.pow(10, 4) * Math.log((450 / ma.length) * sum);
+		return tmi / 1000;
 	}
 }
