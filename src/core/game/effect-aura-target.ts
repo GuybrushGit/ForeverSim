@@ -31,6 +31,7 @@ export function applyEffectAuraTarget(
 			stats.melee_ap += value * (remove ? -1 : 1);
 			break;
 		case AuraType.ModResistance:
+		case AuraType.ModResistance2:
 			if (!this.miscValue) return;
 			if (sim && spell.classMask == 16384) return; // Prevent Sunder Armor action from removing armor
 			if (remove) value *= -1;

@@ -351,6 +351,7 @@ export const AuraType = Object.freeze({
 	ModSpellCritChanceSchool2: 552,
 	ModResistanceFlatDoesNotStack: 558,
 	Expertise: 593,
+	ModResistance2: 674,
 } as const);
 export type AuraType = (typeof AuraType)[keyof typeof AuraType];
 export const GetAuraType = (value: number): string => {

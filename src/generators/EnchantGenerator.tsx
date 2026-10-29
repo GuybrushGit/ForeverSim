@@ -220,6 +220,7 @@ export default function SpellGenerator() {
 								}
 								break;
 							case AuraType.ModResistance:
+							case AuraType.ModResistance2:
 								let misc = Number(stEff['EffectMiscValue[0]']);
 								if (misc > 0) obj.stats.resistance = Array(8).fill(0);
 								if (misc & SchoolMask.Physical) obj.stats.resistance[SpellSchool.Physical] = Number(stEff.EffectBasePointsF);

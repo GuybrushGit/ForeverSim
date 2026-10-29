@@ -110,6 +110,7 @@ export class Spell {
 				case AuraType.ModStun:
 				case AuraType.ModStat:
 				case AuraType.ModResistance:
+				case AuraType.ModResistance2:
 				case AuraType.ModMeleeHaste2:
 					return true;
 			}

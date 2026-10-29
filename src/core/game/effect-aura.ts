@@ -352,6 +352,7 @@ export function applyEffectAura(
 			}
 			break;
 		case AuraType.ModResistance:
+		case AuraType.ModResistance2:
 			if (!this.miscValue) return;
 			if (remove) value *= -1;
 			if (this.miscValue & SchoolMask.Physical) stats.resistance[SpellSchool.Physical] += value;
