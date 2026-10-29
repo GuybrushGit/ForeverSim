@@ -11,9 +11,10 @@ import type { Weapon } from './weapon';
 export class Dummy {
 	static Execute(sim: Simulation, spell: Spell, value: number, amplitude?: number) {
 		// assumed no weapon buffs or dmg_done / dmg_taken
-		value += sim.aux[spell.id] * (amplitude || 0);
+		let extradmg = sim.aux[spell.id] * (amplitude || 0);
 
-		if (sim && sim.actions_mods && sim.actions_mods[spell.id]) value *= sim.actions_mods[spell.id].pctMod;
+		if (sim && sim.actions_mods && sim.actions_mods[spell.id]) extradmg *= sim.actions_mods[spell.id].pctMod;
+		value += extradmg;
 		return (value + sim.final_stats.dmg_done[SpellSchool.Physical]) * sim.final_stats.dmg_done_mod[SpellSchool.Physical];
 	}
 

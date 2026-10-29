@@ -78,11 +78,14 @@ export class Effect {
 				if (!spell.schoolMask) return 0;
 
 				if (spell.schoolMask & SchoolMask.Physical) {
+					let extradmg = 0;
 					let dmg = this.getValue(sim.player, spell, sim, action);
-					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_SHIELD_SLAM)) dmg += sim.final_stats.block_amount;
+					if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_SHIELD_SLAM)) extradmg += sim.final_stats.block_amount;
 
-					if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
-					dmg = (dmg + sim.final_stats.dmg_done[SchoolMask.Physical]) * sim.final_stats.dmg_done_mod[SchoolMask.Physical];
+					if (sim && sim.actions_mods && sim.actions_mods[spell.id]) {
+						extradmg *= sim.actions_mods[spell.id].pctMod;
+					}
+					dmg = (dmg + extradmg + sim.final_stats.dmg_done[SchoolMask.Physical]) * sim.final_stats.dmg_done_mod[SchoolMask.Physical];
 					return dmg;
 				} else {
 					let dmg = this.getValue(sim.player, spell, sim, action);
@@ -97,21 +100,24 @@ export class Effect {
 				if (!sim.player.mainhand) return 0;
 
 				let weapon = sim.player.mainhand;
+				let extradmg = 0;
 				let dmg = this.getValue(sim.player, spell, sim, action);
-				dmg += rng(weapon.mindmg + weapon.bonusdmg, weapon.maxdmg + weapon.bonusdmg) + (sim.final_stats.melee_ap / 14) * weapon.speed;
+				extradmg += rng(weapon.mindmg + weapon.bonusdmg, weapon.maxdmg + weapon.bonusdmg) + (sim.final_stats.melee_ap / 14) * weapon.speed;
 
-				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
-				dmg = (dmg + sim.final_stats.dmg_done[SchoolMask.Physical]) * weapon.dmgmod * sim.final_stats.dmg_done_mod[SchoolMask.Physical];
+				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) extradmg *= sim.actions_mods[spell.id].pctMod;
+				dmg = (dmg + extradmg + sim.final_stats.dmg_done[SchoolMask.Physical]) * weapon.dmgmod * sim.final_stats.dmg_done_mod[SchoolMask.Physical];
 				return dmg;
 			}
 			case EffectType.NormalizedWeaponDmg: {
 				if (!action || !sim.player.mainhand) return 0;
 
+				let extradmg = 0;
 				let wep = weapon || sim.player.mainhand;
 				let dmg = this.getValue(sim.player, spell, sim, action);
-				dmg += rng(wep.mindmg + wep.bonusdmg, wep.maxdmg + wep.bonusdmg) + (sim.final_stats.melee_ap / 14) * wep.normSpeed;
+				extradmg += rng(wep.mindmg + wep.bonusdmg, wep.maxdmg + wep.bonusdmg) + (sim.final_stats.melee_ap / 14) * wep.normSpeed;
 
-				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) dmg *= sim.actions_mods[spell.id].pctMod;
+				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) extradmg *= sim.actions_mods[spell.id].pctMod;
+				dmg = extradmg + dmg;
 				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) dmg *= 0.4;
 
 				// missing dmg_taken and dmg_taken_mod
