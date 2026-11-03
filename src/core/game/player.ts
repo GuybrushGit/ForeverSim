@@ -234,7 +234,7 @@ export class Player {
 		let racials = Array(10);
 		racials[Race.Human] = [20597, 20598];
 		racials[Race.Orc] = [20575];
-		racials[Race.Dwarf] = [1259721, 13705]; // temp precision
+		racials[Race.Dwarf] = [1259721, 1259719]; // temp precision
 		racials[Race.NightElf] = [1259799, 20582];
 		racials[Race.Tauren] = [20550];
 		racials[Race.Troll] = [20557, 20554];

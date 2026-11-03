@@ -66,7 +66,8 @@ export class Effect {
 		if (target && this.target == Targets.TARGET_SELF) return;
 		switch (this.effectType) {
 			case EffectType.ApplyAura:
-			case EffectType.ApplyAreaAuraParty: {
+			case EffectType.ApplyAreaAuraParty:
+			case EffectType.ApplyAreaAuraRaid: {
 				let aura = sim.getAura(spell.id, target, weapon);
 				if (!aura || !aura.timer || (spell.maxStacks && aura.charges < spell.maxStacks) || aura.stackableDot) {
 					if (spell.selfTarget || !this.targetsEnemy) this.applyEffectAura(sim.player, sim.aura_stats, spell, sim, false, action);

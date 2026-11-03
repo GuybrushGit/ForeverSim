@@ -4372,7 +4372,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 718
       },
-      "displayid": "30316"
+      "displayid": "758382"
     },
     {
       "id": 16514,
@@ -6578,7 +6578,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 669
       },
-      "displayid": "30316"
+      "displayid": "758364"
     },
     {
       "id": 273645,
@@ -14766,7 +14766,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "hit_rate": 10,
         "armor": 626
       },
-      "displayid": "30318"
+      "displayid": "758381"
     },
     {
       "id": 16516,
@@ -16750,7 +16750,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 553
       },
-      "displayid": "30318"
+      "displayid": "758363"
     },
     {
       "id": 273028,
@@ -32299,7 +32299,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 875
       },
-      "displayid": "30315"
+      "displayid": "758380"
     },
     {
       "id": 16513,
@@ -34564,7 +34564,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 737
       },
-      "displayid": "30315"
+      "displayid": "758365"
     },
     {
       "id": 273038,
@@ -35395,6 +35395,23 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "armor": 41
       }
+    },
+    {
+      "id": 2314,
+      "classId": 4,
+      "subclassId": 2,
+      "slot": 5,
+      "requires": 0,
+      "quality": 2,
+      "ilvl": 24,
+      "name": "Toughened Leather Armor",
+      "path": "inv_chest_leather_10",
+      "stats": {
+        "sta": 2,
+        "spi": 7,
+        "armor": 83
+      },
+      "displayid": "5655"
     },
     {
       "id": 12970,
@@ -41830,7 +41847,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 21,
         "armor": 322
       },
-      "displayid": "30320"
+      "displayid": "758359"
     },
     {
       "id": 272828,
@@ -48684,7 +48701,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "crit_rate": 14,
         "armor": 531
       },
-      "displayid": "30321"
+      "displayid": "758377"
     },
     {
       "id": 16510,
@@ -51652,7 +51669,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "armor": 461
       },
-      "displayid": "30321"
+      "displayid": "758366"
     },
     {
       "id": 273810,
@@ -58201,7 +58218,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 15,
         "armor": 414
       },
-      "displayid": "30322"
+      "displayid": "758376"
     },
     {
       "id": 16547,
@@ -61444,7 +61461,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 26,
         "armor": 414
       },
-      "displayid": "30322"
+      "displayid": "758361"
     },
     {
       "id": 273039,
@@ -61529,7 +61546,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 19,
         "armor": 352
       },
-      "displayid": "30322"
+      "displayid": "758376"
     },
     {
       "id": 273807,
@@ -69022,7 +69039,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "hit_rate": 10,
         "armor": 742
       },
-      "displayid": "30317"
+      "displayid": "758379"
     },
     {
       "id": 16515,
@@ -71478,7 +71495,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 34,
         "armor": 645
       },
-      "displayid": "30317"
+      "displayid": "758362"
     },
     {
       "id": 273022,
@@ -78014,7 +78031,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "hit_rate": 10,
         "armor": 592
       },
-      "displayid": "30319"
+      "displayid": "758378"
     },
     {
       "id": 16509,
@@ -81370,7 +81387,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 28,
         "armor": 507
       },
-      "displayid": "30319"
+      "displayid": "758360"
     },
     {
       "id": 273007,
@@ -87198,7 +87215,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 63,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Initiate's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 10,
@@ -87242,7 +87259,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 63,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Initiate's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 10,
@@ -87259,7 +87276,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 68,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Tracker's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 11,
@@ -87303,7 +87320,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 68,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Tracker's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 14,
@@ -87320,7 +87337,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 60,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Watcher's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 13,
@@ -87364,7 +87381,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 60,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Watcher's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 16,
@@ -87381,7 +87398,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 65,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Warden's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 14,
@@ -87425,7 +87442,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 65,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Warden's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 18,
@@ -88298,6 +88315,58 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "sta": 7,
+        "armor": 0
+      }
+    },
+    {
+      "id": 288927,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Quick Strike Ring",
+      "path": "inv_jewelry_ring_07",
+      "stats": {
+        "str": 1,
+        "sta": 1,
+        "melee_ap": 5,
+        "ranged_ap": 5,
+        "crit_rate": 3,
+        "armor": 0
+      }
+    },
+    {
+      "id": 288928,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Heavy Dark Iron Ring",
+      "path": "inv_jewelry_ring_14",
+      "stats": {
+        "sta": 4,
+        "defense": 1,
+        "armor": 20
+      }
+    },
+    {
+      "id": 288929,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Band of Sulfuras",
+      "path": "inv_jewelry_ring_36",
+      "stats": {
+        "sta": 2,
+        "spi": 2,
+        "int": 4,
         "armor": 0
       }
     }
@@ -92752,7 +92821,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 63,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Initiate's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 10,
@@ -92796,7 +92865,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 63,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Initiate's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 10,
@@ -92813,7 +92882,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 68,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Tracker's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 11,
@@ -92857,7 +92926,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 3,
       "ilvl": 68,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Tracker's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 14,
@@ -92874,7 +92943,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 60,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Watcher's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 13,
@@ -92918,7 +92987,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 60,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Watcher's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 16,
@@ -92935,7 +93004,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 65,
-      "name": "Ferocious Watcher's Signet",
+      "name": "Warden's Signet of Ferocity",
       "path": "inv_jewelry_ring_25",
       "stats": {
         "sta": 14,
@@ -92979,7 +93048,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "requires": 0,
       "quality": 4,
       "ilvl": 65,
-      "name": "Stalwart Watcher's Signet",
+      "name": "Warden's Signet of Vigilance",
       "path": "inv_jewelry_ring_10",
       "stats": {
         "sta": 18,
@@ -93852,6 +93921,58 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
       "stats": {
         "agi": 7,
         "sta": 7,
+        "armor": 0
+      }
+    },
+    {
+      "id": 288927,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Quick Strike Ring",
+      "path": "inv_jewelry_ring_07",
+      "stats": {
+        "str": 1,
+        "sta": 1,
+        "melee_ap": 5,
+        "ranged_ap": 5,
+        "crit_rate": 3,
+        "armor": 0
+      }
+    },
+    {
+      "id": 288928,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Heavy Dark Iron Ring",
+      "path": "inv_jewelry_ring_14",
+      "stats": {
+        "sta": 4,
+        "defense": 1,
+        "armor": 20
+      }
+    },
+    {
+      "id": 288929,
+      "classId": 4,
+      "subclassId": 0,
+      "slot": 11,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Band of Sulfuras",
+      "path": "inv_jewelry_ring_36",
+      "stats": {
+        "sta": 2,
+        "spi": 2,
+        "int": 4,
         "armor": 0
       }
     }
@@ -134427,7 +134548,7 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "sta": 8,
         "armor": 0
       },
-      "displayid": "670593"
+      "displayid": "759413"
     },
     {
       "id": 211940,
@@ -137964,6 +138085,29 @@ import type { ItemsObject } from '@core/shared/types';const templateItems = {
         "armor": 0
       },
       "displayid": "8298"
+    },
+    {
+      "id": 288900,
+      "classId": 2,
+      "subclassId": 5,
+      "slot": 17,
+      "requires": 0,
+      "quality": 4,
+      "ilvl": 10,
+      "name": "Earthshaker",
+      "speed": 3.5,
+      "mindmg": 40.69,
+      "maxdmg": 61.03,
+      "path": "inv_hammer_04",
+      "stats": {
+        "melee_ap": 4,
+        "ranged_ap": 4,
+        "armor": 0
+      },
+      "proc": {
+        "spell": 21152
+      },
+      "displayid": "32162"
     }
   ],
   "robe": [

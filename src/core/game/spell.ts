@@ -55,7 +55,11 @@ export class Spell {
 		this.isBinary = this.hasBinaryAura();
 		this.isDamageSpell = this.hasDamage();
 		this.isWeaponDamageSpell = this.hasWeaponDamage();
-		this.hasAura = this.effects.filter(eff => eff.effectType == EffectType.ApplyAura || eff.effectType == EffectType.ApplyAreaAuraParty).length > 0;
+		this.hasAura =
+			this.effects.filter(
+				eff =>
+					eff.effectType == EffectType.ApplyAura || eff.effectType == EffectType.ApplyAreaAuraParty || eff.effectType == EffectType.ApplyAreaAuraRaid,
+			).length > 0;
 		this.spellSchool = Math.log2(this.schoolMask) + 1;
 		if (!(this.schoolMask & SchoolMask.Physical)) this.isMagicSpell = true;
 

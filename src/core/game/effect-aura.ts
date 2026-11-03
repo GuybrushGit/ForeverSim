@@ -37,7 +37,8 @@ export function applyEffectAura(
 	mods?: SpellModifier[],
 	charges?: number,
 ) {
-	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty) return;
+	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty && this.effectType != EffectType.ApplyAreaAuraRaid)
+		return;
 	if (!this.auraType) return;
 	let value = this.getValue(player, spell, sim, action, mods);
 	if (remove && charges && charges > 1) value *= charges;

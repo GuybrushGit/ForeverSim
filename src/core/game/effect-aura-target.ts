@@ -22,7 +22,8 @@ export function applyEffectAuraTarget(
 	action?: Action,
 	mods?: SpellModifier[],
 ) {
-	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty) return;
+	if (this.effectType != EffectType.ApplyAura && this.effectType != EffectType.ApplyAreaAuraParty && this.effectType != EffectType.ApplyAreaAuraRaid)
+		return;
 	if (!this.auraType) return;
 	let value = this.getValue(player, spell, sim, action, mods);
 

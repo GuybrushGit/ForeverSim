@@ -246,6 +246,7 @@ export const EffectType = Object.freeze({
 	SendEvent: 61,
 	Threat: 63,
 	TriggerSpell: 64,
+	ApplyAreaAuraRaid: 65,
 	InterruptCast: 68,
 	ScriptEffect: 77,
 	Charge: 96,
