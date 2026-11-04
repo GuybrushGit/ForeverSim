@@ -17,9 +17,9 @@ export var templateAbilities = [
 		custom: true,
 	},
 
-	// Spearing Strike
+	// Reckless Swings
 	{
-		id: 1310222,
+		id: 1329555,
 	},
 
 	// Bloodthirst
@@ -120,6 +120,11 @@ export var templateAbilities = [
 		id: 7373,
 		threat_mod: 1.25,
 		threat_flat: 145,
+	},
+
+	// Spearing Strike
+	{
+		id: 1310222,
 	},
 
 	// Slam

@@ -313,7 +313,7 @@ export default function SpellGenerator() {
 		if (spell.id == 12862) {
 			spell.effects[0].basePointsF = -250;
 			spell.effects[1].basePointsF = -250;
-			spell.effects[2].basePointsF = -1500;
+			spell.effects[2].basePointsF = -2500;
 		}
 		if (spell.id == 12322) spell.procChance = 12;
 		if (spell.id == 1310316) spell.procChance = 50;
@@ -327,25 +327,27 @@ export default function SpellGenerator() {
 		if (spell.id == 12297) spell.effects[0].basePointsF = 4;
 		if (spell.id == 12298) spell.effects[0].basePointsF = 1;
 		if (spell.id == 12298) spell.effects[1].basePointsF = 20;
-		if (spell.id == 12966) spell.effects[0].basePointsF = 5;
+		if (spell.id == 12966) spell.effects[0].basePointsF = 10;
 		if (spell.id == 12299) spell.effects[0].basePointsF = 2;
 		if (spell.id == 12287) spell.effects[0].basePointsF = -20;
 		if (spell.id == 12797) spell.effects[0].basePointsF = 20;
 		if (spell.id == 12797) spell.effects[0].miscValue = 8;
 		if (spell.id == 1259813) spell.effects[1].miscValue = 8;
-		if (spell.id == 12792) spell.effects[0].basePointsF = 5;
+		if (spell.id == 12792) spell.effects[0].basePointsF = 7;
 		if (spell.id == 12308) spell.effects[0].basePointsF = -10;
 		if (spell.id == 29787) spell.effects[0].basePointsF = -10;
 		if (spell.id == 16538) spell.effects[0].basePointsF = 2;
-		if (spell.id == 1289682) spell.effects[0].basePointsF = 4;
 
 		if (spell.name == 'Shield Slam') spell.classMask = 2048;
 		if (spell.name == 'Whirlwind') spell.classMask = 4194304;
 		if (spell.id == 1310222) spell.classMask = 134217728;
+		if (spell.id == 1310315) spell.effects[0].classMask = 4194304;
+		if (spell.id == 1310315) spell.effects[0].basePointsF = -1000;
+		if (spell.id == 1310315) spell.effects[1].basePointsF = 15;
 
 		if (spell.name == 'Bloodthirst') spell.effects = spell.effects.slice(0, -1);
 		if (spell.id == 1289682) spell.procMask = 1073741828;
-		if (spell.id == 1289682) spell.procChance = 4;
+		if (spell.id == 1289682) spell.procChance = 10;
 
 		if (spell.id == 1293742) spell.effects[2].basePointsF = 5;
 		if (spell.id == 1293740) spell.effects[2].basePointsF = 5;
@@ -380,6 +382,8 @@ export default function SpellGenerator() {
 		if (spell.id == 29232) spell.effects[0].target = 1;
 		if (spell.id == 29232) spell.effects[1].target = 1;
 		if (spell.id == 29232) spell.effects[2].target = 1;
+
+		if (spell.id == 12163) spell.effects[0].basePointsF = 2;
 
 		if (spell.effects && spell.effects.length) return spell;
 	}

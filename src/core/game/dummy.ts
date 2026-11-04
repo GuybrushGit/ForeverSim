@@ -58,6 +58,10 @@ export class Dummy {
 				sim.player.base_stats.dmg_done[SpellSchool.Physical] + sim.aura_stats.dmg_done[SpellSchool.Physical];
 	}
 
+	static RecklessSwing(sim: Simulation, spell: Spell) {
+		sim.addPower(50, spell);
+	}
+
 	static BrittleArmor(sim: Simulation, spell: Spell, remove?: boolean) {
 		let value = [2000, 30];
 		if (remove) value = [sim.aux[spell.id][0] * -1, sim.aux[spell.id][1] * -1];
@@ -76,7 +80,7 @@ export class Dummy {
 	}
 
 	static TacticalMastery(player: Player, spell: Spell) {
-		player.power_form_change = 30 * (player.traits[spell.id] || 1);
+		player.power_form_change = 50 * (player.traits[spell.id] || 1);
 	}
 
 	static WeaponMaster(player: Player, stats: PlayerStats) {

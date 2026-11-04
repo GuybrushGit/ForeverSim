@@ -121,6 +121,9 @@ export class Effect {
 				dmg = extradmg + dmg;
 				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) dmg *= 0.4;
 
+				if (spell.id == SpellIds.ID_WARRIOR_WHIRLWIND && target && target.index == 0 && sim.player.traits[SpellIds.ID_WARRIOR_IMPROVEDWHIRLWIND])
+					dmg *= 1 + sim.player.traits[SpellIds.ID_WARRIOR_IMPROVEDWHIRLWIND] * 0.15;
+
 				// missing dmg_taken and dmg_taken_mod
 				// dmg taken before or after crit / armor modifications?
 				dmg = (dmg + sim.final_stats.dmg_done[SchoolMask.Physical]) * wep.dmgmod * sim.final_stats.dmg_done_mod[SchoolMask.Physical];
@@ -169,6 +172,7 @@ export class Effect {
 				if (target && spell.id == SpellIds.ID_WARRIOR_BLOODTHRILLPROC) return Dummy.BloodthrillProc(sim);
 				if (spell.classMask && spell.classMask & (1 << ClassFlag.CF_WARRIOR_MORTAL_STRIKE)) return; // Bloothirst
 				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) return;
+				if (spell.id == SpellIds.ID_WARRIOR_RECKLESSSWING) return;
 
 				if (spell.id == 13180) return;
 				if (spell.id == 12938) return;

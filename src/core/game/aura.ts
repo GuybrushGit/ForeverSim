@@ -77,6 +77,9 @@ export class Aura {
 
 		// sweeping strikes
 		if (this.dummy && dmg) this.dummy(sim, this.spell, dmg);
+
+		// reckless swing
+		if (this.charges == 0 && this.spell.id == 1329555) Dummy.RecklessSwing(sim, this.spell);
 	}
 }
 
