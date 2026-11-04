@@ -119,7 +119,7 @@ export class Effect {
 
 				if (sim && sim.actions_mods && sim.actions_mods[spell.id]) extradmg *= sim.actions_mods[spell.id].pctMod;
 				dmg = extradmg + dmg;
-				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) dmg *= 0.4;
+				if (spell.id == SpellIds.ID_WARRIOR_SPEARINGSTRIKE) dmg *= 0.75;
 
 				if (spell.id == SpellIds.ID_WARRIOR_WHIRLWIND && target && target.index == 0 && sim.player.traits[SpellIds.ID_WARRIOR_IMPROVEDWHIRLWIND])
 					dmg *= 1 + sim.player.traits[SpellIds.ID_WARRIOR_IMPROVEDWHIRLWIND] * 0.15;
