@@ -193,7 +193,7 @@ export default function SpellGenerator() {
 		if (procChance.length && Number(procChance[0].CumulativeAura) > 0) spell.maxStacks = Number(procChance[0].CumulativeAura);
 
 		// icon
-		let icon = getRows(icons, 'ID', misc[0].SpellIconFileDataID.toString());
+		let icon = misc.length ? getRows(icons, 'ID', misc[0].SpellIconFileDataID.toString()) : [];
 		if (icon.length && icon[0].path) spell.path = icon[0].path;
 
 		// custom icons

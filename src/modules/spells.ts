@@ -286,6 +286,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "835": new Spell({
+    "id": 835,
+    "name": "Tidal Charm",
+    "schoolMask": 8,
+    "attributes": 67108864,
+    "duration": 3000,
+    "path": "spell_frost_summonwaterelemental",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "845": new Spell({
     "id": 845,
     "name": "Cleave",
@@ -565,6 +583,23 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "3137": new Spell({
+    "id": 3137,
+    "name": "Abolish Poison Effect",
+    "schoolMask": 8,
+    "attributes": 384,
+    "procChance": 101,
+    "path": "spell_nature_nullifypoison_02",
+    "effects": [
+      new Effect({
+        "effectType": 38,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 21
+      })
+    ]
+  }),
   "3160": new Spell({
     "id": 3160,
     "name": "Agility",
@@ -599,6 +634,29 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 8,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "3742": new Spell({
+    "id": 3742,
+    "name": "Gahz'rilla Fang",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "path": "spell_nature_lightningshield",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 84,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -818,6 +876,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 5665,
     "name": "Fury of the Bogling",
     "schoolMask": 1,
+    "attributesEx2": 256,
     "duration": 600000,
     "path": "spell_nature_strength",
     "effects": [
@@ -857,6 +916,30 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "6251": new Spell({
+    "id": 6251,
+    "name": "Summon Scarlet Cannon",
+    "schoolMask": 1,
+    "attributes": 16,
+    "duration": 10000,
+    "path": "ability_golemstormbolt",
+    "maxLevel": 60,
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 11199,
+        "target": 47
+      }),
+      new Effect({
+        "effectType": 0,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "6297": new Spell({
     "id": 6297,
     "name": "Fiery Blaze",
@@ -871,6 +954,32 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.36363637,
         "amplitude": 1,
         "target": 16,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "6298": new Spell({
+    "id": 6298,
+    "name": "Form of the Moonstalker",
+    "schoolMask": 64,
+    "attributes": 269549568,
+    "attributesEx": 256,
+    "duration": 300000,
+    "path": "ability_hibernation",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 56,
+        "amplitude": 1,
+        "miscValue": 2237,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 18,
+        "basePointsF": 200,
+        "amplitude": 1,
+        "target": 1,
         "miscValue": 0
       })
     ]
@@ -1295,7 +1404,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 10,
-        "basePointsF": 30,
+        "basePointsF": 80,
         "amplitude": 1,
         "miscValue": 127,
         "target": 1
@@ -1768,6 +1877,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Strength",
     "schoolMask": 8,
     "attributes": 65536,
+    "attributesEx2": 256,
     "attributesEx3": 256,
     "duration": 1800000,
     "gcd": true,
@@ -1823,6 +1933,32 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
+      })
+    ]
+  }),
+  "8191": new Spell({
+    "id": 8191,
+    "name": "Zeal",
+    "schoolMask": 2,
+    "attributes": 65536,
+    "duration": 15000,
+    "path": "spell_holy_innerfire",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 13,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 150,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
       })
     ]
   }),
@@ -1952,6 +2088,25 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "8313": new Spell({
+    "id": 8313,
+    "name": "Poison",
+    "schoolMask": 8,
+    "duration": 9000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "8344": new Spell({
     "id": 8344,
     "name": "Universal Remote",
@@ -1962,6 +2117,27 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 3,
         "amplitude": 1,
         "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "8348": new Spell({
+    "id": 8348,
+    "name": "Julie's Blessing",
+    "cost": 30,
+    "schoolMask": 2,
+    "duration": 12000,
+    "casttime": 2000,
+    "procChance": 100,
+    "path": "spell_holy_renew",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 8,
+        "auraPeriod": 2000,
+        "basePointsF": 13,
+        "amplitude": 1,
+        "target": 1,
         "miscValue": 0
       })
     ]
@@ -2006,30 +2182,37 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 8516,
     "name": "Windfury Totem",
     "schoolMask": 1,
-    "attributesEx": 268435456,
+    "attributesEx3": 1073743360,
     "classSet": 11,
-    "duration": 1000,
-    "procChance": 100,
-    "procCharges": 2,
-    "procMask": 4,
+    "cooldown": 100,
     "path": "spell_nature_windfury",
     "baseLevel": 32,
     "maxLevel": 40,
     "effects": [
       new Effect({
-        "effectType": 6,
-        "auraType": 99,
-        "basePointsF": 95,
+        "effectType": 58,
         "amplitude": 1,
-        "target": 1,
+        "target": 6,
         "miscValue": 0
-      }),
+      })
+    ]
+  }),
+  "8552": new Spell({
+    "id": 8552,
+    "name": "Curse of Weakness",
+    "cost": 70,
+    "schoolMask": 32,
+    "duration": 120000,
+    "casttime": 1000,
+    "path": "spell_shadow_curseofmannoroth",
+    "effects": [
       new Effect({
-        "effectType": 19,
-        "basePointsF": 1,
+        "effectType": 6,
+        "auraType": 13,
+        "basePointsF": -5,
         "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
+        "miscValue": 1,
+        "target": 6
       })
     ]
   }),
@@ -2129,6 +2312,25 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       }),
       new Effect({
         "effectType": 3,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "8736": new Spell({
+    "id": 8736,
+    "name": "Conjure Food",
+    "cost": 60,
+    "schoolMask": 8,
+    "casttime": 3000,
+    "gcd": true,
+    "procChance": 101,
+    "path": "inv_misc_food_09",
+    "effects": [
+      new Effect({
+        "effectType": 24,
+        "basePointsF": 5,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -2558,6 +2760,69 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "9515": new Spell({
+    "id": 9515,
+    "name": "Summon Tracking Hound",
+    "schoolMask": 1,
+    "duration": 180000,
+    "path": "ability_mount_whitedirewolf",
+    "maxLevel": 60,
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 6867,
+        "target": 32
+      })
+    ]
+  }),
+  "9632": new Spell({
+    "id": 9632,
+    "name": "Bladestorm",
+    "schoolMask": 1,
+    "attributes": 262160,
+    "attributesEx": 64,
+    "attributesEx2": 1073741824,
+    "duration": 9000,
+    "path": "ability_whirlwind",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 23,
+        "auraPeriod": 3000,
+        "triggerSpell": 9633,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": 80,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "9633": new Spell({
+    "id": 9633,
+    "name": "Bladestorm",
+    "schoolMask": 1,
+    "attributes": 262160,
+    "attributesEx2": 1073741824,
+    "path": "ability_whirlwind",
+    "effects": [
+      new Effect({
+        "effectType": 17,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
   "9749": new Spell({
     "id": 9749,
     "name": "Faerie Fire",
@@ -2974,6 +3239,73 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "10351": new Spell({
+    "id": 10351,
+    "name": "Basilisk Skin",
+    "schoolMask": 1,
+    "duration": 5000,
+    "path": "inv_misc_monsterscales_12",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 30,
+        "basePointsF": 48,
+        "amplitude": 1,
+        "miscValue": 95,
+        "target": 1
+      })
+    ]
+  }),
+  "10370": new Spell({
+    "id": 10370,
+    "name": "Lacerations",
+    "schoolMask": 1,
+    "attributes": 16,
+    "duration": 60000,
+    "procChance": 101,
+    "maxStacks": 5,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "10373": new Spell({
+    "id": 10373,
+    "name": "Fatal Wound",
+    "schoolMask": 1,
+    "path": "ability_backstab",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 311,
+        "variance": 0.33333334,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "10441": new Spell({
     "id": 10441,
     "name": "Strength of Earth",
@@ -3058,29 +3390,17 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 10608,
     "name": "Windfury Totem",
     "schoolMask": 1,
-    "attributesEx": 268435456,
+    "attributesEx3": 1073743360,
     "classSet": 11,
-    "duration": 1000,
-    "procChance": 100,
-    "procCharges": 2,
-    "procMask": 4,
+    "cooldown": 100,
     "path": "spell_nature_windfury",
     "baseLevel": 42,
     "maxLevel": 50,
     "effects": [
       new Effect({
-        "effectType": 6,
-        "auraType": 99,
-        "basePointsF": 179,
+        "effectType": 58,
         "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
-      }),
-      new Effect({
-        "effectType": 19,
-        "basePointsF": 1,
-        "amplitude": 1,
-        "target": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -3089,29 +3409,17 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 10610,
     "name": "Windfury Totem",
     "schoolMask": 1,
-    "attributesEx": 268435456,
+    "attributesEx3": 1073743360,
     "classSet": 11,
-    "duration": 1000,
-    "procChance": 100,
-    "procCharges": 2,
-    "procMask": 4,
+    "cooldown": 100,
     "path": "spell_nature_windfury",
     "baseLevel": 52,
     "maxLevel": 60,
     "effects": [
       new Effect({
-        "effectType": 6,
-        "auraType": 99,
-        "basePointsF": 246,
+        "effectType": 58,
         "amplitude": 1,
-        "target": 1,
-        "miscValue": 0
-      }),
-      new Effect({
-        "effectType": 19,
-        "basePointsF": 1,
-        "amplitude": 1,
-        "target": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -3160,9 +3468,9 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 10667,
     "name": "Rage of Ages",
     "schoolMask": 1,
+    "attributesEx2": 256,
     "duration": 3600000,
     "cooldown": 210000,
-    "procChance": 101,
     "path": "spell_nature_strength",
     "maxLevel": 255,
     "effects": [
@@ -3180,6 +3488,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "id": 10669,
     "name": "Strike of the Scorpok",
     "schoolMask": 1,
+    "attributesEx2": 256,
     "duration": 3600000,
     "cooldown": 210000,
     "procChance": 101,
@@ -3307,6 +3616,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Greater Agility",
     "schoolMask": 1,
     "attributes": 671088640,
+    "attributesEx2": 256,
     "classSet": 13,
     "duration": 3600000,
     "path": "inv_potion_94",
@@ -3375,8 +3685,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Gift of Arthas",
     "schoolMask": 8,
     "attributes": 67371008,
+    "attributesEx2": 256,
     "duration": 180000,
-    "procChance": 101,
     "path": "spell_nature_nullifydisease",
     "maxLevel": 45,
     "effects": [
@@ -3395,6 +3705,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Greater Strength",
     "schoolMask": 1,
     "attributes": 671088640,
+    "attributesEx2": 256,
     "classSet": 13,
     "duration": 3600000,
     "path": "inv_potion_59",
@@ -4086,6 +4397,43 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 1,
         "target": 6
+      })
+    ]
+  }),
+  "11790": new Spell({
+    "id": 11790,
+    "name": "Poison Cloud",
+    "schoolMask": 8,
+    "attributesEx": 136,
+    "duration": 12000,
+    "procChance": 101,
+    "path": "spell_nature_regenerate",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "11879": new Spell({
+    "id": 11879,
+    "name": "Disarm",
+    "schoolMask": 1,
+    "attributes": 65536,
+    "duration": 5000,
+    "path": "ability_warrior_disarm",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 67,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -4844,6 +5192,31 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "12686": new Spell({
+    "id": 12686,
+    "name": "Enrage",
+    "schoolMask": 1,
+    "duration": 15000,
+    "path": "spell_shadow_unholyfrenzy",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 102,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 319,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "12700": new Spell({
     "id": 12700,
     "name": "Weaponmaster",
@@ -4859,6 +5232,28 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 290,
         "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "12731": new Spell({
+    "id": 12731,
+    "name": "Strength of Stone",
+    "schoolMask": 1,
+    "path": "spell_nature_earthquake",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 196,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -5218,6 +5613,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     ],
     "cooldown": 600000
   }),
+  "13049": new Spell({
+    "id": 13049,
+    "name": "Dragon's Call",
+    "schoolMask": 1,
+    "duration": 15000,
+    "cooldown": 45000,
+    "path": "spell_shadow_summonvoidwalker",
+    "maxLevel": 60,
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 8776,
+        "target": 32
+      })
+    ]
+  }),
   "13141": new Spell({
     "id": 13141,
     "name": "Gnomish Rocket Boots",
@@ -5449,6 +5862,110 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "13480": new Spell({
+    "id": 13480,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 84,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13482": new Spell({
+    "id": 13482,
+    "name": "Lightning Bolt",
+    "cost": 20,
+    "schoolMask": 8,
+    "attributes": 65536,
+    "casttime": 1600,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 15,
+        "variance": 0.6666667,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13486": new Spell({
+    "id": 13486,
+    "name": "Wound",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 77,
+        "variance": 0.15384616,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13490": new Spell({
+    "id": 13490,
+    "name": "Howling Blade",
+    "cost": 100,
+    "schoolMask": 1,
+    "classSet": 4,
+    "duration": 30000,
+    "path": "ability_druid_challangingroar",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": -30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13491": new Spell({
+    "id": 13491,
+    "name": "Pummel",
+    "schoolMask": 1,
+    "attributes": 327696,
+    "attributesEx": 134218240,
+    "duration": 5000,
+    "path": "inv_gauntlets_04",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 68,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "13494": new Spell({
     "id": 13494,
     "name": "Haste",
@@ -5461,6 +5978,212 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 319,
         "basePointsF": 50,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13496": new Spell({
+    "id": 13496,
+    "name": "Dazed",
+    "schoolMask": 1,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "spell_frost_stun",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13518": new Spell({
+    "id": 13518,
+    "name": "Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "maxLevel": 10,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13519": new Spell({
+    "id": 13519,
+    "name": "Holy Smite",
+    "cost": 35,
+    "schoolMask": 2,
+    "attributes": 65536,
+    "casttime": 2000,
+    "path": "spell_holy_holysmite",
+    "maxLevel": 11,
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13524": new Spell({
+    "id": 13524,
+    "name": "Curse of Stalvan",
+    "schoolMask": 32,
+    "duration": 60000,
+    "casttime": 1000,
+    "path": "spell_shadow_shadowpact",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -40,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13526": new Spell({
+    "id": 13526,
+    "name": "Corrosive Poison",
+    "schoolMask": 8,
+    "duration": 14000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 13,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "13527": new Spell({
+    "id": 13527,
+    "name": "Lightning Bolt",
+    "cost": 20,
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 105,
+        "variance": 0.22222222,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13528": new Spell({
+    "id": 13528,
+    "name": "Decayed Power",
+    "schoolMask": 8,
+    "duration": 30000,
+    "path": "spell_nature_abolishmagic",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -84,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": -84,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13530": new Spell({
+    "id": 13530,
+    "name": "Corruption",
+    "schoolMask": 32,
+    "duration": 3000,
+    "path": "spell_shadow_abominationexplosion",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13532": new Spell({
+    "id": 13532,
+    "name": "Thunder Clap",
+    "schoolMask": 8,
+    "attributesEx": 136,
+    "duration": 10000,
+    "path": "spell_nature_thunderclap",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 319,
+        "basePointsF": -11,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "13533": new Spell({
+    "id": 13533,
+    "name": "Haste",
+    "schoolMask": 1,
+    "duration": 10000,
+    "path": "spell_nature_invisibilty",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 319,
+        "basePointsF": 15,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -5517,6 +6240,66 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
+      })
+    ]
+  }),
+  "13744": new Spell({
+    "id": 13744,
+    "name": "Blazing Emblem",
+    "schoolMask": 4,
+    "duration": 15000,
+    "path": "spell_fire_firearmor",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 69,
+        "basePointsF": 465,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 22,
+        "basePointsF": 33,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
+      })
+    ]
+  }),
+  "13752": new Spell({
+    "id": 13752,
+    "name": "Faerie Fire",
+    "cost": 55,
+    "schoolMask": 8,
+    "attributes": 65536,
+    "attributesEx": 98304,
+    "duration": 30000,
+    "procChance": 101,
+    "path": "spell_nature_faeriefire",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -100,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 41,
+        "amplitude": 1,
+        "miscValue": 6,
+        "target": 6
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 41,
+        "amplitude": 1,
+        "miscValue": 5,
+        "target": 6
       })
     ]
   }),
@@ -5585,6 +6368,53 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "14106": new Spell({
+    "id": 14106,
+    "name": "Shadow Bolt",
+    "cost": 40,
+    "schoolMask": 32,
+    "attributes": 65536,
+    "casttime": 2200,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 40,
+        "variance": 0.25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "14118": new Spell({
+    "id": 14118,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 23,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "14119": new Spell({
     "id": 14119,
     "name": "Lightning Bolt",
@@ -5597,6 +6427,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 2,
         "basePointsF": 35,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "14126": new Spell({
+    "id": 14126,
+    "name": "Wound",
+    "schoolMask": 1,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 130,
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
@@ -5619,6 +6465,35 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 3,
         "target": 21
+      }),
+      new Effect({
+        "effectType": 38,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 21
+      })
+    ]
+  }),
+  "14253": new Spell({
+    "id": 14253,
+    "name": "Abolish Poison",
+    "cost": 100,
+    "schoolMask": 8,
+    "attributes": 67584,
+    "duration": 8000,
+    "gcd": true,
+    "procChance": 101,
+    "path": "spell_nature_nullifypoison_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 23,
+        "auraPeriod": 2000,
+        "triggerSpell": 3137,
+        "amplitude": 1,
+        "target": 21,
+        "miscValue": 0
       }),
       new Effect({
         "effectType": 38,
@@ -5816,6 +6691,133 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "15494": new Spell({
+    "id": 15494,
+    "name": "Fury of Forgewright",
+    "schoolMask": 1,
+    "duration": 10000,
+    "path": "spell_fire_incinerate",
+    "effects": [
+      new Effect({
+        "effectType": 19,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 75,
+        "amplitude": 1,
+        "miscValue": 6,
+        "target": 1
+      })
+    ]
+  }),
+  "15595": new Spell({
+    "id": 15595,
+    "name": "Force of Will",
+    "schoolMask": 1,
+    "duration": 10000,
+    "path": "inv_jewelry_amulet_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": -51,
+        "amplitude": 1,
+        "miscValue": 127,
+        "target": 1
+      })
+    ]
+  }),
+  "15601": new Spell({
+    "id": 15601,
+    "name": "Hand of Justice",
+    "schoolMask": 1,
+    "path": "inv_jewelry_talisman_01",
+    "effects": [
+      new Effect({
+        "effectType": 19,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "15602": new Spell({
+    "id": 15602,
+    "name": "Lord General's Sword",
+    "schoolMask": 1,
+    "classSet": 4,
+    "duration": 10000,
+    "path": "ability_racial_avatar",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 84,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 84,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "15646": new Spell({
+    "id": 15646,
+    "name": "Burst of Knowledge",
+    "schoolMask": 64,
+    "attributes": 262144,
+    "duration": 10000,
+    "path": "inv_jewelry_amulet_07",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 73,
+        "basePointsF": -150,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
+      })
+    ]
+  }),
+  "15662": new Spell({
+    "id": 15662,
+    "name": "Fireball",
+    "schoolMask": 4,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 6000,
+    "procChance": 101,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 171,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "15851": new Spell({
     "id": 15851,
     "name": "Dragonbreath Chili",
@@ -5860,8 +6862,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Juju Power",
     "schoolMask": 8,
     "attributes": 65792,
+    "attributesEx2": 256,
     "duration": 1800000,
-    "procChance": 101,
     "path": "inv_misc_monsterscales_11",
     "maxLevel": 65,
     "effects": [
@@ -5880,8 +6882,8 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Juju Ember",
     "schoolMask": 4,
     "attributes": 262400,
+    "attributesEx2": 256,
     "duration": 600000,
-    "procChance": 101,
     "path": "inv_misc_monsterscales_15",
     "effects": [
       new Effect({
@@ -5899,7 +6901,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Juju Might",
     "schoolMask": 2,
     "attributes": 65792,
-    "attributesEx2": 524288,
+    "attributesEx2": 524544,
     "classMask": -2147483648,
     "classSet": 6,
     "duration": 600000,
@@ -5922,6 +6924,20 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 21,
         "miscValue": 0
+      })
+    ]
+  }),
+  "16349": new Spell({
+    "id": 16349,
+    "name": "Call of Vaelastrasz",
+    "schoolMask": 1,
+    "procChance": 101,
+    "path": "temp",
+    "effects": [
+      new Effect({
+        "effectType": 61,
+        "amplitude": 1,
+        "miscValue": 4622
       })
     ]
   }),
@@ -5987,6 +7003,46 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "16400": new Spell({
+    "id": 16400,
+    "name": "Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "maxLevel": 10,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16401": new Spell({
+    "id": 16401,
+    "name": "Poison",
+    "schoolMask": 8,
+    "duration": 30000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 6000,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "16403": new Spell({
     "id": 16403,
     "name": "Rend",
@@ -6001,6 +7057,23 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 3,
         "auraPeriod": 6000,
         "basePointsF": 17,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16405": new Spell({
+    "id": 16405,
+    "name": "Wound",
+    "schoolMask": 1,
+    "attributes": 16,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 75,
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
@@ -6047,6 +7120,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "16408": new Spell({
+    "id": 16408,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 28,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "16409": new Spell({
     "id": 16409,
     "name": "Shadow Bolt",
@@ -6065,6 +7154,130 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "16413": new Spell({
+    "id": 16413,
+    "name": "Fireball",
+    "schoolMask": 4,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 77,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16414": new Spell({
+    "id": 16414,
+    "name": "Drain Life",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_lifedrain02",
+    "effects": [
+      new Effect({
+        "effectType": 9,
+        "basePointsF": 49,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16415": new Spell({
+    "id": 16415,
+    "name": "Fireball",
+    "cost": 45,
+    "schoolMask": 4,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 8000,
+    "casttime": 2000,
+    "procChance": 101,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 300,
+        "variance": 0.2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16433": new Spell({
+    "id": 16433,
+    "name": "Wound",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 35,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16454": new Spell({
+    "id": 16454,
+    "name": "Searing Blast",
+    "schoolMask": 4,
+    "classSet": 3,
+    "duration": 30000,
+    "procChance": 101,
+    "path": "spell_fire_fireball",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 56,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 13,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 6
+      })
+    ]
+  }),
   "16462": new Spell({
     "id": 16462,
     "name": "Deflection",
@@ -6079,6 +7292,30 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
+      })
+    ]
+  }),
+  "16470": new Spell({
+    "id": 16470,
+    "name": "Gift of Stone",
+    "schoolMask": 1,
+    "duration": 10000,
+    "path": "ability_golemthunderclap",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 4000,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 60,
+        "amplitude": 1,
+        "miscValue": 127,
+        "target": 1
       })
     ]
   }),
@@ -6149,6 +7386,32 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "16528": new Spell({
+    "id": 16528,
+    "name": "Numbing Pain",
+    "schoolMask": 8,
+    "duration": 10000,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 319,
+        "basePointsF": -11,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "16538": new Spell({
     "id": 16538,
     "name": "Bastion",
@@ -6166,6 +7429,148 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 1,
         "target": 1
+      })
+    ]
+  }),
+  "16549": new Spell({
+    "id": 16549,
+    "name": "Fatal Wound",
+    "schoolMask": 1,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 448,
+        "variance": 0.33333334,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16551": new Spell({
+    "id": 16551,
+    "name": "Felstriker",
+    "schoolMask": 1,
+    "classSet": 3,
+    "duration": 3000,
+    "path": "ability_backstab",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 290,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 54,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16559": new Spell({
+    "id": 16559,
+    "name": "Flame Wrath",
+    "schoolMask": 4,
+    "attributesEx": 136,
+    "cooldown": 5000,
+    "path": "spell_fire_incinerate",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 154,
+        "variance": 0.26666668,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 64,
+        "basePointsF": 1,
+        "triggerSpell": 16560,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "16560": new Spell({
+    "id": 16560,
+    "name": "Flame Wrath",
+    "schoolMask": 4,
+    "duration": 15000,
+    "path": "spell_fire_selfdestruct",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 15,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 22,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
+      })
+    ]
+  }),
+  "16602": new Spell({
+    "id": 16602,
+    "name": "Shahram",
+    "schoolMask": 64,
+    "attributesEx": 136,
+    "path": "spell_magic_lesserinvisibilty",
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 10718,
+        "target": 32
+      })
+    ]
+  }),
+  "16603": new Spell({
+    "id": 16603,
+    "name": "Demonfork",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "duration": 5000,
+    "path": "spell_shadow_lifedrain02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 53,
+        "auraPeriod": 1000,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6430,9 +7835,9 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Winterfall Firewater",
     "schoolMask": 1,
     "attributes": 671088640,
+    "attributesEx2": 256,
     "classSet": 13,
     "duration": 1200000,
-    "procChance": 101,
     "path": "inv_potion_92",
     "effects": [
       new Effect({
@@ -6472,6 +7877,50 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "17148": new Spell({
+    "id": 17148,
+    "name": "Brain Hacker",
+    "schoolMask": 1,
+    "attributes": 327680,
+    "duration": 30000,
+    "procChance": 101,
+    "path": "spell_shadow_mindrot",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 250,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 65,
+        "basePointsF": -30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17152": new Spell({
+    "id": 17152,
+    "name": "Destiny",
+    "schoolMask": 1,
+    "duration": 12000,
+    "path": "spell_nature_strength",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 200,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "17153": new Spell({
     "id": 17153,
     "name": "Rend",
@@ -6488,6 +7937,81 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 100,
         "amplitude": 1,
         "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17154": new Spell({
+    "id": 17154,
+    "name": "The Green Tower",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "classSet": 7,
+    "duration": 30000,
+    "procChance": 3,
+    "procMask": 40,
+    "path": "spell_nature_thorns",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 15,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 22,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "miscValue": 8,
+        "target": 1
+      })
+    ]
+  }),
+  "17196": new Spell({
+    "id": 17196,
+    "name": "Seeping Willow",
+    "schoolMask": 8,
+    "attributesEx": 136,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 51,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17252": new Spell({
+    "id": 17252,
+    "name": "Mark of the Dragon Lord",
+    "schoolMask": 1,
+    "duration": 1800000,
+    "path": "inv_misc_head_dragon_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 69,
+        "basePointsF": 500,
+        "amplitude": 1,
+        "miscValue": 127,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 24,
+        "auraPeriod": 5000,
+        "basePointsF": 22,
+        "amplitude": 1,
+        "target": 1,
         "miscValue": 0
       })
     ]
@@ -6515,6 +8039,369 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 4,
         "target": 1
+      })
+    ]
+  }),
+  "17308": new Spell({
+    "id": 17308,
+    "name": "Stun",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "attributesEx": 136,
+    "duration": 1000,
+    "path": "inv_mace_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17315": new Spell({
+    "id": 17315,
+    "name": "Puncture Armor",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 30000,
+    "procChance": 101,
+    "maxStacks": 3,
+    "path": "ability_criticalstrike",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -100,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "17331": new Spell({
+    "id": 17331,
+    "name": "Fang of the Crystal Spider",
+    "schoolMask": 8,
+    "classSet": 9,
+    "duration": 10000,
+    "path": "spell_nature_web",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 65,
+        "basePointsF": -9,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 319,
+        "basePointsF": -9,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 140,
+        "basePointsF": -9,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17351": new Spell({
+    "id": 17351,
+    "name": "Argent Dawn",
+    "schoolMask": 1,
+    "attributes": 327680,
+    "duration": 10000,
+    "path": "spell_holy_devotionaura",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 51,
+        "basePointsF": 18,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17352": new Spell({
+    "id": 17352,
+    "name": "Argent Avenger",
+    "schoolMask": 1,
+    "duration": 10000,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 102,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "miscValue": 32,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17407": new Spell({
+    "id": 17407,
+    "name": "Wound",
+    "schoolMask": 1,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 100,
+        "variance": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 13,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17447": new Spell({
+    "id": 17447,
+    "name": "Circle of Flame",
+    "schoolMask": 4,
+    "attributesEx": 64,
+    "attributesEx2": 536870912,
+    "duration": 10000,
+    "path": "spell_fire_sealoffire",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 24,
+        "auraPeriod": 1000,
+        "basePointsF": 79,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 79,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17483": new Spell({
+    "id": 17483,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "duration": 6000,
+    "procChance": 101,
+    "path": "spell_shadow_deathcoil",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 150,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 34,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17484": new Spell({
+    "id": 17484,
+    "name": "Skullforge Brand",
+    "schoolMask": 32,
+    "duration": 10000,
+    "procChance": 100,
+    "path": "spell_shadow_gathershadows",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 8,
+        "auraPeriod": 1000,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17496": new Spell({
+    "id": 17496,
+    "name": "Crest of Retribution",
+    "schoolMask": 1,
+    "casttime": 1000,
+    "path": "inv_shield_19",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 22,
+        "variance": 1.5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17500": new Spell({
+    "id": 17500,
+    "name": "Malown's Slam",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 2000,
+    "path": "ability_warrior_decisivestrike",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17504": new Spell({
+    "id": 17504,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 31,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17505": new Spell({
+    "id": 17505,
+    "name": "Hand of Timmy",
+    "schoolMask": 32,
+    "procChance": 101,
+    "path": "spell_shadow_shadowpact",
+    "effects": [
+      new Effect({
+        "effectType": 9,
+        "basePointsF": 85,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17506": new Spell({
+    "id": 17506,
+    "name": "Soul Breaker",
+    "schoolMask": 32,
+    "duration": 10000,
+    "path": "spell_shadow_haunting",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 64,
+        "auraPeriod": 1000,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17510": new Spell({
+    "id": 17510,
+    "name": "Corruption",
+    "schoolMask": 32,
+    "duration": 3000,
+    "casttime": 2000,
+    "procChance": 100,
+    "path": "spell_shadow_abominationexplosion",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6571,6 +8458,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Elixir of the Mongoose",
     "schoolMask": 1,
     "attributes": 671088640,
+    "attributesEx2": 256,
     "classSet": 13,
     "duration": 1800000,
     "path": "inv_potion_32",
@@ -6598,7 +8486,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Flask of the Titans",
     "schoolMask": 1,
     "attributes": 671088640,
-    "attributesEx2": 1,
+    "attributesEx2": 257,
     "attributesEx3": 1048576,
     "classSet": 13,
     "duration": 7200000,
@@ -6620,7 +8508,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Chromatic Resistance",
     "schoolMask": 1,
     "attributes": 671088640,
-    "attributesEx2": 1,
+    "attributesEx2": 257,
     "attributesEx3": 1048576,
     "classSet": 13,
     "duration": 7200000,
@@ -6634,6 +8522,29 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 126,
         "target": 1
+      })
+    ]
+  }),
+  "17712": new Spell({
+    "id": 17712,
+    "name": "Lifestone Healing",
+    "schoolMask": 1,
+    "attributesEx2": 536870912,
+    "path": "inv_stone_04",
+    "effects": [
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 800,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 0,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -6660,6 +8571,67 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 32,
         "target": 1
+      })
+    ]
+  }),
+  "18075": new Spell({
+    "id": 18075,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18077": new Spell({
+    "id": 18077,
+    "name": "Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "maxLevel": 10,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18078": new Spell({
+    "id": 18078,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 30000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 6000,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6711,6 +8683,106 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "18083": new Spell({
+    "id": 18083,
+    "name": "Firebolt",
+    "schoolMask": 4,
+    "path": "spell_fire_fireball",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 77,
+        "variance": 0.33333334,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18084": new Spell({
+    "id": 18084,
+    "name": "Drain Life",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_lifedrain02",
+    "effects": [
+      new Effect({
+        "effectType": 9,
+        "basePointsF": 56,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18086": new Spell({
+    "id": 18086,
+    "name": "Firebolt",
+    "schoolMask": 4,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 182,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18088": new Spell({
+    "id": 18088,
+    "name": "Corruption",
+    "schoolMask": 32,
+    "duration": 3000,
+    "procChance": 100,
+    "path": "spell_shadow_abominationexplosion",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18089": new Spell({
+    "id": 18089,
+    "name": "Lightning Bolt",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 98,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18090": new Spell({
+    "id": 18090,
+    "name": "Wound",
+    "schoolMask": 1,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 102,
+        "variance": 0.23529412,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "18091": new Spell({
     "id": 18091,
     "name": "Arcane Blast",
@@ -6728,6 +8800,68 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "pointsPerLevel": 1,
         "amplitude": 1,
         "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18092": new Spell({
+    "id": 18092,
+    "name": "Frost Blast",
+    "cost": 80,
+    "schoolMask": 16,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18104": new Spell({
+    "id": 18104,
+    "name": "Wrath",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "classSet": 7,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 126,
+        "variance": 0.33333334,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18107": new Spell({
+    "id": 18107,
+    "name": "Wound",
+    "schoolMask": 1,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 105,
+        "variance": 0.24074075,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 25,
+        "amplitude": 1,
         "miscValue": 0
       })
     ]
@@ -6755,7 +8889,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
     "name": "Blessed Sunfruit",
     "schoolMask": 1,
     "attributes": 671088640,
-    "attributesEx2": 524288,
+    "attributesEx2": 524544,
     "classSet": 6,
     "duration": 600000,
     "gcd": true,
@@ -6773,11 +8907,31 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "18138": new Spell({
+    "id": 18138,
+    "name": "Shadow Bolt",
+    "cost": 40,
+    "schoolMask": 32,
+    "attributes": 65536,
+    "casttime": 2200,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 125,
+        "variance": 0.24,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "18192": new Spell({
     "id": 18192,
     "name": "Increased Agility",
     "schoolMask": 1,
     "attributes": 671088640,
+    "attributesEx2": 256,
     "classSet": 13,
     "duration": 600000,
     "procChance": 101,
@@ -6790,6 +8944,182 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 1,
         "target": 1
+      })
+    ]
+  }),
+  "18197": new Spell({
+    "id": 18197,
+    "name": "Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "maxLevel": 10,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 9,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18199": new Spell({
+    "id": 18199,
+    "name": "Fireball",
+    "cost": 45,
+    "schoolMask": 4,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 6000,
+    "casttime": 2000,
+    "procChance": 101,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 98,
+        "variance": 0.24489796,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18200": new Spell({
+    "id": 18200,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18202": new Spell({
+    "id": 18202,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 14000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18203": new Spell({
+    "id": 18203,
+    "name": "Poison",
+    "schoolMask": 8,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18204": new Spell({
+    "id": 18204,
+    "name": "Frost Blast",
+    "schoolMask": 16,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 133,
+        "variance": 0.08695652,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18206": new Spell({
+    "id": 18206,
+    "name": "Fatal Wound",
+    "schoolMask": 1,
+    "path": "ability_backstab",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 174,
+        "variance": 0.11764706,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18208": new Spell({
+    "id": 18208,
+    "name": "Poison",
+    "schoolMask": 8,
+    "duration": 25000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 5000,
+        "basePointsF": 13,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -6826,6 +9156,89 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
+      })
+    ]
+  }),
+  "18217": new Spell({
+    "id": 18217,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 98,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18276": new Spell({
+    "id": 18276,
+    "name": "Frost Blast",
+    "schoolMask": 16,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 105,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18289": new Spell({
+    "id": 18289,
+    "name": "Creeping Mold",
+    "schoolMask": 8,
+    "duration": 12000,
+    "cooldown": 30000,
+    "path": "spell_holy_harmundeadaura",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18307": new Spell({
+    "id": 18307,
+    "name": "Death by Peasant",
+    "schoolMask": 1,
+    "duration": 20000,
+    "path": "spell_shadow_summonvoidwalker",
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "miscValue": 11637,
+        "target": 32
+      })
+    ]
+  }),
+  "18308": new Spell({
+    "id": 18308,
+    "name": "Death by Peasant",
+    "schoolMask": 1,
+    "duration": 20000,
+    "path": "spell_shadow_summonvoidwalker",
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "miscValue": 11636,
+        "target": 32
       })
     ]
   }),
@@ -6899,6 +9312,33 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 8,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18381": new Spell({
+    "id": 18381,
+    "name": "Cripple",
+    "schoolMask": 1,
+    "attributes": 327680,
+    "classSet": 4,
+    "duration": 30000,
+    "path": "spell_shadow_curseofmannoroth",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -24,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": -24,
+        "amplitude": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -6988,6 +9428,79 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 14,
         "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 77,
+        "amplitude": 1,
+        "miscValue": 30,
+        "target": 1
+      })
+    ]
+  }),
+  "18633": new Spell({
+    "id": 18633,
+    "name": "Weakening Disease",
+    "schoolMask": 32,
+    "duration": 14000,
+    "procChance": 101,
+    "path": "spell_shadow_abominationexplosion",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 15,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -92,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18652": new Spell({
+    "id": 18652,
+    "name": "Siphon Health",
+    "schoolMask": 32,
+    "attributesEx": 268435456,
+    "duration": 5000,
+    "procChance": 101,
+    "path": "spell_nature_removecurse",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 49,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18656": new Spell({
+    "id": 18656,
+    "name": "Corruption",
+    "schoolMask": 32,
+    "duration": 9000,
+    "procChance": 100,
+    "path": "spell_shadow_abominationexplosion",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 28,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -7026,6 +9539,120 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "18787": new Spell({
+    "id": 18787,
+    "name": "Heaven's Blessing",
+    "schoolMask": 2,
+    "duration": 30000,
+    "path": "spell_holy_fistofjustice",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18796": new Spell({
+    "id": 18796,
+    "name": "Fireball",
+    "cost": 45,
+    "schoolMask": 4,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 6000,
+    "casttime": 2000,
+    "procChance": 101,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 262,
+        "variance": 0.23863636,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 20,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18797": new Spell({
+    "id": 18797,
+    "name": "Flurry Axe",
+    "schoolMask": 1,
+    "path": "ability_warrior_punishingblow",
+    "effects": [
+      new Effect({
+        "effectType": 19,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18798": new Spell({
+    "id": 18798,
+    "name": "Freeze",
+    "schoolMask": 16,
+    "duration": 5000,
+    "path": "spell_frost_glacier",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18803": new Spell({
+    "id": 18803,
+    "name": "Focus",
+    "schoolMask": 1,
+    "duration": 4000,
+    "procChance": 100,
+    "procCharges": 1,
+    "procMask": 87376,
+    "path": "spell_holy_searinglight",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 65,
+        "basePointsF": 100000,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "18805": new Spell({
     "id": 18805,
     "name": "Recombobulate",
@@ -7055,6 +9682,115 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 21,
         "miscValue": 0
+      })
+    ]
+  }),
+  "18818": new Spell({
+    "id": 18818,
+    "name": "Flamestrike",
+    "schoolMask": 4,
+    "attributesEx": 136,
+    "casttime": 1000,
+    "path": "spell_fire_selfdestruct",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 115,
+        "variance": 0.4347826,
+        "amplitude": 1,
+        "target": 18,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18826": new Spell({
+    "id": 18826,
+    "name": "Savior's Sacrifice",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "attributesEx2": 67108864,
+    "classSet": 4,
+    "duration": 20000,
+    "path": "spell_holy_devotionaura",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 300,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "18828": new Spell({
+    "id": 18828,
+    "name": "Bone Armor",
+    "schoolMask": 32,
+    "attributes": 327680,
+    "duration": 20000,
+    "path": "spell_shadow_unholystrength",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 150,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "18831": new Spell({
+    "id": 18831,
+    "name": "Conjure Lily Root",
+    "schoolMask": 8,
+    "casttime": 3000,
+    "gcd": true,
+    "procChance": 101,
+    "path": "inv_misc_flower_01",
+    "effects": [
+      new Effect({
+        "effectType": 24,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18833": new Spell({
+    "id": 18833,
+    "name": "Firebolt",
+    "cost": 80,
+    "schoolMask": 4,
+    "classSet": 3,
+    "path": "spell_fire_fireball",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 105,
+        "variance": 0.2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "18946": new Spell({
+    "id": 18946,
+    "name": "The Lion Horn of Stormwind",
+    "schoolMask": 1,
+    "duration": 30000,
+    "path": "inv_misc_horn_03",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 725,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 20
       })
     ]
   }),
@@ -7133,6 +9869,23 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "19638": new Spell({
+    "id": 19638,
+    "name": "Prismstone",
+    "schoolMask": 64,
+    "duration": 30000,
+    "path": "inv_misc_gem_variety_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 22,
+        "basePointsF": 27,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
+      })
+    ]
+  }),
   "19740": new Spell({
     "id": 19740,
     "name": "Blessing of Might",
@@ -7153,6 +9906,24 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 21,
         "miscValue": 0
+      })
+    ]
+  }),
+  "19755": new Spell({
+    "id": 19755,
+    "name": "Frightalon",
+    "schoolMask": 32,
+    "duration": 60000,
+    "procChance": 101,
+    "path": "spell_shadow_shadowpact",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 232,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "miscValue": 5,
+        "target": 6
       })
     ]
   }),
@@ -7285,6 +10056,23 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 112,
         "amplitude": 1,
         "target": 21,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "19874": new Spell({
+    "id": 19874,
+    "name": "Lightning Bolt",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 252,
+        "variance": 0.3255814,
+        "amplitude": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -7664,7 +10452,6 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 108,
-        "basePointsF": 5,
         "amplitude": 1,
         "classMask": 12288,
         "target": 1,
@@ -7694,6 +10481,75 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
+      })
+    ]
+  }),
+  "20586": new Spell({
+    "id": 20586,
+    "name": "Windreaper",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "spell_nature_earthbind",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "20587": new Spell({
+    "id": 20587,
+    "name": "Ragged John's Neverending Cup",
+    "schoolMask": 1,
+    "duration": 125000,
+    "path": "inv_drink_05",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": -10,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": -10,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 40,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": -20,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": 80,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
       })
     ]
   }),
@@ -8319,6 +11175,41 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "21919": new Spell({
+    "id": 21919,
+    "name": "Thrash",
+    "schoolMask": 1,
+    "path": "ability_warrior_punishingblow",
+    "effects": [
+      new Effect({
+        "effectType": 19,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "21949": new Spell({
+    "id": 21949,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "21951": new Spell({
     "id": 21951,
     "name": "Fist of Stone",
@@ -8331,6 +11222,41 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
+      })
+    ]
+  }),
+  "21952": new Spell({
+    "id": 21952,
+    "name": "Poison",
+    "schoolMask": 8,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 13,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "21954": new Spell({
+    "id": 21954,
+    "name": "Dispel Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "path": "spell_holy_purify",
+    "effects": [
+      new Effect({
+        "effectType": 38,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
       })
     ]
   }),
@@ -8349,6 +11275,49 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.6,
         "amplitude": 1,
         "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "21961": new Spell({
+    "id": 21961,
+    "name": "Wound",
+    "schoolMask": 1,
+    "duration": 30000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 168,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -100,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "21970": new Spell({
+    "id": 21970,
+    "name": "Mark of the Chosen",
+    "schoolMask": 64,
+    "attributes": 262144,
+    "duration": 60000,
+    "path": "inv_jewelry_talisman_08",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "miscValue": -1,
         "target": 1
       })
     ]
@@ -8526,6 +11495,66 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 230,
         "amplitude": 1,
         "target": 21,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "22850": new Spell({
+    "id": 22850,
+    "name": "Sanctuary",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 10000,
+    "path": "spell_fire_sealoffire",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 30,
+        "basePointsF": 13,
+        "amplitude": 1,
+        "miscValue": 95,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 300,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 102,
+        "basePointsF": 36,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      })
+    ]
+  }),
+  "22863": new Spell({
+    "id": 22863,
+    "name": "Speed",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 10000,
+    "path": "ability_rogue_sprint",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 31,
+        "basePointsF": 35,
+        "amplitude": 1,
+        "target": 1,
         "miscValue": 0
       })
     ]
@@ -9395,6 +12424,36 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": -1,
         "target": 1
+      })
+    ]
+  }),
+  "24427": new Spell({
+    "id": 24427,
+    "name": "Diamond Flask",
+    "schoolMask": 8,
+    "attributes": 16,
+    "attributesEx2": 536870912,
+    "duration": 60000,
+    "gcd": true,
+    "procChance": 101,
+    "path": "inv_drink_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 75,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 8,
+        "auraPeriod": 5000,
+        "basePointsF": 9,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
       })
     ]
   }),
@@ -10292,6 +13351,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 319,
         "basePointsF": -20,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "27655": new Spell({
+    "id": 27655,
+    "name": "Flame Lash",
+    "schoolMask": 4,
+    "path": "spell_fire_flameshock",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 140,
+        "variance": 0.4,
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
@@ -11698,6 +14773,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "29502": new Spell({
+    "id": 29502,
+    "name": "Frost Arrow",
+    "schoolMask": 16,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 8,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "29506": new Spell({
     "id": 29506,
     "name": "The Burrower's Shell",
@@ -11771,6 +14862,59 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "29638": new Spell({
+    "id": 29638,
+    "name": "Searing Arrow",
+    "schoolMask": 4,
+    "attributes": 16,
+    "attributesEx3": 65536,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 28,
+        "variance": 0.36363637,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "29639": new Spell({
+    "id": 29639,
+    "name": "Flaming Cannonball",
+    "schoolMask": 4,
+    "attributes": 16,
+    "attributesEx3": 65536,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 49,
+        "variance": 0.3902439,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "29640": new Spell({
+    "id": 29640,
+    "name": "Shadowbolt",
+    "schoolMask": 32,
+    "procChance": 101,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 16,
+        "variance": 0.375,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "29641": new Spell({
     "id": 29641,
     "name": "Shadow Shot",
@@ -11789,6 +14933,40 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "29644": new Spell({
+    "id": 29644,
+    "name": "Fire Blast",
+    "schoolMask": 4,
+    "attributesEx3": 65536,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 28,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "29646": new Spell({
+    "id": 29646,
+    "name": "Quill Shot",
+    "schoolMask": 8,
+    "attributesEx3": 65536,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 33,
+        "variance": 0.3902439,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "29647": new Spell({
     "id": 29647,
     "name": "Flaming Shell",
@@ -11801,6 +14979,40 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 2,
         "basePointsF": 38.5,
         "variance": 0.36363637,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "29653": new Spell({
+    "id": 29653,
+    "name": "Venom Shot",
+    "schoolMask": 8,
+    "attributesEx3": 65536,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 28,
+        "variance": 0.36842105,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "29655": new Spell({
+    "id": 29655,
+    "name": "Keeper's Sting",
+    "schoolMask": 8,
+    "attributesEx3": 65536,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 28,
+        "variance": 0.33333334,
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
@@ -13254,6 +16466,43 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1287840": new Spell({
+    "id": 1287840,
+    "name": "Eye of the Beast",
+    "schoolMask": 32,
+    "duration": 20000,
+    "procChance": 101,
+    "path": "inv_jewelry_talisman_08",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 55,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1287842": new Spell({
+    "id": 1287842,
+    "name": "Bastion of Tyranny",
+    "schoolMask": 1,
+    "attributes": 16,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "inv_jewelry_talisman_09",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 250,
+        "basePointsF": 620,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1289681": new Spell({
     "id": 1289681,
     "name": "Bloodthrill",
@@ -13393,6 +16642,78 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1291551": new Spell({
+    "id": 1291551,
+    "name": "Wound",
+    "schoolMask": 1,
+    "attributes": 16,
+    "attributesEx3": 65536,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1291570": new Spell({
+    "id": 1291570,
+    "name": "Sear",
+    "schoolMask": 4,
+    "attributesEx2": 536870912,
+    "attributesEx3": 1073938432,
+    "path": "spell_fire_fireball",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1291663": new Spell({
+    "id": 1291663,
+    "name": "Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 12000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "maxLevel": 10,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1291758": new Spell({
+    "id": 1291758,
+    "name": "Escape Root",
+    "schoolMask": 1,
+    "cooldown": 1800000,
+    "gcd": true,
+    "path": "spell_nature_wispheal",
+    "effects": [
+      new Effect({
+        "effectType": 108,
+        "basePointsF": 99,
+        "amplitude": 1,
+        "miscValue": 7,
+        "target": 1
+      })
+    ]
+  }),
   "1291796": new Spell({
     "id": 1291796,
     "name": "Embrace of the Viper",
@@ -13477,6 +16798,62 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1291896": new Spell({
+    "id": 1291896,
+    "name": "Slicing",
+    "schoolMask": 1,
+    "attributes": 16,
+    "attributesEx": 1024,
+    "attributesEx3": 268500992,
+    "casttime": 5000,
+    "path": "trade_engineering",
+    "effects": [
+      new Effect({
+        "effectType": 33,
+        "pointsPerLevel": 5,
+        "amplitude": 1,
+        "target": 23,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1291908": new Spell({
+    "id": 1291908,
+    "name": "Gold-plated",
+    "schoolMask": 1,
+    "duration": 20000,
+    "procChance": 100,
+    "procMask": 139944,
+    "path": "inv_shield_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": -15,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "1292008": new Spell({
+    "id": 1292008,
+    "name": "Tenderized",
+    "schoolMask": 1,
+    "attributes": 67371008,
+    "duration": 60000,
+    "path": "inv_fabric_silk_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
   "1292025": new Spell({
     "id": 1292025,
     "name": "Humanoid Slaying 15",
@@ -13542,6 +16919,490 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1292152": new Spell({
+    "id": 1292152,
+    "name": "Firebolt",
+    "cost": 18,
+    "schoolMask": 4,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292155": new Spell({
+    "id": 1292155,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 70,
+        "variance": 0.42857143,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292158": new Spell({
+    "id": 1292158,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292252": new Spell({
+    "id": 1292252,
+    "name": "Worgenbane",
+    "schoolMask": 2,
+    "attributes": 327680,
+    "attributesEx": 262144,
+    "duration": 4000,
+    "procChance": 101,
+    "path": "inv_jewelry_talisman_06",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292560": new Spell({
+    "id": 1292560,
+    "name": "Dig",
+    "schoolMask": 1,
+    "attributes": 256,
+    "attributesEx": 268435456,
+    "casttime": 5000,
+    "effects": [
+      new Effect({
+        "effectType": 24,
+        "amplitude": 1,
+        "miscValue": 13,
+        "target": 1
+      })
+    ]
+  }),
+  "1292573": new Spell({
+    "id": 1292573,
+    "name": "Wound",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 70,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292598": new Spell({
+    "id": 1292598,
+    "name": "Debt Collection",
+    "schoolMask": 1,
+    "duration": 15000,
+    "path": "inv_sword_24",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 161,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 85,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292647": new Spell({
+    "id": 1292647,
+    "name": "Pierce Heart",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292657": new Spell({
+    "id": 1292657,
+    "name": "Corrosive Poison",
+    "schoolMask": 8,
+    "duration": 12000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "1292675": new Spell({
+    "id": 1292675,
+    "name": "Cursed Murloc Eye",
+    "schoolMask": 32,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292746": new Spell({
+    "id": 1292746,
+    "name": "Martyrdom",
+    "schoolMask": 2,
+    "attributes": 159383552,
+    "attributesEx": 168,
+    "attributesEx2": 537411585,
+    "path": "spell_fire_sealoffire",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 420,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292851": new Spell({
+    "id": 1292851,
+    "name": "Lightning Bolt",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 28,
+        "variance": 0.6666667,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292879": new Spell({
+    "id": 1292879,
+    "name": "Lightning Bolt",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "spell_nature_lightning",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 93,
+        "variance": 0.6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1292997": new Spell({
+    "id": 1292997,
+    "name": "Archmagister's Wisdom",
+    "schoolMask": 64,
+    "attributes": 262144,
+    "attributesEx": 1024,
+    "duration": 300000,
+    "casttime": 2000,
+    "cooldown": 21600000,
+    "path": "spell_misc_conjuremanajewel",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 447,
+        "basePointsF": 10,
+        "amplitude": 1,
+        "miscValue": 32,
+        "target": 1
+      })
+    ]
+  }),
+  "1293005": new Spell({
+    "id": 1293005,
+    "name": "Puncture Armor",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 30000,
+    "path": "ability_criticalstrike",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -100,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "1293183": new Spell({
+    "id": 1293183,
+    "name": "Thornspike",
+    "schoolMask": 1,
+    "attributes": 65536,
+    "path": "inv_weapon_shortblade_10",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 45,
+        "targetCount": 2,
+        "amplitude": 0.5,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293306": new Spell({
+    "id": 1293306,
+    "name": "Grim Fetish",
+    "schoolMask": 32,
+    "attributes": 327680,
+    "attributesEx": 262280,
+    "duration": 5000,
+    "procChance": 100,
+    "path": "inv_misc_head_quillboar_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293333": new Spell({
+    "id": 1293333,
+    "name": "Thorncurse",
+    "schoolMask": 8,
+    "attributesEx3": 196608,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293345": new Spell({
+    "id": 1293345,
+    "name": "Guardian's Durability",
+    "schoolMask": 1,
+    "duration": 12000,
+    "path": "inv_shield_10",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 1080,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "1293407": new Spell({
+    "id": 1293407,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 77,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293421": new Spell({
+    "id": 1293421,
+    "name": "Shadow Bolt",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "gcd": true,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 93,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293482": new Spell({
+    "id": 1293482,
+    "name": "Tough Love",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "spell_frost_stun",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 91,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293518": new Spell({
+    "id": 1293518,
+    "name": "Grass Killer",
+    "schoolMask": 8,
+    "path": "ability_poisons",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 63,
+        "variance": 0.42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293568": new Spell({
+    "id": 1293568,
+    "name": "Grass Killer",
+    "schoolMask": 8,
+    "path": "ability_poisons",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 126,
+        "variance": 0.42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293653": new Spell({
+    "id": 1293653,
+    "name": "Frost Blast",
+    "schoolMask": 16,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 63,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293654": new Spell({
+    "id": 1293654,
+    "name": "Silence",
+    "schoolMask": 32,
+    "duration": 6000,
+    "path": "spell_holy_silence",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 27,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 6
+      })
+    ]
+  }),
   "1293670": new Spell({
     "id": 1293670,
     "name": "Scarlet Guardian",
@@ -13603,6 +17464,30 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1293714": new Spell({
+    "id": 1293714,
+    "name": "Spellsever",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "attributesEx3": 65536,
+    "duration": 5000,
+    "path": "inv_gauntlets_04",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 36,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 68,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1293733": new Spell({
     "id": 1293733,
     "name": "Scarlet Guardian",
@@ -13636,7 +17521,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 29,
-        "basePointsF": 60,
+        "basePointsF": 30,
         "amplitude": 1,
         "miscValue": 2,
         "target": 1
@@ -13644,7 +17529,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 4,
-        "basePointsF": 5,
+        "basePointsF": 2,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -13682,7 +17567,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 29,
-        "basePointsF": 60,
+        "basePointsF": 30,
         "amplitude": 1,
         "miscValue": 2,
         "target": 1
@@ -13690,7 +17575,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 4,
-        "basePointsF": 4,
+        "basePointsF": 2,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -13720,7 +17605,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 29,
-        "basePointsF": 60,
+        "basePointsF": 30,
         "amplitude": 1,
         "miscValue": 2,
         "target": 1
@@ -13728,7 +17613,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 4,
-        "basePointsF": 5,
+        "basePointsF": 2,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -13758,7 +17643,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 29,
-        "basePointsF": 60,
+        "basePointsF": 30,
         "amplitude": 1,
         "miscValue": 2,
         "target": 1
@@ -13766,7 +17651,7 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 6,
         "auraType": 4,
-        "basePointsF": 5,
+        "basePointsF": 2,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -13789,6 +17674,72 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1293782": new Spell({
+    "id": 1293782,
+    "name": "Swine Fists",
+    "schoolMask": 8,
+    "path": "ability_creature_poison_02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 4,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293787": new Spell({
+    "id": 1293787,
+    "name": "Holy Cleaver",
+    "schoolMask": 2,
+    "path": "spell_holy_excorcism",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "variance": 0.42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1293790": new Spell({
+    "id": 1293790,
+    "name": "Frostbolt",
+    "schoolMask": 16,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 5000,
+    "procChance": 101,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1293820": new Spell({
     "id": 1293820,
     "name": "Toy Soldier",
@@ -13802,6 +17753,23 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "effectType": 6,
         "auraType": 49,
         "basePointsF": 3,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294025": new Spell({
+    "id": 1294025,
+    "name": "Energize",
+    "schoolMask": 1,
+    "cooldown": 60000,
+    "path": "inv_misc_gem_stone_01",
+    "effects": [
+      new Effect({
+        "effectType": 30,
+        "basePointsF": 320,
+        "variance": 0.125,
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
@@ -13822,6 +17790,356 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 265155,
         "target": 32
+      })
+    ]
+  }),
+  "1294065": new Spell({
+    "id": 1294065,
+    "name": "Rock Sentinel",
+    "schoolMask": 1,
+    "attributesEx3": 1073741824,
+    "duration": 10000,
+    "path": "trade_archaeology_stoneshield",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": 300,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 21
+      })
+    ]
+  }),
+  "1294226": new Spell({
+    "id": 1294226,
+    "name": "Wound",
+    "schoolMask": 1,
+    "path": "ability_backstab",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 168,
+        "variance": 0.33333334,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294234": new Spell({
+    "id": 1294234,
+    "name": "Aspects of Doom",
+    "schoolMask": 1,
+    "attributes": 256,
+    "casttime": 10000,
+    "path": "temp",
+    "effects": [
+      new Effect({
+        "effectType": 24,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294243": new Spell({
+    "id": 1294243,
+    "name": "Deflecting",
+    "schoolMask": 1,
+    "duration": 9000,
+    "path": "ability_parry",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 47,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294258": new Spell({
+    "id": 1294258,
+    "name": "Ward of Zum'rah",
+    "schoolMask": 32,
+    "attributes": 256,
+    "duration": 20000,
+    "path": "spell_shadow_fingerofdeath",
+    "maxLevel": 60,
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 265223,
+        "target": 32
+      })
+    ]
+  }),
+  "1294339": new Spell({
+    "id": 1294339,
+    "name": "Farraki Enforcement",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "spell_frost_stun",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 294,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294426": new Spell({
+    "id": 1294426,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 11,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294430": new Spell({
+    "id": 1294430,
+    "name": "Rage of Sul'thraze",
+    "schoolMask": 32,
+    "duration": 15000,
+    "path": "spell_shadow_deathcoil",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 159,
+        "variance": 0.8,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -180,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": -180,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 64,
+        "triggerSpell": 1294431,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294431": new Spell({
+    "id": 1294431,
+    "name": "Shadow Lash",
+    "schoolMask": 32,
+    "attributesEx3": 262144,
+    "duration": 5000,
+    "path": "spell_shadow_ritualofsacrifice",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 5000,
+        "basePointsF": 159,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294617": new Spell({
+    "id": 1294617,
+    "name": "Theka's Last Breath",
+    "schoolMask": 32,
+    "attributes": 327680,
+    "attributesEx": 262280,
+    "duration": 10000,
+    "path": "inv_misc_ahnqirajtrinket_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": 45,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 56,
+        "amplitude": 1,
+        "miscValue": 7269,
+        "target": 22
+      })
+    ]
+  }),
+  "1294645": new Spell({
+    "id": 1294645,
+    "name": "Blood Sacrifice",
+    "schoolMask": 32,
+    "attributes": 151060480,
+    "attributesEx": 32,
+    "attributesEx2": 540672,
+    "duration": 6000,
+    "path": "spell_shadow_lifedrain02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 53,
+        "auraPeriod": 2000,
+        "basePointsF": 19,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294666": new Spell({
+    "id": 1294666,
+    "name": "Zealotry",
+    "schoolMask": 2,
+    "attributes": 65536,
+    "path": "spell_holy_heal",
+    "effects": [
+      new Effect({
+        "effectType": 30,
+        "basePointsF": 88,
+        "variance": 0.5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1294940": new Spell({
+    "id": 1294940,
+    "name": "Dreadfrost Saber",
+    "schoolMask": 16,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1295039": new Spell({
+    "id": 1295039,
+    "name": "Serpentbane",
+    "schoolMask": 4,
+    "duration": 10000,
+    "casttime": 1500,
+    "path": "spell_fire_fireball02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 100,
+        "variance": 0.23,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 45,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 0,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1295065": new Spell({
+    "id": 1295065,
+    "name": "Fatal Bite",
+    "schoolMask": 1,
+    "attributes": 262160,
+    "path": "ability_backstab",
+    "effects": [
+      new Effect({
+        "effectType": 9,
+        "basePointsF": 40,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1295233": new Spell({
+    "id": 1295233,
+    "name": "Heart of the Primeval",
+    "schoolMask": 1,
+    "attributes": 262160,
+    "duration": 30000,
+    "cooldown": 360000,
+    "path": "inv_elemental_primal_water",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 13,
+        "basePointsF": 19,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 135,
+        "basePointsF": 19,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
       })
     ]
   }),
@@ -13905,6 +18223,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 4,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1295736": new Spell({
+    "id": 1295736,
+    "name": "Bolder'ok Boulder",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "path": "inv_stone_weightstone_08",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 98,
+        "amplitude": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -14087,6 +18421,89 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1298231": new Spell({
+    "id": 1298231,
+    "name": "Stoneform Shoulders",
+    "schoolMask": 1,
+    "duration": 20000,
+    "procChance": 100,
+    "procMask": 139944,
+    "path": "inv_stone_11",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 14,
+        "basePointsF": -60,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "1298416": new Spell({
+    "id": 1298416,
+    "name": "Frostbolt",
+    "schoolMask": 16,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 5000,
+    "procChance": 101,
+    "path": "spell_frost_frostbolt02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 105,
+        "variance": 0.6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1298497": new Spell({
+    "id": 1298497,
+    "name": "Restore Essence",
+    "schoolMask": 1,
+    "attributes": 16,
+    "attributesEx": 131072,
+    "attributesEx2": 1,
+    "cooldown": 300000,
+    "gcd": true,
+    "path": "trade_engineering",
+    "effects": [
+      new Effect({
+        "effectType": 3,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1298499": new Spell({
+    "id": 1298499,
+    "name": "Warblade of Caer Darrow",
+    "schoolMask": 16,
+    "attributesEx3": 1074200576,
+    "path": "spell_frost_chillingblast",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 27.72,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1299351": new Spell({
     "id": 1299351,
     "name": "Water Walking",
@@ -14124,6 +18541,46 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 2,
         "target": 22
+      })
+    ]
+  }),
+  "1299443": new Spell({
+    "id": 1299443,
+    "name": "Ramstein's Lightning Bolts",
+    "schoolMask": 8,
+    "duration": 2000,
+    "casttime": 1500,
+    "path": "spell_lightning_lightningbolt01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1299631": new Spell({
+    "id": 1299631,
+    "name": "Smite",
+    "schoolMask": 2,
+    "path": "spell_holy_holysmite",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 105,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
       })
     ]
   }),
@@ -14174,6 +18631,165 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1299850": new Spell({
+    "id": 1299850,
+    "name": "Fireball",
+    "schoolMask": 4,
+    "attributes": 65536,
+    "classSet": 3,
+    "duration": 6000,
+    "procChance": 101,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 80,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 6,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1299869": new Spell({
+    "id": 1299869,
+    "name": "Corpse Eater",
+    "schoolMask": 32,
+    "procChance": 101,
+    "path": "spell_shadow_shadowpact",
+    "effects": [
+      new Effect({
+        "effectType": 9,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300180": new Spell({
+    "id": 1300180,
+    "name": "Stealth",
+    "schoolMask": 1,
+    "attributes": 437583888,
+    "attributesEx": 16,
+    "attributesEx2": 2097152,
+    "duration": 20000,
+    "path": "ability_stealth",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 16,
+        "basePointsF": 5,
+        "pointsPerLevel": 5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300185": new Spell({
+    "id": 1300185,
+    "name": "Fatal Wound",
+    "schoolMask": 1,
+    "path": "ability_backstab",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 159,
+        "variance": 0.33333334,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 75,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 25,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300209": new Spell({
+    "id": 1300209,
+    "name": "Bludgeon",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "spell_frost_stun",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 126,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300356": new Spell({
+    "id": 1300356,
+    "name": "Lifeforce",
+    "schoolMask": 2,
+    "casttime": 5000,
+    "path": "spell_holy_renew",
+    "effects": [
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300364": new Spell({
+    "id": 1300364,
+    "name": "Guarded",
+    "schoolMask": 1,
+    "duration": 15000,
+    "path": "inv_jewelry_talisman_05",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 152,
+        "basePointsF": -10,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1300752": new Spell({
     "id": 1300752,
     "name": "Heart of the Mountain",
@@ -14188,6 +18804,111 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 1,
         "target": 1
+      })
+    ]
+  }),
+  "1300753": new Spell({
+    "id": 1300753,
+    "name": "Firebolt",
+    "schoolMask": 4,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 140,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300763": new Spell({
+    "id": 1300763,
+    "name": "Skinning",
+    "schoolMask": 1,
+    "attributes": 16,
+    "attributesEx": 1024,
+    "attributesEx2": 1,
+    "attributesEx3": 65536,
+    "casttime": 3000,
+    "path": "trade_engineering",
+    "effects": [
+      new Effect({
+        "effectType": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300783": new Spell({
+    "id": 1300783,
+    "name": "Slaughter",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "spell_frost_stun",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 109,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300787": new Spell({
+    "id": 1300787,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 7000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1300891": new Spell({
+    "id": 1300891,
+    "name": "Grace of the Seven",
+    "schoolMask": 2,
+    "attributes": 159383552,
+    "attributesEx": 8913064,
+    "attributesEx2": 537411584,
+    "attributesEx3": 1048576,
+    "path": "spell_holy_lightsgrace",
+    "effects": [
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 1176,
+        "variance": 0.16,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
       })
     ]
   }),
@@ -14321,6 +19042,362 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "auraType": 56,
         "amplitude": 1,
         "miscValue": 268420,
+        "target": 1
+      })
+    ]
+  }),
+  "1301625": new Spell({
+    "id": 1301625,
+    "name": "Flame Walker",
+    "schoolMask": 4,
+    "attributes": 262144,
+    "duration": 15000,
+    "path": "inv_boots_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 69,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
+      })
+    ]
+  }),
+  "1302109": new Spell({
+    "id": 1302109,
+    "name": "Necromancy",
+    "schoolMask": 32,
+    "attributes": 256,
+    "attributesEx2": 1,
+    "duration": 120000,
+    "path": "spell_shadow_fingerofdeath",
+    "maxLevel": 60,
+    "effects": [
+      new Effect({
+        "effectType": 28,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 268677,
+        "target": 63
+      })
+    ]
+  }),
+  "1302166": new Spell({
+    "id": 1302166,
+    "name": "Waveslicer",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "path": "inv_axe_17",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 70,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302191": new Spell({
+    "id": 1302191,
+    "name": "Demonic Energy",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "spell_shadow_lifedrain02",
+    "effects": [
+      new Effect({
+        "effectType": 30,
+        "basePointsF": 48,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302205": new Spell({
+    "id": 1302205,
+    "name": "Mindtap",
+    "schoolMask": 64,
+    "duration": 10000,
+    "path": "inv_battery_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 24,
+        "auraPeriod": 1000,
+        "basePointsF": 125,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 64,
+        "triggerSpell": 1302206,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302206": new Spell({
+    "id": 1302206,
+    "name": "Tapped Mind",
+    "schoolMask": 64,
+    "attributesEx": 32,
+    "attributesEx2": 540672,
+    "attributesEx3": 1048576,
+    "duration": 120000,
+    "path": "inv_misc_organ_03",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": -60,
+        "amplitude": 1,
+        "miscValue": 3,
+        "target": 1
+      })
+    ]
+  }),
+  "1302247": new Spell({
+    "id": 1302247,
+    "name": "Force Imbued",
+    "schoolMask": 64,
+    "path": "inv_gauntlets_09",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302264": new Spell({
+    "id": 1302264,
+    "name": "Vigilant",
+    "schoolMask": 1,
+    "attributes": 16,
+    "duration": 20000,
+    "procChance": 100,
+    "procCharges": 3,
+    "procMask": 8872,
+    "path": "inv_misc_stonetablet_04",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 49,
+        "basePointsF": 20,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302279": new Spell({
+    "id": 1302279,
+    "name": "Stoneshatter",
+    "schoolMask": 1,
+    "attributesEx3": 65536,
+    "cooldown": 1000,
+    "path": "spell_nature_earthquake",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 49,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302342": new Spell({
+    "id": 1302342,
+    "name": "Carved Mind",
+    "schoolMask": 64,
+    "attributes": 65536,
+    "duration": 30000,
+    "gcd": true,
+    "procChance": 101,
+    "maxStacks": 5,
+    "path": "spell_deathknight_mindfreeze",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 65,
+        "basePointsF": -10,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302343": new Spell({
+    "id": 1302343,
+    "name": "Xorothian Fire",
+    "schoolMask": 4,
+    "attributesEx3": 65536,
+    "duration": 3000,
+    "cooldown": 1000,
+    "path": "spell_fire_flameblades",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302344": new Spell({
+    "id": 1302344,
+    "name": "Hedgecutter",
+    "schoolMask": 64,
+    "path": "inv_axe_11",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "variance": 0.42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302354": new Spell({
+    "id": 1302354,
+    "name": "Treant Slayer",
+    "schoolMask": 4,
+    "path": "inv_axe_10",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 175,
+        "variance": 0.42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 3,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302356": new Spell({
+    "id": 1302356,
+    "name": "Magnetize",
+    "schoolMask": 64,
+    "duration": 10000,
+    "procChance": 101,
+    "procCharges": 1,
+    "procMask": 40,
+    "path": "inv_stone_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 42,
+        "triggerSpell": 1302357,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302357": new Spell({
+    "id": 1302357,
+    "name": "Magnetize",
+    "schoolMask": 8,
+    "duration": 8000,
+    "procChance": 101,
+    "path": "inv_stone_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 67,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302359": new Spell({
+    "id": 1302359,
+    "name": "Forbidden Magic",
+    "schoolMask": 64,
+    "duration": 8000,
+    "path": "spell_holy_dispelmagic",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 23,
+        "auraPeriod": 4000,
+        "triggerSpell": 1302360,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1302360": new Spell({
+    "id": 1302360,
+    "name": "Forbidden Magic",
+    "schoolMask": 64,
+    "classSet": 3,
+    "path": "spell_holy_dispelmagic",
+    "effects": [
+      new Effect({
+        "effectType": 38,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
+      })
+    ]
+  }),
+  "1302362": new Spell({
+    "id": 1302362,
+    "name": "Eidolon Ward",
+    "schoolMask": 32,
+    "attributes": 65536,
+    "duration": 30000,
+    "path": "inv_jewelry_talisman_14",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 69,
+        "basePointsF": 1176,
+        "amplitude": 1,
+        "miscValue": 32,
         "target": 1
       })
     ]
@@ -14754,6 +19831,51 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1309315": new Spell({
+    "id": 1309315,
+    "name": "Poison",
+    "schoolMask": 8,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1309551": new Spell({
+    "id": 1309551,
+    "name": "Scalding Flamehoof",
+    "schoolMask": 1,
+    "duration": 20000,
+    "cooldown": 120000,
+    "path": "inv_misc_foot_centaur",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 87,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 129,
+        "basePointsF": 14,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1309685": new Spell({
     "id": 1309685,
     "name": "Satchel of Potions",
@@ -15124,6 +20246,128 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1312176": new Spell({
+    "id": 1312176,
+    "name": "Forge Blast",
+    "schoolMask": 4,
+    "procChance": 101,
+    "procMask": 20,
+    "path": "ability_mage_firestarter",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 51,
+        "amplitude": 1,
+        "target": 25,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1312438": new Spell({
+    "id": 1312438,
+    "name": "Shadow Bolt",
+    "cost": 40,
+    "schoolMask": 32,
+    "attributes": 65536,
+    "path": "spell_shadow_shadowbolt",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 100,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1314011": new Spell({
+    "id": 1314011,
+    "name": "Wound",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 85,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1314040": new Spell({
+    "id": 1314040,
+    "name": "Burning Shell",
+    "schoolMask": 4,
+    "attributes": 16,
+    "attributesEx3": 65536,
+    "duration": 9000,
+    "path": "inv_ember",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1314069": new Spell({
+    "id": 1314069,
+    "name": "Fire Blast",
+    "cost": 40,
+    "schoolMask": 4,
+    "attributes": 65536,
+    "path": "spell_fire_soulburn",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 70,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1314305": new Spell({
+    "id": 1314305,
+    "name": "Puncture",
+    "schoolMask": 1,
+    "attributes": 65536,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1314412": new Spell({
+    "id": 1314412,
+    "name": "Renewing Flame",
+    "schoolMask": 4,
+    "attributes": 16,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "spell_fire_firearmor",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 69,
+        "basePointsF": 570,
+        "amplitude": 1,
+        "miscValue": 4,
+        "target": 1
+      })
+    ]
+  }),
   "1314795": new Spell({
     "id": 1314795,
     "name": "Increased Critical 1 - All - Gladiator Set",
@@ -15138,6 +20382,219 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "basePointsF": 1,
         "amplitude": 1,
         "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1314888": new Spell({
+    "id": 1314888,
+    "name": "Poison Sting",
+    "schoolMask": 8,
+    "attributes": 16,
+    "attributesEx3": 65536,
+    "duration": 9000,
+    "path": "ability_poisonarrow",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 27,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1315557": new Spell({
+    "id": 1315557,
+    "name": "Charm",
+    "schoolMask": 32,
+    "attributes": 1073807360,
+    "attributesEx": 16388,
+    "duration": 15000,
+    "casttime": 1500,
+    "gcd": true,
+    "procChance": 101,
+    "path": "spell_shadow_charm",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 312,
+        "amplitude": 1,
+        "miscValue": 1422,
+        "target": 6
+      })
+    ]
+  }),
+  "1315767": new Spell({
+    "id": 1315767,
+    "name": "Howler's Cry",
+    "schoolMask": 1,
+    "duration": 30000,
+    "path": "ability_druid_demoralizingroar",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": -60,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": -60,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1315844": new Spell({
+    "id": 1315844,
+    "name": "Lucky Shovelnose Snout",
+    "schoolMask": 1,
+    "attributes": 16,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "ability_hunter_pet_boar",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 49,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1315849": new Spell({
+    "id": 1315849,
+    "name": "Behemoth Bone",
+    "schoolMask": 2,
+    "attributes": 65536,
+    "path": "inv_misc_bone_01",
+    "effects": [
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 505,
+        "variance": 0.1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 142,
+        "basePointsF": 505,
+        "variance": 0.1,
+        "triggerSpell": 1315854,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1315854": new Spell({
+    "id": 1315854,
+    "name": "Behemoth Bones",
+    "schoolMask": 2,
+    "attributes": 65536,
+    "path": "inv_misc_bone_01",
+    "effects": [
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 505,
+        "variance": 0.1,
+        "amplitude": 1,
+        "target": 18,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1315878": new Spell({
+    "id": 1315878,
+    "name": "Flamebreak Talisman",
+    "schoolMask": 1,
+    "duration": 30000,
+    "cooldown": 300000,
+    "path": "inv_misc_qirajicrystal_02",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 33,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 33,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 1
+      })
+    ]
+  }),
+  "1315972": new Spell({
+    "id": 1315972,
+    "name": "Slammed",
+    "schoolMask": 1,
+    "attributes": 67108864,
+    "duration": 3000,
+    "path": "spell_frost_stun",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 12,
+        "basePointsF": 1,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1316039": new Spell({
+    "id": 1316039,
+    "name": "Fire Blast",
+    "schoolMask": 4,
+    "attributes": 16,
+    "attributesEx3": 65536,
+    "path": "spell_fire_burnout",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 84,
+        "variance": 0.4,
+        "amplitude": 1,
+        "target": 6,
         "miscValue": 0
       })
     ]
@@ -15159,6 +20616,42 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "miscValue": 127,
         "target": 1
+      })
+    ]
+  }),
+  "1316865": new Spell({
+    "id": 1316865,
+    "name": "Immolate",
+    "schoolMask": 4,
+    "attributes": 262144,
+    "duration": 15000,
+    "procChance": 101,
+    "path": "spell_fire_immolation",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 33,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1317424": new Spell({
+    "id": 1317424,
+    "name": "Heal",
+    "schoolMask": 2,
+    "path": "spell_holy_lesserheal02",
+    "effects": [
+      new Effect({
+        "effectType": 10,
+        "basePointsF": 720,
+        "variance": 0.2,
+        "amplitude": 1,
+        "target": 21,
+        "miscValue": 0
       })
     ]
   }),
@@ -15184,6 +20677,27 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1317583": new Spell({
+    "id": 1317583,
+    "name": "Poison",
+    "schoolMask": 8,
+    "attributes": 262144,
+    "duration": 9000,
+    "procChance": 101,
+    "path": "spell_nature_corrosivebreath",
+    "maxLevel": 10,
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 8,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1317740": new Spell({
     "id": 1317740,
     "name": "Smotts' Compass",
@@ -15200,6 +20714,22 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1318250": new Spell({
+    "id": 1318250,
+    "name": "Puncture",
+    "schoolMask": 1,
+    "attributes": 16,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 90,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
   "1318324": new Spell({
     "id": 1318324,
     "name": "Scented Runewood Brooch",
@@ -15212,6 +20742,195 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "variance": 0.4,
         "amplitude": 1,
         "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1318930": new Spell({
+    "id": 1318930,
+    "name": "Draconic Infused Emblem",
+    "schoolMask": 32,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "inv_jewelry_talisman_09",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 13,
+        "basePointsF": 35,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 135,
+        "basePointsF": 35,
+        "amplitude": 1,
+        "miscValue": 126,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 180,
+        "basePointsF": 35,
+        "amplitude": 1,
+        "miscValue": 2,
+        "target": 1
+      })
+    ]
+  }),
+  "1318944": new Spell({
+    "id": 1318944,
+    "name": "Blackhand's Breadth",
+    "schoolMask": 32,
+    "attributes": 67108864,
+    "attributesEx": 1024,
+    "duration": 20000,
+    "procChance": 101,
+    "path": "inv_misc_armorkit_09",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 306,
+        "basePointsF": 5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1320269": new Spell({
+    "id": 1320269,
+    "name": "Toofbreak",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "cooldown": 100,
+    "path": "spell_fire_enchantweapon",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 2,
+        "amplitude": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1320498": new Spell({
+    "id": 1320498,
+    "name": "Thunderstomp",
+    "schoolMask": 8,
+    "attributes": 65536,
+    "path": "ability_thunderclap",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 23,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1320579": new Spell({
+    "id": 1320579,
+    "name": "Desert Winds",
+    "schoolMask": 8,
+    "duration": 10000,
+    "path": "spell_sandstorm",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 33,
+        "basePointsF": -50,
+        "amplitude": 1,
+        "target": 22,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": -80,
+        "amplitude": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1320824": new Spell({
+    "id": 1320824,
+    "name": "Rend",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 14000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 2000,
+        "basePointsF": 20,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1320925": new Spell({
+    "id": 1320925,
+    "name": "Ablaze",
+    "schoolMask": 4,
+    "duration": 9000,
+    "procChance": 101,
+    "path": "inv_torch_lit",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 3000,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1322295": new Spell({
+    "id": 1322295,
+    "name": "Firebolt",
+    "schoolMask": 4,
+    "path": "spell_fire_firebolt02",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 42,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1322303": new Spell({
+    "id": 1322303,
+    "name": "Corpse Chopper",
+    "schoolMask": 1,
+    "attributes": 262160,
+    "attributesEx": 131072,
+    "attributesEx2": 1,
+    "cooldown": 420000,
+    "gcd": true,
+    "path": "inv_axe_21",
+    "effects": [
+      new Effect({
+        "effectType": 3,
+        "amplitude": 1,
+        "target": 22,
         "miscValue": 0
       })
     ]
@@ -15300,6 +21019,141 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 1,
         "miscValue": 0
+      })
+    ]
+  }),
+  "1324685": new Spell({
+    "id": 1324685,
+    "name": "Unearthed Barrier",
+    "schoolMask": 8,
+    "casttime": 1000,
+    "path": "inv_shield_19",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 15,
+        "variance": 1.5,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 3,
+        "basePointsF": 30,
+        "amplitude": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1324687": new Spell({
+    "id": 1324687,
+    "name": "Dismember",
+    "schoolMask": 1,
+    "attributesEx3": 65536,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 670,
+        "variance": 1,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1325180": new Spell({
+    "id": 1325180,
+    "name": "Sift Soil",
+    "schoolMask": 1,
+    "casttime": 5000,
+    "cooldown": 600000,
+    "effects": [
+      new Effect({
+        "effectType": 86,
+        "amplitude": 1,
+        "miscValue": 15,
+        "target": 40
+      }),
+      new Effect({
+        "effectType": 157,
+        "amplitude": 1,
+        "miscValue": 144975,
+        "target": 1
+      })
+    ]
+  }),
+  "1325229": new Spell({
+    "id": 1325229,
+    "name": "Gloves of Holy Might",
+    "schoolMask": 2,
+    "attributes": 16,
+    "path": "spell_holy_holysmite",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 112,
+        "variance": 0.2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1325508": new Spell({
+    "id": 1325508,
+    "name": "Perfected Form",
+    "schoolMask": 1,
+    "attributesEx3": 65536,
+    "duration": 20000,
+    "path": "inv_sword_10",
+    "effects": [
+      new Effect({
+        "effectType": 2,
+        "basePointsF": 490,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 29,
+        "basePointsF": 20,
+        "amplitude": 1,
+        "miscValue": -1,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 164,
+        "triggerSpell": 1325509,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1325509": new Spell({
+    "id": 1325509,
+    "name": "Improving Form",
+    "schoolMask": 1,
+    "procChance": 101,
+    "maxStacks": 30,
+    "path": "inv_sword_10",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 4,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 542,
+        "triggerSpell": 1325508,
+        "amplitude": 1,
+        "miscValue": 30,
+        "target": 1
       })
     ]
   }),
