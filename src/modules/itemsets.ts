@@ -30,6 +30,92 @@ import type { ItemSet } from '@core/shared/types';const templateSets = [
     ]
   },
   {
+    "id": 41,
+    "name": "Dal'Rend's Arms",
+    "items": [
+      12940,
+      12939
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 14056
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Spider's Kiss",
+    "items": [
+      13218,
+      13183
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 17332
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Cadaverous Garb",
+    "items": [
+      14637,
+      14636,
+      14640,
+      14638,
+      14641
+    ],
+    "sets": [
+      {
+        "count": 3,
+        "spell": 9140
+      },
+      {
+        "count": 4,
+        "spell": 18676
+      },
+      {
+        "count": 5,
+        "spell": 460230
+      },
+      {
+        "count": 3,
+        "spell": 1292546
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Bloodmail Regalia",
+    "items": [
+      14614,
+      14616,
+      14615,
+      14611,
+      14612
+    ],
+    "sets": [
+      {
+        "count": 2,
+        "spell": 9140
+      },
+      {
+        "count": 4,
+        "spell": 18676
+      },
+      {
+        "count": 5,
+        "spell": 1299738
+      },
+      {
+        "count": 3,
+        "spell": 1299740
+      }
+    ]
+  },
+  {
     "id": 124,
     "name": "Deathbone Guardian",
     "items": [

@@ -5,6 +5,15 @@ fix up mobile
 enrage ability
 base stance rage
 mace armor ignore
+sunder armor ap
+windfury + sharp
+Windfury Totem
+Proc is now an instant main-hand weapon strike (special attack table, no glancing), not an extra swing + AP buff (AP is baked in the swing)
+Every landed main-hand melee ability can roll it, not just white swings
+Strike has 100 ms ICD
+Strike can proc extra attacks (Hand of Justice, Thrash Blade, Sword Spec...) and paladin seals
+Strike gives no Maelstrom Weapon stack
+https://www.wowhead.com/forever/item=270275/cleansed-vilebranch-medallion ap
 
 ITEMS:
 https://www.wowhead.com/forever/item=17782/talisman-of-binding-shard
