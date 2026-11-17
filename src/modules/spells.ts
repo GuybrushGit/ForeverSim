@@ -6368,6 +6368,32 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "14056": new Spell({
+    "id": 14056,
+    "name": "Attack Power 50",
+    "schoolMask": 1,
+    "attributes": 192,
+    "procChance": 101,
+    "path": "temp",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 99,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 124,
+        "basePointsF": 50,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
   "14106": new Spell({
     "id": 14106,
     "name": "Shadow Bolt",
@@ -8120,6 +8146,50 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
+      })
+    ]
+  }),
+  "17332": new Spell({
+    "id": 17332,
+    "name": "Spider's Kiss",
+    "schoolMask": 8,
+    "attributes": 192,
+    "attributesEx": 268435456,
+    "procChance": 5,
+    "procMask": 20,
+    "path": "inv_misc_monsterspidercarapace_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 42,
+        "triggerSpell": 17333,
+        "amplitude": 1,
+        "target": 1,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "17333": new Spell({
+    "id": 17333,
+    "name": "Spider's Kiss",
+    "schoolMask": 8,
+    "duration": 10000,
+    "path": "inv_misc_monsterspidercarapace_01",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 26,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 674,
+        "basePointsF": -100,
+        "amplitude": 1,
+        "miscValue": 1,
+        "target": 6
       })
     ]
   }),
@@ -16987,6 +17057,31 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       })
     ]
   }),
+  "1292546": new Spell({
+    "id": 1292546,
+    "name": "Reduce Mechanic Duration - Snare/Root 10",
+    "schoolMask": 1,
+    "attributes": 448,
+    "path": "inv_staff_06",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 232,
+        "basePointsF": -10,
+        "amplitude": 1,
+        "miscValue": 11,
+        "target": 1
+      }),
+      new Effect({
+        "effectType": 6,
+        "auraType": 232,
+        "basePointsF": -10,
+        "amplitude": 1,
+        "miscValue": 7,
+        "target": 1
+      })
+    ]
+  }),
   "1292560": new Spell({
     "id": 1292560,
     "name": "Dig",
@@ -18578,6 +18673,64 @@ import { Effect } from "@core/game/effect";import { Spell } from "@core/game/spe
       new Effect({
         "effectType": 3,
         "basePointsF": 2,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1299738": new Spell({
+    "id": 1299738,
+    "name": "Increased Critical 1.5 - All",
+    "schoolMask": 1,
+    "attributes": 192,
+    "attributesEx": 1024,
+    "path": "temp",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 189,
+        "basePointsF": 21,
+        "amplitude": 1,
+        "miscValue": 1792,
+        "target": 1
+      })
+    ]
+  }),
+  "1299739": new Spell({
+    "id": 1299739,
+    "name": "Bloodmail",
+    "schoolMask": 1,
+    "attributes": 262144,
+    "duration": 10000,
+    "procChance": 101,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 3,
+        "auraPeriod": 1000,
+        "basePointsF": 7,
+        "amplitude": 1,
+        "target": 6,
+        "miscValue": 0
+      })
+    ]
+  }),
+  "1299740": new Spell({
+    "id": 1299740,
+    "name": "Bloodmail",
+    "schoolMask": 1,
+    "attributes": 448,
+    "procChance": 100,
+    "procMask": 4,
+    "path": "ability_gouge",
+    "effects": [
+      new Effect({
+        "effectType": 6,
+        "auraType": 42,
+        "basePointsF": 7,
+        "triggerSpell": 1299739,
         "amplitude": 1,
         "target": 6,
         "miscValue": 0
